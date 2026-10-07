@@ -49,4 +49,6 @@ AE 1990, 0863. (B)
 
 ![HD024975](HD024975.jpg)
 
+![HD024975_2](HD024975_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD024975, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

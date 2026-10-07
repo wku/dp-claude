@@ -47,4 +47,6 @@ AE 1933, 0019. (B)
 
 ![HD023670](HD023670.jpg)
 
+![HD023670_2](HD023670_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD023670, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

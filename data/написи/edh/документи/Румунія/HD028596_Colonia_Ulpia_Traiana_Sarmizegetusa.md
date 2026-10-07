@@ -51,4 +51,6 @@ AE 1912, 0303.
 
 ![HD028596](HD028596.jpg)
 
+![HD028596_2](HD028596_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD028596, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

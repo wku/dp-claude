@@ -49,4 +49,6 @@ AE 1959, 0303. (B)
 
 ![HD019513](HD019513.jpg)
 
+![HD019513_2](HD019513_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD019513, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

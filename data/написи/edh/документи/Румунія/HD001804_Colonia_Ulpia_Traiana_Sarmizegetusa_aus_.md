@@ -52,4 +52,8 @@ AE 1982, 0830.
 
 ![HD001804](HD001804.jpg)
 
+![HD001804_2](HD001804_2.jpg)
+
+![HD001804_3](HD001804_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD001804, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

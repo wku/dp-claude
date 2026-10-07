@@ -49,4 +49,6 @@ AE 1983, 0841.
 
 ![HD000832](HD000832.jpg)
 
+![HD000832_2](HD000832_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD000832, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

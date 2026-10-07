@@ -46,4 +46,6 @@ SEG 47, 1162.
 
 ![HD049506](HD049506.jpg)
 
+![HD049506_2](HD049506_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD049506, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

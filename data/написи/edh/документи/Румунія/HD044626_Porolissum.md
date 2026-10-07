@@ -46,4 +46,8 @@ ILD 687. (B)
 
 ![HD044626](HD044626.jpg)
 
+![HD044626_2](HD044626_2.jpg)
+
+![HD044626_3](HD044626_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD044626, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

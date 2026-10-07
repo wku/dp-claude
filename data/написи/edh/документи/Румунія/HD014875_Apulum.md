@@ -53,4 +53,10 @@ AE 1967, 0385. (B)
 
 ![HD014875](HD014875.jpg)
 
+![HD014875_2](HD014875_2.jpg)
+
+![HD014875_3](HD014875_3.jpg)
+
+![HD014875_4](HD014875_4.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD014875, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

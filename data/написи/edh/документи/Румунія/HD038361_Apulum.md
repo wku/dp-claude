@@ -48,4 +48,6 @@ IDR 3, 5, 241 ; Foto u. Zeichnung.
 
 ![HD038361](HD038361.jpg)
 
+![HD038361_2](HD038361_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038361, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

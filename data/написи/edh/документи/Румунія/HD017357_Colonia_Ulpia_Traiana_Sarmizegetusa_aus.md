@@ -46,4 +46,6 @@ AE 1957, 0198. (B)
 
 ![HD017357](HD017357.jpg)
 
+![HD017357_2](HD017357_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD017357, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -50,4 +50,10 @@ CIL 03, 07995.
 
 ![HD049428](HD049428.jpg)
 
+![HD049428_2](HD049428_2.jpg)
+
+![HD049428_3](HD049428_3.jpg)
+
+![HD049428_4](HD049428_4.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD049428, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

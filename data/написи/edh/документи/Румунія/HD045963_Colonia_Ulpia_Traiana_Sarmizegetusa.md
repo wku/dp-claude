@@ -40,4 +40,6 @@ IDR 3, 2, 033; fig. 22. #
 
 ![HD045963](HD045963.jpg)
 
+![HD045963_2](HD045963_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045963, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

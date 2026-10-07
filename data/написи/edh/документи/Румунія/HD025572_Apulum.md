@@ -48,4 +48,6 @@ AE 1930, 0007.
 
 ![HD025572](HD025572.jpg)
 
+![HD025572_2](HD025572_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD025572, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

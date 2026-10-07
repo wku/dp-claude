@@ -46,4 +46,8 @@ IDR 3, 5, 625; Foto u. Zeichnung. #
 
 ![HD039017](HD039017.jpg)
 
+![HD039017_2](HD039017_2.jpg)
+
+![HD039017_3](HD039017_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD039017, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

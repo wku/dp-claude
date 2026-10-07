@@ -46,4 +46,6 @@ AE 1994, 1484.
 
 ![HD043753](HD043753.jpg)
 
+![HD043753_2](HD043753_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043753, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

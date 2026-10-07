@@ -51,4 +51,6 @@ AE 1980, 0753.
 
 ![HD005824](HD005824.jpg)
 
+![HD005824_2](HD005824_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD005824, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

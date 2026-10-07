@@ -50,4 +50,6 @@ AE 1991, 1373. (B)
 
 ![HD042624](HD042624.jpg)
 
+![HD042624_2](HD042624_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD042624, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

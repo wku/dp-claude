@@ -51,4 +51,6 @@ AE 1983, 0826.
 
 ![HD000760](HD000760.jpg)
 
+![HD000760_2](HD000760_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD000760, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -48,4 +48,6 @@ AE 1959, 0316.
 
 ![HD019546](HD019546.jpg)
 
+![HD019546_2](HD019546_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD019546, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

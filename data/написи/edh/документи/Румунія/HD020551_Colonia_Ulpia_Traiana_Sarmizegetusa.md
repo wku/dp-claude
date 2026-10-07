@@ -48,4 +48,6 @@ AE 1977, 0679. (B)
 
 ![HD020551](HD020551.jpg)
 
+![HD020551_2](HD020551_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020551, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

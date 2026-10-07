@@ -46,4 +46,6 @@ AE 1934, 0012.
 
 ![HD026587](HD026587.jpg)
 
+![HD026587_2](HD026587_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD026587, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

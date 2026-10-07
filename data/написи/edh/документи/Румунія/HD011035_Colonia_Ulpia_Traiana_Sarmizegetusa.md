@@ -47,4 +47,8 @@ AE 1998, 1101. (B)
 
 ![HD011035](HD011035.jpg)
 
+![HD011035_2](HD011035_2.jpg)
+
+![HD011035_3](HD011035_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD011035, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

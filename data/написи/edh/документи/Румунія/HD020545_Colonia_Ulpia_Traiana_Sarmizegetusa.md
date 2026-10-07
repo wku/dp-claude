@@ -44,4 +44,8 @@ AE 1977, 0677.
 
 ![HD020545](HD020545.jpg)
 
+![HD020545_2](HD020545_2.jpg)
+
+![HD020545_3](HD020545_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020545, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

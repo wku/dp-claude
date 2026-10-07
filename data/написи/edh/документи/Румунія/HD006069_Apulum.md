@@ -52,4 +52,6 @@ AE 1993, 1320.
 
 ![HD006069](HD006069.jpg)
 
+![HD006069_2](HD006069_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD006069, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

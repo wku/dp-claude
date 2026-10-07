@@ -48,4 +48,6 @@ IGLN 016; pl. 6, 16 (Fotos u. Zeichnungen).
 
 ![HD042590](HD042590.jpg)
 
+![HD042590_2](HD042590_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD042590, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

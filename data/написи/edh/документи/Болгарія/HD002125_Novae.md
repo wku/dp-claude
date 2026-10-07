@@ -50,4 +50,10 @@ AE 1982, 0849.
 
 ![HD002125](HD002125.jpg)
 
+![HD002125_2](HD002125_2.jpg)
+
+![HD002125_3](HD002125_3.jpg)
+
+![HD002125_4](HD002125_4.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD002125, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

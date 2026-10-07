@@ -38,4 +38,6 @@ AE 1913, 0054.
 
 ![HD026991](HD026991.jpg)
 
+![HD026991_2](HD026991_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD026991, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

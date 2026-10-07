@@ -46,4 +46,8 @@ AE 1977, 0678. (B)
 
 ![HD020548](HD020548.jpg)
 
+![HD020548_2](HD020548_2.jpg)
+
+![HD020548_3](HD020548_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020548, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

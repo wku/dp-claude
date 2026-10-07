@@ -44,4 +44,6 @@ AE 1944, 0032.
 
 ![HD020271](HD020271.jpg)
 
+![HD020271_2](HD020271_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020271, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -47,4 +47,8 @@ ILNovae 047; Abb. 47 a-c; Abb. 47 d-l (Zeichnungen).
 
 ![HD042645](HD042645.jpg)
 
+![HD042645_2](HD042645_2.jpg)
+
+![HD042645_3](HD042645_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD042645, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

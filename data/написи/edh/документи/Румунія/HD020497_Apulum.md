@@ -47,4 +47,6 @@ IDR 3, 5, 167; Foto.
 
 ![HD020497](HD020497.jpg)
 
+![HD020497_2](HD020497_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020497, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

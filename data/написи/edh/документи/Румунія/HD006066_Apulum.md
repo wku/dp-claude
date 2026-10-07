@@ -48,4 +48,6 @@ AE 1980, 0735.
 
 ![HD006066](HD006066.jpg)
 
+![HD006066_2](HD006066_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD006066, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

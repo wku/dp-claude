@@ -38,4 +38,6 @@ IDR 3, 2, 150; fig. 123 (Foto u. Zeichnung). #
 
 ![HD046596](HD046596.jpg)
 
+![HD046596_2](HD046596_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046596, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

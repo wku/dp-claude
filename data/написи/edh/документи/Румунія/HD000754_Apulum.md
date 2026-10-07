@@ -51,4 +51,6 @@ AE 1983, 0818. (B)
 
 ![HD000754](HD000754.jpg)
 
+![HD000754_2](HD000754_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD000754, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

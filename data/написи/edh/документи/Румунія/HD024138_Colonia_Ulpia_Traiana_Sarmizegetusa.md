@@ -46,4 +46,6 @@ AE 1933, 0247.
 
 ![HD024138](HD024138.jpg)
 
+![HD024138_2](HD024138_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD024138, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

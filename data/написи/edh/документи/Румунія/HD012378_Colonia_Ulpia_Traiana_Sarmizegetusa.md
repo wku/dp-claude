@@ -47,4 +47,10 @@ AE 1976, 0561.
 
 ![HD012378](HD012378.jpg)
 
+![HD012378_2](HD012378_2.jpg)
+
+![HD012378_3](HD012378_3.jpg)
+
+![HD012378_4](HD012378_4.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD012378, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

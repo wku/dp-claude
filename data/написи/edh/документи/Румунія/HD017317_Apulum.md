@@ -57,4 +57,6 @@ AE 2006, 1125.
 
 ![HD017317](HD017317.jpg)
 
+![HD017317_2](HD017317_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD017317, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

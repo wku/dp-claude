@@ -48,4 +48,8 @@ AE 1978, 0678. (B)
 
 ![HD014013](HD014013.jpg)
 
+![HD014013_2](HD014013_2.jpg)
+
+![HD014013_3](HD014013_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD014013, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

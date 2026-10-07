@@ -48,4 +48,6 @@ AE 1959, 0310. (B)
 
 ![HD019534](HD019534.jpg)
 
+![HD019534_2](HD019534_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD019534, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

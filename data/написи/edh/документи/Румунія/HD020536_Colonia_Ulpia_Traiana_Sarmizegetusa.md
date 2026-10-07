@@ -49,4 +49,8 @@ AE 1977, 0674.
 
 ![HD020536](HD020536.jpg)
 
+![HD020536_2](HD020536_2.jpg)
+
+![HD020536_3](HD020536_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020536, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

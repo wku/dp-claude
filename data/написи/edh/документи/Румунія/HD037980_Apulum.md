@@ -45,4 +45,6 @@ IDR 3, 5, 010; Foto.
 
 ![HD037980](HD037980.jpg)
 
+![HD037980_2](HD037980_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD037980, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

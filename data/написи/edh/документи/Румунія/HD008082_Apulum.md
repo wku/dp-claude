@@ -51,4 +51,6 @@ AE 1986, 0614. (B)
 
 ![HD008082](HD008082.jpg)
 
+![HD008082_2](HD008082_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD008082, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

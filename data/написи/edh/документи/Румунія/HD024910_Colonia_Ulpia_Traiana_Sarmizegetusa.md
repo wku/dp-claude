@@ -47,4 +47,6 @@ AE 1927, 0055.
 
 ![HD024910](HD024910.jpg)
 
+![HD024910_2](HD024910_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD024910, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

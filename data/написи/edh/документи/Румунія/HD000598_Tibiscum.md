@@ -48,4 +48,6 @@ AE 1983, 0799a.
 
 ![HD000598](HD000598.jpg)
 
+![HD000598_2](HD000598_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD000598, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

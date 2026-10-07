@@ -49,4 +49,6 @@ AE 1956, 0207. (B)
 
 ![HD018882](HD018882.jpg)
 
+![HD018882_2](HD018882_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD018882, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

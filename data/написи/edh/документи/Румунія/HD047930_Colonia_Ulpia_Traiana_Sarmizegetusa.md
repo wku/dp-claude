@@ -48,4 +48,12 @@ I. Piso, RRoumHist 13, 1974, 723-733; fig. 2.
 
 ![HD047930](HD047930.jpg)
 
+![HD047930_2](HD047930_2.jpg)
+
+![HD047930_3](HD047930_3.jpg)
+
+![HD047930_4](HD047930_4.jpg)
+
+![HD047930_5](HD047930_5.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047930, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

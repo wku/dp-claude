@@ -49,4 +49,6 @@ CIL 03, 01480.
 
 ![HD047677](HD047677.jpg)
 
+![HD047677_2](HD047677_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047677, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

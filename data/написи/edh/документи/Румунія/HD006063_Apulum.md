@@ -49,4 +49,10 @@ AE 1980, 0734.
 
 ![HD006063](HD006063.jpg)
 
+![HD006063_2](HD006063_2.jpg)
+
+![HD006063_3](HD006063_3.jpg)
+
+![HD006063_4](HD006063_4.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD006063, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

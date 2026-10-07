@@ -54,4 +54,6 @@ AE 1982, 0825.
 
 ![HD001089](HD001089.jpg)
 
+![HD001089_2](HD001089_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD001089, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

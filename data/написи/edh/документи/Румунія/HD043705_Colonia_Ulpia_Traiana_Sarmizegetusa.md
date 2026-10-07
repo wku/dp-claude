@@ -44,4 +44,6 @@ AE 1998, 1095.
 
 ![HD043705](HD043705.jpg)
 
+![HD043705_2](HD043705_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043705, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -46,4 +46,6 @@ AE 1977, 0686. (B)
 
 ![HD020572](HD020572.jpg)
 
+![HD020572_2](HD020572_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020572, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

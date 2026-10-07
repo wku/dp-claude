@@ -44,4 +44,6 @@ CIL 03, 07901.
 
 ![HD046655](HD046655.jpg)
 
+![HD046655_2](HD046655_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046655, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

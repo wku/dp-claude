@@ -55,4 +55,10 @@ AE 1983, 0813. (B)
 
 ![HD000655_2](HD000655_2.jpg)
 
+![HD000655_3](HD000655_3.jpg)
+
+![HD000655_4](HD000655_4.jpg)
+
+![HD000655_5](HD000655_5.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD000655, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

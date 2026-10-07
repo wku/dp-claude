@@ -50,4 +50,6 @@ IDR 3, 5, 217; Foto.
 
 ![HD038325](HD038325.jpg)
 
+![HD038325_2](HD038325_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038325, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

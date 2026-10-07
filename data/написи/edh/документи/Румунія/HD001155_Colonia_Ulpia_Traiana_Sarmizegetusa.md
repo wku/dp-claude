@@ -53,4 +53,8 @@ AE 1982, 0831.
 
 ![HD001155](HD001155.jpg)
 
+![HD001155_2](HD001155_2.jpg)
+
+![HD001155_3](HD001155_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD001155, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -47,4 +47,6 @@ AE 1988, 0947.
 
 ![HD009332](HD009332.jpg)
 
+![HD009332_2](HD009332_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD009332, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

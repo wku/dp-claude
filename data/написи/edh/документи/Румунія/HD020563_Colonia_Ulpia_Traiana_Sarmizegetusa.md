@@ -46,4 +46,6 @@ AE 1977, 0683. (B)
 
 ![HD020563](HD020563.jpg)
 
+![HD020563_2](HD020563_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020563, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

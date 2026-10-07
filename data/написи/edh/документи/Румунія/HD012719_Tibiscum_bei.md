@@ -54,4 +54,12 @@ AE 2000, 1233.
 
 ![HD012719](HD012719.jpg)
 
+![HD012719_2](HD012719_2.jpg)
+
+![HD012719_3](HD012719_3.jpg)
+
+![HD012719_4](HD012719_4.jpg)
+
+![HD012719_5](HD012719_5.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD012719, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -47,4 +47,6 @@ AE 2000, 1258.
 
 ![HD043865](HD043865.jpg)
 
+![HD043865_2](HD043865_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043865, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

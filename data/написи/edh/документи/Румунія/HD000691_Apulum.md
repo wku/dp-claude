@@ -50,4 +50,6 @@ AE 1983, 0801. (B)
 
 ![HD000691](HD000691.jpg)
 
+![HD000691_2](HD000691_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD000691, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

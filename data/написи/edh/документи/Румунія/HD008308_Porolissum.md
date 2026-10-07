@@ -51,4 +51,8 @@ AE 1979, 0491. (B)
 
 ![HD008308](HD008308.jpg)
 
+![HD008308_2](HD008308_2.jpg)
+
+![HD008308_3](HD008308_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD008308, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

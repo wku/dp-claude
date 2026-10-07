@@ -48,4 +48,8 @@ ILD 186. (B)
 
 ![HD044779](HD044779.jpg)
 
+![HD044779_2](HD044779_2.jpg)
+
+![HD044779_3](HD044779_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD044779, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

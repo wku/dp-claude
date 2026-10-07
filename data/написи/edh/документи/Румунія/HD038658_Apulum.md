@@ -49,4 +49,8 @@ IDR 3, 5, 404; Foto u. Zeichnung.
 
 ![HD038658](HD038658.jpg)
 
+![HD038658_2](HD038658_2.jpg)
+
+![HD038658_3](HD038658_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038658, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

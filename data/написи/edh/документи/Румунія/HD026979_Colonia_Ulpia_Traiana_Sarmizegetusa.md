@@ -46,4 +46,6 @@ AE 1913, 0050. (B)
 
 ![HD026979](HD026979.jpg)
 
+![HD026979_2](HD026979_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD026979, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

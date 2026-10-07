@@ -57,4 +57,10 @@ AE 1996, 1277.
 
 ![HD038933_4](HD038933_4.jpg)
 
+![HD038933_5](HD038933_5.jpg)
+
+![HD038933_6](HD038933_6.jpg)
+
+![HD038933_7](HD038933_7.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038933, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

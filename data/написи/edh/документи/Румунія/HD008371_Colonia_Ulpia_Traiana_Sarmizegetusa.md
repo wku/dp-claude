@@ -49,4 +49,6 @@ AE 1979, 0506.
 
 ![HD008371](HD008371.jpg)
 
+![HD008371_2](HD008371_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD008371, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -46,4 +46,6 @@ IDR 3, 2, 057; fig. 45 (Zeichnung). #
 
 ![HD045987](HD045987.jpg)
 
+![HD045987_2](HD045987_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045987, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

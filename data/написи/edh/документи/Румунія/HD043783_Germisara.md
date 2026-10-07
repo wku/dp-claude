@@ -48,4 +48,6 @@ AE 1992, 1484. (B)
 
 ![HD043783](HD043783.jpg)
 
+![HD043783_2](HD043783_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043783, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

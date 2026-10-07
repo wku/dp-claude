@@ -44,4 +44,10 @@ AE 1933, 0250. (B)
 
 ![HD024147](HD024147.jpg)
 
+![HD024147_2](HD024147_2.jpg)
+
+![HD024147_3](HD024147_3.jpg)
+
+![HD024147_4](HD024147_4.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD024147, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -41,4 +41,6 @@ CIL 03, 13780.
 
 ![HD047312](HD047312.jpg)
 
+![HD047312_2](HD047312_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047312, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

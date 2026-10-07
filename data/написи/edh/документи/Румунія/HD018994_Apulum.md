@@ -52,4 +52,8 @@ AE 1960, 0244. (B)
 
 ![HD018994](HD018994.jpg)
 
+![HD018994_2](HD018994_2.jpg)
+
+![HD018994_3](HD018994_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD018994, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

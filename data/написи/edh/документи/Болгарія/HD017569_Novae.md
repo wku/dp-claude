@@ -53,4 +53,6 @@ AE 1965, 0136. (B)
 
 ![HD017569](HD017569.jpg)
 
+![HD017569_2](HD017569_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD017569, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

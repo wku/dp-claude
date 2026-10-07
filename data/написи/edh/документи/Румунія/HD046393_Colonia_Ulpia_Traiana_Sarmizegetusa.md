@@ -46,4 +46,8 @@ IDR 3, 2, 104, fig. 82 (Foto u. Zeichnung). #
 
 ![HD046393](HD046393.jpg)
 
+![HD046393_2](HD046393_2.jpg)
+
+![HD046393_3](HD046393_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046393, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -46,4 +46,8 @@ IDR 3, 5, 564; Foto u. Zeichnung. #
 
 ![HD038960](HD038960.jpg)
 
+![HD038960_2](HD038960_2.jpg)
+
+![HD038960_3](HD038960_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038960, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

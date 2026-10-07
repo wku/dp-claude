@@ -49,4 +49,6 @@ AE 1989, 0637.
 
 ![HD018399](HD018399.jpg)
 
+![HD018399_2](HD018399_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD018399, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

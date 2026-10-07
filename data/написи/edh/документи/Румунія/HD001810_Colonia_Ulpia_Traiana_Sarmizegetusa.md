@@ -50,4 +50,14 @@ AE 1982, 0832.
 
 ![HD001810](HD001810.jpg)
 
+![HD001810_2](HD001810_2.jpg)
+
+![HD001810_3](HD001810_3.jpg)
+
+![HD001810_4](HD001810_4.jpg)
+
+![HD001810_5](HD001810_5.jpg)
+
+![HD001810_6](HD001810_6.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD001810, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

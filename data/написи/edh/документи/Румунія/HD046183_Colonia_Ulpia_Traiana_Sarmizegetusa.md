@@ -38,4 +38,6 @@ IDR 3, 2, 359; fig. 296 (Foto u. Zeichnung). #
 
 ![HD046183](HD046183.jpg)
 
+![HD046183_2](HD046183_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046183, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

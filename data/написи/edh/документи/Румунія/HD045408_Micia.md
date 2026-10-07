@@ -43,4 +43,6 @@ IDR 3, 3, 145; fig. 114 (Foto u. Zeichnung).
 
 ![HD045408](HD045408.jpg)
 
+![HD045408_2](HD045408_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045408, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

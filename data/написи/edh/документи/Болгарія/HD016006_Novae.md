@@ -58,4 +58,6 @@ AE 1964, 0180bis. (B)
 
 ![HD016006](HD016006.jpg)
 
+![HD016006_2](HD016006_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD016006, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

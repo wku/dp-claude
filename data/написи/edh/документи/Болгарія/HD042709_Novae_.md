@@ -43,4 +43,6 @@ IGLN 116; pl. 39, 116.
 
 ![HD042709](HD042709.jpg)
 
+![HD042709_2](HD042709_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD042709, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

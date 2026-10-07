@@ -51,4 +51,6 @@ AE 1958, 0230.
 
 ![HD020014](HD020014.jpg)
 
+![HD020014_2](HD020014_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020014, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

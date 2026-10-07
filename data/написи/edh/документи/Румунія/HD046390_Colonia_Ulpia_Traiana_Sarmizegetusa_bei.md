@@ -47,4 +47,6 @@ CIL 03, 01462.
 
 ![HD046390](HD046390.jpg)
 
+![HD046390_2](HD046390_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046390, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

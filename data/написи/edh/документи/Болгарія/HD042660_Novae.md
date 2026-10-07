@@ -50,4 +50,6 @@ ILNovae 052; Abb. 52 a u. b.
 
 ![HD042660](HD042660.jpg)
 
+![HD042660_2](HD042660_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD042660, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

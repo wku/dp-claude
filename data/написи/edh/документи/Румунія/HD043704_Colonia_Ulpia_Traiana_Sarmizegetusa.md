@@ -46,4 +46,10 @@ AE 1998, 1094. (B)
 
 ![HD043704](HD043704.jpg)
 
+![HD043704_2](HD043704_2.jpg)
+
+![HD043704_3](HD043704_3.jpg)
+
+![HD043704_4](HD043704_4.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043704, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -43,4 +43,6 @@ ILD 533. (B)
 
 ![HD044509](HD044509.jpg)
 
+![HD044509_2](HD044509_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD044509, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

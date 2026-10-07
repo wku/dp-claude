@@ -51,4 +51,8 @@ AE 2003, 1514.
 
 ![HD043821_2](HD043821_2.jpg)
 
+![HD043821_3](HD043821_3.jpg)
+
+![HD043821_4](HD043821_4.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043821, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

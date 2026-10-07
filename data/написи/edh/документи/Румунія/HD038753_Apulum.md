@@ -52,4 +52,6 @@ AE 1996, 1276.
 
 ![HD038753](HD038753.jpg)
 
+![HD038753_2](HD038753_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038753, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

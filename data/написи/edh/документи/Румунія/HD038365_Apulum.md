@@ -48,4 +48,6 @@ IDR 3, 5, 245, Foto.
 
 ![HD038365](HD038365.jpg)
 
+![HD038365_2](HD038365_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038365, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

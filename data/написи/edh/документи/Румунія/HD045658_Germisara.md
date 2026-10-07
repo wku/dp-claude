@@ -47,4 +47,6 @@ IDR 3, 3, 233; fig. 177 (Foto u. Zeichnung). (B)
 
 ![HD045658](HD045658.jpg)
 
+![HD045658_2](HD045658_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045658, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

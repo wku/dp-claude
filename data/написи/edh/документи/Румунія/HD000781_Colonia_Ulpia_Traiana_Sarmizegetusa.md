@@ -49,4 +49,8 @@ AE 1983, 0830. (B)
 
 ![HD000781](HD000781.jpg)
 
+![HD000781_2](HD000781_2.jpg)
+
+![HD000781_3](HD000781_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD000781, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

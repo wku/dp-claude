@@ -48,4 +48,6 @@ IDR 3, 4, 012; fig. 7a u. b (Fotos u. Zeichnungen).
 
 ![HD044790_2](HD044790_2.jpg)
 
+![HD044790_3](HD044790_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD044790, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

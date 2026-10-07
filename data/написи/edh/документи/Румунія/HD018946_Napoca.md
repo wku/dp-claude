@@ -50,4 +50,6 @@ AE 1960, 0226.
 
 ![HD018946](HD018946.jpg)
 
+![HD018946_2](HD018946_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD018946, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

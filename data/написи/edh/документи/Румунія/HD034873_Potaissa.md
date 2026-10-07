@@ -49,4 +49,6 @@ ILD 511; Zeichnung. (B)
 
 ![HD034873](HD034873.jpg)
 
+![HD034873_2](HD034873_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD034873, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

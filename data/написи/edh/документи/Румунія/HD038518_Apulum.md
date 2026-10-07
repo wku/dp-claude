@@ -53,4 +53,8 @@ IDR 3, 5, 318; Foto. (B)
 
 ![HD038518](HD038518.jpg)
 
+![HD038518_2](HD038518_2.jpg)
+
+![HD038518_3](HD038518_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038518, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

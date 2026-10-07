@@ -49,4 +49,10 @@ AE 1977, 0691. (B)
 
 ![HD020587_2](HD020587_2.jpg)
 
+![HD020587_3](HD020587_3.jpg)
+
+![HD020587_4](HD020587_4.jpg)
+
+![HD020587_5](HD020587_5.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020587, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

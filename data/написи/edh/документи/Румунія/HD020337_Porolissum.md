@@ -51,4 +51,8 @@ AE 1944, 0052. (B)
 
 ![HD020337](HD020337.jpg)
 
+![HD020337_2](HD020337_2.jpg)
+
+![HD020337_3](HD020337_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020337, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

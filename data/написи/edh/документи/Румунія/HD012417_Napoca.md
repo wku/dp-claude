@@ -46,4 +46,6 @@ AE 1976, 0576. (B)
 
 ![HD012417](HD012417.jpg)
 
+![HD012417_2](HD012417_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD012417, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

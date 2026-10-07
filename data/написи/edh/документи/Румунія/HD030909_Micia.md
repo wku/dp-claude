@@ -50,4 +50,6 @@ AE 1903, 0066. (B)
 
 ![HD030909](HD030909.jpg)
 
+![HD030909_2](HD030909_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD030909, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

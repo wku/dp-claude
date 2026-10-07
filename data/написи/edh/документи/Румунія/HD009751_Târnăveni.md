@@ -44,4 +44,8 @@ AE 1972, 0482.
 
 ![HD009751](HD009751.jpg)
 
+![HD009751_2](HD009751_2.jpg)
+
+![HD009751_3](HD009751_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD009751, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

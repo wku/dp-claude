@@ -50,4 +50,8 @@ CIL 03, 14474.
 
 ![HD032355](HD032355.jpg)
 
+![HD032355_2](HD032355_2.jpg)
+
+![HD032355_3](HD032355_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD032355, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

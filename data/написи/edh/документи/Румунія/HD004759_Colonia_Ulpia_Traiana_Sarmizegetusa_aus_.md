@@ -47,4 +47,8 @@ AE 1978, 0666. (B)
 
 ![HD004759](HD004759.jpg)
 
+![HD004759_2](HD004759_2.jpg)
+
+![HD004759_3](HD004759_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD004759, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

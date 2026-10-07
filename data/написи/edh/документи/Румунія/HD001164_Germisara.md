@@ -53,4 +53,8 @@ AE 1982, 0833.
 
 ![HD001164](HD001164.jpg)
 
+![HD001164_2](HD001164_2.jpg)
+
+![HD001164_3](HD001164_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD001164, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

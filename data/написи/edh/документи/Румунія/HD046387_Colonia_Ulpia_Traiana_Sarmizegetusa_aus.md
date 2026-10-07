@@ -51,4 +51,10 @@ IDR 3, 2, 093; fig. 73 (Foto u. Zeichnung).
 
 ![HD046387](HD046387.jpg)
 
+![HD046387_2](HD046387_2.jpg)
+
+![HD046387_3](HD046387_3.jpg)
+
+![HD046387_4](HD046387_4.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046387, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -45,4 +45,6 @@ AE 1992, 1485.
 
 ![HD043784](HD043784.jpg)
 
+![HD043784_2](HD043784_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043784, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

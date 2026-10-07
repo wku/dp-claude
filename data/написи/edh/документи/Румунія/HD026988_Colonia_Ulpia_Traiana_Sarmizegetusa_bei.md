@@ -55,4 +55,10 @@ AE 1913, 0053. (B)
 
 ![HD026988](HD026988.jpg)
 
+![HD026988_2](HD026988_2.jpg)
+
+![HD026988_3](HD026988_3.jpg)
+
+![HD026988_4](HD026988_4.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD026988, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

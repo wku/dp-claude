@@ -45,4 +45,6 @@ IDR 3, 5, 172; Zeichnung.
 
 ![HD038254](HD038254.jpg)
 
+![HD038254_2](HD038254_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038254, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

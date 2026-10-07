@@ -48,4 +48,8 @@ AE 1977, 0670. (B)
 
 ![HD020527](HD020527.jpg)
 
+![HD020527_2](HD020527_2.jpg)
+
+![HD020527_3](HD020527_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020527, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

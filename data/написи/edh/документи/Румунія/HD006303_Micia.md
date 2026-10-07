@@ -51,4 +51,6 @@ AE 1980, 0779. (B)
 
 ![HD006303](HD006303.jpg)
 
+![HD006303_2](HD006303_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD006303, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -49,4 +49,6 @@ AE 1978, 0672. (B)
 
 ![HD004405](HD004405.jpg)
 
+![HD004405_2](HD004405_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD004405, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

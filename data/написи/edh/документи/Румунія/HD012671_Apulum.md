@@ -51,4 +51,10 @@ AE 1987, 0829.
 
 ![HD012671](HD012671.jpg)
 
+![HD012671_2](HD012671_2.jpg)
+
+![HD012671_3](HD012671_3.jpg)
+
+![HD012671_4](HD012671_4.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD012671, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

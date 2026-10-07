@@ -42,4 +42,6 @@ IDR 3, 2, 491; fig. 379 (Fotos u. Zeichnungen)
 
 ![HD047913](HD047913.jpg)
 
+![HD047913_2](HD047913_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047913, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

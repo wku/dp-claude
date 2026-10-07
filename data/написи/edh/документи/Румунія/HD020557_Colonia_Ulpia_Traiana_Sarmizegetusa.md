@@ -44,4 +44,10 @@ AE 1977, 0681.
 
 ![HD020557](HD020557.jpg)
 
+![HD020557_2](HD020557_2.jpg)
+
+![HD020557_3](HD020557_3.jpg)
+
+![HD020557_4](HD020557_4.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020557, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

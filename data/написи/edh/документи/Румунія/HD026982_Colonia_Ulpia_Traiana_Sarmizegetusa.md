@@ -48,4 +48,6 @@ AE 1913, 0051. (B)
 
 ![HD026982](HD026982.jpg)
 
+![HD026982_2](HD026982_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD026982, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

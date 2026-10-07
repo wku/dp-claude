@@ -46,4 +46,8 @@ CIL 03, 01454.
 
 ![HD046318](HD046318.jpg)
 
+![HD046318_2](HD046318_2.jpg)
+
+![HD046318_3](HD046318_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046318, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -40,4 +40,6 @@ IDR 3, 2, 174 (Foto u. Zeichnung). #
 
 ![HD046613](HD046613.jpg)
 
+![HD046613_2](HD046613_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046613, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

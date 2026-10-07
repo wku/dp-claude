@@ -42,4 +42,6 @@ AE 1971, 0379. (B)
 
 ![HD011674](HD011674.jpg)
 
+![HD011674_2](HD011674_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD011674, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

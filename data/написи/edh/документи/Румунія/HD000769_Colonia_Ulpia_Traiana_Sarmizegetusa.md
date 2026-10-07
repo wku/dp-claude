@@ -49,4 +49,8 @@ AE 1983, 0832. (B)
 
 ![HD000769](HD000769.jpg)
 
+![HD000769_2](HD000769_2.jpg)
+
+![HD000769_3](HD000769_3.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD000769, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

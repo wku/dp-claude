@@ -1,5 +1,5 @@
 """Завантаження метаданих і повного тексту (OCR) видань з Internet Archive."""
-import json, time, urllib.request
+import json, time, urllib.parse, urllib.request
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent.parent / "data" / "книги"
@@ -20,6 +20,8 @@ OUT = Path(__file__).resolve().parent.parent / "data" / "книги"
     "claudiiptolemaei02ptol": "Птолемей_Географія_Ноббе_1843_том2",
     "povidinasonistr00owengoog": "Овідій_Скорботні_елегії_і_Листи_з_Понту_Оуен_1915_латинський_текст",
     "cuaiordanisroman00jord": "Йордан_Романа_і_Гетика_Моммзен_1882_латинський_текст",
+    "ProcopiiCaesariensisOperaOmnia3": "Прокопій_Кесарійський_Хаурі_1905_том2_Війни_грецький_текст",
+    "lat-gardthausen-rerum-gestarum-t.-2-1875-1967": "Амміан_Марцеллін_Гардтгаузен_1875_том2_латинський_текст",
     "pontika2": "Латишев_1909_Понтіка_збірник_статей",
     "antiquitsgrecqu00rochgoog": "Рауль_Рошетт_1822_Грецькі_старожитності_Боспору_Кіммерійського",
 }
@@ -33,6 +35,8 @@ OUT = Path(__file__).resolve().parent.parent / "data" / "книги"
     "claudiiptolemaei01ptol": ("Claudii Ptolemaei Geographia, том 1 (К. Ноббе)", "Грецький текст Географії Птолемея, з описом Європейської Сарматії та узбережжя Чорного моря (II століття)."),
     "claudiiptolemaei02ptol": ("Claudii Ptolemaei Geographia, том 2 (К. Ноббе)", "Грецький текст Географії Птолемея, продовження, містить опис Азіатської Сарматії та Причорномор'я (II століття)."),
     "povidinasonistr00owengoog": ("P. Ovidi Nasonis Tristia, Ex Ponto, Halieutica (Оуен, Оксфорд)", "Латинський текст елегій Овідія з вигнання в Томи на узбережжі Чорного моря, I століття."),
+    "ProcopiiCaesariensisOperaOmnia3": ("Procopii Caesariensis Opera Omnia, том 2 (Ю. Хаурі, Лейпциг)", "Грецький текст Війн Прокопія, VI століття. У цьому томі готська війна, гуни, склавіни та анти, згадки Причорномор'я."),
+    "lat-gardthausen-rerum-gestarum-t.-2-1875-1967": ("Ammiani Marcellini Rerum gestarum, том 2 (В. Гардтгаузен)", "Латинський текст Діянь Амміана Марцелліна, книги 23 до 31, IV століття. Книга 31 розповідає про гунів і готів у Причорномор'ї."),
     "cuaiordanisroman00jord": ("Iordanis Romana et Getica (Т. Моммзен, MGH)", "Латинський текст Йордана, VI століття. Гетика описує історію готів, їхнє перебування в Скіфії та на території сучасної України."),
 }
 
@@ -101,9 +105,9 @@ for i, назва in ВИДАННЯ.items():
     for f in json.loads(meta)["files"]:
         ціль = d / нова_назва(назва, f["name"])
         if f["format"] in ФОРМАТИ and int(f.get("size", 0)) > МАКС and ціль.suffix == ".pdf" and not list(d.glob(ціль.stem + "_частина*.pdf")):
-            розділити_pdf(f"https://archive.org/download/{i}/{f['name']}", ціль, int(f["size"]))
+            розділити_pdf(f"https://archive.org/download/{i}/{urllib.parse.quote(f['name'])}", ціль, int(f["size"]))
         elif f["format"] in ФОРМАТИ and int(f.get("size", 0)) <= МАКС and not ціль.exists():
-            print(назва, ціль.name, save(f"https://archive.org/download/{i}/{f['name']}", ціль))
+            print(назва, ціль.name, save(f"https://archive.org/download/{i}/{urllib.parse.quote(f['name'])}", ціль))
             time.sleep(5)
 
 import csv, re

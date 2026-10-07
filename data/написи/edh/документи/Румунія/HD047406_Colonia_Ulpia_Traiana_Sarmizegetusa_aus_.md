@@ -45,4 +45,6 @@ AE 2005, 1297.
 
 ![HD047406](HD047406.jpg)
 
+![HD047406_2](HD047406_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047406, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

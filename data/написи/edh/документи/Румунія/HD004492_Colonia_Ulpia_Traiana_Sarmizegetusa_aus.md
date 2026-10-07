@@ -46,4 +46,6 @@ AE 1978, 0670. (B)
 
 ![HD004492](HD004492.jpg)
 
+![HD004492_2](HD004492_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD004492, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

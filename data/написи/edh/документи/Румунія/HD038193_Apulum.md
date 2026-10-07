@@ -50,4 +50,6 @@ AE 1991, 1338.
 
 ![HD038193](HD038193.jpg)
 
+![HD038193_2](HD038193_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038193, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

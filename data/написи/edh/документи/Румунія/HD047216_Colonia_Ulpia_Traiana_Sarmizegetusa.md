@@ -46,4 +46,10 @@ IDR 3, 2, 307; fig. 252 (Foto u. Zeichnungen).
 
 ![HD047216](HD047216.jpg)
 
+![HD047216_2](HD047216_2.jpg)
+
+![HD047216_3](HD047216_3.jpg)
+
+![HD047216_4](HD047216_4.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047216, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -49,4 +49,6 @@ AE 1983, 0835.
 
 ![HD000787](HD000787.jpg)
 
+![HD000787_2](HD000787_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD000787, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

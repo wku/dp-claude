@@ -46,4 +46,6 @@ AE 1947, 0021.
 
 ![HD019325](HD019325.jpg)
 
+![HD019325_2](HD019325_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD019325, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

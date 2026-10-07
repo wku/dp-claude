@@ -50,4 +50,6 @@ AE 1947, 0022. (B)
 
 ![HD019328](HD019328.jpg)
 
+![HD019328_2](HD019328_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD019328, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

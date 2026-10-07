@@ -50,4 +50,6 @@ AE 1982, 0829.
 
 ![HD001152](HD001152.jpg)
 
+![HD001152_2](HD001152_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD001152, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

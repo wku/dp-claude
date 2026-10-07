@@ -38,4 +38,6 @@ AE 1977, 0688.
 
 ![HD020578](HD020578.jpg)
 
+![HD020578_2](HD020578_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020578, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

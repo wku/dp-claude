@@ -47,4 +47,6 @@ S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Ty
 
 ![HD042041](HD042041.jpg)
 
+![HD042041_2](HD042041_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD042041, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

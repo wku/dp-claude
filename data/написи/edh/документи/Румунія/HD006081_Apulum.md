@@ -53,4 +53,6 @@ AE 1987, 0834.
 
 ![HD006081](HD006081.jpg)
 
+![HD006081_2](HD006081_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD006081, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

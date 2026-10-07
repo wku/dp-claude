@@ -35,4 +35,8 @@ C IAVOLENVS MODESTVS / | LEG XIII GEMINAE / MERCVRIO AVG SACR / V S L M
 CIL 03, 01434.
 - IDR 3, 2, 268; fig. 220 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD046844](HD046844.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046844, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

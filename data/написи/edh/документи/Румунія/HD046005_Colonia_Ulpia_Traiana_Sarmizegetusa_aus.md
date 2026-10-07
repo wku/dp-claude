@@ -45,4 +45,8 @@ CIL 03, 01450.
 - IDR 3, 2, 074; fig. 58 (Foto u. Zeichnungen).
 - I. Piso, in: I. Piso (Hrsg.), Le forum vetus de Sarmizegetusa 1 (Bucureşti 2006) 224-226, Nr. 8; Fig. 3, 9. #
 
+## Фото
+
+![HD046005](HD046005.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046005, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

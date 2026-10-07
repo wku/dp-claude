@@ -43,4 +43,8 @@ Zwei aneinanderpassende Fragmente erhalten. Z. 6 (Ende): hedera.
 IDR 3, 5, 449; Foto u. Zeichnung.
 - CIL 03, 14480. #
 
+## Фото
+
+![HD038755](HD038755.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038755, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

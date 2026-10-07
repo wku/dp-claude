@@ -40,4 +40,8 @@ IDR 3, 5, 306; Foto u. Zeichnung.
 - CIL 03, 01133.
 - ILS 4346. #
 
+## Фото
+
+![HD038500](HD038500.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038500, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

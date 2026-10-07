@@ -42,4 +42,8 @@ IDR 3, 5, 199; Foto u. Zeichnung.
 - CIL 03, 01079.
 - ILS 3850. #
 
+## Фото
+
+![HD038297](HD038297.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038297, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

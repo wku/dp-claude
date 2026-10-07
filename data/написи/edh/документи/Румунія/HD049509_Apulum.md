@@ -41,4 +41,8 @@ CIL 03, 07766a.
 - SEG 30, 0859.
 - IDR 3, 5, 262; Foto. #
 
+## Фото
+
+![HD049509](HD049509.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD049509, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

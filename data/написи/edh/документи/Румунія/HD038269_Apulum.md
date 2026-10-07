@@ -40,4 +40,8 @@ IDR 3, 5, 184; Foto u. Zeichnung.
 - PIR (2. Aufl.) M 54.
 - PIR (2. Aufl.) M 735. #
 
+## Фото
+
+![HD038269](HD038269.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038269, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

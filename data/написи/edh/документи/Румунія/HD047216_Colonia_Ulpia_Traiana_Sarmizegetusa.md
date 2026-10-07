@@ -42,4 +42,8 @@ IDR 3, 2, 307; fig. 252 (Foto u. Zeichnungen).
 - CIMRM 2029.
 - F. Studniczka, AEM 7, 1883, 225, s.n. 69; Taf. 8, 1 (Zeichnungen). #
 
+## Фото
+
+![HD047216](HD047216.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047216, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

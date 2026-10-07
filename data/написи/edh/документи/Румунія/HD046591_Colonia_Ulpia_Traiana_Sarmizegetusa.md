@@ -34,4 +34,8 @@ $] / qu[aestor ---] / I[Ivir &
 
 IDR 3, 2, 144; fig. 117 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD046591](HD046591.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046591, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

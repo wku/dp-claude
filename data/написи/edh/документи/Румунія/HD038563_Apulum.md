@@ -39,4 +39,8 @@ SILVANO / DOMESTICO / M LVCIL PHILOCTEMON / IIVIR COL / AVR APVL / V L P
 IDR 3, 5, 339; Foto.
 - CIL 03, 07773. #
 
+## Фото
+
+![HD038563](HD038563.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038563, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

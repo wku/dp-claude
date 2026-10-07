@@ -44,4 +44,8 @@ AE 1903, 0064. (B)
 - R. Münsterberg - J. Oehler, JŒAI (Beibl.) 5, 1902, 120; Zeichnung. (B) - AE 1903.
 - I. Piso, in: I. Piso (Hrsg.), Le forum vetus de Sarmizegetusa 1 (Bucureşti 2006) 242, Nr. 23. #
 
+## Фото
+
+![HD030903](HD030903.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD030903, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

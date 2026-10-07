@@ -45,4 +45,8 @@ Basis einer Votivstatuette, deren linker Fuß auf der Basisoberseite noch erhalt
 IDR 3, 5, 357; Foto u. Zeichnung.
 - CIL 03, 14475. #
 
+## Фото
+
+![HD038574](HD038574.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038574, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

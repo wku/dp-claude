@@ -38,4 +38,8 @@ MINER / VAE AVG / M AVR[ ] / VAL MAG K / ACTA[ ] / [ ]L PA[
 
 IDR 3, 2, 270; fig. 222 (Zeichnung). #
 
+## Фото
+
+![HD046846](HD046846.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046846, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

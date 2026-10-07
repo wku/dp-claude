@@ -43,4 +43,8 @@ Inschriftfeld heute zum Teil verwittert.
 IDR 3, 5, 183; Foto u. Zeichnung.
 - CIL 03, 01060. #
 
+## Фото
+
+![HD038268](HD038268.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038268, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

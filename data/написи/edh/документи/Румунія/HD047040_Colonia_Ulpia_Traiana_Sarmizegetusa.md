@@ -40,4 +40,8 @@ CIL 03, 07939.
 - IDR 3, 2, 277; fig.228 (Foto u. Zeichnung).
 - CIMRM 2032. #
 
+## Фото
+
+![HD047040](HD047040.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047040, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

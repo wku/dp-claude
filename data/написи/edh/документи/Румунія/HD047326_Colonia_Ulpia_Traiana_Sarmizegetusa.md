@@ -37,4 +37,8 @@ $]SV[---] / [---]ER[---] / [---]AE[---] / [pro] sa[l(ute)] / [-? Cla]ud[i] / [Va
 CIL 03, 07965.
 - IDR 3, 2, 344; fig. 285 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD047326](HD047326.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047326, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

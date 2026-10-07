@@ -36,4 +36,8 @@ P A[ ] / HA[ ] / V E / I[
 
 IDR 3, 2, 083; fig. 64 (Zeichnung). #
 
+## Фото
+
+![HD046342](HD046342.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046342, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

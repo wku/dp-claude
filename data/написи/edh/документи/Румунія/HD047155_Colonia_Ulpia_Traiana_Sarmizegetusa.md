@@ -41,4 +41,8 @@ CIL 03, 07926.
 - CIMRM 2075; Fig. 557.
 - CIMRM 2076. #
 
+## Фото
+
+![HD047155](HD047155.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047155, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

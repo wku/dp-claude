@@ -34,4 +34,8 @@ PRISCVS EX IVSSO / POSVIT L M
 
 IDR 3, 2, 212; fig. 170. #
 
+## Фото
+
+![HD046775](HD046775.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046775, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

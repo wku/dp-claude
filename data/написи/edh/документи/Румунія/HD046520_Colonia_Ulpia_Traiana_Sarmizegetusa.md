@@ -34,4 +34,8 @@ $] / [---]ni / [femina]e(?) / [---? incompa]rabili / [l(ocus) d(atus) d(ecreto)]
 
 IDR 3, 2, 141; fig. 114 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD046520](HD046520.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046520, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

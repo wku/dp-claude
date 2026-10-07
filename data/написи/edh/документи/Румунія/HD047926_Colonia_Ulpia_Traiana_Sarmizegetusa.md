@@ -43,4 +43,8 @@ Amphore mit gestempelter Inschrift.
 CIL 03, 13791.
 - IDR 3, 2, 576; fig. 420 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD047926](HD047926.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047926, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

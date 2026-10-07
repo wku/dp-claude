@@ -42,4 +42,8 @@ CIL 03, 07766.
 - IGR 1, 0543.
 - IDR 3, 5, 256; Foto. #
 
+## Фото
+
+![HD049508](HD049508.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD049508, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -39,4 +39,8 @@ I O M / AVREL VALENS / FLAVIVS ZORA / DEC COLL FABRV / [ ]X VOT POSVE[ ]
 CIL 03, 07910.
 - IDR 3, 2, 236; fig. 191. #
 
+## Фото
+
+![HD046818](HD046818.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046818, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

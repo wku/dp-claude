@@ -43,4 +43,8 @@ Mörtelreste für die Befestigung der Statue erkennbar.
 IDR 3, 5, 381; Foto.
 - CIL 03, 14476. #
 
+## Фото
+
+![HD038601](HD038601.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038601, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

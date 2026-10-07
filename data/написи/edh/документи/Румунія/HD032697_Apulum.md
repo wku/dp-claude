@@ -47,4 +47,10 @@ AE 1901, 0027. (B)
 - IDR 3, 5, 426; Foto u. Zeichnung.
 - PIR (2. Aufl.) M 582. #
 
+## Фото
+
+![HD032697](HD032697.jpg)
+
+![HD032697_2](HD032697_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD032697, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

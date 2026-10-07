@@ -41,4 +41,8 @@ I O M / OCTAVI / A DIGNA / PRO SALV / TE SVIS ET / SVOR V L S M
 IDR 3, 5, 158; Foto.
 - CIL 03, 14473. #
 
+## Фото
+
+![HD049790](HD049790.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD049790, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -45,4 +45,8 @@ Statuen von Juno und Juppiter nicht vollständig erhalten. Höhe: -40 cm, mit St
 IDR 3, 5, 190; Foto u. Zeichnung.
 - CIL 03, 01068. #
 
+## Фото
+
+![HD038279](HD038279.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038279, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -43,4 +43,8 @@ Reliefdarstellung auf dem oberen Teil. Vier Büsten in einem Medaillon (Mann, Fr
 IDR 3, 5, 603; Foto u. Zeichnung.
 - CIL 03, 01249. #
 
+## Фото
+
+![HD038987](HD038987.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038987, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -43,4 +43,8 @@ AE 1927, 0055.
 - I. Piso, in: I. Piso (Hrsg.), Le forum vetus de Sarmizegetusa 1 (Bucureşti 2006) 284-285, Nr. 59; fig. 3, 57.
 - C. Daicoviciu, Dacia 1, 1924, 244-245, Nr. 2; fig. 10. - AE 1927. #
 
+## Фото
+
+![HD024910](HD024910.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD024910, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

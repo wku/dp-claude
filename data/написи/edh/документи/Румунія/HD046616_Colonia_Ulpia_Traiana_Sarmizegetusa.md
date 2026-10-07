@@ -37,4 +37,8 @@
 CIL 03, 07898.
 - IDR 3, 2, 177. #
 
+## Фото
+
+![HD046616](HD046616.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046616, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

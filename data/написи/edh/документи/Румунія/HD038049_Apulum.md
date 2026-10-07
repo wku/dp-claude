@@ -43,4 +43,8 @@ Altar oder Statuenbasis. (B): CIL III: Z. 1: Dominae et d(is) o. d(eae).
 IDR 3, 5, 065; Foto u. Zeichnung.
 - CIL 03, 01004. (B) #
 
+## Фото
+
+![HD038049](HD038049.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038049, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

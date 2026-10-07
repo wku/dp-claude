@@ -48,4 +48,8 @@ AE 1972, 0463.
 - I. Piso, Fasti provinciae Daciae 1. Die senatorischen Amtsträger (Bonn 1993) 73-75, Nr. 17, 8.
 - PIR (2. Aufl.) F 583. #
 
+## Фото
+
+![HD009700](HD009700.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD009700, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

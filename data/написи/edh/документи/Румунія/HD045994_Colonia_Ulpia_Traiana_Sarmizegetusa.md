@@ -38,4 +38,8 @@ Möglicherweise eine Namensliste der Mitglieder eines Kollegiums.
 
 IDR 3, 2, 063; fig. 51 (Foto u. Zeichung). #
 
+## Фото
+
+![HD045994](HD045994.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045994, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

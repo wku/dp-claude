@@ -34,4 +34,8 @@ $] / [---]A[---] / [---] PA[---] / [&
 
 IDR 3, 2, 510; fig. 385 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD049477](HD049477.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD049477, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

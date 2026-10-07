@@ -45,4 +45,8 @@ AE 2010, 1377.
 - CIL 03, 01157.
 - IDR 3, 5, 363; Foto u. Zeichnung. #
 
+## Фото
+
+![HD038580](HD038580.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038580, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

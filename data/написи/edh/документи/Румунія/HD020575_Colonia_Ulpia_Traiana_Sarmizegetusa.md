@@ -43,4 +43,8 @@ AE 1977, 0687. (B)
 - I. Piso, Sargetia 11/12, 1974/75, 73-74, Nr. 25; fig. 25 a; fig. 25 b (Zeichnung). - AE 1977.
 - C. Ciongradi, Grabmonument und sozialer Status in Oberdakien (Cluj-Napoca 2007) 154, Nr. S/S 42; Taf. 40. #
 
+## Фото
+
+![HD020575](HD020575.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020575, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -43,4 +43,8 @@ AE 1933, 0019. (B)
 - G. von Finály, AA 1913, 335, Nr. 12. (B) - AE 1914.
 - B. Jánó, AErt 32, 1912, 406. (B) - AE 1914. #
 
+## Фото
+
+![HD023670](HD023670.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD023670, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

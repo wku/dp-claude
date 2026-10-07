@@ -45,4 +45,8 @@ IDR 3, 5, 243; Foto u. Zeichnung.
 - CIL 03, 01094.
 - ILS 2439. #
 
+## Фото
+
+![HD038363](HD038363.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038363, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -45,4 +45,8 @@ AE 2010, 1376.
 - CIL 03, 00990.
 - IDR 3, 5, 031; Foto. #
 
+## Фото
+
+![HD038006](HD038006.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038006, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

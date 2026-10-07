@@ -45,4 +45,8 @@ Altar oder Statuenbasis. Z. 1: Die Buchstaben IT waren bei der Auffindung noch l
 IDR 3, 5, 395; Foto u. Zeichnung.
 - CIL 03, 14478. #
 
+## Фото
+
+![HD038636](HD038636.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038636, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

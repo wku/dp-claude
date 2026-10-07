@@ -42,4 +42,8 @@ Fragment einer Sitzbank aus dem Amphitheater. Lesungsvorschlag IDR: Titus.
 
 IDR 3, 2, 052; fig. 39 (Zeichnung). #
 
+## Фото
+
+![HD045982](HD045982.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045982, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

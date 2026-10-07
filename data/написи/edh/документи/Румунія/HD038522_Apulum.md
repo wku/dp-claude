@@ -45,4 +45,8 @@ Altar oder Statuenbasis. Bekrönung und Basis zum Teil zerstört.
 IDR 3, 5, 320; Foto.
 - CIL 03, 07772. #
 
+## Фото
+
+![HD038522](HD038522.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038522, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

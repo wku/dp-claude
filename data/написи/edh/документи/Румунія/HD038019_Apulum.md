@@ -43,4 +43,8 @@ Altar oder Statuenbasis. Z. 1 u. 2 befinden sich auf verschiedenen Teilen der co
 IDR 3, 5, 050; Foto u. Zeichnung. (B)
 - CIL 03, 06259. (B) #
 
+## Фото
+
+![HD038019](HD038019.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038019, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -48,4 +48,8 @@ AE 1993, 1320.
 - L. Mrozewicz, in: L. Mrozewicz - K. Ilski (Hrsg.), Prosopographica (Poznán 1993) 219, Nr. 2. - AE 1993.
 - I. Piso, ActaMusNapoca 17, 1980, 86-89, Nr. 3; fig. 3a; fig. 3b (Zeichnung). - AE 1980. (B). #
 
+## Фото
+
+![HD006069](HD006069.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD006069, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

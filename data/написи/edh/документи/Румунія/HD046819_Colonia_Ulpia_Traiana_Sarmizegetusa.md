@@ -34,4 +34,8 @@
 
 IDR 3, 2, 238; fig. 193 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD046819](HD046819.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046819, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

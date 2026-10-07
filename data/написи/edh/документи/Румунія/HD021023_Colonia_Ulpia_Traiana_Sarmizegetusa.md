@@ -44,4 +44,8 @@ AE 1914, 0114. (B)
 - G. von Finály AA 1913, 335, Nr. 20. (B) - AE 1914.
 - C. Daicoviciu, Dacia 1, 1924, 249-250, Nr. 1; fig. 13. - AE 1927. #
 
+## Фото
+
+![HD021023](HD021023.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD021023, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

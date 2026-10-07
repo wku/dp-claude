@@ -43,4 +43,8 @@ Altar oder Statuenbasis. Z. 7 befindet sich auf der crepido.
 IDR 3, 5, 060; Foto u. Zeichnung.
 - CIL 03, 07742. #
 
+## Фото
+
+![HD038029](HD038029.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038029, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -41,4 +41,8 @@ Altar oder Statuenbasis.
 IDR 3, 5, 010; Foto.
 - CIL 03, 00980. #
 
+## Фото
+
+![HD037980](HD037980.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD037980, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -45,4 +45,8 @@ CIL 03, 01480.
 - F. Beutler - E. Weber (Hrsg.), Die römischen Inschriften der Österreichischen Nationalbibliothek (Wien 2015) 58, Nr. 41; Foto.
 - R. Cubaynes, Les hommes de la VIIIe légion Auguste (Autun 2018) 529-531, Nr. 157; Foto. #
 
+## Фото
+
+![HD047677](HD047677.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047677, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

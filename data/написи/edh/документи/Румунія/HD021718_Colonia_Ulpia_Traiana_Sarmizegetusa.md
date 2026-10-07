@@ -35,4 +35,8 @@ $] / [Clau?]dian[us] / [ex] Khara(!) [e]/[o]rum num[i]/ni dicatus / votum po/sui
 CIL 03, 07961.
 - IDR 3, 2, 350; fig. 290 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD021718](HD021718.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD021718, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

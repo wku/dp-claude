@@ -38,4 +38,8 @@ AE 1914, 0109.
 - IDR 3, 2, 165; fig. 135 (Foto u. Zeichnung).
 - G. von Finály, AA 1913, 334, Nr. 10. - AE 1914. #
 
+## Фото
+
+![HD021011](HD021011.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD021011, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -44,4 +44,8 @@ IDR 3, 5, 280; Foto u. Zeichnung.
 - CIL 03, 01109.
 - ILS 4220. #
 
+## Фото
+
+![HD038418](HD038418.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038418, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

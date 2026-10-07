@@ -43,4 +43,8 @@ Altar oder Statuenbasis. Bekrönung und oberer linker Teil des Inschriftfeldes n
 IDR 3, 5, 375; Foto u. Zeichnung.
 - CIL 03, 01160. #
 
+## Фото
+
+![HD038591](HD038591.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038591, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

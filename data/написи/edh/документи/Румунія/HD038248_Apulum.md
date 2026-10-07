@@ -39,4 +39,8 @@ I O M / A TAPETIVS / EPIVS
 IDR 3, 5, 168; Foto.
 - CIL 03, 06261. #
 
+## Фото
+
+![HD038248](HD038248.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038248, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

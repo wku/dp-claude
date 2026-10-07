@@ -40,4 +40,8 @@ Lesung nach IDR; weiterer Vorschlag nach IDR: Z. 3: --- Traian]a Aug(usta) [Dacj
 
 IDR 3, 2, 142; fig. 115 (Zeichnung). #
 
+## Фото
+
+![HD046521](HD046521.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046521, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

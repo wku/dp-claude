@@ -38,4 +38,8 @@ $] / [v(otum) s(olvit)] l(ibens) m(erito)
 
 IDR 3, 2, 179; fig. 141 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD046639](HD046639.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046639, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

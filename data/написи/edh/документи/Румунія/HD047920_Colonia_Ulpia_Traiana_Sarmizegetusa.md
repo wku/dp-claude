@@ -38,4 +38,8 @@ $]MO[&
 
 IDR 3, 2, 499; fig. 383. #
 
+## Фото
+
+![HD047920](HD047920.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047920, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -39,4 +39,8 @@ DEO SA[ ] MALAGBEL[ ] / PRO SALVT[ ]AES M AVREL / SEVERI [[ ]] PII FEL AVG / ET 
 CIL 03, 07955.
 - IDR 3, 2, 262; fig. 214. #
 
+## Фото
+
+![HD046841](HD046841.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046841, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

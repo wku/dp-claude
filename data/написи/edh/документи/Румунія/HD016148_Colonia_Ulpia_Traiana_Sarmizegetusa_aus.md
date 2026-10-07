@@ -40,4 +40,8 @@ AE 1966, 0309a.
 - J. Trynkowski, PHist 56, 1965, 373-375, Nr. 1. - AE 1966.
 - ILS 7132. #
 
+## Фото
+
+![HD016148](HD016148.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD016148, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

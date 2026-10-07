@@ -40,4 +40,8 @@ AE 1977, 0677.
 - IDR 3, 2, 155; fig. 126 (Foto u. Zeichnung).
 - I. Piso, Sargetia 11/12, 1974/75, 60, Nr. 4; fig. 4 a; fig. 4 b (Zeichnung). - AE 1977. #
 
+## Фото
+
+![HD020545](HD020545.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020545, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

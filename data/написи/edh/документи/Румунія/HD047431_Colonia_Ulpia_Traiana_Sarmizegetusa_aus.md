@@ -48,4 +48,8 @@ CIL 03, 01530.
 - F. Beutler - E. Weber (Hrsg.), Die römischen Inschriften der Österreichischen Nationalbibliothek (Wien 2015) 62, Nr. 45; Foto.
 - E. Weber, Tyche 30, 2015, 263-264, Nr. 55; Foto. (B) #
 
+## Фото
+
+![HD047431](HD047431.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047431, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

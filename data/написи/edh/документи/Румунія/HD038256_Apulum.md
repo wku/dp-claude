@@ -43,4 +43,8 @@ Hedera am Ende von Z. 5.
 IDR 3, 5, 173; Foto.
 - CIL 03, 01056. #
 
+## Фото
+
+![HD038256](HD038256.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038256, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

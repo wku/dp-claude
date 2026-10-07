@@ -40,4 +40,8 @@ CIL 03, 07917.
 - IDR 3, 2, 253; fig. 205 (Foto u. Zeichnung).
 - I.I. Russu, AnInstCluj 18, 1975, 59-61, Nr. 3, 3; fig. 3 a; fig. 3 b (Zeichnung). #
 
+## Фото
+
+![HD046838](HD046838.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046838, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

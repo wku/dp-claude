@@ -41,4 +41,8 @@ CIL 03, 07931.
 - CIMRM 2060.
 - CIMRM 2061. #
 
+## Фото
+
+![HD047209](HD047209.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047209, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

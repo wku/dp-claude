@@ -44,4 +44,8 @@ AE 1977, 0670. (B)
 - M. Bǎrbulescu, Dacia 16, 1972, 205, Nr. 54; Abb. 1 (Zeichnung). (B) - AE 1976.
 - C.C. Petolescu, StCercIstorV 25, 1974, 598-599, Nr. 6; fig. 3, 1; fig. 3, 2 (Zeichnung). (B) - AE 1977. #
 
+## Фото
+
+![HD020527](HD020527.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020527, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

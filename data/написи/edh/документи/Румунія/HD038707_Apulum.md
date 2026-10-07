@@ -43,4 +43,8 @@ Bekrönung und rechter oberer Teil des Inschriftfeldes stark verwittert. Z. 3/4:
 IDR 3, 5, 427; Foto u. Zeichnung.
 - CIL 03, 01127. #
 
+## Фото
+
+![HD038707](HD038707.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038707, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

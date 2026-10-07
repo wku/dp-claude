@@ -39,4 +39,8 @@ D M / AVRELIAE RESPECTAE / RARISSIM FEMINAE / HERCVLANVS AVGG / NN VERN / ADIVT 
 CIL 03, 01468.
 - IDR 3, 2, 395; fig. 318 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD047408](HD047408.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047408, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

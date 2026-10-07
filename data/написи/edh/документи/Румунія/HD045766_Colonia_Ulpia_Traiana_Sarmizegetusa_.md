@@ -43,4 +43,8 @@ IDR 3, 2, 229; fig. 184 (Foto und Zeichnung).
 - L. Bricault, Recueil des inscriptions concernant les cultes Isiaques (RICIS) (Paris 2005) 729, Nr. 616/0302.
 - PIR (2. Aufl.) S 880. #
 
+## Фото
+
+![HD045766](HD045766.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045766, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -40,4 +40,8 @@ AE 1933, 0250. (B)
 - IDR 3, 2, 133; fig. 107 (Foto u. Zeichnung). (B)
 - C. Daicoviciu, Dacia 3/4, 1927-1932, 553-555, Nr. 5; fig. 57. (B) - AE 1933. #
 
+## Фото
+
+![HD024147](HD024147.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD024147, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

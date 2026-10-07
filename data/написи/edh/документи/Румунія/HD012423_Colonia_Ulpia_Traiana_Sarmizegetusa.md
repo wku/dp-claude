@@ -50,4 +50,8 @@ AE 1976, 0578. (B)
 - I. Piso, ActaMusNapoca 12, 1975, 170, Nr. 4; fig. 4 (Foto u. Zeichnung). (B)
 - D. Alicu, in: M. Mayer i Olivé - G. Baratta - A. Guzmán Almagro (Hrsg.), Acta XII Congressus Internationalis Epigraphiae Graecae et Latinae. Provinciae Imperii Romani inscriptionibus descriptae, Barcelona 2002. Acta (Barcelona 2007) 38, Nr. 2. (B) - AE 2007. #
 
+## Фото
+
+![HD012423](HD012423.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD012423, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

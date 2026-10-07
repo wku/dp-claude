@@ -37,4 +37,8 @@
 CIL 03, 07900.
 - IDR 3, 2, 186; fig. 148 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD046647](HD046647.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046647, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

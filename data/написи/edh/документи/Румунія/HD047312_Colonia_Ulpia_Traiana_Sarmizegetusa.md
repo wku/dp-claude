@@ -37,4 +37,8 @@ SI DEO [ ] / NEVIVS D[ ]
 CIL 03, 13780.
 - IDR 3, 2, 336; fig. 279 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD047312](HD047312.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047312, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

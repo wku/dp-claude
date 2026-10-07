@@ -37,4 +37,8 @@ $] / [Sarm(izegetusae)] m[et]ro/[po]lis / [ex] voto / [po]suit
 IDR 3, 2, 358; fig. 295 (Fotos u. Zeichnung).
 - CIL 03, 12585. #
 
+## Фото
+
+![HD047389](HD047389.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047389, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

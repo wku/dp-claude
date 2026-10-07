@@ -46,4 +46,8 @@ CIL 03, 07995.
 - I. Piso, ZPE 120, 1998, 257-258, Nr. 2; Abb. 4; Abb. 5 (Zeichnung). - AE 1998.
 - SEG 48, 0985. #
 
+## Фото
+
+![HD049428](HD049428.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD049428, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

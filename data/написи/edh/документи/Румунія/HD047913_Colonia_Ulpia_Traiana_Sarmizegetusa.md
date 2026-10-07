@@ -38,4 +38,8 @@ Zwei nicht aneinander passende Fragmente erhalten. Abmessungen des einen Fragmen
 
 IDR 3, 2, 491; fig. 379 (Fotos u. Zeichnungen)
 
+## Фото
+
+![HD047913](HD047913.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047913, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

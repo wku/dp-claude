@@ -48,4 +48,8 @@ AE 1996, 1276.
 - I. Piso, SpNov 11, 1995, 155-162; Abb. 1a u. 1b; Abb. 1c u. 1d (Zeichnungen). - AE 1996.
 - R. Ota - G. Băeştean, Dacia 54, 2010, 132. (B) - AE 2010. #
 
+## Фото
+
+![HD038753](HD038753.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038753, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

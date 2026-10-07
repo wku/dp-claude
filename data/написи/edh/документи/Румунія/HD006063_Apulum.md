@@ -45,4 +45,8 @@ AE 1980, 0734.
 - CIL 03, 07756. (B)
 - IDR 3, 5, 136; Foto u. Zeichnung. #
 
+## Фото
+
+![HD006063](HD006063.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD006063, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

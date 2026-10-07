@@ -40,4 +40,8 @@ Mehrere teilweise aneinanderpassende Fragement erhalten. Abmessungen der größe
 
 IDR 3, 2, 050; fig. 37 a u. b (Fotos u. Zeichnungen). #
 
+## Фото
+
+![HD045980](HD045980.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045980, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

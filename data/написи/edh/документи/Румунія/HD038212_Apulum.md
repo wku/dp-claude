@@ -39,4 +39,8 @@ I O M / M AVREL / CRESCENTI / NVS IMMV / LEG XIII G / ANTONINI / [ ]NAE PRO SE /
 IDR 3, 5, 134; Foto u. Zeichnung.
 - CIL 03, 01038. #
 
+## Фото
+
+![HD038212](HD038212.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038212, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -34,4 +34,8 @@ $] / feci[t b(ene) m(erenti)]
 
 IDR 3, 2, 469; fig. 369 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD047852](HD047852.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047852, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

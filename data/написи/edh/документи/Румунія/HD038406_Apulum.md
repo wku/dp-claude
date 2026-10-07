@@ -41,4 +41,8 @@ Mithrasrelief in drei Szenen. Inschrift befindet sich auf den Rahmen des Reliefs
 IDR 3, 5, 274; Foto u. Zeichnung.
 - CIL 03, 01120. #
 
+## Фото
+
+![HD038406](HD038406.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038406, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

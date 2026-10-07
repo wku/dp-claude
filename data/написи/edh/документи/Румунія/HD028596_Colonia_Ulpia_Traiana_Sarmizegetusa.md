@@ -47,4 +47,8 @@ AE 1912, 0303.
 - CIL 03, 12580. (B)
 - IDR 3, 2, 264; fig. 216 (Foto u. Zeichnung). (B) #
 
+## Фото
+
+![HD028596](HD028596.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD028596, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

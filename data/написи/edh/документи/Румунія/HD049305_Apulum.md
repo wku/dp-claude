@@ -43,4 +43,8 @@ Die Inschrift auf der Basis der - sehr wahrscheinlich antiken - Hypnos-Thanatos-
 CIL 03, 07783.
 - IDR 3, 5, 019*; Foto. #
 
+## Фото
+
+![HD049305](HD049305.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD049305, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

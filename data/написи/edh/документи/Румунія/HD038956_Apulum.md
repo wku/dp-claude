@@ -39,4 +39,8 @@ D M / M MOCIVN / CIVS VALENTIN / VS LIB LEGATI LEG / XIII G VXIT ANNS XXVIIII PO
 IDR 3, 5, 556; Foto u. Zeichnung.
 - CIL 03, 01194. #
 
+## Фото
+
+![HD038956](HD038956.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038956, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

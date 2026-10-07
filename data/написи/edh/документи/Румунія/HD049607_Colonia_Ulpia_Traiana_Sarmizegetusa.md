@@ -35,4 +35,8 @@
 SEG 25, 0822.
 - IDR 3, 2, 067 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD049607](HD049607.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD049607, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

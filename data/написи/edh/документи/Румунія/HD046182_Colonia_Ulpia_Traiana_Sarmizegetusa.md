@@ -39,4 +39,8 @@
 IDR 3, 2, 232; fig. 187 (Foto u. Zeichnung).
 - CIL 03, 07950. #
 
+## Фото
+
+![HD046182](HD046182.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046182, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

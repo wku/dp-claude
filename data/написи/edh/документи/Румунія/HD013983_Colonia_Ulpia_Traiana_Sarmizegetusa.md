@@ -45,4 +45,8 @@ AE 1978, 0671.
 - IDR 3, 2, 454; fig. 359 (Foto u. Zeichnung).
 - C. Ciongradi, Grabmonument und sozialer Status in Oberdakien (Cluj-Napoca 2007) 140, Nr. S/S 2; Taf. 23. #
 
+## Фото
+
+![HD013983](HD013983.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD013983, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

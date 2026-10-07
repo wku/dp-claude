@@ -43,4 +43,8 @@ Altar oder Statuenbasis Z. 1, 2 u. 5: hederae.
 IDR 3, 5, 019; Foto.
 - CIL 03, 00985. #
 
+## Фото
+
+![HD037987](HD037987.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD037987, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

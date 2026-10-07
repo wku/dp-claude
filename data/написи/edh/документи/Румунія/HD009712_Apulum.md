@@ -49,4 +49,8 @@ AE 1972, 0467.
 - R. Ardevan, Novensia 15, 2004, 99-105. - AE 2004.
 - AE 2004, 1197. #
 
+## Фото
+
+![HD009712](HD009712.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD009712, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -45,4 +45,8 @@ Auf der Vorderseite der corona Giebel mit Darstellung dem Kopf des Sol im Giebel
 IDR 3, 5, 272; Foto.
 - CIL 03, 01112. #
 
+## Фото
+
+![HD038402](HD038402.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038402, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

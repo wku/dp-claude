@@ -45,4 +45,8 @@ AE 1978, 0672. (B)
 - IDR 3, 2, 101; fig. 80 (Foto u. Zeichnung).
 - PIR (2. Aufl.) O 137. #
 
+## Фото
+
+![HD004405](HD004405.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD004405, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

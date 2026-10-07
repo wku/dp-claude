@@ -41,4 +41,8 @@ Textwiedergabe nach IDR; Ergänzungen der Namen in Anlehnung an IDR 3, 2, 345.
 CIL 03, 13784.
 - IDR 3, 2, 317; fig. 262 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD047221](HD047221.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047221, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

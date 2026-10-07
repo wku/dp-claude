@@ -43,4 +43,8 @@ AE 1977, 0691. (B)
 - I. Piso, Apulum 14, 1976, 441-444, Nr. 2; fig. 2 (Foto u. Zeichnung). (B) - AE 1977.
 - C. Ciongradi, Grabmonument und sozialer Status in Oberdakien (Cluj-Napoca 2007) 152, Nr. S/S 37; Taf. 38. #
 
+## Фото
+
+![HD020587](HD020587.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020587, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

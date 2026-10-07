@@ -43,4 +43,8 @@ Altar oder Statuenbasis.
 IDR 3, 5, 277; Foto u. Zeichnung.
 - CIL 03, 07777. #
 
+## Фото
+
+![HD038414](HD038414.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038414, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

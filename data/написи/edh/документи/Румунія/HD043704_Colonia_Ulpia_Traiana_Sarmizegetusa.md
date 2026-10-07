@@ -42,4 +42,8 @@ AE 1998, 1094. (B)
 - IDR 3, 2, 064; fig. 52 (Fotos u. Zeichnungen). (B)
 - I. Piso, ZPE 120, 1998, 262-263, Nr. 7; Fotos u. Zeichnungen. (B) - AE 1998. #
 
+## Фото
+
+![HD043704](HD043704.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043704, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

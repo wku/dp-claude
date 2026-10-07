@@ -44,4 +44,8 @@ AE 1980, 0758. (B)
 - I. Piso, ZPE 40, 1980, 273-276; Taf. 17. - AE 1980.
 - IDR 3, 2, 100; fig. 79. (B) #
 
+## Фото
+
+![HD005839](HD005839.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD005839, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

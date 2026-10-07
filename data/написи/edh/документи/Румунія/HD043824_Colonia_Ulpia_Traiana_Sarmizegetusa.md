@@ -48,4 +48,8 @@ AE 2003, 1515.
 - ILD 239.
 - I. Piso, in: I. Piso (Hrsg.), Le forum vetus de Sarmizegetusa 1 (Bucureşti 2006) 217-219, Nr. 4; Fig. 3, 4 (Fotos u. Zeichnung). #
 
+## Фото
+
+![HD043824](HD043824.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043824, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

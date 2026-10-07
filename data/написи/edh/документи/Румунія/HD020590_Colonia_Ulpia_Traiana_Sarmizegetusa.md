@@ -39,4 +39,8 @@ AE 1977, 0692.
 - I. Piso, Apulum 14, 1976, 444-445, Nr. 3; fig. 3 (Foto u. Zeichnung). (B) - AE 1977.
 - CIL 03, 12578. #
 
+## Фото
+
+![HD020590](HD020590.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020590, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

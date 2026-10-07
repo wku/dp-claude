@@ -35,4 +35,8 @@ NVMINI ET PRO / VIDENTIAE IM[ ] / SEVERI ET ANT[ ] / [[[ ]]] / GRATIA[ ] / LAP[
 CIL 03, 01439.
 - IDR 3, 2, 328; fig. 271 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD047272](HD047272.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047272, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

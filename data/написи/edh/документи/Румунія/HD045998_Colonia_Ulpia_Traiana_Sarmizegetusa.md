@@ -40,4 +40,8 @@ Zwei nicht aneinander passende Fragmente erhalten. IDR gibt lediglich die Maße 
 
 IDR 3, 2, 066; fig. 54 (Fotos u. Zeichungen). (B) #
 
+## Фото
+
+![HD045998](HD045998.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045998, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

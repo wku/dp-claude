@@ -44,4 +44,8 @@ IDR 3, 5, 218; Foto.
 - CIL 03, 07761.
 - ILS 4304. #
 
+## Фото
+
+![HD038327](HD038327.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038327, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

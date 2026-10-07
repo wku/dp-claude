@@ -44,4 +44,8 @@ IDR 3, 5, 436; Foto u. Zeichnung.
 - CIL 03, 01178.
 - ILS 1165. #
 
+## Фото
+
+![HD038723](HD038723.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038723, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

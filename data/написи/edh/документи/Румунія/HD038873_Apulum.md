@@ -45,4 +45,8 @@ IDR 3, 5, 499; Foto u. Zeichnung.
 - E. Weber, in: L. Ruscu - C. Ciongradi - R. Ardevan - C. Roman - C. Găzdac (Hrsg.), Orbis Antiquus. Studia in honorem Ioannis Pisonis (Cluj-Napoca 2004) 818. - AE 2004.
 - AE 2004, 1181. #
 
+## Фото
+
+![HD038873](HD038873.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038873, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

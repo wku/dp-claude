@@ -34,4 +34,8 @@ D M / [ ] VAL PHILINI / [ ]X AN LXX COLL FA / [
 
 IDR 3, 2, 456; fig. 360 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD047841](HD047841.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047841, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

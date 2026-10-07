@@ -42,4 +42,8 @@ AE 1978, 0675.
 - I. Piso, AnInstCluj 21, 1978, 281, Nr. 3; fig. 5; fig. 6 (Zeichnung). - AE 1978.
 - IDR 3, 2, 197; fig. 157 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD004360](HD004360.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD004360, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

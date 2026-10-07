@@ -41,4 +41,8 @@ Statuengruppe auf einer angearbeiteten Basis. Die angegebenen Abmessungen bezieh
 CIL 03, 13783.
 - IDR 3, 2, 318; fig. 263. #
 
+## Фото
+
+![HD047222](HD047222.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047222, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

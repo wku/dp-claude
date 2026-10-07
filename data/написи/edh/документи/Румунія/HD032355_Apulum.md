@@ -46,4 +46,8 @@ CIL 03, 14474.
 - E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 400-401, Nr. 517; Foto.
 - IDR 3, 5, 295; Foto u. Zeichnung. #
 
+## Фото
+
+![HD032355](HD032355.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD032355, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

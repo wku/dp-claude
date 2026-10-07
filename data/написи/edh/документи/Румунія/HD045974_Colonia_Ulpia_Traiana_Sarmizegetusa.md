@@ -40,4 +40,8 @@ Sitzbank des Amphitheaters.
 
 IDR 3, 2, 043; fig. 31 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD045974](HD045974.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045974, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

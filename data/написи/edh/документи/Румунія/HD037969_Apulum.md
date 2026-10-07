@@ -40,4 +40,8 @@ IDR 3, 5, 006; Foto.
 - CIL 03, 00975.
 - ILS 7146. #
 
+## Фото
+
+![HD037969](HD037969.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD037969, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

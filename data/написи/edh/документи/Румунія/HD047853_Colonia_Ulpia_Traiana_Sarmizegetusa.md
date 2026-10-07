@@ -35,4 +35,8 @@ $] / [---]e fil(iae) su[ae] / [--- b(ene)? m(erenti)? po]suit
 CIL 03, 07990.
 - IDR 3, 2, 470; fig. 370 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD047853](HD047853.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047853, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

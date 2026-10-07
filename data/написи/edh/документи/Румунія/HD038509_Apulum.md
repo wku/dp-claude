@@ -44,4 +44,8 @@ IDR 3, 5, 310; Foto u. Zeichnung.
 - CIL 03, 01140.
 - CIL 03, 01140 add. p. 1390. #
 
+## Фото
+
+![HD038509](HD038509.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038509, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

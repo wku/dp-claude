@@ -48,4 +48,8 @@ IDR 3, 5, 319; Foto.
 - SIRIS 690.
 - L. Bricault, Recueil des inscriptions concernant les cultes Isiaques (RICIS) (Paris 2005) 730-731, Nr. 616/0402; pl. 125, 616/0402. (B) #
 
+## Фото
+
+![HD038519](HD038519.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038519, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

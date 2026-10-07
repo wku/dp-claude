@@ -37,4 +37,8 @@ Z. 5: vor C wohl eher ein Worttrenner als ein I (IDR III: IC).
 IDR 3, 2, 367; fig. 301 (Foto u. Zeichnung).
 - CIL 03, 12592. #
 
+## Фото
+
+![HD046186](HD046186.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046186, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

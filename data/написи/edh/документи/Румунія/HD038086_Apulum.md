@@ -45,4 +45,8 @@ Altar oder Statuenbasis. Fundjahr: zwischen 1767 und 1857. Datierung: zwischen 1
 IDR 3, 5, 077; Foto.
 - CIL 03, 01011. #
 
+## Фото
+
+![HD038086](HD038086.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038086, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

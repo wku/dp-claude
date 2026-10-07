@@ -45,4 +45,8 @@ Auf der Vorderseite der corona zwischen den Akroteren ein Adler.
 IDR 3, 5, 099; Foto u. Zeichnung.
 - CIL 03, 01029. #
 
+## Фото
+
+![HD038137](HD038137.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038137, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

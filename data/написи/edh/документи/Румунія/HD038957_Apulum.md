@@ -45,4 +45,8 @@ Stele in zwei Teile gebrochen. Oberhalb des Inschriftfeldes Giebel: im Giebelfel
 IDR 3, 5, 558; Foto u. Zeichnung.
 - CIL 03, 01195. #
 
+## Фото
+
+![HD038957](HD038957.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038957, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

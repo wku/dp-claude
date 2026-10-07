@@ -39,4 +39,8 @@ GLYCONI / M ANT / ONESAS / IVSSO DEI / L P
 IDR 3, 5, 085; Foto.
 - CIL 03, 01021. #
 
+## Фото
+
+![HD038106](HD038106.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038106, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

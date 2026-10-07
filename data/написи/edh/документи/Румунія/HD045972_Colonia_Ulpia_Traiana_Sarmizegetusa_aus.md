@@ -43,4 +43,8 @@ Sitzbank des Amphitheaters in Sarmizegetusa.
 IDR 3, 2, 041; fig. 29.
 - CIL 03, 01523. #
 
+## Фото
+
+![HD045972](HD045972.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045972, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

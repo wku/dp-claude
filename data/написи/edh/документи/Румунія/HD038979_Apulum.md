@@ -43,4 +43,8 @@ Linker Teil einer Stele oder Tafel, in späterer Zeit bearbeitet und als Baustei
 IDR 3, 5, 593; Foto u. Zeichnung.
 - CIL 03, 14482. #
 
+## Фото
+
+![HD038979](HD038979.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038979, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

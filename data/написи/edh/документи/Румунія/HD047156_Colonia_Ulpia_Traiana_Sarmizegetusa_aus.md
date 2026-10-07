@@ -44,4 +44,8 @@ CIL 03, 01437.
 - PIR (2. Aufl.) L 357.
 - A. Stein, Die Reichsbeamten von Dazien (Budapest 1944) 83. #
 
+## Фото
+
+![HD047156](HD047156.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047156, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

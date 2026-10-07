@@ -42,4 +42,8 @@ Block zur Fixierung eines der Pfähle für das velarium.
 
 IDR 3, 2, 056; fig. 41, 56 (Zeichnung). #
 
+## Фото
+
+![HD045986](HD045986.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045986, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

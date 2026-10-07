@@ -39,4 +39,8 @@
 CIL 03, 07956.
 - IDR 3, 2, 265; fig. 217 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD046842](HD046842.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046842, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

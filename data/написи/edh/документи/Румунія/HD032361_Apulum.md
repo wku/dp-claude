@@ -42,4 +42,8 @@ AE 1901, 0028.
 - ILS 7149.
 - IDR 3, 5, 014; Foto u. Zeichnung. #
 
+## Фото
+
+![HD032361](HD032361.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD032361, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -45,4 +45,8 @@ Rechter unterer Teil einer Tafel. Schreibtechnik: litterae aureae (in Buchstaben
 IDR 3, 5, 404; Foto u. Zeichnung.
 - CIL 03, 14483. #
 
+## Фото
+
+![HD038658](HD038658.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038658, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

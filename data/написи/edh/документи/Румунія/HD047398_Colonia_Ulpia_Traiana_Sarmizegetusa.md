@@ -37,4 +37,8 @@ Zwei Teile bekannt. Der obere Teil (Z. 1-3) befindet sich in Deva; ein nach unte
 CIL 03, 07987.
 - IDR 3, 2, 381; fig. 310 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD047398](HD047398.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047398, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -45,4 +45,8 @@ IDR 3, 5, 260; Foto u. Zeichnung.
 - ILS 3097.
 - PIR (2. Aufl.) C 161. #
 
+## Фото
+
+![HD038389](HD038389.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038389, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

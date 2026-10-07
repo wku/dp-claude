@@ -42,4 +42,8 @@ AE 1901, 0029.
 - ILS 9335.
 - IDR 3, 5, 037; Foto u. Zeichnung. #
 
+## Фото
+
+![HD032364](HD032364.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD032364, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

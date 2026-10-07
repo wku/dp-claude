@@ -39,4 +39,8 @@ Vier nicht aneinander passende Fragmente erhalten. Abmessungen des größten Fra
 CIL 03, 07986.
 - IDR 3, 2, 352; fig. 292. #
 
+## Фото
+
+![HD047331](HD047331.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047331, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

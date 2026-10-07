@@ -45,4 +45,8 @@ IDR 3, 5, 041; Foto.
 - I. Piso, Fasti provinciae Daciae 1. Die senatorischen Amtsträger (Bonn 1993) 251-252, Nr. 60.
 - A. Buonopane - V. La Monaca, in: G.P. Marchi - J. Pál (Hrsg.), Epigrafi romane di Transilvania. Bibliotheca Capitolare di Verona, Manoscritto CCLXVII (Verona - Szeged 2010) 268, Nr. 15; Foto u. Zeichnung. #
 
+## Фото
+
+![HD038012](HD038012.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038012, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

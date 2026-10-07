@@ -38,4 +38,8 @@ Fundstelle unklar. Möglicherweise aus dem Mithräum.
 
 IDR 3, 2, 295; fig. 243. #
 
+## Фото
+
+![HD047204](HD047204.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047204, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -43,4 +43,8 @@ Tafel in drei Fragmente gebrochen, eines davon heute verschollen.
 IDR 3, 5, 035; Foto u. Zeichnung.
 - CIL 03, 14470. #
 
+## Фото
+
+![HD038009](HD038009.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038009, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

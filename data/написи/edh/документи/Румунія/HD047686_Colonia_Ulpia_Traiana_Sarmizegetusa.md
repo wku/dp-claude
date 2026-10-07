@@ -35,4 +35,8 @@ D M / VLP CHELIDO / NI VIX AN XLVI / L CASSIVS / [
 CIL 03, 12591.
 - IDR 3, 2, 446; fig. 353 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD047686](HD047686.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047686, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

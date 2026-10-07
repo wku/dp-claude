@@ -38,4 +38,8 @@ Drei nicht aneinander passende Fragmente erhalten. Angegeben nur die Abmessungen
 
 IDR 3, 2, 138; fig. 111 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD046516](HD046516.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046516, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

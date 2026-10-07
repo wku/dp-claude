@@ -40,4 +40,8 @@ Z. 2: O oder C. Sitzbank des Amphitheaters.
 
 IDR 3, 2, 034; fig. 23 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD045964](HD045964.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045964, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -45,4 +45,8 @@ AE 2003, 1514.
 - I. Piso, ActaMusNapoca 39/40, 2002/03, 215-218, Nr. 15; fig. 4a; fig. 4b (Zeichnung). - AE 2003.
 - ILD 243. #
 
+## Фото
+
+![HD043821](HD043821.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043821, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

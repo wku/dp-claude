@@ -47,4 +47,8 @@ AE 1983, 0816.
 - CIL 03, 12560.
 - IDR 3, 5, 374; Foto u. Zeichnung. #
 
+## Фото
+
+![HD000739](HD000739.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD000739, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -45,4 +45,8 @@ Z. 6-7: hederae. CIL III: Z. 3: Isa(uria) o. Isa(ura).
 IDR 3, 5, 148; Foto u. Zeichnung.
 - CIL 03, 01044. #
 
+## Фото
+
+![HD038231](HD038231.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038231, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

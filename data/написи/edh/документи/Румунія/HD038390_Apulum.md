@@ -39,4 +39,8 @@ IDR 3, 5, 261; Foto u. Zeichnung.
 - CIL 03, 01105 add. p. 1390.
 - A. Buonopane - V. La Monaca, in: G.P. Marchi - J. Pál (Hrsg.), Epigrafi romane di Transilvania. Bibliotheca Capitolare di Verona, Manoscritto CCLXVII (Verona - Szeged 2010) 339, Nr. 23; Foto u. Zeichnung. #
 
+## Фото
+
+![HD038390](HD038390.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038390, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

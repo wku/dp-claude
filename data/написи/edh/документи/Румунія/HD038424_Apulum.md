@@ -49,4 +49,8 @@ IDR 3, 5, 284; Foto u. Zeichnung.
 - CIMRM 1947.
 - CIMRM 1948. #
 
+## Фото
+
+![HD038424](HD038424.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038424, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

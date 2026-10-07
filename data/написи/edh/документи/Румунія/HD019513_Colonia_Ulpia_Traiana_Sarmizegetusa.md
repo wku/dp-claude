@@ -45,4 +45,8 @@ AE 1959, 0303. (B)
 - D. Tudor, Istoria sclavajului în Dacia romană (Bucureşti 1957) 248, Nr. 34. (B) - AE 1959.
 - C. Ciongradi, Grabmonument und sozialer Status in Oberdakien (Cluj-Napoca 2007) 268, Nr. T/S 10; Taf. 124. (B) #
 
+## Фото
+
+![HD019513](HD019513.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD019513, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

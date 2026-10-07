@@ -40,4 +40,8 @@ CIL 03, 01440.
 - CIL 03, 01440 add. p. 1407.
 - IDR 3, 2, 330; fig. 273 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD047277](HD047277.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD047277, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

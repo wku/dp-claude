@@ -41,4 +41,8 @@ Zwei nicht aneinander passende Fragmente erhalten. Maße des kleineren Fragments
 IDR 3, 2, 037; fig. 25 (Foto u. Zeichnung).
 - CIL 03, 12593. #
 
+## Фото
+
+![HD045968](HD045968.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD045968, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -39,4 +39,8 @@ INVICTO / MYTHRAE / DIOSCO / RVS MARCI / V S L M
 IDR 3, 5, 273; Foto.
 - CIL 03, 01113. #
 
+## Фото
+
+![HD038403](HD038403.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038403, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

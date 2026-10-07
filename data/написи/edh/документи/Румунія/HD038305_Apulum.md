@@ -48,4 +48,8 @@ AE 1896, 0059. (B)
 - J. Jung, AEM 19, 1896/97, 70, Nr. 2. (B) - AE 1896.
 - C. Béla, AErt 16, 1896, 261-262; Foto. - AE 1897. #
 
+## Фото
+
+![HD038305](HD038305.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD038305, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

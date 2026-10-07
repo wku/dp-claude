@@ -41,4 +41,8 @@ FON[ ] / AES[ ] / H[
 IDR 3, 2, 183; Zeichnung.
 - CIL 03, 12579. (B) #
 
+## Фото
+
+![HD049344](HD049344.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD049344, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

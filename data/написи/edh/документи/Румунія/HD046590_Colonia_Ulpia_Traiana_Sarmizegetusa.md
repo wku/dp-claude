@@ -34,4 +34,8 @@ $] / [---] elector(um) et [---] / [---]lius Sallust[ianus? &
 
 IDR 3, 2, 143; fig. 116 (Foto u. Zeichnung). #
 
+## Фото
+
+![HD046590](HD046590.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046590, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

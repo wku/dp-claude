@@ -38,4 +38,8 @@ Zwei nicht aneinander passende Fragmente erhalten. Abmessungen des größeren Fr
 
 IDR 3, 2, 132; fig. 106. #
 
+## Фото
+
+![HD046512](HD046512.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046512, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

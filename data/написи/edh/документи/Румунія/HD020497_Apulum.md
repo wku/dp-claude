@@ -43,4 +43,8 @@ Linker oberer Teil des Altars nicht erhalten.
 IDR 3, 5, 167; Foto.
 - CIL 03, 06260. #
 
+## Фото
+
+![HD020497](HD020497.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD020497, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

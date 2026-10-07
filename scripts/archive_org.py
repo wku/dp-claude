@@ -3,13 +3,21 @@ import json, time, urllib.request
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent.parent / "data" / "archive_org"
-ВИДАННЯ = [
-    "inscriptionesan00petegoog",  # Латишев, IOSPE, том 1 (1885)
-    "inscriptionesty00russgoog",  # Латишев, Tyrae Olbiae Chersonesi, 2 вид.
-    "LatyshevInscriptionesAntiquaeOraeSeptentrionalisPontiEuxiniGraecaeEtLatinaeVol4IV",  # том 4 (1901)
-    "pontika2",
-    "izobrazheniiaraz00vaks",
-]
+ВИДАННЯ = {  # ідентифікатор Internet Archive -> зрозуміла назва папки
+    "inscriptionesty00russgoog": "Латишев_1916_IOSPE_том1_Тіра_Ольвія_Херсонес_скан_Google",
+    "sucho-id-_20220305_2137": "Латишев_1916_IOSPE_том1_Тіра_Ольвія_Херсонес_скан_бібліотеки",
+    "inscriptionesan00petegoog": "Латишев_1890_IOSPE_том2_Боспорське_царство",
+    "LatyshevInscriptionesAntiquaeOraeSeptentrionalisPontiEuxiniGraecaeEtLatinaeVol4IV": "Латишев_1901_IOSPE_том4",
+    "pontika2": "Латишев_1909_Понтіка_збірник_статей",
+    "izobrazheniiaraz00vaks": "1801_Зображення_пам_ятників_давнини_Чорного_моря",
+    "cultsofolbia00hirs": "Хірст_1902_Культи_Ольвії",
+    "derebusolbiopoli00lind": "1888_De_rebus_Olbiopolitarum",
+    "bub_gb_XrojFJxkj5gC": "1822_Медалі_Ольвії",
+    "b14691693": "1922_Грецька_археологічна_колекція_з_Ольвії",
+    "antiquitsgrecqu00rochgoog": "Рауль_Рошетт_1822_Грецькі_старожитності_Боспору_Кіммерійського",
+    "Kerchenskiedrevnosti26": "1845_Керченські_старожитності",
+    "McGillLibrary-hssl_pamiatniki-khristianskago-khersonesa_foliobr133u383c5371905vyp-3-16271": "1905_Пам_ятники_християнського_Херсонеса",
+}
 
 
 def get(url, tries=5):
@@ -41,12 +49,34 @@ def save(url, path):
     return False
 
 
-for i in ВИДАННЯ:
-    d = OUT / i
+def нова_назва(папка, імя):
+    for кінець, нов in (("_djvu.txt", ".txt"), ("_text.pdf", "_шар_тексту.pdf"), (".pdf", ".pdf"), (".djvu", ".djvu")):
+        if імя.endswith(кінець):
+            return папка + нов
+    return імя
+
+
+for i, назва in ВИДАННЯ.items():
+    d = OUT / назва
     d.mkdir(exist_ok=True)
     meta = get(f"https://archive.org/metadata/{i}")
     (d / "metadata.json").write_bytes(meta)
     for f in json.loads(meta)["files"]:
-        if f["format"] in ФОРМАТИ and int(f.get("size", 0)) <= МАКС and not (d / f["name"]).exists():
-            print(i, f["name"], save(f"https://archive.org/download/{i}/{f['name']}", d / f["name"]))
+        ціль = d / нова_назва(назва, f["name"])
+        if f["format"] in ФОРМАТИ and int(f.get("size", 0)) <= МАКС and not ціль.exists():
+            print(назва, ціль.name, save(f"https://archive.org/download/{i}/{f['name']}", ціль))
             time.sleep(5)
+
+import csv, re
+рядки = []
+for i, назва in ВИДАННЯ.items():
+    m = json.load(open(OUT / назва / "metadata.json"))["metadata"]
+    опис = re.sub(r"<[^>]+>", " ", str(m.get("description", "")))
+    рядки.append({"папка": назва, "id": i, "назва": m.get("title", ""), "автор": m.get("creator", ""), "рік": m.get("date", m.get("year", "")),
+                  "мова": m.get("language", ""), "опис": " ".join(опис.split()),
+                  "файли": "; ".join(sorted(p.name for p in (OUT / назва).iterdir() if p.name != "metadata.json")),
+                  "url": f"https://archive.org/details/{i}"})
+with open(OUT / "index.csv", "w", newline="", encoding="utf-8") as f:
+    w = csv.DictWriter(f, рядки[0].keys())
+    w.writeheader()
+    w.writerows(рядки)

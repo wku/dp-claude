@@ -4,7 +4,7 @@ import json, re, time, urllib.parse, urllib.request
 from pathlib import Path
 
 ROOT = "https://telamon.uni-sofia.bg"
-OUT = Path(__file__).resolve().parent.parent / "data" / "telamon"
+OUT = Path(__file__).resolve().parent.parent / "data" / "написи" / "telamon"
 STATE = OUT / "state.json"
 ПАУЗА = 5
 ДОЗВОЛЕНО = re.compile(r"^/(epi/view_ins/|epi/view_id/|list/)")

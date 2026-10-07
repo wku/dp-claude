@@ -5,7 +5,7 @@ import csv
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parent.parent / "data" / "iospe"
+OUT = Path(__file__).resolve().parent.parent / "data" / "написи" / "iospe"
 NS = "{http://www.tei-c.org/ns/1.0}"
 
 

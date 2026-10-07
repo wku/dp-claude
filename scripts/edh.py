@@ -3,7 +3,7 @@ import csv, io, re, tempfile, urllib.request, zipfile
 from pathlib import Path
 
 BASE = "https://edh.ub.uni-heidelberg.de/data/download/"
-OUT = Path(__file__).resolve().parent.parent / "data" / "edh"
+OUT = Path(__file__).resolve().parent.parent / "data" / "написи" / "edh"
 КРАЇНИ = {"ua", "pl", "ro", "bg", "cz", "ru"}
 csv.field_size_limit(10**9)
 

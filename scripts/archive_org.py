@@ -2,7 +2,7 @@
 import json, time, urllib.request
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parent.parent / "data" / "archive_org"
+OUT = Path(__file__).resolve().parent.parent / "data" / "книги"
 ВИДАННЯ = {  # ідентифікатор Internet Archive -> зрозуміла назва папки
     "inscriptionesty00russgoog": "Латишев_1916_IOSPE_том1_Тіра_Ольвія_Херсонес_скан_Google",
     "sucho-id-_20220305_2137": "Латишев_1916_IOSPE_том1_Тіра_Ольвія_Херсонес_скан_бібліотеки",

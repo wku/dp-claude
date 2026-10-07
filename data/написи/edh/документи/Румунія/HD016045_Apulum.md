@@ -52,4 +52,6 @@ AE 1964, 0193. (B)
 
 ![HD016045](HD016045.jpg)
 
+![HD016045_2](HD016045_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD016045, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

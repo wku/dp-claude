@@ -8,7 +8,7 @@ UA = {"User-Agent": "ancient-texts-research/1.0 (https://github.com/wku/dp-claud
 ПАУЗА = 2
 # категорії Commons, назва папки
 ПОЧАТОК = {
-    "Ольвія": ["Category:Inscriptions in Olbia", "Category:Steles from Olbia (Ukraine)", "Category:Latin inscriptions in Olbia"],
+    "Ольвія": ["Category:Steles from Olbia (Ukraine)"],
     "Херсонес": ["Category:Civic Oath of Chersonesos"],
 }
 ПОШУК = {  # запит -> папка, береться кожна знайдена категорія з потрібними словами
@@ -60,7 +60,7 @@ def main():
     for папка, запити in ПОШУК.items():
         for q in запити:
             for x in api(action="query", list="search", srsearch=q, srnamespace=14, srlimit=10)["query"]["search"]:
-                if re.search(r"inscript|stele|lead|epigra|oath|tablet", x["title"], re.I) and not ВИКЛЮЧИТИ.search(x["title"]):
+                if re.search(r"inscript|stele|lead|epigra|oath|tablet", x["title"], re.I) and re.search(r"ukrain|crimea|sevastopol|odesa|kherson|mykolaiv|chersones|tyras|berezan|kerch|tanais|bospor|pantica", x["title"], re.I) and not ВИКЛЮЧИТИ.search(x["title"]):
                     кандидати.setdefault(папка, []).append(x["title"])
     print({k: sorted(set(v)) for k, v in кандидати.items()}, flush=True)
     for папка, кати in кандидати.items():

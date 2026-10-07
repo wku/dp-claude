@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент регламентирующего акта</title><title xml:lang="en">Regulation</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.401</idno><idno type="PE">PE3000491</idno><idno type="filename">3.101</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>1/36979</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>1/36979</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg xml:lang="ru">Регламентирующий акт.</seg>
+                     <seg xml:lang="en">Regulation.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Обломана со всех сторон. Покрыта следами от огня и остатками строительного раствора. 
+                              Лицевая сторона сглажена, тыльная сторона обработана суммарно. Сохранились остатки девяти строк надписи, 
+                              вырезанной по предварительной разметке.</p>
+                           <p xml:lang="en">Broken off on all sides. Traces of fire damage and cement. The front is planed, the back is treated summarily. Nine-line inscription 
+                              cut following ruled lines</p>
+                           <dimensions>
+                              <height unit="cm">17,5</height>
+                              <width unit="cm">23,0</width>
+                              <depth unit="cm">8,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Слегка изогнутые линии некоторых букв, альфа с прямой поперечной линией, мю с наклонными боковыми линиями 
+                           и короткими внутренними гастами, правая вертикаль ню укорочена, сигма со слегка расходящимися верхней и нижней линиями, 
+                           открытая небольшая омега с короткими боковыми гастами, утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Slight curving of some letterstrokes, alpha with straight crossbar, flaring of the ends of letterstrokes.</seg>
+                        <height unit="cm">1,2</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0201" evidence="Палеография">
+                        <seg xml:lang="ru">III в. до н.э.</seg>
+                        <seg xml:lang="en">III century B.C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1977 г. Раскопки В.А. Кутайсова.</rs>
+                        <rs type="context">В северо-восточном районе херсонесского городища, в стене западной башни атриума 
+                           Уваровской базилики (№ 23).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1977, excavations of V.A. Kutaysov.</rs>
+                        <rs type="context">Northeast sector of the citadel of Chersonesos, Uvarov Basilica (№ 23), western tower of the atrium, wall.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-04-26" who="PY">moved Russian text to commentary</change>
+         <change when="2016-09-13" who="SS">encoded text and metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.401">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Соломоник 1984a --><ptr target="bib:b0831"/>, <citedRange>72</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- SEG --><ptr target="bib:SEG"/> <citedRange>34, 750</citedRange></bibl>
+               <bibl><!-- BullEp --><ptr target="bib:BE"/> <citedRange>1990, 556</citedRange>
+               (= <bibl><!--  SEG--><ptr target="bib:SEG"/> <citedRange>40, 614</citedRange></bibl>)</bibl>
+               <bibl><!-- Виноградов, Щеглов,1990 --><ptr target="bib:b0454"/>, <citedRange>344</citedRange>
+               (= <bibl><!-- SEG --><ptr target="bib:SEG"/> <citedRange>42, 693</citedRange></bibl>
+               <bibl>Vinogradov 1997, 454</bibl>)</bibl>
+               <bibl><!-- Соломоник 1990 --><ptr target="bib:b0506"/>, 45, № <citedRange>36</citedRange></bibl>
+               <bibl><!-- Зубарь 2005a --><ptr target="bib:b0832"/>, <citedRange>154</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">ἐν</supplied><unclear>ια</unclear><supplied reason="lost">υ</supplied>τοῦ</w> <w part="I">χειροτο<supplied reason="lost">ν</supplied></w><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w>καὶ</w> <w>τὰ</w> <w>ἄρσενα</w> 
+                                                   <w>κα<supplied reason="lost">ὶ</supplied></w> <supplied reason="lost"><w>τά</w> <w>θήλεα</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">εσθω</w> <w>φυγαδεύοντ<unclear>α</unclear></w> 
+                                                   <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost" cert="low">ο</supplied>ἴκοι</w> 
+                                                   <w>ἐν</w> <w>ἁμέραις</w> <w>δέ<supplied reason="lost">κα</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/> <w>τὰ</w> 
+                                                   <w>λελαμμέν<supplied reason="lost">α</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">ν</w> <w>ἕκαστος</w> 
+                                                   <gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">π</supplied>εντήκο<unclear>ν</unclear><supplied reason="lost">τα</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Τ</unclear>ΑΣ</orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Σ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="9a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg>[ἐν]ι̣α̣[υ]τοῦ <note>scripsi</note></rdg>
+                  <rdg>χειροτο[νῆσαι - - -] <note>ed. pr.</note></rdg>
+                  <rdg source="bib:BE">χειροτο[νηθέντες - - -] <note>Vinogradov</note></rdg>
+               </app>
+               <app loc="2-3">
+                 <rdg>κα[ὶ τὰ θήλη (sic) - - -  e.g. θυ]έσθω <note>ed. pr.</note></rdg>
+                  <rdg source="bib:BE">κα[ὶ τὰ θήλεα (sc. σώματα) - - - / - - - δικαζ]έσθω <note>Vinogradov</note></rdg>
+               </app>
+               <app loc="3">
+                  <rdg>φυγαδεύοντα̣ <note>scripsi sec. lap.</note></rdg>
+                  <rdg>φυγαδεύοντ[ες - - -] <note>ed. pr.</note></rdg>
+               </app>
+               <app loc="3-4">
+                  <rdg source="bib:BE">φυγαδεύοντ[ες δὲ διαδικαζέσθων - - - / - - - πρόδ]ικοι <note>Vinogradov</note></rdg>
+               </app>
+               <app loc="4">
+                  <rdg><note>in.:</note> [ο]ἶκοι vel [ο]ἴκοι vel [σύνοι]κοι <note>ed. pr.</note></rdg>
+                  <rdg source="bib:BE">[πρόδ]ικοι <note>Vinogradov</note></rdg>
+               </app>
+               <app loc="4">
+                  <rdg><note>fin.:</note> δέ[κα - - -] <note>ed. pr.</note></rdg>
+               </app>
+               <app loc="5">
+                  <rdg>[- - - τὰ χρήμα]τα λελαμμέν[̣α ἀποδοῦναι - - -] <note>ed. pr.</note></rdg>
+                  <rdg source="bib:BE">[- - - κα]ταλελαμμέν[̣οι vel -α - - - δίκαι] (dat. sg.) <note>Vinogradov</note></rdg>
+               </app>
+               <app loc="6">
+                  <rdg><note>in.:</note> [κατὰ τὸν νόμο]ν vel [εἰς τὸν - - - χρόνο]ν <note>ed. pr.</note></rdg>
+               </app>
+               <app loc="6">
+                  <rdg>μ[ήν - - -] <note>ed. pr.</note></rdg>
+                  <rdg source="bib:BE">[πρὶν ἂ]ν ἕκαστος λ̣[άβηι τὰν δίκαν ? - - -] <note>Vinogradov</note></rdg>
+               </app>
+               <app loc="7">
+                  <rdg>[- - - δικαζέσθω π]εντήκον̣[τα ἁμερᾶν - - -] <note>ed. pr.</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>- - - года избирать голосованием (?) - - - мужского и [женского] (пола) - - - бежавшие - - - [в течение десяти] дней [домой] 
+               - - - пойманные - - - каждый - - - пятьдесят - - -</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>- - - of the year, voting by hand (?) - - - both male and [female] - - - who fled - - - [ho]me in ten? days - - - the captured 
+            - - - each - - - fifty - - -</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>4: [πρόδ]ικοι Vinogradov in BE, но на камне нет следов Δ в начале стк., которые согласно Vinogradov 
+               in BullEp видны на фотографии</p>
+            <p>5: in.: перед Τ следы верхней горизонтали (Ε ?)</p>
+            <p>6: fin.: следы треугольной буквы</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

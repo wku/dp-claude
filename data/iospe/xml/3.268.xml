@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Кинолиса</title><title xml:lang="en">Epitaph of Kinolis</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.11</idno><idno type="PE">PE3000011</idno><idno type="filename">3.268</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>4/36847</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>4/36847</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Стела, украшенная карнизом. Расколота на две части.
+                              Сохранилась практически полностью (немного поврежден правый нижний
+                              угол). Двухстрочная надпись вырезана достаточно глубоко и обведена
+                              синей краской. Под надписью рельефное изображение ножа со следами
+                              краски.</p>
+                           <p xml:lang="en">Stele with a cornice, split into two pieces. Almost fully preserved. Two-line inscription is cut in deep strokes and traced in 
+                           blue paint. Below the inscription - relief of a knife, with traces of paint.</p>
+                           <dimensions>
+                              <height unit="cm">185,0</height>
+                              <width unit="cm">37,5</width>
+                              <depth unit="cm">22,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Правая вертикаль ню чуть приподнята, омикрон немного
+                           меньше остальных букв, укороченная правая вертикаль пи, сигма с
+                           расходящимися верхней и нижней гастами, узкая омега, концы дуги которой
+                           не сближаются, слабые утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Nu with a slightly raised right vertical, omicron slightly smaller than other letters,
+                           pi with short right vertical, four-bar sigma with splayed bars; narrow omega with {splayed legs?}, slight flaring of the ends of letterstrokes.</seg>
+                        <height unit="cm">3,2</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0350" notAfter="-0301" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">2-я пол. IV в. до н. э.</seg>
+                        <seg xml:lang="en">2nd half of IV century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1961 г. Раскопки
+                           С.Ф. Стржелецкого (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Юго-восточный район Херсонеса, оборонительные стены, ядро башни XVII (башня Зенона), кладка.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1961 excavations of S.F. Strzheletsky (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Southeast sector of Chersonesos, fortification walls, Tower XVII ("Zeno's Tower"), masonry.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-02-15" who="SS">corrected references to alists; tidied xml</change>
+         <change when="2015-11-03" who="CB">Adding origDate tag</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2015-05-29" who="CB">Metadata tagging</change>
+         <change when="2015-03-12" who="VP">Tagging the names</change>
+         <change when="2015-03-12" who="CB">Normalising and checking</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.11">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Соломоник 1969--><ptr target="bib:b0504"/>, 62, №
+                     <citedRange>9</citedRange></bibl>
+               <bibl><!--НЭПХ II--><ptr target="bib:НЭПХ2"/> <citedRange>143</citedRange>
+               (= <bibl><!--Bull. ép. 1974--><ptr target="bib:BE"/><citedRange>1974, 380</citedRange></bibl>)</bibl>
+               <bibl><!--SEG 53--><ptr target="bib:SEG"/> <citedRange>53, 767, № 7</citedRange></bibl>
+               <bibl><!--Perlman 2011--><ptr target="bib:b0437"/>, 440, №
+                     <citedRange>45</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Даниленко 1969--><ptr target="bib:b0462"/>, 37слл</bibl>
+               <bibl><!--Posamentir 2006--><ptr target="bib:b0438"/>, 54</bibl>
+               <bibl><!--Posamentir 2011--><ptr target="bib:b0439"/>, 54, № 45</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><persName type="attested" ref="#person475"><name nymRef="Κίνωλις">Κίνωλις</name>
+               		<lb n="2"/><persName type="attested" ref="#person476"><name nymRef="Πάσιχος">Πασίχου</name></persName></persName>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Кинолис, (сын) Пасиха.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Kinolis, (son of) Pasichos.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Личное имя Πάσιχος засвидетельствовано также в раннеэллинистической надгробной
+               надписи № ipe505 (ср. Πασιχάρης в № ipe403) и в керамической эпиграфике Херсонеса
+               (LGPN IV), однако наличие родственных связej между его носителями не может быть
+               доказано.</p>
+            <p>Личное имя (скорее всего пафлагонское) Κίνωλις (вариант -μωλις) относится к большой
+               группе антропонимов, связанных с географическими названиями и именами божественных
+               покровителей стран, городов, гор, рек и т.д. (Bechtel, HPN, 550–556). Подобные имена
+               хорошо засвидетельствованы для понтийского региона, в частности для территории
+               Вифинии и Пафлагонии (Βιλλαῖος, Λάδων, Σάγαρις, Ὕπιος, Ἴστρων, Ὕπανις). В данном
+               случае речь идет о ЛИ, связанном с названием реки и маленького эмпория,
+               расположенного в Пафлагонии на побережье между Абонутейхом и Синопой (Ruge W., RE XI
+               435, s.v. Kimolis). Имя засвидетельствовано также в Синопе III в. до н.э. (LGPN V.A)
+               и в Пантикапее в I в. до н.э. – I в. н.э. (LGPN IV). Относительно имени см. Masson
+               1986, 42 (= OGS II 540); Zgusta 1955, § 778; Stolba 1996, 450.</p>
+            <p>Назначение изображенного на памятнике ножа с очень широким лезвием и небольшим
+               режущим краем не удается определить надежно. Неоднократно обращали внимание на
+               похожее изображение на стеле Дулиона, сына Дельфа (№ neph046). Предлагалось
+               интерпретировать изображенный предмет либо как нож виноградаря, либо как нож
+               культового назначения, указывающий, возможно, на жреческий статус умершего (Даниленко
+               1969, 38; НЭПХ II, с. 140; Perlman 2011, 405 ff; Posamentir 2006, 54; Posamentir
+               2011, 151ff.).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

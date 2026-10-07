@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Проксенический декрет в честь Геродора</title><title xml:lang="en">Proxeny decree for Herodoros</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.25</idno>
+            <idno type="filename">1.5</idno>
+            <idno type="PE">PE1000025</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Одесский археологический музей</repository>
+                     <idno>88748</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Odessa Archaeological Museum</repository>
+                     <idno>88748</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc27">
+                     <seg xml:lang="ru">Проксенический  декрет.</seg>
+                     <seg xml:lang="en">Proxeny decree.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор белый с серыми прожилками.</material>
+                           <material xml:lang="en">Marble, white with gray veins.</material>
+                           <p xml:lang="ru">Лицевой фас отполирован, довольно сильно вытерт в левой части. 
+                              Правый обработан суммарно троянкой, оборотный грубо, остальные оббиты.</p>
+                           <p xml:lang="en">The front is polished, but considerably defaced on the left. The right side is treated summarily with tooth chisel, 
+                              the back is roughly picked, other sides are broken off.</p>
+                           <dimensions>
+                              <height unit="cm">20,6</height>
+                              <width unit="cm">16,5</width>
+                              <depth unit="cm">7,7</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Оббито со всех сторон, кроме правой; сильно вытерто слева.</seg>
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro"/> On the front. Broken off on all sides, except the right; considerably effaced on the left.</seg>
+                           <dimensions>
+                              <height unit="cm">15,5</height>
+                              <width unit="cm">15,0</width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны глубоко и тщательно, по линиям предварительной разметки, хорошо заметным на камне, 
+                           украшены небольшими апексами. Альфа с ломаной горизонтальной гастой, тета с точкой, каппа с укороченными косыми штрихами, 
+                           пи имеет укороченную правую гасту. Верхний и нижний штрихи сигмы горизонтальны. Ножки омеги расположены горизонтально. 
+                           Правое поле практически отсутствует. Среднее расстояние между строк: 0,6.</seg>
+                        <seg xml:lang="en">Deeply and precisely cut letters, following ruled lines still visible on the stone; light serifs. 
+                           Alpha with broken crossbar, dotted theta, kappa with short diagonals, pi with shortened right vertical, sigma with parallel upper and lower bars,
+                        omega with straight horizontals. Right margin is almost absent. Average distance between lines: 0,6cm.</seg>
+                        <height unit="cm">0,7-0,8</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0233" notAfter="0151" evidence="Палеография">
+                        <seg xml:lang="ru">II в. до н.э.</seg>
+                        <seg xml:lang="en">II century B.C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">Неизвестны. Передана в 1985 г. В.П. Пушкаревым.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Unknown. Given to the museum in 1985 by V.P. Pushkarev.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Одесса.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Odessa.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2007-08">август 2007</date>.</seg>
+                     <seg xml:lang="en">A.I. Ivantchik, <date when="2007-08">August 2007</date>.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-26" who="SS">encoded metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.25">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl>Ineditum</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Δ</unclear></orig> 
+                                          <gap reason="illegible" quantity="1" unit="character"/> <orig><unclear>Υ</unclear></orig>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w><unclear>ἐ</unclear>μβοᾶν</w> <w>χρ<unclear>ή</unclear></w>
+               		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><w>ἐάν</w></supplied> 
+                                          <w>τινος</w> <w>δέη <space quantity="1" unit="character"/>
+               		<lb n="4" break="no"/><supplied reason="lost">ται·</supplied></w> <supplied reason="lost"><w>ἵνα</w> <w>οὖν</w> <w>ὁ</w> <w>δῆμος</w> 
+                                          <w>φαίνηται</w> <w>τοὺς</w></supplied> <w><supplied reason="lost">κ</supplied><unclear>α</unclear>λοὺς</w> 
+                                          <w>καὶ</w> <w>ἀγ<unclear>α</unclear>
+               		<lb n="5" break="no"/><supplied reason="lost">θοὺς</supplied></w> <supplied reason="lost"><w>ἄνδρας</w> <w>τιμῶν</w>· <w>δεδόχθαι</w></supplied> 
+                                          <w><supplied reason="lost">τῆ</supplied>ι</w> <w>βουλῆι</w> <w>καὶ</w> <w>τῶι</w>
+               		<lb n="6"/><supplied reason="lost"><w>δήμωι</w> <w>ἐπαινέσαι</w> <w>μὲν</w> <w>ἐπὶ</w></supplied> 
+                                          <w><supplied reason="lost">το</supplied>ύτοις</w> <persName type="attested"><name>Ἡρόδω <space quantity="1" unit="character"/>
+               		<lb n="7" break="no"/><supplied reason="lost">ρον</supplied></name> <supplied reason="lost"><w>τοῦ</w> <w>δεῖνος</w></supplied> 
+                                             <gap reason="lost" extent="unknown" unit="character"/><name><seg part="F"><unclear>α</unclear>νὸν</seg></name></persName> 
+                                             <w>δεδόσθαι</w> <space quantity="1" unit="character"/>
+               		<lb n="8"/><supplied reason="lost"><w>δὲ</w> <w>αὐτῶι</w> <w>προξενίαν</w>,</supplied> 
+                                          <w><supplied reason="lost">πολιτ</supplied><unclear>ε</unclear>ίαν</w>, <w>προεδρίαν</w>, <w><supplied reason="lost">ἀτ</supplied>
+               		<lb n="9" break="no"/><supplied reason="lost">έλειαν</supplied></w> <supplied reason="lost"><w>πάντων</w> <w>καὶ</w> <w>τἄλλα</w></supplied> 
+                                             <w>ὅ<unclear>σ</unclear><supplied reason="lost">α</supplied></w> <w><unclear>κ</unclear>αὶ</w> <w>τοῖς</w> 
+                                             <w>ἄ<supplied reason="lost">λλοις</supplied></w>
+               		<lb n="10"/><w><supplied reason="lost">προξένοις</supplied></w><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Κ</unclear></orig> <gap reason="illegible" quantity="2" unit="character"/><orig><unclear>ΑΟ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="10a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app><note/></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[- - -] необходимо обратиться ? [- - - если] в чем-нибудь будет нуждаться; [чтобы народ показал, что он] прекрасных и 
+               добр[ых мужей почитает, постановлено] советом и [народом восхвалить на основании] этих (решений) Геродо[ра, сына такого-то - - -]ийца, 
+               даровать [ему проксению, полит]ию, проедрию, [ателию всего и прочее, ч]то и д[ругим проксенам - - -]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[- - -] it is necessary to call upon? [- - - if] there would be a need of something; [in order that the People may be seen to honour] the noble and good [men, 
+               the Council and the People shall deem it good to praise on the basis of these Herodo[ros, (son of) - - -] to grant [him proxeny, citizen]ship, proedria, 
+               [exemption from all public burdens (ateleia) and all other privileges] which [are available to proxenoi - - -]</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Фрагмент, очевидно, принадлежит к нижней части проксенического декрета. В первых трех строках, по-видимому, 
+               сохранились остатки конца мотивировочной части. Начиная со строки 4 излагается само постановление. Поскольку ни одной 
+               целой строки не сохранилось, точную длину строк установить невозможно. Тем не менее представление о ней можно составить 
+               благодаря строкам 6-7, где упоминается чествуемое лицо. Конец его имени сохранился в конце строке 6 - Ἡρόδω-, что позволяет 
+               надежно восстановить имя Геродора (единственный вариант, зафиксированный LGPN). Соответственно, в лакуне в начале следующей
+                строки следует восстанавиливать три последних буквы этого имени, патроним Геродора и его этникон. При этом окончание этникона 
+                появляется уже после лакуны: α̣νὸν, стоящее перед δεδόσθαι, трудно истолковать иначе. Для восстановления этникона можно предложить множество вариантов 
+                как причерноморских полисов, 
+                так и лежащих за пределами региона, так что гадать о том, какой из них здесь можно восстанавливать, было бы излишне. 
+                Вряд ли можно предполагать, что патронимик и 
+                начало этникона занимали вместе больше 20 знаков, что дает примерно 36-37 знаков. Примерно на это число знаков приходится 
+                ориентироваться при восстановлении, что дает довольно короткие строки. Учитывая, однако, что знаки в строках написаны с разной 
+                плотностью (ср. например стк. 4 и 6), возможны довольно существенные отклонения от этой цифры.</p>
+            <p>2. Сохранившееся здесь слово ἐ̣μβοᾶν трудно толковать иначе, как инфинитив глагола ἐμβοάω, «призывать, громко звать». 
+               Насколько мне известно, это слово, нередко встречающееся в литературе, до сих пор не было засвидетельствовано в надписях, 
+               так что восстановить контекст на основании аналогий невозможно. Следующее затем сочетание букв может быть истолковано также 
+               как начало слова χρήσιμος, нередко встречающегося в почетных декретах.</p>
+            <p>6. Напрашивается восстановление δήμωι τῶι Τυρανῶν, однако от него приходится отказаться из-за недостатка места в лакуне, 
+               особенно учитывая, что именно в этой строке плотность букв меньше, чем в других.</p>
+            <p>7. Восстановление стандартной формулы αὐτῶι καὶ ἐκγόνοις также невозможно из-за недостатка места в лакуне.</p>
+            <p>9. Формула ἀτέλειαν πάντων, хотя, кажется, и не встречается в Причерноморье, однако широко распространена. 
+               Ср. например в эгейской Фракии: I. Aeg. Thrac. 451, 13-14 (втор. пол. III в. до н.э., ср. I. Aeg. Thrac. 9, 38, II в. до н.э., восстановление); 
+               IG II2, 286 (IV в. до н.э.); IK Kios 2, 7 (сер. IV в. до н.э.) и др.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The fragment apparently constitues the end of a proxeny decree. The first three lines probably contain the ending of the motivation clause. 
+               Begining in line 4, the proposal is stated. Since not a single complete line is preserved, we cannot determine the length of the line, however, lines 6-7, where 
+               the honorand is mentioned, allow us to make a guess. The ending of his name appears at the end of line 6  - Ἡρόδω-, which allows a secure restoration of the name 
+               Herodoros (a single variant in LGPN). This means that in the lacuna at the start of line 7, we can expect 3 letters, then his patronymic and an ethnicon. 
+               The ending of the ethnicon appears immediately after the lacuna: α̣νὸν before δεδόσθαι can hardly be anything else. There are many possibilities for the restoration 
+               of an ethnicon, both including the poleis of the Black Sea region and those outside it, so it is unnecessary to single out any particular one. It is unlikely that the patronymic and the beginning 
+               of the ethnicon together consisted of more than 20 letters, which gives us about 36-37 symbols per line. This estimate provides a measure for attempts at restoration, 
+               and it gives us quite short lines. At the same time, since the spacing between individual symbols differs from line to line (see e.g. lines 4 and 6), we may expect 
+               considerable departures from the estimated average.</p>
+            <p>2. The sequence of letters .ΜΒΟΑΝ is difficult to see as anything other than ἐ̣μβοᾶν, an infinitive of the verb ἐμβοάω, "to summon, to call loudly." 
+               As far as I know, this verb, quite common in literature, has not yet been attested in epigraphic sources, so it is impossible to suggest a context for restoration in the 
+               absence of analogies. The combination of letters that follows can be read as the beginning of the word χρήσιμος, common in honorific decrees.</p>
+            <p>6. The restoration δήμωι τῶι Τυρανῶν suggests itself, however, it is too long for the lacuna, especially as we see that in this line the density of letters is less 
+               than in other lines.</p>
+            <p>7. The restoration of the standard formula αὐτῶι καὶ ἐκγόνοις is also impossible due to the lack of space in the lacuna.</p>
+            <p>9. The formula ἀτέλειαν πάντων, although it seems to be unattested in the northern Black Sea area, is widely known elsewhere. See e.g. in the Aegean Thrace: 
+                I. Aeg. Thrac. 451, 13-14 (2nd hald of III cent. B.C.E., cf. I. Aeg. Thrac. 9, 38, II cent. B.C.E., restored); 
+               IG II2, 286 (IV cent. B.C.E.); IK Kios 2, 7 (mis-IV cent. B.C.E) etc.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

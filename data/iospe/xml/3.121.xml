@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение статуи Афине Спасительнице</title><title xml:lang="en">Statue dedication to Athena Soteira</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.424</idno><idno type="PE">PE3000239</idno><idno type="filename">3.121</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>8180</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>8180</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвятительная надпись.</seg>
+                     <seg xml:lang="en">Dedicatory inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon12">Постамент.</objectType>
+                           <objectType xml:lang="en">Base.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Сохранился полностью за исключением части левого края.
+                              На верхней плоскости имеются два углубления для крепления стоп статуи
+                              (левое повреждено сколом). Поле надписи слева отбито, в середине
+                              второй строки повреждено небольшим прямоугольным отверстием (результат
+                              вторичного использования камня), в конце последней строки повреждено
+                              сколом. На боковой грани имеется три тамгообразных знака более
+                              позднего времени.</p>
+                           <p xml:lang="en">Nearly fully preserved, with some loss to the left front edge. Two depressions (the left is chipped) on the top surface for the 
+                              feet of a statue. A rectangular hole on the front reflects secondary use of the base. On the right: three symbols resembing tamgas, of a later date.</p>
+                           <dimensions>
+                              <height unit="cm">30,0</height>
+                              <width unit="cm">81,0</width>
+                              <depth unit="cm">77,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Ню с немного укороченной правой вертикалью, омикрон чуть
+                           меньше остальных букв, верхняя поперечная линия пи не выступает за
+                           короткую правую вертикаль, сигма с чуть расходящимися верхней и нижней
+                           гастами, слегка изогнутые линии отдельных букв, небольшие утолщения на
+                           концах линий букв.</seg>
+                        <seg xml:lang="en">Nu with short right vertical, omicron small than other letters, sigma with slightly splayed bars; 
+                           slightly curved hastae of some letters, slight flaring of the ends of letterstrokes.</seg>
+                        <height unit="cm">2,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0333" notAfter="-0268" evidence="палеография">
+                        <seg xml:lang="ru">кон. IV – нач. III в. до н.э.</seg>
+                        <seg xml:lang="en">late IV - early III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1891 г. Раскопки К.К.
+                           Косцюшко-Валюжинича.</rs>
+                        <rs type="context">В центральной части городища, на
+                           площади около собора св. Владимира.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1891, excavations of K.K.
+                           Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Central part of the cidadel, square of St. Vladimir cathedral.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-14" who="CB">Bibliography</change>
+         <change when="2015-08-26" who="CB">App crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-26" who="CB">Tagging metadata</change>
+         <change when="2015-05-08" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-05-15" who="AV">programmatically tagging Greek words from Word
+            docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.424">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1892--><ptr target="bib:b0125"/>, 24, № <citedRange>6</citedRange></bibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>IV 82</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>406</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Соломоник 1959--><ptr target="bib:b0499"/>, 123, № <citedRange>62</citedRange></bibl>
+               <bibl><!--Соломоник 1984--><ptr target="bib:b0023"/>, <citedRange>8</citedRange>
+               (= <bibl><!-- Соломоник 1988, 61--><ptr target="bib:b0517"/>, <citedRange>61</citedRange></bibl>)</bibl>
+               <bibl><!--Соломоник 1990--><ptr target="bib:b0506"/>, 51, № <citedRange>40</citedRange></bibl>
+               <bibl><!--Трейстер 1999--><ptr target="bib:b0509"/>, 142, № <citedRange>8 (29)</citedRange></bibl>
+               <bibl><!--Зубарь 2005--><ptr target="bib:b0469"/>, <citedRange>388</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person964"><gap reason="lost" extent="unknown" unit="character"/><name nymRef="—ων"><seg part="F"><unclear>ω</unclear>ν</seg></name> 
+                                 <persName type="attested" ref="#person965"><name nymRef="Ἡρώιδας">Ἡρώιδα</name></persName></persName> 
+                                 <w>ύπὲρ</w> <w>τᾶς</w> <w>γυναικὸς</w> 
+               	<lb n="2"/><persName type="attested" ref="#person966"><gap reason="lost" extent="unknown" unit="character"/><name nymRef="—θαρα"><seg part="F"><unclear>θ</unclear>αρας</seg></name> 
+                                 <w>θυγατ<supplied reason="lost">ρο</supplied>̀ς</w> <persName type="attested" ref="#person967"><name nymRef="Δαμοκλῆς">Δαμοκλέος</name></persName></persName> 
+               	<lb n="3"/><persName type="divine" key="athena"><name><unclear>Ἀ</unclear>θαναῖ</name> <name>Σωτείραι</name></persName>.
+               	<lb n="0"/><space extent="unknown" unit="character"/>
+               	<lb n="4"/><persName type="attested" ref="#person968"><name nymRef="Πολυκράτης"><supplied reason="lost">Π</supplied>ολυκράτης</name></persName> 
+                                 <w>έπόησ<supplied reason="lost">ε</supplied></w>.
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg source="bib:b0023">[Δί]<unclear>ω</unclear>ν <note>vel</note>
+                        [Bί]<unclear>ω</unclear>ν</rdg>
+               </app>
+               <app loc="2">
+                  <rdg source="bib:b0023">[Κα]<unclear>θ</unclear>άρας</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[---]он, (сын) Герода, (посвятил) Афине Спасительнице за жену Катару, дочь
+               Дамокла.</p>
+            <p>Изготовил Поликрат.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[- - -]on, (son of) Heroidas, (dedicated) to Athena Soteira on behalf of his wife [Ka]thara, daughter of Damokles. vac. Polykrates made (it).</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>О тамгообразных знаках см. Соломоник 1959, 123 сл.</p>
+            <p>Надпись не была включена в сборники надписей греческих скульпторов (Löwy 1885; J.
+               Marcadé, Recueil).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>On tamga-like symbols, see Solomonik 1959, 123ff.</p>
+            <p>The inscription was not included in the collection of sculptor's signatures (Löwy 1885; J.Marcadé, Recueil).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

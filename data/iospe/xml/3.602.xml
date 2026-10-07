@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Incertum</title><title xml:lang="en">Incertum</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.708</idno><idno type="PE">PE3000389</idno><idno type="filename">3.602</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Государственный исторический музей</repository>
+                     <idno>50985</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>State Historical Museum</repository>
+                     <idno>50985</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc22">
+                     <seg xml:lang="ru">Incertum.</seg>
+                     <seg xml:lang="en">Unknown.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита (?) с
+                              горизонтальным завершением.</objectType>
+                           <objectType xml:lang="en">Panel (?) with horizontal top.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Оббит со всех сторон, кроме верхней. На тщательно
+                              обработанной лицевой плоскости сохранились остатки двухстрочной
+                              надписи.</p>
+                           <p xml:lang="en">Broken off on all sides except top.</p>
+                           <dimensions>
+                              <height unit="cm">11,0</height>
+                              <width unit="cm">17,0</width>
+                              <depth unit="cm">5,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с ломаной поперечной из двух перекрещивающихся гаст,
+                           перекрещивающиеся наклонные альфа, лямбда, сигма; подковообразная омега,
+                           небольшие утолщения и апексы на концах линий букв.</seg>
+                        <seg xml:lang="en">Alpha with broken crossbar formed by two crisscrossing hastae; slight serifs and flaring of the ends of letterstrokes.</seg>
+                        <height unit="cm">1,7</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p058">
+                        <seg xml:lang="ru">Неаполь Скифский.</seg>
+                        <seg xml:lang="en">Neapolis Scythica.</seg>
+                     </origPlace>
+                     <origDate notBefore="0001" notAfter="0100" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">I в. н.э.</seg>
+                        <seg xml:lang="en">I century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#simferopol-kermenchik">Симферополь (Керменчик/Неаполь Скифский?).</placeName>
+                        <rs type="circumstances">Обнаружена в 1853 г., раскопки А.С. Уварова.</rs>
+                        <rs type="context">В южной части городища, в районе южной оборонительной стены.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Simferopol (Kermenchik/Neapolis Scythica?).</placeName>
+                        <rs type="circumstances">Found in 1853, excavations of A.S. Uvarov.</rs>
+                        <rs type="context">South sector of the citadel, in the area of the southern fortification wall.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Москва, Россия.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Moscow, Russian Federation.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-18" who="CB">Added missing biblio tags</change>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-19" who="CB">Bibliography</change>
+         <change when="2015-09-02" who="CB">Metadata and app crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-03-16" who="VP">Tagging Greek names</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.708">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1895--><ptr target="bib:b0130"/>, 86, № <citedRange>2411</citedRange>. (издано по рисунку Я.И. Смирнова)</bibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>IV 191</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>669</citedRange>
+               (= <bibl><!--Латышев 1921--><ptr target="bib:b0479"/>, <citedRange>18</citedRange></bibl>)
+               (= <bibl><!--SEG 3--> ,<ptr target="SEG"/> <citedRange>3, 605</citedRange></bibl>)</bibl>
+               <bibl><!--Соломоник 1962--><ptr target="bib:b0500"/>, <citedRange>35</citedRange></bibl>
+               <bibl><!--Зайцев 2003--><ptr target="bib:b0464"/>, 51, № <citedRange>10</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Раевскийb1973--><ptr target="bib:b0490"/>, <citedRange>118</citedRange></bibl>
+               <bibl><!--Виноградов 1994--><ptr target="bib:b0452"/>, <citedRange>155</citedRange>
+               (= <bibl><!--SEG 44--><ptr target="SEG"/> <citedRange>44, 62</citedRange></bibl>)</bibl>
+               <bibl><!--Гущина, Журавлев, Фирсов  2001--><ptr target="bib:b0460"/>, 230, № <citedRange>1</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	 <lb n="1"/><w part="F"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>λευς</w> 
+                                    <persName type="attested" ref="#person1021"><name nymRef="Χωδ—"><seg part="I">Χωδ</seg></name><gap reason="lost" extent="unknown" unit="character"/>
+               	 <lb n="2"/><persName type="attested" ref="#person1022"><name nymRef="Ὀμψάλακος"><supplied reason="lost">Ὀμ</supplied><unclear>ψ</unclear>αλάκου</name></persName></persName> 
+                                    <gap reason="lost" extent="unknown" unit="character"/>
+               	 <lb n="2a"/><gap reason="lost" extent="unknown" unit="character"/>
+            </ab> 
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <note>В начале стк. перед Λ скорее нижняя часть уходящей в обрез наклонной линии с
+                     утолщением на конце (автопсия Соломоник), чем «остаток раздвоения нижней части»
+                     Ι (автопсия Раевского). Таким образом, вероятное чтение - <unclear>Λ</unclear>
+                     или <unclear>Α</unclear>, вероятное восстановление - мужское личное имя
+                        [Ἀχι]<unclear>λ</unclear>λεύς, впервые предложенное Латышевым (см.
+                     ниже).</note>
+               </app>
+               <app loc="1-2">
+                  <rdg source="bib:b0130 bib:IOSPE bib:b0490">[βασ]ιλεὺς Χώδ[αρζος (?) ---] |
+                     [Ὀμψ]αλάκου [---]</rdg>
+                  <rdg source="bib:b0130 bib:b0500 bib:SEG">[Ἀχιλ]λεὺς Χωδ[άρζου - - -] | [---
+                     Ὀμ]ψαλάκου[---]</rdg>
+                  <rdg source="bib:b0452">[βασ]ιλεὺς Χωδ[αρζος υἱὸς (<note>vel</note> ὁ ἐκ) βασιλέως
+                     | Ομ]ψαλακου</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p/>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[- - -].leus Chod[- - -] of [Om]psalakos - - -</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Надпись по палеографическим признакам относится к I в. н.э., т.е. в отличие от
+               большинства эпиграфических находок в «Неаполе» не принадлежит эпохе позднескифского
+               царства. Сарматские личные имена Χωδαρζος и Ὀμψαλακος засвидетельствованы в Северном
+               Причерноморье в римское время, первое - в Ольвии, второе - многократно и на Боспоре и
+               в Ольвии (LGPN, s.vv.). Об их происхождении см. Zgusta 1955, 171 sq., § 261; 198 sq.,
+               § 315; ср. Тохтасьев 2005, 67, прим. 47. Антропоним Ἀχιλλεύς, восстановление которого
+               весьма вероятно в начале надписи, также хорошо известен на Боспоре и в Ольвии начиная
+               с римского времени (LGPN, s.v.).</p>
+            <p>Опираясь на первоначальное восстановление Латышева [βασ]ιλεὺς Χώδ[αρζος], Д.С.
+               Раевский(1973, 118; Раевский 1971, 150 сл.) предполагал, что в тексте был упомянут
+               представитель сарматской правящей династии, которая, вероятно, утвердилась в
+               позднескифском царстве в период правления Аспурга на Боспоре (ср. титулатуру Аспурга
+               в КБН 39 и 40, где он назван ὑποτάξας Σκύθας καὶ Ταύρους). Позднее с этой точкой
+               зрения солидаризировался Ю.Г. Виноградов (1994, 155), который был склонен видеть в
+               Ходардзе или Омпсалаке родоначальника упомянутой новой династии. Однако
+               восстановление царского титула в стк. 1 надписи представляется маловероятным (см.
+               критический аппарат).</p>
+            <p>I в. н.э. (скорее всего 1-я пол. века).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>I century C.E. (most likely the first half of the century).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

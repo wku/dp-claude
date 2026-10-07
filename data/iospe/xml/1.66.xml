@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент надписи</title><title xml:lang="en">Incertum</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.35</idno>
+            <idno type="filename">1.66</idno>
+            <idno type="PE">PE1000035</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Одесский археологический музей</repository>
+                     <idno>92740</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Odessa Archaeological Museum</repository>
+                     <idno>92740</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc22">
+                     <seg xml:lang="ru">Incertum.</seg>
+                     <seg xml:lang="en">Incertum.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк плотный, желтоватый.</material>
+                           <material xml:lang="en">Limestone, dense, yellowish.</material>
+                           <p xml:lang="ru">Сохранился левый нижний угол плиты. Лицевой фас в поле надписи и на рамке хорошо заглажен, за ее пределами обработан суммарно, 
+                              оборотный обработан суммарно. Нижний слегка заглажен. Надпись окружена 
+                              широкой рельефной рамкой, которая в нижней части идет по краю плиты, а в левой – отступя от него. Внешняя часть 
+                              рельефной рамки в виде горизонтальной поверхности, с углублением слева, внутренняя часть скошена к полю надписи под тупым углом.
+                              Ширина рамки 7,0 слева и снизу. Глубина поля надписи 0,9.</p>
+                           <p xml:lang="en">Bottom left corner of a panel. The front of the epigraphic field is well worked, outside it - treated summarily, the back is also treated summarily. The bottom is 
+                           lightly planed. The epigraphic field is inset 0,9cm deep and framed by a wide relief border, which on the bottom runs flush with the edge of the panel and 
+                           on the left side if offset by a few sentimeters. The top surface of the relief border is flat, sloping to the inset field at obtuse angle. Border width is 7,0 
+                           on the left and bottom.</p>
+                           <dimensions>
+                              <height unit="cm">19,4</height>
+                              <width unit="cm">24,4</width>
+                              <depth unit="cm">9,4</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. На углубленном заглаженном поле, внутри широкой рельефной рамки. 
+                              Оббито со всех сторон, кроме левой и нижней.
+                              Размеры полей: левое 3,0; нижнее: 1,5.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. On the inset, planed field, framed by a wide relief border. Broken off on all sides, except the left and bottom.
+                           Margins: left 3,0; bottom 1,5cm.</seg>
+                           <dimensions>
+                              <height unit="cm">5,8</height>
+                              <width unit="cm">7,0</width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны небрежно, штрихи разной глубины, украшены апексами.</seg>
+                        <seg xml:lang="en">Sloppily cut letters, with strokes of varying depth, adorned with serifs.</seg>
+                        <height unit="cm">5,1-5,2</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0001" notAfter="0300" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">I-III вв. н.э.</seg>
+                        <seg xml:lang="en">I-III century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">В 1997 г. в Тире, полевой номер, БТЭ-97, п.м. № 1.</rs>
+                        <rs type="context">На Центральном раскопе, подъемный материал.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Found in 1997 in Tyras, field catalogue number БТЭ-97, п.м. № 1.</rs>
+                        <rs type="context">Central trench, surface find.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Одесса.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Odessa.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2006-08">август 2006</date>.</seg>
+                     <seg xml:lang="en">A.I. Ivantchik, <date when="2006-08">August 2006</date>.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-28" who="SS">encoded metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.35">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl>Ineditum</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><orig>ΙΗ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app><note/></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Не предлагается.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Not attempted.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Справа от сохранившихся букв видна еще одна вертикальная гаста. Первая иота перечеркнута случайным штрихом, не являющемся частью буквы.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>To the right of the preserved letters, there is another vertical hasta. The first iota is crossed by an accidental stroke, which is not part of that letter.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

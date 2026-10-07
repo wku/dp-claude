@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ToC categories for IOSPE vols 1-4</title>
+                <editor xml:id="GB">Gabriel Bodard</editor>
+                <editor xml:id="SS">Simona Stoyanova</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>internal use only</p>
+            </publicationStmt>
+        </fileDesc>
+        <revisionDesc>
+            <change who="#SS" when="2016-06-21">Created outline</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <head>Tyras and vicinity</head>
+                <item></item>
+            </list>
+            <list>
+                <head>Olbia and vicinity </head>
+                <item></item>
+            </list>
+            <list>
+                <head>Chersonesus and vicinity</head>
+                <item></item>
+            </list>
+            <list>
+                <head>Bosporus</head>
+                <item></item>
+            </list>
+        </body>
+    </text>
+</TEI>

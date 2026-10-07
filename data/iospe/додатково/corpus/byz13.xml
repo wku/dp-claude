@@ -1,0 +1,156 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Byzantine 13: Building inscription of Isaak (?) (ed. A. Vinogradov)</title>
+        <title xml:lang="ru">Византийская надпись 13: Строительная надпись Исаака (?) (редакция А. Виноградова)</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text xml:lang="en">
+        <body>
+          <div>
+          <head>Stone.</head>
+            <p><hi rend="italic">Type of monument:</hi> Cornice. 
+            <hi rend="italic">Material:</hi> Limestone. 
+            <hi rend="italic">Description and condition:</hi> Re-used ancient cornice. Obverse side weathered.
+            <hi rend="italic">Dimensions:</hi> H. 0.38, W. 0.49, Th. 0.24. 
+            <hi rend="italic">Autopsy:</hi> non vidi.</p>
+          <p>— <hi rend="italic">Find place:</hi> Chersonesos. 
+            <hi rend="italic">Find circumstances:</hi> 1899, excavations of K.K. Kostsyushko-Valyuzhinich. 
+            <hi rend="italic">Find context:</hi> Fortification walls, southern sector, inner face of wall.</p>
+          <p><hi rend="italic">Modern location:</hi> Unknown. </p>
+          </div>
+          <div>
+          <head>Text field: </head>
+            <p><hi rend="italic">Faces code:</hi> f1. 
+            <hi rend="italic">Style of lettering:</hi> Lapidary. Alpha with slanted crossbar, lambda with protruding left vertical,
+              mu with curved hastae, nu with curved crossbar, sigma with serifs.
+            <hi rend="italic">Letterheights:</hi> 0.02–0.03.</p>
+          </div>
+          <div>
+          <head>Text:</head>
+            <p><hi rend="italic">Origin of text:</hi> Chersonesos. 
+            <hi rend="italic">Document type:</hi> Building inscription.  
+            <hi rend="italic">Date:</hi> 1462 or 1472 CE. 
+            <hi rend="italic">Dating criteria:</hi> Historical context.</p>
+          <p><hi rend="italic">Editions:</hi> L1. Kostsyushko-Valyuzhinich 1901, 40–41, № 2; 
+          1.1. Vinogradov 2011a, 222–224, № 4.</p>
+            
+          <p>+ Ἀνεκε̣νίσθη ἐ̣[κ] β̣ά̣θρον<lb/>
+            τὸ θεο]φ[ύλ]ακτον κέντ[ρον (pro κάστρον (?))<lb/>
+            κ]αὶ ἕ̣τ[αι]ρ̣α̣ [ὀχυρώματα e.g.<lb/>
+            τῆ̣[ς Χερσωνίας (?) ... μετὰ <lb/>
+            κ]ὲ λοι[πῶν (?), ὑπὸ ἡμερῶν e.g. Ἰσαά-<lb/>
+            κο̣υ̣ α[ὐ]θ[έν]τ&lt;ο&gt;υ [πόλεως Θ]ε-<lb/>
+            ο[δώρους (καὶ) πα]ρ̣[αθαλασσίας, μη-<lb/>
+            νὶ Μαρ]τ(ίου) α[ι’, ἰ]ν[δ(ικτιῶνος) ..´, ἔτους] ς̣[Ϡο´ resp. ς̣[Ϡπ´. <lb/>
+            ...]M.</p>
+          
+          <p>Orig.: 6: Α.Θ..ΤΑΥ.</p>
+          <p><hi rend="italic">Apparatus criticus:</hi> 1–8: + Ἀνεκαινίσθη ... θεοφύλακτον (?) ... ὑψηλότατον (?) Latyshev.
+            <figure><graphic url="13.jpg" width="400px" height="346px" rendition="float:right;"/></figure></p>
+          </div>
+          <div>
+            <head>Translation:</head>
+            <p>Renovated from the foundations, the God-guarded citadel (?) and other fortifications (?) of Chersonia (?) ... 
+              together with other (?), in the days of (?) Isaak the lord of the city Theodoron and of its coastline, 11th of March,
+              in the ... indiction, year 6970 (or 6980) ...</p>
+        </div>  
+          
+          <div>
+            <head>Commentary:</head>
+            <p>The article authored by Kostsyushko-Valozhinich but published on behalf of the editor (i.e. V.V. Latyshev)
+              offered the reading of three words but noted that the inscription consisted of eight lines. The drawing of the inscritpion
+              in Latyshev's archive, preserved in the St Petersburg branch of the Archive of the Russian Academy of Sciences
+              (Ф. 110. Оп. 1. Д. 98. Л. 431), is not accompanied by a transcription. Descriptions of letter-forms are taken from this drawing.
+              The inscription was found with no. 4.</p>
+            <p>Line 1. In the formula "renovated from the foundations" the term ἀνεκενίσθη apparently indicates not consecration
+              but a rebuilding from ruins of some citadel (see commentary to no. 169). </p>
+            <p>Lines 2–5. The attribute "God-guarded" is reconstructed hypothetically. The term θεοφύλακτος (cf. Nos. 163, 168),
+               in the region of the Northern Black Sea, is attested as a standard epithet of the city of Theodoron, and serves as the basis
+               for attributing this inscription to Theodoron. The late Byzantine date of the inscription is suggested by the shape of the
+               alpha with the slanted crossbar and upward extension of the right vertical, as well as by the nu with the S-shaped
+               crossbar, for which there is a parallel in no. 214 (1427 CE).</p>
+            <p>Lines 5–7.  The title of the ruler can be reconstructed from other 15th-century inscriptions from Theodoron.
+              Judging by the remains of the letters he was Isaak (see commentary to no. 12, where the same name occurs).</p>
+            <p>Line 8. At the end of the line stigma is clear: this can only signify a year. A sampi should have followed, after which
+              there is enough space only for one more letter, signifying a decade. Because there is a great likelihood that the inscription
+              was comissioned by Isaak of Mangup (see above), who ruled between 1459 and 1475, the missing letter could have been 
+              either an omicron or a pi, which correspond to 6970 and 6980, from the creation of the world, i.e. 1462 and 1472 CE.</p>
+        </div>
+        </body>
+      </text>
+      
+      
+      <text xml:lang="ru">
+        <body>
+          <div>
+          <head>Камень.</head>
+          <p><hi rend="italic">Разновидность:</hi> Карниз. 
+            <hi rend="italic">Материал:</hi> Известняк. 
+            <hi rend="italic">Описание и состояние документа:</hi> Античный карниз во вторичном использовании. Лицевая сторона выветрена. 
+            <hi rend="italic">Размеры:</hi> Высота 0,38; ширина 0,49; толщина 0,24. 
+            <hi rend="italic">Автопсия:</hi> non vidi.</p>
+          <p>— <hi rend="italic">Место находки:</hi> Херсонес. 
+            <hi rend="italic">Условия находки:</hi> 1899 г., раскопки К.К. Костюшко-Валюжинича. 
+            <hi rend="italic">Контекст находки:</hi> Оборонительные стены, южный участок, внутренняя сторона, пом. 25 и 26, кладка.</p>
+          <p><hi rend="italic">Место хранения:</hi> Неизвестно. </p>
+          </div>
+          <div>
+          <head>Эпиграфическое поле:</head> 
+           <p><hi rend="italic">Код фаса:</hi> f1. 
+            <hi rend="italic">Стиль письма:</hi> Лапидарный. Альфа с наклонной поперечиной, лямбда с левым верхним выступом,
+            мю прогнутое, ню с изогнутой поперечиной, сигма с апексами. 
+            <hi rend="italic">Высота букв:</hi> 0,02–0,03.</p>
+          </div>
+          <div>
+            <head>Текст:</head>
+            <p><hi rend="italic">Происхождение текста:</hi> Херсон. 
+            <hi rend="italic">Характер документа:</hi> Строительная надпись.  
+            <hi rend="italic">Датировка текста:</hi> 1462 или 1472 гг. 
+            <hi rend="italic">Обоснование датировки:</hi> Исторический контекст.</p>
+          <p><hi rend="italic">Издания:</hi> L1. Косцюшко-Валюжинич 1901, 40–41, № 2; 
+          1.1. Виноградов 2011a, 222–224, № 4.</p>
+          
+          <p>+ Ἀνεκε̣νίσθη ἐ̣[κ] β̣ά̣θρον<lb/>
+            τὸ θεο]φ[ύλ]ακτον κέντ[ρον (pro κάστρον (?))<lb/>
+            κ]αὶ ἕ̣τ[αι]ρ̣α̣ [ὀχυρώματα e.g.<lb/>
+            τῆ̣[ς Χερσωνίας (?) ... μετὰ <lb/>
+            κ]ὲ λοι[πῶν (?), ὑπὸ ἡμερῶν e.g. Ἰσαά-<lb/>
+            κο̣υ̣ α[ὐ]θ[έν]τ&lt;ο&gt;υ [πόλεως Θ]ε-<lb/>
+            ο[δώρους (καὶ) πα]ρ̣[αθαλασσίας, μη-<lb/>
+            νὶ Μαρ]τ(ίου) α[ι’, ἰ]ν[δ(ικτιῶνος) ..´, ἔτους] ς̣[Ϡο´ resp. ς̣[Ϡπ´. <lb/>
+            ...]M.</p>
+          
+          <p>Orig.: 6: Α.Θ..ΤΑΥ.</p>
+            <p><hi rend="italic">Критич. аппарат:</hi> 1–8: + Ἀνεκαινίσθη ... θεοφύλακτον (?) ... ὑψηλότατον (?) Latyshev.
+              <figure><graphic url="13.jpg" width="400px" height="346px" rendition="float:right;"/></figure></p>
+          </div>
+          <div>
+          <head>Перевод:</head>
+          <p>Обновлена от оснований [бого]х[ра]нимая креп[ость (?)] и другие [укрепления (?) Херсонии (?) … вместе] c про[чими (?), во дни (?) Исаа]ка, властителя [города] Ф]ео[доро и п]о[морья, 1]1 [ма]р[та, в .. и]н[дикт, в] 6[970] (или: 6[980]) году…</p>
+          </div>
+          <div>
+          <head>Комментарий:</head>
+          <p>В статье Косцюшко-Валюжинича от имени редакции (т.е. В. В. Латышева) дано лишь чтение трех слов и указано, что в надписи было 8 строк. Рисунок надписи из архива Латышева хранится в ПФА РАН (Ф. 110. Оп. 1. Д. 98. Л. 431) без чтения. Из него взяты сведения о шрифте. Надпись найдена рядом с № 4.</p>
+          <p>1. В формуле «обновлен от оснований» следует «обновлением» следует понимать, по всей видимости, не «освящение», а восстановление из руин какой-то крепости (см. комм. к № 169).</p>
+          <p>2–5. Описание ее реконструируется предположительно. Термин «богохранимый» (ср. № 163, 168), являющийся в Северном Причерноморье устойчивым эпитетом Феодоро, заставляет связать данную надпись именно с Феодоро. В ее поздневизантийской датировке убеждают формы альфы с наклонной перекладиной и дополнительным верхним штрихом и ню с S-образной диагональю, находящие параллели лишь в № 214 (1427 г.)</p>
+          <p>5–7. Титулатура правителя восстанавливается легко по другим феодоритским надписям XV в. — судя по остаткам имени, им был Исаак (см. комм. к № 12). В пользу этого говорит и наличие такого имени в № 12.</p>
+          <p>8. В конце строки читается стигма: это может быть только часть обозначения года. За стигмой должна была следовать сампи, после которой в строке остается место максимум для одной буквы, обозначавшей десятки. Поскольку с большой долей вероятности надпись была поставлена Исааком Мангупским (см. выше), правившим между 1459 и 1475 гг., то этими буквами могут быть только омикрон или пи, которые дают соответственно 6970 и 6980 гг. от сотворения мира, т.е. 1462 и 1472 гг. по Р.Х.</p>
+        </div>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI>

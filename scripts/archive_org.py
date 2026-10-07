@@ -8,6 +8,7 @@ OUT = Path(__file__).resolve().parent.parent / "data" / "archive_org"
     "sucho-id-_20220305_2137": "Латишев_1916_IOSPE_том1_Тіра_Ольвія_Херсонес_скан_бібліотеки",
     "inscriptionesan00petegoog": "Латишев_1890_IOSPE_том2_Боспорське_царство",
     "LatyshevInscriptionesAntiquaeOraeSeptentrionalisPontiEuxiniGraecaeEtLatinaeVol4IV": "Латишев_1901_IOSPE_том4",
+    "scythicaetcauca00latygoog": "Латишев_1893_Scythica_et_Caucasica_античні_автори_про_Скіфію",
     "pontika2": "Латишев_1909_Понтіка_збірник_статей",
     "antiquitsgrecqu00rochgoog": "Рауль_Рошетт_1822_Грецькі_старожитності_Боспору_Кіммерійського",
 }

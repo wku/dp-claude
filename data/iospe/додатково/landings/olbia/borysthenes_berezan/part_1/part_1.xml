@@ -1,0 +1,81 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Volume II. 1, Part I. Graffiti and Dipinti of
+                    Borysthenes (Berezan) in the collection of the State Hermitage Museum.</title>
+                <title xml:lang="ru">Том II.1, Часть 1. Граффити и дипинти Борисфена (Березани) из коллекции Государственного Эрмитажа.</title>
+                <title xml:lang="uk">Том II.1, Частина 1. Графіті та діпінті Борисфену (Березані) з колекції Державного Эрмітажу.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text xml:lang="en">
+                <body>
+                    <div>
+                        <head>Irene Polinskaya</head>
+
+                        <div>
+                            <p>The autopsy and study of the material were conducted between 2016 and 2019 with the permission of the State Hermitage Museum, 
+                                and access to the collection was made possible by its former keeper Sergey Solovyov. The introduction, epigraphic editions, commentaries, 
+                                and metadata descriptions are by Irene POLINSKAYA. Information on Find Contexts derives from inventory cards of the Berezan collection 
+                                at the State Hermitage Museum.</p>
+                            <p>The identification and dating of ceramics were made, primarily, by Sergey SOLOVYOV (former Keeper of the Berezan Collection, The State Hermitage Museum)
+                                in 2017 and 2019.</p>
+                            <p>The inscriptions were encoded by Irene POLINSKAYA following the EpiDoc Guidelines for use of XML for ancient documentary editions. They were integrated into the IOSPE website by Paul CATON and Miguel VIEIRA of King’s Digital Lab, King's College London.</p>
+                            <p>Images are based on hand drawings made by Irene POLINSKAYA de visu in 2017-2019. They were converted into digital files by Olena SHEVCHENKO
+                                and corrected by Irene POLINSKAYA. Photographs
+                            of the objects were also made by Irene POLINSKAYA at the time of autopsy, and access to them can be requested by contacting the author. Implementation
+                            of a collaborative agreement (Memorandum of Understanding) between King's College London and the State Hermitage Museum was interrupted in early 2022, 
+                            following the outbreak of the war, complicating the completion of this publication.
+</p>
+                            
+                            
+                            <!--<head><ref target="introduction.html">Introduction</ref></head>
+                            <p>[TEXT NEEDED]</p>-->
+                            <!--<divGen type="intro-toc"/>-->
+                        </div>
+                        <div>
+                            <head><ref target="/2.1.1/toc.html">Inscriptions</ref></head>
+                            <p><!--The inscriptions in this volume are grouped by Category of Text, with
+                                relevant sub-categories, and within the latter, by Date, in
+                                chronological order. -->The inscriptions in this volume are accessible via Table of Content, <ref
+                                    target="/indices/index.html">Indices</ref>, Ins. # window and
+                                the <ref target="/search/en/-500/1800/?">Search Corpus</ref>
+                                interface.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:lang="ru">
+                <body>
+                    <div>
+                        <head/>
+                        <p/>
+                        <div>
+                            <!-- Holding note until final versions of everything are ready -->
+                            <head/>
+                            <p/>
+                            <!--<head><ref target="introduction-ru.html">Введение</ref></head>
+                            <p>[INTRODUCTION IN RUSSIAN]</p>-->
+                            <!--<divGen type="intro-toc-ru"/>-->
+                        </div>
+                        <div>
+                            <head><ref target="/1/toc-ru.html">Надписи</ref></head>
+                            <p/>
+                        </div>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

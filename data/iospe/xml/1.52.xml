@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент надписи</title><title xml:lang="en">Incertum</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.14</idno>
+            <idno type="filename">1.52</idno>
+            <idno type="PE">PE1000014</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Белгород-Днестровский краеведческий музей</repository>
+                     <idno>А-1227 (КП-34386)</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Belgorod-Dnestrovsky Regional Studies Museum</repository>
+                     <idno>А-1227 (КП-34386)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc22">
+                     <seg xml:lang="ru">Incertum.</seg>
+                     <seg xml:lang="en">Incertum.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор белый, плотный.</material>
+                           <material xml:lang="en">Marble, white, fine-grained.</material>
+                           <p xml:lang="ru">Нижняя часть плиты. Лицевая, оборотная и нижняя поверхности отполированы,
+                              лицевая наиболее тщательно. Оббит со всех сторон, кроме нижней. Окатан водой.</p>
+                           <p xml:lang="en">The bottom part of a panel. The front, back and bottom are polished, the front especially well. Broken off on all sides, except the 
+                           bottom. Rounded by the rolling action of waves.</p>
+                           <dimensions>
+                              <height unit="cm">9,5</height>
+                              <width unit="cm">5,4</width>
+                              <depth unit="cm">3,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Оббито со всех сторон, кроме нижней и, вероятно, правой. 
+                              Размеры полей: нижнее 4,2.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. Broken off on all sides, except the botton and, probably, the right. Margins: bottom 4,2cm.</seg>
+                           <dimensions>
+                              <height unit="cm">4,8</height>
+                              <width unit="cm">4,5</width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны глубоко, однако достаточно небрежно,
+                           украшены апексами. Курсивная лунарная сигма. Омикрон уменьшен (2,0). В
+                           конце первой строки последняя буква уменьшена и прижата к предыдущей и
+                           даже частично вписана в нее.
+                           Среднее расстояние между строк: 0,8.</seg>
+                        <seg xml:lang="en">Deeply, but quite sloppily cut letters, adorned with serifs. Cursive lunate sigma. Omicron is smaller than other letters (2,0cm). 
+                           At the end of line 1, the last letter is reduced in size and attached to the preceding, almost cutting into it.
+                           Average distance between lines: 0,8cm.</seg>
+                        <height unit="cm">no less than 2,6</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0300" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">II-III вв. н.э.</seg>
+                        <seg xml:lang="en">II - III century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Украина, Одесская обл.</placeName>
+                        <rs type="circumstances">Неизвестны. Вероятно, находка на территории
+                           крепости или в ее окрестностях, сделанная до 1948 г.; в музейной
+                           инвентарной книге значится под 3.06.1948.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Unknown. The find was probably made before 1948, on the territory or in the vicinity of the fortress; in the museum 
+                           inventory book, it was entered on 3.06.1948.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Белгород-Днестровский.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Belgorod-Dnestrovsky.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2006-08">август 2006</date>.</seg>
+                     <seg xml:lang="en">A. I. Ivantchik, <date when="2006-08">August 2006</date>.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <!-- volNum = ﻿10-->
+      <revisionDesc>
+         <change when="2016-08-25" who="SS">encoded metadata</change>
+         <change when="2016-08-02" who="SS">encoded Leiden</change>
+         <change when="2016-05-18" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.14">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Карышковский 1963 --><ptr target="bib:b0885"/>, <citedRange>106, № 9, рис. 4,9</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		 <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ΙΣ</unclear></orig><gap reason="illegible" quantity="1" unit="character"/>
+               		 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Ι</unclear>Ο</orig>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Не предлагается.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Not attempted.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>По всей видимости, сохранился не только нижний, но и правый край эпиграфического
+               поля, на что указывает достаточно большое расстояние после последней буквы второй
+               строки, а также и то, что последняя буква предыдущей строки уменьшена и прижата к
+               предыдущей.</p>
+            <p>Первые буквы обеих строк восстановлены как I условно – сохранились только части
+               вертикальных гаст. В конце первой строки, вопреки Карышковскому, вовсе не «эпсилон
+               особой формы», а лунарная сигма (или латинское C) с прижатой к нему уменьшенной
+               буквой, от которой сохранилась нижняя часть вертикальной гасты с апексом (I?,
+               T?).</p>
+            <p>Не исключено, что надпись латинская.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>It would appear that not only the bottom, but also the right side of the epigraphic field is preserved, which is suggested by quite a big space after the last letter 
+            of line 2, as well as the fact that the last letter of line 1 is reduced and squashed in with the preceding.</p>
+            <p>The first letter of each line is restored as I hypothetically - only the verticals survive. At the end of line 1, there is not, contra Karyshkovsky, "an epsilon of unusual shape," but 
+               a lunate sigma (or Latin C) with another letter reduced in size, from which only the lower part of a vertical survives (I?, T?).</p>
+            <p>It is possible that the inscription is Latin.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

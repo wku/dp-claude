@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение Пасиада</title><title xml:lang="en">Dedication of Pasiadas</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.420</idno><idno type="PE">PE3000235</idno><idno type="filename">3.115</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <region>Crimea</region>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвятительная надпись.</seg>
+                     <seg xml:lang="en">Dedicatory inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon37">Алтарь.</objectType>
+                           <objectType xml:lang="en">Altar.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Сохранились почти целиком два блока, не соединяющихся в
+                              контакте. Один блок (а) с фасада украшен тремя рельефными
+                              изображениями букраниев, соединенными двумя свисающими гирляндами.
+                              Между букраниями две розетки. Тыльная сторона обработана грубо. Карниз
+                              с овами сбит, частично сохранился жемчужник. Под правой гирляндой
+                              сохранилась часть тщательно вырезанной двухстрочной надписи. Другой
+                              (анэпиграфный) блок (b) слева немного сколот, справа гладко подтесан.
+                              Eго лицевая поверхность украшена букранием и гирляндами. Над правой
+                              гирляндой круглая розетка. Сохранился карниз, украшенный овами и
+                              жемчужником.</p>
+                           <p xml:lang="en">Two non-joining blocks. Block (a) bears, on the front, three relief bucrania, joined by garlands. Between bucrania, there are 
+                           two rosettes. The back is roughly picked. On the cornice, the egg and dart moulding is chipped off, but a bead and reel row is still visible. Below 
+                           the garland, a well-cut two-line inscription. The second block (b) bears no text.</p>
+                           <dimensions/>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Мю с наклонными боковыми линиями и короткими внутренними
+                           гастами, вертикали ню имеют почти одинаковую длину, верхняя поперечная
+                           линия пи чуть выступает за короткую правую вертикаль, сигма с немного
+                           расходящимися верхней и нижней гастами, маленькая полукруглая омега с
+                           короткими боковыми горизонталями, слегка изогнутые линии отдельных букв
+                           (альфа, дельта, лямбда, сигма), небольшие апексы на концах линий
+                           букв.</seg>
+                        <seg xml:lang="en">Mu with slanting outer hastae; slightly curved hastae of some letters (alpha, delta, lambda, sigma); small serifs.</seg>
+                        <height unit="cm">2,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0251" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">1-я пол. III в. до н.э.</seg>
+                        <seg xml:lang="en">1st half of III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+               </history>
+               <msPart n="1">
+                  <msIdentifier>
+                     <altIdentifier xml:lang="ru">
+                        <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                        <idno>4596</idno>
+                     </altIdentifier>
+                     <altIdentifier xml:lang="en">
+                        <repository>National Preserve of Tauric Chersonesos</repository>
+                        <idno>4596</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions>
+                                 <height unit="cm">61,0</height>
+                                 <width unit="cm">132,0</width>
+                                 <depth unit="cm">15,0</depth>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                        <provenance type="found">
+                           <seg xml:lang="ru">
+                              <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                                 (Херсонес).</placeName>
+                              <rs type="circumstances">Найден Д.В. Айналовым в 1890 г.  
+                                 Раскопки К.К. Косцюшко-Валюжинича (НА НЗХТ, д. 19, л. 4, № 34).</rs>
+                              <rs type="context">В северо-восточном районе в фундаменте правой колоннады 
+                                 Уваровской базилики (№ 23).</rs>
+                           </seg>
+                           <seg xml:lang="en">
+                              <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                              <rs type="circumstances">Found by D.V. Aynalov in 1890, excavations of K.K.
+                                 Kostsyushko-Valyuzhinich (НА НЗХТ, д. 19, л. 4, № 34).</rs>
+                              <rs type="context">Northeast sector of Chersonesos, foundation of the right collonnade of the Uvarov basilica (№ 23).</rs>
+                           </seg>
+                        </provenance>
+                        <provenance type="observed">
+                           <seg xml:lang="ru">Севастополь.</seg>
+                           <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                        </provenance>
+                  </history>
+               </msPart>
+               <msPart n="2">
+                  <msIdentifier>
+                     <altIdentifier xml:lang="ru">
+                        <repository>Одесский археологический музей</repository>
+                        <idno>50027</idno>
+                     </altIdentifier>
+                     <altIdentifier xml:lang="en">
+                        <repository>Odessa Archaeological Museum</repository>
+                        <idno>50027</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions>
+                                 <height unit="cm">61,0</height>
+                                 <width unit="cm">79,0</width>
+                                 <depth unit="cm">22,0</depth>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance type="found">
+                        <seg xml:lang="ru">
+                           <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                              (Херсонес).</placeName>
+                           <rs type="circumstances">Найден в 1851 г. при раскопках, 
+                              проводившихся лейтенантом Шемякиным (Бертье-Делагард 1893, 19; Латышев 1895, 77, прим. 2; IOSPE I2 414, p. 377).</rs>
+                           <rs type="context">При раскопках Уваровской базилики (№ 23).</rs>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                           <rs type="circumstances">Found in 1851, excavations of lieutenant Shemyakin 
+                              (Бертье-Делагард 1893, 19; Латышев 1895, 77, прим. 2; IOSPE I2 414, p. 377).</rs>
+                           <rs type="context">In the area of Uvarov basilica (№ 23).</rs>
+                        </seg>
+                     </provenance>
+                     <provenance type="observed">
+                        <seg xml:lang="ru">Одесса.</seg>
+                        <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Odessa.</tei:seg>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-07-06" who="SS">divided msParts</change>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-14" who="CB">Bibliography</change>
+         <change when="2015-08-26" who="CB">App crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-26" who="CB">Tagging metadata.</change>
+         <change when="2015-05-08" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-05-15" who="AV">programmatically tagging Greek words from Word
+            docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.420A">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="30.420A.a">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="30.420B">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1892--><ptr target="bib:b0125"/>, 25, № <citedRange>7</citedRange></bibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>IV 87</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>414</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Бертье-Делагард 1893--><ptr target="bib:b0026"/>, 19, табл. <citedRange>IV 2</citedRange></bibl>
+               <bibl><!--Латышев 1895--><ptr target="bib:b0130"/>, 11 и 77, № <citedRange>7</citedRange></bibl>
+               <bibl><!--Пичикян 1976--><ptr target="bib:b0483"/>, <citedRange>248</citedRange> сл
+               (= <bibl><!-- Пичикян 1984 --><ptr target="bib:b0482"/>, <citedRange>198</citedRange> сл.</bibl>)</bibl>
+               <bibl><!--АСХ 167--><ptr target="bib:b0523"/>, № <citedRange>533</citedRange>, <citedRange>534</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person954"><name nymRef="Πασιάδας">Πασιάδας</name> 
+               	                 <persName type="attested" ref="#person955"><name nymRef="Ἀρτεμιδώρος">Ἀρτεμι<unclear>δ</unclear><supplied reason="lost">ώρου</supplied></name></persName></persName> 
+                                 <gap reason="lost" extent="unknown" unit="character"/> 
+               	<lb n="2"/><w>βασιλεύων</w> <w>ἰερεὺς</w> <w>ἐ<supplied reason="lost">ών</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <rdg source="bib:b0483">Πασιάδας Ἀρτεμιδ[ώρου Παρθένωι (?)] | βασιλεύων ἱερεὺς
+                     ἐ[ών ἀνέθηκεν (?)] <note>Виноградов apud Пичикян 1976, 255</note></rdg>
+               </app>
+               <app loc="2">
+                  <rdg source="bib:IOSPE bib:IOSPE2">ἐ[ών ---]</rdg>
+                  <rdg source="bib:b0125">ἐ[πεσκεύαξεν (?)] <note>(corr. Латышев 1895, 11)</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Пасиад, (сын) Артемидора, будучи царем и жрецом [---].</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Pasiadas, (son of) Artemidoros, serving as king and priest [---].</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Латышев (IOSPE I2) вслед за Бертье-Делагардом (1893, 19) интерпретировал фрагмент (а)
+               как плиту фриза, относящегося к ионическому храму Диониса («tabula.., quae olim
+               videtur angulum effecisse zoophori templi...; tabulae ornamenta (hedera scilicet et
+               hirci caput) probare nobis videntur templum illud Baccho esse dicatum»). Как показал
+               Пичикян (1976 и 1984), блоки (a) и (b_ в действительности представляют собой фасадную и
+               торцовую части прямоугольного монументального алтаря (реконструируемые размеры в
+               плане: 132 х 264 см), сверху, вероятно, увенчанного гладкой плитой с лунками и
+               угловыми акротериями. Кроме того, Пичикян упоминает фрагмент плинтуса и некоторые
+               другие архитектурные детали из НЗХТ, атрибуируемые тому же сооружению (Пичикян 1976,
+               249; Пичикян 1984, 200 и 206 сл.).</p>
+            <p> Как показывают эта и другие надписи (№ ipe410, 415, ined), в эллинистическое время
+               функции царя (в качестве эпонимной эта магистратура засвидетельствована впервые в
+               первой половине II в. до н.э., ср. № ipe402) и жреца Девы исполнялись в Херсонесе
+               одновременно одним и тем же лицом. Связь царя-эпонима с культом Девы указывает на то,
+               что адресатом этого посвящения являлась богиня-покровительница Херсонеса (ср.
+               упоминание τὸν τᾶς Παρθένου βωμόν ἑν τᾶι ἀκροπόλει в № ipe352, стк. 51).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

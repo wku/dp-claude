@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ru"/><title xml:lang="uk"/>
+                <title xml:lang="en">Unclassified mark</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>King's College London</authority>
+                <idno type="PE">PE2010239</idno>
+                <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="filename">2.1.1.456</tei:idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/>
+                        <altIdentifier xml:lang="ru">
+                            <repository>Государственный Эрмитаж</repository>
+                            <idno>Б.76.424</idno>
+                        </altIdentifier><altIdentifier xml:lang="uk"><repository/><idno/></altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>The State Hermitage Museum</repository>
+                            <idno>Б.76.424</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="filename.xml#id">
+                            <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                            <seg xml:lang="en">Unclassified mark.</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ru" ref="#">Фрагмент.</objectType><objectType xml:lang="uk" ref="#"/>
+                                    <objectType xml:lang="en">Amphora.</objectType>
+                                    
+                                    <material xml:lang="ru" ref="material-search.xml#m10">Глина.</material><material xml:lang="uk" ref="material-search.xml#m10"/>
+                                    <material xml:lang="en">Clay.</material>
+                                    <p xml:lang="ru"/><p xml:lang="uk"/>
+                                    <p xml:lang="en">North Aegean (Proto-Thasos), 575-550 B.C.E. Restored from multiple fragments, 
+                                        with some parts missing, including part of wall and all of foot.</p>
+                                    <dimensions>
+                                        <height unit="cm">47.3 (preserved)</height>
+                                        <width unit="cm"/>
+                                        <depth unit="cm"/>
+                                        <dim type="diameter" unit="cm">30.4</dim>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                                    <seg xml:lang="en">Neck, exterior. Originally inscribed on complete vessel.</seg>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито.</rs></seg><seg xml:lang="uk"><rs type="execution" ref="execution.xml#scariphatis"/></seg>
+                                <seg xml:lang="en">Graffito.</seg>
+                                <height unit="cm"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origPlace.xml#p066"/>
+                            <seg xml:lang="ru">Борисфен.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">Borysthenes.</seg>
+                            <origDate notBefore="0001" notAfter="0001" evidence="Датировка_керамики">
+                                <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                                <seg xml:lang="en">575-550 B.C.E.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="ru">
+                               
+                                <placeName type="ancientFindspot" ref="findspot.xml#berezan">Березань.</placeName>
+                                <rs type="circumstances">Найден в 1976 г., раскопки Л.В. Копейкиной.</rs>
+                                <rs type="context">Участок северо-западный, A, квадрат 109, яма 46, полуземлянка XX, дно. 
+                                    В землянке - расписная керамика 1 пол.-середины 6 века. В заполнении ямы 46 преобладают обломки керам. 
+                                    тары включая три амфоры 1ой пол. 6 века.</rs>
+                            </seg><seg xml:lang="uk"><placeName type="ancientFindspot" ref="findspot.xml#berezan"/><rs type="circumstances"/><rs type="context"/></seg>
+                            <seg xml:lang="en">
+                                <placeName type="ancientFindspot">Berezan.</placeName>
+                                <rs type="circumstances">Found in 1976, excavations of L.V. Kopeykina.</rs>
+                                <rs type="context">Norwestern sector, Area A, grid square 109, pit 46, semi-dugout XX, floor. The semi-dugout contained
+                                painted ceramics of the 1st half - middle of VI century B.C.E. The fill of pit 46 mainly contained fragments of storage vessels, including
+                                three amphorae of the 1st half of VI century B.C.E. </rs>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="ru">Санкт-Петербург, Россия.</seg><seg xml:lang="uk"/>
+                            <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsy">
+                            <seg xml:lang="ru">Non vidi.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">Non vidi.</seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-01-01" who="IP"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="2010239-dr"><desc xml:lang="en"/><desc xml:lang="ru"/><desc xml:lang="uk"/></graphic></surface> <!-- <surface>
+            <graphic url="2010239-a">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010239-b">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010239-c">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface> -->
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <!-- Издания -->
+                <listBibl>
+                    <!-- copy and paste citation -->
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                </listBibl>
+            </div>
+            <div type="bibliography" subtype="commentaries">
+                <!-- Комментарии -->
+                
+            </div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+                        <lb n="1"/><!--Greek text here  -->
+            </ab>
+         </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note><!-- copy and paster from Word --></note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="ru">
+                <p/>
+            </div><div xml:lang="uk" type="translation"><p/></div>
+            <div type="translation" xml:lang="en">
+                <p/>
+            </div>
+            <div type="commentary" xml:lang="ru">
+                <p/>
+            </div><div xml:lang="uk" type="commentary"><p/></div>
+            <div type="commentary" xml:lang="en">
+                <p>Several (2-3?) vertical lines coming to one point at the bottom.</p>
+            </div>
+        </body>
+    </text>
+ 
+</TEI>

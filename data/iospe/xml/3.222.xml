@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Аристо</title><title xml:lang="en">Epitaph of Aristo</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.2</idno><idno type="PE">PE3000002</idno><idno type="filename">3.222</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>79/36847 (+ 135/36847)</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>79/36847 (+ 135/36847)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Стела, украшенная фронтоном с тремя акротериями (боковые
+                              акротерии сбиты). Тыльная сторона обработана суммарно. Сохранились
+                              верхняя и нижняя (с остатками шипа для вставки в постамент) части. Под
+                              карнизом вырезана и обведена красной краской трехстрочная надпись.</p>
+                           <p xml:lang="en">Pedimental stele with three acroteria (the side ones are broken off). The back is summarily treated. 
+                              The top and bottom (with a dowel) are preserved. Below the cornice - cut three-line inscription traced in red paint.</p>
+                           <dimensions>
+                              <height unit="cm">70,0</height>
+                              <width unit="cm">40,5</width>
+                              <depth unit="cm">12,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">На лицевой стороне, под карнизом.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front, below the cornice.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Ню с укороченной правой вертикалью, омикрон чуть меньше
+                           остальных букв, сигма с расходящимися верхней и нижней гастами, широко
+                           расходящиеся наклонные линии ипсилон, омега широкая, чуть вытянутая, без
+                           сближения нижних концов дуги, отсутствие украшений на концах букв.</seg>
+                        <seg xml:lang="en">Nu with a short right vertical, omicron slightly smaller
+                           than the rest of the letters, four-bar sigma with splayed bars, ypsilon
+                           with widely splayed diagonals; absence of decorative elements at the ends of letterstrokes.</seg>
+                        <height unit="cm">2,3</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0350" notAfter="-0301" evidence="палеография">
+                        <seg xml:lang="ru">2-я пол. IV в. до н.э.</seg>
+                        <seg xml:lang="en">2nd half of IV century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1960 г. Раскопки
+                           С.Ф. Стржелецкого (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Юго-восточный район Херсонеса, ядро башни XVII (башня Зенона), кладка</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1960. Excavations of S.F. Strzheletsky (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Southeast sector of Chersonesos, Tower XVII ("Zeno's Tower"), masonry.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-02-25" who="SS">Added English to metadata; tidied XML</change>
+         <change when="2015-11-05" who="CB">Added origDate</change>
+         <change when="2015-10-13" who="CB">Biblio</change>
+         <change when="2015-08-21" who="CB">App Crit</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2015-05-29" who="CB">Metadata tagging</change>
+         <change when="2015-03-12" who="VP">Tagging the names</change>
+         <change when="2014-01-31" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.2">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="30.2a">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Соломоник 1969--><ptr target="bib:b0504"/>, 61, №
+                     <citedRange>5</citedRange></bibl>
+               <bibl><!--НЭПХ II--><ptr target="bib:НЭПХ2"/> <citedRange>139</citedRange></bibl>
+               <bibl><!--Perlman 2011--><ptr target="bib:b0437"/>, 439, №
+                     <citedRange>43</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Posamentir 2011--><ptr target="bib:b0439"/>, 52, № 43+43a</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><persName type="attested" ref="#person455"><name nymRef="Ἀρίστω">Ἀρίστω</name> <w>θυγάτηρ</w>
+               		<lb n="2"/><persName type="attested" ref="#person456"><name nymRef="Ἁγνόκριτος">Ἁγνοκρίτου</name></persName>, <w>γὺνα</w> 
+               		<lb n="3"/><persName type="attested" ref="#person457"><name nymRef="Ἡρόφαντος">Ἡροφάντου</name></persName></persName>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Аристо, дочь Агнокрита, жена Герофанта.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Aristo, daughter of Agnokritos, wife of Herophantos.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>На принадлежность данной стеле нижнего анэпиграфного фрагмента (инв. №: 135/36847;
+               размеры (см): 62,5/43/12) указано в работе Posamentir 2011, 52, № 43+43a. Личное имя
+               Ἀριστώ, возможно, упомянуто также в одной надписи на глиняном грузиле IV-III вв. до
+               н.э. (SEG 44, 657). Теофорное личное имя Ἡρόφαντος засвидетельствовано также в
+               надгробной надписи III в. до н.э. № neph032.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

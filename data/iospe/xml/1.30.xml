@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Почетная надпись в честь неизвестного</title><title xml:lang="en">Honorific inscription for anonymous</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.22</idno>
+            <idno type="filename">1.30</idno>
+            <idno type="PE">PE1000022</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Археологический музей Института археологии НАНУ</repository>
+                     <idno>Б-Д-1959, № 1156</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Department of Archaeology of the Northern Black Sea Coast, Institute of Archaeology, National Academy of Sciences of Ukraine</repository>
+                     <idno>Б-Д-1959, № 1156</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc21">
+                     <seg xml:lang="ru">Почетная надпись.</seg>
+                     <seg xml:lang="en">Honorific inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор белый, мелкозернистый.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Плита заметно расширяется и утолщается книзу. Поле надписи окружено очень невысокой рельефной рамкой. 
+                              Рамка на лицевом фасе обработана суммарно, поле надписи внутри рамки отполировано. Боковые фасы обработаны суммарно, 
+                              на них хорошо видны следы каменотесных орудий, оборотный и нижний – грубыми сколами. Верхняя часть отбита.</p>
+                           <p>Ширина рамки справа и слева: 1,7, снизу: 9,0.</p>
+                           <p xml:lang="en">The panel visibly widens and thickens towards the bottom. The epigraphic field is surrounded by a low relief border. On the front 
+                           the border is treated summarily, the epigraphic field is polished. Sides are treated summarily, with clear marks of stone-working tools;
+                           the back and underside are roughly picked. The top is broken off.</p>
+                           <dimensions>
+                              <height unit="cm">46,5</height>
+                              <width unit="cm">28,8-31,8</width>
+                              <depth unit="cm">8,8-9,4</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Внутри рельефной рамки, отполировано. Верхняя часть отбита. На эпиграфическом поле находились 
+                              изображения шести венков в три ряда, по два венка в ряду. Из них сохранились четыре нижних венка и нижняя часть левого венка верхнего ряда. 
+                              Два нижних и верхние венки плющевые, центральные – лавровые, перевязанные лентами. 
+                              Размеры лавровых венков 9,5 х 10,5, плющевых – 11,5 х 10 см. Над каждым венком расположена одна строка надписи.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. Within bordered area, polished. The top is broken off. Within the epigraphic field: six crowns 
+                             arranged in three rows, two per row. The two top and two bottom ones are ivy crowns, the middle ones - laurel, bound with ribbons. 
+                          The size of laurel crowns: 9,5 x 10,5cm, of ivy ones: 11,5 x 10cm. Above each crown, there is one line of text.</seg>
+                           <dimensions>
+                              <height unit="cm">37,5</height>
+                              <width unit="cm">26,0-28,0</width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны аккуратно и глубоко, украшены небольшими апексами. Пи с укороченной правой гастой. 
+                           У ню правая гаста короче левой и слегка отогнута наружу. Омикрон уменьшен. Каппа с короткими штрихами. 
+                           Омега уменьшена, в виде полукруга с отходящими от его низа горизонтальными штрихами.</seg>
+                        <seg xml:lang="en">Neatly and deeply cut letters, adorned with light serifs. Pi with short right hasta; nu with short right hasta, slightly bent outwards;
+                           omicron smaller than other letters, kappa with short diagonals; omega reduced in size, in the shape of semicircular dome with horizontal bars at the bottom.</seg>
+                        <height unit="cm">0,6-0,9</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0250" notAfter="-0201" evidence="Палеография археологический_контекст">
+                        <seg xml:lang="ru">2-я пол. III в. до н.э.</seg>
+                        <seg xml:lang="en">2nd half of III century B.C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина</placeName>
+                        <rs type="circumstances">Обнаружен при раскопках Тиры в 1959 г.</rs>
+                        <rs type="context">Вторичный, на раскопе А (на прикрепостной площади), 
+                           в нижней части заполнения подвального помещения эллинистического здания; заполнение по материалу датируется II в. до н.э.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Found in excavations of Tyras in 1959. </rs>
+                        <rs type="context">In secondary context: Trench A (square by the fortress side), lower part of the fill in the basement of a hellenistic house; 
+                        the fill is dated by its material to II century B.C.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Киев.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Kiev.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2006-08">август 2006</date>.</seg>
+                     <seg xml:lang="en">A.I. Ivantchik, <date when="2006-08">August 2006</date>.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-26" who="SS">encoded metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.22">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Фурманская 1960 --><ptr target="bib:b0906"/></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+               <div type="textpart" subtype="inscription">
+                  <ab>
+                     <gap reason="lost" extent="unknown" unit="line"/>
+                  </ab>
+               </div>
+            <div type="textpart" subtype="corona" n="cor.1">
+               <ab>
+                  <supplied reason="lost"><w>ὑπὸ</w> <placeName type="ethnic">Τυρανῶν</placeName></supplied>
+               </ab>
+            </div> 	
+               <div type="textpart" subtype="corona" n="cor.2">
+                  <ab>
+                     <w><supplied reason="lost">ὑπὸ</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                  </ab>
+               </div>
+               <div type="textpart" subtype="corona" n="cor.3">
+               <ab>
+                  <w>ὑπὸ</w> <placeName type="ethnic">Ὀλβιοπολιτῶν</placeName>
+               </ab>
+            </div> 	
+               <div type="textpart" subtype="corona" n="cor.4">
+                  <ab>
+                     <w><unclear>ὑ</unclear><supplied reason="lost">πὸ</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                  </ab>
+               </div>  
+            <div type="textpart" subtype="corona" n="cor.5">
+               <ab>
+                  <w>ὑπὸ</w> <placeName type="ethnic">Κυζικηνῶν</placeName>
+               </ab>
+            </div> 	
+            <div type="textpart" subtype="corona" n="cor.6">
+               <ab>
+                  <w>ὑπὸ</w> <placeName type="ethnic">Ῥοδίων</placeName>
+               </ab>
+            </div>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <rdg source="bib:b0906">[ἡ βουλὴ καὶ ὁ δῆμος τὸν δεῖνα τοῦ δεῖνος τιμηθέντα χρυσοῖς στεφάνοις]</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[- - - увенчанного золотыми венками (или подобное) тиритами ?, - - -], ольвиополитами [- - -], кизикинцами, родосцами.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[- - - crowned with golden crowns by citizens of Tyras?, by citizens of - - -], by citizens of Olbia, [by citizens of - - -], by citizens of Cyzicus, 
+               by citizens of Rhodes.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Предложенное Фурманской восстановление утраченного начала надписи, опирающееся на надпись IGBulg I, 320 из Месамбрии (см. о ней Ruscu 2000), 
+               не является единственно возможным. Можно предложить и другие варианты, например [ὁ δεῖνα τοῦ δεῖνος ἐστεφανώθη χρυσοῖς στεφάνοις] 
+               (ср. IG XII,1: 962, 963, также с изображениями венков), и ряд других, ни один из которых не является обязательным. Пропорции плиты предполагают 
+               в любом случае довольно короткую надпись, предшествующую изображениям венков – вероятно, две-три строки. По-видимому, плита была частью 
+               постамента статуи, изображавшей удостоенного почестей, что подразумевает и восстановление Фурманской. Его наградили венками (а возможно и 
+               другими почестями, например, статуей) шесть городов, из которых сохранились упоминания Ольвии, Кизика и Родоса. Название Тиры восстанавливается 
+               на первом месте достаточно надежно: если статуя чествуемого была установлена в Тире, то этот город вне всякого сомнения должен был быть одним из тех, 
+               кто решил его почтить. Можно предполагать восстановление названия Тиры и на втором месте, если чествуемый был иностранцем: тогда его родной 
+               город должен был упоминаться первым.</p>
+            <p>Изображения венков довольно часто встречаются на греческих почетных надписях. Вряд ли можно предполагать какую-либо разницу в семантике 
+               лавровых и плющевых венков в этом контексте (в культовом или симпосиальном контексте плющевые венки связаны более всего с Дионисом, 
+               лавровые  - с Аполлоном, но и с другими божествами), ср. Ganszyniec 1922, 1589-1594, о венках и их семантике в целом см. Blech 1982, специально 
+               о почетных венках, S. 153-162.</p>
+            <p>Заслуги чествуемого лица были, очевидно, весьма существенными, а его деятельность была связана с городами и Причерноморья, и Пропонтиды, 
+               и Эгеиды, так что его почтили одновременно шесть городов. Установить, за какие заслуги он удостоился этих почестей, к сожалению, невозможно. 
+               Карышковский и Клейман связывают эту надпись с военным конфликтом между Византием и Каллатисом ок. 260 г. до н.э., в котором по их предположению 
+               Ольвия и Тира поддержали Византий; они датируют надпись второй четвертью, ближе к середине III в. до н.э. и предполагают, что речь идет об 
+               участнике военных действий, который удостоился почестей в городах, бывших в этой войне союзниками Византия (Карышковский, Клейман 1985, 64-65, 
+               не возражает против этого предположения и Ю.Г. Виноградов: Vinogradov 1997, 43, о войне в целом: S. 41-44). В  этом случае в одной из лакун следовало 
+               бы восстанавливать название Византия. Однако это предположение остается лишь гипотезой.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

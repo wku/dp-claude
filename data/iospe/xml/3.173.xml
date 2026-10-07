@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Список победителей на спортивных состязаниях</title><title xml:lang="en">Victory list</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.503</idno><idno type="PE">PE3000264</idno><idno type="filename">3.173</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc17">
+                     <seg xml:lang="ru">Список победителей на состязаниях.</seg>
+                     <seg xml:lang="en">List of athletic victors.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Частично сохранился правый край плиты (судя по копии) с
+                              остатками надписи.</p>
+                           <p xml:lang="en"/>
+                           <dimensions/>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с прямой поперечной линией, овальное омикрон равнο
+                           по величине остальным буквам пи с равными вертикалями и выходящей за их
+                           пределы горизонталью, курсивная сигма, знаки-разделители.</seg>
+                        <seg xml:lang="en">Alpha with straight crossbar, cursive sigma; word divisions.</seg>
+                        <height unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003" cert="low">
+                        <seg xml:lang="ru">Херсонес (?)</seg>
+                        <seg xml:lang="en">Chersonesos ?</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0200" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">II в. н.э.</seg>
+                        <seg xml:lang="en">II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес) (?).</placeName>
+                        <rs type="circumstances">Нет данных. Найдена, вероятно, не позднее 1827 г.
+                           Находилась в Севастополе, в частной коллекции И.П. Псомаса.</rs>
+                        <rs type="context">Нет данных.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Probably found no later than 1827. Was in Sevastopol, in the private collection of I.P. Psomas.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi. В настоящее время камень считается
+                        утерянным.</seg>
+                     <seg xml:lang="en">Non vidi. The monument is considered lost.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-26" who="CB">leidenised, tokenised, metadata, origDate, biblio and
+            app crit</change>
+         <change when="2015-11-13" who="PC">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Бларамберг 1830--><ptr target="bib:b1018"/>
+               (= <bibl><!--CIG--><ptr target="bib:Kirchhof"/>, <citedRange>II 2099b</citedRange></bibl>)</bibl>
+               <bibl><!--Латышев 1890--><ptr target="bib:b0793"/>, <citedRange>153</citedRange></bibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>IV 282</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>435</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--НЭПХ II--><ptr target="bib:НЭПХ2"/> с. 103, <seg xml:lang="ru">прим.</seg><seg xml:lang="en">approx.</seg> <citedRange>31</citedRange></bibl>
+               <bibl><!--Тункина 2002--><ptr target="bib:b0228"/>, 505, рис. 138</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               	<lb n="1"/><gap reason="lost" quantity="7" unit="character"/> <w><supplied reason="lost">ἀ</supplied><unclear>κ</unclear>όν<supplied reason="lost">τιν</supplied></w>
+               	<lb n="2"/><gap reason="lost" quantity="6" unit="character"/> <w><supplied reason="lost">ἀκόν</supplied>τιν</w>, 
+                                 <w>δρόμ<supplied reason="lost">ον</supplied></w>· 
+               	<lb n="3"/><gap reason="lost" quantity="10" unit="character"/> <w>πάλην</w>· <persName type="attested" ref="#person1000"><name nymRef="Νεικ—"><seg part="I">Νει
+               	<lb n="4" break="no"/><supplied reason="lost">κ</supplied></seg></name></persName> <gap reason="lost" extent="unknown" unit="character"/> 
+                              <persName type="attested" ref="#person1001"><name nymRef="Ἡρακλείδης"><supplied reason="lost">Ἡρ</supplied><unclear>α</unclear>κλείδης</name> 
+                              <persName type="attested" ref="#person1002"><name nymRef="Ἡρο—"><seg part="I">Ἡρο</seg></name></persName></persName> 
+               	<lb n="5" break="no"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost" cert="low">ἀκόντι</supplied>ν</w>, 
+                              <w>δρόμον</w>· <persName type="attested" ref="#person1003"><name nymRef="Μέστρις">Μέστρις</name></persName> 
+               	<lb n="6"/><persName type="attested" ref="#person1004"><gap reason="lost" extent="unknown" unit="character"/> 
+               	                 <supplied reason="lost"><w>ὁ</w> <w>δ</w></supplied>. 
+                              <persName type="attested" ref="#person1005"><name nymRef="Ἀλέξανδρος"><supplied reason="lost">Ἀλ</supplied>εξάνδρου</name></persName></persName>· 
+                                 <w>πάλην</w>· 
+               	<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>ν</unclear></w>, <w>δρόμον</w>, <w>ἀκόντιν</w>·
+               	<lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <w>δρόμον</w>, <w>ἀκόντιν</w>· 
+               	<lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">ἀκό</supplied><unclear>ν</unclear>τιν</w>, <w>ἀγκυλομαχίαν</w>· 
+               	<lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested" ref="#person1006"><name nymRef="Μαρκιανός">Μαρκιανὸς</name> 
+               	                 <persName type="attested" ref="#person1007"><name nymRef="Φιλο—"><seg part="I">Φιλο</seg></name></persName></persName>
+               	<lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">ἀ</supplied>κόντιν</w>
+               	<lb n="11a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note>Точки разделители в стк. 3, 5, 6, 7.</note>
+               </app>
+               <app loc="1">
+                  <rdg><note>supplevi</note>
+                  </rdg>
+                  <rdg source="bib:IOSPE">[- - - δρόμ]ον [- - -]</rdg>
+               </app>
+               <app loc="3">
+                  <rdg><note>fin./4, in.:</note> Νει|[κ - - -]</rdg>
+               </app>
+               <app loc="4-5">
+                  <rdg source="bib:IOSPE">Ἡρα]κλείδης Ἡρο|[ξένου?]</rdg>
+               </app>
+               <app loc="6">
+                  <note>folium в конце стк.</note>
+               </app>
+               <app loc="7">
+                  <rdg source="bib:IOSPE">[ὁ δεῖνα τοῦ δεῖνος] δρόμον, ἀκόντιν</rdg>
+               </app>
+               <app loc="8">
+                  <rdg source="bib:IOSPE">in.: [ὁ δεῖνα τοῦ δεῖνος]</rdg>
+               </app>
+               <app loc="9">
+                  <rdg source="bib:IOSPE">in.: [ὁ δεῖνα - - - ἀκόν]τιν</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>- - - метание копья - - - бег - - - борьба Ни[- - -] Гераклид Геро[- - -] метание
+               копья, бег, Местрис [- - - (такой-то, сын) Александра, борьба - - - бег, метание
+               копья -  - -бег, метание копья - - - метание копья, метание копья на ремне - - -
+               Маркиан Фило - - - метание копья - - -</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Упоминаемая в стк. 9 ἀγκυλομαχία не засвидетельствована в других источниках.
+               Вероятно, речь идет о метании копья с ремнем (ἀγκύλη). Ср. Kah 2004, 57, прим.
+               56.</p>
+            <p>Латышев 1890, 153 (по копии из собрания ООИД).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

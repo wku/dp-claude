@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Геракл[---]</title><title xml:lang="en">Epitaph of Herakl[---]</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.47</idno><idno type="PE">PE3000047</idno><idno type="filename">3.253</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Государственный Эрмитаж</repository>
+                     <idno>Х.1968.3</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>The State Hermitage Museum</repository>
+                     <idno>Х.1968.3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Стела с карнизом с антефиксами (сбиты). Повреждена
+                              верняя правая часть, отсутствует шип для вставки в постамент. Собрана
+                              из нескольких фрагментов. Лицевая, тыльная и боковая грани украшены
+                              рельефными розетками. На лицевой грани рельефное изображение меча и
+                              портупеи. Между карнизом и розетками черной краской нанесена
+                              двухстрочная надпись.</p>
+                           <p xml:lang="en">Stele with cornice and antefixes (damaged). Top right
+                              side is damaged, the dowel is missing. In several fragments. The
+                              front, back, and sides are decorated with relief rosettes. On the
+                              front - relief image of a sword and sword belt.</p>
+                           <dimensions>
+                              <height unit="cm">162,0</height>
+                              <width unit="cm">33,0</width>
+                              <depth unit="cm">15,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Между карнизом и розетками.</seg>
+                           <seg xml:lang="en">Between the cornice and rosettes.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Надпись черной краской. омикрон немного меньше остальных
+                           букв, слегка изогнутые линии, утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en"><rs type="execution" ref="execution.xml#pictura">Painted</rs> in black. Omicron smaller than the rest of the
+                           letters. Letterstrokes are slightly curving, flaring of the ends of
+                           letterstrokes.</seg>
+                        <height unit="cm">3,2</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0201" evidence="палеография">
+                        <seg xml:lang="ru">III в. до н.э.</seg>
+                        <seg xml:lang="en">III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1960 г. Раскопки С.Ф. Стржелецкого (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Юго-восточный район Херсонеса, оборонительные стены, ядро башни XVII (башня Зенона), кладка.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1960, excavations of S.F. Strzheletsky (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Southeast sector of Chersonesos, fortification walls, Tower XVII ("Zeno's Tower"), masonry.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Санкт-Петербург, Россия.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-28" who="CB">Correcting app crit</change>
+         <change when="2015-10-15" who="CB">Tagging bibliography</change>
+         <change when="2015-08-26" who="CB">App crit</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2015-06-02" who="CB">Metadata tagging.</change>
+         <change when="2015-03-13" who="VP">Tagging Greek names</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.47">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Соломоник 1969--><ptr target="bib:b0504"/>, 65, №
+                     <citedRange>18</citedRange></bibl>
+               <bibl><!--НЭПХ  II--><ptr target="bib:НЭПХ2"/> <citedRange>152</citedRange>
+               (= <bibl><!--Bull.ép. 1974--><ptr target="bib:BE"/> <citedRange>1974, 380</citedRange></bibl>)</bibl>
+               <bibl><!--SEG--><ptr target="bib:SEG"/>, 53, 767, № <citedRange>1</citedRange></bibl>
+               <bibl><!--Perlman 2011--><ptr target="bib:b0437"/>, 432, №
+                  <citedRange>6</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Posamentir 2011--><ptr target="bib:b0439"/>, 19, № 6</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person573"><name nymRef="Ἡρακλει—"><seg part="I">Ἡ<unclear>ρ</unclear>α<unclear>κ</unclear>λ<unclear>ε</unclear>ι</seg></name>
+               	<lb n="2"/><persName type="attested" ref="#person574"><name nymRef="Τίβειος">Τιβείο<supplied reason="lost">υ</supplied></name></persName></persName>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg source="bib:b0504 bib:НЭПХ2">Ἡ<unclear>ρ</unclear>ά<unclear>κ</unclear>λ[ε]̣ι[ος]</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Геракл(---), (сын) Тибея.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Herakl(---), (son of) Tibeios.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Принимая во внимание восстанавливаемую длину строки дополнение более короткого ЛИ
+                  Ἡ<unclear>ρ</unclear>ά<unclear>κ</unclear>λ<unclear>ε</unclear>ι[ος] более
+               вероятно нежели ЛИ
+               Ἡ<unclear>ρ</unclear>ά<unclear>κ</unclear>λ<unclear>ε</unclear>ι[τος] vel
+                  Ἡ<unclear>ρ</unclear>α<unclear>κ</unclear>λ<unclear>ε</unclear>ί[δας].</p>
+            <p>Каждое из трех возможных теофорных имен в стк. 1 засвидетельствовано в Херсонесе
+               (LGPN IV). Личное имя Τίβειος (Τίβιος) характерно для фригийско-пафлагонского региона
+               и, вероятно, попало в Херсонес из Гераклеи Понтийской. См. Strab. 7.3.12 и 12.3.25
+               (ср. также ЛИ Τίβης и LGPN IV); Masson 1957, 163; Robert 1963, 530 сл. (вопреки
+               Zgusta 1955, 413); Strubbe 1979, 126; Stolba 1996, 456 сл.). </p>
+            <p>Согласно Posamentir 2011, 170 слл. стела относится к «мастерской Санниона» (ср. №№
+               neph144-neph151).</p>
+            <p>SEG, 53, 767, № 1 (ошибочно отмечается, что надпись, вероятно, является ineditum).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

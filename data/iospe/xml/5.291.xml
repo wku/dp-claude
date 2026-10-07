@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Феодора</title><title xml:lang="en">Epitaph of Theodore</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.291</idno><idno type="PE">PE5000291</idno>
+            <idno type="AYV2012-number">byz280</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Крупнозернистый известняк.</material>
+                           <material xml:lang="en">Coarse-grained limestone.</material>
+                           <p xml:lang="ru">На лицевой стороне сводообразное углубление, в котором находится рельефное изображение креста; края
+                              углубления и крест закрашены темно-красной краской. Состояние неизвестно.</p>
+                           <p xml:lang="en">On the front - arched inset area with a relief cross; the edges of the inset area and the cross are painted
+                           dark red. Condition unknown.</p>
+                           <dimensions>
+                              <height>49,0</height>
+                              <width>33,0</width>
+                              <depth>7,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">Под крестом.</seg>
+                           <seg xml:lang="en">Below the cross.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы прокрашены охрой. Эпсилон лунарный.</seg>
+                        <seg xml:lang="en">Lapidary; letters filled in with ochre. Lunate epsilon.</seg>
+                        <height unit="cm">2,0–2,5.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p044">
+                        <seg xml:lang="ru">Пантикапей.</seg>
+                         <seg xml:lang="en">Pantikapaion.</seg>
+                     </origPlace>
+                     <origDate notBefore="0301" notAfter="0500" precision="low" evidence="тип_надгробия">
+                        <seg xml:lang="ru">IV–V вв.</seg>
+                        <seg xml:lang="en">IV-Vth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#kerch">Керчь.</placeName>
+                        <rs type="circumstances">1-ая половина января 1898 г., случайная находка.</rs>
+                        <rs type="context">Глинище, сад К. Верле.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Kerch.</placeName>
+                        <rs type="circumstances">1st half of January 1898, chance find</rs>
+                        <rs type="context">Glinishche, garden of K. Woerle</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-17" who="CB">Andrey's corrections</change>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-11-07" who="TW">Added image code</change>
+         <change when="2012-08-21" who="AG">1 line translated, small corrections</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+          <change when="2012-07-10" who="AL">corrections in metadata</change>
+          <change when="2012-06-25" who="AL">small corrections in metadata and bibliography-tagging</change>
+          <change when="2012-05-16" who="AFS">corrected metadata and text</change>
+          <change when="2012-03-20" who="AL">original date tagged, bibliography tagged, text tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.291">
+                <desc xml:lang="en">Drawing of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+                <bibl n="L1"><!-- Шкорпил 1900--><ptr target="bib:b0247"/>, 59–60, № <citedRange>2</citedRange></bibl>
+               <bibl n="1.1"><!-- КХНБ --><ptr target="bib:b0068"/>, № <citedRange>20</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Здесь лежит раб Божий Феодор.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Here lies a servant of God, Theodore.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Надпись найдена вместе с <ref type="inscription">V 273</ref><!--byz261-->.</p>
+                <p> 1–3. Относительно формулы см. <ref type="introduction">IV.3.F.d</ref>.</p>
+            <p> 3–4. Относительно имени Феодор см. комм. к <ref type="inscription">V 275</ref><!--byz263-->. Отметим в нем диттографию слога (ср. <ref type="inscription">V 277</ref><!--byz265-->).</p>
+                <p>Хотя ни сам камень, ни его копия не сохранились, место и обстоятельство находки, а также описание его 
+                   внешнего вида не оставляют сомнений в том, что это типичное боспорское надгробие IV–V вв.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The inscription was found together with  <ref type="inscription">V 273</ref><!--byz261-->.</p>
+            <p> 1–3. On the formula, see Introduction <ref type="introduction">IV.3.F.d</ref>.</p>
+            <p> 3–4. On the name Theodore, see commentary to  <ref type="inscription">V 275</ref><!--byz263-->. We should note dittography of one syllable (cf. <ref type="inscription">V 277</ref><!--byz265-->).</p>
+            <p>Although neither the monument, nor the transcription survive, the place and circumstance of the find, as well as the monument's physical description
+            leave no doubt that it was a typical Bosporan tombstone of the IV-Vth centuries.</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="ἐνθάδε">Ἐνθάδε</w> <w lemma="κατάκειμαι">κατ<unclear>ά</unclear><lb n="2" break="no"/>κιτε</w> <w lemma="ὁ">ὁ</w> <w lemma="δοῦλος">δοῦλος</w>
+               <lb n="3"/><persName type="divine" key="theos"><roleName><w lemma="θεός"><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w></roleName></persName> <persName type="attested" ref="#person361"><name nymRef="Θεόδωρος">Θε<surplus>θε</surplus>ώδ<lb n="4" break="no"/>ορος</name></persName>.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

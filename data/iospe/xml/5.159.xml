@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Фотина</title><title xml:lang="en">Epitaph of Photeinos</title><editor xml:id="ayv2012">
+               <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+               <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+            </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.159</idno><idno type="PE">PE5000159</idno>
+            <idno type="AYV2012-number">byz148</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Бахчисарайский историко-культурный заповедник</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Bakhchisaray  State Historical and Cultural Preserve</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Стела в виде подставки (на лицевой стороне внизу полукруглая нишка) и круга над ней
+                              (на лицевой стороне высечено рельефное изображение греческого креста с расширяющимися концами в круге).
+                              Разбита на две части, небольшие выбоины по поверхности; к 1986 г. сохранялась лишь средняя часть.</p>
+                           <p xml:lang="en">Stele in the shape of a support (on the bottom front - semi-spherical niche) mounted by a carved circle, with a carved Greek cross with 
+                              flaring arms inscribed into the circle. Broken in two parts, small chips on the surface; by 1986, only the middle part was surviving.</p>
+                           <dimensions>
+                              <height>76,5</height>
+                              <width>28,0</width>
+                              <depth>18,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">Между кругом и нишей.</seg>
+                           <seg xml:lang="en">Between the circle and the niche.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>, bouletée. Альфа с ломаной перекладиной, эпсилон прямоугольный, 
+                           ипсилон У- и V-образный.</seg>
+                        <seg xml:lang="en">Lapidary,  bouletée. Alpha with broken crossbar, rectangular epsilon, У- and V-shaped upsilon.</seg>
+                        <height unit="cm">1,5–2,2.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p014">
+                        <seg xml:lang="ru">Хора Херсона.</seg>
+                        <seg xml:lang="en">Chora of Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0401" notAfter="0700" precision="low" evidence="палеография орфография">
+                        <seg xml:lang="ru">V–VII вв.</seg>
+                        <seg xml:lang="en">V–VIIth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="2006-09">Сентябрь 2006</date>.</seg>
+                     <seg xml:lang="en"><date when="2006-09">September 2006</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#inkerman">Инкерман.</placeName>
+                        <rs type="circumstances">1952 г., раскопки Е.В. Веймарна.</rs>
+                        <rs type="context">Сахарная головка, могильник, ямная могила № 3.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Inkerman.</placeName>
+                        <rs type="circumstances">1952, excavations of E.V. Veymarn.</rs>
+                        <rs type="context">Sakharnaya Golovka, necropolis, pit grave 3.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Бахчисарай, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Bakhchisaray, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+          <change when="2013-10-24" who="TW">Added image code</change>
+         <change when="2012-08-14" who="AFS">inserted key name</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-18" who="AG">some corrections, 1 line translated</change>
+         <change when="2012-05-31" who="AG">several lines translated, editor added</change>
+         <change when="2012-03-13" who="AG">corrections in metadata, bibliography and apparatus tagged/ tags in the Greek text corrected</change>
+         <change when="2012-03-06" who="AFS">tagged greek text</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.159">
+                <desc xml:lang="en">Photograph of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Соломоник 1986--><ptr target="bib:b0210"/>, 215–216, <seg xml:lang="ru">рис.</seg><seg xml:lang="en">fig.</seg> <citedRange>9–10</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="apparatus">
+             <listApp>
+               <app loc="1-2"><rdg source="bib:b0210">α[.]ματ[.]ον</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Господи, упокой душу Фотина.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Lord, rest the soul of Photeinos.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Надпись, по всей видимости, готовилась к публикации М.Я. Чорефом: об этом свидетельствует
+                сохранившиеся в его архиве, хранящемся в Бахчисарайском историко-культурном заповеднике,
+                ее фотография и прорисовка с подписью «рис. 1».</p>
+                <p> Е.В. Веймарн (1963, 51, рис. 10.) датировал погребение VI — VIII вв., а А.И. Айбабин
+                    тот участок со склепами, где была найдена надпись, — VIII–IX вв. Эту датировку Соломоник
+                    перенесла и на саму надпись. Однако характерное смешение эты и эпсилона, а также шрифт
+                    заставляют все же отнести нашу надпись к ранневизантийскому времени. По внешнему облику,
+                     формуле, палеографии и орфографии (диттография ню) надпись тесно примыкает к
+                     эпиграфической традиции Херсонеса V–VII вв. (ср. <ref type="inscription">V 60</ref><!--byz060-->, 
+                   <ref type="inscription">V 61</ref><!--byz061-->, <ref type="inscription">V 62</ref><!--byz062-->, <ref type="inscription">V 63</ref><!--byz063-->, 
+                   <ref type="inscription">V 64</ref><!--byz064-->) и была, в случае правильности
+                     датировки Айбабина, реутилизована позднее, причем важным было просто изображение
+                     креста, тогда как новый текст резчик нанести были уже не в состоянии. Итак, данное надгробие
+                     оказывается самой удаленной от метрополии херсонской византийской надписью.</p>
+                <p> 1–3. Относительно формулы см. <ref type="introduction">IV.3.F.b</ref>.  </p>
+                <p>3. Имя Фотин, неизвестное в Причерноморье, — христианское: его носили трое мучеников
+                    (см. Delehaye 1902, 1177). В византийской эпиграфике оно встречается, согласно PHI7 Database,
+                    16 раз, преимущественно в Малой Азии.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>It would appear that M.Ya. Choref was preparing a publication of this inscription: a photograph and drawing (inscribed fig. 1) of the text can be found in his archive
+            (currently at the Bakhchisaray Historico-Cultural Preserve).</p>
+            <p>Ye.V. Veymarn (1963, 51, fig. 10.) dated the burial to the VIth-VIIIth centuries, while A.I. Aybabin dated the area with burial vaults where this inscription
+               had been found to the VIIIth-IXth centuries. Solomonik simply applied the same date to the inscription. There are reasons to doubt such late dating, however:
+               a characteristic interchange of eta and epsilon, as well as the script point to an Early Byzantine date. The style, formula, palaeography and orthography (dittography of nu)
+               place this inscription in close affinity with the epigraphic tradition of Chersonesos of the V-VIIth centuries (cf. <ref type="inscription">V 60</ref><!--byz060-->, 
+               <ref type="inscription">V 61</ref><!--byz061-->, <ref type="inscription">V 62</ref><!--byz062-->, <ref type="inscription">V 63</ref><!--byz063-->, 
+               <ref type="inscription">V 64</ref><!--byz064-->), and if Aibabin's dating of archaeological remains is correct, then we would be dealing with secondary use, or reuse 
+            of an earlier monument, in which case the main attraction would have been the image of the cross, without an effort to change the earlier text. If our hypothesis 
+            about the date and origin is correct, then this inscription would represent the most geographically distant (from the metropolis) Byzantine inscription of Cherson.</p>
+            <p> 1–3. On the formula, see Introduction <ref type="introduction">IV.3.F.b</ref>.  </p>
+            <p>The name Photeinos, otherwise unknown in the Black Sea region, is Christian: we know of three martyrs of that name (see Delehaye 1902, 1177). According to PHI7 Database,
+            it is attested 16 times in Byzantine epigraphy, predominantly in Asia Minor.</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><g ref="#stauros"/> <persName type="divine" key="theos"><roleName><w lemma="κύριος"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w></roleName></persName>
+               <w lemma="ἀναπαύω">ἀ<unclear>ν</unclear><surplus>ν</surplus>άπ<supplied reason="lost">αυ</supplied><lb n="2" break="no"/>σον</w> <w lemma="ὁ">τὴν</w>
+               <w lemma="ψυχή">ψυ<lb n="3" break="no"/><unclear>χ</unclear>ὲν</w>
+               <persName type="attested" ref="#person202"><name nymRef="Φωτινός">Φωτινοῦ</name></persName>.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

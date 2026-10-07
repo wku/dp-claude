@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Каллеаса и Гедитеи</title><title xml:lang="en">Epitaph of Kalleas and Hedytea</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.157</idno><idno type="PE">PE3000145</idno><idno type="filename">3.364</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Государственный исторический музей</repository>
+                     <idno>78607</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>State Historical Museum</repository>
+                     <idno>78607</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Сохранилась верхняя левая часть. Вверху в рельефе
+                              изображен фронтон с акротериями и розеткой в типмане. В прямоугольном
+                              углублении остатки рельефного изображения сцены загробной трапезы:
+                              рука мужчины, держащая венок над женской (?) головой (сильно
+                              повреждена). На архитраве между фронтоном и углублением аккуратно
+                              глубокими буквами вырезана двухстрочная надпись.</p>
+                           <p xml:lang="en">Upper left part of a panel. Relief pediment with acroteria and rosette in the centre; relief of funerary feast in a rectangular 
+                           inset field on the front.</p>
+                           <dimensions>
+                              <height unit="cm">29,0</height>
+                              <width unit="cm">33,0</width>
+                              <depth unit="cm">10,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. On the architrave, between the pediment and the inset field for relief.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с прямой перекладиной, верхняя и нижняя гасты
+                           эпсилон значительно выступают влево за вертикаль, омикрон меньше
+                           остальных букв, сигма с параллельными верхней и нижней линиями, крупные
+                           апексы и утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Alpha with straight crossbar, omicron smaller than other letters, four-bar sigma with parallel top and bottom bars; 
+                           serifs and flaring of the ends of letterstrokes.</seg>
+                        <height unit="cm">1,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0200" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">II в. н.э.</seg>
+                        <seg xml:lang="en">IIn century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес) (?).</placeName>
+                        <rs type="circumstances">Памятник найден не позднее 1872 г., когда он был
+                           перевезен в Москву. Обстоятельства находки неизвестны. До 1872 г.
+                           хранился в Херсонесе.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found no later than 1872 when it was brought to Moscow. Circumstances of find are unknown, but was in Chersonesos until 1872.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Москва, Россия.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Moscow, Russian Federation.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi, в фондах ГИМ памятник обнаружить не удалось.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-05" who="CB">Added origDate</change>
+         <change when="2015-10-13" who="CB">Bibliography</change>
+         <change when="2015-09-29" who="CB">Bibliography</change>
+         <change when="2015-08-21" who="CB">App Crit</change>
+         <change when="2015-06-25" who="CB">Tagging metadata</change>
+         <change when="2015-05-08" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-05-13" who="AV">programmatically tagging Greek words from Word
+            docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>I 216</citedRange></bibl>
+               <bibl><!--Латышев 1892--><ptr target="bib:b0125"/>, <citedRange>366</citedRange></bibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE/"/> <citedRange>IV p. 281, ad № 216</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>454</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Мансветов 1872--><ptr target="bib:b0489"/>, 50, № <citedRange>11</citedRange></bibl>
+               <bibl><!--KW--><ptr target="bib:b0519"/>, № <citedRange>736</citedRange></bibl>
+               <bibl><!--АСХ--><ptr target="bib:b0523"/>, № <citedRange>327</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person781"><name nymRef="Καλλέας">Καλλέας</name> 
+               	                 <persName type="attested" ref="#person782"><name nymRef="Γαίος">Γαίου</name></persName></persName> <w>καὶ</w> <w>ἡ</w> 
+                                 <w><unclear>γ</unclear><supplied reason="lost">υνὴ</supplied></w> <w><supplied reason="lost">αὐτοῦ</supplied></w>
+               	<lb n="2"/><persName type="attested" ref="#person783"><name nymRef="Ἡδυτέα">Ἡδυτέα</name> 
+               	                 <persName type="attested" ref="#person784"><name nymRef="Δημήτριος">Δημητρίου</name></persName></persName> 
+                                 <w>θυγ<unclear>ά</unclear><supplied reason="lost">τηρ</supplied></w>· <w><supplied reason="lost">χαίρετε</supplied></w>.
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <rdg source="bib:b0125"><note>rest.</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Каллеас, (сын) Гая, и его жена Гедитея, дочь Деметрия, приветствую.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Kalleas, (son of) Gaius, and his wife Hedytea, daughter of Demetrios, greeting.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>II в. н.э. (скорее 1-я пол. века).</p>
+            <p>Watzinger 1909, № 736 (ошибочная ссылка на ЗИРАО).</p>
+            <p>1. Патронимик Γαίου с обеих сторон выделен знаками-разделителями.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The date is II century C.E. (more likely the first half of the century).</p>
+            <p>Watzinger 1909, № 736 (erroneous reference to ЗИРАО).</p>
+            <p>Line 1. The patronymic Γαίου has division signs on either side.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

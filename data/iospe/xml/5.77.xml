@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Гордиана <certainty cert="low" locus="value" match=".."/></title><title xml:lang="en">Epitaph of Gordianos <certainty cert="low" locus="value" match=".."/></title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.77</idno><idno type="PE">PE5000077</idno>
+            <idno type="AYV2012-number">byz077</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>34964, 35074</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>34964, 35074</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Обломана со всех сторон.</p>
+                           <p xml:lang="en">Broken on all sides.</p>
+                           <dimensions>
+                              <height>10,5</height>
+                              <width>9,0</width>
+                              <depth>4,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На лицевой стороне.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с ломаной перекладиной, сигма полуромбовидная.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with broken crossbar, half-diamond sigma.</seg>
+                        <height unit="cm">1,5–1,8.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0501" notAfter="0700" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">VI–VII вв.</seg>
+                        <seg xml:lang="en">VI–VIIth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08"> август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>.</seg>
+                     <seg xml:lang="en"> <date when="1999-05">May 1999</date>, <date when="2001-08"> August 2001</date>, <date when="2002-09"> September 2002</date>, <date when="2003-09"> September 2003</date>, <date when="2004-09"> September 2004</date>, <date when="2005-09"> September 2005</date>, <date when="2006-09"> September 2006</date>, <date when="2007-09"> September 2007</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1906 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Некрополь у Загородного крестообразного храма, насыпь.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1906, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Necropolis by the Extramural Cruciform Church, soil heap.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-03-24" who="CB">Andrey's corrections</change>
+          <change when="2013-10-24" who="TW">Added image code</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-12" who="AG">small corrections</change>
+         <change when="2012-05-21" who="AG">several lines translated</change>
+          <change when="2012-04-30" who="AFS">updated bibliography</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-02-22" who="AG">bibliography tagged</change>
+         <change when="2012-01-10" who="AG">updating, some tags corrected in the Greek text, 1 line translated</change>
+         <change when="2011-12-06" who="AG">minor corrections, tags added to the Greek text</change>
+         <change when="2011-12-06" who="AG">minor corrections, tags added to the Greek text</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.77">
+                <desc xml:lang="en">Photograph of face (from ??)</desc>
+                <desc xml:lang="ru">Фотография лицевой части (из ??)</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Виноградов 2009a--><ptr target="bib:b0048"/>,  <citedRange>240-242</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>…] пам<supplied reason="lost">ятник Го</supplied>рдиа<supplied reason="lost">на (?)…</supplied></p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>...] monument of Go<supplied reason="lost">rdia</supplied>nos (?)...</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> В палеографии надписи прослеживается стремление к «классической» форме букв, поэтому мы склонны относить ее к ранневизантийскому времени. </p>
+                <p> 2. Судя по месту находки (Косцюшко-Валюжинич 1909, 66), это надгробие из некрополя у Загородного крестообразного храма, что подтверждается 
+                   восстановлением слова «памятник». Относительно этой формулы см. <ref type="introduction">IV.3.F.h</ref>.</p>
+                <p>3. Буквы ΡΔΕΑ не могут быть истолкованы иначе, как остаток имени, а здесь единственный вариант — Гордиан, с переходом  i  в  е  
+                   (такая форма зафиксирована в Suppl. Ephesos 16a.2663.12). Как христианское оно встречается в MAMA VIII 252b (Ликаония) и Diehl 1925, № 3995B 
+                   (Рим, Сан-Себастьяно). В Северном Причерноморье оно неизвестно, и поэтому логично предположить, что оно появилось здесь извне, скорее всего, из 
+                   Малой Азии, где было более всего распространено в римское время.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>We note a tendency towards "classical" lettershapes in the style of writing, therefore we favour a date in the Early Byzantine period.</p>
+            <p>2. Judging by the place of find (Kostsyushko-Valyuzhinich 1909, 66), this tombstone came from the necropolis by the Extramural Cruciform Church, which is
+               corroborated by the restoration of the word "monument." On the formula, see Introduction <ref type="introduction">IV.3.F.h</ref>.</p>
+            <p>3. Letters ΡΔΕΑ can be interpreted only as belonging to a name, in which case the only possibility is Gordianos, where е has replaced i (such form
+               is found in Suppl. Ephesos 16a.2663.12). In Christian use, it is attested in  MAMA VIII 252b (Lycaonia) и Diehl 1925, № 3995B (Roma, San Sebastiano).
+            In the Northern Black Sea region it is not known, and so it is logical to suppose that it came from the outside, most likely, from Asia Minor, where it was
+            common in the Roman period.</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Σ</unclear>Ο</orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὁ">τ<unclear>ὸ</unclear></w> <w lemma="μνημεῖον">μ<unclear>ν</unclear><supplied reason="lost">ημεῖον</supplied></w>
+               <lb n="3"/><persName type="attested" ref="#person79"><name nymRef="Γορδιανός"><supplied reason="lost">Γο</supplied>ρδε<unclear>α</unclear><supplied reason="lost" cert="low">νοῦ</supplied></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

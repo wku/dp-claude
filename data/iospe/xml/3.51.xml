@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Декрет, касающийся культа Партенос</title><title xml:lang="en">Decree concerning the cult of Parthenos</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.262</idno><idno type="PE">PE3000205</idno><idno type="filename">3.51</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3609</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3609</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc15">
+                     <seg xml:lang="ru">Декрет.</seg>
+                     <seg xml:lang="en">Decree.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Верхняя часть стелы, украшенной фронтоном (сохранился
+                              карниз). Тыльная сторона заглажена. Надпись, частично читаемая в
+                              момент обнаружения, в настоящее время не поддается прочтению
+                              вследствие отслаивания лицевой поверхности камня.</p>
+                           <p xml:lang="en">Upper part of a stele adorned with pediment (the cornice is preserved). The back is planed. The text was legible at the time of discovery,
+                           but since then the flaking of the surface had rendered it illegible.</p>
+                           <dimensions>
+                              <height unit="cm">27,0</height>
+                              <width unit="cm">31,0</width>
+                              <depth unit="cm">7,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с прямой перекладиной, мю с наклонными боковыми,
+                           правая гаста ню слегка приподнята, укороченная правая вертикаль пи, за
+                           которую слегка выступает верхняя поперечная линия, сигма с расходящимися
+                           верхней и нижней гастами, концы дуги омега не сближаются, слегка
+                           изогнутые линии букв, утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Alpha with straight crossbar, mu with slanting outer
+                           hastae, nu with a raised right vertical, four-bar sigma with splayed bars, flaring of the ends of letterstrokes.</seg>
+                        <height unit="cm">1,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0251" evidence="палеография">
+                        <seg xml:lang="ru">1-я пол. III в. до н.э.</seg>
+                        <seg xml:lang="en">1st half of III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Случайная находка 1906 г., (архив НЗХТ, д. 35, л. 2, № 285).</rs>
+                        <rs type="context">В северо-восточной части городища (архив НЗХТ, д. 35, л. 2, № 285: "на берегу моря между складом
+                           древностей и минной станцией").</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Random find in 1906 (архив НЗХТ, д. 35, л. 2, № 285).</rs>
+                        <rs type="context">Northern sector of the citadel (архив НЗХТ, д. 35, л. 2, № 285: "on the coast between the Repository of Antiquities and 
+                           the mines depot")</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-23" who="CB">Changes to app crit</change>
+         <change when="2015-11-05" who="CB">Added origDate</change>
+         <change when="2015-10-13" who="CB">Bibliography</change>
+         <change when="2015-08-24" who="CB">App crit check</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-26" who="CB">Tagging metadata</change>
+         <change when="2015-03-16" who="VP">Tagging Greek names</change>
+         <change when="2015-03-16" who="AV">tagging Greek names XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.262">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1906--><ptr target="bib:b0146"/>, 114, № <citedRange>23</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>343</citedRange></bibl>
+               <bibl><!--Виноградов 1997--><ptr target="bib:b0453"/>
+               (= <bibl><!--SEG--><ptr target="bib:SEG"/> <citedRange>47, 1168</citedRange></bibl>)</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Латышев 1913/1914--><ptr target="bib:b0153"/>, <citedRange>206</citedRange></bibl>
+               <bibl><!--Ростовцев 1915--><ptr target="bib:b0491"/>, <citedRange>157</citedRange></bibl>
+               <bibl><!--Rostowzew 1920--><ptr target="bib:b0441"/>, <citedRange>203</citedRange></bibl>
+               <bibl><!--Соломоник 1990--><ptr target="bib:b0506"/>, <citedRange>12</citedRange></bibl>
+               <bibl><!--Виноградов 2000--><ptr target="bib:b0406"/>, <citedRange>271</citedRange> слл</bibl>
+               <bibl><!--Зубарь 2005--><ptr target="bib:b0469"/>, <citedRange>212</citedRange> слл</bibl>
+               <bibl><!--Müller 2010--><ptr target="bib:b0435"/>, <citedRange>71</citedRange> сл</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" ref="#person872"><name nymRef="Ἡρακλείδας">Ἡρακλείδας</name> <persName type="attested" ref="#person873"><name nymRef="Παρμένων">Παρμένοντος</name></persName></persName> 
+                                 <w>ἐπὶ</w> <w>τᾶς</w> <w>διοικήσε<supplied reason="lost">ος</supplied></w>
+               <lb n="2"/><w><unclear>ἐ</unclear>ὼν</w> <w><unclear>κ</unclear><supplied reason="lost">αὶ</supplied></w> 
+                              <w><supplied reason="lost">νομοφύλ</supplied>ακες</w>
+                              <persName type="attested" ref="#person874"><name nymRef="Πολύστρατος">Πολύστρατος</name> 
+                                    <persName type="attested" ref="#person875"><name nymRef="Κλε—"><seg part="I">Κλε</seg><gap reason="lost" quantity="2" unit="character"/></name></persName></persName>
+              <lb n="3" break="no"/><persName type="attested" ref="#person876"><name nymRef="—ς"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ς</seg></name>
+                                 <persName type="attested" ref="#person877"><name nymRef="Δαμοκλῆς">Δαμοκλεῖος</name></persName></persName>, 
+                                 <persName type="attested" ref="#person878"><name nymRef="Ἡρώιδας">Ἡρώιδ<unclear>α</unclear><supplied reason="lost">ς</supplied></name>
+               <lb n="4"/><persName type="attested" ref="#person879"><name><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                 <w><supplied reason="lost">καὶ</supplied></w> <w><supplied reason="lost">τ</supplied>αμίας</w> 
+                                 <persName type="attested" ref="#person880"><name nymRef="Βάβων">Βάβων</name> 
+                                       <persName type="attested" ref="#person881"><name nymRef="Ἀθάναιος">Ἀθαναί<supplied reason="lost">ου</supplied></name></persName></persName>
+               <lb n="5"/><w><supplied reason="lost">εἶπαν</supplied></w> <w><supplied reason="lost">ὅπως</supplied></w> <w><supplied reason="lost">ἂν</supplied></w> 
+                                 <w><supplied reason="lost">καλῶ</supplied>ς</w> <w>ἔχῃ</w> <w>τοῖς</w> <w>πολίταις</w> <w>τὰ</w>
+               <lb n="6"/><w><supplied reason="lost">περὶ</supplied></w> <w><supplied reason="lost">τὰν</supplied></w> <w><supplied reason="lost">θεὰν</supplied></w> 
+                                 <persName type="divine" key="parthenos"><name><supplied reason="lost">Παρθέν</supplied>ον</name></persName> <w>καὶ</w> <w>τᾶς</w> <w>γενομένας</w>
+               <lb n="7"/><w><supplied reason="lost">δι'</supplied></w> <w><supplied reason="lost">αὐτὰν</supplied></w> <w><supplied reason="lost">σωτηρίας</supplied></w> 
+                                 <w><supplied reason="lost">τὰν</supplied></w> <w>ἐνδεχομέναν</w> <w>ὁ</w> <w>δᾶ
+               <lb n="8" break="no"/><supplied reason="lost">μος</supplied></w> <w><supplied reason="lost">ἀποδιδοὺς</supplied></w> <w>αὐτᾶι</w> <w>φαίνηται</w> 
+                                 <w>χάριν</w>
+               <lb n="9"/><w><supplied reason="lost">πρότερόν</supplied></w> <w><supplied reason="lost">τ’</supplied></w> <w><supplied reason="lost">ἤδη</supplied></w> 
+                                 <w><supplied reason="lost">πολ</supplied><unclear>λά</unclear>κι</w> <w>σωθεὶς</w> <w>δι'</w> <w><unclear>α</unclear>ὐτὰν</w> 
+               <lb n="10"/><w><supplied reason="lost">ἐκ</supplied></w> <w><supplied reason="lost">τῶν</supplied></w> <w><supplied reason="lost">μεγίστων</supplied></w> 
+                                 <w><supplied reason="lost">κινδύν</supplied>ων</w> <w>καὶ</w> <w>νῦν</w> <w>ἐκπεπο
+               <lb n="11" break="no"/><supplied reason="lost">ρευμένων</supplied></w> <gap reason="lost" quantity="1" unit="line"/> 
+                                 <w><supplied reason="lost">ἐλευ</supplied><unclear>θέ</unclear>ρων</w> 
+                                 <w>μετὰ</w> <w>τέκνων</w>
+               <lb n="12"/><w><supplied reason="lost">καὶ</supplied></w> <w><supplied reason="lost" cert="low">γυναικῶν</supplied></w> 
+                                 <w><supplied reason="lost">ἐπὶ</supplied></w> 
+                                 <w><supplied reason="lost">τὰ</supplied><unclear>γ</unclear></w> <w>κομιδὰν</w> <w><supplied reason="lost">τοῦ</supplied></w> 
+                                 <persName type="divine" key="dionysus"><name>Διονύσ
+                <lb n="13" break="no"/><supplied reason="lost">ου</supplied></name></persName> <w><supplied reason="lost">ἔφοδόν</supplied></w> 
+                                 <w><supplied reason="lost">τε</supplied></w> <w><supplied reason="lost">δεινὰν</supplied></w> 
+                                 <w><supplied reason="lost">πο</supplied>ιησαμένων</w> <w>παραλό
+                <lb n="14" break="no"/><supplied reason="lost">γως</supplied></w> <w><supplied reason="lost">τῶν</supplied></w> 
+                                 <w><supplied reason="lost">παροικούντω</supplied>ν</w> <w>βαρβάρων</w> <w>καὶ</w> <w>δυ
+               <lb n="15" break="no"/><supplied reason="lost" cert="low">νάμεος</supplied></w> <gap reason="lost" quantity="1" unit="line"/> 
+                                 <w><supplied reason="lost">τῶν</supplied></w> 
+                                 <placeName type="ethnic"><name><supplied reason="lost">Σα</supplied><unclear>ρ</unclear>ματᾶν</name></placeName> <w>εἰς</w> 
+                                 <w>πᾶσα<supplied reason="lost">ν</supplied></w>	
+               <lb n="16" break="no"/><gap reason="lost" quantity="1" unit="line"/> <w><supplied reason="lost">ἐλ</supplied>εύθερα</w>
+               <lb n="16a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+               <app loc="2-3">
+                  <rdg source="b0406">Κλε[μυ]|<unclear>τάδα</unclear>
+                     <note>сближая с херсонесским монетарием, чья деятельность датирутся около 300
+                        г. до н.э. (Анохин 1977, 26, 139, № 80; Виноградов 1997, 111).</note></rdg>
+               </app>
+               <app loc="3">
+                  <rdg source="b0406">[Ἀπολλω]<unclear>ν</unclear>ί<unclear>δ</unclear>ας
+                        <note>vel</note> [Διοσκου]<unclear>ρ</unclear>ί<unclear>δ</unclear>ας
+                        <note>сближая с херсонесскими астиномами первой четверти III в. (со ссылкой
+                        на Кац 1994, 88, № 16 и 93, № 40).</note></rdg>
+               </app>
+               <app loc="6">
+                  <rdg source="b0406">[ἱερὰ ? τὰ ποτἰ Παρθ]ένον</rdg>
+               </app>
+               <app loc="7">
+                  <rdg source="b0153">[δι’ αὐτὰν βοηθείας]</rdg>
+                  <rdg source="b0406">[σωτηρίας διὰ θεὰν τὰ]ν ἐνδεχομἐναν <note>(в таком виде
+                        греческая фраза не имеет смысла).</note></rdg>
+               </app>
+               <app loc="7">
+                  <rdg source="IOSPE b0453"><note>слл.:</note> δᾶ|[μος ἀποδιδοὺς
+                        ἀξί]<unclear>αν</unclear> αὐτᾶι φαίνηται χάριν</rdg>
+                  <rdg>δᾶ|[μος ὁ Χερσονασιτᾶν α]ὐτᾶι φαίνηται χάριν | [ἀποδιδοὺς ---]</rdg>
+               </app>
+               <app loc="10-12">
+                  <rdg source="IOSPE">ἐκπεπο|[ρευμένων τῶν οἰκητ]όρων μετὰ τέκνων | [καὶ γυναικῶν
+                     ἐπὶ τὰν] κομιδὰν</rdg>
+               </app>
+               <app loc="10-12">
+                  <rdg source="b0453">ἐκπεπο|[ρευμένων σωμάτων ἐλ]<unclear>ευθ</unclear>έρων μετὰ
+                     τέκνων | [καὶ γυναικῶν ἐπὶ σ]υγκομιδὰν</rdg>
+                  <rdg><note>(ср. IG XII 1, 10334-5:</note> ἁμὲ δὲ κινδυνεύον[τας μετὰ τ]έκνων καὶ
+                     γυναικῶν τυχεῖν σωτηρί[ας]</rdg>
+                  <rdg><note>Syll.3 7088-9:</note> κινδυνευόντων πάλιν τῶν πολειτῶν μ[ε]τὰ γυναίων
+                     καὶ τέκνων).</rdg>
+               </app>
+               <app loc="11">
+                  <rdg><note>нач.:</note> Ο+ΡΩΝ <note>эстампаж.</note></rdg>
+               </app>
+               <app loc="12">
+                  <rdg><note>нач.:</note> ΓΚΟΜΙΔΑΝ <note>эстампаж.</note></rdg>
+               </app>
+               <app loc="12">
+                  <rdg source="bib:IOSPE2">слл.: [ἐπὶ τὰν] κομιδὰν τοῦ Διονύσ|[ου καὶ ἔφοδον δεινὰν
+                     πο]ιησαμένων παραλό|[γως τῶν παροικούντω]ν βαρβάρων καὶ δυ|[--------]μα τὰν εἰς
+                     πᾶσα|[ν ------ ἐλε]υθέρα|ν [---]</rdg>
+               </app>
+               <app loc="12">
+                  <rdg>[ἐπὶ σ]υγκομιδὰν τοῦ Διονυσίου μηνὸς ἔφοδόν τε
+                     π]<unclear>ο</unclear>ιησαμένων παράλο|[γον τῶν παροικούντω]ν βαρβάρων καὶ
+                     δυ|[νάμεος εἰσβαλούσας? τᾶς] <unclear>Σα</unclear>ρματᾶν εἰς πᾶσα[ν]</rdg>
+                  <rdg> [περίστασιν ἐμπεσόντα? σώματα τὰ ἐ]<unclear>λ</unclear>εύθερα |
+                     [ἐκινδύνευσεν ἁλόντα ὑπὸ τῶν βαρβάρω]<unclear>ν</unclear>? πρη|[θῆναι εἰς
+                     Σαρματίαν? ---] </rdg>
+               </app>
+               <app loc="15">
+                  <rdg><note>нач.:</note>
+                     <unclear>Ρ</unclear>ΜΑΤΑΝ <note>- эстампаж.</note></rdg>
+               </app>
+               <app loc="15-16">
+                  <rdg source="bib:b0153">τὸ ἄγαλ?]μα τὰν εἰς πᾶσα|[ν τὰν πόλιν?]</rdg>
+               </app>
+               <app loc="15-17">
+                  <rdg source="bib:b0146 IOSPE2">[---]μα τὰν εἰς πᾶσα|[ν --- ἐλευθέρα|[ν ---].</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Гераклид, (сын) Парменонта, будучи во главе управления, а также номофилаки Полистрат,
+               (сын) Кле..., (такой-то, сын) Дамокла, Герод, (сын такого-то) и казначей Бабон, (сын)
+               Атанея, [внесли предложение: [с тем чтобы дела, касающиеся (почитания) богини Девы],
+               были у граждан хорошо устроены] и чтобы было видно, что народ [воздает] ей возможную
+               благодарность за (случившееся) [благодаря ей спасение], поскольку он и прежде уже
+               много раз бывал спасаем ею [из величайших опасностей] и в настоящее время, когда
+               [свободные ---] отправились с детьми [ и с женами] для сопровождения Диониса (?) и
+               когда [соседние] варвары неожиданно совершили страшный [набег] и [войско ?] сарматов
+               --- [своб]одные --- </p>
+            <p/>
+            
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Herakleidas, son of Parmenon, the head of administration, and nomophylakes Polystratos, (son of) Kle[ - - -, - - -}, (son of) Damokles, Heroidas, [(son of)  - - -
+               and the t]reasurer Babon, (son of) Athanai[os, proposed: in order that the matters concerning the goddess Parthen]os may be well arranged for the citizens, and in 
+            order that the People may be seen returning to her due gratitude for the salvation that had occurred through her agency, and [already before (the People)] has been saved
+            through her on numerous occasions [from the greatest dan]gers, and now when the [fr]ee... [set] out with children [and women? for the] conveyance of Dionys[os? and when
+            [the neighbouring] barbarians suddently made [a terrible assault] and [- - - of Sa]rmatians - - - [- - - f]ree - - -</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Единственным средством контроля чтения является эстампаж, выполненный К.К.
+               Косцюшко-Валюжиничем. Однако его надежность существенно снижается из-за
+               прорисовки поверх отпечатков ошибочно прочитанных Косцюшко-Валюжиничем букв.
+               Восстановления, специально не отмеченные в аппарате, принадлежат IOSPE.
+               Незначительные отклонения от чтения IOSPE не указываются.</p>
+            <p> Стк. 1-4. О формуляре преамбулы декретов эллинистического времени и упоминаемых в
+               ней магистратурах см. «Введение». Ἡρακλείδας Παρμένοντος, возможно, идентичен
+               одноименному эйсегету близкого по времени постановления в честь историка Сириска,
+               сына Гераклдида (№ ipe344). Личное имя Πολύστρατος засвидетельствовано также как имя
+               магистрата на амфорных клеймах группы 1В (300-285 г. до н.э. согласно Кац 1994, № 95
+               и 303-290 г. до н.э. согласно Stolba 2005, 169) и как отчество магистрата Ксенона
+               (Кац 1994, № 36 и 90, кон. IV - пер. четв. III в.). ЛИ Δαμοκλῆς, Ἡρώιδας, Βάβων
+               фиксируются в III в. до н.э. (LGPN IV, s. vv.), но не дают оснований для уточнения
+               датировки. </p>
+            <p>Стк. 5 слл. Декрет мог касаться праздника в честь Девы (τὰ [περὶ τὰν θεὰν Παρθέν]ον),
+               богини-покровительницы полиса, по случаю спасения херсонеситов, истолкованного как
+               следствие ее божественного вмешательства (ἐπιφάνεια, ср. Ростовцев 1915, 156). По
+               поводу эпифании как повода для учреждения празднеств ср., например, историю
+               знаменитого праздника Левкофриений в Магнесии на Меандре (I.Magnesia 16; Rigsby,
+               Asylia, 185, № 66 (с библиографией).</p>
+            <p>Стк. 7: ἐνδεχομέναν - ср. замечания в работе Gauthier, Sardes II, 85, n. 8 о часто
+               встречающихся в надписях (I.Erythrai 287; I.Priene 231; 817; Syll.3 6188 (= Sherk
+               35)) и у Диодора выражениях типа την ἐνδεχομένην ἐπιμέλειαν (vel πρόνοιαν) ποιεῖσθαι
+               («faire preuve de tout le zèle possible»); или ὡς ἂν ἐνδέχηται τάχιστα (Welles, RC 4,
+               15, «le plus rapidement possible»).</p>
+            <p>Стк. 12: κομιδάν - вероятно, обозначение дионисийской процессии (упоминание праздника
+               Дионисий убедительно восстанавливается в близкой по времени херсонесской надписи №
+               ipe344, стк. 13; месяц Дионисий засвидетельствован в календаре Херсонеса, № ipe352,
+               стк. 56), происходившей за пределами городских стен (ср. ἐκπεπο[ρευμένων] в стк. 10).
+               Ср. употребление глагола κομίζω для обозначения транспортировки предметов в ходе
+               торжественной процессии в Diod. 31.8.11 (προεκομίσθη νομισμάτων τάλαντα χίλια,
+               ἀργύρου τάλαντα δισχίλια διακόσια, ἐκπωμάτων πλῆθος, ἀγαλμάτων καὶ ἀνδριάντων
+               ποικίλων ἅμαξαι πεντακόσιαι). Однако в силу недостаточно надежного чтения начала
+               строки на эстампаже следует учитывать возможность иных восстановлений (ср.
+               восстановление Ю.Г. Виноградова (1997, 114) [ἐπὶ σ]υγκομιδὰν τοῦ Διονυσίου μηνὸς -
+               «для сбора урожая в месяце Дионисии»). </p>
+            <p>Стк. 14: [τῶν παροικούντω]ν βαρβάρων - ср. παροικοῦντας Ταύρους в № ipe352, стк. 9 и
+               παρακείμενοι βάρβαροι № ipe402, стк. 14. Под «соседними варварами» имеются в виду,
+               очевидно, скифы или/и тавры (последние известны как пираты, Hdt. 4.103; Strab.
+               7.4.2). Археологические исследования относят начало скифо-херсонесских войн к первым
+               десятилетиям III в. до. н.э. (Щеглов 1978, 128).</p>
+            <p>Стк. 15: [τῶν Σα]̣ρ̣ματᾶν - предложенное Виноградовым (1997, 115) дополнения делает
+               этот декрет одним из наиболее ранних примеров упоминания этнонима «сарматы» в
+               письменных источников (подробнее см. Тохтасьев 2005, 291 слл.). По всей видимости,
+               речь шла о грабительском набеге сарматского войска. Ср. упоминание в конце III в. до
+               н.э. в ольвийском декрете в честь Протогена взимавших с ольвиополитов дань царя
+               Сайтафарна и племени сайев, имевших скорее всего сарматское происхождение (IOSPE I2
+               32А10,34, 83), также указание Полибия на сарматского царя Гатала как одного из
+               династов, правивших в Европе (XXV 2, 13: τῶν δὲ κατὰ τὴν Εὐρώπην Γάταλος ὁ Σαρμάτης)
+               в момент заключения договора между Фарнаком I и коалицией малоазийских царей по
+               окончании так называемой Понтийской войны в 179 г. до н.э.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

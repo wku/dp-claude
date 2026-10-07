@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Партены</title><title xml:lang="en">Epitaph of Parthena</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.66</idno><idno type="PE">PE3000066</idno><idno type="filename">3.275</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3641</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3641</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Верхняя часть стелы. Украшена фронтоном с тремя
+                              акротериями. На лицевой стороне видны следы двух рельефных розеток.
+                              Выше розеток вырезана трехстрочная надпись.</p>
+                           <p xml:lang="en">Upper part of pedimental stele with acroteria. Traces of two relief rosettes on the front. Three-line inscription above the rosettes.</p>
+                           <dimensions>
+                              <height unit="cm">50,0</height>
+                              <width unit="cm">36,0</width>
+                              <depth unit="cm">13,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Ню с немного приподнятой правой вертикалью, омикрон чуть
+                           меньше остальных букв, укороченная правая вертикаль пи, сигма с
+                           расходящимися верхней и нижней линиями, утолщения на концах линий
+                           букв.</seg>
+                        <seg xml:lang="en">Nu with a slightly raised right vertical, omicron slightly smaller than other letters, pi with a short right vertical, four-bar sigma 
+                        with splayed bars, flaring at the end of letterstrokes.</seg>
+                        <height unit="cm">2,3</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0333" notAfter="-0251" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">кон. IV - 1-я пол. III в. до н.э.</seg>
+                        <seg xml:lang="en">late IV - 1st half of III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1900 г.  Раскопки К.К.
+                           Косцюшко-Валюжинича (НА НЗХТ, д. 9, л. 17, № 184; д. 29, л. 4, №
+                           184).</rs>
+                        <rs type="context">В юго-восточном районе Херсонеса,
+                           в периболе у куртины 19 оборонительных стен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1900, excavations of K.K.
+                           Kostsyushko-Valyuzhinich (НА НЗХТ, д. 9, л. 17, № 184; д. 29, л. 4, №
+                           184)</rs>
+                        <rs type="context">Southeast sector of Chersonesos, peribolos by Curtain Wall 19.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-15" who="CB">Bibliography</change>
+         <change when="2015-09-01" who="CB">Metadata and app crit</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2015-05-15" who="CB">metadata tagging</change>
+         <change when="2014-01-31" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-03-13" who="AV">tagging Greek manes XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.66">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>IV 137</citedRange></bibl>
+               <bibl><!--OSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>520</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--KW--><ptr target="bib:b0519"/> № 68</bibl>
+               <bibl><!--АСХ--><ptr target="bib:b0523"/> № 190</bibl>
+               <bibl><!--Posamentir 2011--><ptr target="bib:b0437"/>, 128, № C56</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person610"><name nymRef="Παρθένα">Παρ<supplied reason="lost">θ</supplied>ένα</name>
+               	<lb n="2"/><persName type="attested" ref="#person611"><name nymRef="Ἐπικράτης">Ἐπικράτεος</name>
+               	<lb n="3"/><w>γυνά</w></persName></persName>.
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Партена, жена Эпикрата.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Parthena, wife of Epikrates.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Женское имя Παρθένα (Bechtel HPN, 478) в Херсoнесе встречается только здесь. В
+               понтийском регионе помимо Херсонеса оно засвидетельствовано лишь на Боспоре в римское
+               время (LGPN IV). Многократно встречается в Беотии в эллинистическое и римское время
+               (LGPN IIIB). ЛИ Ἐπικράτης имеет общегреческий характер; эта надпись - единственный
+               пример его использования в Херсонесе.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

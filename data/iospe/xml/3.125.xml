@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение Деве</title><title xml:lang="en">Dedication to Parthenos</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.417</idno><idno type="PE">PE3000232</idno><idno type="filename">3.125</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвятительная надпись.</seg>
+                     <seg xml:lang="en">Dedicatory inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита
+                              (?).</objectType>
+                           <objectType xml:lang="en">Panel (?).</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Описание отсутствует.</p>
+                           <p xml:lang="en">No description preserved.</p>
+                           <dimensions>
+                              <height unit="cm">45,0</height>
+                              <width unit="cm">40,0</width>
+                              <depth unit="cm">25,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Ню с немного укороченной правой вертикалью, омикрон чуть
+                           меньше остальных букв, сигма с чуть расходящимися верхней и нижней
+                           гастами, слабые утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Nu with slightly shorter right vertical; omicron slightly smaller than other letters, sigma with slightly 
+                           splayed bars; slight flaring of the ends of letterstrokes.</seg>
+                        <height unit="cm">3,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0201" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">III в. до н.э.</seg>
+                        <seg xml:lang="en">III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1901 г. Раскопки К.К.
+                           Косцюшко-Валюжинича.</rs>
+                        <rs type="context">В юго-восточном районе Херсонеса,
+                           на участке некрополя у Карантинной бухты.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1901, excavations of K.K.
+                           Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Southeast sector of Chersonesos, necropolis by the Quarantine Bay.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.  Местонахождение камня в настоящее время
+                        неизвестно. Вероятно, утерян в начале XX в.</seg>
+                     <seg xml:lang="en">Non vidi. The whereabouts of the monument are unknown. Apparently, lost at the beginning of the XX century.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-28" who="CB">correcting App crit and biblio</change>
+         <change when="2015-08-26" who="CB">App crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-29" who="CB">Tagging metadata</change>
+         <change when="2015-05-08" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-05-15" who="AV">programmatically tagging Greek names from Word
+            docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.147">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1902а--><ptr target="bib:b0142"/>, 25, № <citedRange>5</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>408</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" quantity="1" unit="character"/><orig>ΣΤΟ</orig><gap reason="illegible" quantity="2" unit="character"/> 
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><persName type="divine" key="parthenos"><name><supplied reason="lost">Π</supplied>αρθέν<unclear>ω</unclear>ι</name></persName>.
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1-2">
+                  <rdg source="bib:b0142 bib:IOSPE2">[Ἀ]ρισ[τ]ό[νικος] <note>На эстампаже следы букв
+                        не поддаются надежной идентификации.</note></rdg>
+               </app>
+               <app loc="2">
+                  <rdg source="bib:b0142">[Π]αρθένου (?)</rdg>
+                  <rdg source="bib:IOSPE">[Π]αρθένωι </rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[---] (посвятил) Деве.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[---] (dedicated) to Parthenos.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Ed. pr. относит надпись к IV в. до н.э.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Ed. pr. dates the inscription to the IV century B.C.E.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

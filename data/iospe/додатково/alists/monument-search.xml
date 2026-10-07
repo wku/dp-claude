@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Controlled vocabulary for Object types</title>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab type="authority_list">
+                <ab type="entry" xml:id="mon1">
+                    <seg type="representation" xml:lang="ru">плита</seg>
+                    <seg type="representation" xml:lang="uk">плита</seg>
+                    <seg type="representation" xml:lang="en">panel</seg>
+                </ab>
+                <ab type="entry" xml:id="mon2">
+                    <seg type="representation" xml:lang="ru">плитка</seg>
+                    <seg type="representation" xml:lang="uk">плитка</seg>
+                    <seg type="representation" xml:lang="en">small panel</seg>
+                </ab>
+                <ab type="entry" xml:id="mon3">
+                    <seg type="representation" xml:lang="ru">стела</seg>
+                    <seg type="representation" xml:lang="uk">стела</seg>
+                    <seg type="representation" xml:lang="en">stele</seg>
+                </ab>
+                <ab type="entry" xml:id="mon4">
+                    <seg type="representation" xml:lang="ru">дверной косяк</seg>
+                    <seg type="representation" xml:lang="uk">одвірок</seg>
+                    <seg type="representation" xml:lang="en">door jamb</seg>
+                </ab>
+                <ab type="entry" xml:id="mon5">
+                    <seg type="representation" xml:lang="ru">карниз</seg>
+                    <seg type="representation" xml:lang="uk">карниз</seg>
+                    <seg type="representation" xml:lang="en">cornice</seg>
+                </ab>
+                <ab type="entry" xml:id="mon6">
+                    <seg type="representation" xml:lang="ru">блок</seg>
+                    <seg type="representation" xml:lang="uk">блок</seg>
+                    <seg type="representation" xml:lang="en">block</seg>
+                </ab>
+                <ab type="entry" xml:id="mon7">
+                    <seg type="representation" xml:lang="ru">столешница</seg>
+                    <seg type="representation" xml:lang="uk">стільниця</seg>
+                    <seg type="representation" xml:lang="en">tabletop</seg>
+                </ab>
+                <ab type="entry" xml:id="mon8">
+                    <seg type="representation" xml:lang="ru">квадр</seg>
+                    <seg type="representation" xml:lang="uk">квадр</seg>
+                    <seg type="representation" xml:lang="en">wall block</seg>
+                </ab>
+                <ab type="entry" xml:id="mon9">
+                    <seg type="representation" xml:lang="ru">крест</seg>
+                    <seg type="representation" xml:lang="uk">хрест</seg>
+                    <seg type="representation" xml:lang="en">cross</seg>
+                </ab>
+                <ab type="entry" xml:id="mon10">
+                    <seg type="representation" xml:lang="ru">трансенна</seg>
+                    <seg type="representation" xml:lang="uk">трансенна</seg>
+                    <seg type="representation" xml:lang="en">transenna</seg>
+                </ab>
+                <ab type="entry" xml:id="mon11">
+                    <seg type="representation" xml:lang="ru">замковый камень</seg>
+                    <seg type="representation" xml:lang="uk">замковий камінь</seg>
+                    <seg type="representation" xml:lang="en">keystone</seg>
+                </ab>
+                <ab type="entry" xml:id="mon12">
+                    <seg type="representation" xml:lang="ru">постамент/подножье</seg>
+                    <seg type="representation" xml:lang="uk">постамент/підніжжя</seg>
+                    <seg type="representation" xml:lang="en">base</seg>
+                </ab>
+                <ab type="entry" xml:id="mon13">
+                    <seg type="representation" xml:lang="ru">статуя</seg>
+                    <seg type="representation" xml:lang="uk">статуя</seg>
+                    <seg type="representation" xml:lang="en">statue</seg>
+                </ab>
+                <ab type="entry" xml:id="mon14">
+                    <seg type="representation" xml:lang="ru">аркозолий</seg>
+                    <seg type="representation" xml:lang="uk">аркозолій</seg>
+                    <seg type="representation" xml:lang="en">arcosolium</seg>
+                </ab>
+                 <ab type="entry" xml:id="mon15">
+                     <seg type="representation" xml:lang="ru">колонка</seg>
+                     <seg type="representation" xml:lang="uk">колонка</seg>
+                     <seg type="representation" xml:lang="en">colonnette</seg>
+                 </ab>
+                 <ab type="entry" xml:id="mon16">
+                     <seg type="representation" xml:lang="ru">скальная стена</seg>
+                     <seg type="representation" xml:lang="uk">Скельна стіна</seg>
+                     <seg type="representation" xml:lang="en">rock wall</seg>
+                 </ab>
+                 <ab type="entry" xml:id="mon17">
+                     <seg type="representation" xml:lang="ru">архитектурная деталь</seg>
+                     <seg type="representation" xml:lang="uk">архітектурна деталь</seg>
+                     <seg type="representation" xml:lang="en">architectural detail</seg>
+                 </ab>
+                <ab type="entry" xml:id="mon18">
+                    <seg type="representation" xml:lang="ru">косяк окна</seg>
+                    <seg type="representation" xml:lang="uk">косяк вікна</seg>
+                    <seg type="representation" xml:lang="en">window jamb</seg>
+                </ab>
+                <ab type="entry" xml:id="mon19">
+                    <seg type="representation" xml:lang="ru">экран</seg>
+                    <seg type="representation" xml:lang="uk">екран</seg>
+                    <seg type="representation" xml:lang="en">screen</seg>
+                </ab>
+                <ab type="entry" xml:id="mon20">
+                    <seg type="representation" xml:lang="ru">стена</seg>
+                    <seg type="representation" xml:lang="uk">стіна</seg>
+                    <seg type="representation" xml:lang="en">wall</seg>
+                </ab>
+                <ab type="entry" xml:id="mon21">
+                    <seg type="representation" xml:lang="ru">арка</seg>
+                    <seg type="representation" xml:lang="uk">арка</seg>
+                    <seg type="representation" xml:lang="en">arch</seg>
+                </ab>
+                <ab type="entry" xml:id="mon22">
+                    <seg type="representation" xml:lang="ru">колонна</seg>
+                    <seg type="representation" xml:lang="uk">колона</seg>
+                    <seg type="representation" xml:lang="en">column</seg>
+                </ab>
+                <ab type="entry" xml:id="mon23">
+                    <seg type="representation" xml:lang="ru">капитель</seg>
+                    <seg type="representation" xml:lang="uk">капітель</seg>
+                    <seg type="representation" xml:lang="en">capital</seg>
+                </ab>
+                 <ab type="entry" xml:id="mon24">
+                     <seg type="representation" xml:lang="ru">крышка</seg>
+                     <seg type="representation" xml:lang="uk">кришка</seg>
+                     <seg type="representation" xml:lang="en">lid</seg>
+                 </ab>
+                 <ab type="entry" xml:id="mon25">
+                     <seg type="representation" xml:lang="ru">мозаичный пол</seg>
+                     <seg type="representation" xml:lang="uk">мозаїчна підлога</seg>
+                     <seg type="representation" xml:lang="en">mosaic floor</seg>
+                 </ab>
+                 <ab type="entry" xml:id="mon26">
+                     <seg type="representation" xml:lang="ru">кружок</seg>
+                     <seg type="representation" xml:lang="uk">коло</seg>
+                     <seg type="representation" xml:lang="en">roundlet</seg>
+                 </ab>
+                 <ab type="entry" xml:id="mon27">
+                     <seg type="representation" xml:lang="ru">гробообразный памятник</seg>
+                     <seg type="representation" xml:lang="uk">пам'ятник подібний до гробу</seg>
+                     <seg type="representation" xml:lang="en">casket-shaped gravestone</seg>
+                 </ab>
+                 <ab type="entry" xml:id="mon28">
+                     <seg type="representation" xml:lang="ru">надгробие</seg>
+                     <seg type="representation" xml:lang="en">tombstone</seg>
+                 </ab>
+                 <ab type="entry" xml:id="mon29">
+                     <seg type="representation" xml:lang="ru">рамка ниши</seg>
+                     <seg type="representation" xml:lang="uk">рамка ніші</seg>
+                     <seg type="representation" xml:lang="en">frame of a niche</seg>
+                 </ab>
+                 <ab type="entry" xml:id="mon30">
+                     <seg type="representation" xml:lang="ru">однорогое надгробие</seg>
+                     <seg type="representation" xml:lang="uk">однорогий надгробок</seg>
+                     <seg type="representation" xml:lang="en">one-horned gravestone</seg>
+                 </ab>
+                 <ab type="entry" xml:id="mon31">
+                     <seg type="representation" xml:lang="ru">фреска</seg>
+                     <seg type="representation" xml:lang="uk">фреска</seg>
+                     <seg type="representation" xml:lang="en">fresco</seg>
+                 </ab>
+                 <ab type="entry" xml:id="mon32">
+                     <seg type="representation" xml:lang="ru">дверная притолока</seg>
+                     <seg type="representation" xml:lang="uk">притолока дверей</seg>
+                     <seg type="representation" xml:lang="en">door lintel</seg>
+                 </ab>
+                 <ab type="entry" xml:id="mon33">
+                     <seg type="representation" xml:lang="ru">фриз</seg>
+                     <seg type="representation" xml:lang="uk">фриз</seg>
+                     <seg type="representation" xml:lang="en">frieze</seg>
+                 </ab>
+                <ab type="entry" xml:id="mon34">
+                    <seg type="representation" xml:lang="ru">рельефная икона</seg>
+                    <seg type="representation" xml:lang="uk">рельєфна ікона</seg>
+                    <seg type="representation" xml:lang="en">icon in relief</seg>
+                </ab>
+                <ab type="entry" xml:id="mon35">
+                    <seg type="representation" xml:lang="ru">ниша</seg>
+                    <seg type="representation" xml:lang="uk">ніша</seg>
+                    <seg type="representation" xml:lang="en">niche</seg>
+                </ab>
+                <ab type="entry" xml:id="mon36">
+                    <seg type="representation" xml:lang="ru">архитрав</seg>
+                    <seg type="representation" xml:lang="uk">архітрів</seg>
+                    <seg type="representation" xml:lang="en">architrave</seg>
+                </ab>
+                <ab type="entry" xml:id="mon37">
+                    <seg type="representation" xml:lang="ru">алтарь</seg>
+                    <seg type="representation" xml:lang="uk">вівтар</seg>
+                    <seg type="representation" xml:lang="en">altar</seg>
+                </ab>
+                <ab type="entry" xml:id="mon38">
+                    <seg type="representation" xml:lang="ru">cтенка саркофага</seg>
+                    <seg type="representation" xml:lang="uk">стінка саркофагу</seg>
+                    <seg type="representation" xml:lang="en">sarcophagus</seg>
+                </ab>
+                <ab type="entry" xml:id="mon39">
+                    <seg type="representation" xml:lang="ru">неизвестен</seg>
+                    <seg type="representation" xml:lang="uk">невідомий</seg>
+                    <seg type="representation" xml:lang="en">unknown</seg>
+                </ab>
+                <ab type="entry" xml:id="mon40">
+                    <seg type="representation" xml:lang="ru">оссуарий</seg>
+                    <seg type="representation" xml:lang="uk">осуарій</seg>
+                    <seg type="representation" xml:lang="en">ossuary</seg>
+                </ab>
+                <ab type="entry" xml:id="mon41">
+                    <seg type="representation" xml:lang="ru">весовая гиря</seg>
+                    <seg type="representation" xml:lang="uk">вагова гиря</seg>
+                    <seg type="representation" xml:lang="en">weight</seg>
+                </ab>
+                <ab type="entry" xml:id="mon42">
+                    <seg type="representation" xml:lang="ru">чаша</seg>
+                    <seg type="representation" xml:lang="uk">чаша</seg>
+                    <seg type="representation" xml:lang="en">bowl</seg>
+                </ab>
+                <ab type="entry" xml:id="mon43">
+                    <seg type="representation" xml:lang="ru">вставка в постамент</seg>
+                    <seg type="representation" xml:lang="uk">вставка у постамент</seg>
+                    <seg type="representation" xml:lang="en">panel insert for statue base</seg>
+                </ab>
+                <ab type="entry" xml:id="mon44">
+                    <seg type="representation" xml:lang="ru">лутерий</seg>
+                    <seg type="representation" xml:lang="uk">лутерій</seg>
+                    <seg type="representation" xml:lang="en">louterion</seg>
+                </ab>
+                <ab type="entry" xml:id="mon45">
+                    <seg type="representation" xml:lang="ru">эдикула</seg>
+                    <seg type="representation" xml:lang="uk">едікула</seg>
+                    <seg type="representation" xml:lang="en">aedicula</seg>
+                </ab>
+                <ab type="entry" xml:id="mon46">
+                    <seg type="representation" xml:lang="ru">светильник</seg>
+                    <seg type="representation" xml:lang="uk">світильник</seg>
+                    <seg type="representation" xml:lang="en">oil lamp</seg>
+                </ab>
+                <ab type="entry" xml:id="mon47">
+                    <seg type="representation" xml:lang="ru">астрагал</seg>
+                    <seg type="representation" xml:lang="uk">астрагал</seg>
+                    <seg type="representation" xml:lang="en">astragalus</seg>
+                </ab>
+                <ab type="entry" xml:id="mon48">
+                    <seg type="representation" xml:lang="ru">свинцовая табличка</seg>
+                    <seg type="representation" xml:lang="uk">свинцева табличка</seg>
+                    <seg type="representation" xml:lang="en">lead tablet</seg>
+                </ab>
+                <!-- PC, 03 Apr 2025: currently the value 'mon49' does not occur in any inscription files. Possibly it was created and then later deleted -->
+                <ab type="entry" xml:id="mon50">
+                    <seg type="representation" xml:lang="ru">амулет</seg>
+                    <seg type="representation" xml:lang="uk">амулет</seg>
+                    <seg type="representation" xml:lang="en">amulet</seg>
+                </ab>
+                <ab type="entry" xml:id="mon51">
+                    <seg type="representation" xml:lang="ru">солонка</seg>
+                    <seg type="representation" xml:lang="uk">сільничка</seg>
+                    <seg type="representation" xml:lang="en">saltcellar</seg>
+                </ab>
+                <ab type="entry" xml:id="mon52">
+                    <seg type="representation" xml:lang="ru">амфора</seg>
+                    <seg type="representation" xml:lang="uk">амфора</seg>
+                    <seg type="representation" xml:lang="en">amphora</seg>
+                </ab>
+                <ab type="entry" xml:id="mon53">
+                    <seg type="representation" xml:lang="ru">пифос</seg>
+                    <seg type="representation" xml:lang="uk">піфос</seg>
+                    <seg type="representation" xml:lang="en">pithos</seg>
+                </ab>
+            </ab>
+        </body>
+    </text>
+</TEI>

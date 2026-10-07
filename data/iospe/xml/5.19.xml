@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение Феодора</title><title xml:lang="en">Dedication of Theodore</title><editor xml:id="ayv2012">
+               <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+               <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+            </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.19</idno><idno type="PE">PE5000019</idno>
+            <idno type="AYV2012-number">byz019</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country>Russia</country>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Государственный исторический музей</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>State Historical Museum</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвятительная надпись.</seg>
+                     <seg xml:lang="en">Dedication.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Белый крупнозернистый мрамор.</material>
+                           <material xml:lang="en">White coarse-grained marble.</material>
+                           <p xml:lang="ru">На лицевой стороне орнаментальная рамка (плющевая гирлянда и крест с расширяющимися концами в круге) и 
+                              рельефный крест с апицированными концами. Обломана слева и снизу.</p>
+                           <p xml:lang="en">Inset panel with relief border (decorated with creeping vine and an embossed cross 
+                              with flaring  arms, in a circle). The inset bears a relief cross with flaring arms. Broken off on the left 
+                              and bottom.</p>
+                           <dimensions>
+                              <height>33,5</height>
+                              <width>17,5</width>
+                              <depth>4,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">В углах между рукавами креста.</seg>
+                           <seg xml:lang="en">Carved in corners between the arms of the cross.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы слабо апицированны. Эпсилон лунарный, 
+                           ипсилон Y-и V-образный, наклонен вправо.</seg>
+                        <seg xml:lang="en">Lapidary. Light serifs. Lunate epsilon; Y-shaped and V-shaped upsilon, leaning to
+                           the right.</seg>
+                        <height unit="cm">2,2–2,7.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0501" notAfter="0600" precision="low" evidence="археологический_контекст палеография">
+                        <seg xml:lang="ru">VI в.</seg>
+                        <seg xml:lang="en">VIth century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="2004-10">Октябрь 2004</date>, <date when="2008-11"> ноябрь 2008</date>.</seg>
+                     <seg xml:lang="en"> <date when="2004-10">October 2004</date>, <date when="2008-11"> November 2008</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1893 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Северный берег, храм № 22 («Северная базилика»).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1893, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Northern coast, Church 22 ("Northern basilica")</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Москва, Россия.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Moscow, Russian Federation.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+          <change when="2012-11-11" who="AL">corrected toponyms in English commentary</change>
+         <change when="2012-08-21" who="AFS">Greek lemmata added</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-11" who="AG">small correction</change>
+         <change when="2012-05-14" who="AG">small correction</change>
+         <change when="2012-04-24" who="AG">several lines translated</change>
+         <change when="2012-04-17" who="AG">several lines translated, editor added</change>
+         <change when="2012-04-05" who="AG">bibliography updated</change>
+         <change when="2012-02-21" who="AG">bibliography tagged</change>
+         <change when="2012-01-23" who="AG">updated</change>
+         <change when="2011-12-13" who="AG">corrections and tagging</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="5.19">
+            <desc xml:lang="en">Photograph of face (from ??)</desc>
+            <desc xml:lang="ru">Фотография лицевой части</desc>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Латышев 1895a--><ptr target="bib:b0130"/>, 22–24, № <citedRange>29</citedRange></bibl>
+               <bibl n="1.1"><!--Сборник--><ptr target="bib:b0132"/>, 28–29, № <citedRange>16</citedRange></bibl>
+               <bibl n="2"><!--Виноградов 2006--><ptr target="bib:b0046"/>, 290, № <citedRange>1</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>О молитве за <supplied reason="lost">Фео</supplied>дора <supplied reason="lost">…</supplied></p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>For the prayer of <supplied reason="lost">Theo</supplied>doros...</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> 1. Относительно формулы см. <ref type="introduction">IV.3.B.b.</ref>  </p>
+            <p> 2. Имя Феодор в ранневизантийскую эпоху в Херсонесе встречается еще четырежды (<ref type="inscription">V 9</ref><!--byz008-->, 
+               <ref type="inscription">V 64</ref><!--byz064-->, <ref type="inscription">V 72</ref><!--byz072-->, <ref type="inscription">V 72</ref><!--byz072-->).</p>
+                <p> Надпись на плите из алтарной преграды (первоначальная ширина ок. 52 см) — несомненно, посвящение ктитора (храма или, менее вероятно, 
+                   алтарной преграды) из храма ранневизантийского времени — Северной базилики. Обычай высекать ктиторские надписи на плитах алтарной преграды 
+                   встречается в Херсонесе также в <ref type="inscription">V 21</ref><!--byz021.1-->.</p>
+            <p>Другой возможный случай смешения резчиком сигмы и эпсилона см. выше (<ref type="inscription">V 18</ref><!--byz018-->). Шрифт надписи не несет на себе никаких 
+               специфических черт, 
+                   однако округлые формы букв указывают скорее на время не позже середины VI в. Судя по монетным находкам (Косцюшко-Валюжинич 1895, 3, 54), 
+                   храм № 22 датируется временем Юстиниана I (см. Бернацки, Кленина, Рыжов 2004, 67).  </p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>On the formula, see <ref type="introduction">IV.2.B.b.</ref></p>
+            <p>2. The name Theodore (Theodoros) occurs four more times in the Early Byzantine period in Cherson (<ref type="inscription">V 9</ref><!--byz008-->, 
+               <ref type="inscription">V 64</ref><!--byz064-->, <ref type="inscription">V 72</ref><!--byz072-->, <ref type="inscription">V 72</ref><!--byz072-->).</p>
+             <p>The inscription on a panel of an altar screen (original width ca. 0.52m) is certainly the dedication of a ktitor (who either funded the 
+             construction of the church or, less likely, of the altar screen) from an Early Byzantine church - Northern Basilica. Another example of a ktitor's inscription
+             on the altar screen is <ref type="inscription">V 21</ref><!--byz021.1 --> from Cherson.</p>
+            <p>Here we have another possible case of a letter-carver's confusion of sigma and epsilon (see <ref type="inscription">V 18</ref><!--byz018-->). 
+               There is nothing very special about the script, although the rounded lettershapes most likely point to the date of no later than mid-Vith century.
+               Judging by numismatic finds (Kostsyushko-Valyuzhinich 1895, 3, 54), Church 22 dates to the time of Justinian I (see Biernacki, Klenina, Ryzhov 2004, 67).</p>
+                 
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><g ref="#stauros"/> <w lemma="ὑπέρ"><supplied reason="lost">Ὑπ</supplied>ὲρ</w> <w lemma="εὐχή">εὐχῆ<choice><corr>ς</corr><sic>ε</sic></choice></w>
+               <lb n="2"/><persName type="attested" ref="#person20"><name nymRef="Θεόδωρος"><supplied reason="lost">Θεο</supplied>δώρου</name></persName>
+               <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig><app type="alternative"><lem><unclear>Σ</unclear></lem><rdg><unclear>Ε</unclear></rdg></app></orig><gap reason="lost" quantity="4" unit="character"/>
+               <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>.
+             
+             <!--Orig. :  1: ΕΥΧΗΕ.-->
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение Григория <certainty cert="low" locus="value" match=".."/></title><title xml:lang="en">Dedication of Gregory <certainty cert="low" locus="value" match=".."/></title><editor xml:id="ayv2012">
+               <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+               <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+            </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.27</idno><idno type="PE">PE5000027</idno>
+            <idno type="AYV2012-number">byz027</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>579/36588</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>579/36588</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents><summary corresp="document-search.xml#doc5">
+                  <seg xml:lang="ru">Посвятительная надпись.</seg>
+                  <seg xml:lang="en">Dedication.</seg>
+               </summary></msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon9">Крест.</objectType>
+                           <objectType xml:lang="en">Cross.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Белый мелкозернистый мрамор.</material>
+                           <material xml:lang="en">White fine-grained marble.</material>
+                           <p xml:lang="ru">Сохранились перекрестье и правый рукав креста; сколы по краям.</p>
+                           <p xml:lang="en">The central intersection and the right arm of the cross survive. Chipped along the edges.</p>
+                           <dimensions>
+                              <height>10,0</height>
+                              <width>21,0</width>
+                              <depth>11,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На вертикальной (кионедон) и на горизонтальной перекладинах креста.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the vertical (kionedon) and horizontal arms of the cross.</seg> 
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; частично кионедон; буквы слегка апицированы. 
+                           Ипсилон V-образный.</seg>
+                        <seg xml:lang="en">Lapidary. Partly in kionedon. Letters with light serifs; V-shaped uspilon.</seg>
+                        <height unit="cm">2,5–3,5.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0501" notAfter="0700" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">VI–VII вв.</seg>
+                        <seg xml:lang="en">VI–VIIth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08"> август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>.</seg>
+                     <seg xml:lang="en"> <date when="1999-05">May 1999</date>, <date when="2001-08"> August 2001</date>, <date when="2002-09"> September 2002</date>, <date when="2003-09"> September 2003</date>, <date when="2004-09"> September 2004</date>, <date when="2005-09"> September 2005</date>, <date when="2006-09"> September 2006</date>, <date when="2007-09"> September 2007</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1963 г., раскопки Л.Г. Колесниковой.</rs>
+                        <rs type="context">Портовый район, жилые кварталы между 2-й продольной улицей и «перемычкой» у XVII-й куртины, храм «с аркосолиями», 
+                           главное помещение, могила 9, юго-восточная стена, кладка.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1963, excavations of L.G. Kolesnikova.</rs>
+                        <rs type="context">Harbour area, residential quarters between the 2nd longitudinal street and a connector lane by Curtain Wall XVII, Church
+                        "with arcosolia", main room, Grave 9, southeast wall, masonry.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-17" who="CB">Andrey's corrections</change>
+          <change when="2012-11-11" who="AL">inserted toponyms in English commentary</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-11" who="AG">small correction</change>
+         <change when="2012-05-14" who="AG">several lnes translated, small corrections</change>
+         <change when="2012-04-17" who="AG">several lnes translated, editor added</change>
+          <change when="2012-02-20" who="AL">tagged bibliograhy</change>
+         <change when="2012-01-18" who="AG">updated, 1 line translated, tags corrected</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="5.27">
+            <desc xml:lang="en">Photograph of face (from ??)</desc>
+            <desc xml:lang="ru">Фотография лицевой части (из ??)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p/>
+          </div>
+         <div type="translation" xml:lang="ru">
+               <p>
+                 <supplied reason="lost">О сп</supplied>ас<supplied reason="lost" cert="low">ении</supplied> <supplied reason="lost" cert="low">Григ</supplied>ория.
+                  </p>
+         </div>
+         <div type="translation" xml:lang="en">
+               <p><supplied reason="lost">For the sal</supplied>vat<supplied reason="lost" cert="low">ion</supplied> of <supplied reason="lost" cert="low">Grego</supplied>rios.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+                <p>1–12. Облом произошел прямо у перекрестья, и наиболее подходящим вариантом для вертикально расположенной фразы кажется формула 
+                   Ὑπὲρ σωτηρίας (см. <ref type="introduction">IV.3.B.c</ref>). Действительно, под омегой видна перекладина тау.  </p>
+                <p>13. Это, кроме того, могло бы объяснить и появление омеги в имени Григорий. Это распространенное христианское имя (не менее 50 раз в 
+                   византийских надписях, согласно PHI7 Database) в Северном Причерноморье встречается еще в двух, более поздних, надписях с Баклы и Мангупа 
+                   (<ref type="inscription">V 121</ref><!--byz117--> и <ref type="inscription">V 183</ref><!--byz174-->).</p>
+                <p>К надписи на мраморном кресте аналогий найти не удалось: встречаются христианские посвящения, вписанные в крест 
+                   (см., напр., Guarducci IV, 370–371, Карпатос, IV–V вв.). Вероятно, херсонский памятник надо считать монументальным крестом (вероятно с удлиненным 
+                   нижним концом), венчавшим, например, крышу церковного здания, храмовый фиал или стоявшим на вершине столпа, хорошо известного как тип 
+                   церковного памятника в ранне-и средневизантийском Херсонесе (Сорочан 2005, 825).  </p>
+            <p>По формам букв к данной надписи ближе всего (но не слишком близко) стоит <ref type="inscription">V 19</ref><!--byz019-->. 
+               Ярко выраженные апексы свидетельствуют в пользу VI–VII вв.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+               <p>1-12. The break occured right at the intersection of the arms of the cross, and the most suitable formula for the vertical arrangement would seem to be
+                  Ὑπὲρ σωτηρίας (см. <ref type="introduction">IV.3.B.c</ref>), where omega forms part of the two intersecting words. Indeed, there is a trace of a horizontal 
+                  bar (of a tau) right under omega.</p>
+             <p>13. This could also explain the use of omega in the name Gregory (here Gregoreos). This widely attested Christian name (no less than 50 times in Byzantine inscriptions,
+                according to PHI7 Database) occurs in the Northern Black Sea region in two more, but later, inscriptions from Bakla and Mangup (<ref type="inscription">V 121</ref><!--byz117--> 
+                and <ref type="inscription">V 183</ref><!--byz174-->).</p>
+             <p>I was not able to find parallels for such an inscription on a marble cross, but there are examples of Christian dedications inscribed within a cross-shaped
+                field on a panel (see, e.g., Guarducci IV, 370–371, Karpathos, IV–Vth centuries C.E.). We could speculate that this Chersonian monument was a monumental cross (probably with a lengthened
+                lower part) used as an acroterium for the roof of a church building, or as a finial of a church phiale; alternatively it could have topped a free-standing pillar, 
+                a type of religious monument well known in the Early and Middle Byzantine Cherson (Sorochan 2005, 825).</p>
+            <p>The lettershapes are similar (but not completely) to those of <ref type="inscription">V 19</ref><!--byz019-->. Highly articulated serifs testify in favour of a date
+            in the VI-VIIth centuries.</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+               <ab>
+                  <lb n="1"/><w lemma="ὑπέρ"><supplied reason="lost">Ὑ</supplied><lb n="2" break="no"/><supplied reason="lost">π</supplied><lb n="3" break="no"/><supplied reason="lost">ὲ</supplied><lb n="4" break="no"/><supplied reason="lost">ρ</supplied></w>
+                  <lb n="5"/><w lemma="σωτηρία"><supplied reason="lost">σ</supplied><lb n="6" break="no"/>ω<lb n="7" break="no"/><unclear>τ</unclear><lb n="8" break="no"/><supplied reason="lost">η</supplied><lb n="9" break="no"/><supplied reason="lost">ρ</supplied><lb n="10" break="no"/><supplied reason="lost">ί</supplied><lb n="11" break="no"/><supplied reason="lost">α</supplied><lb n="12" break="no"/><supplied reason="lost">ς</supplied></w>
+                  <lb n="13"/><persName type="attested" ref="#person28"><name nymRef="Γρηγόριος"><supplied reason="lost" cert="low">Γρηγ</supplied>ωρήου</name></persName> <g ref="#stauros"/>
+               </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

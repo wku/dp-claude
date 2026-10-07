@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие супругов</title><title xml:lang="en">Epitaph of a couple</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.43</idno><idno type="PE">PE3000043</idno><idno type="filename">3.249</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>123/36847</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>123/36847</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon36">Архитрав.</objectType>
+                           <objectType xml:lang="en">Architrave.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Сохранилась правая часть архитрава с триглифно-метопным
+                              фризом дорического ордера со следами дихромной росписи. На верхней
+                              плоскости углубления для пиронов.</p>
+                           <p xml:lang="en">Right half of an architrave. Dowel holes on the top.</p>
+                           <dimensions>
+                              <height unit="cm">26,0</height>
+                              <width unit="cm">66,5</width>
+                              <depth unit="cm">37,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Надпись вырезана под фризом. Буквы обведены красной
+                              краской.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> Below the frieze. Letters carved and then traced in
+                              red paint.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Ню с укороченной правой вертикалью, омикрон немного
+                           меньше остальных букв, слегка изогнутые линии букв, небольшие утолщения и
+                           черточки на концах линий букв.</seg>
+                        <seg xml:lang="en">Nu with short right vertical, omicron smaller than the
+                           rest of the letters, letterstrokes are slightly curved, flaring and
+                           serifs at the ends of hastae.</seg>
+                        <height unit="cm">1,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0251" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">1-я пол. III в. до н.э.</seg>
+                        <seg xml:lang="en">1st half of III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1961 г. Раскопки
+                           С.Ф. Стржелецкого (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Юго-восточный район Херсонеса, оборонительные стены, ядро башни XVII (башня Зенона), кладка.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1961, excavations of S.F. Strzheletsky (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Southeast sector of Chersonesos, fortification walls, Tower XVII ("Zeno's Tower"), masonry.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-14" who="CB">Bibliography</change>
+         <change when="2015-08-26" who="CB">App crit</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2015-06-02" who="CB">Metadata tagging</change>
+         <change when="2015-03-13" who="VP">Tagging Greek names</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.43">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Соломоник 1969--><ptr target="bib:b0504"/>, 73, №
+                     <citedRange>40</citedRange></bibl>
+               <bibl><!--НЭПХ II-->
+                  <ptr target="bib:НЭПХ2"/><citedRange>174</citedRange>
+               (= <bibl><!--Bull.ép. 1974--><ptr target="bib:BE"/> <citedRange>1974, 380</citedRange></bibl>)</bibl>
+               <bibl><!--Perlman 2011--><ptr target="bib:b0437"/>, 452, <!--Arch-->№
+                     <citedRange>2</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Буйских 2008--><ptr target="bib:b0449"/>,192 и 402, рис. 117</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="inscription" n="1">
+               <ab>
+                  <lb n="1"/><persName type="attested" ref="#person560"><name nymRef="Εὐξίθεος">Εὐξίθεος</name>
+                  <lb n="2"/><persName type="attested" ref="#person563"><name nymRef="Χαιρομένης">Χαιρομένεος</name></persName></persName>
+               </ab>
+            </div>
+            <div type="textpart" subtype="inscription" n="2">
+               <ab>
+                  <lb n="1"/><persName type="attested" ref="#person565"><name nymRef="Ἱερώ">Ἱερὼ</name> 
+                                    <persName type="attested" ref="#person566"><name nymRef="Κρόνιος">Κρονίου</name></persName>
+                  <lb n="2"/><persName type="attested" ref="#person560"><name nymRef="Εὐξίθεος">Εὐξιθέου</name> </persName><w>γυνά</w></persName>
+               </ab>
+            </div>
+         </div>
+         <div type="apparatus">
+            <div type="textpart" n="1">
+               <listApp>
+                  <app>
+                     <note/>
+                  </app>
+               </listApp>
+            </div>
+            <div type="textpart" n="2">
+               <listApp>
+                  <app/>
+               </listApp>
+            </div>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <div type="textpart" n="1">
+               <p>Эвкситей, (сын) Хайромена.</p>
+            </div>
+            <div type="textpart" n="2">
+               <p>Гиеро, (дочь) Крония, жена Эвкситея.</p>
+            </div>
+         </div>
+         <div type="translation" xml:lang="en">
+            <div type="textpart" n="1">
+               <p>Euxitheos, (son of) Chairomenes.</p>
+            </div>
+            <div type="textpart" n="2">
+               <p>Hiero, (daughter of) Kronios, wife of Euxitheos.</p>
+            </div>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <div type="textpart" n="1">
+               <p>По предположению Буйских 2008, 192 надпись была вырезана на венчающей части
+                  погребального перибола.</p>
+            </div>
+            <div type="textpart" n="2">
+               <p>Женское ЛИ Ἱερώ засвидетельствовано также в надгробной надписи эллинистического
+                  времени № neph140. Все остальные имена в Херсонесе встречаются только в этой
+                  эпитафии. НЭПХ II 174 и Perlman 2011, 453 обращают внимание на возможные жреческие
+                  коннотации имен Ἱερώ и Εὐξίθεος, а также теофорный характер ЛИ Κρόνιος и не
+                  исключают, что умершие были представителями жреческих родов.</p>
+               <p>Надпись b нанесена правее надписи a на небольшом расстоянии. </p>
+               <p>В надписи b в стк. 2 резчик сначала пропустил букву Υ в имени Εὐξιθέου, затем
+                  исправил ошибку, соскоблив, а затем повторно вырезав слово γυνά.</p>
+            </div>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <div type="textpart" n="1">
+               <p/>
+            </div>
+            <div type="textpart" n="2">
+               <p/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

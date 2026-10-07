@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение Посидея богине Родос</title><title xml:lang="en">Dedication to Rhodos</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.705</idno><idno type="PE">PE3000386</idno><idno type="filename">3.597</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Государственный исторический музей</repository>
+                     <idno>96854</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>State Historical Museum</repository>
+                     <idno>96854</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвятительная надпись.</seg>
+                     <seg xml:lang="en">Dedicatory inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon12">Постамент.</objectType>
+                           <objectType xml:lang="en">Base.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Расколот на две части. На верхней плоскости сохранились
+                              три углубления для установки статуи. Лицевая поверхность тщательно
+                              обработана. Сохранилась трехстрочная надпись.</p>
+                           <p xml:lang="en">Broken in two pieces.</p>
+                           <dimensions>
+                              <height unit="cm">24,0</height>
+                              <width unit="cm">50,0</width>
+                              <depth unit="cm">50,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы ровные, тщательно вырезанные, на концах украшены
+                           черточками. Альфа с прямой перекладиной, пи имеет укороченную правую
+                           вертикаль, за которую выступает верхняя поперечная линия, сигма с
+                           параллельными верхними и нижними гастами, нижние концы дуги омеги сближены.</seg>
+                        <seg xml:lang="en">Uneven letters; alpha with straight crossbar, pi with short right vertical.</seg>
+                        <height unit="cm">1,5-2,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p058">
+                        <seg xml:lang="ru">Неаполь Скифский.</seg>
+                        <seg xml:lang="en">Neapolis Scythica.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0151" notAfter="-0101" evidence="палеография">
+                        <seg xml:lang="ru">сер. - 2-я пол. II в. до н.э.</seg>
+                        <seg xml:lang="en">mid - 2nd half of II century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#simferopol-kermenchik">Симферополь (Керменчик/Неаполь Скифский?).</placeName>
+                        <rs type="circumstances">Обнаружена в ходе раскопок А.Н. Карасева 1958 г.</rs>
+                        <rs type="context">На участке «Д» в северо-западной части городища.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Simferopol (Kermenchik/Neapolis Scythica?).</placeName>
+                        <rs type="circumstances">Found in 1958, excavations of A.N. Karasev.</rs>
+                        <rs type="context">On plot D in the northwestern part of the citadel.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Москва, Россия.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Moscow, Russian Federation.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">При осмотре камня в декабре 2013 г. выяснилось, что лицевой
+                        фас значительно поврежден недавним сколом, в результате чего утеряна правая
+                        часть надписи. По сообщению Д.В. Журавлева отколотая часть лицевого фаса
+                        была недавно обнаружена в музейных фондах.</seg>
+                     <seg xml:lang="en">My autopsy in December 2013 showed that the front had suffered recent damage: right half of the inscription was chipped off.
+                     According to D.V. Zhuravlev, this chipped off fragment has since been rediscovered in the museum storage.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-04-26" who="PY">moved Russian text to commentary</change>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-19" who="CB">Bibliography</change>
+         <change when="2015-09-02" who="CB">Metadata and app crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-03-16" who="VP">Tagging Greek names</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.705">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Дашевская 1960--><ptr target="bib:b0463"/>, <citedRange>261</citedRange></bibl>
+               <bibl><!--Соломоник 1962--><ptr target="bib:b0500"/>, <citedRange>41</citedRange></bibl>
+               <bibl><!--Зайцев 2003--><ptr target="bib:b0464"/>, 52, № <citedRange>18</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Bull. ép. 1965--><ptr target="bib:BE"/> <citedRange>1965, 272</citedRange></bibl>
+               <bibl><!--Κοντορίνη 1981--><ptr target="bib:b0476"/>, <citedRange>226 слл</citedRange></bibl>
+               <bibl><!--Виноградов 1989--><ptr target="bib:b0451"/>, <citedRange>244</citedRange></bibl>
+               <bibl><!--Vinogradov 1997--><ptr target="bib:b0453"/>, <citedRange>68</citedRange></bibl>
+               <bibl><!--Трейстер 1999--><ptr target="bib:b0509"/>, 136, № <citedRange>5 (21)</citedRange></bibl>
+               <bibl><!--Гущина, Журавлев, Фирсов 2001--><ptr target="bib:b0460"/>, 231, № <citedRange>5</citedRange></bibl>
+               <bibl><!--Hupe 2003--><ptr target="bib:b0433"/>, <citedRange>293</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="divine" key="rhodos"><name>Ῥ<supplied reason="lost">ό</supplied><supplied reason="undefined" evidence="previouseditor">δωι</supplied></name></persName> 
+               	<lb n="2"/><persName type="attested" ref="#person1018"><name nymRef="Ποσίδεος">Ποσίδε<supplied reason="lost" extent="unknown" unit="character">ο</supplied><supplied reason="undefined" evidence="previouseditor">ς</supplied></name> 
+               	                 <persName type="attested" ref="#person1019"><name nymRef="Ποσίδεος"><supplied reason="undefined" evidence="previouseditor">Ποσιδέ<unclear>o</unclear></supplied><supplied reason="lost">υ</supplied></name></persName></persName>
+               	<lb n="3"/><w>χαρι<supplied reason="lost">σ</supplied>τήρ<supplied reason="undefined" evidence="previouseditor">ι<unclear>ο</unclear></supplied><supplied reason="lost">ν</supplied></w>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note>Legit Дашевская 1960.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Посидей, сын Посидея, (посвятил) Родос благодарственный дар.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Posideos, (son of) Posideos, (dedicated) to Rhodos, a thanks offering.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Культ богини Родос, божественной персонификации полиса родосцев, получивший
+               распространение после синойкизма Родоса (408/7 г. до н.э.) помимо собственно
+               родосской территории засвидетельствован главным образом в областях, находившихся под
+               контролем Родоса (Кос, Наксос и др.). Подробнее о нем см. Hupe 2003, 293.</p>
+            <p>Буквы, читавшиеся на камне ранее, но на момент осмотра
+               утерянные в результате недавнего повреждения лицевой поверхности, отмечены
+               подчеркиванием.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The cult of goddess Rhodos, divine personification of the polis of Rhodians, developed after the synoecism of Rhodos (408/7 B.C.E.) and is attested, besides 
+            Rhodos itself, mainly in the territories that were under its influence (Cos, Naxos and others). See further Hupe 2003, 293.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

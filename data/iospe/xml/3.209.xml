@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Бистaя</title><title xml:lang="en">Epitaph of Bisthas</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.5</idno><idno type="PE">PE3000005</idno><idno type="filename">3.209</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>45/36847</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>45/36847</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Стела с горизонтальным завершением. Состоит из шести
+                              фрагментов. Следы архитектурных украшений и росписи отсутствуют. В
+                              верхней части плиты симметрично по отношению к вертикальной оси
+                              вырезана двухстрочная надпись.</p>
+                           <p xml:lang="en">Stele with a horizontal top in six fragments. No trace of architectural decoration or paint.</p>
+                           <dimensions>
+                              <height unit="cm">92,0</height>
+                              <width unit="cm">40,0</width>
+                              <depth unit="cm">10,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Крупные тета, омикрон, омега, правая вертикаль ню слегка
+                           приподнята, отсутствие украшений на концах линий букв.</seg>
+                        <seg xml:lang="en">Large theta, omicron, omega; nu with short right vertical; absence of decorative elements at the ends of letterstrokes.</seg>
+                        <height unit="cm">3,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0367" notAfter="-0334" evidence="палеография">
+                        <seg xml:lang="ru">сер. - 2-я пол. IV в. до н.э.</seg>
+                        <seg xml:lang="en">mid-2nd half of IV century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1961 г. Раскопки
+                           С.Ф. Стржелецкого (архив НЗХТ, д. 30).</rs>
+                        <rs type="context">Юго-восточный район Херсонеса, оборонительные стены, ядро башни XVII (башня Зенона), кладка.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1961, excavations of S.F. Strzheletsky.</rs> <!-- Archive -->
+                        <rs type="context">Southeast sector of Chersonesos, fortification walls, Tower XVII ("Zeno's Tower"), masonry.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2019-04-10" who="LE">clean up with Makarov, app criticus and commentary</change>
+         <change when="2016-02-15" who="SS">corrected references to alists</change>
+         <change when="2015-10-28" who="CB">Correcting app crit</change>
+         <change when="2015-10-15" who="CB">Bibliography</change>
+         <change when="2015-09-01" who="CB">Metadata and app crit</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2014-06-02" who="CB">Metadata tagging</change>
+         <change when="2014-01-31" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-03-12" who="VP">Tagging the names</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.5">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Соломоник 1969--><ptr target="bib:b0504"/>, <citedRange>70, № 31</citedRange></bibl>
+               <bibl><!--НЭПХ II--><ptr target="bib:НЭПХ2"/> <citedRange>165</citedRange>
+               (cf. <bibl type="comparison"><!--Bull. ép. 1974--><ptr target="bib:BE"/><citedRange>1974, 380</citedRange></bibl>)</bibl>
+               <bibl><!--Perlman 2011--><ptr target="bib:b0437"/>, <citedRange>445, № 59</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Posamentir 2011--><ptr target="bib:b0439"/>, <citedRange>67, № 59</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><persName type="attested" ref="#person462"><name nymRef="Βισθᾶς">Βισθᾶς</name>
+               		<lb n="2"/><persName type="attested" ref="#person463"><name nymRef="Φίλων">Φίλωνος</name></persName></persName>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg source="bib:b0504 bib:НЭПХ2">Βίσθας</rdg>
+                  <rdg source="bib:BE">Βισθᾶς <note>Bull. ép.</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Бистай, (сын) Филона.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Bisthas, (son of) Philon.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Личное имя Βισθᾶς засвидетельствовано для Херсонеса еще дважды: в надгробной надписи
+               эллинистического времени (<ref type="inscription">III 299</ref>) упомянут Βισθᾶς Διονυσίου; то же самое имя
+               упоминается как патронимик херсонесита Гераклида (Ἡρακλείδας Βισθᾶ), удостоившегося
+               звания проксена в Дельфах в 192 г. до н.э. (Syll.3 58557; ср. Syll.3 604; Avram PPE
+               3193). Ввиду редкости имени нельзя исключать возможность родственных связей между
+               названными лицами (Perlman 2011, 446). Примеры других имен с этим же (греческим ?)
+               корнем см. Robert 1963, 311, n.7; Stolba 1996, 445.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The name Βισθᾶς is attested two more times in Chersonesos: in an epitaph of the Hellenistic period (<ref type="inscription">III 299</ref>), Βισθᾶς Διονυσίου is mentioned; the same name is used as 
+               a patronymic of Herakleidas (Ἡρακλείδας Βισθᾶ) who was honoured as a proxenos in Delphi in 192 B.C.E. (Syll.3 58557; ср. Syll.3 604; Avram PPE
+               3193). Due to the rareness of the name, we cannot exclude that the named individuals are related (Perlman 2011, 446). For examples of other names with the 
+               same (Greek?) route, see Robert 1963, 311, n.7; Stolba 1996, 445.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

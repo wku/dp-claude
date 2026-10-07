@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Идония</title><title xml:lang="en">Epitaph of Hedonios</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.339</idno><idno type="PE">PE5000339</idno>
+            <idno type="AYV2012-number">byz314</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита <certainty cert="low" locus="value" match=".."/>.</objectType>
+                           <objectType xml:lang="en">Panel<certainty cert="low" locus="value" match=".."/>.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Проконесский <certainty cert="low" locus="value" match=".."/> мрамор.</material>
+                           <material xml:lang="en">Proconnesian <certainty cert="low" locus="value" match=".."/> marble.</material>
+                           <p xml:lang="ru">Неизвестно.</p>
+                           <p xml:lang="en">Unknown.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На лицевой стороне.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с ломаной перекладиной.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with broken crossbar.</seg>
+                      </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p051">
+                        <seg xml:lang="ru">Таманский полуостров <certainty cert="low" locus="value" match=".."/>.</seg>
+                        <seg xml:lang="en">Taman peninsula <certainty cert="low" locus="value" match=".."/>.</seg>
+                     </origPlace>
+                     <origDate notBefore="0501" notAfter="0700" precision="low" evidence="формула палеография">
+                        <seg xml:lang="ru">VI–VII вв.</seg>
+                        <seg xml:lang="en">VI-VIIth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#tamanpeninsula">Таманский полуостров <certainty cert="low" locus="value" match=".."/>.</placeName>
+                        <rs type="circumstances">1833–1834 гг., обследования Ф. Дюбуа де Монперё.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Taman peninsula <certainty cert="low" locus="value" match=".."/>.</placeName>
+                        <rs type="circumstances">1833-1834, survey of F. Dubois de Montpéreux.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-11-07" who="TW">Added image code</change>
+          <change when="2013-02-25" who="ΝG">corrected Greek lemmata</change>
+         <change when="2012-09-05" who="AG">several lines corrected, tags tidied up, apparatus tagged</change>
+          <change when="2012-09-03" who="AL">checked metadata</change>
+          <change when="2012-08-23" who="AL">checked metadata, tagged bibliography</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+          <change when="2012-05-28" who="AFS">adding metadata and tagging greek text</change>
+         <change when="2012-02-28" who="AL">text tagged, bibliography tagged, original dates tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.339">
+                <desc xml:lang="en">Drawing of face</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!-- СIG --><ptr target="bib:Kirchhof"/> II, <citedRange>2129c</citedRange></bibl>
+               <bibl n="2"><!-- Сборник --><ptr target="bib:b0132"/>,110-111№ <citedRange>101</citedRange></bibl>
+               <bibl n="2"><!-- Виноградов 2010b --><ptr target="bib:b0414"/>, <citedRange>158</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="ὑπέρ"><supplied reason="lost">Ὑπὲρ</supplied></w> <w lemma="μνήμη">μνήμη<supplied reason="lost">ς</supplied></w>
+               <lb n="2"/><w lemma="καί"><supplied reason="lost">καὶ</supplied></w> <w lemma="ἀνάπαυσις"><supplied reason="lost">ἀν</supplied>α<supplied reason="lost">π</supplied>
+               <lb n="3" break="no"/>αύσε<supplied reason="lost">ως</supplied></w> <w lemma="ὁ">το<supplied reason="lost">ῦ</supplied></w>
+               <lb n="4"/><w lemma="δοῦλος">δούλ<supplied reason="lost">ου</supplied></w> <w lemma="ὁ">το<lb n="5" break="no"/>ῦ</w> 
+               <persName type="divine" key="theos"><roleName><w lemma="θεός"><expan><abbr>θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w></roleName></persName> 
+               <persName type="attested" ref="#person414"><name nymRef="Ἡδόνιος">Ἱδονί<supplied reason="lost">ου</supplied></name></persName>.
+               <lb n="6"/><w lemma="τελειόω">Ἐτ<supplied reason="lost">ελιό</supplied>θ<supplied reason="lost">η</supplied></w>
+               <lb n="7"/><date><w lemma="μήν"><supplied reason="lost">μ</supplied>η<supplied reason="lost">νὸς</supplied></w> <rs type="month" ref="sep"><w lemma="Σεπτέμβριος">Σεπτι<lb n="8" break="no"/>βρήου</w></rs> <num value="10">ι</num>, <w lemma="ἡμέρα">ἱμ<supplied reason="lost">έ</supplied><lb n="9" break="no"/>ρᾳ</w>  <num atMost="9"><gap reason="illegible" quantity="1" unit="character"/></num> . <w lemma="ἰνδικτιών"><expan><abbr>ἠν</abbr><supplied reason="lost"><abbr>δ</abbr><ex>ικτιῶνος</ex></supplied></expan></w><num><unclear> <!-- .´. --></unclear></num></date>.
+            </ab>
+         </div>
+         <div type="apparatus">
+             <listApp>
+                <app loc="1-9"><rdg source="bib:Boeckh">[... μν]ήμη [... Σ]επτ[εμ]βρ[ί]ου</rdg></app>
+                <app loc="8–9"><rdg source="bib:b0132">[.´], ἡμ[έρᾳ</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p><supplied reason="lost">О</supplied> памяти <supplied reason="lost">и у</supplied>покоении раба Божьего Идония. Скончался 10 сентября, в …, в .-ой индикт.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>For the remembrance and rest of the servant of God, Hedonios. He died on the 10th of September, in..., in... indiction.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Надпись была обнаружена Дюбуа де Монперё в Таманском храме. Впервые печатно она 
+                упомянута Ашиком (1843, 76, № 8). Ввиду утраты камня что-либо определенное сказать о его облике и палеографии надписи 
+               затруднительно. С одной стороны, самое ранее свидетельство формулы ἐτελειώθη (см. <ref type="introduction">IV.3.F.а</ref>) в 
+               Крыму — <ref type="inscription">V 316</ref><!--byz282--> 
+               (767 г.); с другой, она известна и в константинопольской надписи 2-й пол. VI в. 
+               (Schneider 1936, 397, № 2). В пользу ранневизантийской датировки говорят и альфа с ломаной 
+               перекладиной, и, как верно заметил Латышев, датировка по индикту, без года. Перед индиктом шел день недели.</p>
+                <p>1–3. Относительно формулы см. <ref type="introduction">IV.3.F.a</ref>.  </p>
+                <p>5. Имя Идоний встречается на Боспоре однажды (КБН 276); в христианской эпиграфике оно 
+                    неизвестно.  </p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The monument was discovered by Dubois de Montpéreux in one of Taman churches. It was first mentioned in print by Ashik (1843, 76, № 8).
+            Due to the loss of the monument, it is impossible to say anything definitive about its shape or palaeography. On the one hand, the earliest example of the 
+            formula ἐτελειώθη in Crimea (see Introduction <ref type="introduction">IV.3.F.а</ref>) is <ref type="inscription">V 316</ref><!--byz282--> (767 C.E.); on the other hand,
+               it is also attested in an inscription of the 2nd half of the VIth century from Constantinople (Schneider 1936, 397, № 2). Alpha with broken crossbar and the date
+            according to indiction, without the year (as was rightly noted by Latyshev) support an Early Byzantine date. A day of the week preceded the indiction.</p>
+            
+            <p>1–3. On the formula, see Introduction <ref type="introduction">IV.3.F.a</ref>.</p>
+            <p>5. The name Hedonios (here Hidonios) occurs in Bosporus once before (CIRB 276); in Christian epigraphy, it is unknown.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

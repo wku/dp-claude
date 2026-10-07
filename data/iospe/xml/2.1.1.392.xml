@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ru"/><title xml:lang="uk"/>
+                <title xml:lang="en">Unclasified (cross-shaped) mark</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>King's College London</authority>
+                <idno type="PE">PE2010093</idno>
+                <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="filename">2.1.1.392</tei:idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/>
+                        <altIdentifier xml:lang="ru">
+                            <repository>Государственный Эрмитаж</repository>
+                            <idno>Б.66.201</idno>
+                        </altIdentifier><altIdentifier xml:lang="uk"><repository/><idno/></altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>The State Hermitage Museum</repository>
+                            <idno>Б.66.201</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="filename.xml#id">
+                            <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                            <seg xml:lang="en">Unclasified (cross-shaped) mark.</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ru" ref="monument-search.xml#mon52">Амфора.</objectType><objectType xml:lang="uk" ref="monument-search.xml#mon52"/>
+                                    <objectType xml:lang="en">Handle fragment (oval in section).</objectType>
+                                    
+                                    <material xml:lang="ru" ref="material-search.xml#m10">Глина.</material><material xml:lang="uk" ref="material-search.xml#m10"/>
+                                    <material xml:lang="en">Clay.</material>
+                                    <p xml:lang="ru"/><p xml:lang="uk"/>
+                                    <p xml:lang="en">Amphora, proto-Thasos, late VI - early V century B.C.E. </p>
+                                    <dimensions>
+                                        <height unit="cm"/>
+                                        <width unit="cm"/>
+                                        <depth unit="cm"/>
+                                        <dim type="diameter" unit="cm"/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                                    <seg xml:lang="en">Handle, overside. Originally inscribed on complete(?) vessel.</seg>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито.</rs></seg><seg xml:lang="uk"><rs type="execution" ref="execution.xml#scariphatis"/></seg>
+                                <seg xml:lang="en">Graffito.</seg>
+                                <height unit="cm">2.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origPlace.xml#p066"/>
+                            <seg xml:lang="ru">Борисфен.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">Borysthenes.</seg>
+                            <origDate notBefore="0001" notAfter="0001" evidence="Датировка_керамики">
+                                <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                                <seg xml:lang="en">late VI - early V century B.C.E.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="ru">
+                               
+                                <placeName type="ancientFindspot" ref="findspot.xml#berezan">Березань.</placeName>
+                                <rs type="circumstances">Найден в 1966 г., раскопки К.С. Горбуновой.</rs>
+                                <rs type="context">Северный участок, II, южная прирезка, к западу от кладки 7, сероглинистый слой, глубина 0.6-0.85.</rs>
+                            </seg><seg xml:lang="uk"><placeName type="ancientFindspot" ref="findspot.xml#berezan"/><rs type="circumstances"/><rs type="context"/></seg>
+                            <seg xml:lang="en">
+                                <placeName type="ancientFindspot">Berezan.</placeName>
+                                <rs type="circumstances">Found in 1966, excavations of K.S. Gorbunova.</rs>
+                                <rs type="context">North Sector II, south addition, west of wall 7, grey-clay layer, depth 0.6-0.85 m.</rs>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="ru">Санкт-Петербург, Россия.</seg><seg xml:lang="uk"/>
+                            <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsy">
+                            <seg xml:lang="ru">Август 2016.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">August 2016.</seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-01-01" who="IP"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="2010093-dr"><desc xml:lang="en"/><desc xml:lang="ru"/><desc xml:lang="uk"/></graphic></surface> <!-- <surface>
+            <graphic url="2010093-a">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010093-b">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010093-c">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010093-d">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface> -->
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <!-- Издания -->
+                <listBibl>
+                    <!-- copy and paste citation -->
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                </listBibl>
+            </div>
+            <div type="bibliography" subtype="commentaries">
+                <!-- Комментарии -->
+                
+            </div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+                        <lb n="1"/><!--Greek text here  -->
+            </ab>
+         </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note><!-- copy and paster from Word --></note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="ru">
+                <p/>
+            </div><div xml:lang="uk" type="translation"><p/></div>
+            <div type="translation" xml:lang="en">
+                <p/>
+            </div>
+            <div type="commentary" xml:lang="ru">
+                <p/>
+            </div><div xml:lang="uk" type="commentary"><p/></div>
+            <div type="commentary" xml:lang="en">
+                <p>Top strokes possibly represent remains of epsilon and bottom strokes - either delta or lambda. So, we may have a ligature: 
+                    orthograde epsilon with downward slanted strokes with the bottom stroke forms part of a diagonal of delta or lambda.</p>
+            </div>
+        </body>
+    </text>
+ 
+</TEI>

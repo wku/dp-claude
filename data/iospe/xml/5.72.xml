@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Кириака, сына Феодора <certainty cert="low" locus="value" match=".."/></title><title xml:lang="en">Epitaph of Kyriakos, son of Theodore <certainty cert="low" locus="value" match=".."/></title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.72</idno><idno type="PE">PE5000072</idno>
+            <idno type="AYV2012-number">byz072</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon9">Крест <certainty cert="low" locus="value" match=".."/>.</objectType>
+                           <objectType xml:lang="en">Cross<certainty cert="low" locus="value" match=".."/>.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк <certainty cert="low" locus="value" match=".."/>.</material>
+                           <material xml:lang="en">Limestone<certainty cert="low" locus="value" match=".."/>.</material>
+                           <p xml:lang="ru">Нижний рукав расширяется в подставку, по краю врезана рамка. Обломан сверху, сохранился только нижний рукав; 
+                              сколы на правой части лицевой стороны.</p>
+                           <p xml:lang="en">Broken off at the top. Only the bottom arm of the cross survives; it widens to form a base. A raised border runs along 
+                              the edges on the front. The right half of the front is chipped away.</p>
+                           <dimensions>
+                              <height>27,0</height>
+                              <width>18,0</width>
+                              <depth>88,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">Внутри рамки.</seg>
+                           <seg xml:lang="en">Within a frame.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с наклоненной влево перекладиной, 
+                           сигма полуромбовидная.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with left-slanting crossbar, half-diamond sigma.</seg>
+                        <height unit="cm">2,0–3,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0301" notAfter="0500" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">IV–V вв.</seg>
+                        <seg xml:lang="en">IV–Vth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1907 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Некрополь у Карантинной бухты, склеп № 2385.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1907, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Necropolis by the Quarantine Bay, Burial vault 2385.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-17" who="CB">Andrey's corrections</change>
+         <change when="2015-03-24" who="CB">Andrey's corrections</change>
+          <change when="2013-10-24" who="TW">Added image code</change>
+         <change when="2012-08-22" who="AG">translation in 'context' corrected</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-12" who="AG">small corrections</change>
+         <change when="2012-05-21" who="AG">several lines translated, tags corrected</change>
+          <change when="2012-04-30" who="AFS">updated bibliography</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-04-16" who="AG">apparatus tagged, 2 lines translated</change>
+         <change when="2012-02-22" who="AG">bibliography tagged</change>
+         <change when="2012-01-10" who="AG">updating, small corrections</change>
+         <change when="2011-12-06" who="AG">minor corrections, tags added to the Greek text</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.72">
+                <desc xml:lang="en">Drawing of face (from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+                <bibl n="L1"><!--Латышев 1908--><ptr target="bib:b0149"/>,  30, № <citedRange>24</citedRange></bibl>
+               <bibl n="1.1"><!--Виноградов 2010a--><ptr target="bib:b0399"/>, 136–138, № <citedRange>i</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="ἐνθάδε"><supplied reason="lost">Ἐνθάδε</supplied></w> <w lemma="κατάκειμαι"><supplied reason="lost">κατ</supplied><lb n="2" break="no"/><unclear>ά</unclear><supplied reason="lost">κιτε</supplied></w>
+               <lb n="3"/><persName type="attested" ref="#person75"><name nymRef="Κυριακός">Κ<unclear>υ</unclear><supplied reason="lost">ρι</supplied><lb n="4" break="no"/>ακὸς</name> <persName type="attested" ref="#person76"><name nymRef="Θεόδωρος"><unclear>Θ</unclear><supplied reason="lost">εο</supplied><lb n="5" break="no"/>δόρ<unclear>ο</unclear><supplied reason="lost">υ</supplied></name></persName></persName>.
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1-2"><rdg source="bib:b0149"><note>om.</note></rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p><supplied reason="lost">Здесь ле</supplied>ж<supplied reason="lost">ит</supplied> Ки<supplied reason="lost">ри</supplied>ак, сын Ф<supplied reason="lost">ео</supplied>дора.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Here lies Kyriakos, son of Theodore.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Если памятник первоначально представлял собой крест, то, вероятно, в его верхней части располагалась формула, вводившая имя погребенного в 
+               номинативе. Судя по ранневизантийской датировки надписи и остаткам альфы, это была, скорее всего, формула Ἐνθάδε κατάκειται. Имя Кириак имеет 
+               аналогии в Северном Причерноморье (<ref type="inscription">V 242</ref><!--byz228-->, <ref type="inscription">V 304</ref><!--byz298-->, <ref type="inscription">V 325</ref><!--byz307-->).</p>
+            <p> Палеографически надпись близка <ref type="inscription">V 5</ref><!--byz004-->: ср. форму альфы и каппу без удлинения вертикали. С другой стороны, 
+               редкая форма сигмы в виде полуромба находит параллель в такой же форме эпсилона из <ref type="inscription">V 65</ref><!--byz065-->.</p>
+                <p>О находке см. Косцюшко-Валюжинич 1911, 80. Могила, видимо, была не разграбленной, как считал Якобсон (1959, 259), а безынвентарной 
+                   (см. Сорочан 2005, 1072, прим. 123). О надгробиях в форме креста см. комм. к <ref type="inscription">V 61</ref><!--byz061-->.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>If this monument had originally been a cross, then in its top half we would expect a formula with a name of the deceased in the nominative. 
+               Judging by the Early Byzantine date of the inscription and the remains of an alpha, the formula most likely was Ἐνθάδε κατάκειται.
+               The name Kyriakos has parallels in the Northern Black Sea region (<ref type="inscription">V 242</ref><!--byz228-->, <ref type="inscription">V 304</ref><!--byz298-->, <ref type="inscription">V 325</ref><!--byz307-->).</p>
+            <p>Palaeographic features are close to those of <ref type="inscription">V 5</ref><!--byz004-->: we may compare the shapes of alpha, and kappa without elongated
+               vertical. At the same time, a rare form of sigma - half diamond - has a parallel in the same shape of an epsilon: <ref type="inscription">V 65</ref><!--byz065-->.</p>
+            <p>On circumstances of discovery, see Kostsyushko-Valyuzhinich 1911, 80. The grave was probably not robbed, as was Yakobson's opinion, but 
+               rather contained no grave goods (see Sorochan 2005, 1072, n. 123). On tombstones in the shape of a cross, see commentary to <ref type="inscription">V 61</ref><!--byz061-->.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

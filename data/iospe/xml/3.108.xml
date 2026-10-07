@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Постановление наместника (?), связанное с налогом на проституцию</title>
+            <title xml:lang="en">Edict (?) concerning a tax on prostitution</title>
+            <editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.408</idno><idno type="PE">PE3000533</idno><idno type="filename">3.108</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>20315</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>20315</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg xml:lang="ru">Эдикт или официальное письмо (?).</seg>
+                     <seg xml:lang="en">Edict or letter (?)</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Частично сохранился левый край. Расколот на три части. Лицевая сторона тщательно обработана.</p>
+                           <p xml:lang="en">Partially preserved left corner. Broken into three pieces. The front is well worked.</p>
+                           <dimensions>
+                              <height unit="cm">29,0</height>
+                              <width unit="cm">27,0</width>
+                              <depth unit="cm">3,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Немного удлиненные формы некоторых букв, прямоугольные эпсилон и сигма, 
+                           тета с замкнутой поперечной гастой, ипсилон без перекладины, фи с вертикалью, выходящей за линии строки, 
+                           омега в виде перевернутого мю, апексы на концах линий букв.</seg>
+                        <seg xml:lang="en">SLightly elongated letters, rectangular epsilon and sigma, theta with attached crossbar, phi with projecting vertical, omega in the 
+                        shape of upside down mu; serifs.</seg>
+                        <height unit="cm">1,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес Таврический.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0168" notAfter="0250" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">конец II - первая половина III в. н.э.</seg>
+                        <seg xml:lang="en">late II - 1st half of III century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1909 г. Раскопки Р.Х. Лепера (НА НЗХТ, д. 102, л. 31, № 1951; д. 102, л. 45, № 2843; д. 102, л. 46, № 2745; 
+                           ср. д. 70, л. 8 и 42).</rs>
+                        <rs type="context">В северо-восточном районе городища (помещения 21 и 43).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1909, excavations of R.Ch. Loeper (НА НЗХТ, д. 102, л. 31, № 1951; д. 102, л. 45, № 2843; д. 102, л. 46, № 2745; 
+                           ср. д. 70, л. 8 и 42).</rs>
+                        <rs type="context">Northeast sector of the citadel of Chersonesos (Enclosures 21 and 43).</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+                  </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-03-03" who="PY">encoded metadata and Leiden</change>
+         <change when="2016-11-28" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.408">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>705</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Кадеев 1981 --><ptr target="bib:b0472"/>, <citedRange>48</citedRange></bibl>
+               <bibl><!-- Соломоник 1987a --><ptr target="bib:b0966"/>, <citedRange>129</citedRange></bibl>
+               <bibl><!-- Зубарь 2002 --><ptr target="bib:b0967"/>, <citedRange>86, прим. 14</citedRange></bibl>
+               <bibl><!-- Макаров 2003 --><ptr target="bib:b0956"/>, <citedRange>130 слл</citedRange></bibl>
+               <bibl><!-- Makarov 2007a --><ptr target="bib:b0948"/>, <citedRange>333</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><w>μωνα</w> <gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">τέ</supplied>
+               		<lb n="2" break="no"/>λει</w> <w>πορν<supplied reason="lost">ικῷ</supplied></w><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="3"/><w>με</w> <w>φυλά<unclear>ξ</unclear><supplied reason="lost">ειν</supplied></w> 
+                                          <gap reason="lost" unit="character" extent="unknown"/> <supplied reason="lost"><w>ἃ</w> <w>οἱ</w></supplied>
+               		<lb n="4"/><w>πάλαι</w> <w>χει<unclear>λ</unclear><supplied reason="lost">ιάρχαι</supplied></w> 
+                                          <supplied reason="lost" cert="unknown"><w>ὥρισαν</w></supplied><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="5"/><w>περιέχεσθ<supplied reason="lost">αι</supplied></w> <gap reason="lost" unit="character" extent="unknown"/>
+               		<lb n="6"/><w part="F">σθαι</w> <w>τὰς</w> <w>οὐ<unclear>χ</unclear></w> <w>ἑτα<supplied reason="lost">ιριζομένας</supplied></w>
+                                          <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><w>ἐν</w> <w>τόποις</w></supplied>
+               		<lb n="7"/><w>ὡρισμένοις</w> <w part="I">του</w><gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost"><w>περὶ</w></supplied>
+               		<lb n="8"/><w>μὲν</w> <w>τοῦ</w> 
+               <w>ὡρισμένο<supplied reason="lost">υ</supplied></w> <supplied reason="lost"><w>τέλους</w></supplied><gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost"><w>τῷ</w> <w>τέλει</w></supplied>
+               		<lb n="9"/><w>ὑπευθ<unclear>ύ</unclear>νους</w> <w>εἶναι</w> <w>καὶ</w> 
+               <w>ὀφείλε<supplied reason="lost">ιν</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><w>τὰς</w> <w>ἐν</w></supplied> <w><supplied reason="lost">χαμαιτυ</supplied>
+               		<lb n="10" break="no"/>πείῳ</w> <w>ἢ</w> <w>οἰκήματί</w> <w>τινι</w> 
+               <w>καθη<supplied reason="lost">μένας</supplied></w><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w>ἐπὶ</w> <w>τῇ</w></supplied>
+               		<lb n="11"/><w><unclear>τοῦ</unclear></w> <w>σώματος</w> <w>αἰσχύνῃ</w> <w>μισθ<supplied reason="lost">ὸν</supplied></w> 
+               <supplied reason="lost"><w>λαμβανούσας</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+               <w><supplied reason="lost">δι</supplied>
+               		<lb n="12" break="no"/><supplied reason="lost">δόν</supplied>αι</w> <w>τοῖς</w> <w>τοῦ</w> <w>τέλους</w> 
+               <w>μισθ<supplied reason="lost">ωταῖς</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> 
+               <w><supplied reason="lost">κολαζέσ</supplied>
+               		<lb n="13" break="no"/><supplied reason="lost">θω</supplied></w> <supplied reason="lost"><w>δὲ</w></supplied> 
+               <w>ἡ</w> <w>μὴ</w> <w>ἀπογραψαμέν<supplied reason="lost">η</supplied></w> <w><supplied reason="lost">πρὸς</supplied></w> 
+               <gap reason="lost" unit="character" extent="unknown"/> 
+                                    <lb n="14"/><w><supplied reason="lost">περὶ</supplied></w> <w><supplied reason="lost">δ</supplied>ὲ</w> 
+               <w>τῶν</w> <w>ὅρων</w> <w part="I">ε</w><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="15"/><gap reason="lost" extent="unknown" unit="character"/>
+               <orig><unclear>Ν</unclear>ΣΥΝ<unclear>ΧΩ</unclear></orig>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="16"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" unit="character" quantity="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="16a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="3">
+                  <note>supplevi sec. lap.</note>
+                  <rdg source="bib:IOSPE">φυλά[ττειν ?]</rdg></app>
+               <app loc="4"><rdg>ὥρισαν <note>restitui e.g.</note></rdg></app>
+               <app loc="8"><rdg>τῷ τέλει <note> supplevi</note></rdg></app>
+               <app loc="11"><rdg source="bib:IOSPE">[τοῦ]</rdg></app>
+               <app loc="13"><rdg>[πρὸς] <note>addidi</note></rdg></app>
+               <app loc="14"><rdg source="bib:b0966">ὅρων ἐ[ντὸς τῆς πόλεος ? - - -]</rdg></app>
+               <app loc="15">
+                  <rdg source="bib:b0966"><note>scripsi;</note></rdg>
+                  <rdg source="bib:IOSPE">[- - -]ι συνυ[̣- - -]</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[- - -] налогом на проституцию [- - -] (намереваюсь vel sim.) оставить в силе [- - -то, что определили] прежние военные трибуны [- - -] 
+               включать в себя [- - -] не занимающихся проституцией в определенных [местах - - -] относительно установленного [налога - - -] пусть 
+               подлежат [налогу] и должны - - - (женщины), находящиеся в публичном доме или каком-либо (другом) заведении [- - - получая] плату 
+               [за то, что подвергают] позору свое тело [- - - отдавать] откупщикам налога [- - - пусть понесет наказание] на заявившая о себе у [- - - относительно] границ - - -</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>IOSPE I2 705 (coniunxit Моисеев, rest. Латышев)</p>
+            <p>15: глагольная форма от συγχωρέω ? - Соломоник 1987a</p>
+            <p>16: вертикальная линия, затем следы Π или Τ; om. IOSPE</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

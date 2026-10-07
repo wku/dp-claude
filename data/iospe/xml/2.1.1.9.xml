@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ru"/><title xml:lang="uk"/>
+                <title xml:lang="en">Ownership(?) inscription</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>King's College London</authority>
+                <idno type="PE">PE2010438</idno>
+                <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="filename">2.1.1.9</tei:idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/>
+                        <altIdentifier xml:lang="ru">
+                            <repository>Государственный Эрмитаж</repository>
+                            <idno>Б.86.209</idno>
+                        </altIdentifier><altIdentifier xml:lang="uk"><repository/><idno/></altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>The State Hermitage Museum</repository>
+                            <idno>Б.86.209</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ru" ref="#">Фрагмент.</objectType><objectType xml:lang="uk" ref="#"/>
+                                    <objectType xml:lang="en">Fragment of foot.</objectType>
+                                    
+                                    <material xml:lang="ru" ref="material-search.xml#m10">Глина.</material><material xml:lang="uk" ref="material-search.xml#m10"/>
+                                    <material xml:lang="en">Clay.</material>
+                                    <p xml:lang="ru"/><p xml:lang="uk"/>
+                                    <p xml:lang="en">BG kylix, Attica, early V century B.C.E.</p>
+                                    <dimensions>
+                                        <height unit="cm"/>
+                                        <width unit="cm"/>
+                                        <depth unit="cm"/>
+                                        <dim type="diameter" unit="cm"/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            
+                        </objectDesc>
+                        
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origPlace.xml#p066"/>
+                            <seg xml:lang="ru">Борисфен.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">Borysthenes.</seg>
+                            <origDate notBefore="0001" notAfter="0001" evidence="Датировка_керамики">
+                                <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                                <seg xml:lang="en">early V century B.C.E.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="ru">
+                               
+                                <placeName type="ancientFindspot" ref="findspot.xml#berezan">Березань.</placeName>
+                                <rs type="circumstances">Найден в 1986 г., раскопки Я.В. Доманского.</rs>
+                                <rs type="context">Северно-западный участок, раскоп Б, ниже уровня дома VI.</rs>
+                            </seg><seg xml:lang="uk"><placeName type="ancientFindspot" ref="findspot.xml#berezan"/><rs type="circumstances"/><rs type="context"/></seg>
+                            <seg xml:lang="en">
+                                <placeName type="ancientFindspot">Berezan.</placeName>
+                                <rs type="circumstances">Found in 1986, excavations of Ya.V. Domansky.</rs>
+                                <rs type="context">Northwestern sector, Area Б, below the level of House VI.</rs>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="ru">Санкт-Петербург, Россия.</seg><seg xml:lang="uk"/>
+                            <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsy">
+                            <seg xml:lang="ru">Август 2016.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">August 2016.</seg>
+                        </provenance>
+                    </history>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <idno/>
+                        </msIdentifier>
+                        <msContents>
+                            <summary corresp="document-search.xml#doc14">
+                                <seg xml:lang="ru" n="1"/><seg xml:lang="uk" n="1"/>
+                                <seg xml:lang="en" n="1">Ownership? inscription</seg>
+                            </summary>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                                        <seg xml:lang="en">Floor centre, interior.</seg>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="1">
+                                    <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито</rs> 
+                                    </seg><seg xml:lang="uk"><rs type="execution" ref="execution.xml#scariphatis"/></seg>
+                                    <seg xml:lang="en">Graffito.</seg>
+                                    <height unit="cm">0.5</height>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate n="1" precision="low" evidence="Датировка_керамики">
+                                    <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                                    <seg xml:lang="en">early V century B.C.E</seg>
+                                </origDate>
+                            </origin>
+                        </history>
+                    </msPart>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-01-01" who="IP"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="2010438-dr"><desc xml:lang="en"/><desc xml:lang="ru"/><desc xml:lang="uk"/></graphic></surface> <!-- <surface>
+            <graphic url="2010438-a">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010438-b">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010438-c">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010438-d">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface> -->
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <!-- Издания -->
+                <listBibl>
+                    <!-- copy and paste citation -->
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                </listBibl>
+            </div>
+            <div type="bibliography" subtype="commentaries">
+                <!-- Комментарии -->
+                
+            </div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="inscription" n="1">
+               <ab>
+                  <lb n="1"/>[- -τ]ο Κύμβαλ[ο - -]
+                   <lb n="2"/>
+               </ab>
+            </div>
+            
+         </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note><!-- copy and paste from Word --></note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="ru">
+                <div type="textpart" n="1">
+                    <p/>
+                </div>
+                
+            </div><div xml:lang="uk" type="translation"><div type="textpart" n="1"><p/></div></div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                    <p/>
+                </div>
+                
+            </div>
+            <div type="commentary" xml:lang="ru">
+                <div type="textpart" n="1">
+                    <p> </p>
+                </div>
+                
+            </div><div xml:lang="uk" type="commentary"><div type="textpart" n="1"><p/></div></div>
+            <div type="commentary" xml:lang="en">
+                <div type="textpart" n="1">
+                    <p>The preserved letters are best read as a personal name. Personal name Κύμβαλος is very rare. It is attested twice in Tegea, Arkadia: in IG V,2 38, line 52, in a list of names (IV/III cent BCE)
+                        where Kymbalos, son of Ariston is mentioned (V3a-4981); the second instance is SEG XI.1170 (LGPN V3a-7094), also IV century.</p>
+                    <p>In our case, the omicron before kappa suggests the Genitive of the definite article 
+                        and the name would have been in grammatical agreement, suggesting an ownership inscription, where Kymbalos would be the patronymic
+                        of the cup's owner. This hypothesis is made virtually certain by what to me looks like the second occurrence of this name at Berezan, 
+                        also in an ownership graffito; it is also inscribed on the underside of a foot of a BG cup (the fragment is in the collection of the Institute of Archaeology of the National Academy of Sciences of 
+                    Ukraine, Kyiv (inv. no. АБ.80-486), and the graffito reads [- -]οδωρο εἰμὶ το Κυμ̣[- -]. The ductus and lettershapes are similar in the two graffiti, 
+                    so it is quite possible that both were inscribed by the same hand. That said, we cannot entirely rule out other restorations of the name Κυμ̣[- -]. 
+                    Aside from several names of the Roman Imperial date, the only one that predates our case is Κυματοθέα from Corinth (LGPN V3a-23846), in the 6th century
+                    BCE, with no other instances from the Classical period, and two varieties only, Κυμαίων and Κυμινάνθη, from Chios and Delos respectively, in the 
+                    Hellenistic period (LGPN V1-47748, V1-85486).
+                    </p>
+                    <p>S.R. Tokhtasiev (“Граффити.” Борисфен-Березань. Начало античной эпохи в Северном Причерноморье. 
+                        Каталог выставки. Государственный Эрмитаж, St. Petersburg, 2005, 140, no. 266) speculated that the inscription was of sympotic variety, and
+                        an ordinary noun κύμβαλα was mentioned. In light of the compranda for personal names, however, Tokhtasiev's suggestion seems unlikely.</p>
+                        
+                </div>
+                
+            </div>
+        </body>
+    </text>
+ 
+</TEI>

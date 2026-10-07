@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие</title><title xml:lang="en">Epitaph</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.199</idno><idno type="PE">PE3000180</idno><idno type="filename">3.401</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>До 1872 г. хранился в Херсонесе</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Until 1872, the monument was in Chersonesos.</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon39">Нет
+                              данных.</objectType>
+                           <objectType xml:lang="en">Unknown.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m14">Нет
+                              данных.</material>
+                           <material xml:lang="en">Unknown.</material>
+                           <p xml:lang="ru"/>
+                           <p xml:lang="en"/>
+                           <dimensions/>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Прямоугольная сигма, лигатуры ню-эта, эта-сигма.</seg>
+                        <seg xml:lang="en">Rectangular sigma; ligatures: nu-eta, eta-sigma.</seg>
+                        <height unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес (?).</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0151" notAfter="0300" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">не ранее второй половины II в. н.э.</seg>
+                        <seg xml:lang="en">not before 2nd half of II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol" cert="low">Севастополь (Херсонес) (?).</placeName>
+                        <rs type="circumstances">Найден ранее 1872 г.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found before 1872.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi. Камень считается утерянным после отправки в Москву
+                        в 1872 г.</seg>
+                     <seg xml:lang="en">Non vidi. The monument was considered lost after its despatch to Moscow in 1872.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-09" who="CB">Added origDate</change>
+         <change when="2015-10-30" who="CB">biblio and app crit</change>
+         <change when="2015-10-22" who="CB">Metadata</change>
+         <change when="2015-10-21" who="KK">Leidenised</change>
+         <change when="2015-09-25" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>I 221</citedRange>
+               (= <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>541</citedRange></bibl>)</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> 
+               		<lb n="1"/><w>μνήμης</w> <w>χ<supplied reason="lost">άριν</supplied></w>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note>ΝΗ, ΗΣ in ligatura.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[---] ради памяти.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[---] for commemoration.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Формула μνήμης χάριν засидетельствована в херсонесской надгробной надписи № ipe501
+               (вторая половина II в. н.э. – первая половина III в. н.э.).</p>
+            <p>По копии Н.П. Кондакова, IOSPE I<hi rend="superscript">2</hi> 541.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

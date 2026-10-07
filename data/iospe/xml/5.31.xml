@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение неизвестного</title><title xml:lang="en">Dedication of unknown</title><editor xml:id="ayv2012">
+               <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+               <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+            </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.31</idno><idno type="PE">PE5000031</idno>
+            <idno type="AYV2012-number">byz031</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвятительная надпись.</seg>
+                     <seg xml:lang="en">Dedication.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">На лицевой стороне рельеф в рамке (толщ. 2,5), углубления которого были заполнены цветной мастикой (стуком) и на котором 
+                              изображены 2 фигуры по сторонам от креста: первая, в хитоне и плаще, держит левой рукой- крест, а правой благословляет; вторая, пониже, также в 
+                              хитоне и плаще, под смоковницею, в позе оранта. Разбита на 9 частей, обломана слева и сверху, от нижнего края сохранился только 1 кусок.</p>
+                           <p xml:lang="en">The front is carved away to form a shallow relief within a frame (Th. 2.5cm), inlaid with coloured stucco. The relief depicts 
+                              two figures on either side of the cross: the first, in chiton and himation, holds a cross in his left hand and makes a blessing with his right; the second, 
+                              shorter figure, also in chiton and himation, stands under a fig tree in the pose of an orant. Broken into 9 fragments, broken on the left and top. 
+                              Only one piece has survived from the bottom edge.</p>
+                           <dimensions>
+                              <height>22,5</height>
+                              <width>30,0</width>
+                              <depth>2,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">Нижний край рамки.</seg>
+                           <seg xml:lang="en">Bottom edge of the frame.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>, несколько небрежный. Мю с прогнутой серединой, ипсилон У-образный.</seg>
+                        <seg xml:lang="en">Lapidary style, somewhat careless. Mu with sagging crossloop, Y-shaped upsilon.</seg>
+                        <height unit="cm">0,8–1,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0434" notAfter="0500" precision="low" evidence="стиль_изображения палеография">
+                        <seg xml:lang="ru">сер.–2 пол. V в.</seg>
+                        <seg xml:lang="en">middle - second half of Vth century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1902 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Крестообразный загородный храм, с наружной стороны.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1902, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Extramural Cruciform Church, exterior.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-03-20" who="CB">Andrey's corrections</change>
+          <change when="2013-08-19" who="ΝG">Greek lemmata inserted</change>
+          <change when="2013-01-15" who="AL">inserted toponyms in English commentary</change>
+          <change when="2012-10-01" who="AL">corrected Russian metadata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-05-14" who="AG">several lines translated, small corrections</change>
+         <change when="2012-04-18" who="AG">several lines translated, editor added, apparatus marked up</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-02-21" who="AG">bibliography tags tidied</change>
+          <change when="2012-02-20" who="AL">tagged bibliography</change>
+         <change when="2012-01-18" who="AG">updated, small corrections</change>
+         <change when="2011-12-06" who="AG">tags added to the date and to the Greek text</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="5.31">
+            <desc xml:lang="en">Photograph of face (from ??)</desc>
+            <desc xml:lang="ru">Фотография лицевой части (из ??)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!-- Косцюшко-Валюжинич 1906 --><ptr target="bib:b0102"/>,  79, <seg xml:lang="ru">рис.</seg><seg xml:lang="en">fig.</seg> <citedRange>79</citedRange></bibl>
+               <bibl n="1.1"><!-- Косцюшко-Валюжинич 1909 --><ptr target="bib:b0405"/>, <citedRange>67</citedRange></bibl>
+               <bibl n="1.2"><!-- Виноградов 2009a --><ptr target="bib:b0048"/>,  <citedRange>234–236</citedRange></bibl>
+            </listBibl>
+          </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="ὅς">Οὗ</w> <w lemma="ὁ">ὁ</w>
+               <persName type="divine" key="theos"><roleName><w lemma="θεός">θεὸς</w></roleName></persName>
+               <w lemma="ὁ">τὸ</w> <w lemma="ὄνομα">ὄνομ<supplied reason="lost">α</supplied></w>
+               <supplied reason="lost"><w lemma="οἶδα">οἶδεν</w>,
+               <w lemma="ποιέω">ἐποίησεν</w> <note>e.g.</note></supplied>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app><rdg source="bib:b0048">ἐποίησεν <note>e.g.</note></rdg>
+                  <rdg source="bib:b0102"><note>om. Latyshev apud</note></rdg></app> <!--to be checked-->
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Чье имя Бог <supplied reason="lost">знает, сделал</supplied>.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Whose name God [knows, made this].</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Чтение надписи в публикациях Косцюшко-Валюжинича принадлежит В.В. Латышеву. Камень был украден из экспозиции ГЭ в 1990-е гг.</p>
+                <p> Так как крест, по всей вероятности, является осью симметрии рельефа, то его первоначальная ширина должна равняться примерно 28 см. Левый 
+                   нижний кусок с правой сандалией высокого персонажа тесно примыкал к левому нижнему углу плиты, от которого, по всей видимости, и шла надпись. 
+                   Таким образом, она начиналась с сохранившихся букв.</p>
+                <p> Относительно формулы см. <ref type="introduction">IV.3.B.i</ref>. Неясно, почему Залесская (1976, 35–38, рис. 1) видит в изображенных именно Христа и св. Фоку Садовника — 
+                   на наш взгляд, здесь скорее представлены благословляющий святой (возможно, связанный с Загородным крестообразным храмом) и анонимный дедикант 
+                   в позе оранта (ср. евлогийный штамп с изображением святого и оранта по сторонам от креста (Косцюшко-Валюжинич 1901, 116–117, рис. 16)). Возможно, 
+                   это тот святой, которому в ту эпоху был посвящен храм.</p>
+            <p>По форме мю надпись близка к <ref type="inscription">V 21</ref><!--byz021.1-->; в пользу ранней датировки говорит и округлая форма букв 
+               (см. комм. к <ref type="inscription">V 28</ref><!--byz028-->). Точную функцию плиты установить 
+                   сложно. Судя по реконструируемым размерам, она вряд ли происходит из алтарной преграды. Скорее всего, это просто вотивная вставка в стену. 
+                   Учитывая ее датировку, она могла происходить из первого храмика на данном месте, который возник, судя по монете 1 пол. V в. под его полом, не 
+                   раньше этого времени (Сорочан 2005, 802–803).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The edition of the inscription, found in the publications of K.K. Kostsyushko-Valyuzhinich, was proposed by V.V. Latyshev. The stone was stolen from the
+            exhibition of the State Hermitage in the 1990s.</p>
+             <p>Since the cross probably occupied the vertical centre of the relief, we could provisionally reconstruct its width at about 0.28m. The broken off and re-attached
+                piece at left bottom corner, bearing the image of a right sandal belonging to the tall figure, must have fit right in with the bottom left corner of the panel. 
+                The inscription must have started just in that corner. It can thus be suggested that the remains of the preserved letter strokes belong to the 
+                initial words of the inscription.</p>
+            <p>On the formula, see Introduction <ref type="introduction">IV.3.B.i</ref>. It is unclear why Zalesskaya (1976, 35–38, fig. 1) identifies the figures
+               specifically as Christ and St. Phocas the Gardener - in my opinion, we most likely have here a saint (possibly associated with the Extramural Cruciform
+               Church) making a sign of benediction and an anonymous dedicant in the pose of an orant (cf. eulogia stamp with the image of a saint and an orant
+               on either side of the cross (Kostsyushko-Valyuzhinich 1901, 116–117, fig. 16)).</p>
+             <p>The shape of mu makes our inscription a relative of <ref type="inscription">V 21</ref><!--byz021.1-->. The rounded shape of letters also supports an early date (see commentary to <ref type="inscription">V 28</ref><!--byz028-->).
+                The exact function of the panel is difficult to determine. Judging by the reconstructed size, it is not likely to have been part of the altar
+                partition. It is more likely to be simply a votive insert into a wall. Considering its date, we could suggest that the inscription might have come
+                from the first little church that had stood on that spot and which could not have been earlier than the coin of the first half of the Vth century 
+                found under its floor (Sorochan 2005, 802-803).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

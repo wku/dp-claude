@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+             <title xml:lang="ru">Почетный декрет, упоминающий Прекрасную Гавань (Калос Лимен)</title>
+             <title xml:lang="en">Honorific decree mentioning Kalos Limen</title>
+         </titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.284</idno><idno type="PE">PE3000567</idno><idno type="filename">3.9</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Государственный Эрмитаж</repository>
+                     <idno>X.1898.26</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>The State Hermitage Museum</repository>
+                     <idno>X.1898.26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc15">
+                     <seg xml:lang="ru">Декрет.</seg>
+                     <seg xml:lang="en">Decree.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Оббита сверху и снизу. Частично сохранились левый и правый края. В нижней части лицевой стороны надпись сильно стерта. 
+                              Тыльная сторона обработана суммарно.</p>
+                           <p xml:lang="en">The back is treated summarily.</p>
+                           <dimensions>
+                              <height unit="cm">10,0</height>
+                              <width unit="cm">17,0</width>
+                              <depth unit="cm">6,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Наклонные линии альфа и лямбда не сомкнуты вверху, широкая гамма, тета с точкой, каппа с укороченными наклонными, 
+                           мю имеет сближенные, почти параллельные боковые линии, вертикали ню одинаковой длины, кси состоит из трех горизонталей, 
+                           маленький круглый омикрон, пи с короткой правой вертикалью и далеко выступающей за края горизонталью, верхние и нижние линии 
+                           сигма немного расходятся, в месте соединения ее наклонных гаст имеется короткая горизонтальная черта, небольшие штрихи и 
+                           утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Alpha and lambda with open tops, wide gamma, dotted theta; slight serifs and flaring of the ends of hastae.</seg>
+                        <height unit="cm">0,7</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0110" notAfter="-0110" precision="medium" evidence="Палеография просопография">
+                        <seg xml:lang="ru">около 110 г. до н.э.</seg>
+                        <seg xml:lang="en">ca. 110 B.C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Случайная находка 1898 г.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Random find in 1898.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Санкт-Петербург, Россия.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      <revisionDesc>
+         <change when="2016-11-30" who="SS">encoded text and metadata</change>
+         <change when="2016-11-28" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.284">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Латышев 1899 --><ptr target="bib:b0136"/>, <citedRange>4, № 2</citedRange></bibl>
+               <bibl><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>IV 67</citedRange></bibl>
+               <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>353</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Ростовцев 1915 --><ptr target="bib:b0491"/>, <citedRange>157</citedRange></bibl>
+               <bibl><!-- Ростовцев 1916 --><ptr target="bib:b0806"/>, <citedRange>6</citedRange></bibl>
+               <bibl><!-- Жебелев 1938 --><ptr target="bib:b0931"/>, <citedRange>59-60, прим. 3</citedRange>
+               (cf. <bibl type="comparison"><!-- Жебелев 1953 --><ptr target="bib:b0563"/>, <citedRange>82-115</citedRange></bibl>)</bibl>
+               <bibl><!-- Žébélev 1936 --><ptr target="bib:b0932"/></bibl>
+               <bibl><!-- Соломоник 1990 --><ptr target="bib:b0506"/>, <citedRange>24, № 12</citedRange></bibl>
+               <bibl><!-- Виноградов 1997 --><ptr target="bib:b0945"/>, <citedRange>115</citedRange></bibl>
+               <bibl><!-- Avram 2002 --><ptr target="bib:b0805"/>, <citedRange>69 сл.</citedRange>
+               (= <bibl><!-- BullEp. --><ptr target="bib:BE"/> <citedRange>2004, 230</citedRange></bibl>
+               <bibl><!-- SEG --><ptr target="bib:SEG"/> <citedRange>52, 736</citedRange></bibl>
+               cf. <bibl type="comparison"><!-- Avram 2005 --><ptr target="bib:b0944"/>, <citedRange>173 сл.</citedRange>
+                  (= <bibl><!-- SEG --><ptr target="bib:SEG"/> <citedRange>55, 2119</citedRange></bibl>)</bibl>)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">νικάσαν</supplied>τες</w> <w>παρατάξει</w> 
+                                          <placeName type="ethnic">Σκύθας</placeName> <w>καὶ</w> <placeName type="ethnic">Σα<unclear>ρ</unclear><supplied reason="lost">μά</supplied>
+               		<lb n="2" break="no"/><supplied reason="lost">τας</supplied></placeName> <supplied reason="lost"><w>αἴτιοι</w> <w>γεγόνασι</w> <w>τᾶς</w> <w>σωτηρίας</w> 
+                                          <w>τᾶς</w></supplied> <w><supplied reason="lost">πα</supplied><unclear>τ</unclear>ρίδος</w>· <w>δεδόσθαι</w> <w>δ’</w> 
+                                          <w>αὐτοῖς</w> <w>καὶ</w> <w>καθ’</w> <w>ἕτο<supplied reason="lost">ς</supplied></w>
+               		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w>καὶ</w> <w>τοὺς</w></supplied> 
+                                          <w><supplied reason="lost">συμμνάμ</supplied>ονας</w> <w>πο<supplied reason="lost">εῖ</supplied>σθαι</w> <w>τὸ</w> <w>κάρυγμα</w>· 
+                                          <w>ὁ</w> <w>δᾶμος</w>
+               		<lb n="4"/><supplied reason="lost"><w>στεφανοῖ</w> <w>τοὺς</w></supplied> <w><supplied reason="lost" cert="low">ἀνακτασαμένους</supplied></w> 
+                                          <w><supplied reason="lost">τοὺ</supplied>ς</w> <w>κατὰ</w> <placeName>Καλὸν λι<supplied reason="lost">μέν</supplied><unclear>α</unclear></placeName> 
+                                          <w>τόπους</w>· <w>τὸ</w> <w>δὲ</w> <w>ψ<supplied reason="lost">ά</supplied>
+               		<lb n="5" break="no"/><supplied reason="lost">φισμα</supplied></w> <supplied reason="lost"><w>τοῦτο</w> <w>ἀναγράψαι</w> <w>εἰς</w> <w>στάλαν</w></supplied> 
+                                          <w><supplied reason="lost">λευκ</supplied>οῦ</w> <w>λίθου</w> <w>κ<supplied reason="lost">αὶ</supplied></w> 
+                                          <supplied reason="lost"><w>θέμεν</w> <w>εἰς</w></supplied> <w><supplied reason="lost">τ</supplied>ὸ</w> 
+                                          <w>π<supplied reason="lost">ρ</supplied>όναον</w> <w>τᾶ<supplied reason="lost">ς</supplied></w>
+               		<lb n="6"/><supplied reason="lost"><persName type="divine" key="parthenos"><name>Παρθένου</name></persName>· <w>ταῦτ’</w> <w>ἔδοξε</w> <w>βουλᾶι</w> <w>καὶ</w> 
+                                          <w>δάμωι</w> <w>βασιλεύοντος</w></supplied> <persName type="attested"><name><supplied reason="lost">ʼΑγέλα</supplied></name> 
+                                          <w><supplied reason="lost">τοῦ</supplied></w> <persName type="attested"><name>Λαγορίνο<supplied reason="lost">υ</supplied></name></persName></persName>
+               		<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ΜΟ</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="3" unit="character"/>
+               		<lb n="7a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="0-1">
+                  <rdg source="bib:IOSPE2">[- - - δεδόχθαι τᾶι βουλᾶι καὶ τῶι δάμωι ἐπαινέσαι τὸν δ. τοῦ δ. καὶ τὸν δ. τοῦ δ. καὶ στεφανῶσαι αὐτοὺς χρυσῷ στεφάνω, 
+                     ὅτι νικάσαν]τες <note>(p. 308, comm.)</note></rdg></app>
+               <app loc="1-2">
+                  <rdg>Σαρ̣[μά]/[τας <note>scripsi sec. lap.</note></rdg>
+                  <rdg source="bib:b0491">Σα[ρμάτας]</rdg>
+                  <rdg source="bib:b0806">Σα[υρομάτας]</rdg>
+                  <rdg source="bib:b0931">Σα[ταρχαίους]</rdg>
+                  <rdg>Σαρ̣μ̣[άτας]</rdg>
+               </app>
+               <app loc="2-3">
+                  <rdg source="bib:IOSPE">καθ’ ἕτο[ς / στεφανοῦσθαι - - -]</rdg>
+               </app>
+               <app loc="4">
+                  <rdg>[τοὺς ἀνακτασαμένους? τοὺ]ς <note>scripsi</note></rdg>
+                  <rdg source="bib:IOSPE">[στεφανοῖ ...... ἀνακτασαμένους? τοὺ]ς</rdg>
+               </app>
+               <app loc="4-5">
+                  <rdg source="bib:b0944">ὁ δᾶμος [στεφανοῖ τοὺς στραταγοὺς τοὺς ἐπὶ τοὺ]ς κατὰ Καλὸν λι[μένα] τόπο[υ]ς vel ὁ δᾶμος [στεφανοῖ τοὺς στραταγοὺς τοὺς ἐν τοῖ]ς 
+                     κατὰ Καλὸν λι[μένα] τόπο[ι]ς</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>- - - победив] скифов и сар[матов] в сражении,  [...спасли ро]дину. Пусть им будет даровано ежегодное [- - -], а симмнамоны пусть возвестят: 
+               "Народ [награждает венком возвративших ?] область Прекрасной Гавани (Калос Лимен)». [Записать это постановление] на белокаменной 
+               [стеле и поставить] в пронаосе [(храма) Девы].</p>
+          <p>[Это решено Советом и народом при царе Агеле] (сыне) Лагорина - - -</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[- - - having defeated] Scythians and Sar[matians] in the line of battle, [... they saved the fath]erland. May they be given every year [- - - and may summnamo]nes announce:
+              "the People crown those [who had recovered?] places around Kalos Limen." To [inscribe the decision on a stele of whi]te stone and to install it in the pronaos
+            [of Parthenos. This was decided by the Council and the People in the reign of king Agelas, son] of Lagorinos [- - -]</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>7: перед Μ видна вертикальная гаста, после Ο следы верхней части буквы (возможно, Φ)</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

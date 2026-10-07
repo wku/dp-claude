@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Коттихи</title><title xml:lang="en">Epitaph of Kotticha</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.27</idno><idno type="PE">PE3000027</idno><idno type="filename">3.232</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>49/36847</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>49/36847</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Стела, украшенная фронтоном (поврежден при вторичном
+                              использовании). Сохранилась верхняя часть. Под карнизом вырезана по предварительной разметке и
+                              обведена красной краской трехстрочная надпись.</p>
+                           <p xml:lang="en">Pedimental stele (damaged in secondary use). Upper part is preserved. Below the cornice is a three-line inscription cut following ruled lines 
+                           and traced in red paint.</p>
+                           <dimensions>
+                              <height unit="cm">59,0</height>
+                              <width unit="cm">37,0</width>
+                              <depth unit="cm">18,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">На лицевой стороне, под карнизом.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front, below the cornice.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Наклонные линии каппа не укорочены, мю имеет сближенные
+                           наружные гасты, правая вертикаль ню чуть приподнята, омикрон немного
+                           меньше остальных букв, широко расходящиеся наклонные линии ипсилон,
+                           слабые утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Mu with slightly shorter right vertical, ypsilon with widely splayed diagonals; slight flaring of the ends of letterstrokes.</seg>
+                        <height unit="cm">3,3-3,8.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0333" notAfter="-0268" evidence="палеография">
+                        <seg xml:lang="ru">кон. IV – нач. III в. до н.э.</seg>
+                        <seg xml:lang="en">late IV - early III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1961 г. Раскопки
+                           С.Ф. Стржелецкого (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Юго-восточный район Херсонеса, оборонительные стены, ядро башни XVII (башня Зенона), кладка.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1961, excavations of S.F. Strzheletsky (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Southeast sector of Chersonesos, fortification walls, Tower XVII ("Zeno's Tower"), masonry.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-05" who="CB">Added origDate</change>
+         <change when="2015-10-13" who="CB">Bibliography</change>
+         <change when="2015-08-24" who="CB">App crit check</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2015-06-02" who="CB">Metadata tagging</change>
+         <change when="2015-03-13" who="VP">Tagging Greek names</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.27">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Соломоник 1969--><ptr target="bib:b0504"/>, 67, №
+                     <citedRange>22</citedRange></bibl>
+               <bibl><!--НЭПХ II-->
+                  <ptr target="bib:НЭПХ2"/><citedRange>156</citedRange>
+               (= <bibl><!--Bull. ép. 1974--><ptr target="bib:BE"/>, <citedRange>1974, 380</citedRange></bibl>)</bibl>
+               <bibl><!--Perlman 2011--><ptr target="bib:b0437"/>, 435, №
+                     <citedRange>36</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Posamentir 2006--><ptr target="bib:b0438"/>, 39-40</bibl>
+               <bibl><!--Posamentir 2011--><ptr target="bib:b0439"/>, 45, № 36</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person517"><name nymRef="Κοττίχα">Κοττίχα</name>
+               	<lb n="2"/><persName type="attested" ref="#person518"><name nymRef="Δαμάτριος">Δαματρίου</name></persName> 
+               	<lb n="3"/><w>γυνά</w></persName>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Коттиха, жена Дaмaтрия.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Kotticha, wife of Damatrios.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>В этой и в нескольких других надписях (см. № neph 140; 142; 158; ipe520; ср. №
+               neph162) не указан патронимик замужней женщины. См. комментарий к № neph140.</p>
+            <p>Женское ЛИ Κοττίχα скорее всего образовано от существительного κόττος (ср. ЛИ
+               Κοττίνα, Κόττων; об этом корне в ономастике ср. Robert, Hellenica VI, 11-13) при
+               помощи суффикса -ιχος / -ίχα, особенно характерном для Беотии (ср. Locker 1934, 56;
+               Robert, Hellenica XI-XII, 238; Robert 1963, 343). Менее вероятно предположение,
+               согласно которому Κοττίχα теофорное имя, происходящее от имени фракийской богини
+               Κοτυτ(τ)ώ (Stolba 1996, 451, № 19, 20; Perlman 2011, 435, № 36; ср.
+               засвидетельствованное в Херсонесе мужское ЛИ Κοτυτίων).</p>
+            <p>Весьма вероятно, что изготовленные в той же мастерской надгробия Даматрия, сына
+               Эванфа (№ neph155) и Артемидора, сына Даматрия (№ neph157), принадлежат
+               соответственно мужу и сыну упомянутой здесь Коттихи (подробнее см. Perlman 2011,
+               390). Об атрибуируемых этой мастерской стелах («the Damatrios workshop») см.
+               Posamentir 2006, 39 сл.; Posamentir 2011, 182 слл.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

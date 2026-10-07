@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент надписи</title><title xml:lang="en">Incertum</title>
+            <editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.59</idno>
+            <idno type="filename">1.44</idno>
+            <idno type="PE">PE1000059</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Одесский археологический музей</repository>
+                     <idno>50504 (IIa-246)</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Odessa Archaeological Museum</repository>
+                     <idno>50504</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg xml:lang="ru">Incertum.</seg>
+                     <seg xml:lang="en">Incertum.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор белый.</material>
+                           <material xml:lang="en">Marble, white.</material>
+                           <p xml:lang="ru">Лицевой и оборотный фасы отполированы, остальные оббиты.</p>
+                           <p xml:lang="en">The front and back are polished, the other faces are broken off.</p>
+                           <dimensions>
+                              <height unit="cm">21,1</height>
+                              <width unit="cm">17,3</width>
+                              <depth unit="cm">10,4</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Оббито со всех сторон.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. Broken off on all sides.</seg>
+                           <dimensions>
+                              <height unit="cm">18,8</height>
+                              <width unit="cm">15,6</width>
+                           </dimensions>
+                        </layout>
+                        </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Написано глубоко и тщательно врезанными красивыми буквами, 
+                           украшенными небольшими апексами. Применяются лигатуры и словоразделители в виде треугольников. 
+                           Альфа с прямой перекладиной.</seg>
+                        <seg xml:lang="en">Deeply and neatly cut, beautiful letters with small serifs. Ligatures, word divisions in the shape of a triangle. 
+                           Alpha with straight crossbar.</seg>
+                        <height unit="cm">3,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0166" notAfter="0166" evidence="Указание_надписи Палеография">
+                        <seg xml:lang="ru">166 г. н.э.</seg>
+                        <seg xml:lang="en">166 C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский (Аккерман), 
+                           Одесская область, Украина.</placeName>
+                        <rs type="circumstances">Найден в 1867 г. при строительстве на берегу Днестровского лимана.</rs>
+                        <rs type="context">В северо-восточной части города Аккерман, за пределами крепости.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Found in 1867, during construction works on the shore of the Dniester estuary.</rs>
+                        <rs type="context">Northeast area of Akkerman, outside the fortress.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Одесса.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Odessa.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2006-08">август 2006</date></seg>
+                     <seg xml:lang="en">A.I. Ivantchik, <date when="2006-08">August 2006</date></seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-02-28" who="PY">encoded Leiden and metadata</change>
+         <change when="2016-11-29" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.59">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Кондаков 1876 --><ptr target="bib:b0960"/>, <citedRange>23</citedRange></bibl>
+               <bibl n="2"><!-- Латышев 1890 --><ptr target="bib:b0793"/>, 123-124, <citedRange>№ 3</citedRange></bibl>
+               <bibl n="2.1"><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>IV, 6</citedRange></bibl>
+               <bibl n="2.2"><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/>, <citedRange>14</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΔΕ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+                                          <orig><unclear>Ω</unclear>ΝΚΑ<unclear>Υ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Ρ</unclear>ΟΙΣΚΑ</orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>
+                                       <w><supplied reason="lost">ἐ</supplied><unclear>ν</unclear></w> 
+               <w>τ<unclear>ῷ</unclear></w> <g ref="#stop"/>
+               <num value="110">ι<supplied reason="lost">ρ</supplied></num> 
+               <supplied reason="lost"><g ref="#stop"/> <w>ἔτει</w></supplied><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg source="bib:b0960">ΔΕ</rdg>
+                  <rdg source="bib:b0793">ΔΕ.</rdg>
+               </app>
+               <app loc="2">
+                  <rdg source="bib:b0960">ΩΝΚΑ</rdg>
+                  <rdg source="bib:b0793">ΩΝΚΑ</rdg>
+                  <note>ΝΚ in ligatura</note>
+               </app>
+               <app loc="3">
+                  <rdg source="bib:b0960">ΟΙΣΚΑ</rdg>
+                  <rdg source="bib:b0793">ΟΙΣΚΑ</rdg>
+               </app>
+               <app loc="4">
+                  <rdg source="bib:b0960">ΙΤΩΙ</rdg>
+                  <rdg source="bib:b0793">suppl.</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Не предлагается.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Not attempted.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Издание Кондакова было сделано маюскулами наборным шрифтом без интерпретации. Издание Латышева было сделано по его собственной копии 1883 г.</p>
+            <p>Фрагмент первоначально находился в коллекции Новороссийского университета, где был изучен Латышевым в 1883 г.; издан им по этой копии. О месте и обстоятельствах его 
+               находки сообщает Кондаков.</p>
+            <p>В конце второй строки сохранилась нижняя часть вертикального штриха и левое окончание горизонтального штриха, украшавшего ипсилон, 
+               что позволяет надежно восстанавливать эту букву. В начале третьей строки сохранилась часть дуги буквы, которая могла принадлежать ро или менее вероятно бете.</p>
+            <p>Надпись не поддается восстановлению, за исключением последней строки, которая содержит датировку по году, очевидно, тирасской эры. 
+               От датировки сохранилась лишь первая буква, иота, обозначавшая цифру десять. Теоретически здесь можно восстанавливать ιρ или ισ, т.е. 110 или 210 год. 
+               Сходство шрифта надписи с шрифтом надписи <ref type="inscription">I 2</ref>, датированной 125 годом, заставляет предпочесть первый вариант. Надпись датирована, таким образом, 166 г. н.э. 
+               Можно предполагать, что речь идет об общественной надписи, например, почетном декрете.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The monument was originally in the collection of the University of Novorossiysk, where it was studied by Latyshev in 1883. Kondakov informs us about the place and 
+            circumstances of the find.</p>
+            <p>At the end of line 2: the bottom of a vertical stroke and a left end of a horizontal, which was a decorative crossbar, allowing us to restore an ypsilon.
+               The opening of line 3 preserves a curving stroke, which belonged either to a rho or, less likely, beta.</p>
+            <p>The inscription resists restoration, except for the last line, which contains a dating formula, apparently, according to the local era of Tyras. Only the first letter of the date,
+               an iota designating the numeral 10, is preserved. Theoretically, we could restore ιρ или ισ, that is, year 110 or 210. The similiarity of the script to that of 
+            <ref type="inscription">I 2</ref>, dated to 125 C.E., argues in favour of the former option. Our date is therefore 166 C.E. It is a reasonable guess that the inscription was of public nature, 
+            e.g. an honorific decree. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

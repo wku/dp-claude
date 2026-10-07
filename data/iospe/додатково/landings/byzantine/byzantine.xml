@@ -1,0 +1,103 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Volume V. Byzantine Inscriptions</title>
+                <title xml:lang="ru">Том V. Византийские надписи</title>
+                <title xml:lang="uk">Том V. Візантійські написи</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            
+            <text xml:lang="en">
+                <body>
+                    <div>
+                        <!--<head>Volume V: Byzantine Inscriptions</head>-->
+                        <head>Andrey Vinogradov</head>
+                        <p>This is the first electronic edition of the Byzantine Inscriptions from the Northern Black Sea
+                            (IOSPE<hi rend="superscript">3</hi> vol. V). The introduction, editions and commentary are by Andrey Vinogradov,
+                            English translations are by Irene Polinskaya. The inscriptions were encoded following
+                            the <ref target="http://epidoc.sf.net/">EpiDoc</ref> Guidelines for use of XML for ancient
+                            documentary editions, and the website and supporting materials are the work of Gabriel Bodard,
+                            Irene Polinskaya and colleagues at the Department of Digital Humanities, King's College London.</p>
+                        
+                        <div>
+                            <head><ref target="introduction.html">Introduction</ref></head>
+                            <p> The introduction to the Byzantine inscriptions outlines the structure of the volume,
+                                the history of scholarship, the geography and chronology of the Northern Black Sea
+                                region in late antique and mediaeval times, and the classification of inscriptions,
+                                monuments and formulae.</p>
+                            <divGen type="intro-toc"/>
+                        </div>
+                        <div>
+                            <head><ref target="/5/toc.html">Inscriptions</ref></head>
+                            <p> The inscriptions in this volume are ordered by place of origin, and also accessible
+                                via the indices to the whole corpus and the search/browse interface.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:lang="ru">
+                <body>
+                    <div>
+                        <!--<head>Том V. Византийские надписи</head>-->
+                        <head>Андрей Виноградов</head>
+                        <p>Первое электронное издание Византийских надписей Северного Причерноморья (IOSPE<hi rend="superscript">3</hi> V). 
+                            Автор введения, надписей и комментариев Андрей Виноградов. Английский перевод Ирины Полинской. 
+                            Электронное издание следует руководящим принципам схемы EpiDoc, использующей платформу XML для публикации древних документальных источников. 
+                            Сайт электронного издания и документация разработаны Габриэлем Бодар, Ириной Полинской и сотрудниками Факультета Цифровых Гуманитарных наук при Кингс Колледж Лондон.
+                        </p>
+                        <div>
+                            <head><ref target="introduction-ru.html">Введение</ref></head>
+                            <p> Введение содержит описание структуры корпуса Византийских надписей, 
+                                историю их изучения, описание географии и хронологии региона Северного 
+                                Причерноморрья в древний и средневековый периоды, а также излагает 
+                                принципы классификации надписей, носителей и эпиграфических формул.</p>
+                            <divGen type="intro-toc-ru"/>
+                        </div>
+                        <div>
+                            <head><ref target="/5/toc-ru.html">Надписи</ref></head>
+                            <p> Надписи корпуса сгруппированы по Месту происхождения. 
+                                Кроме этого, поиск можно осуществлять по Указателям и через окошки "№" и "Поиск по корпусу."</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:lang="uk">
+                <body>
+                    <div>
+                        <!--<head>Том V. Византийские надписи</head>-->
+                        <head>Андрій Виноградов</head>
+                        <p>Перше електронне видання Візантійських написів Північного Причорномор'я (IOSPE<hi rend="superscript">3</hi> V). 
+                            Автор вступу, написів та коментарів Андрій Виноградов. Англійський переклад Ірини Полінської.
+                            Електронне видання слідує керівним принципам схеми EpiDoc, що використовує платформу XML для публікації стародавніх документальних джерел.
+                            Сайт електронного видання та документація розроблені Габріелем Бодаром, Іриною Полінською та співробітниками Факультету Цифрових Гуманітарних наук при Кінгс Коледж Лондон.
+                        </p>
+                        <div>
+                            <head><ref target="introduction-ru.html">Вступ</ref></head>
+                            <p> Вступ містить опис структури корпусу Візантійських написів, історію їх вивчення, опис географії та хронології регіону Північного Причорномор'я
+                                у давній та середньовічний періоди, а також викладає принципи класифікації написів, носіїв та епіграфічних формул.</p>
+                            <divGen type="intro-toc-ru"/>
+                        </div>
+                        <div>
+                            <head><ref target="/5/toc-ru.html">Написи</ref></head>
+                            <p> Написи корпусу згруповані за місцем походження.
+                                Крім цього, пошук можна здійснювати за вказівниками та через віконця "№" та "Пошук по корпусу"."</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            
+        </group>
+    </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Скифа</title><title xml:lang="en">Epitaph of Skythas</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.163</idno><idno type="PE">PE3000148</idno><idno type="filename">3.369</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3663</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3663</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Тонкая плита, вставленная в массивный известняковый
+                              блок. Состоит из нескольких соединяющихся в контакте фрагментов.
+                              Лицевая сторона тщательно обработана. В поле рельефа изображение
+                              мужского бюста, под рельефом в нижней части плиты аккуратно вырезанная
+                              двухстрочная надпись. Справа имеется пустое гнездо для второй подобной
+                              плиты, вероятно для портрета жены умершего.</p>
+                           <p xml:lang="en">Thin panel inset in a large limestone block. Consists of several joining fragments. The front is well worked. A relief bust 
+                           protrait of a man in the left half of the panel, with a two-line inscription below the relief. To the right of the male relief, an empty space was probably 
+                           reserved for the portrait of the wife of the deceased.</p>
+                           <dimensions>
+                              <height unit="cm">43,0</height>
+                              <width unit="cm">57,0</width>
+                              <depth unit="cm">24,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с прямой поперечной линией, курсивные эпсилон
+                           (наряду с прямоугольным) и сигма, тета с замкнутой поперечной гастой;
+                           овальный омикрон в габарите строки, небольшие апексы и утолщения на
+                           концах линий букв; точки-разделители, лигатуры</seg>
+                        <seg xml:lang="en">Alpha with straight crossbar, cursive epsilon (alongside rectangular) and sigma, theta with attached crossbar, oval omicron the size of other 
+                           letters, small serifs and flaring of the ends of hastae; interpuncta; ligatures.</seg>
+                        <height unit="cm">2,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0068" notAfter="0150" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">кон. I – 1-я пол. II в. н.э.</seg>
+                        <seg xml:lang="en">late I - 1st half of II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1907 г. Раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">В юго-восточном районе Херсонеса,
+                           на участке «цитадели». </rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1907, excavations of K.K.
+                           Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Southeast sector of Chersonesos, "citadel."</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-05" who="CB">Added origDate</change>
+         <change when="2015-10-13" who="CB">Biblio</change>
+         <change when="2015-09-01" who="CB">App Crit</change>
+         <change when="2015-08-21" who="CB">App Crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-25" who="CB">Tagging metadata</change>
+         <change when="2015-05-08" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-05-14" who="AV">programmatically tagging Greek names from Word
+            docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.163">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1908--><ptr target="bib:b0149"/>, 19, № <citedRange>6</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>493</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Иванова 1941--><ptr target="bib:b0470"/>, <citedRange>110</citedRange></bibl>
+               <bibl><!--АСХ--><ptr target="bib:b0523"/>, № <citedRange>359</citedRange></bibl>
+               <bibl><!--Соломоник 1990--><ptr target="bib:b0506"/>, № <citedRange>90</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" ref="#person787"><name nymRef="Σκύθας">Σκύθας</name> 
+                                 <persName type="attested" ref="#person788"><name nymRef="Θεαγένης">Θεαγέ
+               <lb n="2" break="no"/>νου</name></persName></persName>, <w>ζήσας</w> <w>ἔτη</w> <num value="35">λε</num>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2">
+                  <note>ΤΗ in ligatura; перед Λ точка разделитель.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Скиф, сын Феагена, проживший 35 лет.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Skythas, son of Theagenes, having lived 35 years.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Иванова 1941, 110 (датировка временем Антонинов); АСХ, № 359 (датировка временем Антонинов)</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Ivanova (1941, 110) dates the relief and inscription to the time of the Antonines.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

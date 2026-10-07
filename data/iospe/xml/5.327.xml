@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие <certainty cert="low" locus="value" match=".."/> Феодота</title><title xml:lang="en">Epitaph <certainty cert="low" locus="value" match=".."/> of Theodotos</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.327</idno><idno type="PE">PE5000327</idno>
+            <idno type="AYV2012-number">byz307a</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись<certainty cert="low" locus="value" match=".."/>.</seg>
+                      <seg xml:lang="en">Epitaph<certainty cert="low" locus="value" match=".."/>.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">На лицевой стороне по центру верхней части вырезано изображение латинского креста с Т-образными рукавами. 
+                              Стесана нижняя часть левого переднего ребра (?).</p>
+                           <p xml:lang="en">On the front - carved Latin cross with T-shaped arms' ends. The bottom left part of the front (?) is cut away.</p>
+                           <dimensions>
+                              <height precision="low">50,0</height>
+                              <width precision="low">27,0</width>
+                              <depth>unknown</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">По сторонам креста и под ним.</seg>
+                           <seg xml:lang="en">On both sides of the cross and under.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>, буквы прямоугольныые. Бета удлиненная, дельта с удлиненной 
+                           вверх правой гастой, эпсилон с несомкнутой перекладиной, тета с укороченной перекладиной. Знак сокращения.</seg>
+                        <seg xml:lang="en">Lapidary, rectangular letters. Elongated beta, delta with projecting right diagonal, epsilon’s middle stroke does not reach the 
+                           vertical, theta with shortened crossbar. Abbreviation mark.</seg>
+                        <height unit="cm">ок. 3,0–6,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p048">
+                        <seg xml:lang="ru">Фанагория.</seg>
+                        <seg xml:lang="en">Phanagoreia.</seg>
+                     </origPlace>
+                      <origDate notBefore="0351" notAfter="0500" precision="low" evidence="палеография облик_памятника">
+                        <seg xml:lang="ru">2 пол. IV-V в.</seg>
+                         <seg xml:lang="en">second half of IVth - Vth century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sennoy">Сенной.</placeName>
+                        <rs type="circumstances">1971 г., раскопки М.М. Кобылиной.</rs>
+                        <rs type="context">Западный некрополь.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sennoy.</placeName>
+                        <rs type="circumstances">1971, excavations of M.M. Kobylina.</rs>
+                        <rs type="context">Western necropolis.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-11-07" who="TW">Added image code</change>
+         <change when="2013-02-25" who="AG">repository corrected</change>
+         <change when="2012-09-04" who="AG">several corrections, several lines translated</change>
+          <change when="2012-09-03" who="AL">checked metadata</change>
+          <change when="2012-08-23" who="AL">checked metadata, tagged bibliography</change>
+         <change when="2012-08-14" who="AFS">inserted key name</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+          <change when="2012-05-23" who="AFS">corrections in metadata,tagging greek text</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.327">
+                <desc xml:lang="en">Photograph of face</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="1.1"><!-- Виноградов/Chkhaidze 2012--><ptr target="bib:b0422"/>, <citedRange>152-153</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="divine" key="theos"><roleName><w lemma="κύριος"><expan><abbr>Κύ</abbr><ex>ριε</ex></expan></w></roleName></persName>,
+               <w lemma="βοηθέω">βο<lb n="2" break="no"/>ήθι</w>
+               <lb n="3"/><persName type="attested" ref="#person394"><name nymRef="Θεόδοτος">Θεο<lb n="4" break="no"/>δότο<lb n="5" break="no"/>ς</name></persName>.
+            </ab>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Господи, помоги Феодоту.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Lord, help Theodotos.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> 1–2. В позднебоспорской эпиграфике надписей с формулой «Господи, помоги» (см. <ref type="introduction">IV.3.E.a</ref>) точно не известно. 
+               Впрочем, не исключено, что этим временем датируется <ref type="inscription">V 325</ref><!--byz307-->. 
+               В ранневизантийском Херсоне эта формула встречается лишь однажды, в <ref type="inscription">V 49</ref><!--byz049-->, возможно, боспорского происхождения.</p>
+                <p> Необычное сокращение Κύ(ριε) вместо обычного Κ(ύρι)ε изредка встречается в христианской эпиграфике, в т.ч. именно в данной формуле
+                   (I.Iasos, № 422; Σωτηρίου 1952, № 233).</p>
+                <p> 2–5. Конечную сигму резчик поместил над концом 4-й строки. Номинатив в имени инвоканта можно понимать двояко: как своего рода подпись или,
+                   что вероятней, как сбивку в падежах типичную для инвокаций с данной формулой (ср., например, <ref type="inscription">V 53</ref><!--byz053-->) — зависящий от βοήθει номинатив встречается,
+                   например, в надписи из Гердек-Кайя во Фригии (Haspels 1971, № 24.).</p>
+                <p> Имя Феодот в ранневизантийскую эпоху ни на Боспоре, ни в Северном Причерноморье не известно. Согласно PHI7 Database, в христианской
+                   эпиграфике оно встречается 24 раза. Впрочем, популярно оно было и среди иудеев (12 случаев). Учитывая большое число иудеев и прозелитов в
+                   Боспорском царстве (Даньшин 1992, 194–211), нельзя исключать, что Феодот нашей надписи происходил из их среды. С другой стороны, сложные с
+                   Θεο- имена хорошо известны среди ранних боспорских христиан: Феодор (<ref type="inscription">V 275</ref><!--byz263-->, <ref type="inscription">V 291</ref><!--byz280-->,
+                   <ref type="inscription">V 292</ref><!--byz281-->), Феодора (<ref type="inscription">V 276</ref><!--byz264-->), 
+                   Феодосий (<ref type="inscription">V 274</ref><!--byz262-->).</p>
+                <p> По своему облику надпись очень похожа на ряд боспорских памятников с высеченным по центру большим крестом с Т-образным завершением
+                   рукавов. В качестве близких аналогий можно привести <ref type="inscription">V 268</ref><!--byz256-->, <ref type="inscription">V 273</ref><!--byz261-->, <ref type="inscription">V 280</ref><!--byz268-->,
+                   <ref type="inscription">V 286</ref><!--byz274-->, <ref type="inscription">V 300</ref><!--byz294--> и <ref type="inscription">V 310</ref><!--byz304-->. Казалось бы, родству нашей надписи с надгробиями
+                   противоречит ее инвокативная формула. Однако нам известны случаи использования формулы с инвокацией в эпитафиях, например, в надписи 562 г.
+                   из Амиса в Понте (Studia Pontica 12). Итак, однозначно утверждать погребальный характер нашей надписи мы не можем, однако очевидно, что ее
+                   использование в качестве надгробия представить легче, чем в качестве, например, посвящения, не имеющего обычно такого облика.  </p>
+                <p> Относительно археологического и исторического контекста см. Виноградов, Чхаидзе 2012.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p> 1–2. In Late Bosporan epigraphy, there are no certain examples of inscriptions with the formula "Lord, save" (see Introduction <ref type="introduction">IV.3.E.a</ref>), 
+               although we cannot rule out that <ref type="inscription">V 325</ref><!--byz307--> might be of that date. In Early Byzantine Cherson, this formula occurs only
+               once, in <ref type="inscription">V 49</ref><!--byz049-->, which might be Bosporan in origin.</p>
+            <p>The unusual abbreviation Κύ(ριε) instead of the normal Κ(ύρι)ε sometimes occurs in Christian epigraphy, including this formula, among others
+               (I.Iasos, № 422; Σωτηρίου 1952, № 233.).</p>
+            <p> 2–5. The letter-cutter placed the final sigma over the end of line 4. The nominative of the name can be understood either as a sort of personal signature,
+               or, more likely, as a mix-up of grammatical cases, typical for invocations with this formula (cf., e.g., <ref type="inscription">V 53</ref><!--byz053-->) — 
+               a nominative dependent on βοήθει is attested in a text from Gerdek-Kaya in Phrygia (Haspels 1971, № 24.).</p>
+            <p>The name Theodotos in unknown in Early Byzantine period both in Bosporus and in rest of the Northern Black Sea region. According to PHI7 Database, it is attested
+               24 times in Christian epigraphy. It was also popular among Jews (12 examples). Considering the large number of Jews and proselytes in the kingdom of Bosporus
+               (Danshin 1992, 194–211), we cannot rule out the possibility that our Theodotos also belonged to that group. At the same time, we should note
+               that names compound with Θεο- are well known among early Bosporan Christians: Theodoros (<ref type="inscription">V 275</ref><!--byz263-->, 
+               <ref type="inscription">V 291</ref><!--byz280-->, <ref type="inscription">V 292</ref><!--byz281-->), Theodora (<ref type="inscription">V 276</ref><!--byz264-->), 
+               Theodosis (<ref type="inscription">V 274</ref><!--byz262-->).</p>
+            <p>In design, the stele resembles a certain type of Bosporan tombstones that carry a large cross, with T-shaped arms' ends, carved in the centre. 
+               Among close parallels are: <ref type="inscription">V 268</ref><!--byz256-->, <ref type="inscription">V 273</ref><!--byz261-->, <ref type="inscription">V 280</ref><!--byz268-->,
+               <ref type="inscription">V 286</ref><!--byz274-->, <ref type="inscription">V 300</ref><!--byz294--> и <ref type="inscription">V 310</ref><!--byz304-->. 
+               It would seem that the invocative nature of the formula would prevent the analogy with tombstones, however, there are examples of epitaphs
+               using invocative formulae, e.g., in the inscription of 562 C.E. from Amisos on the Black Sea (Studia Pontica 12). So, while we cannot establish
+               the funerary nature of our inscription beyond all reasonable doubt, still it is easier to imagine its use as tombstone rathen than dedication, which 
+               typically do not take this form.</p>
+            <p>On the archaeological and historical context, see Vinogradov, Chkhaidze 2012.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

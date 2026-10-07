@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Строительная надпись Зинона</title><title xml:lang="en">Building inscription of Zeno</title><editor xml:id="ayv2012">
+               <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+               <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+            </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.6</idno><idno type="PE">PE5000006</idno>
+            <idno type="AYV2012-number">byz005</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3340</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3340</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc1">
+                     <seg xml:lang="ru">Строительная надпись.</seg>
+                     <seg xml:lang="en">Building inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Белый мрамор.</material>
+                           <material xml:lang="en">White marble.</material>
+                           <p xml:lang="ru">Плита в виде tabula ansata, украшенная по краям двумя крестами. Сколы по верхнему и правому краю, в правом верхнем и нижнем углу.</p>
+                           <p xml:lang="en">Panel in the shape of tabula ansata, decorated with crosses on the right and left ansae. Chipped along the top and right side, 
+                              and at the top and bottom right corners of the front.</p>
+                           <dimensions>
+                              <height>70,0</height>
+                              <width>121,0</width>
+                              <depth>16,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">По центру всей лицевой поверхности, немного заходя на ansae.</seg>
+                           <seg xml:lang="en">Over the entire central area of the panel, slightly encroaching on the ansae.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с наклонной и прямой горизонталями, альфа, дельта и 
+                           лямбда с удлиненной вверх правой гастой, эпсилон и сигма лунарные, каппа с укороченными диагоналями. Разделительные знаки.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with a slanting and straight crossbar; alpha, delta and lambda have an upward projecting right hasta;
+                           lunate epsilon and sigma; kappa with shortened diagonals. Word division marks.</seg>
+                        <height unit="cm">3,0–4,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0487" notAfter="0488" evidence="эпиграфический_контекст">
+                        <seg xml:lang="ru">487–488 гг.</seg>
+                        <seg xml:lang="en">487–488 C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08">август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>.</seg>
+                     <seg xml:lang="en"><date when="1999-05">May 1999</date>, <date when="2001-08"> August 2001</date>, <date when="2002-09"> September 2002</date>, <date when="2003-09"> September 2003</date>, <date when="2004-09"> September 2004</date>, <date when="2005-09"> September 2005</date>, <date when="2006-09">September 2006</date>, <date when="2007-09"> September 2007</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Неизвестны.</rs>
+                        <rs type="context">Башня XVII («башня Зинона»), кладка.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Unknown.</rs>
+                        <rs type="context">Tower XVII ("Zeno's Tower"), masonry.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-16" who="CB">Andrey's corrections</change>
+          <change when="2013-07-23" who="ΝG">small correction in Greek lemmata</change>
+          <change when="2013-02-20" who="ΝG">small correction in Greek lemmata</change>
+         <change when="2013-04-03" who="AG">bibliography updated</change>
+          <change when="2013-02-20" who="ΝG">small correction in Greek lemata</change>
+          <change when="2012-10-27" who="AL">inserted English toponyms in commentary</change> 
+         <change when="2012-08-16" who="AG">Greek lemmata added</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-05-15" who="AG">small correction</change>
+         <change when="2012-05-09" who="AG">small correction</change>
+         <change when="2012-04-24" who="AG">several lines translated</change>
+         <change when="2012-04-17" who="AG">some corrections in apparatus, editor added</change>
+         <change when="2012-04-05" who="AG">some corrections in bibliography</change>
+         <change when="2012-03-21" who="AG">some corrections in apparatus and bibliography</change>
+         <change when="2012-02-27" who="AG">apparatus tagged</change>
+         <change when="2012-02-21" who="AG">bibliography corrected</change>
+         <change when="2012-02-20" who="AG">bibliography tagged</change>
+         <change when="2012-01-24" who="AG">several lines translated</change>
+         <change when="2012-01-17" who="AG">1 line translated</change>
+         <change when="2011-12-12" who="AG">some tags corrected</change>
+         <change when="2011-12-01" who="AG">tagging of the Greek text</change>
+         <change when="2011-11-28" who="AG">tidied XML and copied Greek text from Paola's version, different corrections</change>
+         <change when="2011-11-25" who="KFL">Automated creation from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="5.6">
+            <desc xml:lang="en">Photograph of face (Vinogradov 20??)</desc>
+            <desc xml:lang="ru">Фотография лицевой части (Виноградов 20??)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Pallas 1801--><ptr target="bib:b0398"/>, <citedRange>74</citedRange></bibl>
+               <bibl n="1.1"><!--CIG--><ptr target="bib:Kirchhof"/> <citedRange>II, 90</citedRange></bibl>
+               <bibl n="1.1.1"><!--CIG--><ptr target="bib:Kirchhof"/> <citedRange>IV 8621</citedRange></bibl>
+               <bibl n="2"><!--Ваксель 1801--><ptr target="bib:b0401"/>,  № <citedRange>5</citedRange></bibl>
+               <bibl n="2.1"><!--Waxel 1803--><ptr target="bib:b0378"/>,  № <citedRange>5</citedRange></bibl>
+               <bibl n="3"><!--Сlarke 1815--><ptr target="bib:b0278"/>,  <citedRange>457</citedRange></bibl>
+               <bibl n="3.1"><!--Walpole 1820--><ptr target="bib:b0377"/>,  586–587, № <citedRange>51</citedRange></bibl>
+               <bibl n="4"><!--Cousinéry 1831--><ptr target="bib:b0420"/>,  <citedRange>268</citedRange></bibl>
+               <bibl n="5"><!--Бертье-Делагард 1893--><ptr target="bib:b0028"/></bibl>
+               <bibl n="6"><!--Сборник --><ptr target="bib:b0132"/>, 7–15, № <citedRange>7</citedRange></bibl>
+               <bibl n="7"><!--Шестаков 1906--><ptr target="bib:b0241"/>, <citedRange>140–151</citedRange></bibl>
+               <bibl n="8"><!--Vinogradov 2007--><ptr target="bib:b0376"/>,  257,  № <citedRange>2</citedRange></bibl>
+               <bibl n="9"><!--Яшаева, Денисова, Гинькут, Залесская, Журавлев 2011--><ptr target="bib:b0404"/>,
+                  421, № <citedRange>1</citedRange>, <seg xml:lang="ru">илл.</seg><seg xml:lang="en">fig.</seg> 1</bibl>
+            </listBibl>
+         </div>
+
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+               <ab>
+                <lb n="1"/><g ref="#stauros"/> <persName type="ruler" key="zeno"><roleName><w lemma="αὐτοκράτωρ">Αὐτοκράτωρ</w></roleName>
+                   <roleName><w lemma="καῖσαρ">κε͂σαρ</w></roleName>
+                   <persName type="ruler"><name nymRef="Ζήνων">Ζήνων</name></persName>
+                   <w lemma="εὐσεβής">εὐσε<supplied reason="lost">β</supplied>ὴς</w>
+                   <w lemma="νικητής">νικ<supplied reason="lost">ητὴς</supplied></w>
+                <lb n="2"/><w lemma="τροπαιοῦχος">τροπεοῦχος</w> <w lemma="μέγας">μέγιστος</w> <w lemma="ἀεισέβαστος">ἀεισέβαστος</w></persName>·
+                <lb n="3"/><w lemma="φιλοτιμάομαι">φιλοτιμησαμένη</w> <w lemma="ὁ">ἡ</w> <w lemma="αὐτός">αὐτῶν</w> <w lemma="εὐσέβεια">εὐσέβια</w>, <w lemma="ὡς">ὡς</w>
+                  <w lemma="ἐν">ἐ<unclear>ν</unclear></w>
+                <lb n="4"/><w lemma="πᾶς">πάσαις</w> <w lemma="ὁ">ταῖς</w> <w lemma="πόλις">πόλεσιν</w>, <w lemma="καί">καὶ</w> <w lemma="ἐν">ἐν</w> <w lemma="οὗτος">ταύτῃ</w> <w lemma="ὁ">τῇ</w>
+                  <w lemma="αὐτός">αὐτοῦ</w>
+                <lb n="5"/><w lemma="πόλις">πόλι</w>, <w lemma="δωρέω">ἐδωρήσατο</w> <w lemma="χρῆμα">χρημάτων</w> <w lemma="δόσις">δόσιν</w>, <w lemma="ὁ">τὰ</w> <w lemma="συνάγω">συνα<lb n="6" break="no"/>γόμενα</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τοῦ</w> <w lemma="πρακτεῖον">πρακτίου</w>, <w lemma="φημί">φημὶ</w>
+                  <w lemma="ὁ">τοῦ</w> <w lemma="ἐνταῦθα">ἐνταῦθα</w>
+                <lb n="7"/><w lemma="βικαρᾶτος">βικαράτου</w> <w lemma="ὁ">τῶν</w> <w lemma="καθοσιόω">καθοσιωμένων</w> <w lemma="βαλλιστράριος">βαλλισ<lb n="8" break="no"/>τραρίων</w>, <w lemma="διά">δι᾿</w> <w lemma="εἰμί">ὧν</w> <w lemma="ἀνανεόω">ἀνανεοῦντε</w> <w lemma="ὁ">τὰ</w> <w lemma="τεῖχος">τείχη</w>
+                  <w lemma="πρός">πρὸς</w>
+                <lb n="9"/><w lemma="σωτηρία">σωτηρίαν</w> <w lemma="ὁ">τῆς</w> <w lemma="αὐτός">αὐτῆς</w> <w lemma="πόλις">πόλεως</w>. <w lemma="καί">Καὶ</w> <w lemma="εὐχαριστέω">εὐχαρισ <lb n="10" break="no"/>τοῦντες</w> <w lemma="ἀνατίθημι">ἀνεθήκαμεν</w> <w lemma="ὅδε">τόδε</w> <w lemma="ὁ">τὸ</w> <w lemma="τίτλος">τῖτλον</w>
+                <lb n="11"/><w lemma="εἰς">εἰς</w> <w lemma="μνημόσυνον">μνημόσυνον</w> <w lemma="ἀείδιος">ἀείδιον</w> <w lemma="ὁ">τῆς</w> <w lemma="αὐτός">αὐτῶν</w>
+                <lb n="12"/><g ref="#stauros"/> <w lemma="βασίλειος">βασιλείας</w>. <g ref="#stauros"/>
+                <lb n="13"/><g ref="#stauros"/> <w lemma="ἀνανεόω">Ἀνανεώθη</w> <w lemma="δέ">δὲ</w> <w lemma="ὁ">ὁ</w> <w lemma="πύργος">πύργος</w>
+                  <w lemma="οὗτος">οὗτος</w>, <w lemma="πράσσω">πρά<lb n="14" break="no"/>ττοντος</w> <w lemma="ὁ">τοῦ</w> 
+                  <w lemma="μεγαλοπρεπής"><expan><abbr>μεγαλοπρ</abbr><ex>επεστάτου</ex></expan></w>
+                <w lemma="κόμης"><expan><abbr>κόμ</abbr><ex>ητος</ex></expan></w>
+                <lb n="15"/><g ref="#stauros"/> <persName type="attested" ref="#person8"><name nymRef="Διογένης">Διογένου</name></persName>,
+                  <date><w lemma="ἔτος">ἔτους</w> <num value="512">φιβ</num>, 
+                <w lemma="ἐν">ἐν</w> <w lemma="ἰνδικτιών"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνι</ex></expan></w> <num value="11">ια</num></date>
+                  <g ref="#stauros"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="4"><rdg source="bib:Boeckh">αὐτῶν</rdg></app>
+                <app loc="8"><rdg source="bib:Kirchhof bib:b0241">ἀνανεοῦντε<supplied reason="omitted">ς</supplied></rdg></app>
+               <app loc="15"> <lem source="bib:b0028 bib:b0132 bib:b0241">ια´</lem> <rdg source="bib:b0398">ιδ´</rdg><note> et alii</note></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+               <p>Самодержец кесарь Зинон, благочестивый, победи<supplied reason="lost">тель</supplied>, 
+                  трофееносный, величайший, вечный август: их благочестие, сделав пожертвование, 
+                  как во всех городах, и в этом своем городе, даровало денежную выдачу — то, что 
+                  поступает от практия, то есть от здешнего викарата преданных баллистрариев: их посредством 
+                  и возобновляются стены для спасения этого города. И, благодарные, мы воздвигли эту надпись 
+                  в вечную память их царства. Возобновлена же эта башня трудами великолепнейшего комита
+                  Диогена, в 512 году, в 11-ый индикт.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+               <p>Emperor Caesar Zeno, pious, victor, triumphant, the greatest, eternal Augustus: His Worship, 
+                  having made a donation, in this town of his, as well as in others, made a monetary gift - which comes 
+                  from the prakteion, that is, from the local vikaratos of faithful ballistrarii: by whose efforts the walls 
+                  are being renovated for the sake of this city's safety. In gratitude, we have set this inscription
+                  in eternal commemoration of His reign. Also this tower was restored by the efforts of the most magnificent 
+                  comes Diogenes, in the year 512, in the 11th indiction.</p>
+         </div>
+         
+         <div type="commentary" xml:lang="ru">
+            <p> Подробную историю изучения надписи см. в Латышев 1896, 7-15, № 7 и Бертье-Делагард 1893, а также Тункина 2002, 503, 508, 516, прим. 113, 143, 187.</p>
+                <p> Надпись распадается на две части, разделенные крестами: постановление херсонян с благодарностью Зинону, касающееся всех стен, и строительную 
+                   надпись комита Диогена, относящуюся только к одной башне, что отмечено и крестами.</p>
+                <p> 1. Относительно титулов αὐτοκράτωρ, καῖσαρ, εὐσεβής и νικητής см. Rösch 1978, 35–38, 42–43, 45–46.  </p>
+                <p> 2. Относительно титулов τροπαιοῦχος, μέγιστος и ἀεισέβαστος см. Rösch 1978, 35, 46–47. Вся титулатура (тип I, согласно Rösch 1978, 89–90) полностью 
+                   совпадает с титулатурой Зинона в CIG IV 8619, что говорит в пользу константинопольского происхождения текста или, по крайней мере, столичного 
+                   влияния на него.</p>
+                <p> 3. Глагол φιλοτιμέομαι в значении «делать пожертвование» употребляется  в византийской эпиграфике именно в отношении императоров: 
+                   MAMA VIII, № 270 (Обрук в Ликаонии), IGLS 618 (Джувание, 544 г.). Выражение ἡ αὐτῶν εὐσέβεια (ср. I.Creticae IV 284a; 381–383 г., Гортина) 
+                   представляет собой перефразировку в 3 л. типичного императорского титула ἡ ἡμετέρα (resp. ἡμῶν) εὐσέβεια (ср. Grégoire 1929, № 4). В Spieser 1983, № 8 
+                   (Фессалоника, 688–689) последний титул так же совмещается с глаголом φιλοτιμέομαι.</p>
+                <p> 3–5. Сопоставление упоминаемого в надписи города со всеми остальными нам удалось найти только в Grégoire 1929, № 303 (Атталия, 915–916 гг.). 
+                   Относительно пожертвований Зинона другим городам общепринятым стало предположение (Бертье-Делагард 1893), что речь идет о помощи городам, 
+                   пострадавшим от землетрясения 477 (или 480) г. Следует, однако, отметить, что источники говорят в связи с этим землетрясением только о Пропонтиде 
+                   (Guidoboni, Comastri, Traina 1994, 302–305), в то время как землетрясения на южном побережье Черного моря не влияют на его северный берег.</p>
+                <p> 6. Редкий термин πρακτεῖον толкуется, начиная с Кирхгофа, в данном случае как «государственная служба, офис» с ошибочной ссылкой на «Василики» 
+                   (см. Ducange, s.v.). В этом случае «сбор с практия» понимается как налоги, собираемые с горожан на содержание баллистрариев 
+                   (о них см. ниже), которые Зиноном были отданы на строительство стен, — тогда непонятно, на какие же средства содержались в такой 
+                   ситуации сами баллистрарии. В ранневизантийских текстах данный термин, однако, встречается (почти одновременно с данной надписью) только в 
+                   другом значении — «государственная должность» (IGLS 9045–9046; Босра, 491–518 гг.): в последней надписи запрещается практика продажи практия 
+                   дуки. В таком смысле практий херсонской надписи может быть понят как весьма почетная должность викария баллистрариев, за занятие которой 
+                   государство собирало деньги, которые в данном случае были пущены на восстановление стен.</p>
+            <p> 7. Термин βικαρᾶτος является гапаксом. В случае первого толкования (см. выше) он должен обозначать службу баллистрариев, в случае второго — 
+               должность викария баллистрариев.</p>
+                <p> 7–8. Относительно баллистрариев см. Виноградов 2010a, 94-100.</p>
+                <p> 8. С точки зрения грамматики, слова δι᾿ ὧν должны быть отнесены скорее не к τὰ συναγόμενα, как это делается обычно, а к стоящим непосредственно 
+                   перед ними баллистрариям. В таком варианте возобновление стен оказывается выполнено баллистрариями на сумму, пожертвованную императором.</p>
+                <p> 9. Выражение «спасение города» не находит параллелей в ранневизантийской эпиграфике — единственная известная нам аналогия относится к Х в. 
+                   (Grégoire 1929, № 302).</p>
+            <p> 10. Слово τῖτλον для обозначения не надгробной надписи встречается в христианской эпиграфике крайне редко (ср. <ref type="inscription">V 10</ref><!--byz009-->, I.Side 7 и SEG XLIII.904): в 
+                   последнем случае оно, вероятно, также связано с дальнейшим текстом императорского указа. Употребление при нем глагола ἀνατίθημι вместо обычного 
+                   ἀνίστημι или ποιέω, возможно, связано с причерноморской традицией: ср. I.Tomis 291.  </p>
+                <p> 11. Формула εἰς μνημόσυνον ἀΐδιον имеется также в надписи с Синая (Ševčenko 1966, 264).</p>
+                <p> 13.  Формула с ἀνενεώθη часто встречается в ранневизантийской эпиграфике, в т.ч. и в отношении башни (TAM II, 553; IGLS 9115; Welles 1938, 274), и 
+                   стен (IdC 104, Bandy 31, Philai II, 194, 226).</p>
+            <p> 13–15. Как предположил Walpole 1820, Диогена данной надписи, возможно, следует отождествлять с другим комитом Диогеном (PLRE II, 360–361), «благодетелем 
+                   городов Эллады», давшим в т.ч. деньги на восстановление стен Мегары.</p>
+            <p>15. Относительно херсонесской локальной эры см. Бертье-Делагард 1893 и комм. к <ref type="inscription">V 24</ref><!--byz023-->. Здесь отметим лишь один момент: указание одновременно 
+                   на год локальной эры и индикт совсем не означает, что они совпадали, – следовательно, 512 год херсонской эры мог приходиться на промежуток 
+                   времени от сентября 486 г. (если его конец совпадает с началом 11-го индикта) по август 488 г. (если его начало совпадает с концом 11-го индикта).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>On the detailed research history of this inscription, see Latyshev 1896, 7-15, № 7; Bertye-Delagard 1893; Tunkina 2002, 503, 508, 516, nn. 113, 143, 187.</p>
+            <p>The inscription consists of two parts marked off by crosses: the decision of the Chersonian residents with the expression of gratitude to Zeno and 
+            concerning all the walls; and the building inscription of comes Diogenes, concerning one tower, and marked off by crosses.</p>             
+            <p>1. On the titles αὐτοκράτωρ, καῖσαρ, εὐσεβής and νικητής, see Rösch 1978, 35–38, 42–43, 45–46</p>
+            <p>2. On the titles τροπαιοῦχος, μέγιστος and ἀεισέβαστος, see Rösch 1978, 35, 46–47. The entire assemblage of titles (type I, according to Rösch 1978, 89–90)
+               fully corresponds to the titulature of Zeno as attested in CIG IV 8619. This fact suggests that the text either originated in Constantinopole, or was composed
+            under the influence of the Byzantine capital.</p>
+            <p>3. The verb φιλοτιμέομαι in the sense "to make a donation" is used in Byzantine epigraphy specifically with respect to emperors:
+               MAMA VIII 270 (Obruk in Lycaonia), IGLS 618 (Juvania, 544 C.E.). The expression ἡ αὐτῶν εὐσέβεια (ср. I. Creticae IV 284a; 381–383 C.E., Gortyn) 
+               is a paraphrase, in the 3rd person singular, of the typical imperial title ἡ ἡμετέρα (resp. ἡμῶν) εὐσέβεια (cf. Grégoire 1929, № 4). In the example
+               cited by Spieser 1983, № 8 (Thessaloniki, 688–689 C.E.), this title is also found in conjunction with the verb φιλοτιμέομαι.</p>
+            
+            <p>3-5. A parallel for the juxtaposition of the city on whose behalf the donation had been made with other cities is found in Grégoire 1929, № 303 (Attalia, 915–916 C.E.). 
+               On the subject of Zeno's gifts to other cities, the opinion of Bertye-Delagard 1893 that the financial help was extended to the cities that had suffered from the
+               earthquake of 477 (or 480) C.E., has always been the opinio communis. We should point out, however, that the sources mention only Propontis in connection with this earthquake
+               (Guidoboni, Comastri, Traina 1994, 302–305), while earthquakes on the southern coast of the Black Sea usually do not affect the northern coast.</p>
+            <p>6. The rare term πρακτεῖον is explained, since Kirchhoff, as "state service, public office," with incorrect reference to "Basiliсa" (see Ducange, s.v.). 
+               In this case, the "collection from the πρακτεῖον" should be understood as a form of tax collected from citizens for the upkeep of ballistrarii (on these, see below), 
+               which were redirected by Zeno towards the construction of city walls, although this arrangement would have left the ballistrarii without their provisions.
+               In Early Byzantine texts (almost contemporaneous with our inscription), this term is used only to mean "an official appointment, a public post"
+               (IGLS 9045–9046; Bosra, 491–518 C.E.): in this example we find a prohibition on the sale of the prakteion of doukas. In this sense, the Chersonian prakteion
+               can be understood as the honourable office of a vicar of the ballistrarii, for which the office holder had to pay a fee to the state, and which funds could then be 
+               diverted towards the reconstruction of city walls.</p>
+             
+            <p>7. The use of the term βικαρᾶτος is hapax. If the prakteion is understood as "government service," βικαρᾶτος would refer to the service of ballistrarii, but if it stands for
+               the "official post" then βικαρᾶτος would signify the post of the vicar of the ballistrarii.</p>
+            <p>7-8. Concerning ballistrarii, see Vinogradov 2010a, 94-100.</p>
+            <p>8. Grammatically, the words δι᾿ ὧν should be taken not with τὰ συναγόμενα, as it is usually done, but with the ballistrarii, the word that comes immediately
+               before. In this reading, the reconstruction of the walls is undertaken by the ballistrarii for the sum of money donated by the emperor.</p>
+            <p>9. The expression "for the city's safety" finds no parallels in Early Byzantine epigraphy. The only known analogy is dated to the Xth century (Grégoire 1929, no. 302).</p>
+            <p>10. The word τῖτλον is very rarely used in Christian epigraphy to mean something different than tombstone (cf. <ref type="inscription">V 10</ref><!--byz009-->, I.Side 7 и SEG 43.904: in the
+               latter case, the term is connected with the imperial decree that follows). The use of the verb ἀνατίθημι in conjunction with τῖτλον, instead of the usual
+              ἀνίστημι or ποιέω, might have to do with the Northern Black Sea tradition: cf. I.Tomis 291.</p>
+            <p>11. The formula εἰς μνημόσυνον ἀΐδιον is also found in an inscription from Sinai (Ševčenko 1966, 264).</p>
+            <p>13.  The formula ἀνενεώθη is common in Early Byzantine epigraphy, including usage in reference to a tower (TAM II 553; IGLS 9115; Welles 1938, 274) and walls 
+               (IdC 104, Bandy 31, Philai II 194, 226). </p>
+            <p>13–15. As had already been suggested by Walpole 1820, the Diogenes of our inscription might be identical with another comes Diogenes (PLRE II, 360–361)
+               who was a "benefactor of Hellenic cities," and had, among other things, donated money for the reconstruction of the walls of Megara.</p>
+            <p>15. On the local Chersonesian era, see Bertye-Delagard 1893 and the commentary to <ref type="inscription">V 24</ref><!--byz023-->. We should point out here that the parallel use of the local era
+             and of the indiction does not mean that the two coincided – that is, the year 512 of the Chersonesian era would correspond to the period of time between
+            September 486 C.E. (if its end coincides with the beginning of the 11th indiction) and August 488 C.E. (if its beginning coincides with the end of the 11th indiction).
+                </p>
+         </div>
+      </body>
+   </text>
+</TEI>

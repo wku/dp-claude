@@ -1,0 +1,156 @@
+<alist>
+    <list xml:lang="en"><head>Centuries</head>
+        <century min="-0800" max="-0701" url="VIII-BCE" num="-8">
+            Eighth century BCE
+        </century>
+        <century min="-0700" max="-0601" url="VII-BCE" num="-7">
+            Seventh century BCE
+        </century>
+        <century min="-0600" max="-0501" url="VI-BCE" num="-6">
+            Sixth century BCE
+        </century>
+        <century min="-0500" max="-0401" url="V-BCE" num="-5">
+            Fifth century BCE
+        </century>
+        <century min="-0400" max="-0301" url="IV-BCE" num="-4">
+            Fourth century BCE
+        </century>
+        <century min="-0300" max="-0201" url="III-BCE" num="-3">
+            Third century BCE
+        </century>
+        <century min="-0200" max="-0101" url="II-BCE" num="-2">
+            Second century BCE
+        </century>
+         <century min="-0100" max="-0001" url="I-BCE" num="-1">
+            First century BCE
+        </century> 
+        <century min="0001" max="0100" url="I-CE" num="1">
+            First century CE
+        </century>
+        <century min="0101" max="0200" url="II-CE" num="2">
+            Second century CE
+        </century>
+        <century min="0201" max="0300" url="III-CE" num="3">
+            Third century CE
+        </century>
+        <century min="0301" max="0400" url="IV-CE" num="4">
+            Fourth century CE
+        </century>
+        <century min="0401" max="0500" url="V-CE" num="5">
+            Fifth century CE
+        </century>
+        <century min="0501" max="0600" url="VI-CE" num="6">
+            Sixth century CE
+        </century>
+        <century min="0601" max="0700" url="VII-CE" num="7">
+            Seventh century CE
+        </century>
+        <century min="0701" max="0800" url="VIII-CE" num="8">
+            Eighth century CE
+        </century>
+        <century min="0801" max="0900" url="IX-CE" num="9">
+            Ninth century CE
+        </century>
+        <century min="0901" max="1000" url="X-CE" num="10">
+            Tenth century CE
+        </century>
+        <century min="1001" max="1100" url="XI-CE" num="11">
+            Eleventh century CE
+        </century>
+        <century min="1101" max="1200" url="XII-CE" num="12">
+            Twelfth century CE
+        </century>
+        <century min="1201" max="1300" url="XIII-CE" num="13">
+            Thirteenth century CE
+        </century>
+        <century min="1301" max="1400" url="XIV-CE" num="14">
+            Fourtheenth century CE
+        </century>
+        <century min="1401" max="1500" url="XV-CE" num="15">
+            Fifteenth century CE
+        </century>
+        <century min="1501" max="1600" url="XVI-CE" num="16">
+            Sixteenth century CE
+        </century>
+        <century min="1601" max="1700" url="XVII-CE" num="17">
+            Seventeenth century CE
+        </century>
+    </list>
+    <list xml:lang="ru"><head>Веков</head>
+        <century min="-0800" max="-0701" url="VIII-BCE" num="-8">
+            RU: Eighth century BCE
+        </century>
+        <century min="-0700" max="-0601" url="VII-BCE" num="-7">
+            RU: Seventh century BCE
+        </century>
+        <century min="-0600" max="-0501" url="VI-BCE" num="-6">
+            RU: Sixth century BCE
+        </century>
+        <century min="-0500" max="-0401" url="V-BCE" num="-5">
+            RU: Fifth century BCE
+        </century>
+        <century min="-0400" max="-0301" url="IV-BCE" num="-4">
+            RU: Fourth century BCE
+        </century>
+        <century min="-0300" max="-0201" url="III-BCE" num="-3">
+            RU: Third century BCE
+        </century>
+        <century min="-0200" max="-0101" url="II-BCE" num="-2">
+            RU: Second century BCE
+        </century>
+        <century min="-0100" max="-0001" url="I-BCE" num="-1">
+            RU: First century BCE
+        </century>
+        <century min="0001" max="0100" url="I-CE" num="1">
+            RU: First century CE
+        </century>
+        <century min="0101" max="0200" url="II-CE" num="2">
+            RU: Second century CE
+        </century>
+        <century min="0201" max="0300" url="III-CE" num="3">
+            RU: Third century CE
+        </century>
+        <century min="0301" max="0400" url="IV-CE" num="4">
+            RU: Fourth century CE
+        </century>
+        <century min="0401" max="0500" url="V-CE" num="5">
+            RU: Fifth century CE
+        </century>
+        <century min="0501" max="0600" url="VI-CE" num="6">
+            RU: Sixth century CE
+        </century>
+        <century min="0601" max="0700" url="VII-CE" num="7">
+            RU: Seventh century CE
+        </century>
+        <century min="0701" max="0800" url="VIII-CE" num="8">
+            RU: Eighth century CE
+        </century>
+        <century min="0801" max="0900" url="IX-CE" num="9">
+            RU: Ninth century CE
+        </century>
+        <century min="0901" max="1000" url="X-CE" num="10">
+            RU: Tenth century CE
+        </century>
+        <century min="1001" max="1100" url="XI-CE" num="11">
+            RU: Eleventh century CE
+        </century>
+        <century min="1101" max="1200" url="XII-CE" num="12">
+            RU: Twelfth century CE
+        </century>
+        <century min="1201" max="1300" url="XIII-CE" num="13">
+            RU: Thirteenth century CE
+        </century>
+        <century min="1301" max="1400" url="XIV-CE" num="14">
+            RU: Fourtheenth century CE
+        </century>
+        <century min="1401" max="1500" url="XV-CE" num="15">
+            RU: Fifteenth century CE
+        </century>
+        <century min="1501" max="1600" url="XVI-CE" num="16">
+            RU: Sixteenth century CE
+        </century>
+        <century min="1601" max="1700" url="XVII-CE" num="17">
+            RU: Seventeenth century CE
+        </century>
+    </list>
+</alist>

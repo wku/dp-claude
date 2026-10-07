@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Декрет</title><title xml:lang="en">Decree</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.343</idno><idno type="PE">PE3000460</idno><idno type="filename">3.34</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>4496</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>4496</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc15">
+                     <seg xml:lang="ru">Декрет.</seg>
+                     <seg xml:lang="en">Decree.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Сохранился правый край плиты, украшенной фронтоном и акротериями. Внутри фронтона следы рельефного изображения 
+                              (мужская голова, змея). Поле надписи ограничено широкой профилированной рамкой. Лицевая сторона отшлифована, 
+                              тыльная сторона обработана грубо.</p>
+                           <p xml:lang="en">Top right corner of a panel adorned with pediment and acroteria. A relief (traces of a male head, snake) on the pediment. 
+                              The epigraphic field is framed by wide profiled relief border. The front is polished, the back is roughly picked.</p>
+                           <dimensions>
+                              <height unit="cm">89,0</height>
+                              <width unit="cm">27,0</width>
+                              <depth unit="cm">12,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с прямой поперечной линией, крупная тета с замкнутой поперечной гастой, маленький омикрон, 
+                           сигма с параллельными верхней и нижней линиями, крупные штрихи и апексы, лигатуры.</seg>
+                        <seg xml:lang="en">Alpha with straight crossbar, large theta with attached crossbar, small omicron, 
+                           four-bar sigma with parallel top and bottom bars, ligatures.</seg>
+                        <height unit="cm">1,2</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0200" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">II в. н.э.</seg>
+                        <seg xml:lang="en">II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Случайно найдена М.К. Скубетовым в 1919 г. (НА НЗХТ, фонд Моисеева, д.1562/2, л. 40 сл.; ср. Соломоник 1983, 68, прим. 7).</rs>
+                        <rs type="context">У дверей Уваровской базилики с южной стороны</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Random find in 1919 by M.K. Skubetov (НА НЗХТ, archive of Moiseyev, д.1562/2, л. 40 сл.; cf. Solomonik 1983, 68, note 7).</rs>
+                        <rs type="context">At the doors of Uvarov Basilica, on the south side.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-04-26" who="PY">moved Russian text to commentary</change>
+         <change when="2016-08-23" who="SS">encoded metadata, Leiden and appartus</change>
+         <change when="2016-07-21" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.343">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- НЭПХ I --><ptr target="bib:НЭПХ"/> <citedRange>5</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Соломоник 1990 --><ptr target="bib:b0506"/>, 31, № <citedRange>31</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><w><supplied reason="lost">ἀγαθᾶι</supplied></w> <w><supplied reason="lost">τύ</supplied>χαι</w>
+               		<lb n="2"/><w><supplied reason="lost">πρόεδροι</supplied></w> <placeName><supplied reason="lost">Χερ</supplied>σονασσειτᾶν</placeName> 
+                                          <w>τ<unclear>ᾶ</unclear>ν</w>
+               		<lb n="3"/><supplied reason="lost"><w>ποτὶ</w> <w>τᾶι</w> <placeName>Ταυρικᾶι</placeName></supplied> <w><supplied reason="lost">εἶπ</supplied>αν</w>· 
+                                          <w>ἐπειδὴ</w> <persName type="attested"><name>Νοουέλ
+               		<lb n="4" break="no"/><supplied reason="lost">λιος</supplied></name><gap reason="lost" extent="unknown" unit="character"/><name><seg part="F">νος</seg></name></persName>, <w>νεανίας</w> <w>εὐγενὴς</w>
+               		<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">διά</supplied><unclear>σ</unclear>αμός</w> 
+                                          <w>τε</w> <w>καὶ</w> <w>ἐν</w> <w>τᾶ<supplied reason="lost">ι</supplied></w>
+               		<lb n="6"/><supplied reason="lost" cert="low"><w>πόλει</w> <w>ἁμῶν</w></supplied><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>α</unclear>τα</w> <w>λαμπρότατα</w>
+               		<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <w><unclear>δ</unclear>ιὰ</w> <w>τὰν</w> <w>ἐπιείκειαν</w> <w>τοῦ</w>
+               		<lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">νων</w> <w>ἐπιδαμήσας</w>
+               		<lb n="9"/><supplied reason="lost"><w>παρ’</w> <w>ἁμὲς</w></supplied><gap reason="lost" quantity="3" unit="character"/><w><supplied reason="lost">εὐγ</supplied>νώμονα</w> <w>καὶ</w> <w>φιλά
+               		<lb n="10" break="no"/><supplied reason="lost" cert="low">νθρωπον</supplied></w><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">ἐπι</supplied>δαμίαν</w> <w>ἐποά<choice><corr>σ</corr><sic>ι</sic></choice>ατο</w>
+               		<lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">ως</w> <w>περὶ</w> <w>πατρίδα</w>
+               		<lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">άμενος</w> <w>καὶ</w> <w>περὶ</w>
+               		<lb n="13"/><w><supplied reason="lost">τὰν</supplied></w> <placeName><supplied reason="lost">Χερσονασσειτᾶ</supplied>ν</placeName> 
+                                             <w>πόλιν</w> <w>ἄοκνον</w>
+               		<lb n="14"/><w><supplied reason="lost">ἑαυτὸν</supplied></w><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">ἐ</supplied><unclear>ν</unclear></w> <w>πᾶσιν</w> <w>τοῖς</w> <w>διαφέ
+               		<lb n="15" break="no"/><supplied reason="lost">ρουσι</supplied></w> <supplied reason="lost"><w>τῇ</w> <w>πόλει</w></supplied><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">παρέσ</supplied><unclear>χ</unclear>ετο</w>, 
+                                             <w>ἔναγχος</w> <w>δὲ</w>
+               		<lb n="16"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΙΤΑ</orig> <w>γνασίου</w> <w>ἐπὶ</w>
+               		<lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> <w><unclear>κ</unclear>αὶ</w> <w>περὶ</w> <w>τροφῶν</w>
+               		<lb n="18"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">ἐ</supplied><unclear>σ</unclear>πούδασεν</w> <w>οἰκεί
+               		<lb n="19" break="no"/><supplied reason="lost">ως</supplied></w><gap reason="lost" extent="unknown" unit="character"/><w part="F">κε</w> 
+                                             <w>ἀναλώμασιν</w> <w>εἰς</w>
+               		<lb n="20"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">ν</w> <w>τοῦ</w> <w>σείτου</w> <w>χρασά
+               		<lb n="21" break="no"/><supplied reason="lost">μενος</supplied></w><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>τ</unclear>ον</w> <w>ἀποκαταστάσας</w>
+               		<lb n="22"/><gap reason="lost" extent="unknown" unit="character"/> <w>πόλει</w> <w>ἐπιτήδειον</w>
+               		<lb n="23"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">ὐπ</supplied>ηρεσίαν</w> <w>ὡς</w> <w>κε</w> <w>τὰν</w>
+               		<lb n="24"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost" cert="low">συ</supplied>ναισθήσει</w> <w>γενόμε
+               		<lb n="25" break="no"/><supplied reason="lost">νος</supplied></w><gap reason="lost" extent="unknown" unit="character"/><w part="F">ας</w> 
+                                             <w>τοῦ</w> <w>ἀνδρὸς</w>
+               		<lb n="26"/><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>ν</unclear>ην</w> <w>τὸν</w> <w>ἄνδρα</w>
+               		<lb n="27"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">τᾶ</supplied><unclear>ς</unclear></w> 
+                                             <w>βουλᾶς</w> <w>καὶ</w> <w>τοῦ</w>
+               		<lb n="28"/><w><supplied reason="lost">δάμου</supplied></w><gap reason="lost" extent="unknown" unit="character"/> 
+                                             <w><unclear>α</unclear>ὐτὸν</w> <w>νομίσαι</w> <w>τᾶς</w>
+               		<lb n="29"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">πολ</supplied>ιτήας</w> <w>καὶ</w> <w>πάσας</w>
+               		<lb n="30"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">ἀμ</supplied>οιβᾶς</w> <w>τᾶς</w> <w>τοῖς</w> 
+                                             <gap reason="illegible" quantity="3" unit="character"/>
+               		<lb n="31"/><gap reason="lost" extent="unknown" unit="character"/> <w>τῶν</w> <w>εὐ</w> <w>πεπον<supplied reason="lost">η</supplied>
+               		<lb n="32" break="no"/><supplied reason="lost">κότων</supplied></w><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="6" unit="character"/>
+               		<lb n="32a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="3-4">
+                  <rdg>Νοουέλ/[λιος] <note>scripsi</note></rdg>
+                  <rdg source="bib:НЭПХ">Νοουμ[ή/νιος] <note>Жебелев ap.</note></rdg>
+                  <rdg source="bib:НЭПХ">Νοουέν[ιος] <note>corr.</note></rdg>
+               </app>
+               <app loc="5">
+                  <rdg>[διά]σ̣αμός <note>scripsi</note></rdg>
+                  <rdg>[ἔνδ]αμος <note>edd.</note></rdg>
+               </app>
+               <app loc="6">
+                  <rdg source="bib:НЭПХ"><note>in.:</note> [πόλει ἁμῶν? - - -] τὰ λαμπρότατα <note>Жебелев ap.</note></rdg>
+                  <rdg>[- - -]α̣τα <note>scripsi</note></rdg>
+                  <rdg>[- - - πράγμ]α̣τα</rdg>
+               </app>
+               <app loc="7">
+                  <rdg>δ̣ιὰ <note>scripsi</note></rdg>
+                  <rdg>τὰ <note>Жебелев (архив)</note></rdg>
+                  </app>
+               <app loc="8">
+                  <rdg source="bib:PHI"><note>in.:</note> [βίου?]</rdg>
+               </app>
+               <app loc="9">
+                  <rdg source="bib:PHI"><note>in.:</note> [παρ’ ἁμὲς]</rdg>
+               </app>
+               <app loc="9-10">
+                  <rdg>φιλά/[νθρωπον?] <note>scripsi</note></rdg>
+                  <rdg source="bib:НЭПХ">φιλά/[γαθον?] <note>Жебелев ap.</note></rdg>
+               </app>
+               <app loc="10">
+                  <rdg>ΕΠΟΑΙΑΤΟ <note>lapis</note></rdg>
+               </app>
+               <app loc="13-15">
+                  <note>restitui</note>
+               </app>
+               <app loc="16">
+                  <rdg>[πά]ν̣τα (?)</rdg>
+               </app>
+               <app loc="17">
+                  <rdg>κ̣αὶ <note>scripsi</note></rdg>
+                  <rdg>αι <note>edd.</note></rdg>
+               </app>
+               <app loc="24">
+                  <rdg><note>in.:</note> [ταχίσταν (?)] <note>scripserim</note></rdg>
+                  <rdg><note>med.:</note> [(?) συ]ναισθήσει <note>proposui</note></rdg>
+                  <rdg>[- - -] αἰσθήσει <note>Жебелев (архив)</note></rdg>
+                  <rdg source="bib:НЭПХ">[- - -]ν̣ αἰσθήσει</rdg>
+               </app>
+               <app loc="30">
+                  <rdg><note>in.: vel</note> [ἀμ]οιβὰς τὰς</rdg>
+                  <rdg source="bib:НЭПХ">τοῖς - - - Υ</rdg>
+               </app>
+               <app loc="32">
+                  <note>fin.: vestigia</note> 
+                  <rdg source="bib:НЭПХ">[- - -]ΥΟΥΣΣΠ (?)</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>В добрый час. Проедры херсонеситов, что около Таврики, внесли предложение:</p>
+            <p>поскольку Новеллий (сын) - - - (этникон), благородный юноша - - - выдающийся и - - - многославные - - - благодаря снисходительности - - - посетив нас 
+               - - - показал себя во время пребывания доброжелательным и [щедрым?] - - -</p>
+            <p>по отношению к родине - - - во всех важных для полиса херсонеситов делах проявлял неутомимость - - - недавно же - - - настоящего - - - 
+               и позаботился о продовольствии как свойственно близкому (нам) человеку - - - расходами на (прибретение?) хлеба - - - восстановив - - - 
+               необходимый городу - - - пониманием (?) - - - этого человека - - - этого человека - - - Совета и [народа] - - - считать его - - - гражданства и всяческой 
+               - - - ответной (награды ?) - - - совершивших благодеяния - - -</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[Good fort]une. [Proedroi of Cher]sonesites [who are near Tauris propo]sed: since Novel[lios, (son of)...] a noble-born young man [---] eminent and also in [our city?...]
+            most brilliant [---] due to fairness [---] having resided [with us? ---] considerate and [generous?] made his sojourn [---]</p>
+<p>with respect to the fatherland [---] and with respect to the polis of [Chersonesit]es [offered himself] without hesitation in all important matters [to the polis], 
+and lately [---] genuine [---] about food provisions took care in a manner of a local [---] expenses for [...] of bread [---] restored [---] necessary for the city [---] service [---]
+ of this man [---] this man [---] Council and the [People...] consider him [---] of citizenship and every [---] respective (award?) [---] of those who had laboured well [---]</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Многочисленные лигатуры.</p>
+            <p>7: Ι, затем наклонная линия от Α или Λ - НЭПХ</p>
+            <p>16: в нач. стк. перед Τ вертикальная гаста</p>
+            <p>25: in.: форма причастия nom. sg. м.р. принята условно</p>
+            <p>30: fin.: на камне слева направо: штрих, след треугольной буквы, вертикальная гаста</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Frequent ligatures.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

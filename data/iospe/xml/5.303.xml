@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Фотиды</title><title xml:lang="en">Epitaph Of Photis</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.303</idno><idno type="PE">PE5000303</idno>
+            <idno type="AYV2012-number">byz297</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon9">Крест <certainty cert="low" locus="value" match=".."/>.</objectType>
+                           <objectType xml:lang="en">Cross<certainty cert="low" locus="value" match=".."/>.</objectType>
+                           <material xml:lang="ru">Неизвестен.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Верхний рукав ромбовидной формы; на лицевой стороне изображение трех крестиков. Сохранился целиком.</p>
+                           <p xml:lang="en">The top is diamond-shaped; on the front - three small crosses. Fully preserved. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">Между крестиками.</seg>
+                           <seg xml:lang="en">Between the crosses.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Сигма треугольная, фи удлиненная, омега прямоугольная.</seg>
+                        <seg xml:lang="en">Lapidary. Triangular sigma, elongated phi, rectangular omega.</seg>
+                      </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p044">
+                        <seg xml:lang="ru">Пантикапей.</seg>
+                        <seg xml:lang="en">Pantikapaion.</seg>
+                     </origPlace>
+                     <origDate notBefore="0301" notAfter="0500" precision="low" evidence="тип_надгробия">
+                        <seg xml:lang="ru">IV–V вв.</seg>
+                        <seg xml:lang="en">IV-Vth century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#kerch">Керчь <certainty locus="value" match=".." cert="low"/>.</placeName>
+                        <rs type="circumstances">До 1913 г.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Kerch<certainty locus="value" match=".." cert="low"/>.</placeName>
+                        <rs type="circumstances">Before 1913.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+         <change when="2012-08-29" who="AG">tags corrected, several lines translated</change>
+          <change when="2012-07-25" who="AL">small corrections in metadata and bibliography</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-05-21" who="AFS">corrected metadata and tagging in greek text</change>
+         <change when="2012-03-13" who="AL">text tagged, bibliography tagged, original date tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="5.303">
+            <desc xml:lang="en">Photograph of face</desc>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!-- Марти 1913--><ptr target="bib:b0169"/>, 72, № <citedRange>170</citedRange></bibl>
+               <bibl n="1.1"><!-- КХНБ --><ptr target="bib:b0068"/>, № <citedRange>40</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><g ref="#stauros"/>
+               <lb n="2"/><g ref="#stauros"/><persName type="attested" ref="#person381"><name nymRef="Φωτίς">Φωτί<lb n="3" break="no"/>δος</name></persName>.
+               <lb n="4"/><g ref="#stauros"/>
+            </ab>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Фотиды.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Of Photis.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Надпись издана без фотографии, которая хранится в ФА ИИМК РАН (О.90.3).  </p>
+                <p>Имя Фотида, неизвестное в Северном Причерноморье, — с виду типично христианское прозвище («светлая»): действительно, его носила одна 
+                   мученица (см. Delehaye 1902, 549). В христианской эпиграфике оно, однако, не засвидетельствовано, между тем как в античных документах встречается 
+                   4 раза, причем трижды — в Малой Азии: MAMA VI 314; VIII 354; I.Eph. 2490 (еще раз в Египте, как когномен; BGU 240). С осторожностью можно 
+                   предположить, что и Фотида керченской надписи происходила из Малой Азии.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The inscription was published without a photograph, which is preserved at the Photo Archive of the Institute for History of Material Culture, 
+            Russian Academy of Sciences (О.90.3).</p>
+            <p>The name Photis, unknown in the Northern Black Sea region, is, at first glance, a typical Christian nickname ("bright," "full of light"):
+               indeed, it is associated with a martyress (see Delehaye 1902, 549). It is not attested in Christian epigraphy, however, while in classical antiquity it is
+               attested 4 times, of which three are in Asia Minor: MAMA VI 314; VIII 354; I.Eph. 2490 (and once in Egypt, as a cognomen BGU 240). 
+               It is possible that Photis of our inscription also came from Asia Minor.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

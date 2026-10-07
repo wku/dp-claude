@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ru"/><title xml:lang="uk"/>
+                <title xml:lang="en">Message(?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>King's College London</authority>
+                <idno type="PE">PE2010025</idno>
+                <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="filename">2.1.1.67</tei:idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/>
+                        <altIdentifier xml:lang="ru">
+                            <repository>Государственный Эрмитаж</repository>
+                            <idno>Б.229</idno>
+                        </altIdentifier><altIdentifier xml:lang="uk"><repository/><idno/></altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>The State Hermitage Museum</repository>
+                            <idno>Б.229</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="filename.xml#id">
+                            <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                            <seg xml:lang="en">Message(?)</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ru" ref="#">Фрагмент.</objectType><objectType xml:lang="uk" ref="#"/>
+                                    <objectType xml:lang="en">Wall fragment.</objectType>
+                                    
+                                    <material xml:lang="ru" ref="material-search.xml#m10">Глина.</material><material xml:lang="uk" ref="material-search.xml#m10"/>
+                                    <material xml:lang="en">Clay.</material>
+                                    <p xml:lang="ru"/><p xml:lang="uk"/>
+                                    <p xml:lang="en">BG open vessel, not Attic? V-IV(?) century B.C.E.</p>
+                                    <dimensions>
+                                        <height unit="cm">3.0 (inv)</height>
+                                        <width unit="cm">1.2 (inv)</width>
+                                        <depth unit="cm"/>
+                                        <dim type="diameter" unit="cm"/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                                    <seg xml:lang="en">Wall, interior.</seg>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито.</rs></seg><seg xml:lang="uk"><rs type="execution" ref="execution.xml#scariphatis"/></seg>
+                                <seg xml:lang="en">Graffito.</seg>
+                                <height unit="cm"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origPlace.xml#p066"/>
+                            <seg xml:lang="ru">Борисфен.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">Borysthenes.</seg>
+                            <origDate notBefore="0001" notAfter="0001" evidence="Датировка_керамики">
+                                <seg xml:lang="ru">V-IV? в. до н.э.</seg><seg xml:lang="uk"/>
+                                <seg xml:lang="en">V-IV(?) century B.C.E.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="ru">
+                               
+                                <placeName type="ancientFindspot" ref="findspot.xml#berezan">Березань.</placeName>
+                                <rs type="circumstances">Найден в 1903 г., раскопки Штерна.</rs>
+                                <rs type="context">Раскоп  АI, насыпь над стенами a, f, i, r, l и яма No.8 (AOK 1906?)</rs>
+                            </seg><seg xml:lang="uk"><placeName type="ancientFindspot" ref="findspot.xml#berezan"/><rs type="circumstances"/><rs type="context"/></seg>
+                            <seg xml:lang="en">
+                                <placeName type="ancientFindspot">Berezan.</placeName>
+                                <rs type="circumstances">Found in 1903, excavations of E.R. von Shtern.</rs>
+                                <rs type="context">Sector AI, mound over walls a, f, i, r, l and pit 8.</rs>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="ru">Санкт-Петербург, Россия.</seg><seg xml:lang="uk"/>
+                            <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsy">
+                            <seg xml:lang="ru">Август 2016.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">August 2016.</seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-01-01" who="IP"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="2010025-dr"><desc xml:lang="en"/><desc xml:lang="ru"/><desc xml:lang="uk"/></graphic></surface> <!-- <surface>
+            <graphic url="2010025-a">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010025-b">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010025-c">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010025-d">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010025-e">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010025-f">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface> -->
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <!-- Издания -->
+                <listBibl>
+                    <!-- copy and paste citation -->
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                </listBibl>
+            </div>
+            <div type="bibliography" subtype="commentaries">
+                <!-- Комментарии -->
+                
+            </div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>τὴν Λ̣Η<gap reason="lost" extent="unknown" unit="character"/><!--Greek text here  -->
+                <lb n="2"/>ΟΣΖ̣Ο or ΟΣΤΟ
+                <lb n="3"/>? ΙΟ̣  Ν  <gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note><!-- copy and paste from Word --></note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="ru">
+                <p/>
+            </div><div xml:lang="uk" type="translation"><p/></div>
+            <div type="translation" xml:lang="en">
+                <p/>
+            </div>
+            <div type="commentary" xml:lang="ru">
+                <p/>
+            </div><div xml:lang="uk" type="commentary"><p/></div>
+            <div type="commentary" xml:lang="en">
+                <p>
+                    The sherd is a small, nearly flat piece. It looks like a fragment of a bigger sherd: ends of hastae can be seen
+                    in the breaks. The sherd is crossed by an inscribed straight line slightly below the mid-height of the sherd.
+                    The Inventory card in the Hermitage notes that Krasotkina and Bilimovich under the direction of I.I. Tolstoy, processed this material 
+                    for the museum records in March 1949. Their proposed reading was ἡ γλή[νη] | [- -]ν δι-| οίχο
+                    and their translation: "Pupil (of an eye).... perish!" where διοίχο is understood as διοίχου.
+                    This restoration makes little sense, and I think it is influenced by I.I. Tostoy's tendency (Греческие граффити древних городов Северного
+                    Черноморья. Leningrad, 1953) to see dedicatory insriptions and harmful magical inscriptions in fragmentary graffiti.
+                    More importantly, it does not correspond to the preserved letters.    
+                </p>
+                <p>A horizontal divider line cuts the sherd into two uneven halves. On each side of the divider, there are lines of text.
+                    Line 1. The first letter must be a tau: the vertical and right half of the horizontal are clear. The second letter is eta. The third must be a nu,
+                    with raised right hasta. The following is either a lambda or alpha, followed by eta with long verticals.
+                    There are markings below this line of text, but it is impossible to make sense of them; it is not clear if they form part of the text or not; to my eye, 
+                    they look like slips of the writing implement as they seem to be lined up below the strokes of the line above. Although the proposed seems to be the safest
+                    interpretation of letter strokes, there is a slight possibility that what I read as a lambda was actually an alpha (the letter strokes have chipped the 
+                    surface so much that the damage might have covered a short horizontal of an alpha. It also cannot be excluded that the short stroke that I restore as a possible
+                    tau belonged to a horizontal of a cross-wheel theta, which extended beyond the circle. Allowing these alternatives to tau and lambda, we would end up
+                    with [Ἀ]θ̣ηναη[- -], which is certainly tempting, but should probably be resisted for that very reason.
+                    </p>
+                <p>The difficulties mount for the rest of the graffito. The direction of sigma suggests that the sherd may have been flipped upside down, 
+                    and the first line in the second half would be the one on the edge of the fragment, 
+                    however, it is also possible that the sherd was not flipped, but the direction of writing switched to retrograde; 
+                    in that case, the line next to the divider would be Line 2.
+                    Another implication of the latter arrangement would be that what looks like a dzeta would have to be read as a tau.</p>
+                <p>Line 2. I prefer the option of a flipped sherd, which might be suggested by the existence of the horizontal divider line. 
+                    The first two letters ΟΣ seem certain to me, and might suggest an ending of a word or name. The following vertical has a short horizontal
+                    at the bottom suggesting a zeta, followed by a squarish omicron, of the same shape as before the sigma. There appear 
+                    to be remains of a letter to the right of omicron.</p>
+                <p>A long diagonal that stretches from the straight divider line into the space between omicron and sigma is hard to see as a letter stroke. 
+                    Line 3. To the right of that diagonal, after some space - two letters are written closely together: iota and either a delta or omicron. 
+                    I opt for the latter because there seems to be a rounded stroke that merges with the straight divider line. After some space, another letter 
+                    in that line appears to be a nu (the extension of the diagonal to the 
+                    right beyond the right vertical of nu looks to me like a slip of the writing implement.</p>
+                <p>What category of text we are dealing with is impossible to say with any degree of certainty. The use of a sherd, small letter
+                    size, four lines of text, the use of a noun in the accusative, a possible substantive ending in -ΟΣ suggest a message or note, but we cannot exclude
+                    some sort of an account. Either interpretation would be supported by the residential context of find.
+                    
+                    <!--Архивные данные - Дело Арх. Комм. 1903 г. No. 80
+                 Received from Arch Comm in 1906.  --></p>
+                <p/>
+            </div>
+        </body>
+    </text>
+ 
+</TEI>

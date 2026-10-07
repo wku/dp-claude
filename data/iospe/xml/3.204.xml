@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Метрическая эпитафия [---]оны</title><title xml:lang="en">Metrical epitaph of a woman</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.223</idno><idno type="PE">PE3000193</idno><idno type="filename">3.204</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3635</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3635</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc18">
+                     <seg xml:lang="ru">Метрическая надгробная надпись.</seg>
+                     <seg xml:lang="en">Metrical epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon38">Стенка
+                              саркофага.</objectType>
+                           <objectType xml:lang="en">Sarcophagus.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Частично сохранилась слева и сверху. Расколота на два
+                              соединяющихся фрагмента. Лицевая грань плиты обтесана мелкой зубаткой,
+                              но не отшлифована, оборотная сторона обработана грубо. Сохранилась
+                              четырехстрочная надпись. Эпиграфическое поле ограничено рельефной
+                              рамкой.</p>
+                           <p xml:lang="en"/>
+                           <dimensions>
+                              <height unit="cm">78,0</height>
+                              <width unit="cm">88,0</width>
+                              <depth unit="cm">14,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Узкие, слегка вытянутые буквы, альфа с прямой
+                           перекладиной, овальные тета и омикрон, омега в виде перевернутого мю,
+                           слабое апицирование.</seg>
+                        <seg xml:lang="en">Narrow, slightly elongated letters, alpha with straight crossbar, oval theta and omicron, 
+                           omega in the shape of upside down mu, light serifs.</seg>
+                        <height unit="cm">3,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0151" notAfter="0233" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">2-я пол. II – нач. III в. н.э.</seg>
+                        <seg xml:lang="en">2nd half of II - early III century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Фрагмент 1 (левый) найден М.И. Скубетовым в 1907 г., («у дома Белозерова», НА НЗХТ, д. 36, л. 6, № 316).
+                           Фрагмент 2 (правый) случайно найден в 1908 г. В НА НЗХТ сведений нет.</rs>
+                        <rs type="context">Фрагмент 1: вместе с 10 анэпиграфными обломками саркофага в юго-восточном районе
+                           херсонесского городища, на участке римской «цитадели», в кладке
+                           оборонительной стены («у дома Белозерова»). Фрагмент 2: возле оборонительной стены
+                           около башни XVII (башня Зенона).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Fragment 1 (the left) was found by M.I. Skubetov in 1907 ("by the house of Belozerov," НА НЗХТ, д. 36, л. 6, № 316).
+                           Fragment 2 (the right) was a random find in 1908 (no information in НА НЗХТ).</rs>
+                        <rs type="context">Fragment 1: found together with 10 uninscribed pieces of a sarcophagus in souteast sector of the citadel of Chersonesos, in the 
+                        area of the Roman "citadel," masonry of fortification wall ("by the house of Belozerov"). Fragment 2: next to the fortification wall by Tower XVII (Zeno's Tower).</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-20" who="CB">Metadata, tokenisation, origDate and app crit
+            tags</change>
+         <change when="2015-11-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1908--><ptr target="bib:b0149"/>, 20, № <citedRange>8</citedRange></bibl>
+               <bibl><!-->Латышев 1909b--><ptr target="bib:b0478"/>, <citedRange>48 сл.</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE"/> <citedRange>516</citedRange>
+               (= <bibl><!--Peek, GVI--><ptr target="bib:b0521"/>, <citedRange>1027</citedRange></bibl>)</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><lg><l met="hexameter"><w>οὔνομά</w> <w>μοι</w> <w>θέσα<supplied reason="lost">ν</supplied></w> 
+                                 <persName type="attested" ref="#person855"><name nymRef="—όνα"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">όνα</seg></name></persName> <w>καλέεσθαι</w> <w>τοκῆες</w>.</l>
+               	<lb n="2"/><l met="hexameter"><w>ἐννέα</w> <w>δὴ</w> <w>δὶς</w> <w>ἔμι<supplied reason="lost">μν</supplied>ον</w> 
+               	             <w>ἐγὼ</w> <w>κούρη</w> <w>λυκάβαντ<supplied reason="lost">ας</supplied></w>,</l> 
+               	<lb n="3"/><l met="hexameter"><w>ἐνεακαιδεκάτο<supplied reason="lost">υ</supplied></w> <w><supplied reason="lost">δὲ</supplied></w> 
+               	             <w>περιπλομένου</w> <w>ἐνιαυτοῦ</w></l>
+               	<lb n="4"/><l met="hexameter"><supplied reason="lost"><w>μήτηρ</w> <w>θάψε</w> <w>με</w></supplied>, 
+               	          <w><supplied reason="lost">πυρσ</supplied>ὸν</w> <w>ἀναψαμένη</w> 
+                              <w>π<choice><corr>αλ</corr><sic>ΛΑ</sic></choice>ά<choice><corr>μ</corr><sic>Ν</sic></choice>αισι</w></l></lg>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg source="bib:IOSPE">[Ἰσιγ]όνα <note>e. g., vel</note> [Ἁντιγ]όνα,
+                     [Ἠριγ]όνα.</rdg>
+               </app>
+               <app loc="2">
+                  <rdg source="bib:b0521">λυκάβαντ[ας]</rdg>
+                  <rdg source="bib:IOSPE">λυκάβαν[τας]</rdg>
+               </app>
+               <app loc="3">
+                  <rdg><note>in.: scripsi sec. lap.</note> ΕΝΕΑΚΑΙΔΕΚΑΤ<unclear>O</unclear></rdg>
+                  <rdg source="bib:IOSPE">ἐν<supplied reason="omitted">ν</supplied>εακαιδεκάτ[ου]</rdg>
+               </app>
+               <app loc="4">
+                  <rdg><note>fin.:</note> ΠΛΑΑΝΑΙΣΙ <note>lapis</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Родители дали мне имя [---]она, (которым) меня называют. Я, дева, прожила дважды
+               девять лет. А когда шел девятнадцатый год, [мать похоронила меня], зажегши [костер]
+               (своими) руками.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>The name [- - -]ona my parents gave me to be called so. Twice nine years, a maiden, I had lived, but when the nineteenth year had gone round, 
+               [my mother buried me] having lit [the fire] with (her own) hands.
+            </p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Латышев 1908, 20, № 8 (издание фрагмента 1); Латышев 1909b, 48 сл.
+                  (издание фрагмента 2 и объединение обоих фрагментов); 
+                  Peek, GVI, 1027 (воспроизведен текст IOSPE с минимальными изменениями)</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

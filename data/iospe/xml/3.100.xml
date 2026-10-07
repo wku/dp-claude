@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Клятва граждан Херсонеса</title><title xml:lang="en">Oath of Chersonesites</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.400</idno><idno type="PE">PE3000516</idno><idno type="filename">3.100</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3637</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3637</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc24">
+                     <seg xml:lang="ru">Клятва.</seg>
+                     <seg xml:lang="en">Oath.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Стела с фронтоном, расколотая на две части примерно посередине. Левый и средний акротерии сбиты, обломана снизу. 
+                              Лицевая и боковые грани обработаны тщательно, тыльная сторона - суммарно.</p>
+                           <p xml:lang="en">Pedimental stele, broken into two pieces approximately halfway down. The left and middle acroteria are missing, the stele is 
+                           broken off at the bottom. The front and sides are well worked, the back is treated summarily.</p>
+                           <dimensions>
+                              <height unit="cm">139,0</height>
+                              <width unit="cm">42,0</width>
+                              <depth unit="cm">12,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с прямой перекладиной, каппа с короткими наклонными, мю с наклонными боковыми гастами, 
+                           правая гаста ню слегка приподнята, омикрон меньше остальных букв, {верхняя поперечная линия пи не выступает за 
+                           короткую правую вертикаль}, сигма с расходящимися верхней и нижней гастами, 
+                           концы дуги омеги не сближаются, утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Alpha with a straight crossbar, kappa with short diagonals, mu with slanting outer hastae, 
+                           nu with slightly raised right vertical, omicron smaller than other letters, four-bar sigma with splayed bars, 
+                           slight flaring of the ends of letterstrokes.</seg>
+                        <height unit="cm">1,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0350" notAfter="-0268" evidence="Палеография">
+                        <seg xml:lang="ru">2-я пол. IV – нач. III в. до н.э.</seg>
+                        <seg xml:lang="en">2nd half of IV - early III century B.C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Нижняя часть найдена в октябре 1890 г., верхняя - в марте 1891 г. недалеко друг от друга. Раскопки К.К. Косцюшко-Валюжинича 
+                           (НА НЗХТ, д. 19, л. 5, № 39; д. 2, л. 2; ср. (ОАК за 1891 г, 3).</rs>
+                        <rs type="context">В центральной части городища, на площади с северной стороны собора св. Владимира, среди остатков византийского храма.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Lower part found in Ocotber 1890, upper part in March 1891, not far from one another. 
+                           Excavations of K.K. Kostsyushko-Valyuzhinich (НА НЗХТ, д. 19, л. 5, № 39; д. 2, л. 2; ср. (ОАК за 1891 г, 3).</rs>
+                        <rs type="context">In the central part of the citadel, in the square to the north of St. Vladimir cathedral, among the remains of a Byzantine church.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-10-12" who="SS">encoded metadata</change>
+         <change when="2016-10-11" who="SS">encoded text</change>
+         <change when="2016-10-07" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.400">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Латышев 1892 --><ptr target="bib:b0125"/>, <citedRange>1</citedRange>
+               (= <bibl><!-- Latyschew 1892 --><ptr target="bib:b0849"/>, <citedRange>479</citedRange></bibl>)
+               (= <bibl><!-- Reinach 1892 --><ptr target="bib:b0850"/>, <citedRange>403-408</citedRange></bibl>
+               <bibl><!-- Michel, Recueil 1316 --><ptr target="bib:b0851"/></bibl>
+               <bibl><!-- Латышев 1900 --><ptr target="bib:b0852"/></bibl>)</bibl>
+               <bibl><!-- Syll.2 --><ptr target="bib:Syll.2"/> <citedRange>461</citedRange></bibl>
+               <bibl><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>IV 79</citedRange>
+               (= <bibl><!-- Латышев 1909 --><ptr target="bib:b0853"/>, <citedRange>142-160</citedRange></bibl>
+               <bibl><!-- Minns 1913 --><ptr target="bib:b0336"/>, <citedRange>645, № 16</citedRange></bibl>
+               <bibl><!-- Syll.3 --><ptr target="bib:Syll.3"/> <citedRange>360</citedRange></bibl>
+               <bibl><!-- Schwyzer, Delectus --><ptr target="bib:b0854"/> <citedRange>173</citedRange></bibl>)</bibl>
+               <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>401</citedRange>
+               (= <bibl><!-- Müller 2010 --><ptr target="bib:b0435"/>, <citedRange>370, № 10</citedRange></bibl>)</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Ернштедт 1892 --><ptr target="bib:b0855"/></bibl>
+               <bibl><!-- Σκιάς 1893 --><ptr target="bib:b0856"/></bibl>
+               <bibl><!-- Латышев 1895 --><ptr target="bib:b0130"/>, <citedRange>72, ad № 1</citedRange></bibl>
+               <bibl><!-- Wilhelm 1897 --><ptr target="bib:b0445"/>, <citedRange>87-88</citedRange></bibl>
+               <bibl><!-- Zingerle 1927 --><ptr target="bib:b0857"/></bibl>
+               <bibl><!-- Жебелев 1935 --><ptr target="bib:b1014"/>, <citedRange>913</citedRange>
+               (= <bibl><!-- Жебелев 1953 --><ptr target="bib:b0563"/>, <citedRange>217</citedRange></bibl>)</bibl>
+               <bibl><!-- Виноградов, Щеглов 1990 --><ptr target="bib:b0454"/>, <citedRange>335</citedRange> 
+               (= <bibl><!-- SEG --><ptr target="bib:SEG"/> <citedRange>42, 693</citedRange></bibl>
+               cf. <bibl type="comparison"><!-- Vinogradov 1997 --><ptr target="bib:b0453"/>, <citedRange>445</citedRange></bibl>)</bibl>
+               <bibl><!-- Шангин 1938 --><ptr type="bib:b0239"/>, <citedRange>74</citedRange></bibl>
+               <bibl><!-- Соломоник 1990 --><ptr target="bib:b0506"/>, <citedRange>9, № 1</citedRange></bibl>
+               <bibl><!-- Stolba 2005 --><ptr target="bib:b0858"/></bibl>
+               <bibl><!-- Макаров 2009 --><ptr target="bib:b0859"/></bibl>
+               <bibl><!-- Makarov 2014 --><ptr target="bib:b0860"/></bibl>
+               <bibl><!-- Макаров 2016 --><ptr target="bib:b1015"/></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><w>ὀμνύω</w> <persName type="divine" key="zeus"><name>Δία</name></persName>, <persName type="divine" key="ge"><name>Γᾶν</name></persName>, 
+                                                <persName type="divine" key="helios"><name>Ἅλιον</name></persName>, <persName type="divine" key="parthenos"><name>Παρθένον</name></persName>,
+               		<lb n="2"/><persName type="divine" key="olympians"><w><supplied reason="lost">θ</supplied>εοὺς</w> <w>ʼΟλυμπίους</w> <w>καὶ</w> <w>ʼΟλυμπίας</w></persName> 
+               		<lb n="3"/><w><supplied reason="lost">κ</supplied>αὶ</w> <persName type="divine" key="heros"><w>ἥρωας</w></persName> <w>ὅσοι</w> <w>πόλιν</w> <w>καὶ</w> <w>χώραν</w>
+               		<lb n="4"/><w>καὶ</w> <w>τείχη</w> <w>ἔχοντι</w> <w>τὰ</w> <placeName type="ethnic">Χερσονασι
+               		<lb n="5" break="no"/>τᾶν</placeName>· <w>ὁμονοησῶ</w> <w>ὑπὲρ</w> <w>σωτηρίας</w>
+               		<lb n="6"/><w>καὶ</w> <w>ἐλευθερίας</w> <w>πόλεος</w> <w>καὶ</w> <w>πολι
+               		<lb n="7" break="no"/>τᾶν</w> <w>καὶ</w> <w>οὐ</w> <w>προδωσῶ</w> <placeName>Χερσόνασον</placeName>
+               		<lb n="8"/><w>οὐδὲ</w> <placeName>Κερκινῖτιν</placeName> <w>οὐδὲ</w> <placeName>Καλὸν λιμέ
+               		<lb n="9" break="no"/>να</placeName> <w>οὐδὲ</w> <w>τἆλλα</w> <w>τείχη</w> <w>οὐδὲ</w> <w>τᾶς</w> <w>ἄλ
+               		<lb n="10" break="no"/>λας</w> <w>χώρας</w> <w>ἃν</w> <placeName type="ethnic">Χερσονασῖται</placeName> <w>νέμον
+               		<lb n="11" break="no"/>ται</w> <w>ἢ</w> <w>ἐνέμοντο</w> <w>οὐθενὶ</w> <w>οὐθὲν</w> <w>οὔτε</w> <placeName type="ethnic">Ἕλ
+               		<lb n="12" break="no"/>λανι</placeName> <w>οὔτε</w> <w>βαρβάρωι</w>, <w>ἀλλὰ</w> <w>διαφυλα
+               		<lb n="13" break="no"/>ξῶ</w> <w>τῶι</w> <w>δάμωι</w> <w>τῶι</w> <placeName type="ethnic">Χερσονασιτᾶν</placeName>· <w>οὐ
+               		<lb n="14" break="no"/>δὲ</w> <w>καταλυσῶ</w> <w>τὰν</w> <w>δαμοκρατίαν</w>, <w>οὐ
+               		<lb n="15" break="no"/>δὲ</w> <w>τῶι</w> <w>προδιδόντι</w> <w>καὶ</w> <w>καταλύοντι</w> <w>ἐ
+               		<lb n="16" break="no"/>πιτρεψῶ</w> <w>οὐδὲ</w> <w>συγκρυψῶ</w>, <w>ἀλλὰ</w> <w>ἐ
+               		<lb n="17" break="no"/>ξαγγελῶ</w> <w>τοῖς</w> <w>δαμιοργοῖς</w> <w>τοῖς</w> <w>κα
+               		<lb n="18" break="no"/>τὰ</w> <w>πόλιν</w>· <w>καὶ</w> <w>πολέμιος</w> <w>ἐσσοῦμαι</w> <w>τῷ</w>
+               		<lb n="19"/><w>ἐπιβουλεύοντι</w> <w>καὶ</w> <w>προδιδόντι</w> <w>ἢ</w> <w>ἀφι
+               		<lb n="20" break="no"/>στάντι</w> <placeName>Χερσόνασον</placeName> <w>ἢ</w> <placeName>Κερκινῖτιν</placeName> <w>ἢ</w>
+               		<lb n="21"/><placeName>Καλὸν λιμένα</placeName> <w>ἢ</w> <w>τὰ</w> <w>τείχη</w> <w>καὶ</w> <w>χώραν</w>
+               		<lb n="22"/><w>τὰν</w> <placeName type="ethnic">Χερσονασιτᾶν</placeName>· <w>καὶ</w> <w>δαμιοργησῶ</w>
+               		<lb n="23"/><w>καὶ</w> <w>βουλευσῶ</w> <w>τὰ</w> <w>ἄριστα</w> <w>καὶ</w> <w>δικαιότα
+               		<lb n="24" break="no"/>τα</w> <w>πόλει</w> <w>καὶ</w> <w>πολίταις</w> <w>καὶ</w> <w>τὸν</w> <w>σαστῆ
+               		<lb n="25" break="no"/>ρα</w> <w>τῶι</w> <w>δάμωι</w> <w>διαφυλαξῶ</w> <w>καὶ</w> <w>οὐκ</w> <w>ἐ
+               		<lb n="26" break="no"/>χφερομυθησῶ</w> <w>τῶν</w> <w>ἀπορρήτων</w> <w>οὐ
+               		<lb n="27" break="no"/>θὲν</w> <w>οὔτε</w> <w>ποτὶ</w> <placeName type="ethnic">Ἕλλανα</placeName> <w>οὔτε</w> 
+                                                   <w>ποτὶ</w> <w>βά<supplied reason="lost">ρ</supplied>
+               		<lb n="28" break="no"/>βαρον</w>, <w>ὃ</w> <w>μέλλει</w> <w>τὰμ</w> <w>πόλιν</w> <w>βλάπτει<unclear>ν</unclear></w>·
+               		<lb n="29"/><w>οὐδὲ</w> <w>δωρεὰν</w> <w>δωσῶ</w> <w>οὐδὲ</w> <w>δεξοῦμα<supplied reason="lost">ι</supplied></w>
+               		<lb n="30"/><w>ἐπὶ</w> <w>βλάβαι</w> <w>πόλεος</w> <w>καὶ</w> <w>πολιτᾶν</w>· <w>οὐδὲ</w>
+               		<lb n="31"/><w>ἐπιβουλευσῶ</w> <w>ἄδικον</w> <w>πρᾶγμα</w> <w>οὐθενὶ</w>
+               		<lb n="32"/><w>οὐθὲν</w> <w>τῶμ</w> <w>πολιτᾶν</w> <w>τῶμ</w> <w>μὴ</w> <w>ἀφε
+               		<lb n="33" break="no"/>στακότων</w>, <w>οὐδὲ</w> <w>τῶι</w> <w>ἐπιβουλεύον<supplied reason="lost">τι</supplied></w>
+               		<lb n="34"/><supplied reason="lost" cert="low"><w>ἐπιτρεψῶ</w> <w>οὐδὲ</w> <w>συγκρυψῶ</w> <w>οὐθὲν</w> 
+               		                      <w>οὐθε</w></supplied>
+               		<lb n="35" break="no"/><w part="F">νὶ</w>, <w>ἀλλ’</w> <w>εἰσαγγελ<supplied reason="lost">ῶ</supplied></w> 
+                                                            <w>καὶ</w> <w>κρινῶ</w> <w>ψά<supplied reason="lost">φωι</supplied></w>
+               		<lb n="36"/><w>κατὰ</w> <w>τοὺς</w> <w>νόμους</w>· <w>οὐδὲ</w> <w>συνωμο<supplied reason="lost">σί</supplied>
+               		<lb n="37" break="no"/>αν</w> <w>συνομοῦμαι</w> <w>οὔτε</w> <w>κατὰ</w> <w>τοῦ</w> <w>κοιν<supplied reason="lost">οῦ</supplied></w>
+               		<lb n="38"/><w>τοῦ</w> <placeName type="ethnic">Χερσονασιτᾶν</placeName> <w>οὔτε</w> <w>κατὰ</w> 
+                                                            <w>τῶμ</w> <w><supplied reason="lost">πο</supplied>
+               		<lb n="39" break="no"/>λιτᾶν</w> <w>οὐδενὸς</w>, <w>ὃ<unclear>ς</unclear></w> <w>μὴ</w> 
+                                                            <w>ἀποδέδεικτα<supplied reason="lost">ι</supplied></w>
+               		<lb n="40"/><w><supplied reason="lost">π</supplied>ολέμιος</w> <w>τῶι</w> <w>δάμωι</w>· 
+                                                            <w>εἰ</w> <w>δέ</w> <w>τινι</w> <w>συν<unclear>ώ</unclear>
+               		<lb n="41" break="no"/><supplied reason="lost">μο</supplied>σα</w> <w>καὶ</w> <w>εἴ</w> <w>τινι</w> 
+                                                               <w>καταλέλαμμαι</w> <w>ὅρ<unclear>κ</unclear><supplied reason="lost">ωι</supplied></w>
+               		<lb n="42"/><w><supplied reason="lost">ἢ</supplied></w> <w><supplied reason="lost">ἐ</supplied>πευχᾶι</w>, 
+                                                            <w>δι<supplied reason="lost">α</supplied>λυσαμένωι</w> <w>μὲν</w> <w>ἄμ<supplied reason="lost">ει</supplied>
+               		<lb n="43" break="no"/>νον</w> <w>εἴη</w> <w>καὶ</w> <w>ἐμοὶ</w> <w>καὶ</w> <w>τοῖς</w> <w>ἐμοῖς</w>, <w>ἐμμέ
+               		<lb n="44" break="no"/>νοντι</w> <w>δὲ</w> <w>τὰ</w> <w>ἐναντία</w>· <w>καὶ</w> <w>εἴ</w> 
+                                                         <w>τινά</w> <w>κ<unclear>α</unclear></w>
+               		<lb n="45"/><w>συνωμοσίαν</w> <w>αἴσ<supplied reason="lost">θω</supplied>μαι</w> <w>ἐοῦσαν</w> 
+                                                            <w><unclear>ἢ</unclear></w> <w><supplied reason="lost">γι</supplied>
+               		<lb n="46" break="no"/>νομέναν</w>, <w>ἐξαγγελῶ</w> <w>τοῖς</w> <w>δαμ<supplied reason="lost">ιορ</supplied>
+               		<lb n="47" break="no"/><unclear>γ</unclear>οῖς</w>· <w>οὐδὲ</w> <w>σῖτον</w> <w>ἀπὸ</w> 
+                                                            <w>τοῦ</w> <w>πεδίου</w> <w>ἀ<supplied reason="lost">πα</supplied>
+               		<lb n="48" break="no"/><unclear>γ</unclear>ώγιμον</w> <w>ἀπο<unclear>δ</unclear>ωσοῦμαι</w> 
+                                                            <w>οὐδὲ</w> <w>ἐξ<supplied reason="lost">α</supplied>
+               		<lb n="49" break="no"/><unclear>ξ</unclear>ῶ</w> <w>ἄλλαι</w> <w>ἀπὸ</w> <w>τοῦ</w> <w>πεδίου</w>, 
+                                                               <w>ἀλλ’</w> <w>ἢ</w> <w><supplied reason="lost">εἰς</supplied></w>
+               		<lb n="50"/><placeName>Χερσόνασον</placeName>· <persName type="divine" key="zeus"><name>Ζεῦ</name></persName> 
+                                                            <w>καὶ</w> <persName type="divine" key="ge"><name>Γᾶ</name></persName> <w>καὶ</w> 
+                                                            <persName type="divine" key="helios"><name>Ἅλιε</name></persName> <w><supplied reason="lost">καὶ</supplied></w>
+               		<lb n="51"/><persName type="divine" key="parthenos"><name>Παρθένε</name></persName> <w>καὶ</w> <w>θεοὶ</w> 
+                                                            <w>ʼΟλύμπιοι</w>, <w>ἐμμένο<supplied reason="lost">ν</supplied>
+               		<lb n="52" break="no"/>τι</w> <w>μέμ</w> <w>μοι</w> <w>εὖ</w> <w>εἴη</w> <w>ἐν</w> <w>τούτοις</w> 
+                                                            <w>καὶ</w> <w>αὐτ<supplied reason="lost">ῶι</supplied></w>
+               		<lb n="53"/><w>καὶ</w> <w>γένει</w> <w>καὶ</w> <w>τοῖς</w> <w>ἐμοῖς</w>, 
+                                                         <w>μὴ</w> <w>ἐμμέν<supplied reason="lost">ον</supplied>
+               		<lb n="54" break="no"/>τι</w> <w>δὲ</w> <w>κακῶς</w> <w>καὶ</w> <w>αὐτῶι</w> <w>καὶ</w> 
+                                                            <w>γένει</w> <w>καὶ</w> <w><supplied reason="lost">τοῖς</supplied></w>
+               		<lb n="55"/><w>ἐμοῖς</w>, <w>καὶ</w> <w>μήτε</w> <w>γᾶ</w> <w>μοι</w> <w>μήτε</w> 
+                                                            <w>θά<supplied reason="lost">λασ</supplied>
+               		<lb n="56" break="no"/>σα</w> <w>καρπὸν</w> <w>φέροι</w>, <w>μήτε</w> 
+                                                               <w>γυνα<supplied reason="lost">ῖκες</supplied></w> <w><supplied reason="lost">εὐτε</supplied>
+               		<lb n="57" break="no"/><supplied reason="lost">κ</supplied>νοῖεν</w>, <w>μήτε</w> 
+                                                            <w part="I"><unclear>π</unclear></w><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="57a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="9-10">
+                  <rdg source="bib:b0125">οὐδὲ τὰς ἄλ/λας χώρας ἇν</rdg>
+                  <rdg source="bib:b0855">οὐδὲ τᾶς ἄλ/λας χώρας ἃν <note>(cf. Wilhelm 1897)</note></rdg>
+                  <note>edd.</note>
+               </app>
+               <app loc="18">
+                  <rdg source="bib:IOSPE"><note>fin.:</note> τῶ[ι]</rdg>
+               </app>
+               <app loc="24-25">
+                  <rdg source="bib:Syll.2 bib:b0851">σαστῆ/ρα</rdg>
+                  <rdg source="bib:IOSPE">ΣΑΣΤΗ/ΡΑ</rdg>
+               </app>
+               <app loc="34">
+                  <rdg source="bib:IOSPE"><note>suppl.</note></rdg>
+                  <rdg source="bib:b0125">[τοιοῦτον πράγμα οὐθὲν ἐπιτρεψῶ οὐθε]/νί</rdg>
+               </app>
+               <app loc="44">
+                  <rdg source="bib:Syll.2"><note>fin.:</note> κα</rdg> 
+                  <rdg source="bib:IOSPE">κ[α]</rdg>
+               </app>
+               <app loc="49">
+                  <rdg source="bib:IOSPE"><note>fin.:</note> [ἢ εἰς]</rdg>
+                  <rdg source="bib:Syll.2">[ἐς]</rdg>
+               </app>
+               <app loc="56-57">
+                  <rdg source="bib:b0856">[εὐτε/κ]νοῖεν</rdg>
+               </app>
+               <app loc="57">
+                  <rdg source="bib:Syll.2">μήτε π̣[- - -] - scripsi; μήτε [- - -]</rdg>
+                  <rdg source="bib:IOSPE">μήτε [. . . . . . . . . . . ]θανα[ . . .]</rdg>
+                  <rdg source="bib:b0857">μήτε τ[ὰ] π[ρόβατα εὐ]θαναίη</rdg>
+                  <rdg source="bib:b0239">μήτε [. . . . εὐ]θανα[τ]ή[σαιμι]</rdg>
+                  <rdg source="bib:b0860">μ̣ή̣τ̣ε̣ π̣[ρόβατα εὐθηνοῖ] <note>(cf. Макаров 2016)</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Клянусь Зевсом, Землей, Солнцем, Девой, олимпийскими богами и богинями и героями, которые владеют городом, 
+               землей и укреплениями херсонеситов.</p>
+            <p>Я буду проявлять единомыслие в том, что касается целостности и свободы города и граждан, и ни эллину, 
+               ни варвару не предам ни Херсонеса, ни Керкинитиды, ни Прекрасной гавани, ни прочих укреплений и никакой прочей земли, 
+               которой херсонеситы владеют или владели, но сохраню (их) для народа херсонеситов.</p>
+            <p>Я не свергну власть народа, а предающему и свергающему не позволю (сделать это) и не буду скрывать (этого), но сообщу 
+               городским магистратам.</p>
+            <p>Я буду врагом злоумышляющему и предающему или отторгающему Херсонес, Керкинитиду, Прекрасную гавань или укрепления 
+               и землю херсонеситов.</p>
+            <p>Я исполню обязанности магистрата и члена Совета самым лучшим и самым справедливым образом в интересах полиса и граждан, 
+               сохраню казну для народа и не разглашу никакой тайны ни эллину, ни варвару, если это способно нанести ущерб полису. 
+               Я не дам и не приму дара во вред городу и гражданам.</p>
+            <p>Я не задумаю ничего незаконного по отношению к гражданам за исключением отступников и не [позволю] злоумышляющему 
+               (осуществить замыслы) [и не буду ничего скрывать в чьих-либо интересах ?], но заявлю и подам голос на суде согласно законам.</p>
+            <p>Я не буду участвовать в сговоре ни против общины херсонеситов, ни против кого-либо из граждан, если он не объявлен врагом народа; 
+               если же я (ранее) вступил в сговор и уже связан клятвой или проклятием, то в случае отказа (от них) пусть будет благо мне и тому, 
+               что у меня есть, а при (их) соблюдении пусть будет противоположное; если же я узнаю о существовании или возникновении сговора, 
+               я сообщу магистратам.</p>
+            <p>Хлеб, вывозимый с равнины, я не буду ни продавать, ни вывозить с равнины   в другое место, но только в Херсонес.</p>
+            <p>Зевс, Гея, Гелиос, Дева, олимпийские боги! Если я буду верен этим словам, пусть будет благо мне самому, моим потомкам 
+               и моему имуществу. Если же нет, пусть будет несчастье мне самому, моим потомкам и моему имуществу, и пусть ни земля, 
+               ни море не приносят мне плода, ни женщины не родят благополучно, ни - - -</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>I swear by Zeus, Ge, Helios, Parthenos, by Olympic gods and goddesses, and by heroes however so many hold the city, chora, and strongholds of the Chersonesites:
+               I shall uphold the consensus (homonoia) concerning the safekeeping and freedom of the city and the citizens; and I shall betray to no one either Chersonesos, Kerkinitis, Kalos Limen,
+               or any other strongholds or lands that Chersonesites possess or used to possess, neither to an Hellene nor barbarian, but shall preserve them for the people (damos)
+               of Chersonesites. I shall not dissolve the democracy, nor shall I permit (this) or conspire to conceal the one who betrays or dissolves it; rather I shall report him 
+               to the magistrates who are in the city. I shall be hostile to anyone plotting against and betraying or setting oneself up against Chersonesos, Kerkinitis, Kalos Limen or the strongholds
+               and chora of Chersonesites. I shall serve as a magistrate and shall counsel the best and most just measures to the city and the citizens, and I shall safeguard the 
+               saster (treasury?) for the people, and shall not reveal any secret, which might harm the city, either to an Hellene or a barbarian. I shall neither give nor accept
+               a gift harmful to the city or the citizens. I shall not conspire anything unjust with respect to the citizens unless they had revolted 
+                and [shall not allow or conceal for someone's sake?] 
+               anyone plotting (to do this), but shall report and judge by vote according to the laws. I shall not swear to conspiracy either against the commonalty of Chersonesites
+               or against any citizen unless he had shown himself hostile to the people; if I had already sworn to any conspiracy and am bound by an oath or a curse,
+               then if I dissolve them, may it be better for me and my near and dear, and if stand by them, then the opposite. And if I should learn about an existing or arising
+               conspiracy, I shall report to the magistrates. The grain that comes from the plain, I shall neither sell nor export from the plain anywhere but to Chersonesos.
+               Zeus and Ge and Helios and Parthenos and the Olympian gods! If I stay true (to my oath) in these matters, may it be well for me, my kin and all that is mine.
+               And if I do not, may it be bad for me, my kin and all that is mine, and may neither earth nor sea yield their fruit, neither women bear [...], nor [...]</p>
+            <p>Translator's Note: The above translation in lines 32-33 and 39-40 is according to the editor's understanding of μὴ ἀφεστακότων and 
+               ὃς̣ μὴ ἀποδέδεικτα[ι] [π]ολέμιος τῶι δάμωι. My understanding differs as follows: I shall not conspire anything unjust against the citizens who 
+               had not revolted and [shall not allow or conceal for someone's sake?] anyone plotting (to do this), but shall report and judge by vote according to the laws. 
+               I shall not swear to conspiracy either against the commonalty of Chersonesites or against any citizen who had not shown oneself to be hostile to the people.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>18: ср. Латышев 1895: iota adscriptum не вырезана из-за недостаткa места.</p>
+            <p>57: μήτε [. . . . . . . . . . . ]θανα[ . . .] на основании ошибочного присоединения фрагмента, см. комментарий.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>18: cf. Latyshev 1895: iota adscriptum is left out due to the lack of space.</p>
+            <p>57: μήτε [. . . . . . . . . . . ]θανα[ . . .] on the basis of an incorrectly joined fragment, see commentary.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ru">Говорящий предмет (граффито на светильнике)</title>
+                <title xml:lang="uk"/>
+                <title xml:lang="en">Speaking object </title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>King's College London</authority>
+                <idno type="PE">PE2010034</idno>
+                <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="filename">2.1.1.1</tei:idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/>
+                        <altIdentifier xml:lang="ru">
+                            <repository>Государственный Эрмитаж</repository>
+                            <idno>Б.368</idno>
+                        </altIdentifier><altIdentifier xml:lang="uk"><repository/><idno/></altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>The State Hermitage Museum</repository>
+                            <idno>Б.368</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="document-search.xml#doc32">
+                            <seg xml:lang="ru">Говорящий предмет.</seg>
+                            <seg xml:lang="uk"></seg>
+                            <seg xml:lang="en">Speaking object.</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ru" ref="monument-search.xml#mon46">Светильник.</objectType>
+                                    <objectType xml:lang="uk" ref="monument-search.xml#mon46"/>
+                                    <objectType xml:lang="en">Oil lamp.</objectType>
+                                    
+                                    <material xml:lang="ru" ref="material-search.xml#m10">Глина.</material>
+                                    <material xml:lang="uk" ref="material-search.xml#m10"/>
+                                    <material xml:lang="en">Clay.</material>
+                                    <p xml:lang="ru"/>
+                                    <p xml:lang="uk"></p>
+                                    <p xml:lang="en">Broken into 3 fragments, glued together; parts of the underside and wall are missing; 
+                                        half a spout is also missing.</p>
+                                    <dimensions>
+                                        <height unit="cm">1.6</height>
+                                        <width unit="cm"/>
+                                        <depth unit="cm"/>
+                                        <dim type="diameter" unit="cm">9.0</dim>
+                                    
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <seg xml:lang="ru"/>
+                                    <seg xml:lang="uk"/>
+                                    <seg xml:lang="en">On the vertical face <!-- (CHECK Agora volume description) --> that runs the circumference of the lamp.</seg>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито.</rs></seg>
+                                <seg xml:lang="uk"><rs type="execution" ref="execution.xml#scariphatis"/></seg>
+                                <seg xml:lang="en">Graffito. Letters are somewhat sloppily cut and unevenly distributed; 
+                                    letter strokes filled with white paste.</seg>
+                                <height unit="cm">0.5-1.0</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origPlace.xml#p066"/>
+                            <seg xml:lang="ru">Борисфен.</seg><seg xml:lang="uk"/>
+                                <seg xml:lang="en">Borysthenes.</seg>
+                            <origDate notBefore="-0550" notAfter="-0550" precision="medium" evidence="Датировка_керамики">
+                                <seg xml:lang="ru">Ок. 550 до н.э.</seg>
+                                <seg xml:lang="uk"/>
+                                <seg xml:lang="en">ca. 550 B.C.E.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="ru">
+                               
+                                <placeName type="ancientFindspot" ref="findspot.xml#berezan">Березань.</placeName>
+                                <rs type="circumstances">Найден в 1909 г., раскопки Э.Р. фон Штерна.</rs>
+                                <rs type="context">Раскоп В8, яма 28.</rs>
+                            </seg><seg xml:lang="uk">
+                                <placeName type="ancientFindspot" ref="findspot.xml#berezan"/>
+                                <rs type="circumstances"/>
+                                <rs type="context"/></seg>
+                            <seg xml:lang="en">
+                                <placeName type="ancientFindspot">Berezan, Ukraine.</placeName>
+                                <rs type="circumstances">Found in 1909, excavations of E.R. Stern.</rs>
+                                <rs type="context">Trench В8, Pit 28.</rs>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="ru">Санкт-Петербург, Россия.</seg><seg xml:lang="uk"/>
+                            <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsy">
+                            <seg xml:lang="ru">Август 2016.</seg>
+                            <seg xml:lang="uk"/>
+                            <seg xml:lang="en">August 2016.</seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-01-01" who="IP"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="2010034-dr"><desc xml:lang="en"/><desc xml:lang="ru"/><desc xml:lang="uk"/></graphic></surface> <!-- <surface>
+            <graphic url="2010034-a">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010034-b">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010034-c">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010034-d">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010034-e">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010034-f">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010034-g">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010034-h">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010034-i">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010034-j">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface> -->
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl><!--Stern 1910--><ptr target="bib:b0000000"/>, <citedRange>88</citedRange></bibl>
+                    <bibl><ptr target="bib:b"/></bibl>
+                    <bibl><ptr target="bib:b"/>, p. 141, no. <citedRange>268</citedRange>.</bibl>
+                    
+                    <!--<bibl>Tokhtasiev, S.R. (2005) “Граффити.” Борисфен-Березань. Начало античной эпохи в Северном Причерноморье. Каталог выставки. 
+                        Государственный Эрмитаж, St. Petersburg</bibl>
+                    <bibl>Vinogradov, Yu.G. (1991) Review of M. Guarducci, L’epigrafia greca dalle origine al Tardo Impero. Roma, 1987// VDI 1991/2, 231ff.</bibl>
+                    <bibl>Yaylenko, V.P. (1979) “Несколько ольвийских и березанских граффити.” КСИА 159:57-58, no. 11, fig. 2</bibl>
+                    <bibl>Gubochkin, V.B. (1989) “Проблемы скифо-сарматской археологии Северного Причерноморья.» Тезисы докл. конф. Запорожье, pp. 36-38</bibl>-->
+                    
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                </listBibl>
+            </div>
+            <div type="bibliography" subtype="commentaries">
+                <!-- Комментарии -->
+                
+            </div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+                        <lb n="1"/><w>λύχνον</w> <w>εἰμὶ</w> <w>καὶ</w> <w>φαίνω</w> <w><unclear>θ</unclear><supplied reason="lost">εοῖσ</supplied>ιν</w> 
+                <w>κἀνθρώποισιν</w> <gap reason="illegible" quantity="1" unit="character"/>[- -]<w part="F">ως</w> <g ref="#dipunct"/>
+            </ab>
+         </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>ὡς : λύχνον etc. Stern; <g ref="#dipunct"/> λύχνον εἰμὶ  Vinogradov, Tokhtasiev; [Προμηθέ]ως Gubochkin; π̣[ρηέ]ως(?) Vinogradov;  Ι̣[- 2-3 -]ως Tokhtasiev</note></app>
+                </listApp> 
+            </div>
+            <div type="translation" xml:lang="ru">
+                <p>I am a lamp, and I shine for gods and humans (e.g. ungrudgingly or without fame).</p>
+            </div><div xml:lang="uk" type="translation"><p/></div>
+            <div type="translation" xml:lang="en">
+                <p/>
+            </div>
+            <div type="commentary" xml:lang="ru">
+                <p/>
+            </div><div xml:lang="uk" type="commentary"><p/></div>
+            <div type="commentary" xml:lang="en">
+                <p>Since the first edition of E.R. von Stern ("Отчет о раскопках на о. Березани летом 1909 г.", ЗООИД 28, 1910, p. 88; ОАК за 1910 г., p. 108; "Graffiti", Philologus 72, 1913, p. 547), 
+                    several scholars have taken ΩΣ as the start of the text: ὡς in the sense of "since, as". Yaylenko, V.P. (“Несколько ольвийских и березанских граффити,” 
+                    КСИА 159 (1979):57-58, no. 11, fig. 2) and L. Dubois, IGDOlb no. 39 (Inscriptions grecques dialectales d’Olbia du Pont, Geneve 1996, pp. 80-81) translate the text 
+                    as "Since I am a lamp, so I shine for gods and humans." Yuri Vinogradov (Review of M. Guarducci, L’epigrafia greca dalle origine al Tardo Impero. Roma, 1987// VDI 1991/2, 232) 
+                    was the first to argue that the text began with λύχνον, although he printed dipunct as the starting mark. So it is taken by S.R. Tokhtasiev (“Граффити.” Борисфен-Березань. Начало античной эпохи в Северном Причерноморье. 
+                    Каталог выставки. Государственный Эрмитаж, St. Petersburg, 2005, 141, no. 268, p. 141). In my view, the text started with the word λύχνον and ended with a dipunct, or rather, 
+                    the dipunct, at the same time, marked the end and the start of the text's circular layout. Importantly, however, the text started just to the right of the spout, 
+                    and as it wrapped counter-clockwise around the side of the lamp, it ran out of space, causing the last word to be split on the either side of the spout, which later
+                    broke off. Ι estimate a maximum of four lost letters before [- -]ΩΣ:</p>
+                <p>Several restorations have been proposed for the end of the line. The trace that is visible after the final nu of κἀνθρώποισιν is not a letterstroke itself, 
+                    but a slip of a writing implement (this was noted by Vinogradov 1991 and is reflected in his drawing). It was also observed by me during de visu study of the lamp in 2016. 
+                    Despite noting that the preserved stroke was a slip, Vinogradov did not pay attention to the direction of the slip and envisioned it as a continuation of 
+                    a vertical stroke, but the slip runs parallel to the diagonal of the preceding nu, suggesting that the missing letter would have had a left diagonal stroke; thus, 
+                    neither a pi (as read by Vinogradov 1991), nor an iota (as read by Tokhtasiev 2005, unless he simply meant a vertical stroke) is very likely. 
+                    One possibility is a lambda, and we could perhaps restore an adverb λ̣[αμπρ]ῶς, or if it were an alpha, ἀ[γλαῶς] would fit the context, but such words would make the 
+                    lamp's message rather pedestrian. Vinogradov proposed to restore π̣[ρηέ]ως(?), "gently" (from πρᾶος/πραΰς, Ion. πρηΰς), a word not attested in epic vocabulary (see below). 
+                    Earlier, V.B. Gubochkin (Проблемы скифо-сарматской археологии Северного Причерноморья. Тезисы докладов конференции. Zaporizhzhia, 1989, pp. 36-38) proposed 
+                    [Προμηθέ]ως, but the latter is too long and does not make good sense.</p>
+                <p>The text has been interpreted as an attempt to construct a hexameter (Yaylenko 1979, p. 57), trochaic tetrameter (Vinogradov 1991, 232), or catalectic iambic tetrameter 
+                    (Dubois, IGDOlb, p. 80). Yaylenko (1979, 16, n. 32), very plausibly, saw an echo of line 8 of the Homeric Hymn to Helios (ὃς φαίνει θνητοῖσι καὶ ἀθανάτοῖσι θεοῖσιν) and 
+                    of Iliad 20.64. Dubois thought that the allusion to Homeric Hymn to Helios was playful, humourous, since a humble lamp was speaking of itself in a lofty manner of the 
+                    mighty Sun. I am inclined to agree with Dubois that playfulness was intended, and in light of this consideration, other possible restorations come to mind, derived from 
+                    epic usage, e.g. since hymns to the gods celebrate divine κλέος, the lamp's message could underline the contrast with its own unsung utility by using the adverb ἀ̣[κλε]ῶς; 
+                    or it could emphasize its own ungrudging service with ἀ̣[φθόν]ως - in other words, the juxtaposition of gods and humans seems to call for some clever contrast, or an expectation 
+                    and denial of a contrast.</p>
+                <p>Dubois speculated that the metric form echoed the Ionian tradition of Hipponax. Indeed, Rix argued just that ("Ein Hipponax-Vers auf einer Tonlampe aus Olbia, Pontos?" Würzburger 
+                    Jahrbücher für die Altertumswissenschaft 17 (1991), pp. 41-48, as referenced by Tokhtasiev 2005), and if something like ἀ̣[κλε]ῶς were to be restored, it would fit well 
+                    with that hypothesis. The shortness of this option is also appealing in consideration of the tightness of space/suraface apparently lost. Metrical features of this text 
+                    have been also discussed by M. Guarducci (Epigrafia greca III. Roma 1974, p. 346); P.A. Hansen, Carmina epigraphica graeca saeculorum VIII-V a. Chr. n., Berlin-New York 
+                    1983, no. 463); P. Friedländer, with H.B. Hoffleit (Epigrammata, Berkeley 1948, no. 177k)).</p>
+                <p>Vinogradov 1991 deduced from the text that the lamp had been used in a domestic context where it would provide light for people and household cult images; 
+                    Yaylenko argued for use in a cultic setting, specifically in a synnaos shrine of multiple deities, while Stern (1910, 88), followed by Guarducci, 
+                    envisioned mortuary context. The findspot does not aid us in determining the functional context of the lamp, but I see it as an item intended for household service, 
+                perhaps also, but not exclusively, at symposia, where its witty message with erudite allusions could be especially appreciated.</p>
+                <p></p>
+            </div>
+        </body>
+    </text>
+ 
+</TEI>

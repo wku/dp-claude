@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Controlled vocabulary for material</title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list type="gloss">
+                <label xml:lang="ru">белый мрамор</label>
+                <item xml:lang="en">white marble</item>
+                <label xml:lang="ru">известняк</label>
+                <item xml:lang="en">limestone</item>
+                <label xml:lang="ru">проконесский мрамор</label>
+                <item xml:lang="en">proconnesian marble</item>
+                <label xml:lang="ru">белый мелкозернистый мрамор</label>
+                <item xml:lang="en">white close-grained marble</item>
+                <label xml:lang="ru">мрамор</label>
+                <item xml:lang="en">marble</item>
+                <label xml:lang="ru">белый крупнозернистый мрамор</label>
+                <item xml:lang="en">white coarse-grained marble</item>
+                <label xml:lang="ru">каменные тессеры</label>
+                <item xml:lang="en">stone  tesserae</item>
+                <label xml:lang="ru">инкерманский известняк</label>
+                <item xml:lang="en">Inkerman limestone</item>
+                <label xml:lang="ru">песчаник</label>
+                <item xml:lang="en">sandstone</item>
+                <label xml:lang="ru">ноздреватый известняк желтого цвета</label>
+                <item xml:lang="en">spongy yellow limestone</item>
+                <label xml:lang="ru">известняк сарматского яруса</label>
+                <item xml:lang="en">Sarmatian stage limestone</item>
+                <label xml:lang="ru">пористый известняк</label>
+                <item xml:lang="en">porous limestone</item>
+                <label xml:lang="ru">местный известняк</label>
+                <item xml:lang="en">local limestone</item>
+                <label xml:lang="ru">мягкий известняк</label>
+                <item xml:lang="en">soft limestone</item>
+                <label xml:lang="ru">плотный розоватый песчаник</label>
+                <item xml:lang="en">compact pink sandstone</item>
+                <label xml:lang="ru">крымбальский (альминский) известняк</label>
+                <item xml:lang="en">crimbal (Alma) limestone</item>
+                <label xml:lang="ru">охра по штукатурке</label>
+                <item xml:lang="en">ochre on plaster</item>
+                <label xml:lang="ru">темпера на штукатурке</label>
+                <item xml:lang="en">tempera on plaster</item>
+                <label xml:lang="ru">желтоватый известяк</label>
+                <item xml:lang="en">yellowish limestone</item>
+                <label xml:lang="ru">ноздреватый известняк желтоватого цвета</label>
+                <item xml:lang="en">spongy yellowish limestone</item>
+                <label xml:lang="ru">серовато-желтый плотный известняк</label>
+                <item xml:lang="en">grayish-yellow compact limestone</item>
+                <label xml:lang="ru">штукатурка</label>
+                <item xml:lang="en">plaster</item>
+                <label xml:lang="ru">мергель</label>
+                <item xml:lang="en">marl</item>
+                <label xml:lang="ru">вулканический песчаник</label>
+                <item xml:lang="en">volcanic sandstone</item>
+                <label xml:lang="ru">плотный мелкозернистый известняк</label>
+                <item xml:lang="en">cоmpact close-grained limestone</item>
+                <label xml:lang="ru">известняк из юго-западного Крыма</label>
+                <item xml:lang="en">limestone from south-western Crimea</item>
+                <label xml:lang="ru">капсельский песчаник</label>
+                <item xml:lang="en">kapselian sandstone</item>
+                <label xml:lang="ru">желтый капсельский песчаник четвертичного возраста</label>
+                <item xml:lang="en">yellow kapselian sandstone of the Quaternary period</item>
+                <label xml:lang="ru">плотный мшанковый известняк</label>
+                <item xml:lang="en">cоmpact bryozoan limestone</item>
+                <label xml:lang="ru">плотный мергель</label>
+                <item xml:lang="en">cоmpact marl</item>
+                <label xml:lang="ru">известняк-дикарь</label>
+                <item xml:lang="en">limestone rubble</item>
+                <label xml:lang="ru">простой известковый дикарь</label>
+                <item xml:lang="en">plain limestone rubble</item>
+                <label xml:lang="ru">твердый известняк-дикарь</label>
+                <item xml:lang="en">hard limestone rubble</item>
+                <label xml:lang="ru">ракушечник</label>
+                <item xml:lang="en">shell-rock</item>
+                <label xml:lang="ru">твердый ракушечник-дикарь</label>
+                <item xml:lang="en">hard shell-rock rubble</item>
+                <label xml:lang="ru">светло-желтая глина</label>
+                <item xml:lang="en">light yellow clay</item>
+                <label xml:lang="ru">диорит</label>
+                <item xml:lang="en">diorite</item>
+            </list>
+        </body>
+    </text>
+</TEI>

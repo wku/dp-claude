@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Демонстративная надпись</title><title xml:lang="en">Demonstrative inscription</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.220</idno><idno type="PE">PE5000220</idno>
+            <idno type="AYV2012-number">byz208</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc4">
+                     <seg xml:lang="ru">Демонстративная надпись.</seg>
+                     <seg xml:lang="en">Demonstrative.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк<certainty cert="low" locus="value" match=".."/>.</material>
+                           <material xml:lang="en">Limestone<certainty cert="low" locus="value" match=".."/>.</material>
+                           <p xml:lang="ru">Неизвестно.</p>
+                           <p xml:lang="en">Unknown.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На лицевой стороне.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Неизвестен.</seg>
+                        <seg xml:lang="en">Unknown.</seg>
+                        <height/>
+                      </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p029">
+                        <seg xml:lang="ru">Эски-Кермен.</seg>
+                        <seg xml:lang="en">Eski-Kermen.</seg>
+                     </origPlace>
+                     <origDate>
+                        <seg xml:lang="ru">Неизвестна.</seg>
+                        <seg xml:lang="en">Unknown.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#eski-kermen">Эски-Кермен.</placeName>
+                        <rs type="circumstances">1937 г., раскопки Н.И. Репникова.</rs>
+                        <rs type="context">Запад, часовня 1936 г.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Eski-Kermen.</placeName>
+                        <rs type="circumstances">1937, excavations of N.I. Repnikov.</rs>
+                        <rs type="context">West, Chapel of 1936.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-08" who="CB">Andrey's corrections</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-06-27" who="AG">several lines translated</change>
+          <change when="2012-06-19" who="AL">inserted object type, character and material</change>
+          <change when="2012-04-24" who="AL">inserted editor tag, translated several lines</change>
+          <change when="2012-04-17" who="AL">checked text tagging</change>
+          <change when="2012-03-26" who="AFS">checked and corrected Greek text tags </change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p/>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Свет, жизнь.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Light, life.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Текст надписи содержится в описи негативов Эски-Керменской экспедиции 1937 г. (РА ИИМК РАН. Ф. 2. Оп. 1, 1937. Д. 183. Л. 2 об.); 
+               само фото найти не удалось. Там приведен набор из 6 букв: ΦΩΣΖΑΝ. Очевидно, что перепутаны близкие по форме эта и ню, омега и 
+                альфа с петлей.</p>
+                <p>Относительно формулы см. <ref type="introduction">IV.3.C.b</ref>.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The text of the inscription is recorded in the inventory of the photographic negatives from the Eski-Kermen expedition of 1937 (Manuscript Archive, 
+               Institute for  History of Material Culture, Russian Academy of Sciences f. 2. op. 1, 1937, d. 183, l. 2 ob.). I was not able to locate the photograph itself.
+               The text as recorded shows six letters: ΦΩΣΖΑΝ. Apparently, letters that are close in shape were mixed up: eta and nu, omega and alpha with a loop.</p>
+              <p> On the formula, see Introduction <ref type="introduction">IV.3.C.b</ref>.</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="φῶς">Φῶς</w>.
+                <lb n="2"/><w lemma="ζωή">Ζωή</w>.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

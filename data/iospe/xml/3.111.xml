@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение Делия</title><title xml:lang="en">Dedication of Delios</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.422</idno><idno type="PE">PE3000237</idno><idno type="filename">3.111</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3620</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3620</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвятительная надпись.</seg>
+                     <seg xml:lang="en">Dedicatory inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m4">Песчаник.</material>
+                           <material xml:lang="en">Sandstone.</material>
+                           <p xml:lang="ru">Сохранилась полностью. На лицевой поверхности
+                              сохранились следы краски. Трехстрочная надпись выровнена по середине.
+                              На нижней стороне два круглых углубления, напротив каждого углубления
+                              по два прямоугольных прореза.</p>
+                           <p xml:lang="en">Fully preserved. Traces of pain on the front. The text is centered.</p>
+                           <dimensions>
+                              <height unit="cm">20,0</height>
+                              <width unit="cm">35,0</width>
+                              <depth unit="cm">13,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с ломаной поперечной линией, тета с точкой,
+                           вертикальные гасты ню иногда имеют почти одинаковую длину, иногда правая
+                           вертикаль ню чуть укорочена, сигма с горизонтальными верхней и нижней
+                           гастами, омега почти того же размера, что и остальные буквы, I
+                           adscriptum, слегка изогнутые линии отдельных букв, небольшие утолщения на
+                           концах линий букв.</seg>
+                        <seg xml:lang="en">Alpha with broken crossbar, dotted theta, sigma with horizontal top and bottom bars; slightly curved hastae of some letters, slight flaring of the ends of hastae.</seg>
+                        <height unit="cm">2,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0233" notAfter="-0268" evidence="палеография">
+                        <seg xml:lang="ru">кон. III – нач. II в. до н.э.</seg>
+                        <seg xml:lang="en">late III - early II century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1892 г. Раскопки К.К.
+                           Косцюшко-Валюжинича (ОАК за 1892 г., 1894, 26).</rs>
+                        <rs type="context">На южном участке некрополя, около
+                           оборонительной стены Херсонеса, в насыпи.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1892, excavations of K.K.
+                           Kostsyushko-Valyuzhinich (ОАК за 1892 г., 1894, 26).</rs>
+                        <rs type="context">Necropolis by the fortification wall, southern area, in the soil heap.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-14" who="CB">Bibliography</change>
+         <change when="2015-08-26" who="CB">App crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-26" who="CB">Tagging metadata</change>
+         <change when="2015-05-08" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-05-15" who="AV">programmatically tagging Greek words from Word
+            docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.422">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1895--><ptr target="bib:b0130"/>, 9, № <citedRange>3</citedRange>
+               (= <bibl><!--Latyschev 1895--><ptr target="bib:b0808"/>, 514, № <citedRange>3</citedRange></bibl>)</bibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>IV 85</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>411</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Соломоник 1990--><ptr target="bib:b0506"/>, 53, № <citedRange>44</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person958"><name nymRef="Δήλιος">Δήλιος</name> 
+                                   <persName type="attested" ref="#person959"><name nymRef="Ἀπολλᾶς">Ἀπολλᾶ</name></persName></persName> 
+               	<lb n="2"/><persName type="divine" key="parthenos"><name>Παρθένωι</name></persName> 
+               	 <lb n="3"/><w>καθ’</w> <w>ἐνύπνιον</w>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Делий, (сын) Аполлая, (посвятил) Деве по сновидению.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Delios, (son of) Apollas, (dedicated) to Parthenos, in accordance with a dream.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

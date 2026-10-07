@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надписи на колонне, <origDate>ХI–XIII вв.</origDate></title><title xml:lang="en">Inscribed column, <origDate>ХI–XIIIth century C.E.</origDate></title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.89</idno><idno type="PE">PE5000089</idno>
+            <idno type="AYV2012-number">byz089</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3592</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3592</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon22">Колонна.</objectType>
+                           <objectType xml:lang="en">Column.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Проконесский мрамор.</material>
+                           <material xml:lang="en">Proconnesian marble.</material>
+                           <p xml:lang="ru">На колонне множество изображений: на лицевой стороне эскизы нескольких циркульных крестов и врезанное
+                              изображение креста I с каплями на концах, на нижней части и под которым находятся позднейшие углубления для крепления металлического
+                              креста; на тыльной стороне изображение процветшего креста II с каплями на концах и с процарапанными изображениями 3 птиц.
+                              Обломана сверху, снизу и справа; сколы по поверхности.</p>
+                           <p xml:lang="en">There are several images on the column. On the front - sketches of compass-drawn crosses and a carved cross
+                              with "teardrops" (I). The five holes visible in the bottom half of this cross presumably served for the attachment of a metal
+                              cross. On the back - carved foliate cross (II) with "teardrops" and graffiti of three birds.
+                            </p>
+                           <dimensions>
+                              <height>113,0</height>
+                            <dim type="diameter" precision="low">40,0</dim>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="2006-09">Сентябрь 2006</date>.</seg>
+                     <seg xml:lang="en"> <date when="2006-09">September 2006</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1878 г., раскопки ООИД.</rs>
+                        <rs type="context">Храм № 36 («Восточная базилика») (?).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1878, excavations of the Odessa Society for History and Antiquities</rs>
+                        <rs type="context">Church 36 ("Eastern Basilica") (?).</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+               <msPart n="1">
+                  <msIdentifier><idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc3 document-search.xml#doc8 document-search.xml#doc4">
+                        <seg xml:lang="ru" n="1">Демонстративно-мемориальная надпись.</seg>
+                        <seg xml:lang="en" n="1">Demonstrative inscription/commemoration.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f1" n="1">
+                              <seg xml:lang="ru">В углах между рукавами и под крестом I.</seg>
+                              <seg xml:lang="en">In the corners between the arms of cross I and under cross I.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="1">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>, буквы маньеризованные; дельты и лямбда с удлиненными вверх правыми
+                              гастами, йота с диерезой, ипсилон У-образный, фи выполнены двойной линией.</seg>
+                           <seg xml:lang="en">Lapidary. Ornate letters, delta and lambda with projecting right hastae, iota with diaeresis, У-shaped upsilon, phi drawn in double line.</seg>
+                           <height unit="cm">0,8–1,5.</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate n="1" notBefore="1027" notAfter="1027" evidence="указание_надписи">
+                           <seg xml:lang="ru">до 1027 г.</seg>
+                           <seg xml:lang="en">before 1027 C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="2">
+                  <msIdentifier><idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc3 document-search.xml#doc8 document-search.xml#doc4">
+                        <seg xml:lang="ru" n="2">Памятная надпись.</seg>
+                        <seg xml:lang="en" n="2">Commemoration.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f1" n="2">
+                              <seg xml:lang="ru">Слева от креста I.</seg>
+                              <seg xml:lang="en">To the left of cross I.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="2">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито</rs>.</seg>
+                           <seg xml:lang="en">Graffito.</seg>
+                           <height unit="cm">1,0–1,5.</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate n="2" notBefore="1001" notAfter="1300" precision="low" evidence="палеография">
+                           <seg xml:lang="ru">XI–XIII вв.</seg>
+                           <seg xml:lang="en">XI–XIIIth centuries C.E </seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="3">
+                  <msIdentifier><idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc3 document-search.xml#doc8 document-search.xml#doc4">
+                        <seg xml:lang="ru" n="3">Инвокативная надпись.</seg>
+                        <seg xml:lang="en" n="3">Invocative inscription.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f1" n="3">
+                              <seg xml:lang="ru">Под надписью 1.</seg>
+                              <seg xml:lang="en">Under inscription 1.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="3">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито</rs>. Ню и фи минускульные.</seg>
+                           <seg xml:lang="en">Graffito. Minuscule nu and phi.</seg>
+                           <height unit="cm">1,0.</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate n="3" notBefore="1027" notAfter="1027" evidence="указание_надписи">
+                           <seg xml:lang="ru">1027 г.</seg>
+                           <seg xml:lang="en">1027 C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="4">
+                  <msIdentifier>
+                     <idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc3 document-search.xml#doc8 document-search.xml#doc4">
+                        <seg xml:lang="ru" n="4">Инвокативная <certainty cert="low" locus="value" match=".."/> надпись.</seg>
+                        <seg xml:lang="en" n="4">Invocative <certainty cert="low" locus="value" match=".."/> inscription.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f1" n="4">
+                              <seg xml:lang="ru">Слева от надписи 1.</seg>
+                              <seg xml:lang="en">To the left of inscription 1.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="4">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито</rs>.</seg>
+                           <seg xml:lang="en">Graffito.</seg>
+                           <height unit="cm">1,0.</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate n="4" notBefore="1001" notAfter="1300" precision="low" evidence="палеография">
+                           <seg xml:lang="ru">XI–XIII вв.</seg>
+                           <seg xml:lang="en">XI–XIIIth centuries C.E </seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="5">
+                  <msIdentifier><idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc3 document-search.xml#doc8 document-search.xml#doc4">
+                        <seg xml:lang="ru" n="5">Демонстративная <certainty cert="low" locus="value" match=".."/>  надпись.</seg>
+                        <seg xml:lang="en" n="5">Demonstrative <certainty cert="low" locus="value" match=".."/>.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f6" n="5">
+                              <seg xml:lang="ru">На рукавах и перекрестье креста II.</seg>
+                              <seg xml:lang="en">On the arms and intersection of cross II.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="5">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>, буквы прорезаны неглубоко. Альфа с наклонной перекладиной,
+                              ипсилон V-образный; сокращение.</seg>
+                           <seg xml:lang="en">Lapidary, shallow letters. Alpha with slanting crossbar, V-shaped upsilon; abbreviation.</seg> 
+                           <height unit="cm">1,4–2,3.</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate n="5" notBefore="1027" notAfter="1027" evidence="указание_надписи">
+                           <seg xml:lang="ru">до 1027 г.</seg>
+                           <seg xml:lang="en">before 1027 </seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+            
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-29" who="CB">Textparts</change>
+         <change when="2015-04-17" who="CB">Andrey's corrections</change>
+         <change when="2015-03-31" who="CB">Andrey's corrections</change>
+          <change when="2013-10-24" who="TW">Added image code</change>
+          <change when="2013-04-12" who="NG">Greek lemmata corrected</change>
+         <change when="2012-08-21" who="AFS">Greek lemmata added</change>
+         <change when="2012-08-14" who="AFS">inserted key name</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-12" who="AG">several lines corrected, 1 line translated</change>
+         <change when="2012-05-23" who="AG">several lines translated, corrections in metadata, bibliography and text tags.</change>
+          <change when="2012-05-01" who="AFS">updated bibliography</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-04-16" who="AG">bibliography updated, apparatus tagged</change>
+         <change when="2012-02-22" who="AG">bibliography tagged</change>
+         <change when="2012-01-10" who="AG">small correction, 1 line translated</change>
+         <change when="2012-01-04" who="AG">tagging, partial translation</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.89-1" n="1">
+                <desc xml:lang="en">Photograph of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="5.89-2" n="2">
+                <desc xml:lang="en">Photograph of face 2(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="5.89-3" n="3">
+                    <desc xml:lang="en">Photograph of face 3(from ??)</desc>
+                    <desc xml:lang="ru"/>
+             </graphic>
+              <graphic url="5.89-4" n="4">
+                    <desc xml:lang="en">Photograph of face 4(from ??)</desc>
+                    <desc xml:lang="ru"/>
+              </graphic>
+              <graphic url="5.89-5" n="5">
+                    <desc xml:lang="en">Photograph of face 5(from ??)</desc>
+                    <desc xml:lang="ru"/>
+              </graphic>
+            </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl n="1">
+               <bibl n="L1"><!--Юргевич 1879a--><ptr target="bib:b0254"/>, 11, <citedRange>313</citedRange></bibl>
+               <bibl n="2"><!--Юргевич 1879b--><ptr target="bib:b0255"/>, 11, <citedRange>1-12</citedRange></bibl>
+               <bibl n="3"><!--Сборник--><ptr target="bib:b0132"/>, 20–21, №<citedRange>10</citedRange></bibl>
+            </listBibl>
+            <listBibl n="2"><bibl/></listBibl>
+            <listBibl n="3"><bibl/></listBibl>
+            <listBibl n="4"><bibl/></listBibl>
+            <listBibl n="5">
+                <bibl n="L1"><!--Юргевич 1879a--><ptr target="bib:b0254"/>, 11, <citedRange>313</citedRange></bibl>
+                <bibl n="2"><!--Юргевич 1879b--><ptr target="bib:b0255"/>, 11, <citedRange>1-12</citedRange></bibl>
+               <bibl n="2.1"><!--Сборник--><ptr target="bib:b0132"/>, 21–23, №<citedRange>11</citedRange></bibl>
+               <bibl n="3"><!--Матанцева 1991--><ptr target="bib:b0171"/>, <citedRange>251-254</citedRange></bibl>
+               <bibl n="3.1"><!--Rhoby 2014--><ptr target="bib:b0426"/>, <citedRange>752-753</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="inscription" n="1">
+               <ab>
+                  <lb n="1"/><w lemma="φῶς"><expan><abbr>Φ</abbr><ex>ῶς</ex></expan></w> <persName type="divine" key="iesous"><name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστοῦ</ex></expan></name></persName>
+                  <lb n="2"/><w lemma="φαίνω"><expan><abbr>φ</abbr><ex>αίνει</ex></expan></w> <w lemma="πᾶς"><expan><abbr>π</abbr><ex>ᾶσιν</ex></expan></w>.
+                  <lb n="3"/><persName type="attested" ref="#person110"><name nymRef="Ἰωάννης"><expan><abbr>Ἰω</abbr><ex>άννης</ex></expan></name></persName>, <w lemma="δοῦλος">δοῦλος</w> <persName type="divine" key="iesous"><name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστο</ex><abbr><supplied reason="lost">ῦ</supplied></abbr></expan></name></persName>.
+               </ab>
+            </div>
+            <div type="textpart" subtype="inscription" n="2">
+               <ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="δοῦλος"><supplied reason="lost">δοῦ</supplied>λος</w> <persName type="divine" key="iesous"><name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστο</ex><abbr>ῦ</abbr></expan></name></persName>
+                  <lb n="2"/><persName type="attested" ref="#person111"><name nymRef="Ἰάκωβος"><supplied reason="lost">Ἰάκ</supplied>ωβος</name></persName>.
+                  <lb n="3"/><persName type="attested" ref="#person112"><name nymRef="Ἰωάννης"><expan><abbr>Ἰω</abbr><ex>άννης</ex></expan></name></persName>.
+               </ab>
+            </div>
+            <div type="textpart" subtype="inscription" n="3">
+               <ab>
+                  <lb n="1"/><persName type="divine" key="theos"><roleName><w lemma="κύριος"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w></roleName></persName> <w lemma="βοηθέω">βοήθη</w> <w lemma="ὁ">τὸν</w>
+                  <lb n="2"/><w lemma="δοῦλος">δοῦλόν</w> <w lemma="σύ">σου</w> <persName type="attested" ref="#person113"><name nymRef="Προκόπιος">Προκό<lb n="3" break="no"/>πιον</name></persName> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w>
+                  <persName type="attested" ref="#person114"><name nymRef="Θεόδωρος">Θεόδορ<supplied reason="lost">ον,</supplied></name></persName> <w lemma="μήν"><supplied reason="lost" cert="low">μηνὶ</supplied></w>
+                  <lb n="4"/><date><num value="6">ς</num> <w lemma="εἰκοσιέβδομον"><expan cert="low"><ex>εἰκοσιεβδόμ</ex><abbr>ου</abbr></expan></w>,
+                  <lb n="5"/><w lemma="ἔτος"><expan><abbr>ἔτ</abbr><ex>ου</ex><abbr>ς</abbr></expan></w> <num value="6535">ςφλε</num></date>.
+               </ab>
+            </div>
+            <div type="textpart" subtype="inscription" n="4">
+               <ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὁ">τοῦ</w> <w lemma="δοῦλος">δούλου</w> <supplied reason="lost"><w lemma="ὁ">τοῦ</w> <persName type="divine" key="theos"><roleName><w lemma="θεός">Θεοῦ</w></roleName></persName></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+               </ab>
+            </div>
+            <div type="textpart" subtype="inscription" n="5">
+               <ab>
+                  <lb n="1"/><w lemma="οὗτος">Οὗτος</w> <w lemma="φυτεύω">φυτευθὴς</w> <w lemma="εἰς">ἰς</w> <w lemma="καιρός"><expan><abbr>κ</abbr><ex>αι</ex><abbr>ρὼν</abbr></expan></w> <w lemma="εὐκαιρία"><expan><abbr>εὐκ</abbr><ex>αι</ex><abbr>ρίας</abbr></expan></w>
+                  <lb n="2"/><w lemma="ὁ">ἡ</w> <w lemma="δέ"><expan><abbr><unclear>δ</unclear></abbr><ex>ὲ</ex></expan></w> <w lemma="ῥίζα"><expan><abbr>ῥίζ</abbr><ex>α</ex></expan></w> <w lemma="αὐτός">αὐ<unclear>τ</unclear><supplied reason="lost">οῦ</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+               </ab>
+            </div>
+         </div>
+         
+         <div type="apparatus" n="1">
+            <listApp>
+               <app loc="3"><rdg source="bib:b0254">τὸ ἄσυλον Χρηστός (sic!)</rdg></app>
+               <app loc="3"><rdg source="bib:b0254 bib:b0255">[Ἰν]δι[κτιῶνος <note>add.</note></rdg> </app>
+            </listApp>
+         </div>
+         <div type="apparatus" n="5">
+            <listApp>
+               <app loc="1-2"><rdg source="bib:b0254 bib:b0255">Οὗτος (ὁ σταυρὸς) φυτεύσει εἰς κράδην θεοῦ, καὶ ῥίζας οἱ θερίζον[τες οὐκ ἐκριζώσουσιν</rdg> </app>
+               <app loc="2"><rdg source="bib:b0171">τὴ[ν] ῥίζαν ε...</rdg><rdg source="bib:b0426"><note>om.</note></rdg></app>
+            </listApp>
+         </div>
+         
+         <div type="translation" xml:lang="ru">
+            <div type="textpart" n="1">
+               <p>Свет Христов сияет всем. Иоанн, раб Х<supplied reason="lost">ристов</supplied>.</p>
+            </div>
+            <div type="textpart" n="2">
+               <p><supplied reason="lost"><gap reason="ellipsis"/> р</supplied>аб Христов <supplied reason="lost">Иак</supplied>ов. Иоанн.</p>
+            </div>
+            <div type="textpart" n="3">
+               <p>Господи, помоги Своему рабу Прокопию и Феодор<supplied reason="lost">у</supplied>. В 6-й <supplied reason="lost">месяц (?)</supplied>, 27-го числа (?), в 6535 году.</p>
+            </div>
+            <div type="textpart" n="4">
+               <p><supplied reason="lost">…</supplied> раба <supplied reason="lost">Божьего…</supplied></p>
+            </div>
+            <div type="textpart" n="5">
+               <p>Посажен он во время благовременья, ег<supplied reason="lost">о</supplied> же корень [...]</p>
+            </div>
+         </div>
+         <div type="translation" xml:lang="en">
+            <div type="textpart" n="1">
+               <p>The light of Christ shines for all. John, servant of Ch<supplied reason="lost">rist</supplied>.</p>
+            </div>
+            <div type="textpart" n="2">
+               <p><supplied reason="lost">Servant of</supplied> Christ, Jac<supplied reason="lost">ob</supplied>. John.</p>
+            </div>
+            <div type="textpart" n="3">
+               <p>Lord, help your servants Prokopios and Theodore. In the 6th month (?), 27th day (?), year 6535.</p>
+            </div>
+            <div type="textpart" n="4">
+               <p>... of the servant <supplied reason="lost">of God</supplied>...</p>
+            </div>
+            <div type="textpart" n="5">
+               <p>It was planted at an opportune time, its root...</p>
+            </div>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <div type="textpart" n="1">
+               <p> Данная колонна представляет комплекс из нескольких разновременных надписей и рисунков. По всей видимости, древнейшими на ней
+                  являются вырезанные неким Иоанном крест I и надпись 1, которые по своему облику и палеографии близки к <ref type="inscription">V 67</ref><!--byz067--> 
+                  и так же датируются Х в. Позднее к
+                  нижней части креста был прикреплен другой, металлический крест (ср. подобную конструкцию в могиле № 11 под храмом № 19 («храм с ковчегом»),
+                  см. Сорочан 2005, 868). Интересно соотношение двух крестов: верх металлического приходится на перекрестье первого, — такое странное положение
+                  может быть неслучайным: возможно, для крепления верха металлического креста было использовано старое отверстие, первоначально предназначенное
+                  для положения мощей (ср. аналогичную конструкцию в колонне храма Св. Иоанна в Эфесе, см. Teteriatnikova 2003, p. 90, fig. 8) Рядом с этими двумя
+                  крестами были прочерчены несколько циркульных крестов. Наконец, слева и под крестом были процарапаны надписи 2, 3 и 4. На обратной стороне
+                  стоящей колонны примерно одновременно с крестом I был вырезан крест II с надписью 5, а затем рядом — изображения 3 птиц. Неясно, где Матанцева
+                  видела граффито со словом «крест» у правого рукава большого креста.</p>
+                <p> Надписи 2–4 — типичные граффити. Однако и надписи 1 и 5 не являются в полном смысле этого слова лапидарными: они нанесены позднее на
+                   древнюю колонну в качестве проявлений личного благочестия.  </p>
+                <p> Надпись 1 — подпись под крестом с именем заказчика — Иоанн. По типу ей близко соседнее граффито 2 с именами Иакова и Иоанна.  </p>
+                <p> 1–2. Относительно формулы см. <ref type="introduction">IV.3.C.a</ref>.</p>
+                <p> Судя по размерам, колонна, несомненно, происходила из крупного храма  ранневизантийского времени. Поскольку в 1878 г. ООИД раскопало лишь
+                   один таковой — № 36 («Восточную базилику»), то памятник, вероятней всего, происходит из него (ср. комм. к <ref type="inscription">V 21</ref><!--byz021.1-->, вместе с
+                   которым издана данная надпись).</p>
+            </div>
+            <div type="textpart" n="2">
+               <p> Надпись имеет, вероятнее всего, памятный характер.  </p>
+            </div>
+            <div type="textpart" n="3">
+               <p> 1–2. Надпись 3 — типичная инвокация (о формуле см. <ref type="introduction">IV.3.E.a</ref>), с просьбой к Богу о помощи.  </p>
+               <p> 2–3. Имена Прокопий и Феодор известны в Херсоне (см. <ref type="inscription">V 90</ref><!--byz090--> и комм. к <ref type="inscription">V 19</ref><!--byz019-->).  </p>
+               <p> 3–4. Относительно числового обозначения месяца см. комм. к <ref type="inscription">V 60</ref><!--byz060--> и <ref type="inscription">V 151</ref><!--byz145-->.  </p>
+                <p>5. На первый взгляд, второй знак в обозначении года — пси, однако при внимательном рассмотрении становится ясно, что это минускульное фи,
+                   у которого замкнуто только правое полукружие. О соотношении годов от сотворения мира и от Р.Х. в средневизантийское время см. <ref type="introduction">IV. 4. D</ref>.
+                   Дата — 1027 г., показывает, что крест I и надпись 1 были выполнены раньше — как демонстрирует форма креста и палеография (см. выше), где-то
+                   в Х в. Дата 1027 г. — редкая возможность установить terminus post quem для конца функционирования базилики.</p>
+            </div>
+            <div type="textpart" n="4">
+               <p> Судя по словам «раб Божий», речь может идти об инвокативной надписи.</p>
+            </div>
+            <div type="textpart" n="5">
+               <p>Надпись 5, по всей вероятности, задумывалась как две додекасиллабические строки: одна по вертикали, другая по горизонтали; текст за
+                  перекрестьем на правом рукаве креста был не дописан или полностью заглажен позднее. Стихотворение сочинено, видимо, ad hoc, как в большинстве
+                  примеров такого рода (см. также Матанцева 1991). Латышев, дважды говоря о надписи (Латышев 1896, 21-23, №11; Латышев 1897, 149), ни разу не высказался
+                  о чтении Юргевича. Роби установил параллели для выражений из 1-й строки - это Ephraem Syrus, Sermo in pretiosam et vivificam crucem, et in secundum adventum, 
+               et de caritate et eleemosyna (IV 135) и Ignatius Draconus. Vita S. Tarasii 19, 4.</p>
+            </div>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <div type="textpart" n="1">
+               <p>This column bears a set of inscriptions and drawings made at different times. The oldest are probably the cross and Text 1 carved by 
+                  a certain John. These resemble the look and script of  <ref type="inscription">V 67</ref><!--byz067--> and should be also dated to the Xth century. 
+                  Later, a metal cross was attached to the bottom of the carved cross (see a similar construction in Burial 11, under Church 19 ("Church with the reliquary"),
+                 Sorochan 2005, 868). The relative position of the two crosses is of note: the top of the metal cross would have been fixed at the intersection of the 
+                 carved cross - such position might not be random: the top of the metal cross might have been fixed in a pre-existing hole originally used for the housing 
+                 of relics (see analogous construction in a column of the Church of St. John at Ephesos: Teteriatnikova 2003, p. 90, fig. 8). Next to the carved 
+                 cross and the hypothetically restored metal cross we find several more incised crosses: these are fitted inside circles. Finally, to the left and right
+                 of the carved cross we find texts 2, 3, and 4. On the opposite side of the column we find another cross (Cross II) and text 5, cut approximately 
+                 at the same time as the carved cross (Cross I), as well as images of three birds. I do not see a graffito with the word "cross" by the right arm of the carved 
+                 cross (I) as reported by Matantseva (1991).</p>
+               <p>Texts 2-4 are typical graffiti, while 1 and 5 are not strictly lapidary: the act of their carving on this ancient column was a gesture of personal piety.</p>
+               <p>Text 1 is apparently meant to accompany the carving of cross I and indicates the name of the person who commissioned the carving — John. It is typologically
+                  similar to the adjacent graffito (text 2) with the names of Jacob and John.</p>
+               <p> 1–2. On the formula, see Introduction <ref type="introduction">IV.3.C.a</ref>.</p>
+               <p> Judging by its size, the column must have originated from a large Early Byzantine church. Since the Odessa Society for History and Antiquities excavated
+                  only one such church in 1878 - Church 36 ("Eastern Basilica"), it is logical to assume that our column came from that church 
+                  (see commentary to <ref type="inscription">V 21</ref><!--byz021.1-->, which had been published together with the inscription under consideration).</p>
+            </div>
+            <div type="textpart" n="2">
+               <p>Most likely this is a commemoration.</p>
+            </div>
+            <div type="textpart" n="3">
+               <p>1–2. Text 3 is a typical invocation (on the formula, see Introduction <ref type="introduction">IV.3.E.a</ref>), with an appeal to God for help.</p>
+               <p>2–3. The names Prokopios and Theodore are known in Cherson (see <ref type="inscription">V 90</ref><!--byz090--> and commentary to <ref type="inscription">V 19</ref><!--byz019-->).</p>
+               <p>3–4. On the numerical designation of the month, see commentary to <ref type="inscription">V 60</ref><!--byz060--> and <ref type="inscription">V 151</ref><!--byz145-->.</p>
+               <p>5. At first sight, it appears that the second symbol in the year date is psi, but a closer look reveals that it is in fact a minuscule phi, with only the 
+                  right semicircle properly complete. On the correspondence of dates "Since Creation" and "Since the Birth of Christ" in the Middle Byzantine period, see Introduction <ref type="introduction">IV. 4. D</ref>.
+                  The date — 1027 C.E. demonstrates that cross I and Text I had been carved earlier — as suggested by the shape of the cross and lettershapes (see above), some time
+                  in the Xth century. This date, 1027 C.E. offers a rare opportunity for fixing a terminus post quem for the end of basilica's activity.</p>
+            </div>
+            <div type="textpart" n="4">
+               <p>The words "servant of God" suggest an invocation.</p>
+            </div>
+            <div type="textpart" n="5">
+               <p>Text 5 was evidently conceived as two dodecasyllabic lines: one arranged vertically, the other horizontally; part of the text on the right arm of the 
+                  cross was either not finished or completely erased later on. The poem was apparently composed ad hoc, as in most examples of this kind (see also Matantseva
+                  1991). Latyshev who had twice discussed this inscription (1896, №11; 1897, 149) never commented on the reading proposed by Yurgevich. Rhoby 
+                  established parallels for the expressions used in line 1 - they are found in Ephraem Syrus, Sermo in pretiosam et vivificam crucem, et in secundum adventum, 
+                  et de caritate et eleemosyna (IV 135) and in Ignatius Draconus. Vita S. Tarasii 19, 4.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

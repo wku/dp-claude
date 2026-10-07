@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Домны (?)</title><title xml:lang="en">Epitaph of Domna (?)</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.176</idno><idno type="PE">PE3000161</idno><idno type="filename">3.381</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>4579</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>4579</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Прямоугольная плита с закругленным верхом (возможно,
+                              предназначалась для вставки в массивный блок). На рельефе в нише
+                              погрудное изображение женщины в хитоне и плаще, накинутом на голову.
+                              По верхнему краю вырезана трехстрочная надпись. В момент обнаружения
+                              памятник не имел серьезных повреждений. В настоящее время расколот
+                              верх, отбита нижняя правая часть плиты, утерян левый нижний угол.</p>
+                           <p xml:lang="en">Rectangular panel with rounded top, possibly intended to be inset in a larger block. At the time of discovery, the monument 
+                           showed no signs of serious damage. At present, the top is split, the bottom right part is broken off, the bottom left corner is lost.</p>
+                           <dimensions>
+                              <height unit="cm">43,0</height>
+                              <width unit="cm">57,0</width>
+                              <depth unit="cm">24,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с ломаной поперечной линией из двух пересекающихся
+                           наклонных, курсивные мю, сигма, омега.</seg>
+                        <seg xml:lang="en">Alpha with broken crossbar formed by two crisscrossing hastae, cursive mu, sigms, omega.</seg>
+                        <height unit="cm">1,8</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0200" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">II в. н.э.</seg>
+                        <seg xml:lang="en">II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1896 г. (или с меньшей вероятностью в
+                           1897 г.) Раскопки
+                           К.К. Косцюшко-Валюжинича (НА НЗХТ, д. 5, л. 13, № 21).</rs>
+                        <rs type="context">В юго-восточном районе Херсонеса на участке некрополя.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1896 (or less likely, in 1897), excavations of K.K.
+                           Kostsyushko-Valyuzhinich (НА НЗХТ, д. 5, л. 13, № 21).</rs>
+                        <rs type="context">Southeast sector of Chersonesos, necropolis.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-19" who="CB">tokenised</change>
+         <change when="2015-11-09" who="CB">Added origDate</change>
+         <change when="2015-11-06" who="KK">Leidenised</change>
+         <change when="2015-10-26" who="CB">Bibliography and app crit</change>
+         <change when="2015-10-22" who="CB">metadata tags</change>
+         <change when="2015-09-25" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>IV p. 307, № 466</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>515</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--KW--><ptr target="bib:b0519"/>, № <citedRange>766.1</citedRange></bibl>
+               <bibl><!--АСХ--><ptr target="bib:b0523"/>, № <citedRange>372</citedRange></bibl>
+               <bibl><!--Орлов 1983--><ptr target="bib:b0786"/>, <citedRange>139</citedRange>
+               (= <bibl><!-- BullEp --><ptr target="bib:BE"/> <citedRange>1990, 563</citedRange></bibl>
+               <bibl><!--SEG--><ptr target="bib:SEG"/> <citedRange>40, 617</citedRange></bibl>)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" ref="#person818"><name nymRef="—ομ—"><gap reason="lost" quantity="1" unit="character"/><seg part="M">ο<unclear>μ</unclear></seg><gap reason="lost" quantity="5" unit="character" precision="low"/></name> 
+                           <persName type="attested" ref="#person819"><name nymRef="Χρῆστος">Χρήστου</name></persName></persName>
+               <lb n="2"/><w part="I"><supplied reason="lost">γ</supplied>υν</w> <space extent="unknown" unit="character"/> <w><unclear>ἐ</unclear>τῶν</w> 
+               <lb n="3"/><w>ά</w> <space extent="unknown" unit="character"/> <num value="30">λ</num>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg source="bib:IOSPE">[Θε]οδ[ώρα ?]</rdg>
+                  <rdg source="bib:b0519">[Θε]ομ[- - -]</rdg>
+                  <rdg>[Δ]όμ[να]<note> - Solomonik apud Orlov 1983, e.g.</note></rdg>
+               </app>
+               <app loc="2-3">
+                  <rdg source="bib:IOSPE">[γ]υν[ά]</rdg>
+               </app>
+               <app loc="3">
+                  <rdg source="bib:IOSPE">νʹ</rdg>
+                  <rdg source="bib:b0519">λʹ <note>Solomonik apud Orlov 1983.</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[Д]ом[на] (?), жена Хреста, 30 лет.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[D]om[na] (?), wife of Chrestos, 30 years old.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>АСХ, № 372 (предлагаемая датировка: III-IV в. н.э.)</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

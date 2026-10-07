@@ -1,0 +1,175 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">About project</title>
+        <title xml:lang="ru">О проекте</title>
+        <title xml:lang="uk">Про проект</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text xml:lang="en">
+        <body>
+          <p>The aims of the project include a new study of all Ancient Greek and Latin inscriptions
+            originating from the Northern Coast of the Black Sea; and publication of English,
+            Russian, and Ukrainian critical editions of the inscriptions in print and digital
+            formats. The region of the Northern Black Sea was home to numerous ancient Greek
+            settlements from the third quarter of the 7th century BCE until the fall of
+            Constantinople in 1453 CE.</p>
+
+          <p><hi rend="bold">We are</hi> an international team of epigraphic specialists and
+            technical researchers collaborating on producing a long-awaited new corpus of ancient
+            Greek and Latin inscriptions originating from the northern coast of the Black Sea
+            (Pontus Euxinus). Our project follows in the footsteps of the first corpus of ancient
+            inscriptions of the Northern Black Sea published by V.V. Latyshev in 1885-1901 under the
+            title <title level="m">Inscriptiones antiquae Orae Septentrionalis Ponti Euxini graecae
+              et latinae</title>. In recognition of this continuity our project adopted the same
+            title <title level="m">Ancient Inscriptions of the Northern Black Sea</title>, usually
+            abbreviated in scholarly publications as IOSPE on the basis of the Latin.</p>
+
+          <p><hi rend="bold">The new conception of the IOSPE corpus</hi> consists in capturing in
+            its entirety the ancient epigraphic production of the northern Pontic region – that is,
+            not only inscriptions made on stone (lapidary inscriptions), but also on other media and
+            fabrics, such as ceramics, metal, and bone. Lapidary inscriptions are traditionally
+            privileged in epigraphic corpora, while non-lapidary inscriptions are published
+            separately. We intend to facilitate the work of researchers by providing epigraphic
+            texts on all materials within one corpus. For practical reasons of presentation,
+            lapidary inscriptions will still form a separate series within the corpus, while
+            graffiti (inscriptions scratched onto ceramic, metal, bone and other surfaces) and
+            dipinti (inscriptions painted on such surfaces) will form another series.</p>
+
+          <p><hi rend="bold">The overarching structure of the new IOSPE</hi> accommodates two
+            series: series 1, lapidary inscriptions; and series 2, graffiti and dipinti. Within each
+            series, inscriptions will be grouped by their place of origin. We distinguish four
+            geopolitical areas and four corresponding collections: (I) Tyras and its vicinity, (II)
+            Olbia and its vicinity, (III) Chersonesos and western, southern, and central Crimea, and
+            (IV) Bosporus. Each collection is further divided into fascicles based on geographic,
+            linguistic, or chronological criteria, whichever apply within that area. Byzantine
+            inscriptions constitute a separate collection covering the entire region.</p>
+
+          <p><hi rend="bold">The first stage of the project</hi> involves publication of Lapidary
+            Inscriptions. There will be about 5,000 lapidary texts published in IOSPE, about three
+            times as many as in the original corpus. Texts range in length from single words to
+            several dozen lines depending on their genre (e.g., decrees of state, funerary
+            inscriptions), their state of preservation, and the possibility of restoring missing
+            text on the basis of other sources.</p>
+
+        </body>
+      </text>
+      <text xml:lang="ru">
+        <body>
+          <p>Задачей проекта является публикация (в печатной и электронной форме) на английском,
+            русском и украинском языках нового корпуса греческих и латинских надписей Северного
+            Причерноморья. Эти надписи происходят из многочисленных греческих городов и поселений,
+            существовавших в данном регионе с третьей четверти VII века до н.э. и до падения
+            Константинополя в 1453 г. н.э.</p>
+
+          <p><hi rend="bold">В проекте участвует</hi> международная группа эпиграфистов и
+            технических специалистов, работающих совместно над созданием давно ожидаемого нового
+            корпуса древнегреческих и латинских надписей, происходящих с северного побережья Черного
+            моря (Эвксинского Понта). Данный проект продолжает традицию первого корпуса надписей
+            Северного Причерноморья, изданного В.В. Латышевым а 1885-1901 гг. под названием <title
+              level="m">Inscriptiones antiquae Orae Septentrionalis Ponti Euxini graecae et
+              latinae</title>. В знак этой преемственности наш проект использует то же название -
+              <title level="m">Древние надписи Северного Причерноморья</title> (обычное сокращение
+            IOSPE).</p>
+
+          <p><hi rend="bold">Новая концепция корпуса IOSPE</hi> заключается в полном охвате всего
+            древнего эпиграфического материала Северопонтийского региона - то есть, не только
+            надписей на камне (лапидарных надписей), но и на других носителях и материалах, таких
+            как керамика, металл и кость. Лапидарные надписи в эпиграфических корпусах всегда
+            занимали привилегированное место, в то время как не-лапидарные надписи публиковались
+            отдельно. Мы намереваемся облегчить работу исследователей, собрав эпиграфические тексты
+            на всех видах материалов в едином корпусе. Из практических соображений, касающихся
+            подачи материала, лапидарные надписи внутри корпуса будут по-прежнему составлять
+            отдельные серию, в то время как граффити (надписи, нацарапанные на керамике, металле,
+            кости и других поверхностях) и дипинти (надписи, нанесенные на такие поверхности
+            краской) войдут в другую серию.</p>
+
+          <p><hi rend="bold">Структура нового IOSPE</hi> подразумевает издание надписей в виде двух
+            серий: серия 1 - лапидарные надписи, серия 2 - граффити и дипинти. Внутри каждой серии
+            надписи будут сгруппированы по месту происхождения. Мы различаем четыре геополитических
+            региона и, соответственно, четыре коллекции: (I) Тира и ее окрестности, (II) Ольвия и ее
+            окрестности, (III) Херсонес, Западный, Южный и Центральный Крым и (IV) Боспор. Далее
+            каждая коллекция внутри каждого района подразделяется на подгруппы на основе
+            географических, лингвистических или хронологических критериев. Византийские надписи
+            составляют отдельную коллекцию, которая представляет весь регион в целом (V).</p>
+
+          <p><hi rend="bold">На первой стадии проекта</hi> будут опубликованы лапидарные надписи:
+            около 5 000 текстов, примерно втрое больше, чем в первоначальном корпусе. Размер текстов
+            колеблется (от одного слова до нескольких десятков строк) в зависимости от категории,
+            степени их сохранности и возможности восстановить утраченный текст.</p>
+        </body>
+      </text>
+      <text xml:lang="uk">
+        <body>
+          <p>Завданням проекту є публікація (в друкованій та електронній 
+            формі) англійською, російською та українською мовами нового 
+            корпусу грецьких та латинських написів Північного 
+            Причорномор'я. Ці написи походять з численних грецьких 
+            міст та поселень, що існували у цьому регіоні з третьої 
+            чверті VII століття до н.е. й до падіння Константинополя 
+            в 1453 р. н.е.</p>
+          
+          <p><hi rend="bold">У проекті берe участь</hi> міжнародна група епіграфістів 
+            та технічних фахівців, які працюють спільно над створенням давно 
+            очікуваного нового корпусу давньогрецьких та латинських написів, 
+            що походять із північного узбережжя Чорного моря (Понт Евксинський).
+            Даний проект продовжує традицію першого корпусу написів Північного
+            Причорномор'я, виданого В.В. Латишевим у 1885-1901 рр. під назвою <title
+              level="m">Inscriptiones antiquae Orae Septentrionalis Ponti Euxini graecae et
+              latinae</title> На знак цієї наступності наш проект використовує ту
+            саму назву - <title level="m">Стародавні написи Північного Причорномор'я</title>
+            (звичайне скорочення IOSPE).</p>
+          
+          <p><hi rend="bold">Нова концепція корпусу IOSPE</hi>
+            полягає у повному охопленні всього древнього епіграфічного 
+            матеріалу Північнопонтійського регіону - тобто, 
+            не лише написів на камені (лапідарних написів), а й на інших 
+            носіях та матеріалах, таких як кераміка, метал та кістка. 
+            Лапідарні написи в епіграфічних корпусах завжди займали 
+            привілейоване місце, тоді як не-лапідарні написи 
+            публікувалися окремо. Ми маємо намір полегшити роботу 
+            дослідників, зібравши епіграфічні тексти на всіх видах 
+            матеріалів у єдиний корпус. З практичних міркувань, 
+            що стосуються подачі матеріалу, лапідарні написи всередині
+            корпусу, як і раніше, становитимуть окремі серії, 
+            тоді як графіті (написи, написані на кераміці, металі, 
+            кістці та інших поверхнях) та діпінті (написи, нанесені 
+            на такі поверхні фарбою), увійдуть до іншої серії.</p>
+          
+          <p><hi rend="bold">Структура нового IOSPE </hi>передбачає 
+            видання написів у вигляді двох серій: серія 1 - лапідарні
+            написи, серія 2 - графіті та діпінті. У середині кожної
+            серії написи буде згруповано за місцем походження. 
+            Ми розрізняємо чотири геополітичні регіони й, відповідно, 
+            чотири колекції: (I) Тіра та її околиці, (II) Ольвія та
+            її околиці, (III) Херсонес, Західний, Південний та 
+            центральний Крим та (IV) Боспор. Далі кожна колекція 
+            всередині кожного району поділяється на підгрупи на 
+            основі географічних, лінгвістичних чи хронологічних 
+            критеріїв. Візантійські написи становлять окрему колекцію, 
+            що представляє весь регіон у цілому (V)</p>
+          
+          <p><hi rend="bold">На першій стадії проекту </hi>буде 
+            опубліковано лапідарні написи: близько 5 000 текстів, 
+            приблизно втричі більше, ніж у початковому корпусі. 
+            Розмір текстів коливається (від одного слова до кількох 
+            десятків рядків) залежно від категорії, ступеня їх 
+            збереженості та можливості відновити втрачений текст.</p>
+          
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI>

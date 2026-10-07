@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Филоксена </title><title xml:lang="en">Epitaph of Philoxenos</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.286</idno><idno type="PE">PE5000286</idno>
+            <idno type="AYV2012-number">byz274</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Керченский историко-культурный заповедник</repository>
+                     <idno>КЛ–1175</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Historical and Archeological Museum of Kerch State Historical and Cultural Preserve</repository>
+                     <idno>КЛ–1175</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк-дикарь.</material>
+                           <material xml:lang="en">Limestone rubble.</material>
+                           <p xml:lang="ru">Лицевая сторона тщательно обтесана, на ней находится врезанное изображение латинского креста с апицированными 
+                              концами горизонтальных рукавов и растраивающимися концами — вертикальных. Сохранилась целиком.</p>
+                           <p xml:lang="en">The front is well worked and bears carved image of Latin cross with serifs on the left and right arms and tri-forked
+                              top and bottom arms. Fully preserved.
+                           </p>
+                           <dimensions>
+                              <height>41,0</height>
+                              <width>36,5</width>
+                              <depth>7,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">В углах между рукавами креста.</seg>
+                            <seg xml:lang="en">In corners between the arms of the cross.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы прокрашены охрой. Альфа с ломаной перекладиной, дельта и лямбда с удлиненной вверх правой 
+                           гастой, эпсилон прямоугольный и лунарный, фи прямоугольное, ипсилон Y-и V-образный.</seg>
+                        <seg xml:lang="en">Lapidary; letters filled in with ochre. Alpha with broken crossbar; delta and lambda with projecting right hastae, 
+                           rectangular and lunate epsilon, rectangular phi, Y-shaped and V-shaped upsilon.</seg>
+                        <height unit="cm">3,0–5,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p044">
+                        <seg xml:lang="ru">Пантикапей.</seg>
+                         <seg xml:lang="en">Pantikapaion.</seg>
+                     </origPlace>
+                      <origDate notBefore="0301" notAfter="0400" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">IV в.</seg>
+                          <seg xml:lang="en">IVth century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2004-09">сентябрь 2004</date>, <date when="2008-09"> сентябрь 2008</date>.</seg>
+                     <seg xml:lang="en"><date when="1999-05">May 1999</date>, <date when="2004-09">September 2004</date>, <date when="2008-09">September 2008</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#kerch">Керчь.</placeName>
+                        <rs type="circumstances">3 мая 1909 г., случайная находка.</rs>
+                        <rs type="context">Глинище, сад Полтавского.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Kerch.</placeName>
+                        <rs type="circumstances">3 May 1909, chance find.</rs>
+                        <rs type="context">Glinishche, garden of Poltavsky.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Керчь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Kerch, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-11-07" who="TW">Added image code</change>
+          <change when="2012-08-21" who="NG">inserted Greek lemmata</change>
+         <change when="2012-08-21" who="AG">several lines translated, small corrections</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+          <change when="2012-07-10" who="AL">correction in bibliography tagging</change>
+          <change when="2012-06-25" who="AL">small correction in metadata and bibliography tagging</change>
+          <change when="2012-05-16" who="AFS">corrected metadata and text</change>
+          <change when="2012-03-20" who="AL">original date tagged, bibliography tagged, text tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.286">
+                <desc xml:lang="en">Photograph of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+                <bibl n="L1"><!-- Марти 1911--><ptr target="bib:b0170"/>, 8–11, № <citedRange>3</citedRange></bibl>
+                <bibl n="1.1"><!-- Яйленко 1987--><ptr target="bib:b0257"/>, 165 <citedRange><seg xml:lang="ru">прим.</seg><seg xml:lang="en">approx.</seg> 11</citedRange></bibl>
+                <bibl n="1.1.1"><!-- Bull. ép. 1990--><ptr target="bib:BE"/> <citedRange>1990, 903</citedRange></bibl>
+                <bibl n="1.1.2"><!-- SEG XXXIX--><ptr target="bib:SEG"/> <citedRange>39, 699</citedRange></bibl>
+               <bibl n="1.2"><!-- КХНБ --><ptr target="bib:b0068"/>, № <citedRange>39</citedRange></bibl>
+                <bibl n="2"><!-- Vinogradov 2007--><ptr target="bib:b0376"/>, 261–263, № <citedRange>9</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><g ref="#stauros"/> <w lemma="ἐνθάδε">Ἐνθάδε</w> <w lemma="κατάκειμαι">κα<lb n="2" break="no"/>τάκιτε</w> <persName type="attested" ref="#person351"><name nymRef="Φιλόξενος">Φι<lb n="3" break="no"/>λόξενος</name>
+               <lb n="4"/><w lemma="υἱός">υἱὸς</w>
+                     <persName type="attested" ref="#person352"><name nymRef="Ἀγαπητός">Ἀγα<lb n="5" break="no"/>πητοῦ</name></persName></persName> <w lemma="ὁ">τὴν</w>
+               <lb n="6"/><w lemma="τέχνη"><expan><abbr>τέχνη</abbr><ex>ν</ex></expan></w> <w lemma="γουνάριος">γου<lb n="7" break="no"/>νάριος</w>.
+            </ab>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Здесь лежит Филоксен, сын Агапита, скорняк по профессии.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Here lies Philoxenos, son of Agapetos, a furrier by trade.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Камень был куплен у И. Пекерева для музея Мелек-Чесменского кургана. По мнению Марти, крест был высечен раньше надписи, однако неясно, на чем 
+               такое предположение основано. Д. Фейссель, составитель заметки в Bull. ép., не найдя у Яйленко ссылки на первоиздание, ошибочно посчитал надпись 
+               новонайденной.</p>
+                <p> 1–2. Относительно формулы см. <ref type="introduction">IV.3.F.d</ref>.  </p>
+                <p> 2–3. Имя Филоксен встречается на Боспоре трижды, начиная со II в. по Р.Х. (см. КБН 905). Известно оно и в христианской эпиграфике 
+                   (например, Feissel 1983, № 160; IG XIV 2418).  </p>
+                <p> 4–5. Имя Агапит на Боспоре не известно, зато встречается в византийских надписях (MAMA I 279; VI 339; IGLS 1908; ICUR 25972; SEG 8.741). 
+                   Существуют и два святых с таким именем (см. Delehaye 1902, 1043).</p>
+                <p>5–7. Обозначение профессии встречается в христианских надписях, особенно часто в Коринфе (см. Bees 1941, pass.). Профессия γουνάριος 
+                   засвидетельствована в Beševliev 1964, № 99, 100, 102–104 (VI в.), Feissel 1983, № 34 (V–VI вв.).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The monument was bought from I. Pekerev for the Melek-Chesmen Tumulus Museum. Marti believed that the cross had been carved before 
+               the inscription, but it is unclear what his opinion is based on. D. Feissel, the author of the lemma in Bull. ép., could not find
+               a reference to editio princeps in Yaylenko and so wrongly considered the inscription to be a new find. </p>
+            <p>1-2. On the formula, see Introduction <ref type="introduction">IV.3.F.d</ref>. </p>
+            <p> 2–3. The name Philoxenos is attested in Bosporus three time, starting as early as the IInd century C.E.(see CIRB 905). It is also known in Christian
+               epigraphy (see Feissel 1983, № 160; IG XIV 2418).  </p>
+            <p> 4–5. The name Agapetos is unknown in Bosporus, but occurs in Byzantine inscriptions (MAMA I 279; VI 339; IGLS 1908; ICUR 25972; SEG 8.741). 
+               Two saints of this name are known (see Delehaye 1902, 1043).</p>
+            <p>5–7. Indication of professional occupation is known in Christian inscriptions, it is used particularly in Corinth  (see Bees 1941, pass.). 
+               The occupation γουνάριος is attested in Beševliev 1964, № 99, 100, 102–104 (VIth century), Feissel 1983, № 34 (V–VIth century).</p>
+         </div>
+         
+      </body>
+   </text>
+</TEI>

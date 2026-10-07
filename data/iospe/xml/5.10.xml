@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Строительная надпись неизвестного</title><title xml:lang="en">Building inscription of unknown</title><editor xml:id="ayv2012">
+               <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+               <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+            </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.10</idno><idno type="PE">PE</idno>
+            <idno type="AYV2012-number">byz009</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>34873+35027</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>34873+35027</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc1">
+                     <seg xml:lang="ru">Строительная надпись.</seg>
+                     <seg xml:lang="en">Building inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Белый мелкозернистый мрамор.</material>
+                           <material xml:lang="en">White fine-grained marble.</material>
+                           <p xml:lang="ru">Лицевая и тыльная стороны отполированы. Разбита на две части; обломана со всех сторон, кроме правой.</p>
+                           <p xml:lang="en">Front and back are polished. Broken into two fragments; damaged on all sides, except on the right.</p>
+                           <dimensions>
+                              <height>19,5</height>
+                              <width>15,5</width>
+                              <depth>1,8</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">Отчерченное и разлинованное прямоугольное поле на лицевой стороне.</seg>
+                           <seg xml:lang="en">The inscribed area is outlined with thinly cut lines, within which guiding lines are traced in the same manner.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы немного неровные, вырезаны между линеек. 
+                           Эпсилон лунарный, омикрон маленький.</seg>
+                        <seg xml:lang="en">Lapidary. Letters are somewhat uneven, cut between the lines. Lunate epsilon; small omicron.</seg>
+                        <height unit="cm">1,8–3,3.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0401" notAfter="0600" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">V–VI вв.</seg>
+                        <seg xml:lang="en">V–VIth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08"> август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>.</seg>
+                     <seg xml:lang="en"> <date when="1999-05">May 1999</date>, <date when="2001-08"> August 2001</date>, <date when="2002-09"> September 2002</date>, <date when="2003-09"> September 2003</date>, <date when="2004-09"> September 2004</date>, <date when="2005-09"> September 2005</date>, <date when="2006-09"> September 2006</date>, <date when="2007-09"> September 2007</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1906 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Вблизи ворот между куртинами XV и XVI.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1906, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Near the gate, between curtain walls XV and XVI.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-16" who="CB">Andrey's corrections</change>
+          <change when="2012-10-27" who="AL">inserted English toponyms in commentary</change>
+         <change when="2012-08-16" who="AG">Greek lemmata added</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-11" who="AG">1 line translated</change>
+         <change when="2012-05-09" who="AG">small correction</change>
+         <change when="2012-04-24" who="AG">several lines translated</change>
+         <change when="2012-04-17" who="AG, AFS">editor added, translated a line</change>
+         <change when="2012-02-22" who="AG">bibliography tags tidied</change>
+         <change when="2012-02-20" who="AG">bibliography tagged</change>
+         <change when="2012-01-23" who="AG">updated, 1 line translated</change>
+         <change when="2011-12-12" who="AG">partly corrected tags in the Greek text</change>
+         <change when="2011-11-29" who="AG">partly corrected tags in the Greek text</change>
+         <change when="2011-11-28" who="AG">tidied XML, different corrections</change>
+         <change when="2011-11-25" who="KFL">Automated creation from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="5.10">
+            <desc xml:lang="en">Photograph of face (Vinogradov 20??)</desc>
+            <desc xml:lang="ru">Фотография лицевой части (Виноградов 20??)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Латышев 1907--><ptr target="bib:b0148"/>, 38 № <citedRange>19</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="translation" xml:lang="ru">
+               <p>
+                  <gap reason="ellipsis"/> мы пос<supplied reason="lost">тавили (?)<gap reason="ellipsis"/> эту над</supplied>пись <gap reason="ellipsis"/>
+                  </p>
+         </div>
+         <div type="translation" xml:lang="en">
+               <p>...we e[rected ?] this inscription...</p>
+         </div>
+         
+         <div type="commentary" xml:lang="ru">
+            <p> Судя по слову τῖτλον (ср. <ref type="inscription">V 6</ref><!--byz005-->), надпись может являться строительной. По аналогии с <ref type="inscription">V 6</ref><!--byz005-->, 
+               найденной неподалеку, восстанавливаются и 4–5-я строки. 
+                  Кроме того, две эти надписи крайне близки по палеографии (ср. особенно редкую в Северном Причерноморье форму альфы с прямой перекладиной).</p>
+            <p>Находка надписи около оборонительный стены делает вероятной ее связь с возобновлением стен Херсона в ранневизантийскую эпоху (ср. <ref type="inscription">V 5</ref><!--byz004-->, 
+               <ref type="inscription">V 6</ref><!--byz005-->). 
+                   Можно предположить, что данная надпись была поставлена над воротами, в то время как <ref type="inscription">V 6</ref><!--byz005--> - на башне. Впрочем, не исключено, 
+               что надпись — 
+                   надгробная, т.к. термин τῖτλον обозначает в раннехристианской эпиграфике и надгробие (см. комм. к <ref type="inscription">V 6</ref><!--byz005-->).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Judging by the use of the word τῖτλον (cf. <ref type="inscription">V 6</ref><!--byz005-->), this might be a building inscription. Also by analogy with <ref type="inscription">V 6</ref><!--byz005-->, which was found nearby, we
+               propose the restoration of lines 4-5. In addition, these two inscriptions are close in palaeography, e.g., in both we find a very rare (in the Northern
+               Black Sea region) shape of alpha with straight crossbar.</p>
+             <p>The discovery of this inscription near the city wall allows us to connect it with the reconstruction of the walls of Cherson in the Early Byzantine 
+                period (cf. <ref type="inscription">V 5</ref><!--byz004-->, <ref type="inscription">V 6</ref><!--byz005-->). We could speculate that this one was placed over the gates, and <ref type="inscription">V 6</ref><!--byz005--> on the tower. 
+                The possibility remains, however, that our inscription is
+                actually a tombstone, since the term τῖτλον could have this meaning in Early Christian epigraphy (see commentary to <ref type="inscription">V 6</ref><!--byz005-->).</p>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+               <ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear cert="low">Α</unclear></orig>
+                  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΔΙ</orig>
+                  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΑΥ</orig>
+                  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΟΥ</orig> <w lemma="τίθημι">ἐθ    <lb n="5" break="no"/><supplied reason="lost" cert="low">ήκαμεν</supplied></w> <supplied reason="lost"><w lemma="ὅδε">τόδε</w> <w lemma="ὁ">τὸ</w></supplied>
+                  <w lemma="τίτλος"><supplied reason="lost">τῖ</supplied>τλον</w>
+                  <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig>Ω</orig>
+               </ab>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Кирихи</title><title xml:lang="en">Epitaph of Kyricha</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.133</idno><idno type="PE">PE3000129</idno><idno type="filename">3.340</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>35115</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>35115</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Частично сохранился левый край. Вверху следы рельефного
+                              изображения. На заглаженной лицевой поверхности вырезана трехстрочная
+                              надпись.</p>
+                           <p xml:lang="en">Partly preserved left side. Relief at the top. The front is well worked.</p>
+                           <dimensions>
+                              <height unit="cm">12,0</height>
+                              <width unit="cm">12,5</width>
+                              <depth unit="cm">6,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы имеют немного вытянутую формы; альфа с ломаной
+                           поперечной линией, правая гаста альфы и дельты выступает за пересечение с
+                           левой гастой, {мю с наклонными боковыми гастами и пересекающимися
+                           внутренними линиями = мю в виде двух пересекающихся лямбд}, маленькая петля ро, отсутствие украшений на концах
+                           линий букв.</seg>
+                        <seg xml:lang="en">Slightly elongated letters; alpha with broken crossbar, alpha and delta with projecting right diagonal, 
+                           mu in the shape of two intersecting lambdas, rho with a small loop; no serifs.</seg>
+                        <height unit="cm">1,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0068" notAfter="0133" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">кон. I – нач. II в. н.э.</seg>
+                        <seg xml:lang="en">late I - early II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена случайно в конце 1907, на месте раскопок К.К.
+                           Косцюшко-Валюжинича (НА НЗХТ, д.112, № 229).</rs>
+                        <rs type="context">В юго-восточном
+                           районе Херсонеса, на участке «цитадели» на месте раскопок К.К.
+                           Косцюшко-Валюжинича («близ развалин часовни у монастырской ограды»</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Random find in 1907, on the site of the excavations of K.K. Kostsyushko-Valyuzhinich (НА НЗХТ, д.112, № 229).</rs>
+                        <rs type="context">Southeast sector of Chersonesos, area of the "citadel" on the site of the excavations of K.K. Kostsyushko-Valyuzhinich 
+                        ("near the ruins of a chapel by the monastery wall").</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-23" who="CB">Adding origDate</change>
+         <change when="2015-10-27" who="CB">correcting Biblio and app crit</change>
+         <change when="2015-08-21" who="CB">Biblio and app crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-25" who="CB">Tagging metadata</change>
+         <change when="2015-05-08" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-05-14" who="AV">programmatically tagging Greek words from Word
+            docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.133">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1908--><ptr target="bib:b0149"/>, 22, № <citedRange>10</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>517</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person744"><name nymRef="Κυρίχα">Κυρίχα</name> 
+               	              <persName type="attested" ref="#person745"><name nymRef="Μυ—"><seg part="I">Μυ</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+               	<lb n="2"/><w>γυνὰ</w> <w>δὲ</w> <persName type="attested" ref="#person746"><name nymRef="Με—"><seg part="I">Με</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>,
+               	<lb n="3"/><w>χ<supplied reason="lost">αῖρε</supplied></w>.
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <rdg source="bib:b0149"><note>rest.</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Кириха, [(дочь)] Мю[- - -], жена Ме[- - -], приветствую.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Kyricha, [(daughter of)] Mu[---], wife of Me[---], greeting.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

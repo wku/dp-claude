@@ -1,0 +1,74 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Project calendar</title>
+        <title xml:lang="ru">Календарь</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text xml:lang="en"><body>
+        <p>The timetable of the project, milestones and events.</p>
+        <list type="gloss">
+          <label>September 5-8, 2011</label>
+          <item><ref type="external" target="wiki.digitalclassicist.org/EpiDoc_Summer_School"
+            >EpiDoc training week</ref>, Institute for Classical Studies</item>
+          <label>October 27, 2011</label>
+          <item><ref type="external" target="http://www.kcl.ac.uk/artshums/news/festival/thursday/fromstonetointernet.aspx"
+            >From Stone to Internet: Ancient Greek (hi)stories for the Modern World</ref>, Launch event, King's College London</item>
+          <label>Summer 2012</label>
+          <item>Byzantine Inscriptions print publication</item>
+          <label>August 28, 2012</label>
+          <item>Presentation of the project by A. Ivantchik and I. Polinskaya at <ref target="http://www.congressus2012.de/">XIV Congressus Internationalis Epigraphiae Graecae et Latinae</ref>, Berlin</item>
+          <label>Late 2012</label>
+          <item>Byzantine Inscriptions electronic publication</item>
+          <label>Early 2014</label>
+          <item>Inscriptions of Chersonesos print publication</item>
+          <label>Summer 2014</label>
+          <item>Inscriptions of Chersonesos electronic publication</item>
+          <label>Late 2015</label>
+          <item>Inscriptions of Tyras print publication</item>
+          <label>Early 2016</label>
+          <item>Inscriptions of Tyras electronic publication</item>
+        </list></body>
+      </text>
+      <text xml:lang="ru">
+        <body>
+          <p>Стадии работы и важные даты</p>
+          <list type="gloss">
+            <label>5-8 Сентября 2011</label>
+            <item><ref type="external" target="wiki.digitalclassicist.org/EpiDoc_Summer_School"
+              >EpiDoc: обучение пользователей</ref>, Институт Классических Наук, Лондон</item>
+            <label>27 Октября 2011</label>
+            <item><ref type="external" target="http://www.kcl.ac.uk/artshums/news/festival/thursday/fromstonetointernet.aspx"
+              >From Stone to Internet: Ancient Greek (hi)stories for the Modern World</ref>, запуск проекта, Кингс Колледж Лондон</item>
+            <label>Лето 2012</label>
+            <item>Византийские Надписи: печатное издание</item>
+            <label>28 Августа 2012</label>
+            <item>Доклад А. Иванчика и И. Полинской на <ref target="http://www.congressus2012.de/">XIV Congressus Internationalis Epigraphiae Graecae et Latinae</ref>, Берлин</item>
+            <label>Конец 2012</label>
+            <item>Византийские Надписи: электронное издание</item>
+            <label>Начало 2014</label>
+            <item>Надписи Херсонеса: печатное издание</item>
+            <label>Лето 2014</label>
+            <item>Надписи Херсонеса: электронное издание</item>
+            <label>Конец 2015</label>
+            <item>Надписи Тиры: печатное издание</item>
+            <label>Начало 2016</label>
+            <item>Надписи Тиры: электронное издание</item>
+          </list>
+      </body>
+      </text>
+    </group>
+  </text>
+</TEI>

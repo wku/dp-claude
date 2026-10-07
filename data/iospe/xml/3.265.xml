@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Стратона</title><title xml:lang="en">Epitaph of Straton</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.58</idno><idno type="PE">PE3000058</idno><idno type="filename">3.265</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>36/36847</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>36/36847</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Верхняя часть стелы, украшенной профилированным
+                              карнизом. Состоит из двух соединяющихся фрагментов. Сохранились следы
+                              штукатурки. Под карнизом вырезана двухстрочная надпись, строки
+                              выровнены по левому краю, буквы обведены красной краской.</p>
+                           <p xml:lang="en">Upper part of a stele adorned with a profiled cornice. Consists of two fragments. Traces of plaster. Two-line inscription 
+                           below the cornice. The lines are aligned on the left, letters are traced in red paint.</p>
+                           <dimensions>
+                              <height unit="cm">130,0</height>
+                              <width unit="cm">41,5</width>
+                              <depth unit="cm">18,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">На лицевой стороне, под карнизом.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front, below the cornice.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Сигма с расходящимися верхней и нижней гастами, омега
+                           немного меньше остальных букв, слабые утолщения на концах букв.</seg>
+                        <seg xml:lang="en">Four-bar sigma with splayed bars, omega small than other letters, slight flaring of the ends of hastae.</seg>
+                        <height unit="cm">2,9</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0333" notAfter="-0268" evidence="палеография">
+                        <seg xml:lang="ru">кон. IV – нач. III в. до н.э.</seg>
+                        <seg xml:lang="en">late IV - early III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1961 г. Раскопки
+                           С.Ф. Стржелецкого (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Юго-восточный район Херсонеса, оборонительные стены, ядро башни XVII (башня Зенона), кладка.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1961, excavations of S.F. Strzheletsky (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Southeast sector of Chersonesos, fortification walls, Tower XVII ("Zeno's Tower"), masonry.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-15" who="CB">Bibliography</change>
+         <change when="2015-09-01" who="CB">Metadata and app crit</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2015-06-02" who="CB">Metadata tagging.</change>
+         <change when="2014-01-31" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-03-12" who="AV">tagging Greek names XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.58">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Соломоник 1969--><ptr target="bib:b0504"/>, 58, №
+                     <citedRange>2</citedRange></bibl>
+               <bibl><!--НЭПХ  II--><ptr target="bib:НЭПХ2"/> <citedRange>136</citedRange></bibl>
+               <bibl><!--Perlman 2011--><ptr target="bib:b0437"/>, 441, No.
+                     <citedRange>50</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Posamentir 2011--><ptr target="bib:b0439"/>, 58, No. 50</bibl>
+               <bibl><!--Perlman 2011--><ptr target="bib:b0437"/>, 390 f</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><persName type="attested" ref="#person593"><name nymRef="Στράτων">Στράτων</name>
+               		<lb n="2"/><persName type="attested" ref="#person592"><name nymRef="Ἁγνίας">Ἁγνία</name></persName></persName>.
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Стратон, (сын) Агния.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Straton, (son of) Agnias.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Первоначально строки были выровнены по левому краю, а буквы обведены красной
+               краской. Затем поверхность стелы была покрыта штукатуркой, патронимик в стк. 2 был
+               вырезан заново так, чтобы выровнять строку по центру, после чего надпись была
+               покрашена в черный цвет. Вследствие этого после отслаивания штукатурки в стк. 1 видны
+               следы красной и черной краски, а в стк. 2 - следы дважды вырезанного слова Ἁγνία. </p>
+            <p> Стратон, сын Агния, очевидно, является братом Апеманта, сынa Агния (№ neph135), что
+               подтверждается не только одинаковым патронимиком, но и одинаковым характером стел, а
+               также тем, что они были найдены в соседних рядах кладки башни XVII (НЭПХ II, с. 127;
+               Perlman 2011, 390 f.). Στράτων - гипокористик общегреческого распространения. См.
+               также комментарий к надписи № neph172.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Originally, the lines were aligned along the left margin and letters traced in red paint. Subsequently the surface was plastered and the patronymic was carved 
+               again in order to center the lines. After that the letters were traced in black paint. Due to this recutting, when the plaster had fallen off in line 1, traces 
+               of both red and black paint became visible, and in line 2 - the earlier carving of the word Ἁγνία.</p>
+            <p>Straton, (son of) Agnias, was apparently the brother of Apemantos, (son of) Agnias (<ref type="inscription">III 264</ref>), which is supported not only by the sameness of the 
+               patronymic, but all by the similaroty between the stelae and their place of find, in adjacent courses of masonry of Tower XVII. (НЭПХ II, с. 127;
+               Perlman 2011, 390 f.). Στράτων is a common Greek hypocorism. See also commentary to <ref type="inscription">III 263</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

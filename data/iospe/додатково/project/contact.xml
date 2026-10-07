@@ -1,0 +1,45 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Contact</title>
+        <title xml:lang="ru">Контакты</title>
+        <title xml:lang="uk">Контакти</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text xml:lang="en">
+        <body>
+        <p>To contact the IOSPE project, in the first instance please write to Dr Irene Polinskaya,
+        Department of Classics, King's College London, Strand, London, WC2R 2LS, 
+        or email <ref target="mailto:irene.polinskaya@kcl.ac.uk">irene.polinskaya@kcl.ac.uk</ref>.</p>
+        </body>
+      </text>
+      <text xml:lang="ru">
+        <body>
+          <p>По поводу проекта IOSPEобращайтесь, пожалуйста, к д-ру Ирине Полинской по адресу: Dr Irene Polinskaya,
+            Department of Classics, King's College London, Strand, London, WC2R 2LS, 
+            или на email <ref target="mailto:irene.polinskaya@kcl.ac.uk">irene.polinskaya@kcl.ac.uk</ref>.</p>
+          </body>
+      </text>
+      <text xml:lang="uk">
+        <body>
+          <p>З приводу проекту IOSPE звертайтесь, будь ласка, 
+            до д-ра Ірини Полінської за адресою: Dr Irene Polinskaya, 
+            Department of Classics, King's College London, Strand, London,
+            WC2R 2LS, або на email<ref target="mailto:irene.polinskaya@kcl.ac.uk">irene.polinskaya@kcl.ac.uk</ref>.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI>

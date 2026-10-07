@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Список пожертвований (?) с указанием дат</title><title xml:lang="en">List of donations (?)</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.520</idno><idno type="PE">PE3000494</idno><idno type="filename">3.190</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><region>Crimea</region>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg xml:lang="ru">Список.</seg>
+                     <seg xml:lang="en"/>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Частично сохранился правый край, украшенный профилированной рамкой. Расколот на четыре фрагмента, 
+                              три из которых (фрагменты 1-3) соединяются в контакте. Лицевая сторона тщательно обработана, тыльная сторона обработана грубо.</p>
+                           <p xml:lang="en">The front is well worked, the back is roughly picked.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Овальная тета с незамкнутой апицированной перекладиной, ро с незамкнутым снизу полукружием, 
+                           омега в виде перевернутого мю), апексы, лигатуры.</seg>
+                        <seg xml:lang="en">Oval theta with detached crossbar; serifs; ligatures.</seg>
+                        <height unit="cm">4,5 - 6,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0189" notAfter="0300" evidence="Указание_надписи">
+                        <seg xml:lang="ru">не ранее 189 г. н.э.</seg>
+                        <seg xml:lang="en">not before 189 C.E.</seg>
+                     </origDate>
+                  </origin>
+               </history>
+               <msPart n="1-3">
+                  <msIdentifier><country/>
+                     <altIdentifier xml:lang="ru" n="1-3">
+                        <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                        <idno>35080 (фрг. 1); 35035 (фрг. 2); без инв. № (фрг. 3)</idno>
+                     </altIdentifier>
+                     <altIdentifier xml:lang="en" n="1-3">
+                        <repository/>
+                        <idno/>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions n="1-3">
+                                 <height unit="cm">44,0</height>
+                                 <width unit="cm">46,0</width>
+                                 <depth unit="cm">8,0</depth>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance type="found" n="1-3">
+                        <seg xml:lang="ru">
+                           <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                           <rs type="circumstances">Фрагмент 1 найден в 1897 г. Раскопки К.К. Косцюшко-Валюжинича (НА НЗХТ, д. 26, л. 4, № 145). 
+                              Фрагмент 2 найден в 1891 г. Раскопки К.К. Косцюшко-Валюжинича (НА НЗХТ, д. 20, л. 4, № 55; д. 2, № 55). 
+                              Фрагмент 3 найден при неизвестных обстоятельствах.</rs>
+                           <rs type="context">Фрагмент 1: в юго-восточном районе Херсонеса, в районе береговой оборонительной стены в районе Карантинной бухты 
+                              (между караульным домом и складом древностей). Фрагмент 2: в северо-восточном районе, внутри базилики Крузе.</rs>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                           <rs type="circumstances">Fragment 1 found in 1897, excavations of K.K. Kostsyushko-Valyuzhinich (НА НЗХТ, д. 26, л. 4, № 145).
+                              Fragment 2 found in 1891, excavations of K.K. Kostsyushko-Valyuzhinich (НА НЗХТ, д. 20, л. 4, № 55; д. 2, № 55). Circumstances of find for Fragment 3 are unknown.</rs>
+                           <rs type="context">Fragment 1: southeast sector of Chersonesos, by the Quarantine Bay. Fragment 2: northeast sector, in the Kruze Basilica. 
+                              Fragment 3: unknown.</rs>
+                        </seg>
+                     </provenance>
+                     <provenance type="observed" n="1 3">
+                        <seg xml:lang="ru">Севастополь.</seg>
+                        <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart n="4">
+                  <msIdentifier><country/>
+                     <altIdentifier xml:lang="ru" n="4">
+                        <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                        <idno>35047</idno>
+                     </altIdentifier>
+                     <altIdentifier xml:lang="en" n="4">
+                        <repository/>
+                        <idno/>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions n="4">
+                                 <height unit="cm">24,0</height>
+                                 <width unit="cm">29,0</width>
+                                 <depth unit="cm">8,0</depth>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance type="found" n="4">
+                        <seg xml:lang="ru">
+                           <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                           <rs type="circumstances">Найден в 1904 г.  
+                              Раскопки К.К. Косцюшко-Валюжинича (НА НЗХТ, д. 13, № 251).</rs>
+                           <rs type="context">В юго-восточном районе Херсонеса, недалеко от склада древностей.</rs>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                           <rs type="circumstances">Found in 1904, excavations of K.K. Kostsyushko-Valyuzhinich (НА НЗХТ, д. 13, № 251).</rs>
+                           <rs type="context">Southeast sector of Chersonesos, near the Repository of Antiquities.</rs>
+                        </seg>
+                     </provenance>
+                     <provenance type="observed" n="4">
+                        <seg xml:lang="ru">Севастополь.</seg>
+                        <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-15" who="SS">encoded text and metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.520">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="30.520fr4">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Латышев 1899 --><ptr target="bib:b0136"/>, 11, № <citedRange>28</citedRange>
+               (= <bibl><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>IV 160</citedRange></bibl>)</bibl>
+               <bibl><!-- Латышев 1905 --><ptr target="bib:b0145"/>, 114, № <citedRange>32</citedRange></bibl>
+               <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>584</citedRange></bibl>
+               <bibl><!-- НЭПХ --><ptr target="bib:НЭПХ"/> <citedRange>21</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="fragment" n="1-3">
+               <ab>
+                         <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                         <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="undefined">ἐν</supplied></w>
+                                          <w><unclear>τ</unclear><supplied reason="undefined" evidence="previouseditor">ῷ</supplied></w> 
+                                          <gap reason="lost" quantity="3" unit="character"/> <w><supplied reason="lost">ἔτει</supplied></w>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">ἐν</supplied></w> 
+                                          <w>τῷ</w> <num value="189">ρ<g ref="#stop"/> πθ</num> <g ref="#stop"/> <w>ἔτει</w>
+               		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w>ἐν</w> <w>τῷ</w></supplied> 
+                                             <num value="195">ρ<g ref="#stop"/> Ϙε</num> <g ref="#stop"/> <w>ἔτει</w>
+               		<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">ἐν</supplied></w> 
+                                          <w><supplied reason="lost">τ</supplied>ῷ</w> <g ref="#stop"/> <num value="198">ρ<g ref="#stop"/> Ϙη</num> <g ref="#stop"/> <w>ἔτει</w>
+               		<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">ἐν</supplied></w> <w>τῷ</w> 
+                                             <g ref="#stop"/> <num value="214">σ<g ref="#stop"/> ι<g ref="#stop"/> δ</num> <g ref="#stop"/> <w>ἔτει</w>
+               		<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <w>φι<supplied reason="lost">λοτειμη</supplied>
+               		<lb n="7" break="no"/><supplied reason="lost">σάμενος</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="7a"/><gap reason="lost" extent="unknown" unit="line"/>
+               </ab>
+            </div>
+            <div type="textpart" subtype="fragment" n="4">
+               <ab>
+                         <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w>ἐν</w> <w>τῷ</w></supplied> 
+                                          <num value="4"><gap reason="lost" quantity="2" unit="character"/>δ</num> <g ref="#stop"/> <w>ἔ<supplied reason="lost">τει</supplied></w>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w><unclear>φ</unclear>ιλοτει
+               		<lb n="3" break="no"/><supplied reason="lost">μησάμενος</supplied></w> <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ΕΝ</orig>
+               		<lb n="3a"/><gap reason="lost" extent="unknown" unit="line"/>
+               </ab>
+            </div>
+         </div>
+         <div type="apparatus">
+            <div type="textpart" n="1-3">
+               <listApp>
+                  <app loc="2">
+                     <note>ΤΕ in ligatura</note>
+                  </app>
+                  <app loc="3">
+                     <note>ΤΕ in ligatura</note>
+                  </app>
+                  <app loc="4">
+                     <note>ΤΕ in ligatura</note>
+                  </app>
+                  <app loc="5">
+                     <note>ΤΕ in ligatura</note>
+                  </app>
+               </listApp>
+            </div>
+            <div type="textpart" n="4">
+               <listApp>
+                  <app loc="2">
+                     <note>ΤΕ in ligatura</note>
+                  </app>
+                  <app loc="3">
+                     <rdg source="bib:НЭПХ">Τ</rdg>
+                  </app>
+               </listApp>
+            </div>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>- - - в 189 году.</p>
+            <p>- - - в 195 году.</p>
+            <p>- - - в 198 году.</p>
+            <p>- - - в 214 году.</p>
+            <p>- - - по[жертвовавший?]</p>
+            <p>- - - в ..]4 году.</p>
+            <p>- - - ] пожертвовав</p>
+            <p>[ший - - -]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Фрг. 4 - 3: in.: след вертикальной и горизонтальной линиищ</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

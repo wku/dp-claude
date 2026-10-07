@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент надписи</title><title xml:lang="en">Incertum</title>
+            <editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.61</idno>
+            <idno type="filename">1.59</idno>
+            <idno type="PE">PE1000061</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc22">
+                     <seg xml:lang="ru">Incertum.</seg>
+                     <seg xml:lang="en">Incertum.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор белый.</material>
+                           <material xml:lang="en">Marble, white.</material>
+                           <p xml:lang="ru">Лицевой и нижний фасы отполированы, остальные оббиты. 
+                              Сохранилась нижняя часть плиты, близко к левому краю. 
+                              Поле надписи окружено рамкой сложной профилировки, которая сохранилась снизу и частично слева.</p>
+                           <p xml:lang="en">The front and bottom are polished, the other faces are broken off. The bottom of the panel close to the left edge, is preserved.
+                           The epigraphic field is surrounded by a profiled border, which is preserved on the bottom and partially on the left. Nicorescu gave the thickness as 55,0cm, 
+                           but this must be a mistake or typo. I suggest to correct that to 5,5.</p>
+                           <dimensions>
+                              <height unit="cm">23,0</height>
+                              <width unit="cm">20,0</width>
+                              <depth unit="cm">5,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Углубленное поле находится внутри рамки. Сохранился левый нижний угол, оббито сверху и справа.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. Inset field within a border. The bottom left corner is preserved, broken off on the top and right.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны глубоко и тщательно, украшены апексами. Альфа с прямой перекладиной. 
+                           Сигма квадратная. Используются лигатуры, в последней строке ню уменьшена.</seg>
+                        <seg xml:lang="en">Deeply and neatly cut letters with serifs. Alpha with straight crossbar. Rectangular sigma. 
+                           Ligatures; nu is reduced in size in the last line.  Dimensions are according to Nicorescu.</seg>
+                        <height unit="cm">3,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0168" notAfter="0300" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">конец II - III в. н.э.</seg>
+                        <seg xml:lang="en">late II - III century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">Найдена в 1929 г., раскопки Никореску.</rs>
+                        <rs type="context">На раскопе 21, расположенном во внешнем дворе крепости, 
+                           среди строительных остатков императорской эпохи.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Found in 1929, excavations of Nicorescu.</rs>
+                        <rs type="context">Trench 21, outer courtyard of the fortress, among building remains of the Roman Imperial period.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-02-28" who="PY">encoded Leiden and metadata</change>
+         <change when="2016-11-29" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.61">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Nicorescu 1933--><ptr target="bib:b0884"/>, 569, <citedRange>No. 3, fig. 9</citedRange></bibl>
+               <bibl n="1.1"><!-- Карышковский 1959 --><ptr target="bib:b0908"/>, 121, <citedRange>No. 11</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                                    <lb n="1"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" unit="character" quantity="2"/><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><orig><unclear>Υ</unclear>ΠΙ<unclear>Ω</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="3"/><orig>ΔΙΩΝΑ<unclear>Π</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4"/><w part="F">σαν</w> <w>ἐν</w> <w>τῷ</w> <gap reason="lost" quantity="3" unit="character"/><supplied reason="lost"><w>ἔτει</w></supplied>
+                                                <gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="4"><note>SA in ligatura</note></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Не предлагается.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Not attempted.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Судьба этой надписи, как и других надписей из раскопок Никореску, неизвестна: на в Белгороде, ни в Яссах, ни в Бухаресте их обнаружить не удалось.</p>
+            <p>1. В первой строке сохранились нижние концы двух вертикальных штрихов, принадлежавших одной или двум буквам.</p>          
+            <p>2. Во второй строке можно восстанавливать одно из имен, включающих элемент –ΥΠΙΩ-, 
+               например Ἀλυπίων, Εὐπίων, Γρυπίων, или демотикон Προυσιεὺς πρὸς τῷ Ὑπίῳ 
+               (ср. ольвийский декрет близкого времени в честь Маркиана, сына Домниона из Прусии SEG 34, 766). 
+               3. В третьей строке можно восстанавливать одно из многочисленных имен, завершающихся на -διων, и отчество, начинающееся на Απ-. 
+               Другой вариант: восстановление ἐκ τῶν ἰ]δίων. Однако ни один из вариантов восстановления не может считаться надежным.</p>
+            <p>4. В последней строке содержится, по-видимому, датировочная формула.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The fate of this inscription, as well as of the others from the excavations of Nicorescu, is unknown: it has not been possible to locate them in Belgorod, Jasi, or 
+               Bucarest.</p>
+            <p>1: bottom parts of two vertical strokes are preserved; these may represent one or two letters.</p>
+            <p>2: here we may restore a personal name which contains –ΥΠΙΩ-, e.g.  Ἀλυπίων, Εὐπίων, Γρυπίων, or a demotic Προυσιεὺς πρὸς τῷ Ὑπίῳ (cf. a near contemporary
+               Olbian decree in honour of Markianos, son of Domnion, from Prusa, SEG 34.766).
+               3: we may restore a name ending in -διων and a patronymic in Απ-. Alternatively: ἐκ τῶν ἰ]δίων. None of these restorations can be considered secure.</p>
+            <p>4: In the last line, we should probably expect a dating formula.</p>  
+         </div>
+      </body>
+   </text>
+</TEI>

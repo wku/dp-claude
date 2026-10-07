@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Андрокла</title><title xml:lang="en">Epitaph of Androkles</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.16</idno><idno type="PE">PE3000016</idno><idno type="filename">3.218</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>32/36504</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>32/36504</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m4">Песчаник.</material>
+                           <material xml:lang="en">Sandstone.</material>
+                           <p xml:lang="ru">Фрагмент надгробия, использованного вторично в качестве
+                              карниза. Сохранилась вырезанная по заранее нанесенной разметке
+                              двухстрочная надпись.</p>
+                           <p xml:lang="en">Fragment of a funerary monument reused as a cornice. Two-line inscription cut following ruled lines.</p>
+                           <dimensions>
+                              <height unit="cm">29,0</height>
+                              <width unit="cm">23,0</width>
+                              <depth unit="cm">27,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Ню с укороченной правой вертикалью, правая вертикаль пи
+                           значительно укорочена, сигма с расходящимися верхней и нижней гастами,
+                           омега широкая без сближения нижних концов дуги, отсутствие утолщений на
+                           концах букв.</seg>
+                        <seg xml:lang="en">Nu with short right vertical, four-bar sigma with splayed
+                           bars; absence of flaring of the ends of hastae.</seg>
+                        <height unit="cm">2,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0350" notAfter="-0268" evidence="палеография">
+                        <seg xml:lang="ru">2-я пол. IV - нач. III в. до н.э.</seg>
+                        <seg xml:lang="en">2nd half of IV - early III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol ">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найден в 1891 г. Раскопки К.К. Косцюшко-Валюжинича (ОАК за 1891, 6; НА НЗХТ, д.
+                           2, л. 5 № 52; д. 3, л. 11; д. 20, л. 4, № 52).</rs>
+                        <rs type="context">В северном районе Херсонеса, на
+                           берегу около монастырской купальни; раскоп III (вблизи будущего раскопа
+                           1931 г.).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1891, excavations of K.K. Kostsyushko-Valyuzhinich (ОАК за 1891, 6; НА НЗХТ, д.
+                           2, л. 5 № 52; д. 3, л. 11; д. 20, л. 4, № 52).</rs>
+                        <rs type="context">North sector of Chersonesos, on the coast by the monastery {swimming area}; Trench III (near the subsequent Trench of 1931).</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-05" who="CB">Added origDate</change>
+         <change when="2015-10-13" who="CB">Biblio</change>
+         <change when="2015-09-28" who="CB">Biblio and app crit</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2015-06-02" who="CB">Tagging metadata</change>
+         <change when="2015-03-12" who="VP">Tagging Greek names</change>
+         <change when="2015-03-12" who="CB">checking and normalising</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.16">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1892-->, <ptr target="bib:b0125"/>26, №
+                  <citedRange>8</citedRange></bibl>
+               <bibl><!--IOSPE -->
+                  <ptr target="bib:IOSPE"/>
+                  <citedRange>IV 99</citedRange></bibl>
+               <bibl><!--IOSPE I2-->
+                  <ptr target="bib:IOSPE2"/>
+                  <citedRange>463</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Латышев 1895--><ptr target="bib:b0125"/>, 78, ad № 8</bibl>
+               <bibl><!--KW--><ptr target="bib:b0519"/>, № 16h </bibl>
+               <bibl><!--Буйских 2008--><ptr target="bib:b0449"/>, 61</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person487"><name nymRef="Ἀνδροκλῆς">Ἀνδροκλῆς</name> 
+               	<lb n="2"/><persName type="attested" ref="#person488"><name nymRef="Προμάθιων">Προμαθίωνος</name></persName></persName>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Андрокл, (сын) Проматиона.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Androkles, (son of) Promathion.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Стела могла изначально находиться на территории раннего некрополя на Северном берегу,
+               прекратившего существование не позднее третьей четверти IV в. (ср. Буйских, 2008, 50,
+               61). Личное имя Προμαθίων неоднократно засвидетельствовано в Херсонесе (LGPN IV),
+               антропоним Ἀνδροκλῆς встречается только в этой надписи.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

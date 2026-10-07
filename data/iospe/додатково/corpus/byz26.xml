@@ -1,0 +1,249 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Byzantine 26: Dedication of John (?) (ed. A. Vinogradov)</title>
+        <title xml:lang="ru">Византийская надпись 26: Посвящение Иоанна (?) (редакция А. Виноградова)</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text xml:lang="en">
+        <body>
+          <div>
+          <head>Stone.</head>
+            <p><hi rend="italic">Type of monument:</hi> Panel. 
+            <hi rend="italic">Material:</hi> Limestone. 
+              <hi rend="italic">Description and condition:</hi> Panel in the shape of mirror - circle with a handle; on the polished obverse face – a rectangular depression crowned with three triangular extensions, and within the depression - one large cross with arms ending in serifs, and two smaller crosses of identical shape above the horizontal and to the left and right of the vertical arms of the central cross; the reverse side is polished and bears a six-petal rosette carved by a different hand than the obverse.
+              <hi rend="italic">Dimensions:</hi> H. 0.25, W. 0.21, Th. 0.04. 
+              <hi rend="italic">Autopsy:</hi> May 1999, August 2001, September 2002, September 2003, September 2004, September 2005, September 2006, September 2007.</p>
+            <p>— <hi rend="italic">Find place:</hi> Herakleian peninsula. 
+              <hi rend="italic">Find circumstances:</hi> 1928, excavations of K. E. Grinevich. 
+              <hi rend="italic">Find context:</hi> Berman’s Gully, settlement, enclosure 8.</p>
+            <p><hi rend="italic">Modern location:</hi> Sevastopol, Ukraine.
+              <hi rend="italic">Institution and inventory:</hi> National Preserve of Tauric Chersonesos, 30578</p>
+          </div>
+          <div>
+            <head>Inscription 1. Text field: </head>
+            <p><hi rend="italic">Faces code:</hi> f1. 
+              <hi rend="italic">Placement of text:</hi> Left and right of the depression with a relief of three crosses.
+              <hi rend="italic">Style of lettering:</hi> Lapidary; on the right side, the letters lean to the right; imitation of the uncial script of manuscript titles; letters vertically elongated. Alpha with a loop, unclosed kappa, mu with a curved horizontal, rho with a triangular loop, cross-haped psi. Ligature eta-nu.
+              <hi rend="italic">Letterheights:</hi> 0.005–0.008.</p>
+          </div>
+          <div>
+            <head>Text:</head>
+            <p><hi rend="italic">Origin of text:</hi> Chersonesos. 
+              <hi rend="italic">Document type:</hi> Dedication.  
+              <hi rend="italic">Date:</hi> 14th cent. 
+              <hi rend="italic">Dating criteria:</hi> Visual decoration; language.</p>
+            <p><hi rend="italic">Editions:</hi> L1. Shangin 1938, 85-87, no. 14.</p>
+            
+            <table><row><cell>
+              + Ὑ]πὲρ ε-<lb/>
+              ὐ]χῆς κὲ<lb/>
+              σω]τηρή-<lb/>
+              ας] κὲ ἀφέ-<lb/>
+              σε]ος ἁμαρ-<lb/>
+              τ]ιῶν τοῦ <lb/>
+              δο]ύλου σου<lb/>
+              ᾿Ιω(άννου) (?) ἡ]γ̣ουμ̣[έ-<lb/>
+              [νου τοῦ (?)]<lb/>
+              ἁγ]ήου Στε-<lb/>
+              φ̣άνου. Το-<lb/>
+              ῦ̣θο καμ-<lb/>
+              ό]τ̣η ἅμα τε<lb/>
+              κὲ γρά-<lb/>
+              ψατη ἠς ἄφ-<lb/>
+              εσην
+            </cell>
+              <cell>
+              ἁμα[ρ-<lb/>
+              τηῶ-<lb/>
+              ν αὐ-<lb/>
+              τοῦ τε κὲ<lb/>
+              τ̣ν αὐ̣[τ-<lb/>
+              οῦ γε-<lb/>
+              νε]̣ν (?)<lb/>
+              γένυτο<lb/>
+              πάτα[ς<lb/>
+              ἡμᾶς. Ἀ-<lb/>
+              μήν.</cell></row></table>
+            
+            <p><hi rend="italic">Apparatus criticus:</hi> 7–8: Ἰ]ουλιανοῦ Shangin; 
+              11–16: τ[ὰ] ἔτη Θωκᾶ μήτηρ μα τέκε καὶ γιὰ τα(ύ)την] Shangin;
+              20–36: τέ[κ]τον αὐτοῦ ... τε ... Γενν[άδιος πᾶπας ἡμ(ῶν) Shangin.
+              <figure><graphic url="26.1.jpg" width="300px" height="400px"/></figure>
+              <figure><graphic url="26.1b.jpg" width="300px" height="400px"/></figure>
+              <figure><graphic url="26.2.jpg" width="300px" height="400px"/></figure></p>
+          </div>
+          <div>
+            <head>Translation:</head>
+            <p>For a prayer, salvation and redemption of sins of Your servant John (?), dean of [the monastery] of St. Stephen. On behalf of the one who made this and equally of the one who wrote this, for the redemption of their sins and those of his parents (?), may it be so for all of us, amen. </p>
+          </div>  
+          
+          <div>
+            <head>Commentary:</head>
+            <p>After Grinevich’s discovery of the inscription, it was read by I. I. Novosotskiy who saw the formula “For the resting [in God] of God’s servant Guriy (?), the son of Stephen” and dated it to the 8-9th centuries CE. Grinevich (1928) does not provide a date for the archaeological remains in the enclosure 8.</p>
+            <p>The panel was designed to be fitted into a slot, or into a wall. The rosette was probably carved first, and by a skilled master who was using a compass. A scribe began the carving of the inscription under the rosette, on a handle-like extension, which is testified by an initial ypsilon (the same letter that begins the inscription on the obverse side of the panel. The scribe stopped, however, after the first letter, either because he realized that the extension was meant to be fitted into a slot and would hide the letters, or more likely, due to a lack of space. Later, a less skilled person carved out a rectangular depression with three crosses in relief on the opposite side of the panel, and the inscription was added to the left and right of the carving. </p>
+            <p>The carver and the scribe who worked on the obverse side were two different people (as is clear from the text of the inscription “on behalf of the one who made and of the one who wrote” in lines 12-15), and the scribe apparently did not have much experience in working on stone (this is suggested by a clumsy execution of letters due to the fact that he was not using a support for his right hand, as D. Yu. Korobkov has kindly pointed out to us). That the inscription was made by a book scribe is also evident from his imitation of the uncial script of manuscript titles, wherefrom he took some conventional Middle Byzantine letterforms, which misled Shangin. The language of the inscription reveals a mixture of high literary forms (ἅμα τε καί) alongside many orthographic and syntactic mistakes.</p>
+            <p>1-7. On the formula, see IV.3.B.g. Concerning the deviation (τοῦ δούλου σου instead τοῦ δούλου τοῦ Θεοῦ) see IV.3.E.b.</p>
+            <p>8-11. The name in line 8 consisted of two letters: most likely, it was John, typically abbreviated as iota-omega. The words “dean of St. Stephen” point to a monastery of that name, probably of Saint Stephen the Protomartyr. It is possible that the monastery was located in the Herakleian peninsula. All other references (the name Julian, emperor Phoka, priest Gennadiy) “discovered” by Shangin find no support in the text. </p>
+            <p>11-15. A similar formula κύριε, βοήθει τῷ γράψαντι is attested in Bandy 1970, no. 73B and TAM II, 735 (Komba in Lykia). A characteristic omission of nu in the combination of letters αντ, also in the same word γράψαντι, is attested in IGLS 371 (Antiochena, 496 CE); cf. SEG XXVII 848. In our case, the omission of nu before tau (also in lines 13 and 25) might be a dialectal feature (see IV.5.A).</p>
+            <p>20-23. A request on behalf of a dedicant and his parents is attested in Piccirillo 1981, no. 8A (Rihab in Arabia, 533 CE) and in Feissel, Philippidis-Braat 1985, no. 88 (Geraki, 15th cent CE).</p>
+          </div>
+          
+          
+          <div>
+          <head>Inscription 2. Text field: </head>
+          <p><hi rend="italic">Faces code:</hi> f4. 
+            <hi rend="italic">Placement of text:</hi> handle of the mirror-shaped panel, under the rosette.
+             <hi rend="italic">Letterheights:</hi> 0.005.</p>
+            </div>
+          <div>
+            <head>Text:</head>
+            <p><hi rend="italic">Origin of text:</hi> Chersonesos. 
+              <hi rend="italic">Document type:</hi> Dedication.  
+              <hi rend="italic">Date:</hi> 14th cent. 
+              <hi rend="italic">Dating criteria:</hi> Visual decoration; language.</p>
+            <p><hi rend="italic">Editions:</hi> unpublished.</p>
+            
+            <p>Υ</p>
+          </div>
+          
+          <div>
+            <head>Translation:</head>
+            <p>...</p>
+          </div>  
+          
+          <div>
+            <head>Commentary:</head>
+            <p>See commentary for Byz. 26.1.</p>
+          </div>
+        </body>
+      </text>
+      
+      
+      <text xml:lang="ru">
+        <body>
+          <div>
+          <head>Камень.</head>
+            <p><hi rend="italic">Разновидность:</hi> Плитка. 
+            <hi rend="italic">Материал:</hi> Известняк. 
+              <hi rend="italic">Описание и состояние документа:</hi> Плитка в форме зеркала (круг с ножкой снизу); на отшлифованной лицевой стороне рельефные изображения одного большого и двух маленьких (в углах) апицированных крестов во врезанном квадратном поле с тремя прямоугольными вершинами наверху; на отшлифованной тыльной стороне другой рукой вырезано изображение круглой шестилепестковой розетки. Разбит на несколько частей. 
+              <hi rend="italic">Размеры:</hi> Высота 25,0; ширина 21,0; толщина 4,0. 
+              <hi rend="italic">Автопсия:</hi> май 1999, август 2001, сентябрь 2002, сентябрь 2003, сентябрь 2004, сентябрь 2005, сентябрь 2006, сентябрь 2007.</p>
+            <p>— <hi rend="italic">Место находки:</hi> Гераклейский полуостров. 
+              <hi rend="italic">Условия находки:</hi> 1928 г., раскопки К.Э Гриневича. 
+              <hi rend="italic">Контекст находки:</hi> Балка Бермана, поселение, помещение № 8.</p>
+            <p><hi rend="italic">Место хранения:</hi> Севастополь, Украина.
+              <hi rend="italic">Институт хранения:</hi> НЗХТ, 30578.</p>
+          </div>
+          <div>
+            <head>Надпись 1. Эпиграфическое поле:</head> 
+            <p><hi rend="italic">Код фаса:</hi> f1. 
+              <hi rend="italic">Местоположение:</hi> слева и справа от квадрата с крестами. 
+              <hi rend="italic">Стиль письма:</hi> Лапидарный. справа буквы наклонены вправо; подражание унциалу рукописных заголовков; буквы вытянуты по вертикали. Альфа с петлей, каппа несомкнутая, мю с прогнутой серединой, ро с треугольной петлей, пси в виде креста. Лигатура эта-ню. 
+              <hi rend="italic">Высота букв:</hi> 0,5–0,8.</p>
+          </div>
+          <div>
+            <head>Текст:</head>
+            <p><hi rend="italic">Происхождение текста:</hi> Херсон. 
+              <hi rend="italic">Характер документа:</hi> Посвятительная надпись.  
+              <hi rend="italic">Датировка текста:</hi> XIV в. 
+              <hi rend="italic">Обоснование датировки:</hi> Тип изображений; язык.</p>
+            <p><hi rend="italic">Издания:</hi> L1. Шангин 1938, 85–87, № 14.</p>
+            
+            <table>
+                <row>
+                  <cell>
+                      + Ὑ]πὲρ ε-<lb/>
+                      ὐ]χῆς κὲ<lb/>
+                      σω]τηρή-<lb/>
+                      ας] κὲ ἀφέ-<lb/>
+                      σε]ος ἁμαρ-<lb/>
+                      τ]ιῶν τοῦ <lb/>
+                      δο]ύλου σου<lb/>
+                      ᾿Ιω(άννου) (?) ἡ]γ̣ουμ̣[έ-<lb/>
+                      [νου τοῦ (?)]<lb/>
+                      ἁγ]ήου Στε-<lb/>
+                      φ̣άνου. Το-<lb/>
+                      ῦ̣θο καμ-<lb/>
+                      ό]τ̣η ἅμα τε<lb/>
+                      κὲ γρά-<lb/>
+                      ψατη ἠς ἄφ-<lb/>
+                      εσην
+                  </cell>
+                  <cell>
+                      ἁμα[ρ-<lb/>
+                      τηῶ-<lb/>
+                      ν αὐ-<lb/>
+                      τοῦ τε κὲ<lb/>
+                      τ̣ν αὐ̣[τ-<lb/>
+                      οῦ γε-<lb/>
+                      νε]̣ν (?)<lb/>
+                      γένυτο<lb/>
+                      πάτα[ς<lb/>
+                      ἡμᾶς. Ἀ-<lb/>
+                      μήν.
+                  </cell>
+                </row>
+            </table>
+            
+            <p><hi rend="italic">Критич. аппарат:</hi> : 7–8: Ἰ]ουλιανοῦ Shangin; 11–16: τ[ὰ] ἔτη Θωκᾶ μήτηρ μα τέκε καὶ γιὰ τα(ύ)την] 
+              Shangin; 20–36: τέ[κ]τον αὐτοῦ ... τε ... Γενν[άδιος πᾶπας ἡμ(ῶν) Shangin.
+              <figure><graphic url="26.1.jpg" width="300px" height="400px"/></figure>
+              <figure><graphic url="26.1b.jpg" width="300px" height="400px"/></figure>
+              <figure><graphic url="26.2.jpg" width="300px" height="400px"/></figure></p>
+          </div>
+          <div>
+            <head>Перевод:</head>
+            <p>О молитве, [с]пасении и оставлении грехов раба Твоего Иоанна (?), настоятеля [монастыря] [Свя]того Стефана. Это сделавшему, равно как и написавшему, во оставление грехов его и его ро[ди]телей (?) да будет всем нам, аминь.</p>
+          </div>
+          <div>
+            <head>Комментарий:</head>
+            <p>После находки для Гриневича надпись прочел И. И. Новосотский, увидевший здесь формулу «Об упокоении раба Божьего Гурия (?), сына Стефана» и датировавший ее VIII–IX веками. Археологический материал из пом. № 8 автором раскопок не датирован  (Гриневич 1928).</p>
+            <p>Плитка предназначалась для вставки в паз или для закрепления в стене. Первоначально, вероятно, была выполнена розетка на тыльной стороне, которую вырезал умелый мастер, пользовавшийся, в частности, циркулем. Писец начал выполнять надпись под розеткой, на нижнем выступе, о чем свидетельствует начальный ипсилон (как и в надписи на лицевой стороне), но остановился сразу после первой буквы из-за того, что эта часть должна была вставляться в паз, или, что вероятней, из-за недостатка места. После этого другим, менее искушенным мастером был вырезан квадрат с тремя крестами на лицевой стороне, по бокам от которого и была выполнена надпись.</p>
+            <p>Для исполнения надписи был приглашен какой-то писец (то, что он не тождественен автору изображения, доказывают слова «сделавшему, равно как и написавшему» в строках 12–15), не имевший, вероятно, опыта работы с камнем (это доказывает неумелое исполнение букв без опоры для руки на правом поле, на что нам любезно указал Д. Ю. Коробков).  То, что это был книжный писец, подтверждается подражанием в шрифте унциалу рукописных заголовков (отсюда некоторые законсервировавшиеся средневизантийские формы букв, которые ввели в заблуждение Шангина). Язык надписи производит двоякое впечатление: наряду с высоко литературными формами (ἅμα τε καί) встречается много орфографических ошибок и сбивок в управлении. </p>
+            <p>1–7. Относительно формулы см. IV.3.B.g. Относительно сбивки в формуле (τοῦ δούλου σου вм. τοῦ δούλου τοῦ Θεοῦ) см. IV.3.E.b. </p>
+            <p>8–11. Имя в 8-й строке состояло из 2 букв: это было, вероятнее всего, имя Иоанн в типичном сокращении йота-омега. Слова «игумен св. Стефана» указывают на монастырь, носивший имя св. Стефана, вероятней всего, первомученика. Не исключено, что он находился на Гераклейском полуострове. Все остальные реалии (имя Юлиан, император Фока, поп Геннадий), «найденные» Шангиным, не подтверждаются при внимательном прочтении текста надписи.</p>
+            <p>11–15. Схожая формула κύριε, βοήθει τῷ γράψαντι встречается в Bandy 1970, № 73B и TAM II, 735 (Комба в Ликии). Характерный для надписи пропуск ню в сочетании αντ в том же γράψαντι засвидетельствован в IGLS 371 (Антиохена, 496 г.); ср. также SEG XXVII, 848. В нашем случае этот пропуск n перед t (также в 13-й и 25-й строках) может быть диалектной чертой (см. IV.5.A). </p>
+            <p>20–23. Прошение о дедиканте и его родителях встречается в Piccirillo 1981, № 8A (Рихаб в Аравии, 533 г.) и, что ближе, Feissel, Philippidis-Braat 1985, № 88 (Гераки, XV в.).</p>
+          </div>
+          <div>
+            <head>Надпись 2. Эпиграфическое поле:</head> 
+            <p><hi rend="italic">Код фаса:</hi> f4. 
+              <hi rend="italic">Местоположение:</hi> Ножка под розеткой. 
+              <hi rend="italic">Высота букв:</hi> 0,5.</p>
+          </div>
+          <div>
+            <head>Текст:</head>
+            <p><hi rend="italic">Происхождение текста:</hi> Херсон. 
+              <hi rend="italic">Характер документа:</hi> Посвятительная надпись.  
+              <hi rend="italic">Датировка текста:</hi> XIV в. 
+              <hi rend="italic">Обоснование датировки:</hi> Тип изображений; язык.</p>
+            <p><hi rend="italic">Издания:</hi> штув.</p>
+            
+            <p>Υ</p>
+          </div>
+          <div>
+            <head>Перевод:</head>
+            <p>...</p>
+          </div>
+          <div>
+            <head>Комментарий:</head>
+            <p>См. комм. к № 26.1ю</p>
+          </div>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI>

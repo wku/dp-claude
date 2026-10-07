@@ -1,0 +1,116 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Byzantine 34: Inscribed keystone (ed. A. Vinogradov)</title>
+        <title xml:lang="ru">Византийская надпись 34: Замковый камень (редакция А. Виноградова)</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text xml:lang="en">
+        <body>
+          <div>
+          <head>Stone.</head>
+            <p><hi rend="italic">Type of monument:</hi> Keystone. 
+            <hi rend="italic">Material:</hi> Limestone. 
+            <hi rend="italic">Description and condition:</hi> Obverse side smooth, in the center – an image of a two-barred cross on the Golgotha. Chipped all over.
+              <hi rend="italic">Dimensions:</hi> H. 0.175, W. 0.163, Th. 0.096. 
+              <hi rend="italic">Autopsy:</hi> May 1999, August 2001, September 2002, September 2003, September 2004, September 2005, September 2006, September 2007.</p>
+            <p>— <hi rend="italic">Find place:</hi> Balaklava district, mouth of Berman’s Gully, northern slope, east of highway 5km to Phiolent. 
+              <hi rend="italic">Find circumstances:</hi> 1991, survey of V. V. Soznik and T. B. Kudryavtseva. 
+              <hi rend="italic">Find context:</hi> Building complex of the 10th-12th centuries CE.</p>
+            <p><hi rend="italic">Modern location:</hi> Sevastopol, Ukraine. 
+              <hi rend="italic">Institution and Inventory:</hi> National Preserve of Tauric Chersonesos, 90/36504.</p>
+          </div>
+          <div>
+          <head>Text field: </head>
+            <p><hi rend="italic">Faces code:</hi> f1. 
+              <hi rend="italic">Placement of text:</hi> In corners between the arms of the cross.
+              <hi rend="italic">Style of lettering:</hi> Lapidary; pi with an extended horizontal; phi with an extended vertical.
+              <hi rend="italic">Letterheights:</hi> 0.015–0.032.</p>
+          </div>
+          <div>
+          <head>Text:</head>
+            <p><hi rend="italic">Origin of text:</hi> Chersonesos. 
+            <hi rend="italic">Document type:</hi> Acclamation.  
+              <hi rend="italic">Date:</hi> 10-12th cent. 
+            <hi rend="italic">Dating criteria:</hi> Archaeological context.</p>
+          <p><hi rend="italic">Editions:</hi> Unpublished.</p>
+            
+            <p>Φ(ῶ)ς Χ(ριστο)ῦ<lb/>
+              φ(αίνει) π(ᾶσιν).</p>
+            
+            <figure><graphic url="34.jpg" width="400px" height="379px"/></figure>
+          </div>
+          <div>
+            <head>Translation:</head>
+            <p>The light of Christ shines for all.</p>
+        </div>  
+          
+          <div>
+            <head>Commentary:</head>
+            <p>Regarding the formula, see IV.3.C.a. The abbreviations are somewhat unusual: ΦΣ ΧΥ Φ Π instead of Φ Χ Φ Π.</p>
+            <p>The keystone was probably positioned at an apex of an arch in some important building, possibly, a church.</p>
+        </div>
+        </body>
+      </text>
+      
+      
+      <text xml:lang="ru">
+        <body>
+          <div>
+          <head>Камень.</head>
+            <p><hi rend="italic">Разновидность:</hi> Замковый камень. 
+            <hi rend="italic">Материал:</hi> Известняк. 
+              <hi rend="italic">Описание и состояние документа:</hi>  Лицевая сторона заглажена; посередине ее изображение шестиконечного креста на голгофе. Сколы по всей поверхности
+              <hi rend="italic">Размеры:</hi> Высота 17,5; ширина 16,3,0; толщина  9,6
+              <hi rend="italic">Автопсия:</hi> май 1999, август 2001, сентябрь 2002, сентябрь 2003, сентябрь 2004, сентябрь 2005, сентябрь 2006, сентябрь 2007.</p>
+            <p>— <hi rend="italic">Место находки:</hi> Балаклавский район, устье балки Бермана, сев. склон, восточнее шоссе 5 км — Феолент. 
+              <hi rend="italic">Условия находки:</hi> 1991 г., разведки В. В. Созник и Т. Б. Кудрявцевой. 
+              <hi rend="italic">Контекст находки:</hi> Комплекс построек X–XII вв.</p>
+            <p><hi rend="italic">Место хранения:</hi> Севастополь, Украина.
+              <hi rend="italic">Институт хранения:</hi> НЗХТ, 90/36504.</p>
+          </div>
+          <div>
+          <head>Эпиграфическое поле:</head> 
+           <p><hi rend="italic">Код фаса:</hi> f1. 
+            <hi rend="italic">Стиль письма:</hi> . 
+             <hi rend="italic">Высота букв:</hi> 1,5–3,2.</p>
+          </div>
+          <div>
+            <head>Текст:</head>
+            <p><hi rend="italic">Происхождение текста:</hi> Херсон. 
+              <hi rend="italic">Характер документа:</hi> Демонстративная надпись.  
+              <hi rend="italic">Датировка текста:</hi> X–XII вв. 
+              <hi rend="italic">Обоснование датировки:</hi> Археологический контекст.</p>
+            <p><hi rend="italic">Издания:</hi> ined.</p>
+            
+            <p>Φ(ῶ)ς Χ(ριστο)ῦ<lb/>
+              φ(αίνει) π(ᾶσιν).</p>
+            <figure><graphic url="34.jpg" width="400px" height="379px"/></figure>
+          
+           </div>
+          <div>
+          <head>Перевод:</head>
+            <p>Свет Христов сияет всем</p>
+          </div>
+          <div>
+          <head>Комментарий:</head>
+            <p>Относительно формулы см. IV.3.C.a. Несколько нетрадиционны сокращения: вместо обычных Φ Χ Φ Π написано ΦΣ ΧΥ Φ Π.</p>
+            <p>По-видимому, камень являлся завершением арки какого-то значительного здания, возможно, храма.</p>
+          </div>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI>

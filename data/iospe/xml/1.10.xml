@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент почетного декрета (?)</title><title xml:lang="en">Honorific decree (?)</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.9</idno>
+            <idno type="filename">1.10</idno>
+            <idno type="PE">PE1000009</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Белгород-Днестровский краеведческий музей</repository>
+                     <idno>А-4666, КП-38251</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Belgorod-Dnestrovsky Regional Studies Museum</repository>
+                     <idno>А-4666, КП-38251</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc15" cert="low">
+                     <seg xml:lang="ru">Почетный декрет</seg>
+                     <seg xml:lang="en">Honorific decree</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор сероватый.</material>
+                           <material xml:lang="en">Marble, grayish</material>
+                           <p xml:lang="ru">Передний и оборотный фасы отшлифованы, нижний заглажен
+                              немного менее тщательно, остальные отбиты. Нижний край плиты. 
+                              Орнаментация: Под полем надписи находится изображение крупного листа, над ним – маленькое квадратное углубление.</p>
+                           <p/>
+                           <p xml:lang="en">Lower edge of a panel.The front and back are polished, the bottom is treated less thoroughly, the other sides broken off. 
+                              Decoration: Below the epigraphic field, there is an image of a large leaf, above it - a small square depression.</p>
+                           <p/>
+                           <dimensions>
+                              <height unit="cm">11,5</height>
+                              <width unit="cm">10,4</width>
+                              <depth unit="cm">2,4</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Оббито со всех сторон, кроме нижней. Размеры полей: нижнее 7,8.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. Broken off on all sides except the bottom. Margins: bottom 7,8cm.</seg>
+                           <dimensions>
+                              <height unit="cm">3,2</height>
+                              <width unit="cm">7,8</width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны достаточно небрежно и не очень ровно. Мю имеет курсивную форму.
+                           Среднее расстояние между строк: 0,3.</seg>
+                        <seg xml:lang="en">Letters are cut without much care and somewhat unevenly. Cursive mu.
+                           Average distance between lines: 0,3cm.</seg>
+                        <height unit="cm">0,7 (top line); 1,1 - 1,4 (bottom line)</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0200" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">II в. н.э.</seg>
+                        <seg xml:lang="en">II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">Неизвестны. Вероятно, находка на территории
+                           крепости или в ее окрестностях, сделанная до 1948 г.; в музейной
+                           инвентарной книге значится под 22.09.1948.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">No certain information. Probably found in the fortress or in the vicinity, before 1948; museum inventory entry under 22.09.1948.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Белгород-Днестровский.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Belgorod-Dnestrovsky.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2006-08">август 2006</date>.</seg>
+                     <seg xml:lang="en">A. I. Ivantchik, <date when="2006-08">August 2006</date>.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <!-- volNum = ﻿10-->
+      <revisionDesc>
+         <change when="2016-08-25" who="SS">encoded metadata</change>
+         <change when="2016-08-02" who="SS">encoded Leiden</change>
+         <change when="2016-05-18" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.9">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Карышковский 1963 --><ptr target="bib:b0885"/>, <citedRange>103-104, № 2, рис. 3,2</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ΝΡΑ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w><unclear>μ</unclear>ηνὸς</w> 
+                                                   <rs type="month" ref="artemision"><w>Ἀ<unclear>ρ</unclear><supplied reason="lost">τεμισίωνος</supplied></w></rs><gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[- - -] в месяц Артемисий [- - -]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[- - -] in the month of Artemision [- - -]</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>На фрагменте сохранились две нижние строки надписи, последняя из которых заключала в
+               себе датировку. Поэтому можно предполагать, что надпись представляла собой декрет или
+               иной официальный документ. Артемисий был последним, двенадцатым, месяцем милетского календаря, 
+               принятого в Ольвии и Тире (апрель – май), ср. Виноградов, Русяева 1980, 25-38.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Two bottom lines are preserved, the last containing a dating formula. We may therefore surmise that the inscription was a decree or another official document. 
+            Artemision was the last, twelth, month of the Milesian calendar, adopted in Olbia and Tyras (April-May), cf. Vinogradov, Rusyaeva 1980, 25-38.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

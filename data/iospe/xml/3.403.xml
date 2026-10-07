@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Семейное надгробие</title><title xml:lang="en">Family epitaph</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.152</idno><idno type="PE">PE3000481</idno><idno type="filename">3.403</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>34884 (фрагмент 1), 34868 (фрагмент 2), 34925 (фрагмент 3), 34869 (фрагмент 4)</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>34884 (fr. 1), 34868 (fr. 2), 34925 (fr. 3), 34869 (fr. 4)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Нижняя часть плиты, состоящая из четырех фрагментов, сходящихся по излому. 
+                              В углублении сохранились остатки рельефа с изображением сцены загробной трапезы: справа сидящая в кресле женская (?) фигура 
+                              в длинной одежде; в центре изогнутые ножки пиршественного стола (mensa tripes); слева ноги стоящей фигуры, вероятно, слуги. 
+                              Под рельефом частично сохранились четыре строки надписи, вырезанной по предварительной разметке.</p>
+                           <p xml:lang="en">Bottom part of a panel, in four joining fragments. Relief of funerary banquet in an inset rectangle. Below the relief 
+                              is a four-line inscription cut following ruled lines.</p>
+                           <dimensions>
+                              <height unit="cm">20,0</height>
+                              <width unit="cm">41,0</width>
+                              <depth unit="cm">3,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы узкие, разной высоты; курсивные эпсилон, мю, сигма, апексы.</seg>
+                        <seg xml:lang="en">Narrow letters of varying height; cursive epsilon, mu, sigma; serifs.</seg>
+                        <height unit="cm">1,5 - 2,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0151" notAfter="0233" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">2-я пол. II в. – нач. III в. н.э.</seg>
+                        <seg xml:lang="en">2nd half of II - early III century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Фрагменты 1 и 4 (крайний левый и крайний правый) найдены в 1898 г. Раскопки К.К. Косцюшко-Валюжинича 
+                           (НА НЗХТ, д. 7, л. 6, № 149a, 149б; д. 27, л. 2, № 149). 
+                           Фрагменты 2 и 3 (середина плиты) найдены в 1907 г. Раскопки К.К. Косцюшко-Валюжинича (НА НЗХТ, д. 16, № 326; д. 36, л. 5, № 326).</rs>
+                        <rs type="context">Фрагменты 1 и 4: в юго-восточном районе около башни XVII («башня Зенона»). Фрагменты 2 и 3: в юго-восточном с внешней стороны 
+                           куртины 19 оборонительных стен («с левой южной стороны дома капитана Белозерова»).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Fragments 1 and 4 (outer left and outer right) found in 1898, excavations of  of K.K.
+                           Kostsyushko-Valyuzhinich (НА НЗХТ, д. 7, л. 6, № 149a, 149б; д. 27, л. 2, № 149). Fragments 2 and 3 (centre of the panel) found in 1907, 
+                           excavations of  of K.K. Kostsyushko-Valyuzhinich (НА НЗХТ, д. 16, № 326; д. 36, л. 5, № 326).</rs>
+                        <rs type="context">Fragments 1 and 4: southeast sector of Chersonesos next to Tower XVII (Zeno's Tower). Fragments 2 and 3: southeast sector of
+                        Chersonesos, the outer side of Curtain Wall 19 of fortification walls ("left south side of the house of captain Belozerov").</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-13" who="SS">encoded text and metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.152">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl n="1-4">
+               <bibl><!-- Латышев 1899 --><ptr target="bib:b0136"/>, 13, № <citedRange>10</citedRange></bibl>
+               <bibl><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>IV 467</citedRange>
+               (= <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>518</citedRange></bibl>)</bibl>
+            </listBibl>
+            <listBibl n="2-3">
+               <bibl><!-- Латышев 1908 --><ptr target="bib:b0149"/>, 15, № <citedRange>1</citedRange></bibl>
+               <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>459</citedRange></bibl>
+               <bibl><!-- Шангин 1938 --><ptr target="bib:b0239"/>, 76, № <citedRange>5</citedRange></bibl>
+               <bibl><!-- Соломоник 1983 --><ptr target="bib:b0208"/>, 78, № <citedRange>11</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- KW --><ptr target="bib:b0519"/> 40, № <citedRange>230</citedRange> (fr. 1 и 4)</bibl>
+               <bibl><!-- АСХ --><ptr target="bib:b0523"/> 112, № <citedRange>350</citedRange></bibl>
+               <bibl><!-- SEG --><ptr target="bib:SEG"/> <citedRange>33, 603</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><persName type="attested"><orig><name>ΗΛΡΙΣ</name></orig> 
+               		                <persName type="attested"><name><choice><corr>Δ</corr><sic>Λ</sic></choice>ιονυσίου</name></persName></persName> 
+                                          <w>ζήσας</w> <w>ἔτη</w> <gap reason="lost" extent="unknown" unit="character"/> 
+                                          <w><supplied reason="lost">κα</supplied><unclear>ὶ</unclear></w> <w>ἡ</w> <w>σύνβιός</w> <w>μου</w>
+               		<lb n="2"/><persName type="attested"><name>Μάτα</name></persName> <w>ζήσασα</w> <w>ἔτη</w> <space extent="unknown" unit="character"/> 
+                                          <supplied reason="lost"><w>καὶ</w> <w>ὁ</w> <w>υἱός</w> <w>μου</w></supplied> 
+                                          <persName type="attested"><gap reason="lost" extent="unknown" unit="character"/><name><seg part="F"><unclear>ν</unclear>οος</seg></name></persName>
+               		<lb n="3"/><space quantity="3" unit="character" cert="low"/> <w>ζήσας</w> <w>ἔτη</w> <num value="20">κ</num> 
+                                          <orig>Α<unclear>Υ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΗΔΙΚΗΣΑ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg source="bib:b0239 bib:b0208"><note>in.:</note> Ἤλ{ρ}ις</rdg>
+                  <rdg>ΛΙΟΝΥΣΙΟΥ <note>lapis</note></rdg>
+               </app>
+               <app loc="1">
+                  <rdg source="bib:b0208"><note>fin.:</note> [. . κα]ὶ̣ ἡ</rdg>
+                  <rdg source="bib:b0239">[- - -]η <note>(не исключает [γλυκυτάτ]η)</note></rdg>
+               </app>
+               <app loc="2">
+                  <rdg source="bib:b0136 bib:IOSPE">[- - - λίθ]ος ?</rdg>
+                  <rdg source="bib:b0239">[- - - Ἀλκί]ν̣οος</rdg>
+                  <rdg source="bib:b0208">[καὶ ὁ υἱός ʼΑλκί]ν̣οος</rdg>
+                  <rdg>[καὶ ὁ υἱός μου - - -] <note>scripsi</note></rdg>
+               </app>
+               <app loc="3">
+                  <rdg><note>in.:</note> [vac. c.3] <note>scripsi</note></rdg>
+                  <rdg source="bib:b0208">om.</rdg>
+                  <rdg source="bib:b0239">[- c. 9 -]</rdg>
+               </app>
+               <app loc="3">
+                  <rdg source="bib:IOSPE bib:b0239"><note>fin.:</note> ἔτη κ’. Αὐ[ρηλία]</rdg>
+                  <rdg source="bib:b0208">Αὐ̣[ρήλιος ?]</rdg>
+                  </app>
+               <app loc="4">
+                  <rdg source="bib:b0239">[Εὐθ](angle)υ(angle)δίκη Σα[τύρου ?]</rdg>
+                  <rdg source="bib:b0208">[- - -] ἠδίκησα[ν]</rdg>
+                     <rdg source="bib:SEG">[- - -ηδίκη Σαυ̣[μάκου ?] <note>(Mihailov)</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>- - - (сын) Дионисия, проживший - - - лет [и] моя супруга Мата, прожившая лет - - - и [мой сын] - - - проживший 20 лет - - -</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>- - - (son of) Dionysios, having lived - - - years [and] my spouse Mata, having lived - - - years and [my son] - - - having lived 20 years - - -</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>3: над Κ горизонтальная черта</p>
+            <p>4: в конце стк. часть вертикальной гасты от Ι, Η или Ν</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Декрет в честь гражданина Гераклеи Диа[- - -]</title><title xml:lang="en">Decree honouring Dia[- - -] of Herakleia</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.293</idno><idno type="PE">PE3000440</idno><idno type="filename">3.22</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3624</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3624</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc15">
+                     <seg xml:lang="ru">Декрет.</seg>
+                     <seg xml:lang="en">Decree.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Отбит левый верхний угол. Возможно, вверху стела была
+                              украшена фронтоном, который был отпилен впоследствии. Лицевая
+                              поверхность отшлифована. На тыльной стороне следы вторичной
+                              обработки.</p>
+                           <p xml:lang="en">The front is polished.</p>
+                           <dimensions>
+                              <height unit="cm">81,0</height>
+                              <width unit="cm">47,0</width>
+                              <depth unit="cm">7,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Правая гаста альфа и дельта немного выступает за
+                           пересечение с левой гастой, курсивные эпсилон, сигма, омега; овальная
+                           тета с замкнутой поперечной гастой, форма мю порой приближается к
+                           курсивной, кси в виде дзета с поперечной чертой крупный овальный омикрон,
+                           пи с равными вертикалями и немного выходящей за их пределы горизонталью,
+                           ипсилон иногда напоминает У, отсутствие украшений на концах линий букв,
+                           знаки-разделители.</seg>
+                        <seg xml:lang="en">Alpha and delta with projecting right diagonal, cursive epsilon, sigma, omega; 
+                           oval theta with attached crossbar; absence of decorative elements at the ends of letterstrokes, word divisions.</seg>
+                        <height unit="cm">1,4</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0129" notAfter="0130" evidence="Указание_надписи">
+                        <seg xml:lang="ru">129/130 г. н.э.</seg>
+                        <seg xml:lang="en">129/130 C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1906 г. Раскопки К.К. Косцюшко-Валюжинича (НА НЗХТ, д. 15, л. 52; д.
+                           35, № 292).</rs>
+                        <rs type="context">На территории некрополя в районе
+                           Загородного крестообразного храма, где была использована для закрытия
+                           входа в склеп № 1431, расположенный под Загородным храмом (ср. ИАК 9,
+                           1904, 25). </rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1906, excavations of K.K.
+                           Kostsyushko-Valyuzhinich (НА НЗХТ, д. 15, л. 52; д.
+                           35, № 292).</rs>
+                        <rs type="context">Necropolis at the Extramural Cruciform Church where it was used for covering the entrance to Chamber Tomb 1431 situated below the Extramural
+                           Cruciform church (see ИАК 9, 1904, 25). </rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <!-- volNum = ﻿30-->
+      <revisionDesc>
+         <change when="2016-05-25" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2016-05-31" who="SS">added links to alists in metadata</change>
+         <change when="2017-04-26" who="PY">moved Russian text to commentary</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.293">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Латышев 1907a --><ptr target="bib:b0590"/>, <citedRange>140</citedRange>
+               (= <bibl><!-- Латышев, ПONTIKA --><ptr target="bib:b0403"/>, <citedRange>314</citedRange></bibl>)</bibl>
+               <bibl><!-- Minns 1913 --><ptr target="bib:b0336"/>, 646, № <citedRange>18a</citedRange></bibl>
+               <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>359</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Robert 1937 --><ptr target="bib:b0810"/>, <citedRange>248</citedRange></bibl>
+               <bibl><!-- Тюменев 1950 --><ptr target="bib:b0752"/>, <citedRange>17</citedRange></bibl>
+               <bibl><!-- Соломоник 1990 --><ptr target="bib:b0506"/>, 32, № <citedRange>25</citedRange></bibl>
+               <bibl><!-- Avram, PPEE --><ptr target="bib:b0709"/>, 149, № <citedRange>1867</citedRange>, <citedRange>1866</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+              <lb n="1"/><supplied reason="lost"><w>ἀγαθῆι</w></supplied> 
+                             <w><supplied reason="lost">τύχ</supplied><unclear>ηι</unclear></w>
+              <lb n="2"/><supplied reason="lost"><w>πρόεδροι</w></supplied> 
+                             <placeName type="ethnic"><supplied reason="lost">Χερσονασειτᾶ</supplied>ν</placeName> 
+                             <w>τᾶ<choice><corr>ν</corr><sic>Ι</sic></choice></w> <w>ποτὶ</w> <w>τᾶι</w> 
+                             <placeName>Ταυρικᾶ<unclear>ι</unclear></placeName>
+              <lb n="3"/><supplied reason="lost"><w>εἶπαν</w>· <w>ἐπειδὴ</w></supplied> 
+                             <persName type="attested" ref="#person1171"><name nymRef="Δια—"><supplied reason="lost"><seg part="I">Δια</seg></supplied><gap reason="lost" extent="unknown" unit="character"/></name> 
+                             <persName type="attested" ref="#person1172"><name nymRef="Δημήτριος"><supplied reason="lost">Δ</supplied>ημητρίου</name></persName>  
+                             <placeName type="ethnic">Ἁρακλεώτας</placeName></persName>
+              <lb n="4"/><supplied reason="lost"><w>ἀνὴρ</w></supplied> 
+                              <gap reason="lost" extent="unknown" unit="character"/> 
+                              <supplied reason="lost"><w>χρησίμωι</w></supplied> 
+                              <w><supplied reason="lost">κε</supplied><unclear>χ</unclear>ραμένος</w> <w>ἄθει</w> <w>τὰν</w> 
+                              <w>καλο
+              <lb n="5" break="no"/><supplied reason="lost">κἀγαθίαν</supplied></w> 
+                              <gap reason="lost" extent="unknown" unit="character"/><w part="F">ας</w> <w>εὔχραστον</w> 
+                              <w>πέφανε<unclear>ν</unclear></w>
+              <lb n="6"/><supplied reason="lost"><w>ἑαυτὸν</w> <w>ποτὶ</w> <w>τοὺς</w></supplied> 
+                              <w><supplied reason="lost">πολείτ</supplied>ας</w> <w>ἀγάπα<choice><corr>ν</corr><sic>Ι</sic></choice></w> 
+                              <w>γνασίαν</w> <w>ἐνδεικν<supplied reason="lost">ύ</supplied>
+              <lb n="7" break="no"/><supplied reason="lost">μενος</supplied></w> 
+                             <gap reason="lost" extent="unknown" unit="character"/> 
+                             <w><supplied reason="lost">φι</supplied><unclear>λ</unclear>ικᾶι</w> <w>καὶ</w> 
+                             <w>ἰσαδέλφωι</w> <w>εὐνοίαι</w> 
+                             <w part="I">τα</w><gap reason="lost" quantity="2" unit="character"/>
+              <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> 
+                           <w><supplied reason="lost">γ</supplied>εγενναμέν<choice><corr>ο</corr><sic>Α</sic></choice></w> 
+                            <w>πολείτας</w> <w>ἄριστα</w> <w part="I">σε</w>
+              <lb n="9" break="no"/><gap reason="lost" extent="unknown" unit="character"/> 
+                             <supplied reason="lost"><w>πράττων</w> <w>τὰ</w></supplied> 
+                             <w><supplied reason="lost">συμφ</supplied>έροντα</w> <w>ἁμεῖν</w> <w>διατελεῖ</w>· 
+                             <w>δι’</w> <w>ὃ</w> <w>δεδό
+              <lb n="10" break="no"/><supplied reason="lost">χθαι</supplied></w> 
+                             <supplied reason="lost"><w>τᾷ</w> <w>βουλᾷ</w> <w>καὶ</w></supplied> 
+                             <w><supplied reason="lost">τ</supplied>ῷ</w> <w>δάμῳ</w> <w>ἐπαινέσαι</w> <w>μὲν</w> 
+                             <w>ἐπὶ</w> <w>τούτοις</w> 
+                             <persName type="attested" ref="#person1171"><name nymRef="Δια—"><seg part="I">Δια</seg></name>
+               <lb n="11" break="no"/><gap reason="lost" extent="unknown" unit="character"/> 
+                             <persName type="attested" ref="#person1172"><name nymRef="Δημήτριος"><supplied reason="lost">Δημη</supplied>τρίου</name></persName> 
+                             <placeName type="ethnic">Ἁρακλεώταν</placeName></persName>, <w>δόμεν</w> <w>δὲ</w> <w>αὐτῷ</w> 
+                             <w>προξ<supplied reason="lost">ε</supplied>
+               <lb n="12" break="no"/><supplied reason="lost">νίας</supplied></w> 
+                             <supplied reason="lost"><w>πολειτείαν</w></supplied>, 
+                             <w>ἔσπλουν</w> <w>τε</w> <w>καὶ</w> <w>ἔκπλουν</w> <w>ἐν</w> <w>εἰράναι</w> 
+                             <w>καὶ</w> <w>πολέ
+               <lb n="13" break="no"/><supplied reason="lost">μῳ</supplied></w> 
+                             <w><supplied reason="lost">ἀσυλεῖ</supplied></w> 
+                             <w><supplied reason="lost">ἀ</supplied><unclear>σ</unclear>πονδεῖ</w> <w>αὐτῷ</w> 
+                             <w>τε</w> <w>καὶ</w> <w>ἐκγόνοις</w> <w>αὐτοῦ</w> <w>καὶ</w> <w>χράμα
+               <lb n="14" break="no"/><supplied reason="lost">σι</supplied></w>, 
+                             <w><supplied reason="lost">μετοχ</supplied>άν</w> <w>τε</w> <w>πάντων</w> 
+                             <w>τῶν</w> <w>ἐν</w> <w>τᾷ</w> <w>πόλει</w>, <w>ὧν</w> <w>καὶ</w> <w>τοῖς</w> 
+                             <w>ἐνφύ<unclear>τ</unclear>
+               <lb n="15" break="no"/><supplied reason="lost">οις</supplied></w> 
+                             <w><supplied reason="lost">τ</supplied>ῶν</w> 
+                             <w><choice><sic>ἀστῶ</sic><corr>ν</corr></choice></w> <w>μέτεστιν</w>· <w>τὸ</w> <w>δὲ</w> 
+                             <w>ψάφισμα</w> <w>τοῦτο</w> <w>ἀναγρα
+               <lb n="16" break="no"/><supplied reason="lost">φᾶ</supplied>μεν</w> <w>λευκολίθου</w> 
+                             <w>στάλαι</w> <w>καὶ</w> <w>θέμεν</w> <w>ἐν</w> <w>τῷ</w> <w>ἐπισαμοτάτῳ</w>
+               <lb n="17"/><w><supplied reason="lost">τ</supplied>ᾶς</w> <w>ἀκροπόλιος</w> <w>τόπῳ</w>· <w>ταῦτ’</w> 
+                            <w>ἔδοξε</w> <w>βουλᾶι</w> <w>δάμωι</w>, <w>βασιλευ
+               <lb n="18" break="no"/>ούσας</w> <persName type="divine" key="parthenos"><name>Παρθένου</name></persName>, 
+                             <w>ἔτεος</w> <num value="154">ρνδ</num>, <w>ἱερέως</w> <w>δὲ</w> 
+                <persName type="attested" ref="#person1173"><name nymRef="Χρηστίων">Χρηστίωνος</name> 
+                             <w>τοῦ</w> <persName type="attested" ref="#person1174"><name nymRef="Βοΐσκος">Βο
+               <lb n="19" break="no"/>ΐσκου</name></persName></persName>, <w>μανὸς</w>  
+                          <w>Ἁρακλείου</w> 
+                          <num value="8">η</num>, <w>γραμματεύοντος</w> 
+                          <persName type="attested" ref="#person1175"><name nymRef="Ἀρίστων">Ἀρίστωνο<supplied reason="lost">ς</supplied></name>
+               <lb n="20"/><persName type="attested" ref="#person1176"><name nymRef="Ἀττίνας">Ἀττίνου</name></persName></persName>· <w>ἐσφραγίσαντο</w> 
+                           <num value="1">α</num> <w>στίχωι</w>· <w>θεὰ</w> <w>βασίλισσα</w>
+               <lb n="21"/><persName type="divine" key="parthenos"><name>Παρθένος</name></persName>, 
+                            <persName type="attested" ref="#person1050"><name type="praenomen" nymRef="Τίτος"><expan><abbr><surplus>Τ</surplus></abbr><ex>ίτος</ex></expan></name>
+                              <name type="gentilicium" nymRef="Φλάουιος">Φλάουιος</name> <name type="cognomen" nymRef="Ἀρίστων">Ἀρίστων</name> <w>υἱὸς</w> 
+                              <persName type="attested" ref="#person1049"><name type="gentilicium" nymRef="Φλάουιος">Φλαουίου</name> 
+                               <name type="cognomen" nymRef="Ἀρίστων">Ἀρί
+               <lb n="22" break="no"/>στωνος</name> <w>τοῦ</w> 
+                              <persName type="attested" ref="#person1051"><name nymRef="Ἀγέπολις">Ἁγεπόλεως</name></persName></persName></persName> <w>πρῶτος</w> 
+                                <w>ἄρχων</w>, 
+                                <persName type="attested" ref="#person1177"><name nymRef="Ζῆθος">Ζῆθος</name>
+               <lb n="23"/><persName type="attested" ref="#person1178"><name nymRef="Ἀρίστων">Ἀρίστωνος</name></persName></persName>, 
+                              <persName type="attested" ref="#person1054"><name type="praenomen" nymRef="Τίτος"><expan><abbr>Τ</abbr><ex>ίτος</ex></expan></name>
+                              <name type="gentilicium" nymRef="Φλάουιος">Φλάουιος</name> <name type="cognomen" nymRef="Πυθόδοτος">Πυθόδοτος</name> <w>υἱὸς</w> 
+                              <persName type="attested" ref="#person1048"><name type="gentilicium" nymRef="Φλάουιος">Φλαουί
+               <lb n="24" break="no"/>ου</name> 
+                                <name type="cognomen" nymRef="Ἀγέπολις">Ἁγεπόλεως</name></persName></persName>, 
+                                <persName type="attested" ref="#person1179"><name nymRef="Εὐρύδαμος">Εὐρύδαμος</name> 
+                                <persName type="attested" ref="#person1180"><name nymRef="Διοσκουρίδης">Διοσκουρίδου</name></persName></persName>, 
+                                <persName type="attested" ref="#person1048"><name type="praenomen" nymRef="Τίτος"><expan><abbr>Τ</abbr><ex>ίτου</ex></expan></name> 
+                                <name type="gentilicium" nymRef="Φλάουιος">Φλάουιος</name>
+               <lb n="25"/><name type="cognomen" nymRef="Ἀγέπολις">Ἁγέπολις</name> <w>υἱὸς</w> 
+                           <persName type="attested" ref="#person1049"><name type="gentilicium" nymRef="Φλάουιος">Φλαουίου</name> 
+                                    <name type="cognomen" nymRef="Ἀρίστων">Ἀρίστωνος</name></persName></persName>, 
+                           <persName type="attested" ref="#person1181"><name type="praenomen" nymRef="Τίτος"><expan><abbr>Τ</abbr><ex>ίτος</ex></expan></name>
+                               <name type="gentilicium" nymRef="Φλάουιος">Φλάουιος</name> 
+                           <name type="cognomen" nymRef="Παρθενοκλῆς">Παρθε
+               <lb n="26" break="no"/>νοκλῆς</name> 
+                             <w>υἱὸς</w> <persName type="attested" ref="#person1182"><name type="gentilicium" nymRef="Φλάουιος">Φλαουίου</name> 
+                             <name type="cognomen" nymRef="Νάσων">Νάσωνος</name></persName></persName> <orig>ΟΧΟΡΙΟΣ</orig>· <num value="2">β</num> 
+                             <w>στίχωι</w>· <persName type="attested" ref="#person1055"><name nymRef="Ἀθήναιος">Ἀ
+               <lb n="27" break="no"/>θήναιος</name> 
+                              <persName type="attested" ref="#person1056"><name nymRef="Διογένης">Διογένους</name></persName></persName>, 
+                          <persName type="attested" ref="#person1183"><name nymRef="Ἑρμοκλῆς">Ἑρμοκλῆς</name> 
+                              <persName type="attested" ref="#person1184"><name nymRef="Ἀπολλώνιος">Ἀπολλωνίου</name></persName></persName>, 
+                          <persName type="attested" ref="#person1185"><name nymRef="Φιλόμουσος">Φιλόμου
+               <lb n="28" break="no"/>σος</name>
+                              <persName type="attested" ref="#person1186"><name nymRef="Ἀπολλωνίδης">Ἀπολλωνίδου</name></persName></persName>, 
+                          <persName type="attested" ref="#person1187"><name nymRef="Δημοκράτης">Δημοκράτης</name> 
+                          <persName type="attested" ref="#person1174"><name nymRef="Βοΐσκος">Βοΐσκου</name></persName></persName>, 
+                         <persName type="attested" ref="#person1188"><name nymRef="Ἡρόξενος">Ἡρόξενος</name>
+               <lb n="29"/><persName type="attested" ref="#person1174"><name nymRef="Βοΐσκος">Βοΐσκου</name></persName></persName>, 
+                           <persName type="attested" ref="#person1189"><name nymRef="Ἀρίστων">Ἀρίστων</name> 
+                           <persName type="attested" ref="#person1190"><name nymRef="Ἀντίλοχος">Ἀντιλόχου</name></persName></persName>, 
+                           <persName type="attested" ref="#person1191"><name nymRef="Ποντικός">Ποντικὸς</name> 
+                           <persName type="attested" ref="#person1192"><name nymRef="Ἱλαρος">Ἱλάρου</name></persName></persName>, 
+                           <persName type="attested" ref="#person1193"><name nymRef="Ζῆθος">Ζῆθος</name>
+               <lb n="30"/><persName type="attested" ref="#person1194"><name nymRef="Πυθόδοτος"><unclear>Πυ</unclear>θοδότου</name></persName></persName>· 
+                           <num value="3">γ</num> <w>στίχωι</w>· 
+                           <persName type="attested" ref="#person1057"><name nymRef="Θεαγένης">Θεαγένης</name> 
+                           <persName type="attested" ref="#person1056"><name nymRef="Διογένης">Διογένους</name></persName></persName> 
+                           <w>ἄρχων</w>, <persName type="attested" ref="#person1195"><name nymRef="Ἀρίστων">Ἀρίσ
+               <lb n="31" break="no"/>των</name> 
+                          <persName type="attested" ref="#person1196"><name nymRef="Ἀπολλωνίδης">Ἀπολλωνίδου</name></persName></persName> 
+                          <w>ἄρχων</w>, 
+                          <persName type="attested" ref="#person1197"><name nymRef="Ἥραιος">Ἥραιος</name> 
+                          <persName type="attested" ref="#person1198"><name nymRef="Χηματῖνος">Χηματίνου</name></persName></persName> 
+                          <w>ἄρχων</w>, <persName type="attested" ref="#person1199"><name nymRef="Πατέρων">Πα
+               <lb n="32" break="no"/>τέ<supplied reason="lost">ρ</supplied>ων</name> 
+                       <persName type="attested" ref="#person1200"><name nymRef="Ἀσκληπιάδης">Ἀσκληπιάδου</name></persName></persName> 
+                       <w>ἄρχων</w>, 
+                       <persName type="attested" ref="#person1201"><name nymRef="Ζῆθος">Ζῆθ<surplus>υ</surplus>ος</name> 
+                       <persName type="attested" ref="#person1202"><name nymRef="Ἀπολλώνιος">Ἀπολλωνίου</name></persName></persName> <w>νό
+               <lb n="33" break="no"/>μων</w> <w>φύλαξ</w>, 
+                          <persName type="attested" ref="#person1203"><name nymRef="Πυθόδορος">Πυθόδορος</name> 
+                          <persName type="attested" ref="#person1204"><name nymRef="Χρηστίων">Χρηστίωνος</name></persName> 
+                          </persName> <w>νόμων</w> <w>φύλαξ</w>, 
+                          <persName type="attested" ref="#person1205"><name nymRef="Δαμοκλῆς">Δα
+               <lb n="34" break="no"/>μοκλῆς</name>
+                             <persName type="attested" ref="#person1206"><name nymRef="Λαγορῖνος">Λαγορείνου</name></persName></persName> 
+                             <w>νόμων</w> <w>φύλαξ</w>, <persName type="attested" ref="#person1207"><name nymRef="Μητρόδωρος">Μητρόδωρος</name> 
+                             <persName type="attested" ref="#person1180"><name nymRef="Διοσκουρίδης">Διοσκου
+               <lb n="35" break="no"/>ρίδου</name></persName></persName> <w>πρόδικος</w> <w>καὶ</w> 
+                             <w>ὁ</w> <w>γραμματεὺς</w> <w>τῆς</w> 
+                             <w>βουλ<choice><corr>ῆς</corr><sic>ΙΧ</sic></choice></w> 
+                             <persName type="attested" ref="#person1175"><name nymRef="Ἀρίστων">Ἀρίστων</name> 
+                             <persName type="attested" ref="#person1176"><name nymRef="Ἀττίνας">Ἀτ
+               <lb n="36" break="no"/>τίνου</name></persName></persName>.
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2">
+                  <rdg>ΤΑΙΠΟΤΙ <note>lapis</note></rdg> 
+                  <rdg source="bib:b0336">τᾶ(ν)</rdg> 
+                  <rdg source="bib:IOSPE">τ[ῶν]</rdg>
+               </app>
+               <app loc="4">
+                  <note>scripsi</note> 
+                  <note>cf. № Surov1960</note> 
+                   <rdg source="bib:IOSPE">[πρότερόν τε . . . . σεμνῶι κε]χ̣ραμένος</rdg>
+               </app>
+               <app loc="5">
+                  <rdg source="bib:IOSPE">[τᾶς ἐπιδαμί]ας</rdg>
+               </app>
+               <app loc="6">
+                  <rdg>[ἑαυτὸν] <note>addidi</note></rdg> 
+                  <rdg>[καὶ νῦν ποτὶ τοὺς πολείτ]ας <note>edd.</note></rdg> 
+                   <rdg>ΑΓΑΠΑΙ <note>lapis</note></rdg>
+               </app>
+               <app loc="7">
+                  <rdg source="bib:IOSPE">[φιλ]ικᾶι</rdg> 
+                  <rdg source="bib:b0810"><note>fortasse</note> [συγγενικ]ᾶι</rdg> 
+                   <rdg>[ἰσοπαι]δικᾶι <note>Виноградов (архив)</note></rdg>
+                  <rdg>Λ̣ΙΚΑΙ</rdg>
+               </app>
+               <app loc="8">
+                  <rdg>[- - -]ΕΓΕΝΝΑΜΕΝΑΣ <note>lapis</note></rdg> 
+                  <rdg>[- - - καθάπερ γ]εγενναμέν⸢ο⸣ς (?)</rdg>
+               </app>
+               <app loc="26">
+                  <note>med.: scripsi</note> 
+                  <rdg>ΝΑΣΩΝΟΣΟΧΟΡΙΟΣ <note>lapis</note></rdg> 
+                  <rdg>[Π]α[ρθε]νο[κλέου]ς (?) <note>edd.</note></rdg>
+               </app>
+               <app loc="32">
+                  <rdg>ΖΗΘ <note>lapis</note></rdg>
+               </app>
+               <app loc="33">
+                  <rdg>Πυθοδορος = Πυθόδωρος</rdg>
+               </app>
+               <app loc="35">
+                  <rdg>ΒΟΥΛΙΧ <note>lapis</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+             <p>В добрый час.
+                 Проедры херсонеситов, что близ Таврики, внесли предложение: 
+                 поскольку Диа[- - -], (сын) Деметрия, гераклеот, имея отзывчивый нрав, - - - благородство - - - являет (себя) 
+                 готовым оказать услуги - - - показывая истинную любовь [по отношению к гражданам - - -] дружеской и 
+                 братской благосклонностью [- - - - словно] гражданин (нашего полиса) по рождению, наилучшим образом 
+                 [- - -] постоянно совершает полезные нам поступки,
+                 поэтому пусть будет решено Советом и народом восхвалить за это 
+                 Диа[- - -], (сына) Деметрия, гераклеота, даровать ему проксению [и гражданство], право входа в гавань и 
+                 выхода из гавани в мирное и военное время, [без риска конфискации] и необходимости заключения договора, 
+                 ему самому, его потомкам и имуществу, а также обладание всеми (правами), которыми обладают граждане по 
+                 рождению; записать это постановление на белокаменной стеле и поставить на самом видном месте акрополя. 
+                 Это решено Советом и народом, когда обязанности царя исполняла Дева, в 154 году, при жреце Хрестионе, 
+                 сыне Боиска восьмого дня месяца гераклия, при секретаре Аристоне, (сыне) Аттины. 
+                 Приложили печати в 1 ряду: богиня царица Дева, Тит Флавий Аристон, сын Флавия Аристона, (сына) 
+                 Агеполиса, первый архонт, Зет, (сын) Аристона, Тит Флавий Пифодот, сын Флавия Агеполиса, Евридам, (сын) 
+                 Диоскурида, Тит Флавий Агеполис, сын Флавия Аристона, Тит Флавий Парфенокл, сын Флавия Насона, 
+                 [он же] Хорей (?); во 2 ряду: Афиней, (сын) Диогена, Гермокл, (сын) Аполлония, Филомус, (сын) Аполлонида, 
+                 Демократ, (сын) Боиска, Героксен, (сын) Боиска, Аристон, (сын) Антилоха, Понтик, (сын) Гилара, Зет, (сын) 
+                 Пифодота; в 3 ряду: Феаген, (сын) Диогена, архонт, Аристон, (сын) Аполлонида, архонт, Герай, (сын) 
+                 Хематина, архонт, Патерон, (сын) Асклепиада, архонт, Зет, (сын) Аполлония, номофилак, Зет, Пифодор, 
+                 (сын) Хрестиона, номофилак, Дамокл, (сын) Лагорина, номофилак, Метродор, (сын) Диоскурида, продик, 
+                 а также секретарь Совета Аристон, (сын) Аттины.
+             </p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[Good fortun]e. [Proedroi of Chersonesites who] are near Tauris [proposed: since Dia---, (son of) D]emetrios, citizen of Herakleia, [man...] enjoying [a serviceable] 
+               disposition... nobi[lity ---]... showed himself serviceable to the citizens, displaying genuine love... with friendly and brotherly goodwill [as if he were] a native
+               citizen... the best... continuously doing things useful to us... because of which, the Council and the People shall decide 
+               to praise, on account of these, Dia[---, (son of) Deme]trios, citizen of Herakleia, and grant him pro[xeny, citizenship], the right of sailing in and out of the harbour [without a threat of confiscation] 
+               and without a formal treaty, in peace time and in war time, for him, his descendants and his goods, as well as a [sha]re in all the things shared by the natives; 
+               to inscribe this decision on a stele of white stone and set it up in the most prominent place of the acropolis.
+               This was decided by the Council and the People, in the reign of Par[thenos], in the 154th year, when Chrestion, (son of) Boiskos was priest, on the 8th day of the month Herakleios, when Ariston, 
+               (son of) Attinas was secretary. Applied their seals, in the first row: goddess queen Parthenos, Titus Flavius Ariston, son of Flavius Ariston, (son of) Agepolis, 
+               first archon, Zethos, (son of) Ariston, Titus Flavius Pythodotos, (son of) Flavius Agepolis, Eurydamos, (son of) Dioskouridos, T(itus) Flavius Agepolis,
+               (son of) Flavius Ariston, Titus Flavius Parthenokles, son of Flavius Nason, the Chorios?; in the second row: Athenaios, (son of) Diogenes, Hermokles, (son of)
+               Apollonios, Philomousos, (son of) Apollonidos, Demokrates, (son of) Boiskos, Heroxenos, (son of) Boiskos, Ariston, (son of) Antilochos, Pontikos, (son of)
+               Hilarios, Zethos, (son of) Pythodotos; in the third row: Theagenes, (son of) Diogenes, archon, Ariston, (son of) Apollonidos, archon, Heraios, (son of) Chematinos,
+               archon, Pateron, (son of) Asklepiados, archon, Zethos, (son of) Apollonios, nomophylax, Pythodoros, (son of) Chrestion, nomophylax, Damokles, (son of) Lagoreinos, 
+               nomophylax, Metrodoros, (son of) Dioskouridos, public advocate (prodikos), and secretary of the Council Ariston, (son of) Attinas.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>7: [ἰσοπαι]δικᾶι - Виноградов (архив), но на камне в начале стк. читается Λ̣ΙΚΑΙ</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

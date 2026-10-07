@@ -1,0 +1,241 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Inscriptions of the Northern Black Sea - new IOSPE</title>
+        <title xml:lang="ru">Надписи Северного Причерноморья</title>
+        <title xml:lang="uk">Написи Північного Причорномор'я</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <group>
+
+
+      <text xml:lang="en">
+        <body>
+          <p>Online edition of the corpus of ancient and medieval inscriptions from the Northern
+            Coast of the Black Sea. This database is part of an ongoing international collaborative
+            project under the aegis of the <ref target="http://www.uai-iua.org">International Union
+              of Academies</ref> and represents a dynamic digital resource.</p>
+          <p>The present database was launched in 2013 under the title <hi rend="i">IOSPE: Ancient
+              Inscriptions of the Northern Black Sea</hi>, which referred to the original first
+            edition of the corpus <hi rend="i">Inscriptiones antiquae Orae Septentrionalis Ponti
+              Euxini graecae et latinae</hi> (IOSPE), edited by V.V. Latyshev and published in
+            1885-1901. The second edition of IOSPE (1916) was not completed, and to distinguish this
+            current project from its predecessors, the new publication and database were defined as
+            the third edition and recommended for citation as IOSPE³.</p>
+          <p>The three volumes published on this site between 2015 (volume V. <hi rend="i">Byzantine
+              Inscriptions</hi>) and 2017 (volume I. <hi rend="i">Inscriptions of Tyras</hi> and
+            volume III. <hi rend="i">Inscriptions of Chersonesos</hi>) should continue to be cited
+            with the abbreviation IOSPE³, followed by the volume (Roman numeral) and inscription
+            (Arabic numeral) numbers, and a relevant URL, as noted on the landing page for each
+            volume.</p>
+          <p>From 2021, the corpus and the database are being published under the new name <hi
+              rend="i">Inscriptions of the Northern Black Sea</hi>. The recommended citation format
+              is <hi rend="i">INBS</hi>, followed by the volume number (Roman numeral or a
+            combination of Roman and Arabic numerals) and inscription number (Arabic numeral). In
+            January 2024, the Ukrainian interface of the database was launched, and Ukrainian
+            translations for all resources of the site will be gradually added over time. In the
+            interim, users will be directed to the corresponding pages of the English edition. </p>
+
+          <div>
+            <p>Currently available volumes: <list rend="bulleted">
+                <item><ref target="corpora/tyras/index.html">I. Inscriptions of Tyras and vicinity
+                    (2017)</ref></item>
+                <item>II. Inscriptions of Olbia and vicinity<lb/>
+                  <list>
+                    <item><ref target="corpora/olbia/borysthenes_berezan/index.html">II.1.
+                        Inscriptions of Borysthenes (Berezan). Part 1. Graffiti and Dipinti In the
+                        Collection of the State Hermitage Museum (2020-2024)</ref></item>
+                  </list>
+                </item>
+                <item><ref target="corpora/chersonesos/index.html">III. Inscriptions of Chersonesos
+                    and vicinity (2017)</ref></item>
+                <item><ref target="corpora/byzantine/index.html">V. Byzantine Inscriptions
+                    (2015)</ref></item>
+              </list>
+            </p>
+          </div>
+
+          <div>
+            <p>The database was built with the generous financial support of the <ref
+                target="http://www.leventisfoundation.org/">A. G. Leventis Foundation</ref>. In
+              previous years, the project was also sponsored by <ref
+                target="project/sponsors.html#previous">other organizations</ref>.</p>
+           <list type="logo">
+             <item><ref target="http://www.leventisfoundation.org/"><figure>
+                   <graphic url="leventis.jpg" width="237px" height="77px"/>
+                   <head>A. G. Leventis Foundation</head>
+             </figure></ref></item>
+             <item><ref target="http://www.kcl.ac.uk/"><figure>
+                   <graphic url="KCL2.png" width="120px" height="100px"/>
+                   <head>King's College London</head>
+             </figure></ref></item>
+             <item><ref target="http://www.uai-iua.org/"><figure>
+                   <graphic url="UAI-CL-Logo.png" width="250px" height="100px"/>
+                   <head>International Union of Academies</head>
+             </figure></ref></item>
+             <item><ref target="http://www.loebclassics.com/"><figure>
+                   <graphic url="loeb-logo.png" width="100px" height="100px"/>
+                   <head>Loeb Classical Library</head>
+             </figure></ref></item>
+            </list>
+          </div>
+
+        </body>
+      </text>
+
+
+      <text xml:lang="ru">
+        <body>
+          <p>Электронная публикация корпуса древних и средневековых надписей Северного
+            Причерноморья.</p>
+          <p>Эта база данных является частью международного совместного проекта под патронажем <ref
+              target="http://www.unionacademique.org/">Международного Союза Академий</ref> и
+            представляет собой динамичный цифровой ресурс. Она была запущена в 2013 под названием
+            Inscriptiones antiquae Orae Septentrionalis Ponti Euxini graecae et latinae, подчеркивая
+            преемственность с первым изданием такого корпуса, вышедшем в свет в 1885-1901 под
+            редакцией В.В. Латышева. Второе издание корпуса (1916) было неполным, и чтобы отличить
+            новое издание от его предшественников, мы определили его как третье издание корпуса и
+            рекомендовали ссылаться на него в латинской аббревиатуре IOSPE³.</p>
+          <p>Три тома (коллекции) надписей были опубликованы на этом сайте с 2015 (том V,
+            Византийские Надписи) по 2017 год (том I, Надписи Тиры и окрестностей; том III, Надписи
+            Херсонеса и окрестностей). Эти электронные публикации должны цитироваться как IOSPE³ с
+            обозначением тома римскими, а надписей арабскими цифрами, и в сопровождении
+            соответствуюшего URL.</p>
+          <p>С 2021 года, данный корпус и база данных публикуются под новым названием Надписи
+            Северного Причерноморья / Inscriptions of the Northern Black Sea и должны цитироваться в
+            английской аббревиатуре INBS, с обозначением тома римскими, а надписей арабскими
+            цифрами.</p>
+
+
+          <div>
+            <p>Вышли в свет следующие тома: <list rend="bulleted">
+                <item><ref target="corpora/tyras/index-ru.html">I. Надписи Тиры и окрестностей
+                    (2017)</ref></item>
+                <item><ref target="corpora/chersonesos/index-ru.html">III. Надписи Херсонеса и
+                    окрестностей (2017)</ref></item>
+                <item><ref target="corpora/byzantine/index-ru.html">V. Византийские надписи
+                    (2015)</ref></item>
+              </list></p>
+            <p>Готовится к публикации: <list rend="bulleted">
+                <item>II.1 Граффити и Дипинти Борисфена/Березани</item>
+              </list>
+            </p>
+          </div>
+
+
+          <div>
+            <p>Представленная здесь электронная база данных была построена при щедрой финансовой
+              поддержке Фонда <ref target="http://www.leventisfoundation.org/">А.Г. Левендиса</ref>.
+              На разных этапах развития этого проекта, научная работа, ведущая к подготовке данной
+              публикации осуществлялось при поддержке и других <ref
+                target="project/sponsors-ru.html#previous">спонсоров</ref>.</p>
+
+            <list type="logo">
+
+              <item><ref target="http://www.leventisfoundation.org/"><figure>
+                    <graphic url="leventis.jpg" width="237px" height="77px"/>
+                    <head>Фонд Левендиса</head>
+                  </figure></ref></item>
+              <item><ref target="http://www.kcl.ac.uk/"><figure>
+                    <graphic url="KCL2.png" width="120px" height="100px"/>
+                    <head>Кингс-Колледж Лондон</head>
+                  </figure></ref></item>
+              <item><ref target="http://www.uai-iua.org/"><figure>
+                    <graphic url="UAI-CL-Logo.png" width="250px" height="100px"/>
+                    <head>Международного Союза Академий</head>
+              </figure></ref></item>
+              <item><ref target="http://www.loebclassics.com/"><figure>
+                    <graphic url="loeb-logo.png" width="100px" height="100px"/>
+                    <head>Loeb Classical Library</head>
+              </figure></ref></item>
+            </list>
+          </div>
+        </body>
+      </text>
+
+      <text xml:lang="uk">
+        <body>
+          <p>Електронна публікація корпусу давніх та середньовічних написів Північного
+            Причорномор’я. Зверніть увагу, що українська версія цієї бази даних знаходиться у
+            процесі розробки. Якщо ви потрапите на сторінку де на теперішній час відсутній
+            український переклад, то автоматично будете направлені на англійську версію.</p>
+          <p>Ця база даних є частиною міжнародного спільного проекту під патронажем <ref
+              target="http://www.unionacademique.org/">Міжнародного Союзу Академій </ref> й являє
+            собою динамічний цифровий ресурс. Вона була запущена у 2013 році під назвою
+            Inscriptiones antiquae Orae Septentrionalis Ponti Euxini graecae et latinae,
+            підкреслюючи наступність з першим виданням такого корпусу, що побачив світ у 1885-1901
+            під редакцією В.В. Латишева. Друге видання корпусу (1916) було неповним, і щоб
+            відрізнити нове видання від його попередників, ми визначили його як третє видання
+            корпусу та рекомендували посилатися на нього у латинській абревіатурі IOSPE³.</p>
+          <p>Три томи (колекції) написів були опубліковані на цьому сайті з 2015 (том V,
+            Візантійські написи) по 2017 рік (том I, Написи Тіри та околиць; том III, Написи
+            Херсонесу та околиць). Ці електронні публікації повинні цитуватися як IOSPE³ з
+            позначенням тому римськими, а написів арабськими цифрами, й у супроводі відповідного
+            URL.</p>
+          <p>З 2021 року, даний корпус та база даних публікуються під новою назвою Написи Північного
+            Причорномор’я / Inscriptions of the Northern Black Sea і повинні цитуватися в
+            англійській абревіатурі INBS, з позначенням тому римськими, а написів арабськими
+            цифрами. </p>
+
+
+          <div>
+            <p>Вийшли у світ наступні томи:<list rend="bulleted">
+                <item><ref target="corpora/tyras/index-uk.html">I. Написи Тіри та околиць
+                    (2017)</ref></item>
+                <item><ref target="corpora/chersonesos/index-uk.html">III. Написи Херсонесу та
+                    околиць (2017)</ref></item>
+                <item><ref target="corpora/byzantine/index-uk.html">V. Візантійські написи
+                    (2015)</ref></item>
+              </list></p>
+            <p>Готується до публікації: <list rend="bulleted">
+                <item>II. 1 Графіті та діпінті Борисфену/Березані</item>
+              </list>
+            </p>
+          </div>
+
+
+          <div>
+            <p>Представлена тут електронна база даних була створена за щедрої фінансової підтримки
+              Фонду <ref target="http://www.leventisfoundation.org/">А. Г. Левендіса</ref>. На
+              різних етапах розвитку цього проекту, наукова робота, яка велась до підготовки даної
+              публікації, здійснювалася за підтримки й інших<ref
+                target="project/sponsors-uk.html#previous"> спонсорів.</ref>.</p>
+
+            <list type="logo">
+
+              <item><ref target="http://www.leventisfoundation.org/"><figure>
+                    <graphic url="leventis.jpg" width="237px" height="77px"/>
+                    <head>Фонд Левендіса</head>
+                  </figure></ref></item>
+              <item><ref target="http://www.kcl.ac.uk/"><figure>
+                    <graphic url="KCL2.png" width="120px" height="100px"/>
+                    <head>Кінгс-Коледж Лондон</head>
+                  </figure></ref></item>
+              <item><ref target="http://www.uai-iua.org/"><figure>
+                    <graphic url="UAI-CL-Logo.png" width="250px" height="100px"/>
+                    <head>Міжнародного Союзу Академій</head>
+              </figure></ref></item>
+              <item><ref target="http://www.loebclassics.com/"><figure>
+                    <graphic url="loeb-logo.png" width="100px" height="100px"/>
+                    <head>Loeb Classical Library</head>
+              </figure></ref></item>
+            </list>
+          </div>
+        </body>
+      </text>
+
+
+    </group>
+  </text>
+</TEI>

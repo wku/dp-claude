@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Controlled vocabulary for material</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab type="authority_list">
+                <ab type="entry" xml:id="m1">
+                    <seg type="representation" xml:lang="ru">мрамор</seg>
+                    <seg type="representation" xml:lang="uk">мармур</seg>
+                    <seg type="representation" xml:lang="en">marble</seg>
+                </ab>
+                <ab type="entry" xml:id="m2">
+                    <seg type="representation" xml:lang="ru">известняк</seg>
+                    <seg type="representation" xml:lang="uk">вапняк</seg>
+                    <seg type="representation" xml:lang="en">limestone</seg>
+                </ab>
+                <ab type="entry" xml:id="m3">
+                    <seg type="representation" xml:lang="ru">каменные тессеры</seg>
+                    <seg type="representation" xml:lang="uk">кам'яні тесери</seg>
+                    <seg type="representation" xml:lang="en">stone tesserae</seg>
+                </ab>
+                <ab type="entry" xml:id="m4">
+                    <seg type="representation" xml:lang="ru">песчаник</seg>
+                    <seg type="representation" xml:lang="uk">пісковик</seg>
+                    <seg type="representation" xml:lang="en">sandstone</seg>
+                </ab>
+                <ab type="entry" xml:id="m5">
+                    <seg type="representation" xml:lang="ru">охра</seg>
+                    <seg type="representation" xml:lang="uk">вохра</seg>
+                    <seg type="representation" xml:lang="en">ochre</seg>
+                </ab>
+                <ab type="entry" xml:id="m6">
+                    <seg type="representation" xml:lang="ru">штукатурка</seg>
+                    <seg type="representation" xml:lang="uk">штукатурка</seg>
+                    <seg type="representation" xml:lang="en">plaster</seg>
+                </ab>
+                <ab type="entry" xml:id="m7">
+                    <seg type="representation" xml:lang="ru">темпера</seg>
+                    <seg type="representation" xml:lang="uk">темпера</seg>
+                    <seg type="representation" xml:lang="en">tempera</seg>
+                </ab>
+                <ab type="entry" xml:id="m8">
+                    <seg type="representation" xml:lang="ru">мергель</seg>
+                    <seg type="representation" xml:lang="uk">мергель</seg>
+                    <seg type="representation" xml:lang="en">marl</seg>
+                </ab>
+                <ab type="entry" xml:id="m9">
+                    <seg type="representation" xml:lang="ru">ракушечник</seg>
+                    <seg type="representation" xml:lang="uk">черепашник</seg>
+                    <seg type="representation" xml:lang="en">shell-rock</seg>
+                </ab>
+                <ab type="entry" xml:id="m10">
+                    <seg type="representation" xml:lang="ru">глина</seg>
+                    <seg type="representation" xml:lang="uk">глина</seg>
+                    <seg type="representation" xml:lang="en">clay</seg>
+                </ab>
+                <ab type="entry" xml:id="m11">
+                    <seg type="representation" xml:lang="ru">диорит</seg>
+                    <seg type="representation" xml:lang="uk">діорит</seg>
+                    <seg type="representation" xml:lang="en">diorite</seg>
+                </ab>
+                <ab type="entry" xml:id="m12">
+                    <seg type="representation" xml:lang="ru">гранит</seg>
+                    <seg type="representation" xml:lang="uk">граніт</seg>
+                    <seg type="representation" xml:lang="en">granite</seg>
+                </ab>
+                <ab type="entry" xml:id="m13">
+                    <seg type="representation" xml:lang="ru">мраморовидный известняк</seg>
+                    <seg type="representation" xml:lang="uk">мармуровий вапняк</seg>
+                    <seg type="representation" xml:lang="en">marble-like limestone</seg>
+                </ab>
+                <ab type="entry" xml:id="m14">
+                    <seg type="representation" xml:lang="ru">неизвестен</seg>
+                    <seg type="representation" xml:lang="uk">невідомий</seg>
+                    <seg type="representation" xml:lang="en">unknown</seg>
+                </ab>
+                <ab type="entry" xml:id="m15">
+                    <seg type="representation" xml:lang="ru">красноватый известняк («балаклавский
+                        мрамор»)</seg>
+                    <seg type="representation" xml:lang="uk">червоний вапняк («балаклавський
+                        мармур»)</seg>
+                    <seg type="representation" xml:lang="en">reddish limestone ("Balaklava
+                        marble")</seg>
+                </ab>
+            </ab>
+
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие св. мц. Анастасии</title><title xml:lang="en">Epitaph of St. martyr Anastasia</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.76</idno><idno type="PE">PE5000076</idno>
+            <idno type="AYV2012-number">byz076</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>4140</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>4140</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon9">Крест.</objectType>
+                           <objectType xml:lang="en">Cross.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Крест с короткими горизонтальными рукавами и расширяющимися концами, грубой работы, с орнаментальной 
+                              горизонтальной полосой посередине и маленьким крестом на ней. Небольшие выщерблины по поверхности.</p>
+                           <p xml:lang="en">Cross with short side arms and widening ends, of crude workmanship. Decorated with a straight line and a zigzag band topped
+                           by a small cross running horizontally through the centre of the cross. Small poke marks on the front.</p>
+                           <dimensions>
+                              <height>33,0</height>
+                              <width>23,0</width>
+                              <depth>11,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">Верхняя половина креста.</seg>
+                           <seg xml:lang="en">Top half of the cross.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с ломаной перекладиной, омикрон и ро ромбовидные, 
+                           сигма лунарная.</seg>
+                        <seg xml:lang="en">Lapidary style. Alpha with broken crossbar, omicron and rho diamond-shaped, lunate sigma.</seg>
+                        <height unit="cm">2,0–3,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0301" notAfter="0400" precision="low" evidence="палеография археологический_контекст">
+                        <seg xml:lang="ru">IV в.</seg>
+                        <seg xml:lang="en">IVth century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08"> август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>.</seg>
+                     <seg xml:lang="en"> <date when="1999-05">May 1999</date>, <date when="2001-08"> August 2001</date>, <date when="2002-09"> September 2002</date>, <date when="2003-09"> September 2003</date>, <date when="2004-09"> September 2004</date>, <date when="2005-09"> September 2005</date>, <date when="2006-09"> September 2006</date>, <date when="2007-09"> September 2007</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1896 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Некрополь у Карантинной бухты, склеп № 785, перед входом.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1896, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Necropolis by the Quarantine Bay, Burial vault 785, in front of the entrance.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-03-24" who="CB">Andrey's corrections</change>
+          <change when="2013-10-24" who="TW">Added image code</change>
+         <change when="2013-04-04" who="AG">bibliography updated</change>
+         <change when="2012-08-22" who="AG">translation in 'context' corrected</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-12" who="AG">1 line translated, small corrections</change>
+         <change when="2012-05-21" who="AG">several lines translated</change>
+          <change when="2012-04-30" who="AFS">updated bibliography</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-04-16" who="AG">date corrected</change>
+         <change when="2012-02-22" who="AG">bibliography tagged</change>
+         <change when="2012-01-10" who="AG">minor corrections, updating</change>
+         <change when="2011-12-06" who="AG">minor corrections, tags added to the Greek text</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.76">
+                <desc xml:lang="en">Photograph of face (from ??)</desc>
+                <desc xml:lang="ru">Фотография лицевой части (из ??)</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Латышев 1899a--><ptr target="bib:b0127"/>, 46–49, № <citedRange>45</citedRange></bibl>
+               <bibl n="2"><!--Vinogradov 2007--><ptr target="bib:b0376"/>, 263–264, № <citedRange>13</citedRange></bibl>
+               <bibl n="2.1"><!--Виноградов 2010a--><ptr target="bib:b0399"/>, 129-132, № <citedRange>f</citedRange></bibl>
+               <bibl n="3"><!--Яшаева, Денисова, Гинькут, Залесская, Журавлев 2011--><ptr target="bib:b0404"/>,  436, № 25, илл. <citedRange>25</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Памятник святой мученицы Анастасии.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Monument of saint martyr Anastasia.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> 1. Херсонская мученица Анастасия из других источников неизвестна, однако предположение Латышева о том, что это могла быть не местная святая, 
+               маловероятно: термин μνημεῖον обозначает именно гробницу (Lampe, s.v. μνημεῖον). Таким образом, памятник, по всей видимости, стоял перед тем склепом, 
+               который почитался как место погребения мученицы.</p>
+                <p>2–3. Сходную формулу (ἁγίας) см. в Hagel 1998, № Kry 113, 498. О надписях над могилами святых см. Halkin 1973.</p>
+            <p>4–5. Имя Анастасия неизвестно в античном Северном Причерноморье, а в Херсонесе встречается в <ref type="inscription">V 64</ref><!--byz064--> 
+               — вероятней всего, оно появилось здесь вместе с христианством. Данное имя в христианской эпиграфике встречается, согласно PHI7 Database, в Малой Азии (9 раз), 
+               в Константинополе, Италии и на Кипре (по разу), в Греции (6), но особенно часто в сиро-палестинском регионе (24!).</p>
+                <p> Палеографически (форма альфы) возможны две датировки: ранняя (IV в.) и поздняя (кон. V – VII в.). В пользу первой говорят ромбовидная форма 
+                   омикрона и найденные в склепе монеты, которые датируются временем до 408 г. (Косцюшко-Валюжинич 1898, 194). Таким образом, вполне вероятно, что 
+                   Анастасия была мученицей, пострадавший в Херсоне от рук язычников между серединой III и концом IV в., а точнее, в ту эпоху, к которой 
+                   «Житие епископов Херсонских» относит деятельность свв. Василея, Елпидия, Евгения и Агафодора. С последними тремя ее связывает и место 
+                   погребения — на Западном некрополе.</p>
+            <p> Относительно надгробий в форме креста см. комм. к <ref type="inscription">V 61</ref><!--byz061-->.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>1. Chersonian martyr Anastasia is not otherwise known, but Latyshev's supposition that she was not a local saint is unlikely: the term μνημεῖον designates
+               specifically a tomb (Lampe, s.v. μνημεῖον). Apparently, the monument stood in front of the vault that was venerated as the burial place of the martyress.</p>
+            <p>2-3. For a similar formula (ἁγίας) see Hagel 1998, № Kry 113, 498. On inscriptions over graves of saints, see Halkin 1973.</p>
+            <p>4-5. The name Anastasia is not attested in the Northern Black Sea region in ancient times, while in Chersonesos  it is attested in <ref type="inscription">V 64</ref><!--byz064-->
+               - it most likely became known here only in Christian times. The name occurs in Christian epigraphy, according to PHI7 Database: in Asia Minor (9 times), once each in 
+               Constantinople, Italy, Cyprus, 6 times in Greece, but most commonly in Syro-Palestine (24 times).</p>
+            <p>There are two possibilities for the date of this inscription on the basis of lettershapes (specifically, of alpha): the early (IVth century) and late 
+               (Vth-VIIth century). The early date is supported by the diamond-shape of omicron, as well as by the coins found in the burial vault and dated to 408 C.E. (Kostsyushko-Valyuzhinich 1898, 194).
+            It is therefore possible to suggest that Anastasia was a local martyr who had suffered at the hands of pagans some time between the middle of the IIIrd and the end of the 
+            IVth century, and more precisely, during the time when saint Basileos, saint Elpidios, saint Eugenios, and saint Agathodoros were active, according to the "Vita of
+            Chersonian Bishops." Anastasia's other connection with this group of saints (the latter three) would be their common place of burial - in the Western necropolis.</p>
+            <p>On tombstones in the shape of a cross, see commentary to <ref type="inscription">V 61</ref><!--byz061-->.</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/>  <g ref="#stauros"/> <w lemma="μνημεῖον">Μνημῖον</w>
+               <lb n="2"/><w lemma="ὁ">τῆς</w> <w lemma="ἅγιος">ἁγί<lb n="3" break="no"/>ας</w> <w lemma="μάρτυς">μάρ<lb n="4" break="no"/>τυρ<supplied reason="lost">ο</supplied>ς</w>
+               <lb n="5"/><persName type="attested" ref="#person78"><name nymRef="Ἀναστασία">Ἀναστασή<lb n="6" break="no"/><supplied reason="lost">α</supplied>ς</name></persName> <g ref="#stauros"/>.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

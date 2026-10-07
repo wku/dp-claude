@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Строительная надпись Юстиниана I</title><title xml:lang="en">Building inscription of Justinian I</title><editor xml:id="ayv2012">
+               <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+               <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+            </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.171</idno><idno type="PE">PE5000171</idno>
+            <idno type="AYV2012-number">byz164</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>4285</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>4285</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc1">
+                     <seg xml:lang="ru">Строительная надпись.</seg>
+                     <seg xml:lang="en">Building inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Во вторичном использовании. Стесана со всех сторон (включая тыльную), кроме верхней.</p>
+                           <p xml:lang="en">Secondary use. Cut on all sides (including the back), except for the top.</p>
+                           <dimensions>
+                              <height>23,0</height>
+                              <width>47,0</width>
+                              <depth>17,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На лицевой стороне.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; bouletée. Альфа с ломаной перекладиной, каппа с удлиненной вертикалью.  
+                           Стиль надписи:  буквы вырезаны между линейками.</seg>
+                        <seg xml:lang="en">Lapidary; bouletée. Alpha with broken crossbar, kappa with elongated vertical. Style: lines of text are carved 
+                           between incised lines.</seg>
+                        <height unit="cm">5,5–6,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p020">
+                        <seg xml:lang="ru">Феодоро.</seg>
+                        <seg xml:lang="en">Theodoro.</seg>
+                     </origPlace>
+                     <origDate notBefore="0532" notAfter="0533" evidence="указание_надписи">
+                        <seg xml:lang="ru">532–533, 547–548 или 562–563 гг.</seg>
+                        <seg xml:lang="en">532–533, 547–548 or 562–563 C.E.</seg>
+                        <certainty locus="value" match="../@notBefore" assertedValue="0547"/>
+                        <certainty locus="value" match="../@notAfter" assertedValue="0548"/>
+                        <certainty locus="value" match="../@notBefore" assertedValue="0562"/>
+                        <certainty locus="value" match="../@notAfter" assertedValue="0563"/> 
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08"> август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>.</seg>
+                     <seg xml:lang="en"><date when="1999-05">May 1999</date>, <date when="2001-08">August 2001</date>, <date when="2002-09">September 2002</date>, <date when="2003-09">September 2003</date>, <date when="2004-09">September 2004</date>, <date when="2005-09">September 2005</date>, <date when="2006-09">September 2006</date>, <date when="2007-09">September 2007</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#mangup">Мангуп.</placeName>
+                        <rs type="circumstances">1913 г., раскопки Р.Х. Лепера.</rs>
+                        <rs type="context">Большая базилика, слева от центрального нефа, группа могил.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Mangup.</placeName>
+                        <rs type="circumstances">1913, excavations of R.Ch. Loeper.</rs>
+                        <rs type="context">Great basilica, to the left of the central nave, a group of graves.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-08" who="CB">Andrey's corrections</change>
+          <change when="2013-10-24" who="TW">Added image code</change>
+         <change when="2012-07-26" who="AG">1 line translated, small correction</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change> 
+         <change when="2012-07-03" who="AG">apparatus upd after Vinogradov</change>
+         <change when="2012-06-01" who="AG">several lines translated, bibliography and apparatus tagged, tags in the text corrected, editor added</change>
+          <change when="2012-04-17" who="AL">translated a line</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+          <change when="2012-03-12" who="AFS">tagged greek text</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.171">
+                <desc xml:lang="en">Photograph of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Латышев 1918b--><ptr target="bib:b0157"/>, 18–19, № <citedRange>1</citedRange>, <seg xml:lang="ru">рис.</seg><seg xml:lang="en">fig.</seg> 1</bibl>
+               <bibl n="2"><!--Виноградов 2001--><ptr target="bib:b0040"/>, <citedRange>70–71</citedRange></bibl>
+               <bibl n="2.1"><!--Feissel 2000--><ptr target="bib:b0294"/>, 94, № <citedRange>27</citedRange></bibl>
+               <bibl n="2.1.1"><!--SEG--><ptr target="bib:SEG"/>  <citedRange>50, 695</citedRange></bibl>
+               <bibl n="2.2"><!--SEG--><ptr target="bib:SEG"/>  <citedRange>53, 774bis</citedRange></bibl>
+               <bibl n="3"><!--Vinogradov 2007--><ptr target="bib:b0376"/>, 264–265, № <citedRange>15</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="ἐπί"><supplied reason="lost">Ἐπὶ</supplied></w> <persName type="ruler" key="justinianus"><name nymRef="Ἰουστινιανός"><supplied reason="lost">Ἰ</supplied>ουστινιαν<supplied reason="lost">οῦ</supplied></name>
+               <lb n="2"/><w lemma="ὁ"><supplied reason="lost">το</supplied><unclear>ῦ</unclear></w> <w lemma="αὐτοκράτωρ"><unclear>α</unclear>ὐτοκράτο<supplied reason="lost">ρος</supplied></w></persName>,
+               <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἰνδικτιών"><expan><abbr><unclear>ἰ</unclear><unclear>ν</unclear><unclear>δ</unclear></abbr><ex>ικτιῶνος</ex></expan></w> 
+               <num><unclear>α</unclear><unclear>ι</unclear></num>, <w lemma="ἔτος"><unclear>ἔ</unclear><unclear>τ</unclear><unclear>ο</unclear><unclear>υ</unclear><supplied reason="lost">ς</supplied></w> <num><gap reason="lost" quantity="2" unit="character"/></num>.
+            </ab>
+         </div>
+         <div type="apparatus">
+             <listApp>
+                <app loc="1"><lem>ἐπὶ</lem><rdg source="bib:b0157"><note>om.</note></rdg></app>
+               <app loc="2"><lem>[το]<unclear>ῦ</unclear></lem><rdg source="bib:b0157"><note>om.</note></rdg></app>
+               <app loc="3"><rdg source="bib:b0157">[Σεβά]στου</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>…при (?)] Юстиниане самодержце …, в 11-й индикт, в .. году.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>at the time (?) of emperor Justinian..., in the 11th indiction, in ... year.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> На наш взгляд, вся надпись помещалась на одном камне, впоследствии стесанном со всех 
+                сторон, кроме верхней. Соответственно, текст надписи может быть почти полностью восстановлен.</p>
+                <p> 1. Датировка по императору практически всегда вводится предлогом ἐπί.  </p>
+                <p> 3. На нижнем обломе надписи хорошо прослеживаются остатки дельты со знаком 
+                    сокращения — несомненно, от слова «индиктион», а за ней — остатки альфы и йоты, т.е. 
+                    обозначения 11 индикта. Следовавшая за словом “год” цифра должна обозначать не год по 
+                    какой-либо эре, а год правления Юстиниана I (ср., напр., Grégoire 1929, № 255; Beševliev 1964, № 97, 
+                    231).</p>
+                <p> 11 индикт соответствует в правление Юстиниана I (датировка временем Юстиниана II 
+                    исключается по историческим причинам) 532–533, 547–548 или 562–563 годам. Отметим, что 
+                    11-м индиктом правления Юстиниана датирована и строительная надпись с Тамани (<ref type="inscription">V 329</ref><!--byz308-->). 
+                    Вполне вероятно, что речь идет о частях одной строительной программы императора, 
+                    описанной Прокопием (De aedificiis 3, 7, 12–13). Поскольку же Прокопий закончил свой труд 
+                    раньше 563 г., а таманская надпись датируется, скорее всего, 547–548 гг., то наиболее 
+                    вероятной датой и для нашей надписи кажется 547–548 гг.</p>
+                <p>По своему характеру (краткая формула, очень крупные буквы) надпись предназначалась 
+                    для рассмотрения с большого расстояния. Скорее всего, она была вделана в стену, причем в 
+                    другом месте этой же стены могла быть и более пространная надпись. Вполне вероятно, что 
+                    такая стена могла быть той самой, которая перегораживала мангупскую клисуру 
+                    (см. Сидоренко 1991): предполагаемая ширина надписи вполне соответствует ширине 
+                    блоков этой стены — 65 см (предполагаемая высота — ок. 27 см). Впрочем, ввиду находки 
+                    надписи на вершине Мангупа более вероятным кажется то, что она происходит из какой-то 
+                    юстиниановской стены на краю самого плато, например, из стены у главного въезда.  </p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>In my opinion, the whole inscription fit on a single block, which was subsequently cut on all sides, except the top. Thus, we can restore the text 
+            almost fully.</p>
+            <p>1. Dating by emperor is almost always introduced by preposition ἐπί.</p>
+            <p>3. At the bottom break traces of a delta with an abbreviation mark are clear and must belong the word "indiction," followed by an alpha and iota, that is,
+            the 11th indiction. The number that followed the word "year" would have not been indicating an era, but the year of Justinian's reign (cf., e.g., 
+            Grégoire 1929, № 255; Beševliev 1964, № 97, 231).</p>
+            <p>The 11th indiction in the reign of Justinian I (a date in the reign of Justinian II is excluded on historical grounds) falls in the years 532-533, 547-548, or
+               562-563. We should point out that a building inscription from Taman (<ref type="inscription">V 329</ref><!--byz308-->) also dates to the 11th indiction 
+            of Justinian's reign. It is quite possible that we are witnessing two projects in the same building programme of the emperor, which was described by Procopius
+            (De aedificiis 3, 7, 12–13). Since Procopius had finished his writing before 563 C.E., and since the Taman inscription dates most probably to 547-548, the most
+            likely date for our inscription would be 547-548 C.E. as well.</p>
+            <p>The character of the inscription (short formula, large letters) suggests that it was meant to be visible from afar. It was most likely built into a wall,
+               whereas a more detailed text might have also been inscribed nearby on the same wall. It might well have been a crosswall in the Mangup kleisoura
+            (see Sidorenko 1991): the estimated width of the inscription corresponds to the width of the wall-blocks from that wall - 65cm (probable height was ca. 27cm).
+            Another consideration is that since the inscription was found at the summit of Mangup, it might have come from a Justinian wall at the edge of the plateau, the
+            wall by the main entrance.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

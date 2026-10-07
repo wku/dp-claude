@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Постамент статуи царя Скилура</title><title xml:lang="en">Statue description</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.701</idno><idno type="PE">PE3000382</idno><idno type="filename">3.593</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Одесский археологический музей</repository>
+                     <idno>50715</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Odessa Archaeological Museum</repository>
+                     <idno>50715</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc23">
+                     <seg xml:lang="ru">Надпись к статуе.</seg>
+                     <seg xml:lang="en">Statue description.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon12">Постамент.</objectType>
+                           <objectType xml:lang="en">Base.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Поверхность постамента обработана суммарно. Один из
+                              углов сбит. На верхней плоскости пять углублений, предназначавшихся
+                              для штырей крепления статуи. На лицевой грани остатки двухстрочной
+                              надписи.</p>
+                           <p xml:lang="en">The surface is treated summarily. One of the corners is broken away.</p>
+                           <dimensions>
+                              <height unit="cm">16,0</height>
+                              <width unit="cm">107,0</width>
+                              <depth unit="cm">102,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с ломаной перекладиной, омикрон меньше остальных
+                           букв, гасты сигма слегка расходятся, апексы на концах линий букв.</seg>
+                        <seg xml:lang="en">Alpha with broken crossbar; serifs.</seg>
+                        <height unit="cm">2,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p058">
+                        <seg xml:lang="ru">Неаполь Скифский.</seg>
+                        <seg xml:lang="en">Neapolis Scythica.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0151" notAfter="-0101" evidence="палеография исторический_контекст просопография">
+                        <seg xml:lang="ru">сер. - 2-я пол. II в. до н.э.</seg>
+                        <seg xml:lang="en">mid - 2nd half of II century B.C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#simferopol-kermenchik">Симферополь (Керменчик/Неаполь Скифский?).</placeName>
+                        <rs type="circumstances">Обнаружена случайно в 1827 г. Куплена А.И. Султан-Крым-Гиреем и передана им И.П.
+                           Бларамбергу.</rs>
+                        <rs type="context">В южной части городища при добыче
+                           строительного камня в Керменчике. (В вырубленном в скале котловане,
+                           служившем подземной частью монументальной гробницы Аргота; ср. №
+                           VinZajc 2003).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Simferopol (Kermenchik/Neapolis Scythica?).</placeName>
+                        <rs type="circumstances">Random find in 1827, bought by A.I. Sultan-Krym-Girey and passed on to I.P. Blaramberg.</rs>
+                        <rs type="context">South area of the citadel, quarry works in Kermenchik. (In a rock-cut pit that served as an undergound part of the monumental 
+                           tomb of Argotos).</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Одесса, Украина.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Odessa, Ukraine.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-04-26" who="PY">moved Russian text to commentary</change>
+         <change when="2015-11-18" who="CB">Added missing biblio tags</change>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-19" who="CB">Bibliography</change>
+         <change when="2015-09-02" who="CB">Metadata and app crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2014-01-31" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-03-16" who="AV">tagging Greek names XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.701">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Blaramberg 1827--><ptr target="bib:b0763"/>
+               (= <bibl><!--Blaramberg 1831--><ptr target="bib:b0765"/></bibl>)</bibl>
+               <bibl><!--Бларамберг 1889--><ptr target="bib:b0766"/>, <citedRange>60</citedRange></bibl>
+               <bibl><!--CIG II 2103--><ptr target="bib:CIG"/> <citedRange>2, 2013</citedRange></bibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>I 241</citedRange></bibl>
+               <bibl><!--IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>668</citedRange></bibl>
+               <bibl><!--Зайцев 2003--><ptr target="bib:b0464"/>, 50, №<citedRange>3</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Minns 1913--><ptr target="bib:b0336"/>, <citedRange>119</citedRange></bibl>
+               <bibl><!--Шульц 1946--><ptr target="bib:b0512"/>, <citedRange>44</citedRange></bibl>
+               <bibl><!--Соломоник 1962--><ptr target="bib:b0500"/>, <citedRange>33-34</citedRange></bibl>
+               <bibl><!--Harmatta 1993--><ptr target="bib:b0767"/>, <citedRange>8-9</citedRange>
+               (= <bibl><!--SEG--><ptr target="bib:SEG"/> <citedRange>42, 681</citedRange></bibl>)</bibl>
+               <bibl><!--Трейстер 1999--><ptr target="bib:b0509"/>, 136 № <citedRange>1(17)</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><w>βασιλεὺς</w> <persName type="ruler" key="skilouros"><name nymRef="Σκίλουρος"><unclear>Σκί</unclear>λουρος</name></persName> 
+                                       <w>βα<unclear>σ</unclear><gap reason="lost" quantity="1" unit="line"/></w>
+               	 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ΙΣ</orig><gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg source="bib:b0763">βασιλεὺς Σκίλουρος βασ[ιλεὺς μεγά]λος</rdg>
+                  <rdg source="bib:CIG"> βασιλεὺς Σκίλουρος βασ[ιλέων μέγας (?)]</rdg>
+                  <rdg source="bib:IOSPE">
+                        ΒΑΣΙΛΕΥΣΣΚ<unclear>ΙΛ</unclear>ΟΥΡΟΣΒΑ<unclear>Σ</unclear>[----]<unclear>Ε</unclear>[----]<unclear>Δ</unclear>[--]<unclear>Σ</unclear>
+                     <note>(cf. IOSPE I2 p. 64: «v. 1 extr. nihil nisi patris Sciluri nomen perisse
+                        puto: Βασιλεὺς Σκίλουρος βασ[ιλέως ......ο]ς»)</note></rdg>
+                  <rdg source="bib:b0767">βασιλεὺς Σκίλουρος βασ[ιλεὺς βασιλέων]</rdg>
+                  <rdg><note>fin:</note>βα<unclear>σ</unclear>[ιλεύων ---]</rdg>
+               </app>
+               <app loc="2">
+                  <rdg source="bib:b0763">τὸ λʹ ἑαυτοῦ βασιλείας [---]</rdg>
+                  <rdg source="bib:CIG">τὸ λʹ ἑαυτοῦ βασιλείας [ἔτος ---]</rdg>
+                  <rdg source="bib:IOSPE">[-----]ΛΕΑΥ[-----]ΒΑΣΙΛΙΣ[.]Α[----]Ν[---]Ρ[-----]</rdg>
+                  <note>(cf. IOSPE I2 p. 64: «v. 2 medio videtur βασίλισ[σ]α fuisse scriptum; de
+                     βασιλείας voce certe non est cogitandum»)</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p/>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>King Skilouros - - -</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Фрагментарно сохранившаяся надпись с именем скифского царя Скилура, известного также
+               по литературным источникам (прежде всего Strab. VII. 3. 17; VII. 4. 3; VII. 4. 7) и
+               данным нумизматики (Зограф 1951, 137; Фролова 1964, 44). Она является одним из двух
+               упоминаний этого правителя в эпиграфике (наряду с посвятительной надписью из
+               Пантикапея дочери Скилура Сенамотис, см. Виноградов 1987, 58 (SEG 37, 674);
+               Vinogradov 1997, 526). Происхождение ЛИ Σκίλουρος остается неопределенным (см.
+               Тохтасьев 2005, 88 – иранские параллели; Zgusta 1955, § 575 – фракийские параллели).
+               Подробнее о царстве Скилура см.: Виноградов 1987, 84 сл.; Виноградов 1989,
+               230-250.</p>
+            <p>Прочтение надписи с самого начала являлось неразрешимой проблемой. Бларамберг читал
+               текст следующим образом: βασιλεὺς Σκίλουρος βασ[ιλεὺς μεγά]λος | τὸ λʹ ἑαυτοῦ
+               βασιλείας [– – –] ("царь Скилур, [великий царь], тридцатый год своего царствования").
+               Это чтение было в основном принято A. Беком в Corpus Inscriptionum Graecarum, который
+               внес в восстановление Бларамберга небольшие исправления грамматического характера:
+               βασιλεὺς Σκίλουρος βασ[ιλέων μέγας] / τὸ λʹ ἑαυτοῦ βασιλείας [ἔτος – – –]. В
+               комментарии к своему изданию Бек указал, что видевший камень E.E. Келер в конце стк.
+               1 читал эпитет βασιλεύτατος, но затем выразил сомнение в этом чтении. Латышев, изучив
+               оригинал в 1883 г. при подготовке публикации первого издания IOSPE, пришел к
+               заключению, что надпись в силу плохой сохранности не поддается надежному
+               восстановлению. Единственно возможным дополнением стк. 1 он признал патронимик
+               Скилура: βασ[ιλέως . . . . . . ο]ς, «сын царя (такого-то)» (IOSPE I 241 = IOSPE I2
+               668), что должно указывать на его царское происхождение. На мой взгляд, здесь не
+               исключено восстановление причастия βασ̣[ιλεύων], «царствующий», с последующим
+               дополнением и/или обстоятельством (ср. IOSPE I2 573: βασιλεὺς Ἀσποῦ[ργος
+               ---]|[β[ασι]λέυων [---]). В середине стк. 2 Латышев решительно отверг чтение
+               Бларамберга βασιλείας. По его мнению, с наибольшей вероятностью здесь следует читать
+               существительное βασίλισ[σ]α («царица»).</p>
+            <p>Копия Латышева остается на сегодняшний день наиболее надежным источником для
+               интерпретации надписи. В 1962 г. Э.И. Соломоник, осмотрев камень, констатировала, что
+               многие буквы, которые видел и срисовывал Латышев, исчезли вследствие осыпания
+               хрупкого мшанкового известняка (Соломоник 1962, 33).</p>
+            <p>Несмотря на плохую сохранность, а также невозможность восстановления и определения
+               жанра (с наибольшей вероятностью надпись могла быть посвятительной или почетной)
+               этого документа, он позволяет надежно идентифицировать Керменчик как одну из трех
+               упомянутых Страбоном крепостей Скилура и его сыновей (Strab. VII 4, 7: πρὸς δὲ τοῖς
+               καταριθμηθεῖσι τόποις ἐν τῇ χερρονήσῳ καὶ τὰ φρούρια ὑπῆρξεν, ἃ κατεσκεύασε Σκίλουρος
+               καὶ οἱ παῖδες, οἷσπερ καὶ ὁρμητηρίοις ἐχρῶντο πρὸς τοὺς Μιθριδάτου στρατηγούς,
+               Παλάκιόν τε καὶ Χάβον καὶ Νεάπολις). В то же время предложенное Бларамбергом без
+               серьезной аргументации отождествление городища Керменчик с Неаполем, упоминающимся в
+               этом месте Страбона, и в херсонесском декрете в честь понтийского стратега Диофанта
+               (№ ipe35213: παραδόντων δὲ [αὐτ]ῶι Σκυθᾶν τὰ βασίλεια Χαβαίους καὶ Νέαν πόλιν;
+               ipe35229: ἐπὶ Χαβαίους κα̣ὶ Νέ[αν π]όλιν ἐλθὼν παντὶ τ̣ῶ̣ι̣ β̣ά̣ρε̣ι̣), хотя и было
+               принято большинством исследователей, не нашло до настоящего времени эпиграфического
+               подтверждения1 и продолжает вызывать сомнения (аргументы против отождествления
+               Керменчика с Неаполем см. Дашевская 1958, 146; Раевский 1976, 103).</p>
+            <p>1: βασιλεὺς Σκίλουρος βασ[ιλεὺς βασιλέων] - Harmatta, однако такое
+               дополнение не находит опоры в источниках и не соответствует чтению копии
+               Латышева.</p>
+            <p>2: перед Ι видны следы правой наклонной гасты (скорее всего от Λ)</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

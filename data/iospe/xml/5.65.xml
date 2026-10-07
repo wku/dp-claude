@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Аристона</title><title xml:lang="en">Epitaph of Ariston</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.65</idno><idno type="PE">PE5000065</idno>
+            <idno type="AYV2012-number">byz065</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>In situ</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>In situ</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon20">Стена.</objectType>
+                           <objectType xml:lang="en">Wall.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m5 #m6">Охра на штукатурке.</material>
+                           <material xml:lang="en">Ochre on plaster.</material>
+                           <p xml:lang="ru">На задней стене лежанки изображение двух зеленых веточек, каждая с зелеными листьями и 
+                              тремя красными цветами, и циркульного круга с красным периметром. Выцвела.</p>
+                           <p xml:lang="en">Painted on the back wall of funerary niche: two green branches with three red flowers and green leaves and on each, 
+                           and a compass-drawn circle in red paint with inscription inside. Faded. </p>
+                           <dimensions>
+                              <height>26,0</height>
+                              <width>26,5</width>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">В круге.</seg>
+                           <seg xml:lang="en">Inside the circle.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#pictura">Дипинто</rs>; буквы немного наклонены вправо. Альфа с наклоненной 
+                           влево перекладиной и удлиненной влево и вверх правой диагональю, эпсилон полуромбовидный, мю с укороченной серединой, ипсилон У-образный.</seg>
+                        <seg xml:lang="en">Dipinto; letters lean slightly to the right. Alpha with left-slanting crossbar and upward projecting right diagonal,
+                           half-diamond epsilon, mu with shortened middle, У-shaped upsilon.</seg>
+                        <height unit="cm">2,5–4,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0301" notAfter="0500" precision="low" evidence="археологический_контекст палеография">
+                        <seg xml:lang="ru">IV–V вв.</seg>
+                        <seg xml:lang="en">IV–Vth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08"> август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>.</seg>
+                     <seg xml:lang="en"> <date when="1999-05">May 1999</date>, <date when="2001-08"> August 2001</date>, <date when="2002-09"> September 2002</date>, <date when="2003-09"> September 2003</date>, <date when="2004-09"> September 2004</date>, <date when="2005-09"> September 2005</date>, <date when="2006-09"> September 2006</date>, <date when="2007-09"> September 2007</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">2002 г., обследования Е.Я. Туровского.</rs>
+                        <rs type="context">Некрополь у загородного крестообразного храма, склеп 2/2006 («2002 г.»), правая лежанка, задняя стена.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">2002, survey of E.Ya. Turovsky.</rs>
+                        <rs type="context">Necropolis by the Extramural Cruciform Church, Burial vault 2/2006 ("of the year 2002"), right bench, rear wall.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">In situ.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">In situ.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-03-24" who="CB">Andrey's corrections</change>
+          <change when="2013-10-24" who="TW">Added image code</change>
+          <change when="2013-01-15" who="AL">inserted English names in commentary</change>
+         <change when="2012-08-22" who="AG">translation of 'context' corrected</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-12" who="AG">corrections</change>
+         <change when="2012-05-21" who="AG">several lines translated</change>
+          <change when="2012-04-25" who="AFS">bibliography updated</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-04-11" who="AG">apparatus marked up</change>
+         <change when="2012-02-22" who="AG">bibliography tags tidied</change>
+          <change when="2012-02-20" who="AL">tagged bibliography</change>
+         <change when="2012-01-17" who="AG">some corrections</change>
+         <change when="2012-01-10" who="AG">some corrections, updating</change>
+         <change when="2011-12-05" who="AG">minor corrections, tags added to the Greek text</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.65-1">
+                <desc xml:lang="en">Photograph of face 1 (from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="5.65-2">
+                <desc xml:lang="en">Photograph of face 2 (from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Виноградов 2009a--><ptr target="bib:b0048"/>, <citedRange>229-231</citedRange></bibl>
+               <bibl n="1.1"><!--Виноградов 2010a--><ptr target="bib:b0399"/>, 124–126, № <citedRange>d</citedRange></bibl>
+            </listBibl>
+          </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2-3"><rdg source="bib:b0048">ἀληθαργίσ]<unclear>ει</unclear>(?), κὲ </rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Аристон незабвенный, душа твоя с праведными.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Ariston, of eternal memory, your soul is with the righteous.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Первые публикации надписи: наше чтение в Ступко, Туровский, Филиппенко 2007, 190 (с многочисленными ошибками в наборе), и издание 
+               Виноградов 2009, были выполнены по фотографиям, любезно предоставленными первооткрывателями склепа. Аутопсия в сентябре 2008 г. и 
+               консультации с Д. Фейсселем помогли скорректировать чтение 2-й и 3-й строк.</p>
+                <p> 1–3. Первой части формулы находится аналогия в Grégoire 1929, № 9 (Кизик, IV в.): «блаженный Аркадий, приснопамятный, господин 
+                   незабвенный (ἀληθάργ[ητε])» (ср. также IGLS 2530; Robert 1948, 128). Имя Аристон — христианское (см. Delehaye 1902, 753); оно также известно на 
+                   Боспоре V в. (см. <ref type="inscription">V 342</ref><!--byz318-->). В данном случае оно, однако, очевидно восходит к локальной традиции: 
+                   если во всей христианской эпиграфике оно встречается всего 10 раз (7 из них — в Малой Азии), то в античном Херсонесе более 40 раз 
+                   (см. также комм. к <ref type="inscription">V 342</ref><!--byz318-->). Очевидно, Аристон был погребен в этой катакомбе, вероятно, в центральной лежанке.</p>
+            <p> 4–6. Относительно второй части формулы см. <ref type="introduction">IV.3.F.b</ref>.</p>
+            <p>Палеографически надпись близка <ref type="inscription">V 64</ref><!--byz064-->: ср. формы альфы c петлей и вытянутого ро. С другой стороны, редкая форма 
+               полуромбовидного эпсилона находит параллель в такой же формы сигме в <ref type="inscription">V 72</ref><!--byz072-->. Археологически склеп датируется IV – 
+               нач. V в. (Ступко, Туровский, Филиппенко 2007).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+             <p>The present author's editio princeps (published in Stupko, Turovsky, Filippenko 2007, 190, with multiple typos), and the subsequent edition (Vinogradov 2009)
+                were prepared on the basis of photographs generously made available by the discoverers of the burial vault. An autopsy conducted in September 2008 and a consultation
+                with D. Feissel made it possible to amend the reading of lines 2 and 3.</p>
+            <p>1-3. The first half of the formula has an analogy in Grégoire 1929, № 9 (Cyzicus, IVth century C.E.): "blessed Arkadios, ever-remembered master, not subject to forgetting
+               (ἀληθάργ[ητε])» (сf. also IGLS 2530; Robert 1948, 128). The name Ariston is attested in Christian use (see Delehaye 1902, 753); it is also known in Bosporos
+               in the Vth century (see <ref type="inscription">V 342</ref><!--byz318-->), and in our case we should rather consider it part of the local tradition: while in 
+               Christian epigraphy it is attested 10 times (of which seven are in Asia Minor), in ancient Chersonesos we have 40 attestations (see also commentary to 
+               <ref type="inscription">V 342</ref><!--byz318-->). Artiston was apparently laid to rest in this catacomb, and probably on the central bench.</p>
+            <p>4-6.  On the formula, see Introduction <ref type="introduction">IV.3.F.b</ref>.</p>
+            <p>Palaeographic features are close to those found in <ref type="inscription">V 64</ref><!--byz064-->: alpha with a loop and elongated rho. At the same time, 
+               a rare half-diamond-shaped epsilon can be compared with the same shape of sigma in <ref type="inscription">V 72</ref><!--byz072-->. On the basis of archaeological
+               remains, the vault is dated to the IVth - early Vth centuries (Stupko, Turovsky, Filippenko 2007).</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" ref="#person67"><name nymRef="Ἀρίστων">Ἀρίστω<lb n="2" break="no"/>ν</name></persName> <w lemma="ἀληθάργητος">ἀληθάρ<lb n="3" break="no"/><supplied reason="lost">γ</supplied>ητε</w>,
+               <lb n="4"/><w lemma="ὁ">ἡ</w> <w lemma="ψυχή">ψυχή</w> <w lemma="σύ">σου</w>
+               <lb n="5"/><w lemma="μετά">μετὰ</w> <w lemma="ὁ">τῶν</w>
+               <lb n="6"/><w lemma="δίκαιος">δικέων</w>.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

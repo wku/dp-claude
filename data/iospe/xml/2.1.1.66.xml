@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ru"/><title xml:lang="uk"/>
+                <title xml:lang="en">Account(?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>King's College London</authority>
+                <idno type="PE">PE2010051</idno>
+                <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="filename">2.1.1.66</tei:idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/>
+                        <altIdentifier xml:lang="ru">
+                            <repository>Государственный Эрмитаж</repository>
+                            <idno>Б.63.305</idno>
+                        </altIdentifier><altIdentifier xml:lang="uk"><repository/><idno/></altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>The State Hermitage Museum</repository>
+                            <idno>Б.63.305</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="filename.xml#id">
+                            <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                            <seg xml:lang="en">Account (financial?).</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ru" ref="#">Фрагмент.</objectType><objectType xml:lang="uk" ref="#"/>
+                                    <objectType xml:lang="en">Wall fragment.</objectType>
+                                    
+                                    <material xml:lang="ru" ref="material-search.xml#m10">Глина.</material><material xml:lang="uk" ref="material-search.xml#m10"/>
+                                    <material xml:lang="en">Clay.</material>
+                                    <p xml:lang="ru"/><p xml:lang="uk"/>
+                                    <p xml:lang="en">South Ionian cup with handles (?), 3rd quarter VI century B.C.E.</p>
+                                    <dimensions>
+                                        <height unit="cm"/>
+                                        <width unit="cm">6.3</width>
+                                        <depth unit="cm"/>
+                                        <dim type="diameter" unit="cm"/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                                    <seg xml:lang="en">Wall, exterior. Originally inscribed on ostracon(?)</seg>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито.</rs></seg><seg xml:lang="uk"><rs type="execution" ref="execution.xml#scariphatis"/></seg>
+                                <seg xml:lang="en">Graffito.</seg>
+                                <height unit="cm">0.2-0.4</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origPlace.xml#p066"/>
+                            <seg xml:lang="ru">Борисфен.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">Borysthenes.</seg>
+                            <origDate notBefore="0001" notAfter="0001" evidence="Датировка_керамики">
+                                <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                                <seg xml:lang="en">3rd quarter VI century B.C.E.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="ru">
+                               
+                                <placeName type="ancientFindspot" ref="findspot.xml#berezan">Березань.</placeName>
+                                <rs type="circumstances">Найден в 1963 г., раскопки К.С. Горуновой.</rs>
+                                <rs type="context">Восточный раскоп, сев.  п/кв 32, глинисто-зольн. до уровня землянки.</rs>
+                            </seg><seg xml:lang="uk"><placeName type="ancientFindspot" ref="findspot.xml#berezan"/><rs type="circumstances"/><rs type="context"/></seg>
+                            <seg xml:lang="en">
+                                <placeName type="ancientFindspot">Berezan.</placeName>
+                                <rs type="circumstances">Found in 1963, excavations of K.S. Gorbunova.</rs>
+                                <rs type="context">East sector, northern half-square 32, clay-ashy layer down to the dugout.</rs>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="ru">Санкт-Петербург, Россия.</seg><seg xml:lang="uk"/>
+                            <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsy">
+                            <seg xml:lang="ru">Август 2016.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">August 2016.</seg>
+                        </provenance>
+                    </history>
+              
+                    <msPart n="1">
+                        <msIdentifier/>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <dimensions>
+                                            <height unit="cm"/>
+                                            <width unit="cm"/>
+                                            <depth unit="cm"/>
+                                        </dimensions>
+                                    </support>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                                        <seg xml:lang="en">Wall, exterior. Originally inscribed on ostracon(?)<rs type="execution" ref="execution.xml#"/></seg>
+                                        <dimensions/>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито.</rs></seg>
+                                    <seg xml:lang="en"><rs type="execution" ref="execution.xml#scariphatis">Graffito.</rs></seg>
+                                    <seg xml:lang="uk"><rs type="execution" ref="execution.xml#scariphatis"/></seg>
+                                    <height unit="cm">0.2-0.4</height>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <provenance type="found" n="1">
+                                <seg xml:lang="ru">
+                                    <placeName type="ancientFindspot" ref="findspot.xml#">Березань.</placeName>
+                                    <rs type="circumstances">Найден в 1963 г., раскопки К.С. Горуновой.</rs>
+                                    <rs type="context">Восточный раскоп, сев.  п/кв 32, глинисто-зольн. до уровня землянки.</rs>
+                                </seg><seg xml:lang="uk"><placeName type="ancientFindspot" ref="findspot.xml#"/><rs type="circumstances"/><rs type="context"/></seg>
+                                <seg xml:lang="en">
+                                    <placeName type="ancientFindspot">Berezan.</placeName>
+                                    <rs type="circumstances">Found in 1963, excavations of K.S. Gorbunova.</rs>
+                                    <rs type="context">East sector, northern half-square 32, clay-ashy layer down to the dugout.</rs>
+                                </seg>
+                            </provenance>
+                            <provenance type="observed" n="1">
+                                <seg xml:lang="ru">Санкт-Петербург, Россия.</seg><seg xml:lang="uk"/>
+                                <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                            </provenance>
+                            <provenance type="observed" subtype="autopsy" n="1">
+                                <seg xml:lang="ru">Август 2016.</seg><seg xml:lang="uk"/>
+                                <seg xml:lang="en">August 2016.</seg>
+                            </provenance>
+                        </history>
+                    </msPart>
+                    
+                    
+                    <msPart n="2">
+                        <msIdentifier/>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <dimensions>
+                                            <height unit="cm"/>
+                                            <width unit="cm"/>
+                                            <depth unit="cm"/>
+                                        </dimensions>
+                                    </support>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout>
+                                        <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                                        <seg xml:lang="en">Wall, exterior. Originally inscribed on ostracon(?)<rs type="execution" ref="execution.xml#"/></seg>
+                                        <dimensions/>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито.</rs></seg>
+                                    <seg xml:lang="en"><rs type="execution" ref="execution.xml#scariphatis">Graffito.</rs></seg>
+                                    <seg xml:lang="uk"><rs type="execution" ref="execution.xml#scariphatis"/></seg>
+                                    <height unit="cm">0.2-0.4</height>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <provenance type="found" n="2">
+                                <seg xml:lang="ru">
+                                    <placeName type="ancientFindspot" ref="findspot.xml#">Березань.</placeName>
+                                    <rs type="circumstances">Найден в 1963 г., раскопки К.С. Горуновой.</rs>
+                                    <rs type="context">Восточный раскоп, сев.  п/кв 32, глинисто-зольн. до уровня землянки.</rs>
+                                </seg><seg xml:lang="uk"><placeName type="ancientFindspot" ref="findspot.xml#"/><rs type="circumstances"/><rs type="context"/></seg>
+                                <seg xml:lang="en">
+                                    <placeName type="ancientFindspot">Berezan.</placeName>
+                                    <rs type="circumstances">Found in 1963, excavations of K.S. Gorbunova.</rs>
+                                    <rs type="context">East sector, northern half-square 32, clay-ashy layer down to the dugout.</rs>
+                                </seg>
+                            </provenance>
+                            <provenance type="observed" n="2">
+                                <seg xml:lang="ru">Санкт-Петербург, Россия.</seg><seg xml:lang="uk"/>
+                                <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                            </provenance>
+                            <provenance type="observed" subtype="autopsy" n="2">
+                                <seg xml:lang="ru">Август 2016.</seg><seg xml:lang="uk"/>
+                                <seg xml:lang="en">August 2016.</seg>
+                            </provenance>
+                        </history>
+                    </msPart>
+                    
+                
+                
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-01-01" who="IP"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="2010051-A-dr"><desc xml:lang="en"/><desc xml:lang="ru"/><desc xml:lang="uk"/></graphic><graphic url="2010051-B-dr"><desc xml:lang="en"/><desc xml:lang="ru"/><desc xml:lang="uk"/></graphic></surface> <!-- <surface>
+            <graphic url="2010051-a">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010051-b">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010051-c">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010051-d">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface> -->
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <!-- Издания -->
+                <listBibl>
+                    <!-- copy and paste citation -->
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                </listBibl>
+            </div>
+            <div type="bibliography" subtype="commentaries">
+                <!-- Комментарии -->
+                
+            </div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="fragment" n="1">
+               <ab>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ΗΣΙ̣ΕΤΑΤ<gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>Σ ἕκτην Ι̣<gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΑΥΧΟΗ</orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ἡμιε[κτον? -]
+               	    <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΗΝ̣</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab>
+            </div>
+            <div type="textpart" subtype="fragment" n="2">
+               <ab>   		
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΣΟ</orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΟΚΜΙ</orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ΞΙΑΡ v. Ο<gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>Ν vacat
+                       <lb n="5"/>[- - ἡμ]ίεκτον<gap reason="lost" extent="unknown" unit="character"/>
+               </ab>
+            </div>
+         </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Frag. 1</note></app>
+                    <app loc="0"><!--Frag. 1 --></app>
+                        <app loc="1">
+                            <note>[- ἐπώλ]ησα ἔτ’ ἀτ[ελές(?)] Vinogradov 1971; [- -]ησα̣ετ̣ατ̣[- -] Bravo 1977; </note><rdg source="bib:IGDOlb"> ΗΣΑΕΤΑΤ </rdg>
+                        </app>
+                        <app loc="2">
+                            <note>[- -]ς ἕκτην Vinogradov 1971; [- -]ς ἕκτην .[- -] Bravo 1977; </note><rdg source="bib:IGDOlb"> Σ ἕκτην </rdg>
+                        </app>
+                        <app loc="3">
+                            <note>αρχο ἡ[μίεκτον] Vinogradov 1971; [- -]αρχō ἡ[μίεκτον ?] Bravo 1977; </note><rdg source="bib:IGDOlb"> -αρχο̄ Η </rdg>
+                        </app>
+                         <app loc="4">
+                             <note>[το δεῖνος] ἡμίε[κτον] Vinogradov 1971 </note>
+                         </app>
+                        <app loc="5">
+                            <note>[το δεῖνος] ἡμ̣[ίεκτον] Vinogradov 1971; </note><rdg source="bib:IGDOlb"> ἡμ̣[ίεκτον - -] </rdg>
+                        </app>
+                </listApp>
+                
+                <listApp>
+                        <app><note>Frag. 2</note>
+                        </app>
+                    <app loc="0">   
+                    </app>
+                        <app loc="1">
+                            <note>[- -]σο̣[- -] Bravo 1977 </note>
+                        </app>
+                        <app loc="2">
+                            <note>[- -]οκμιτ(?) Vinogradov 1971; </note> <note>[- -]ο̄ ἡμίε̣[κτον] Bravo 1977; </note> <rdg source="bib:IGDOlb"> ΟΚΜΙΤ </rdg>
+                        </app>
+                        <app loc="3">
+                            <note>[- εἰκο]σι ἄρτο Vinogradov 1971; </note> <note>[- -]σ̣τ̣άρχ̣ο̄ [- -] Bravo 1977; </note> <rdg source="bib:IGDOlb"> Σ̣ΤΑΡΤΟ </rdg>
+                        </app>
+                        <app loc="4">
+                            <note>[- - ἡμίεκτο]ν (?) vac. Vinogradov 1971; [- -]ν Bravo 1977 </note>
+                        </app>
+                        <app loc="5">
+                            <rdg source="bib:IGDOlb"> [- -ἡμ̣]ίεκτον - -] </rdg>
+                        </app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="ru">
+                <p/>
+            </div>
+            <div xml:lang="uk" type="translation">
+                <p/>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p/>
+            </div>
+            <div type="commentary" xml:lang="ru">
+                <p/>
+            </div><div xml:lang="uk" type="commentary"><p/>
+            </div>
+            <div type="commentary" xml:lang="en">
+                <p>Yuri Vinogradov who published the editio princeps (“Новые материалы по раннегреческой экономике”, ВДИ 1 (1971), 64-76; also ВДИ 4 (1974), p. 58, no. 13) dates the pot 
+                    and graffito to the first half of VI century; Bravo 1977, 41: 2nd half of VI century; Johnston (LSAG2, p. 478, no. 60b): ca. 550? B.C.E.</p>
+               
+                <p>Frag. 1, line 1. Vinogradov read the third preserved letter as alpha, but this is far from certain, as my autpopsy has shown. Alpha has a peculiar shape in this
+                    graffito: instead of two diagonals connected by a crossbar, we have a vertical, from the midpoint of which a horizontal extends rightwards, and a diagonal connects 
+                    the apex of the vertical with the end of the horizontal in a sharp trianlgle. This shape is not attested in other inscriptions of Borysthenes, Olbia or any Ionian city.
+                    At the same time, the dialect of the graffito and the rest of the script look Ionian. Vinogradov 1971 noted that this shape of alpha is attested in Aeolian cities 
+                    and it leads him to suggest that the writer was an Ionian Greek who travelled and traded in different parts of Greece, became familiar with different local scripts, and 
+                    developed a mixed personal style of writing, while Bravo (1977, 41) also envisions an Ionian foreigner at Borysthenes whose writing, however, repsents a local variety of 
+                    Ionian alphabets, which is simply unknown from other sources. There are three clear instances of alpha in this graffito (Frag. 1, line 1, 
+                second letter from the right break; Frag. 1, line 3; Frag. 2, line 3 - in all of these the sharp triangle formed by the horizontal and diagonal lines is quite pronounced. 
+                The third letter of line 1 in Frag. 1, by contrast, is different: the vertical is clear, and then there is a depression in the surface below the apex but it does not extend 
+                far enough to the right to indicate a shape similar to other certain alphas in this text. We would also expect a diagonal, as in the other three cases, to start from the 
+                very top of the vertical, but there is no such stroke there; instead, what looks like a short sideways stroke sits several mm below the apex. In my view, the depression 
+                in the surface is not a genuine stroke or strokes, but a damage, a gouge that only resembles intentional strokes. For these reasons, I prefer to read the letter as an iota. 
+                As a result, I do not follow Vinogradov in reading a verbal form  [ἐπώλ]ησα here. Dubois accepted Vinogradov's alpha, but not the restoration, leaving the maiuscule transcription 
+                in his edition.</p>
+                <p>Frag. 1, line 3. The second preserved letter is a narrow ypslion, not a rho. A proper tailed rho with a large loop is clear in Frag. 2,line 3. 
+                    Cross-shaped chi is not typical for Borysthenes or Olbia, but does occur in the Ionian dodecapolis, e.g. on Samos and Chios, in the Archaic period (LSAG, p. 341,
+                no. 2, Pl. 63 (Samos, c. 600-575), p. 343, no. 41, Pl. 65 (Chios, c. 575-550?). Vinogradov was inclined to see the Genitive of a personal name or of magistrate's office 
+                in the first four letters; Dubois agreed, and I also see this as the most likely. Since, however, I read the second letter as ypsilon and not rho, we have fewer options
+                for personal names, e.g. Πάνταυχος, attested in Euboea in the IV-III cent. B.C.E. (LGPN online, V1-76372) and several times in Macedonia in the III cent. A couple of other names
+                with the second part -αυχος are attested, according to LGPN online, mostly in the Roman period.</p>
+                <p>A likely mention of hemiekton in line 4 of Frag. 1 and line 5 of Frag. 2 suggests that we are dealing with an account that records either weights or money.
+                    As a measure of weight, hemiekton is known, for example, on Samos, where a bronze rectangular weight has been found (Samian Heraion, Inv. Her. B 976; IG XII.6,2 965, 
+                    dated 2nd half VI cent BCE), weighing 140,12g, and carrying three inscriptions, including (on the wide face A): ἡμίεκ-| τον τ-| ὸ ΔΗΜΙΑ. As money, it is attested e.g.
+                    at Halikarnassos (SIG 45.26); it was equal to 8 obols.</p>
+                <p>In lapidary epigraphy, we find examples of inscribed cultic regulations, where certain weights (in hemiekta) of produce are prescribed 
+                    for use in rituals: e.g. IG XII,4 1:276, line 6 (sacrificial calendar from Kos, mid-4th century B.C.E.). In our case, a graffito on a potsherd most likely 
+                    suggests a draft of calculations or a receipt. That these calculations or records were related to cult duties cannot be excluded, but a mundane case of 
+                    commercial accounting is equally possible.</p>
+                <p>Vinogradov sees a commercial record here, specifically, an income account from a recent trade (pottery being a likely item of import, in his view), where each line of text 
+                    names an individual in the Gen. Sing., followed by the amount of money in hekta and hemiekta, earned from a sale to that person; the repetition of sums suggests to him 
+                    a trade in some stock product; one entry, however, represents a barter exchange, where our hypothetical merchant receives grain, which Vinogradov sees in the word artos he reads 
+                    in Frag. 2, line 3, in lieu of monetary payment. Benedetto Bravo ("Remarques sur les assises sociales, les formes d'organisation et la terminologie du commerce maritime 
+                    à l'époque archaïque", Dialogues d'histoire ancienne 1977/3, 1-59; SEG 27:428), envisions (pp. 41-42) a different professional as a composer of the list, namely, 
+                    a magistrate or responsible party of some kind (an 'arkhos' or 'neouros'), who makes a mnemonic list of a ship's cargo. His line of thinking is based on a mistaken
+                    reading of line 3 in Frag. 1. More convincingly, he also argues that hekta, emiekta are not likely to be monetary units at this early date and are best taken 
+                    as units of weight, of either liquid or dry goods.</p>
+                <p>Frag. 2, line 2. The sequence of letters [- -]ΟΚΜΙ[- -] can be explained as a result of either elision, abbreviation, misspelling, omission of letters, 
+                    or use of numerals. Firstly, I do not see a tau at the right break. Vinogradov refrained from an interpretation. Bravo proposed to amend to
+                    [- -]ο̄ ἡμίε̣[κτον] where he seems to think that a kappa was inscribed by mistake in place of an eta. If all the letters were inscribed intentionally, then, 
+                    in my view, we could consider a case of elision, e.g. [- -]ο’κ μι[- -], with a noun/pronoun with the final omicron followed by the preposition ἐκ followed 
+                    by a toponym e.g. ἐκ Μιλήτω or ἐκ Μιλήτου.</p>
+                <p>Frag. 2, line 3. My inspection of the ostracon de visu showed, at the left break, three short strokes one below the other, which should be read as a ksi. 
+                    In that case, the sequence of letters ΞΙΑΡ could be read either as [- -]ξιαρ (e.g.[τα]ξιάρ(χος)), [- -]ξι Αρ[- -] (e.g. [Να]ξι(ος) Αρ[- -]) οr [- -]ξια Ρ[- -]. 
+                    Finally, there is a slight possibility that the space between iota and the letter at the right break, although it looks like a proper vacat, may have not been 
+                    intended as such. If the letter at the break is a squarish omicron, then the sequence up for interpretation would be ΞΙΑΡΟ.
+                </p>
+                <p>In sum, the preservation of fragmentary words that are best restored as weight measurement units ἕκτην and ἡμίεκτον indicate that we are dealing 
+                    with some type of an account. At the same time, the rest of the text is too fragmentary to allow greater specificity in interpretation.</p>
+                
+            </div>
+        </body>
+    </text>
+ 
+</TEI>

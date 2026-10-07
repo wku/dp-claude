@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Зузии, Мидилабады <certainty cert="low" locus="value" match=".."/>, и других</title><title xml:lang="en">Epitaph of Zouzea, Midilabada <certainty cert="low" locus="value" match=".."/>, and others</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.85</idno><idno type="PE">PE5000085</idno>
+            <idno type="AYV2012-number">byz085</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>In situ</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>In situ</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon20">Стена.</objectType>
+                           <objectType xml:lang="en">Wall.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m6">Штукатурка.</material>
+                           <material xml:lang="en">Plaster.</material>
+                           <p xml:lang="ru">Повреждения в нижней части.</p>
+                           <p xml:lang="en">Damaged at the bottom.</p>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0301" notAfter="0500" precision="low" evidence="палеография археологический_контекст">
+                        <seg xml:lang="ru">IV–V вв.</seg>
+                        <seg xml:lang="en">IV–Vth century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1902 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Загородный крестообразный храм, северо-восточный угол, склеп № 1431, над правой нишей.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1902, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Extramural Cruciform Church, northeast corner, Burial vault 1431, over the right niche.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed" cert="low">
+                     <seg xml:lang="ru">In situ.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">In situ.</tei:seg>
+                  </provenance>
+               </history>
+               <msPart n="1">
+                  <msIdentifier>
+                     <idno/>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions>
+                                 <height precision="low">21,0</height>
+                                 <width precision="low">42,0</width>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="f1" n="1">
+                              <seg xml:lang="ru">Над текстом 2.</seg>
+                              <seg xml:lang="en">Over Text 2.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="1">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито</rs>. Альфа с петлей и с прямой перекладиной (Текст 2), 
+                              бета, дзета и ро удлиненные, бета с несомкнутыми полукружиями, мю с наклонными крайними гастами.</seg>
+                           <seg xml:lang="en">Graffiti. Alpha with a loop, and with straight crossbar (Text 2), elongated beta, zeta, and rho, 
+                              beta with vertically spaced loops, mu with slanting outer hastae.</seg>
+                           <height unit="cm" precision="low">2,5–7,0.</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="2">
+                  <msIdentifier>
+                     <idno/>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions>
+                                 <height precision="low">27,0</height>
+                                 <width>63,0</width>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="f1" n="2">
+                              <seg xml:lang="ru">Под текстом 1.</seg>
+                              <seg xml:lang="en">Below Text 1.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="2">
+                           <height unit="cm" precision="low">2,0–5,5.</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-05-27" who="CB">Minor changes to Textparts</change>
+         <change when="2015-04-29" who="CB">Textparts</change>
+         <change when="2015-03-31" who="CB">Andrey's corrections</change>
+          <change when="2013-10-24" who="TW">Added image code</change>
+         <change when="2012-08-22" who="AG">translation in 'context' corrected</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-12" who="AG">size corrected</change>
+         <change when="2012-05-22" who="AG">several lines translated, some corrections</change>
+          <change when="2012-04-30" who="AFS">updated bibliography</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-02-22" who="AG">bibliography tagged</change>
+         <change when="2012-01-17" who="AG">small corrections, 1 line translated</change>
+         <change when="2012-01-09" who="AG">corrections, tagging</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.85-1" n="1">
+                <desc xml:lang="en">Drawing of face 1</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="5.85-2" n="2">
+                <desc xml:lang="en">Drawing of face 2</desc> 
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Виноградов 2009a--><ptr target="bib:b0048"/>, 3 <citedRange>227–229</citedRange></bibl>
+               <bibl n="1.2"><!--Виноградов 2010a--><ptr target="bib:b0399"/>, 123–124, № <citedRange>с</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="section" n="1">
+               <ab>
+                  <lb n="1"/><g ref="#stauros"/> <persName type="attested" ref="#person98"><name nymRef="Ζουζηα">Ζουζηα</name></persName>, 
+                  <persName type="attested" ref="#person99"><name nymRef="Μιδιλαβαδα">Μι<lb n="2" break="no"/>διλαβαδα <certainty locus="value" match=".." cert="low"/></name></persName>,
+                  <persName type="attested" ref="#person100"><name nymRef="Καμυάρκα">Κα<lb n="3" break="no"/>μυάρκα <certainty locus="value" match=".." cert="low"/></name></persName>.
+               </ab>
+            </div>
+            <div type="textpart" subtype="section" n="2">
+               <ab>
+                  <lb n="1"/><g ref="#stauros"/> <persName type="attested" ref="#person101"><name nymRef="Κα—ια">Κα<lb n="2" break="no"/><gap reason="illegible" quantity="1" unit="character"/>ηα</name></persName>,
+                  <lb n="3"/><gap reason="illegible" quantity="1" unit="character"/><persName type="attested" ref="#person102"><name nymRef="—οσια"><seg part="F">οση<supplied reason="lost">α</supplied></seg></name></persName>,
+                  <lb n="4"/><gap reason="illegible" quantity="1" unit="character"/><persName type="attested" ref="#person103"><name nymRef="—οσμ—νια"><seg part="F">οσμ<gap reason="illegible" quantity="1" unit="character"/>νη<supplied reason="lost">α</supplied></seg></name></persName>,
+                  <lb n="5"/><persName type="attested" ref="#person104"><name nymRef="Τανιυα">Τανιυ<supplied reason="lost">α</supplied></name></persName>.
+               </ab>
+            </div>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <div type="textpart" n="1">
+               <p>Зузия, Мидилабада (?), Камиарка (?).</p>
+            </div>
+            <div type="textpart" n="2">
+               <p>Ка.ия, .осия, .осм.ния, Таниия.</p>
+            </div>
+         </div>
+         <div type="translation" xml:lang="en">
+            <div type="textpart" n="1">
+               <p>Zouzea, Midilabada (?), Kamyarka (?).</p>
+            </div>
+            <div type="textpart" n="2">
+               <p>Ka[.]ea, [.]osea, [.]osm[.]nea, Taniya.</p>
+            </div>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <div type="textpart" n="1">
+               <p>See commentary to Text 2.</p>
+               
+            </div>
+            <div type="textpart" n="2">
+                <p>Склеп был, вероятно, засыпан после раскопок.</p>
+               <p> Нет никакого другого варианта прочтения обеих надписей, кроме восстановления негреческих женских имен <!--(о них см. прил. 1)-->.</p>
+                <p>Текст 1 выполнен по свежей штукатурке, в то время как текст 2 — позже, по высохшей (Косцюшко-Валюжинич 1906, 82–83, рис. 88, 89); кроме 
+                   того, в тексте 2 встречается альфа с прямой перекладиной  (ср. <ref type="inscription">V 6</ref><!--byz005-->).</p>
+            </div>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <div type="textpart" n="2">
+               <p>The burial vault was apparently filled in after the excavation. Except for reading non-Greek female names in both texts,
+                  no other possibility presents itself. Text 1 was inscribed over fresh plaster, while Text 2 - over dry plaster (Kostsyushko-Valyuzhinich
+                  1906, 82–83, figs. 88, 89); in addition, in Text 2, alpha with straight crossbar is used (ср. <ref type="inscription">V 6</ref><!--byz005-->).</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент надписи</title><title xml:lang="en">Incertum</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.43</idno>
+            <idno type="filename">1.46</idno>
+            <idno type="PE">PE1000043</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Белгород-Днестровский краеведческий музей</repository>
+                     <idno>А-5832 (1000)</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Belgorod-Dnestrovsky Regional Studies Museum</repository>
+                     <idno>А-5832 (1000)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc22">
+                     <seg xml:lang="ru">Incertum.</seg>
+                     <seg xml:lang="en">Incertum.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор белый, сероватого оттенка.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Лицевой и оборотный фасы отполированы, остальные оббиты. Оборотный фас использован 
+                              вторично для нанесения латинской надписи. При вторичном использовании мраморная плита служила облицовкой стены, 
+                              к которой крепилась с помощью раствора; следы раствора хорошо заметны на поверхности надписи.</p>
+                           <p xml:lang="en">The front and back are polished, the other sides are broken off. The back was resused for a Latin inscription. In this secondary use, 
+                           the marble panel served as panelling for a wall, to which it was attached with cement; its traces are visible on the surface of the inscription.</p>
+                           <dimensions>
+                              <height unit="cm">8,5</height>
+                              <width unit="cm">9,8</width>
+                              <depth unit="cm">4,8-5,2</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Оббито со всех сторон.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. Broken off on all sides.</seg>
+                           <dimensions>
+                              <height unit="cm">7,6</height>
+                              <width unit="cm">8,6</width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны достаточно аккуратно, хотя и не вполне ровно, украшены крупными апексами. 
+                           Тета и омикрон круглые, у теты горизонтальный штрих не касается окружности. Иногда используются словоделители в виде треугольников.
+                           Среднее расстояние между строк: 0,8.</seg>
+                        <seg xml:lang="en">The letters are neatly, although not evenly cut; adorned with large serifs. Round theta and omicron; theta with detached crossbar. 
+                           Word divisions in the form of triangles occasionally used. Average distance between lines: 0,8cm.</seg>
+                        <height unit="cm">1,6-1,7</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0200" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">II в. н.э.</seg>
+                        <seg xml:lang="en">II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">При раскопках Л.Д. Дмитрова г. в  1947.</rs>
+                        <rs type="context">Кв. 216 восток.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Found in 1947, excavations of L.D. Dmitrov.</rs>
+                        <rs type="context">Grid square 216, east.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Белгород-Днестровский.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Belgorod-Dnestrovsky.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2006-08">август 2006</date>.</seg>
+                     <seg xml:lang="en">A.I. Ivantchik, <date when="2006-08">August 2006</date>.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-28" who="SS">encoded metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.43">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Дмитров 1952 --><ptr target="bib:b0920"/>, <citedRange>62, рис. 4</citedRange></bibl>
+               <bibl n="2"><!-- Карышковский 1959 --><ptr target="bib:b0908"/>, <citedRange>121-122, № 14</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w>θῆ<unclear>ναι</unclear></w> <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Ν</unclear></orig> <space quantity="1" unit="character"/> 
+                                          <w part="I">ἐψη<supplied reason="lost">φίσ</supplied></w><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Ω</unclear></orig> <g ref="#stop"/> 
+                                          <persName type="attested"><name><seg part="I">Ἀν<unclear>τ</unclear><supplied reason="lost" cert="low">ωνί</supplied></seg></name></persName> 
+                                          <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2">
+                  <rdg source="bib:b0908">ΘΗΝΑ</rdg>
+               </app>
+               <app loc="4">
+                  <rdg source="bib:b0908">ΟΑΝΤ</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Не предлагается.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Not attempted.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>В 1959 г., согласно указанию Карышковского (возможно, ошибочному), надпись хранилась в Институте археологии АН УССР в Киеве. 
+               Карышковский надпись по всей видимости не видел. В публикации он не предлагал восстановлений, ограничившись воспроизведением 
+               текста маюскулами. </p>
+            <p>1. В верхней строке остаток горизонтальной нижней гасты, завершающийся апексом.</p>
+            <p>3. Возможно восстановление по аналогии с SEG 38.735: τὸ οὖν ἐψηφισμ[ένον.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>In 1959, according to Karyshkovsky (although his information is not fully reliable), the inscription was in the possession of the Institute of Archaeology, 
+            National Academy of Sciences of Ukraine, in Kiev. Karyshkovsky apparently did not see the monument. He offered no restorations in the publication, but reproduced 
+            the text in majuscule.</p>
+            <p>1. In the top line, remains of a bottom horizontal hasta, adornd with serif.</p>
+            <p>3. A possible restoration, by analogy with SEG 38.735: τὸ οὖν ἐψηφισμ[ένον.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

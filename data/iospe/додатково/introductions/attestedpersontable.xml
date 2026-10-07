@@ -1,0 +1,3792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body xmlns:t="http://www.tei-c.org/ns/1.0">
+   <person xml:id="person1">
+      <persName xml:lang="grc">Κόστας</persName>
+      <persName xml:lang="ru">Коста</persName>
+      <persName xml:lang="en">Kostas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.1</inscription>
+   </person>
+   <person xml:id="person2">
+      <persName xml:lang="grc">Θεόδωρος</persName>
+      <persName xml:lang="ru">Феодор</persName>
+      <persName xml:lang="en">Theodoros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.2</inscription>
+   </person>
+   <person xml:id="person3">
+      <persName xml:lang="grc">Στέφανος</persName>
+      <persName xml:lang="ru">Стефан</persName>
+      <persName xml:lang="en">Stephanos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.2</inscription>
+   </person>
+   <person xml:id="person4">
+      <persName xml:lang="grc">Νικόλαος</persName>
+      <persName xml:lang="ru">Николай</persName>
+      <persName xml:lang="en">Nikolaos</persName>
+      <floruit></floruit>
+      <relationship>son of person5</relationship>
+      <office></office>
+      <inscription>byz.3</inscription>
+   </person>
+   <person xml:id="person5">
+      <persName xml:lang="grc">Βασίλις</persName>
+      <persName xml:lang="ru">Василий</persName>
+      <persName xml:lang="en">Basileios</persName>
+      <floruit></floruit>
+      <relationship>father of person4</relationship>
+      <office></office>
+      <inscription>byz.3</inscription>
+   </person>
+   <person xml:id="person6">
+      <persName xml:lang="grc">Φλάβιος Βίτος</persName>
+      <persName xml:lang="ru">Флавий Вит</persName>
+      <persName xml:lang="en">Flavius Vitus</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>τρίβουνος</office>
+      <inscription>byz.4</inscription>
+   </person>
+   <person xml:id="person7">
+      <persName xml:lang="grc">Εὐθήριος</persName>
+      <persName xml:lang="ru">Евферий</persName>
+      <persName xml:lang="en">Eutherios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>κόμης (?)</office>
+      <inscription>byz.4</inscription>
+   </person>
+   <person xml:id="person8">
+      <persName xml:lang="grc">Διογένης</persName>
+      <persName xml:lang="ru">Диоген</persName>
+      <persName xml:lang="en">Diogenes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>κόμης</office>
+      <inscription>byz.5</inscription>
+   </person>
+   <person xml:id="person9">
+      <persName xml:lang="grc">Θεαγένης</persName>
+      <persName xml:lang="ru">Феаген</persName>
+      <persName xml:lang="en">Theagenes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.6</inscription>
+   </person>
+   <person xml:id="person10">
+      <persName xml:lang="grc">Θεόδωρος</persName>
+      <persName xml:lang="ru">Феодор</persName>
+      <persName xml:lang="en">Theodoros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>ἐπίσκοπος</office>
+      <inscription>byz.8</inscription>
+   </person>
+   <person xml:id="person11">
+      <persName xml:lang="grc">Λέων Ἀλιάτης</persName>
+      <persName xml:lang="ru">Лев Алиат</persName>
+      <persName xml:lang="en">Leo Aliates</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>πατρίκιος καὶ στρατηγὸςς Χερσῶνος καὶ Σουγδαίας</office>
+      <inscription>byz.10</inscription>
+   </person>
+      <person xml:id="person13">
+      <persName xml:lang="grc">.ηλιχ</persName>
+      <persName xml:lang="ru">.илих</persName>
+      <persName xml:lang="en">.elikh</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.15</inscription>
+   </person>
+   <person xml:id="person14">
+      <persName xml:lang="grc">Ὀδ..λης</persName>
+      <persName xml:lang="ru">Од..лий</persName>
+      <persName xml:lang="en">Od..les</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.15</inscription>
+   </person>
+   <person xml:id="person15">
+      <persName xml:lang="grc">Γάπρ</persName>
+      <persName xml:lang="ru">Гапр</persName>
+      <persName xml:lang="en">Gapr</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.15</inscription>
+   </person>
+   <person xml:id="person16">
+      <persName xml:lang="grc">Κα.ζ.ρ.ηος</persName>
+      <persName xml:lang="ru">Ка.з.р.ий</persName>
+      <persName xml:lang="en">Ka.z.r.ios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.15</inscription>
+   </person>
+   <person xml:id="person17">
+      <persName xml:lang="grc">Γ.?.ς</persName>
+      <persName xml:lang="ru">Г.?.</persName>
+      <persName xml:lang="en">G.?.</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.16</inscription>
+   </person>
+   <person xml:id="person18">
+      <persName xml:lang="grc">Σαμβάτιος</persName>
+      <persName xml:lang="ru">Савватий</persName>
+      <persName xml:lang="en">Sabbatios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.16</inscription>
+   </person>
+   <person xml:id="person19">
+      <persName xml:lang="grc">Εὐσέβιος</persName>
+      <persName xml:lang="ru">Евсевий</persName>
+      <persName xml:lang="en">Eusebius</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.18</inscription>
+   </person>
+   <person xml:id="person20">
+      <persName xml:lang="grc">Θεόδωρος</persName>
+      <persName xml:lang="ru">Феодор</persName>
+      <persName xml:lang="en">Theodoros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.19</inscription>
+   </person>
+   <person xml:id="person21">
+      <persName xml:lang="grc">Μάλχος</persName>
+      <persName xml:lang="ru">Малх</persName>
+      <persName xml:lang="en">Malchos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.20</inscription>
+   </person>
+   <person xml:id="person22">
+      <persName xml:lang="grc">Μαρτύριος</persName>
+      <persName xml:lang="ru">Мартирий</persName>
+      <persName xml:lang="en">Martyrios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.21.1; byz.21.2</inscription>
+   </person>
+   <person xml:id="person24">
+      <persName xml:lang="grc">Τ.?.</persName>
+      <persName xml:lang="ru">Т.?.</persName>
+      <persName xml:lang="en">T.?.</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.22</inscription>
+   </person>
+   <person xml:id="person25">
+      <persName xml:lang="grc">Ζωίλος</persName>
+      <persName xml:lang="ru">Зоил</persName>
+      <persName xml:lang="en">Zoilos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.23</inscription>
+   </person>
+   <person xml:id="person26">
+      <persName xml:lang="grc">Αἰκατηρίνη</persName>
+      <persName xml:lang="ru">Екатерина</persName>
+      <persName xml:lang="en">Aikaterine</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.25</inscription>
+   </person>
+   <person xml:id="person27">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru">Иоанн</persName>
+      <persName xml:lang="en">Ioannes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.26</inscription>
+   </person>
+   <person xml:id="person28">
+      <persName xml:lang="grc">Γρηγόριος</persName>
+      <persName xml:lang="ru">Григорий</persName>
+      <persName xml:lang="en">Gregorios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.27</inscription>
+   </person>
+   <person xml:id="person29">
+      <persName xml:lang="grc">Κωνσταντῖνος</persName>
+      <persName xml:lang="ru">Константин</persName>
+      <persName xml:lang="en">Konstantinos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.32</inscription>
+   </person>
+   <person xml:id="person30">
+      <persName xml:lang="grc">Βικ.?.</persName>
+      <persName xml:lang="ru">Вик.?.</persName>
+      <persName xml:lang="en">Vic.?.</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.33</inscription>
+   </person>
+   <person xml:id="person31">
+      <persName xml:lang="grc">Μιχαήλ</persName>
+      <persName xml:lang="ru">Михаил</persName>
+      <persName xml:lang="en">Michael</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.33</inscription>
+   </person>
+   <person xml:id="person33">
+      <persName xml:lang="grc">Βασίλειος</persName>
+      <persName xml:lang="ru">Василий</persName>
+      <persName xml:lang="en">Basileios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>κόμης</office>
+      <inscription>byz.44</inscription>
+   </person>
+   <person xml:id="person34">
+      <persName xml:lang="grc">Γεώργιος Μαμσυ</persName>
+      <persName xml:lang="ru">Георгий Мамси</persName>
+      <persName xml:lang="en">Georgios Mamsy</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.45</inscription>
+   </person>
+   <person xml:id="person36">
+      <persName xml:lang="grc">Μιχαήλης</persName>
+      <persName xml:lang="ru">Михаил</persName>
+      <persName xml:lang="en">Michaeles</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.46</inscription>
+   </person>
+   <person xml:id="person37">
+      <persName xml:lang="grc">Ν.?.</persName>
+      <persName xml:lang="ru">Н.?.</persName>
+      <persName xml:lang="en">N.?.</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.47</inscription>
+   </person>
+   <person xml:id="person38">
+      <persName xml:lang="grc">Νικόλαος</persName>
+      <persName xml:lang="ru">Николай</persName>
+      <persName xml:lang="en">Nikolaos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.48</inscription>
+   </person>
+   <person xml:id="person39">
+      <persName xml:lang="grc">Νίκανδρος</persName>
+      <persName xml:lang="ru">Никандр</persName>
+      <persName xml:lang="en">Nikandros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.48</inscription>
+   </person>
+   <person xml:id="person40">
+      <persName xml:lang="grc">Νίκων</persName>
+      <persName xml:lang="ru">Никон</persName>
+      <persName xml:lang="en">Nicon</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.48</inscription>
+   </person>
+   <person xml:id="person41">
+      <persName xml:lang="grc">Τρόφιμος</persName>
+      <persName xml:lang="ru">Трофим</persName>
+      <persName xml:lang="en">Trophimos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.49</inscription>
+   </person>
+   <person xml:id="person42">
+      <persName xml:lang="grc">.?.σακιος</persName>
+      <persName xml:lang="ru">.?.сакий</persName>
+      <persName xml:lang="en">.?.sakios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.53</inscription>
+   </person>
+   <person xml:id="person43">
+      <persName xml:lang="grc">Εὐφροσύνη</persName>
+      <persName xml:lang="ru">Ефросиния</persName>
+      <persName xml:lang="en">Euphrosyne</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.60</inscription>
+   </person>
+   <person xml:id="person44">
+      <persName xml:lang="grc">Στέφανος</persName>
+      <persName xml:lang="ru">Стефан</persName>
+      <persName xml:lang="en">Stephanos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>πρεσβύτερος</office>
+      <inscription>byz.61</inscription>
+   </person>
+   <person xml:id="person45">
+      <persName xml:lang="grc">Στέφανος</persName>
+      <persName xml:lang="ru">Стефан</persName>
+      <persName xml:lang="en">Stephanos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>πρεσβύτερος</office>
+      <inscription>byz.61</inscription>
+   </person>
+   <person xml:id="person46">
+      <persName xml:lang="grc">Χριστοφόρος</persName>
+      <persName xml:lang="ru">Христофор</persName>
+      <persName xml:lang="en">Christophoros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>πρεσβύτερος</office>
+      <inscription>byz.61</inscription>
+   </person>
+   <person xml:id="person47">
+      <persName xml:lang="grc">Ἀναστάσιος</persName>
+      <persName xml:lang="ru">Анастасий</persName>
+      <persName xml:lang="en">Anastasios</persName>
+      <floruit></floruit>
+      <relationship>man (?) of person48; father (?) of person49</relationship>
+      <office></office>
+      <inscription>byz.62</inscription>
+   </person>
+   <person xml:id="person48">
+      <persName xml:lang="grc">Μαρία</persName>
+      <persName xml:lang="ru">Мария</persName>
+      <persName xml:lang="en">Maria</persName>
+      <floruit></floruit>
+      <relationship>wife (?) of person47; mother (?) of person49</relationship>
+      <office></office>
+      <inscription>byz.62</inscription>
+   </person>
+   <person xml:id="person49">
+      <persName xml:lang="grc">Θαΐς</persName>
+      <persName xml:lang="ru">Фаида</persName>
+      <persName xml:lang="en">Thais</persName>
+      <floruit></floruit>
+      <relationship>daughter (?) of person47; daughter (?) of person48; wife of person50</relationship>
+      <office></office>
+      <inscription>byz.62</inscription>
+   </person>
+   <person xml:id="person50">
+      <persName xml:lang="grc">Σίμονος</persName>
+      <persName xml:lang="ru">Симон</persName>
+      <persName xml:lang="en">Simon</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.62</inscription>
+   </person>
+   <person xml:id="person51">
+      <persName xml:lang="grc">Δαμιανός</persName>
+      <persName xml:lang="ru">Дамиан</persName>
+      <persName xml:lang="en">Damianos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>man of person52</office>
+      <inscription>byz.63</inscription>
+   </person>
+   <person xml:id="person52">
+      <persName xml:lang="grc">Μαργαρίτη</persName>
+      <persName xml:lang="ru">Маргарита</persName>
+      <persName xml:lang="en">Margarite</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>wife of person51</office>
+      <inscription>byz.63</inscription>
+   </person>
+   <person xml:id="person53">
+      <persName xml:lang="grc">Θεόδωρος</persName>
+      <persName xml:lang="ru">Феодор</persName>
+      <persName xml:lang="en">Theodoros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person54">
+      <persName xml:lang="grc">Κωνσταντῖνος</persName>
+      <persName xml:lang="ru">Константин</persName>
+      <persName xml:lang="en">Konstantinos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person55">
+      <persName xml:lang="grc">Ἀσενίκα</persName>
+      <persName xml:lang="ru">Асеника</persName>
+      <persName xml:lang="en">Asenika</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person56">
+      <persName xml:lang="grc">Μαρία</persName>
+      <persName xml:lang="ru">Мария</persName>
+      <persName xml:lang="en">Maria</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person57">
+      <persName xml:lang="grc">Κυραδία</persName>
+      <persName xml:lang="ru">Кирадия</persName>
+      <persName xml:lang="en">Kyradia</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person58">
+      <persName xml:lang="grc">Γεώργιος</persName>
+      <persName xml:lang="ru">Георгий</persName>
+      <persName xml:lang="en">Georgios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person59">
+      <persName xml:lang="grc">Ἀναστάσιος</persName>
+      <persName xml:lang="ru">Анастасий</persName>
+      <persName xml:lang="en">Anastasios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person60">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru">Иоанн</persName>
+      <persName xml:lang="en">Ioannes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person61">
+      <persName xml:lang="grc">Ἀναστασία</persName>
+      <persName xml:lang="ru">Анастасия</persName>
+      <persName xml:lang="en">Anastasia</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person62">
+      <persName xml:lang="grc">Νικομήδης</persName>
+      <persName xml:lang="ru">Никомид</persName>
+      <persName xml:lang="en">Nikomedes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person63">
+      <persName xml:lang="grc">Ἀσενίκα</persName>
+      <persName xml:lang="ru">Асеника</persName>
+      <persName xml:lang="en">Asenika</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person64">
+      <persName xml:lang="grc">Μνήμη</persName>
+      <persName xml:lang="ru">Мнима</persName>
+      <persName xml:lang="en">Mneme</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person65">
+      <persName xml:lang="grc">Κυραδία</persName>
+      <persName xml:lang="ru">Кирадия</persName>
+      <persName xml:lang="en">Kyradia</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person66">
+      <persName xml:lang="grc">Ἡδονή</persName>
+      <persName xml:lang="ru">Идония</persName>
+      <persName xml:lang="en">Hedone</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.64</inscription>
+   </person>
+   <person xml:id="person67">
+      <persName xml:lang="grc">Ἀρίστων</persName>
+      <persName xml:lang="ru">Аристон</persName>
+      <persName xml:lang="en">Ariston</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.65</inscription>
+   </person>
+   <person xml:id="person68">
+      <persName xml:lang="grc">Ἰωάννης Πόλγος</persName>
+      <persName xml:lang="ru">Иоанн Полг</persName>
+      <persName xml:lang="en">Ioannes Polgos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.66</inscription>
+   </person>
+   <person xml:id="person69">
+      <persName xml:lang="grc">Νικόλαος</persName>
+      <persName xml:lang="ru">Николай</persName>
+      <persName xml:lang="en">Nikolaos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.67</inscription>
+   </person>
+   <person xml:id="person70">
+      <persName xml:lang="grc">Πετρόνιος</persName>
+      <persName xml:lang="ru">Петроний</persName>
+      <persName xml:lang="en">Petronios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>ἱερομόναχος καὶ κληρικός</office>
+      <inscription>byz.68</inscription>
+   </person>
+   <person xml:id="person71">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru">Иоанн</persName>
+      <persName xml:lang="en">Ioannes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.69</inscription>
+   </person>
+   <person xml:id="person72">
+      <persName xml:lang="grc">Ίωνᾶς</persName>
+      <persName xml:lang="ru">Иоанн</persName>
+      <persName xml:lang="en">Ioannes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.69</inscription>
+   </person>
+   <person xml:id="person73">
+      <persName xml:lang="grc">Κοσμᾶς</persName>
+      <persName xml:lang="ru">Косма</persName>
+      <persName xml:lang="en">Cosmas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.70</inscription>
+   </person>
+   <person xml:id="person74">
+      <persName xml:lang="grc">Θεοδωράκις</persName>
+      <persName xml:lang="ru">Феодоракий</persName>
+      <persName xml:lang="en">Theodorakis</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.71</inscription>
+   </person>
+   <person xml:id="person75">
+      <persName xml:lang="grc">Κυριακός</persName>
+      <persName xml:lang="ru">Кириак</persName>
+      <persName xml:lang="en">Kyriakos</persName>
+      <floruit></floruit>
+      <relationship>son of person76</relationship>
+      <office></office>
+      <inscription>byz.72</inscription>
+   </person>
+   <person xml:id="person76">
+      <persName xml:lang="grc">Θεόδωρος</persName>
+      <persName xml:lang="ru">Феодор</persName>
+      <persName xml:lang="en">Theodoros</persName>
+      <floruit></floruit>
+      <relationship>father of person75</relationship>
+      <office></office>
+      <inscription>byz.72</inscription>
+   </person>
+   <person xml:id="person77">
+      <persName xml:lang="grc">.?.ιας</persName>
+      <persName xml:lang="ru">.?.ий</persName>
+      <persName xml:lang="en">.?.ios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.73</inscription>
+   </person>
+   <person xml:id="person78">
+      <persName xml:lang="grc">Ἀναστασία</persName>
+      <persName xml:lang="ru">Анастасия</persName>
+      <persName xml:lang="en">Anastasia</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.76</inscription>
+   </person>
+   <person xml:id="person79">
+      <persName xml:lang="grc">Γορδιανός</persName>
+      <persName xml:lang="ru">Гордиан</persName>
+      <persName xml:lang="en">Gordianos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.77</inscription>
+   </person>
+   <person xml:id="person80">
+      <persName xml:lang="grc">Λάζαρος</persName>
+      <persName xml:lang="ru">Лазарь</persName>
+      <persName xml:lang="en">Lazaros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.78</inscription>
+   </person>
+   <person xml:id="person81">
+      <persName xml:lang="grc">Πέτρος</persName>
+      <persName xml:lang="ru">Петр</persName>
+      <persName xml:lang="en">Petros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.79</inscription>
+   </person>
+   <person xml:id="person82">
+      <persName xml:lang="grc">Χριστοφόρος</persName>
+      <persName xml:lang="ru">Христофор</persName>
+      <persName xml:lang="en">Christophoros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.79</inscription>
+   </person>
+   <person xml:id="person83">
+      <persName xml:lang="grc">Σισίνιος</persName>
+      <persName xml:lang="ru">Сисиний</persName>
+      <persName xml:lang="en">Sisinios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.79</inscription>
+   </person>
+   <person xml:id="person84">
+      <persName xml:lang="grc">Ἀγαθήμερος</persName>
+      <persName xml:lang="ru">Агафимер</persName>
+      <persName xml:lang="en">Agathemeros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.81</inscription>
+   </person>
+   <person xml:id="person85">
+      <persName xml:lang="grc">Δημέτρις</persName>
+      <persName xml:lang="ru">Димитрий</persName>
+      <persName xml:lang="en">Demetris</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.82</inscription>
+   </person>
+   <person xml:id="person86">
+      <persName xml:lang="grc">Σατουρνίλλα</persName>
+      <persName xml:lang="ru">Сатурнилла</persName>
+      <persName xml:lang="en">Saturnilla</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.82</inscription>
+   </person>
+   <person xml:id="person87">
+      <persName xml:lang="grc">Ἡρακλείδας</persName>
+      <persName xml:lang="ru">Ираклид</persName>
+      <persName xml:lang="en">Heracleidas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.82</inscription>
+   </person>
+   <person xml:id="person88">
+      <persName xml:lang="grc">Ἐλπίς</persName>
+      <persName xml:lang="ru">Належда</persName>
+      <persName xml:lang="en">Elpis</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.82</inscription>
+   </person>
+   <person xml:id="person89">
+      <persName xml:lang="grc">.α.κήνη</persName>
+      <persName xml:lang="ru">.а.кина</persName>
+      <persName xml:lang="en">.a.kene</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.82</inscription>
+   </person>
+   <person xml:id="person90">
+      <persName xml:lang="grc">Π.ακον</persName>
+      <persName xml:lang="ru">П.акон</persName>
+      <persName xml:lang="en">P.akon</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.82</inscription>
+   </person>
+   <person xml:id="person91">
+      <persName xml:lang="grc">Κυρακή</persName>
+      <persName xml:lang="ru">Киракия</persName>
+      <persName xml:lang="en">Kyrake</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.82</inscription>
+   </person>
+   <person xml:id="person92">
+      <persName xml:lang="grc">Ἀχελίδης</persName>
+      <persName xml:lang="ru">Ахелид</persName>
+      <persName xml:lang="en">Achelides</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.82</inscription>
+   </person>
+   <person xml:id="person93">
+      <persName xml:lang="grc">Τηλεχλῖς</persName>
+      <persName xml:lang="ru">Телехлий</persName>
+      <persName xml:lang="en">Telechlis</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.82</inscription>
+   </person>
+      <person xml:id="person95">
+      <persName xml:lang="grc">Ἰουλανός</persName>
+      <persName xml:lang="ru">Иулиан</persName>
+      <persName xml:lang="en">Iulianos</persName>
+      <floruit></floruit>
+         <relationship>son of person96</relationship>
+      <office></office>
+      <inscription>byz.83</inscription>
+   </person>
+   <person xml:id="person96">
+      <persName xml:lang="grc">Ἄρειος</persName>
+      <persName xml:lang="ru">Арий</persName>
+      <persName xml:lang="en">Areios</persName>
+      <floruit></floruit>
+      <relationship>father of person95</relationship>
+      <office></office>
+      <inscription>byz.83</inscription>
+   </person>
+   <person xml:id="person97">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru">Иоанн</persName>
+      <persName xml:lang="en">Ioannes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.84</inscription>
+   </person>
+   <person xml:id="person98">
+      <persName xml:lang="grc">Ζουζια</persName>
+      <persName xml:lang="ru">Зузия</persName>
+      <persName xml:lang="en">Zouzia</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.85</inscription>
+   </person>
+   <person xml:id="person99">
+      <persName xml:lang="grc">Μιδιλαβαδα</persName>
+      <persName xml:lang="ru">Мидилабада</persName>
+      <persName xml:lang="en">Midilabada</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.85</inscription>
+   </person>
+   <person xml:id="person100">
+      <persName xml:lang="grc">Καμυάρκα</persName>
+      <persName xml:lang="ru">Камиарка</persName>
+      <persName xml:lang="en">Kamyarka</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.85</inscription>
+   </person>
+   <person xml:id="person101">
+      <persName xml:lang="grc">Κα.ια</persName>
+      <persName xml:lang="ru">Ка.ия</persName>
+      <persName xml:lang="en">Ka.ia</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.85</inscription>
+   </person>
+   <person xml:id="person102">
+      <persName xml:lang="grc">.οσια</persName>
+      <persName xml:lang="ru">.осия</persName>
+      <persName xml:lang="en">.osia</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.85</inscription>
+   </person>
+   <person xml:id="person103">
+      <persName xml:lang="grc">.οσμ.νια</persName>
+      <persName xml:lang="ru">.осм.ния</persName>
+      <persName xml:lang="en">.osm.nia</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.85</inscription>
+   </person>
+   <person xml:id="person104">
+      <persName xml:lang="grc">Τανιυα</persName>
+      <persName xml:lang="ru">Тания</persName>
+      <persName xml:lang="en">Taniya</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.85</inscription>
+   </person>
+   <person xml:id="person105">
+      <persName xml:lang="grc">.?.κιος</persName>
+      <persName xml:lang="ru">.?.кий</persName>
+      <persName xml:lang="en">.?.kios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.86</inscription>
+   </person>
+   <person xml:id="person106">
+      <persName xml:lang="grc">Ἰσίδωρος</persName>
+      <persName xml:lang="ru">Исидор</persName>
+      <persName xml:lang="en">Isidoros</persName>
+      <floruit></floruit>
+      <relationship>son of person107</relationship>
+      <office></office>
+      <inscription>byz.87</inscription>
+   </person>
+   <person xml:id="person107">
+      <persName xml:lang="grc">Σα...</persName>
+      <persName xml:lang="ru">Са...</persName>
+      <persName xml:lang="en">Sa...</persName>
+      <floruit></floruit>
+      <relationship>father of person106</relationship>
+      <office></office>
+      <inscription>byz.87</inscription>
+   </person>
+   <person xml:id="person108">
+      <persName xml:lang="grc">Θεόδωρος</persName>
+      <persName xml:lang="ru">Феодор</persName>
+      <persName xml:lang="en">Theodoros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.87</inscription>
+   </person>
+   <person xml:id="person109">
+      <persName xml:lang="grc">Κυρ.?.</persName>
+      <persName xml:lang="ru">Кир.?.</persName>
+      <persName xml:lang="en">Kyr.?.</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.88</inscription>
+   </person>
+   <person xml:id="person110">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru">Иоанн</persName>
+      <persName xml:lang="en">Ioannes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.89</inscription>
+   </person>
+   <person xml:id="person111">
+      <persName xml:lang="grc">Ἰάκωβος</persName>
+      <persName xml:lang="ru">Иаков</persName>
+      <persName xml:lang="en">Iakobos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.89</inscription>
+   </person>
+   <person xml:id="person112">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru">Иоанн</persName>
+      <persName xml:lang="en">Ioannes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.89</inscription>
+   </person>
+   <person xml:id="person113">
+      <persName xml:lang="grc">Προκόπιος</persName>
+      <persName xml:lang="ru">Прокопий</persName>
+      <persName xml:lang="en">Prokopios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.89</inscription>
+   </person>
+   <person xml:id="person114">
+      <persName xml:lang="grc">Θεόδωρος</persName>
+      <persName xml:lang="ru">Феодор</persName>
+      <persName xml:lang="en">Theodoros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.89</inscription>
+   </person>
+   <person xml:id="person115">
+      <persName xml:lang="grc">Προκόπιος</persName>
+      <persName xml:lang="ru">Прокопий</persName>
+      <persName xml:lang="en">Prokopios</persName>
+      <floruit></floruit>
+      <relationship>related of person116</relationship>
+      <office></office>
+      <inscription>byz.90</inscription>
+   </person>
+   <person xml:id="person116">
+      <persName xml:lang="grc">Νικόλαος</persName>
+      <persName xml:lang="ru">Николай</persName>
+      <persName xml:lang="en">Nikolaos</persName>
+      <floruit></floruit>
+      <relationship>related of person115</relationship>
+      <office>μοναχός</office>
+      <inscription>byz.90</inscription>
+   </person>
+   <person xml:id="person117">
+      <persName xml:lang="grc">Φώτιος</persName>
+      <persName xml:lang="ru">Фотий</persName>
+      <persName xml:lang="en">Photios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.90</inscription>
+   </person>
+   <person xml:id="person118">
+      <persName xml:lang="grc">Θεωδότης</persName>
+      <persName xml:lang="ru">Феодот</persName>
+      <persName xml:lang="en">Theodotes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.90</inscription>
+   </person>
+   <person xml:id="person119">
+      <persName xml:lang="grc">Νηκήτας</persName>
+      <persName xml:lang="ru">Никита</persName>
+      <persName xml:lang="en">Niketas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.90</inscription>
+      </person>
+   <person xml:id="person121">
+      <persName xml:lang="grc">Μηχάλης</persName>
+      <persName xml:lang="ru">Михаил</persName>
+      <persName xml:lang="en">Michalis</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person122">
+      <persName xml:lang="grc">anon. Μανίακος</persName>
+      <persName xml:lang="ru">anon. Маниак</persName>
+      <persName xml:lang="en">anon. Maniakos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person123">
+      <persName xml:lang="grc">Πέτρος</persName>
+      <persName xml:lang="ru">Петр</persName>
+      <persName xml:lang="en">Petros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person124">
+      <persName xml:lang="grc">Θωμᾶς</persName>
+      <persName xml:lang="ru">Фома</persName>
+      <persName xml:lang="en">Thomas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person125">
+      <persName xml:lang="grc">Σωφρέβις</persName>
+      <persName xml:lang="ru">Софребий</persName>
+      <persName xml:lang="en">Sophrebis</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person126">
+      <persName xml:lang="grc">Τεγηαλμαγε</persName>
+      <persName xml:lang="ru">Тегиалмаге</persName>
+      <persName xml:lang="en">Tegialmage</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person127">
+      <persName xml:lang="grc">Σουγιαλμαγε</persName>
+      <persName xml:lang="ru">Сугиалмаге</persName>
+      <persName xml:lang="en">Sougialmage</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person128">
+      <persName xml:lang="grc">Νηκόλας</persName>
+      <persName xml:lang="ru">Николай</persName>
+      <persName xml:lang="en">Nikolas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person129">
+      <persName xml:lang="grc">Γεώργιος</persName>
+      <persName xml:lang="ru">георгий</persName>
+      <persName xml:lang="en">Georgios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person130">
+      <persName xml:lang="grc">Μηχάλις</persName>
+      <persName xml:lang="ru">Михаил</persName>
+      <persName xml:lang="en">Michalis</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person131">
+      <persName xml:lang="grc">Κόστας</persName>
+      <persName xml:lang="ru">Коста</persName>
+      <persName xml:lang="en">Kostas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person132">
+      <persName xml:lang="grc">Νηκόλας</persName>
+      <persName xml:lang="ru">Николай</persName>
+      <persName xml:lang="en">Nikolas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person133">
+      <persName xml:lang="grc">Νηκόλας</persName>
+      <persName xml:lang="ru">Николай</persName>
+      <persName xml:lang="en">Nikolas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person134">
+      <persName xml:lang="grc">Ἀνδρέας</persName>
+      <persName xml:lang="ru">Андрей</persName>
+      <persName xml:lang="en">Andreas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.91</inscription>
+   </person>
+   <person xml:id="person135">
+      <persName xml:lang="grc">Ἐπηφάνιος</persName>
+      <persName xml:lang="ru">Епифаний</persName>
+      <persName xml:lang="en">Epiphanios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.101</inscription>
+   </person>
+      <person xml:id="person137">
+      <persName xml:lang="grc">Σιμεόνις</persName>
+      <persName xml:lang="ru">Симеон</persName>
+      <persName xml:lang="en">Simeonis</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.106</inscription>
+   </person>
+   <person xml:id="person138">
+      <persName xml:lang="grc">Θεώδορος</persName>
+      <persName xml:lang="ru">Феодор</persName>
+      <persName xml:lang="en">Theodoros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.111</inscription>
+   </person>
+   <person xml:id="person139">
+      <persName xml:lang="grc">Τζαλβάνδα</persName>
+      <persName xml:lang="ru">Цалбанда</persName>
+      <persName xml:lang="en">Tsalbanda</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.111</inscription>
+   </person>
+   <person xml:id="person140">
+      <persName xml:lang="grc">Καπουσκαλος</persName>
+      <persName xml:lang="ru">Капускал</persName>
+      <persName xml:lang="en">kapouskalos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.112</inscription>
+   </person>
+   <person xml:id="person141">
+      <persName xml:lang="grc">Μαν.?.</persName>
+      <persName xml:lang="ru">Ман.?.</persName>
+      <persName xml:lang="en">Man.?.</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.115</inscription>
+   </person>
+   <person xml:id="person142">
+      <persName xml:lang="grc">.?.έφρονος</persName>
+      <persName xml:lang="ru">.?.ефрон</persName>
+      <persName xml:lang="en">.?.ephronos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.117</inscription>
+   </person>
+   <person xml:id="person143">
+      <persName xml:lang="grc">Θεόδωρος</persName>
+      <persName xml:lang="ru">Феодор</persName>
+      <persName xml:lang="en">Theodoros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.117</inscription>
+   </person>
+   <person xml:id="person144">
+      <persName xml:lang="grc">Παουλίνις</persName>
+      <persName xml:lang="ru">Павлин</persName>
+      <persName xml:lang="en">Paulinis</persName>
+      <floruit></floruit>
+      <relationship>son of person145</relationship>
+      <office></office>
+      <inscription>byz.117</inscription>
+   </person>
+   <person xml:id="person145">
+      <persName xml:lang="grc">Θεόδωρος</persName>
+      <persName xml:lang="ru">Феодор</persName>
+      <persName xml:lang="en">Theodoros</persName>
+      <floruit></floruit>
+      <relationship>father of person144</relationship>
+      <office></office>
+      <inscription>byz.117</inscription>
+   </person>
+   <person xml:id="person146">
+      <persName xml:lang="grc">Ἄνις (?)</persName>
+      <persName xml:lang="ru">Янис (?)</persName>
+      <persName xml:lang="en">Ianis (?)</persName>
+      <floruit></floruit>
+      <relationship>son of person147</relationship>
+      <office></office>
+      <inscription>byz.117</inscription>
+   </person>
+   <person xml:id="person147">
+      <persName xml:lang="grc">Σοτήρικος</persName>
+      <persName xml:lang="ru">Сотирик</persName>
+      <persName xml:lang="en">Soterikos</persName>
+      <floruit></floruit>
+      <relationship>father of person146</relationship>
+      <office></office>
+      <inscription>byz.117</inscription>
+   </person>
+   <person xml:id="person148">
+      <persName xml:lang="grc">Ἄνις</persName>
+      <persName xml:lang="ru">Янис</persName>
+      <persName xml:lang="en">Ianis</persName>
+      <floruit></floruit>
+      <relationship>son of person149</relationship>
+      <office></office>
+      <inscription>byz.117</inscription>
+   </person>
+   <person xml:id="person149">
+      <persName xml:lang="grc">Κυριακός</persName>
+      <persName xml:lang="ru">Кириак</persName>
+      <persName xml:lang="en">Kyriakos</persName>
+      <floruit></floruit>
+      <relationship>father of person148</relationship>
+      <office></office>
+      <inscription>byz.117</inscription>
+   </person>
+   <person xml:id="person150">
+      <persName xml:lang="grc">Ἄνις (?)</persName>
+      <persName xml:lang="ru">Янис (?)</persName>
+      <persName xml:lang="en">Ianis (?)</persName>
+      <floruit></floruit>
+      <relationship>son of person151</relationship>
+      <office></office>
+      <inscription>byz.117</inscription>
+   </person>
+   <person xml:id="person151">
+      <persName xml:lang="grc">Σοτήρικος</persName>
+      <persName xml:lang="ru">Сотирик</persName>
+      <persName xml:lang="en">Soterikos</persName>
+      <floruit></floruit>
+      <relationship>father of person150</relationship>
+      <office></office>
+      <inscription>byz.117</inscription>
+   </person>
+   <person xml:id="person152">
+      <persName xml:lang="grc">Λεόντις</persName>
+      <persName xml:lang="ru">Леонтий</persName>
+      <persName xml:lang="en">Leontis</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>son of person153</office>
+      <inscription>byz.117</inscription>
+   </person>
+   <person xml:id="person153">
+      <persName xml:lang="grc">Γρηγόριος</persName>
+      <persName xml:lang="ru">Григорий</persName>
+      <persName xml:lang="en">Gregorios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>father of person152</office>
+      <inscription>byz.117</inscription>
+   </person>
+   <person xml:id="person154">
+      <persName xml:lang="grc">Ἰοάννης</persName>
+      <persName xml:lang="ru">Иоанн</persName>
+      <persName xml:lang="en">Ioannes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>πρεσβύτερος τῆς Χερσακείας </office>
+      <inscription>byz.118</inscription>
+   </person>
+   <person xml:id="person155">
+      <persName xml:lang="grc">Ἀθανὰς</persName>
+      <persName xml:lang="ru">Афаниасий</persName>
+      <persName xml:lang="en">Athanas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.119</inscription>
+   </person>
+   <person xml:id="person156">
+      <persName xml:lang="grc">Κεθρίνη</persName>
+      <persName xml:lang="ru">Екатерина</persName>
+      <persName xml:lang="en">Kethrine</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.120</inscription>
+   </person>
+   <person xml:id="person157">
+      <persName xml:lang="grc">Βασίλις</persName>
+      <persName xml:lang="ru">Василий</persName>
+      <persName xml:lang="en">Basilis</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.121</inscription>
+   </person>
+   <person xml:id="person158">
+      <persName xml:lang="grc">Καλανιτζα</persName>
+      <persName xml:lang="ru">Каланица</persName>
+      <persName xml:lang="en">Kalanitza</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.122</inscription>
+   </person>
+   <person xml:id="person159">
+      <persName xml:lang="grc">Καλανιτζα</persName>
+      <persName xml:lang="ru">Каланица</persName>
+      <persName xml:lang="en">Kalanitza</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.123</inscription>
+   </person>
+   <person xml:id="person160">
+      <persName xml:lang="grc">Φιλομνιτζα</persName>
+      <persName xml:lang="ru">Филомница</persName>
+      <persName xml:lang="en">Philomnitza</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.123</inscription>
+   </person>
+   <person xml:id="person161">
+      <persName xml:lang="grc">Ι[σ?]ταν..</persName>
+      <persName xml:lang="ru">Ис(?)тан..</persName>
+      <persName xml:lang="en">Is(?)tan..</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.123</inscription>
+   </person>
+   <person xml:id="person162">
+      <persName xml:lang="grc">Κόστις</persName>
+      <persName xml:lang="ru">Костис</persName>
+      <persName xml:lang="en">Kostis</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.124</inscription>
+   </person>
+   <person xml:id="person163">
+      <persName xml:lang="grc">Χαδ(?)συμινια</persName>
+      <persName xml:lang="ru">Хад(?)симиния</persName>
+      <persName xml:lang="en">Khad(?)siminia</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.125</inscription>
+   </person>
+   <person xml:id="person164">
+      <persName xml:lang="grc">Ἰωαννίκιος</persName>
+      <persName xml:lang="ru">Иоанникий</persName>
+      <persName xml:lang="en">Ioannikios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.125</inscription>
+   </person>
+   <person xml:id="person165">
+      <persName xml:lang="grc">Χατού</persName>
+      <persName xml:lang="ru">Хату</persName>
+      <persName xml:lang="en">Khatou</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.126</inscription>
+   </person>
+   <person xml:id="person166">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru">Иоанн</persName>
+      <persName xml:lang="en">Ioannes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.126</inscription>
+   </person>
+   <person xml:id="person167">
+      <persName xml:lang="grc">Σαβᾶς</persName>
+      <persName xml:lang="ru">Савва</persName>
+      <persName xml:lang="en">Sabas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.129</inscription>
+   </person>
+   <person xml:id="person168">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru">Иоанн</persName>
+      <persName xml:lang="en">Ioannes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.129</inscription>
+   </person>
+   <person xml:id="person169">
+      <persName xml:lang="grc">Ικανισα (?)</persName>
+      <persName xml:lang="ru">Иканиса</persName>
+      <persName xml:lang="en">Ikanisa</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>daughter of person171</office>
+      <inscription>byz.130</inscription>
+   </person>
+   <person xml:id="person171">
+      <persName xml:lang="grc">Το.?.</persName>
+      <persName xml:lang="ru">То.?.</persName>
+      <persName xml:lang="en">To.?.</persName>
+      <floruit></floruit>
+      <relationship>father of person170</relationship>
+      <office></office>
+      <inscription>byz.130</inscription>
+   </person>
+   <person xml:id="person172">
+      <persName xml:lang="grc">Iκουμανησα</persName>
+      <persName xml:lang="ru">Икуманиса</persName>
+      <persName xml:lang="en">Ikoumanisa</persName>
+      <floruit></floruit>
+      <relationship>daughter of person174</relationship>
+      <office></office>
+      <inscription>byz.131</inscription>
+   </person>
+   <person xml:id="person174">
+      <persName xml:lang="grc">Θεοδωρίτζης</persName>
+      <persName xml:lang="ru">Феодориций</persName>
+      <persName xml:lang="en">Theodoritzes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>father of person172; son of person173</office>
+      <inscription>byz.131</inscription>
+   </person>
+   <person xml:id="person175">
+      <persName xml:lang="grc">Χαντιμ</persName>
+      <persName xml:lang="ru">Хадим</persName>
+      <persName xml:lang="en">Khadim</persName>
+      <floruit></floruit>
+      <relationship>father of person174</relationship>
+      <office></office>
+      <inscription>byz.131</inscription>
+   </person>
+   <person xml:id="person176">
+      <persName xml:lang="grc">Iλθη</persName>
+      <persName xml:lang="ru">Илфи</persName>
+      <persName xml:lang="en">Ilthe</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.132</inscription>
+   </person>
+   <person xml:id="person177">
+      <persName xml:lang="grc">Μιχάλις </persName>
+      <persName xml:lang="ru">Михаил</persName>
+      <persName xml:lang="en">Mikhalis</persName>
+      <floruit></floruit>
+      <relationship>son of person179</relationship>
+      <office></office>
+      <inscription>byz.133</inscription>
+   </person>
+   <person xml:id="person179">
+      <persName xml:lang="grc">Σατικελ</persName>
+      <persName xml:lang="ru">Сатикел</persName>
+      <persName xml:lang="en">Satikel</persName>
+      <floruit></floruit>
+      <relationship>father of person178</relationship>
+      <office></office>
+      <inscription>byz.133</inscription>
+   </person>
+   <person xml:id="person180">
+      <persName xml:lang="grc">Βασίλειος</persName>
+      <persName xml:lang="ru">Василий</persName>
+      <persName xml:lang="en">Basileios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.134</inscription>
+   </person>
+   <person xml:id="person181">
+      <persName xml:lang="grc">Ἀγάθη </persName>
+      <persName xml:lang="ru">Агафия</persName>
+      <persName xml:lang="en">Agathe</persName>
+      <floruit></floruit>
+      <relationship>daughter of person182</relationship>
+      <office></office>
+      <inscription>byz.135</inscription>
+   </person>
+   <person xml:id="person182">
+      <persName xml:lang="grc">Παλκ..</persName>
+      <persName xml:lang="ru">Палк..</persName>
+      <persName xml:lang="en">Palk..</persName>
+      <floruit></floruit>
+      <relationship>father of person181</relationship>
+      <office></office>
+      <inscription>byz.135</inscription>
+   </person>
+   <person xml:id="person183">
+      <persName xml:lang="grc">Ἰάσων (?)</persName>
+      <persName xml:lang="ru">Ясон (?)</persName>
+      <persName xml:lang="en">Iason (?)</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.135</inscription>
+   </person>
+   <person xml:id="person184">
+      <persName xml:lang="grc">Θεοδωρίτζης</persName>
+      <persName xml:lang="ru">Феодориций</persName>
+      <persName xml:lang="en">Theodoritzes</persName>
+      <floruit></floruit>
+      <relationship>brother of person185; son of person186</relationship>
+      <office></office>
+      <inscription>byz.136</inscription>
+   </person>
+   <person xml:id="person185">
+      <persName xml:lang="grc">Χαταις</persName>
+      <persName xml:lang="ru">Хатай</persName>
+      <persName xml:lang="en">Khatais</persName>
+      <floruit></floruit>
+      <relationship>brother of person184; son of person186</relationship>
+      <office></office>
+      <inscription>byz.136</inscription>
+   </person>
+   <person xml:id="person186">
+      <persName xml:lang="grc">Παλπαν</persName>
+      <persName xml:lang="ru">Палпан</persName>
+      <persName xml:lang="en" >Palpan</persName>
+      <floruit></floruit>
+      <relationship>father of person184; 185; son of person187</relationship>
+      <office></office>
+      <inscription>byz.136</inscription>
+   </person>
+   <person xml:id="person187">
+      <persName xml:lang="grc">Τζογαται</persName>
+      <persName xml:lang="ru">Чогатай</persName>
+      <persName xml:lang="en">Tzogatai</persName>
+      <floruit></floruit>
+      <relationship>father of person186</relationship>
+      <office></office>
+      <inscription>byz.136</inscription>
+   </person>
+   <person xml:id="person188">
+      <persName xml:lang="grc">Πατρίκις</persName>
+      <persName xml:lang="ru">Патрикий</persName>
+      <persName xml:lang="en">Patrikis</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.137</inscription>
+   </person>
+   <person xml:id="person189">
+      <persName xml:lang="grc">Σολτὴκ ῥαΐζης</persName>
+      <persName xml:lang="ru">Солтык раис</persName>
+      <persName xml:lang="en">Soltyk rais</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.138</inscription>
+   </person>
+   <person xml:id="person190">
+      <persName xml:lang="grc">Τσιμουκτι</persName>
+      <persName xml:lang="ru">Цимукти</persName>
+      <persName xml:lang="en">Tsimoukti</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.138</inscription>
+   </person>
+      <person xml:id="person192">
+      <persName xml:lang="grc">Τζουπάνις </persName>
+      <persName xml:lang="ru">Чупан</persName>
+      <persName xml:lang="en">Tzoupanis</persName>
+      <floruit></floruit>
+      <relationship>son of person193</relationship>
+      <office></office>
+      <inscription>byz.139</inscription>
+   </person>
+   <person xml:id="person193">
+      <persName xml:lang="grc">Ιανακ..</persName>
+      <persName xml:lang="ru">Янак..</persName>
+      <persName xml:lang="en">Ianak..</persName>
+      <floruit></floruit>
+      <relationship>father of person192</relationship>
+      <office></office>
+      <inscription>byz.139</inscription>
+   </person>
+   <person xml:id="person194">
+      <persName xml:lang="grc">Ἀλέξις</persName>
+      <persName xml:lang="ru">Алексий</persName>
+      <persName xml:lang="en">Alexis</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.139</inscription>
+   </person>
+   <person xml:id="person195">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru">Иоанн</persName>
+      <persName xml:lang="en">Ioannes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.141</inscription>
+   </person>
+   <person xml:id="person196">
+      <persName xml:lang="grc">Σοτήρικος</persName>
+      <persName xml:lang="ru">Сотирик</persName>
+      <persName xml:lang="en">Soterikos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.143</inscription>
+   </person>
+   <person xml:id="person197">
+      <persName xml:lang="grc">Κονσταντῖνος</persName>
+      <persName xml:lang="ru">Константин</persName>
+      <persName xml:lang="en">Konstantinos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.144</inscription>
+   </person>
+   <person xml:id="person198">
+      <persName xml:lang="grc">Ἀβράμης</persName>
+      <persName xml:lang="ru">Авраамий</persName>
+      <persName xml:lang="en">Abrames</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>κόμης</office>
+      <inscription>byz.145</inscription>
+   </person>
+   <person xml:id="person199">
+      <persName xml:lang="grc">Κοσμᾶς</persName>
+      <persName xml:lang="ru">Косма</persName>
+      <persName xml:lang="en">Kosmas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>κόμης</office>
+      <inscription>byz.145</inscription>
+   </person>
+   <person xml:id="person200">
+      <persName xml:lang="grc">Ασατρης</persName>
+      <persName xml:lang="ru">Асатрия</persName>
+      <persName xml:lang="en">Asatris</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.146</inscription>
+   </person>
+   <person xml:id="person201">
+      <persName xml:lang="grc">Θεόδωρος</persName>
+      <persName xml:lang="ru">Феодор</persName>
+      <persName xml:lang="en">Theodoros</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.147</inscription>
+   </person>
+   <person xml:id="person202">
+      <persName xml:lang="grc">Φωτεινός</persName>
+      <persName xml:lang="ru">Фотин</persName>
+      <persName xml:lang="en">Photeinos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.148</inscription>
+   </person>
+   <person xml:id="person203">
+      <persName xml:lang="grc">Σοτήρικος</persName>
+      <persName xml:lang="ru">Сотирик</persName>
+      <persName xml:lang="en">Soterikos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.153</inscription>
+   </person>
+   <person xml:id="person204">
+      <persName xml:lang="grc">Κοσμᾶς</persName>
+      <persName xml:lang="ru">Косма</persName>
+      <persName xml:lang="en">Kosmas</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office> πρεσβύτερος</office>
+      <inscription>byz.153</inscription>
+   </person>
+   <person xml:id="person205">
+      <persName xml:lang="grc">Ἄνθημος</persName>
+      <persName xml:lang="ru">Анфим</persName>
+      <persName xml:lang="en">Anthemos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.154</inscription>
+   </person>
+   <person xml:id="person206">
+      <persName xml:lang="grc">Ἐυφήμιος</persName>
+      <persName xml:lang="ru">Евфимий</persName>
+      <persName xml:lang="en">Euthemios</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.155</inscription>
+   </person>
+   <person xml:id="person207">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru">Иоанн</persName>
+      <persName xml:lang="en">Ioannes</persName>
+      <floruit></floruit>
+      <relationship>son of person208</relationship>
+      <office></office>
+      <inscription>byz.156</inscription>
+   </person>
+   <person xml:id="person208">
+      <persName xml:lang="grc">Κ.?.</persName>
+      <persName xml:lang="ru">К.?.</persName>
+      <persName xml:lang="en">K.?.</persName>
+      <floruit></floruit>
+      <relationship>father of person207</relationship>
+      <office></office>
+      <inscription>byz.156</inscription>
+   </person>
+   <person xml:id="person210">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru">Иоанн</persName>
+      <persName xml:lang="en">Ioannes</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.158</inscription>
+   </person>
+   <person xml:id="person211">
+      <persName xml:lang="grc">Ταταρ-πέης</persName>
+      <persName xml:lang="ru">Татар-бей</persName>
+      <persName xml:lang="en">Tatar-bey</persName>
+      <floruit></floruit>
+      <relationship>man of person212; father of person213</relationship>
+      <office></office>
+      <inscription>byz.159</inscription>
+   </person>
+   <person xml:id="person212">
+      <persName xml:lang="grc">Τανσιχα</persName>
+      <persName xml:lang="ru">Тансиха</persName>
+      <persName xml:lang="en">Tansikha</persName>
+      <floruit></floruit>
+      <relationship>wife of person211; mother of person213</relationship>
+      <office></office>
+      <inscription>byz.159</inscription>
+   </person>
+   <person xml:id="person213">
+      <persName xml:lang="grc">Τινι-πέης</persName>
+      <persName xml:lang="ru">Тини-бей</persName>
+      <persName xml:lang="en">Tini-bey</persName>
+      <floruit></floruit>
+      <relationship>son of person211; 212; man of person214</relationship>
+      <office></office>
+      <inscription>byz.159</inscription>
+   </person>
+   <person xml:id="person214">
+      <persName xml:lang="grc">Τανσιχα</persName>
+      <persName xml:lang="ru">Тансиха</persName>
+      <persName xml:lang="en">Tansikha</persName>
+      <floruit></floruit>
+      <relationship>wife of person213</relationship>
+      <office></office>
+      <inscription>byz.159</inscription>
+   </person>
+   <person xml:id="person215">
+      <persName xml:lang="grc">Ἀλέξις</persName>
+      <persName xml:lang="ru">Алексий</persName>
+      <persName xml:lang="en">Alexis</persName>
+      <floruit></floruit>
+      <relationship>son of person216</relationship>
+      <office></office>
+      <inscription>byz.160</inscription>
+   </person>
+   <person xml:id="person216">
+      <persName xml:lang="grc">Μπελαϊ</persName>
+      <persName xml:lang="ru">Белаи</persName>
+      <persName xml:lang="en">Belai</persName>
+      <floruit></floruit>
+      <relationship>father of person215</relationship>
+      <office></office>
+      <inscription>byz.160</inscription>
+   </person>
+   <person xml:id="person217">
+      <persName xml:lang="grc">Δημητρία</persName>
+      <persName xml:lang="ru">Димитрия</persName>
+      <persName xml:lang="en">Demetria</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.161</inscription>
+   </person>
+   <person xml:id="person218">
+      <persName xml:lang="grc">Καλάνα</persName>
+      <persName xml:lang="ru">Калана</persName>
+      <persName xml:lang="en">Kalana</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.162</inscription>
+   </person>
+   <person xml:id="person219">
+      <persName xml:lang="grc">Νεῖλος</persName>
+      <persName xml:lang="ru">Нил</persName>
+      <persName xml:lang="en">Neilos</persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office>μοναχός (?)</office>
+      <inscription>byz.163</inscription>
+   </person>
+   <person xml:id="person220">
+      <persName xml:lang="grc">Τζουλαβήγη</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.165</inscription>
+   </person>
+   <person xml:id="person221">
+      <persName xml:lang="grc">Πολέτα</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.165</inscription>
+   </person>
+   <person xml:id="person222">
+      <persName xml:lang="grc">Χουϊτάνη</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.169</inscription>
+   </person>
+   <person xml:id="person223">
+      <persName xml:lang="grc">τζι</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.170</inscription>
+   </person>
+   <person xml:id="person224">
+      <persName xml:lang="grc">Γριγώριν</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.174</inscription>
+   </person>
+   <person xml:id="person225">
+      <persName xml:lang="grc">υβαηα</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.175</inscription>
+   </person>
+   <person xml:id="person226">
+      <persName xml:lang="grc">ατ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.175</inscription>
+   </person>
+   <person xml:id="person227">
+      <persName xml:lang="grc">Μούνζη</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.175</inscription>
+   </person>
+   <person xml:id="person228">
+      <persName xml:lang="grc">ρο</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.176</inscription>
+   </person>
+   <person xml:id="person229">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.178</inscription>
+   </person>
+   <person xml:id="person230">
+      <persName xml:lang="grc">Στέφανος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.179</inscription>
+   </person>
+   <person xml:id="person231">
+      <persName xml:lang="grc">Καραμάνι</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.180</inscription>
+   </person>
+   <person xml:id="person232">
+      <persName xml:lang="grc">Ἰωάννην</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person233">
+      <persName xml:lang="grc">Στεφανικία</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person234">
+      <persName xml:lang="grc">Στεφυα</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person235">
+      <persName xml:lang="grc">Ἰάκοβος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person236">
+      <persName xml:lang="grc">Λουκᾶς</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person237">
+      <persName xml:lang="grc">Πέτρος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person238">
+      <persName xml:lang="grc">Νεα</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person239">
+      <persName xml:lang="grc">Ἰοάννη</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person240">
+      <persName xml:lang="grc">λήτου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person241">
+      <persName xml:lang="grc">Κεδό του</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person242">
+      <persName xml:lang="grc">Θεδοσήου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person243">
+      <persName xml:lang="grc">Παῦλον</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person244">
+      <persName xml:lang="grc">αννίον</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person245">
+      <persName xml:lang="grc">Θεωδό ρις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.182</inscription>
+   </person>
+   <person xml:id="person246">
+      <persName xml:lang="grc">Σοκαν</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.186</inscription>
+   </person>
+   <person xml:id="person247">
+      <persName xml:lang="grc">Μουρ σὰν Ιρπά να</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.186</inscription>
+   </person>
+   <person xml:id="person248">
+      <persName xml:lang="grc">Μουρ σὰν</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.186</inscription>
+   </person>
+   <person xml:id="person249">
+      <persName xml:lang="grc">Ιρπά να</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.186</inscription>
+   </person>
+   <person xml:id="person250">
+      <persName xml:lang="grc">Ὀλοχάτις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.NaN</inscription>
+   </person>
+   <person xml:id="person251">
+      <persName xml:lang="grc">Εἰρήνη</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.188</inscription>
+   </person>
+   <person xml:id="person252">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.188</inscription>
+   </person>
+   <person xml:id="person253">
+      <persName xml:lang="grc">Κλήμης</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.189</inscription>
+   </person>
+   <person xml:id="person254">
+      <persName xml:lang="grc">Κύρη λλον</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.189</inscription>
+   </person>
+   <person xml:id="person255">
+      <persName xml:lang="grc">Θεώ δωρον</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.189</inscription>
+   </person>
+   <person xml:id="person256">
+      <persName xml:lang="grc">Μακάριος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.190</inscription>
+   </person>
+   <person xml:id="person257">
+      <persName xml:lang="grc">ΥωΩΥνᾶς</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.190</inscription>
+   </person>
+   <person xml:id="person258">
+      <persName xml:lang="grc">Ἀσκληπιος Ἀσληπιος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.192</inscription>
+   </person>
+   <person xml:id="person259">
+      <persName xml:lang="grc">Εὐστα θήου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.192</inscription>
+   </person>
+   <person xml:id="person260">
+      <persName xml:lang="grc">Νηκό λας</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.193</inscription>
+   </person>
+   <person xml:id="person261">
+      <persName xml:lang="grc">Σοφία</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.194</inscription>
+   </person>
+   <person xml:id="person262">
+      <persName xml:lang="grc">Ἀνία</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.194</inscription>
+   </person>
+   <person xml:id="person263">
+      <persName xml:lang="grc">Σύμον</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.194</inscription>
+   </person>
+   <person xml:id="person264">
+      <persName xml:lang="grc">Θεόδωρος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.195</inscription>
+   </person>
+   <person xml:id="person265">
+      <persName xml:lang="grc">Μαρύας</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.197</inscription>
+   </person>
+   <person xml:id="person266">
+      <persName xml:lang="grc">Βλασείῳ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.201</inscription>
+   </person>
+   <person xml:id="person267">
+      <persName xml:lang="grc">Ητῇ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.201</inscription>
+   </person>
+   <person xml:id="person268">
+      <persName xml:lang="grc">Σοφρονίῳ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.201</inscription>
+   </person>
+   <person xml:id="person269">
+      <persName xml:lang="grc">Λουκᾶς</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.202</inscription>
+   </person>
+   <person xml:id="person270">
+      <persName xml:lang="grc">Ἰωάνης</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.203</inscription>
+   </person>
+   <person xml:id="person271">
+      <persName xml:lang="grc">Ἐυφύμιος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.204</inscription>
+   </person>
+   <person xml:id="person272">
+      <persName xml:lang="grc">Σοφρόνιος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.206</inscription>
+   </person>
+   <person xml:id="person273">
+      <persName xml:lang="grc">Λα ουλι-βει</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.211</inscription>
+   </person>
+   <person xml:id="person274">
+      <persName xml:lang="grc">Σαυγοα τουχατ τοῦ χατ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.213</inscription>
+   </person>
+   <person xml:id="person275">
+      <persName xml:lang="grc">Μαρίας</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.215</inscription>
+   </person>
+   <person xml:id="person276">
+      <persName xml:lang="grc">Γεωργιος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.216</inscription>
+   </person>
+   <person xml:id="person277">
+      <persName xml:lang="grc">Ἀρχοτίσα</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.216</inscription>
+   </person>
+   <person xml:id="person278">
+      <persName xml:lang="grc">Κόστας</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.216</inscription>
+   </person>
+   <person xml:id="person279">
+      <persName xml:lang="grc">Μαυρίκις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.216</inscription>
+   </person>
+   <person xml:id="person280">
+      <persName xml:lang="grc">Συμε όνις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.216</inscription>
+   </person>
+   <person xml:id="person281">
+      <persName xml:lang="grc">Υ̓ρύνυ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.216</inscription>
+   </person>
+   <person xml:id="person282">
+      <persName xml:lang="grc">Μαμ τζη</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.217</inscription>
+   </person>
+   <person xml:id="person283">
+      <persName xml:lang="grc">Φωτινή, θ ηγάτηρ τοῦ Βόρτι</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.218</inscription>
+   </person>
+   <person xml:id="person284">
+      <persName xml:lang="grc">Βόρτι</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.218</inscription>
+   </person>
+   <person xml:id="person285">
+      <persName xml:lang="grc">Νηκόλαος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.219</inscription>
+   </person>
+   <person xml:id="person286">
+      <persName xml:lang="grc">Γεσωργιος υἱοῦ Ἀλμα</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.220</inscription>
+   </person>
+   <person xml:id="person287">
+      <persName xml:lang="grc">Γεσωργιος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.220</inscription>
+   </person>
+   <person xml:id="person288">
+      <persName xml:lang="grc">Ἀλμα</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.220</inscription>
+   </person>
+   <person xml:id="person289">
+      <persName xml:lang="grc">Θεόδωρος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.221</inscription>
+   </person>
+   <person xml:id="person290">
+      <persName xml:lang="grc">Θεοδώ ρουτοῦ Τηγη</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.221</inscription>
+   </person>
+   <person xml:id="person291">
+      <persName xml:lang="grc">Θεοδώ ρου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.221</inscription>
+   </person>
+   <person xml:id="person292">
+      <persName xml:lang="grc">Τηγη</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.221</inscription>
+   </person>
+   <person xml:id="person293">
+      <persName xml:lang="grc">Μα ρήα</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.222</inscription>
+   </person>
+   <person xml:id="person294">
+      <persName xml:lang="grc">Οὔγριν</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.223</inscription>
+   </person>
+   <person xml:id="person295">
+      <persName xml:lang="grc">Ἰοάνῃ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.223</inscription>
+   </person>
+   <person xml:id="person296">
+      <persName xml:lang="grc">Ἀντήοχον</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.223</inscription>
+   </person>
+   <person xml:id="person297">
+      <persName xml:lang="grc">Ἀντήοχος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.223</inscription>
+   </person>
+   <person xml:id="person298">
+      <persName xml:lang="grc">Γεώργηε</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.223</inscription>
+   </person>
+   <person xml:id="person299">
+      <persName xml:lang="grc">Στέφανος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.223</inscription>
+   </person>
+   <person xml:id="person300">
+      <persName xml:lang="grc">Στέφανος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.223</inscription>
+   </person>
+   <person xml:id="person301">
+      <persName xml:lang="grc">Ἰωάννου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.226</inscription>
+   </person>
+   <person xml:id="person302">
+      <persName xml:lang="grc">Δαμιανοῦ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.226</inscription>
+   </person>
+   <person xml:id="person303">
+      <persName xml:lang="grc">Γεόργηος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.227</inscription>
+   </person>
+   <person xml:id="person304">
+      <persName xml:lang="grc">Γεώργιος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.227</inscription>
+   </person>
+   <person xml:id="person305">
+      <persName xml:lang="grc">Ἠωάννης</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.228</inscription>
+   </person>
+   <person xml:id="person306">
+      <persName xml:lang="grc">Κυριακοῦ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.228</inscription>
+   </person>
+   <person xml:id="person307">
+      <persName xml:lang="grc">Νικίτας</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.229</inscription>
+   </person>
+   <person xml:id="person308">
+      <persName xml:lang="grc">Νηκόλαον</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.229</inscription>
+   </person>
+   <person xml:id="person309">
+      <persName xml:lang="grc">Δαμηανός</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.230</inscription>
+   </person>
+   <person xml:id="person310">
+      <persName xml:lang="grc">Κίρου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.231</inscription>
+   </person>
+   <person xml:id="person311">
+      <persName xml:lang="grc">Κοσ μᾶ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.231</inscription>
+   </person>
+   <person xml:id="person312">
+      <persName xml:lang="grc">Μανσι</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.234</inscription>
+   </person>
+   <person xml:id="person313">
+      <persName xml:lang="grc">Σήμων</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.235</inscription>
+   </person>
+   <person xml:id="person314">
+      <persName xml:lang="grc">Χριστω φόρου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.236</inscription>
+   </person>
+   <person xml:id="person315">
+      <persName xml:lang="grc">Ζαχαρίᾳ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.238</inscription>
+   </person>
+   <person xml:id="person316">
+      <persName xml:lang="grc">ον</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.241</inscription>
+   </person>
+   <person xml:id="person317">
+      <persName xml:lang="grc">Ἰωάννης</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.244</inscription>
+   </person>
+   <person xml:id="person318">
+      <persName xml:lang="grc">Ἀθανασι</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.246</inscription>
+   </person>
+   <person xml:id="person319">
+      <persName xml:lang="grc">Ἀσίλης, υἱὸς τοῦ Μεχάτου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.247</inscription>
+   </person>
+   <person xml:id="person320">
+      <persName xml:lang="grc">Ἀσίλης</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.247</inscription>
+   </person>
+   <person xml:id="person321">
+      <persName xml:lang="grc">Μεχάτου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.247</inscription>
+   </person>
+   <person xml:id="person322">
+      <persName xml:lang="grc">αμ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.249</inscription>
+   </person>
+   <person xml:id="person323">
+      <persName xml:lang="grc">Εἰσγουδιος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.251</inscription>
+   </person>
+   <person xml:id="person324">
+      <persName xml:lang="grc">Σπαδινου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.251</inscription>
+   </person>
+   <person xml:id="person325">
+      <persName xml:lang="grc">Σαυαγου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.251</inscription>
+   </person>
+   <person xml:id="person326">
+      <persName xml:lang="grc">Ζαχαρίαν</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.252</inscription>
+   </person>
+   <person xml:id="person327">
+      <persName xml:lang="grc">Πάππον</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.253</inscription>
+   </person>
+   <person xml:id="person328">
+      <persName xml:lang="grc">Ἀγόραστος Λούου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.255</inscription>
+   </person>
+   <person xml:id="person329">
+      <persName xml:lang="grc">Λούου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.255</inscription>
+   </person>
+   <person xml:id="person330">
+      <persName xml:lang="grc">Ἀδέλφις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.256</inscription>
+   </person>
+   <person xml:id="person331">
+      <persName xml:lang="grc">Ἀνίκη τος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.257</inscription>
+   </person>
+   <person xml:id="person332">
+      <persName xml:lang="grc">Ἀρσάκις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.258</inscription>
+   </person>
+   <person xml:id="person333">
+      <persName xml:lang="grc">Ἀρσῖ νος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.259</inscription>
+   </person>
+   <person xml:id="person334">
+      <persName xml:lang="grc">Βαν φαρηξ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.260</inscription>
+   </person>
+   <person xml:id="person335">
+      <persName xml:lang="grc">Εὐτρόπις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.261</inscription>
+   </person>
+   <person xml:id="person336">
+      <persName xml:lang="grc">Θεοδ όσις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.262</inscription>
+   </person>
+   <person xml:id="person337">
+      <persName xml:lang="grc">Θε όδωρος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.263</inscription>
+   </person>
+   <person xml:id="person338">
+      <persName xml:lang="grc">Θεδόρα</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.264</inscription>
+   </person>
+   <person xml:id="person339">
+      <persName xml:lang="grc">Θε</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.265</inscription>
+   </person>
+   <person xml:id="person340">
+      <persName xml:lang="grc">Κυρακ ή</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.266</inscription>
+   </person>
+   <person xml:id="person341">
+      <persName xml:lang="grc">Νικια νὸς</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.267</inscription>
+   </person>
+   <person xml:id="person342">
+      <persName xml:lang="grc">Σο φαί νετος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.268</inscription>
+   </person>
+   <person xml:id="person343">
+      <persName xml:lang="grc">Στ έφα νος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.269</inscription>
+   </person>
+   <person xml:id="person344">
+      <persName xml:lang="grc">Σ ωτήρεις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.270</inscription>
+   </person>
+   <person xml:id="person345">
+      <persName xml:lang="grc">Σαμβάτις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.270</inscription>
+   </person>
+   <person xml:id="person346">
+      <persName xml:lang="grc">Τρύφων υ ἱὸς Ἀγαθοῦ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.271</inscription>
+   </person>
+   <person xml:id="person347">
+      <persName xml:lang="grc">Ἀγαθοῦ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.271</inscription>
+   </person>
+   <person xml:id="person348">
+      <persName xml:lang="grc">Κάρβα νος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.271</inscription>
+   </person>
+   <person xml:id="person349">
+      <persName xml:lang="grc">Τρό φιμος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.272</inscription>
+   </person>
+   <person xml:id="person350">
+      <persName xml:lang="grc">Τρόφιμ ος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.273</inscription>
+   </person>
+   <person xml:id="person351">
+      <persName xml:lang="grc">Φι λόξενος υἱὸς Ἀγα πητοῦ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.274</inscription>
+   </person>
+   <person xml:id="person352">
+      <persName xml:lang="grc">Ἀγα πητοῦ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.274</inscription>
+   </person>
+   <person xml:id="person353">
+      <persName xml:lang="grc">Ἀρ χέ λα ος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.275</inscription>
+   </person>
+   <person xml:id="person354">
+      <persName xml:lang="grc">Α</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.276</inscription>
+   </person>
+   <person xml:id="person355">
+      <persName xml:lang="grc">Γεννε͂ος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.277</inscription>
+   </person>
+   <person xml:id="person356">
+      <persName xml:lang="grc">Τρόφιμος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.277</inscription>
+   </person>
+   <person xml:id="person357">
+      <persName xml:lang="grc">Ἀ δ υ ι τ α</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.277</inscription>
+   </person>
+   <person xml:id="person358">
+      <persName xml:lang="grc">Ἐλένη</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.278</inscription>
+   </person>
+   <person xml:id="person359">
+      <persName xml:lang="grc">Ταμγαν</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.278</inscription>
+   </person>
+   <person xml:id="person360">
+      <persName xml:lang="grc">Ε ὐφρασία</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.279</inscription>
+   </person>
+   <person xml:id="person361">
+      <persName xml:lang="grc">Θεθεώδ ορος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.280</inscription>
+   </person>
+   <person xml:id="person362">
+      <persName xml:lang="grc">Θεόδ ορος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.281</inscription>
+   </person>
+   <person xml:id="person363">
+      <persName xml:lang="grc">Κυρηακός</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.282</inscription>
+   </person>
+   <person xml:id="person364">
+      <persName xml:lang="grc">Γεωργιος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.282</inscription>
+   </person>
+   <person xml:id="person365">
+      <persName xml:lang="grc">Βιδ δηρ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.282</inscription>
+   </person>
+   <person xml:id="person366">
+      <persName xml:lang="grc">Τούδρου γος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.283</inscription>
+   </person>
+   <person xml:id="person367">
+      <persName xml:lang="grc">Φ ῆλιξ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.284</inscription>
+   </person>
+   <person xml:id="person368">
+      <persName xml:lang="grc">Εὐσεβί ου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.285</inscription>
+   </person>
+   <person xml:id="person369">
+      <persName xml:lang="grc">Εὐ τρωπία</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.286</inscription>
+   </person>
+   <person xml:id="person370">
+      <persName xml:lang="grc">Θεοδότη</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.287</inscription>
+   </person>
+   <person xml:id="person371">
+      <persName xml:lang="grc">Κυρά</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.288</inscription>
+   </person>
+   <person xml:id="person372">
+      <persName xml:lang="grc">Λιον</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.289</inscription>
+   </person>
+   <person xml:id="person373">
+      <persName xml:lang="grc">Ἀβίκα</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.290</inscription>
+   </person>
+   <person xml:id="person374">
+      <persName xml:lang="grc">Εὐπρέ πις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.291</inscription>
+   </person>
+   <person xml:id="person375">
+      <persName xml:lang="grc">Εὐ τυ χια νοῦ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.292</inscription>
+   </person>
+   <person xml:id="person376">
+      <persName xml:lang="grc">Πλά των</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.293</inscription>
+   </person>
+   <person xml:id="person377">
+      <persName xml:lang="grc">Τιγινά γας</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.294</inscription>
+   </person>
+   <person xml:id="person378">
+      <persName xml:lang="grc">Τρόφιμος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.295</inscription>
+   </person>
+   <person xml:id="person379">
+      <persName xml:lang="grc">Φῆλιξ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.296</inscription>
+   </person>
+   <person xml:id="person380">
+      <persName xml:lang="grc">Ἀριστο βούλου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.296</inscription>
+   </person>
+   <person xml:id="person381">
+      <persName xml:lang="grc">Φωτί δος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.297</inscription>
+   </person>
+   <person xml:id="person382">
+      <persName xml:lang="grc">Κυριακός</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.298</inscription>
+   </person>
+   <person xml:id="person383">
+      <persName xml:lang="grc">Λεοντήσκου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.298</inscription>
+   </person>
+   <person xml:id="person384">
+      <persName xml:lang="grc">Πεσῖται</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.299</inscription>
+   </person>
+   <person xml:id="person385">
+      <persName xml:lang="grc">Σαυαγαν</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.299</inscription>
+   </person>
+   <person xml:id="person386">
+      <persName xml:lang="grc">Φαεισπαρταν</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.299</inscription>
+   </person>
+   <person xml:id="person387">
+      <persName xml:lang="grc">Εὐτύχης</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.302</inscription>
+   </person>
+   <person xml:id="person388">
+      <persName xml:lang="grc">Φάννης</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.302</inscription>
+   </person>
+   <person xml:id="person389">
+      <persName xml:lang="grc">Κοσμᾶς</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.303</inscription>
+   </person>
+   <person xml:id="person390">
+      <persName xml:lang="grc">Θεόδωρος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.304</inscription>
+   </person>
+   <person xml:id="person391">
+      <persName xml:lang="grc">Μοχά λης</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.306</inscription>
+   </person>
+   <person xml:id="person392">
+      <persName xml:lang="grc">Κυρηα κὸν</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.307</inscription>
+   </person>
+   <person xml:id="person393">
+      <persName xml:lang="grc">Γεωργήου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.307</inscription>
+   </person>
+   <person xml:id="person394">
+      <persName xml:lang="grc">Θεο δότο ς</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.NaN</inscription>
+   </person>
+   <person xml:id="person395">
+      <persName xml:lang="grc">Ἀνγουλᾶ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.308</inscription>
+   </person>
+   <person xml:id="person396">
+      <persName xml:lang="grc">Εὐπατεριος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.309</inscription>
+   </person>
+   <person xml:id="person397">
+      <persName xml:lang="grc">Δουτζαγας</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person398">
+      <persName xml:lang="grc">Σαυαγας κόμης</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person399">
+      <persName xml:lang="grc">Θοριμαγ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person400">
+      <persName xml:lang="grc">Δαππαεις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person401">
+      <persName xml:lang="grc">Τρόφιμος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person402">
+      <persName xml:lang="grc">Ομαρ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person403">
+      <persName xml:lang="grc">Σαλιχ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person404">
+      <persName xml:lang="grc">Μιδαχ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person405">
+      <persName xml:lang="grc">οβουλγαεις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person406">
+      <persName xml:lang="grc">Αττασις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person407">
+      <persName xml:lang="grc">Αλδαγ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person408">
+      <persName xml:lang="grc">Κανδιτζις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person409">
+      <persName xml:lang="grc">Αδματζις</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person410">
+      <persName xml:lang="grc">Σευραγ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person411">
+      <persName xml:lang="grc">Δα</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.310</inscription>
+   </person>
+   <person xml:id="person412">
+      <persName xml:lang="grc">Κων σταντῖ νος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.312</inscription>
+   </person>
+   <person xml:id="person413">
+      <persName xml:lang="grc">Σωτηάς</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.313</inscription>
+   </person>
+   <person xml:id="person414">
+      <persName xml:lang="grc">Ἱδονί ου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.314</inscription>
+   </person>
+   <person xml:id="person415">
+      <persName xml:lang="grc">Ἠωανήκηος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.316</inscription>
+   </person>
+   <person xml:id="person416">
+      <persName xml:lang="grc">σεβαστοῦ Ἀρτεμιος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.317</inscription>
+   </person>
+   <person xml:id="person417">
+      <persName xml:lang="grc">Ἰ βάντζου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.320</inscription>
+   </person>
+   <person xml:id="person418">
+      <persName xml:lang="grc">Ἰωάννου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.320</inscription>
+   </person>
+   <person xml:id="person419">
+      <persName xml:lang="grc">θεο λόγου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.320</inscription>
+   </person>
+   <person xml:id="person420">
+      <persName xml:lang="grc">Διμίτρον</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.320</inscription>
+   </person>
+   <person xml:id="person421">
+      <persName xml:lang="grc">Κομυσχα</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.321</inscription>
+   </person>
+   <person xml:id="person422">
+      <persName xml:lang="grc">Υ̓ ρήου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.323</inscription>
+   </person>
+   <person xml:id="person423">
+      <persName xml:lang="grc">Οὐ στά νου Νει κηφό ρου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.326</inscription>
+   </person>
+   <person xml:id="person424">
+      <persName xml:lang="grc">Ζάβαγος Τα σιος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.327</inscription>
+   </person>
+   <person xml:id="person425">
+      <persName xml:lang="grc">Πλατ ωνὶς</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.328</inscription>
+   </person>
+   <person xml:id="person426">
+      <persName xml:lang="grc">Εὐθέρ ης</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.329</inscription>
+   </person>
+   <person xml:id="person427">
+      <persName xml:lang="grc">Οὐστανος, ὁ προτωκομίτες Χιμίρις, υεἱὸς Ἀγάθου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.330</inscription>
+   </person>
+   <person xml:id="person428">
+      <persName xml:lang="grc">Ἀγάθου</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.330</inscription>
+   </person>
+   <person xml:id="person429">
+      <persName xml:lang="grc">Κυρηακόν</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.332</inscription>
+   </person>
+   <person xml:id="person430">
+      <persName xml:lang="grc">Γεόργηον</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.332</inscription>
+   </person>
+   <person xml:id="person431">
+      <persName xml:lang="grc">Εὐτόλμιον</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.332</inscription>
+   </person>
+   <person xml:id="person432">
+      <persName xml:lang="grc">Ῥ</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.332</inscription>
+   </person>
+   <person xml:id="person433">
+      <persName xml:lang="grc">Θε όδωρος</persName>
+      <persName xml:lang="ru"></persName>
+      <persName xml:lang="en"></persName>
+      <floruit></floruit>
+      <relationship></relationship>
+      <office></office>
+      <inscription>byz.333</inscription>
+   </person>
+</body>

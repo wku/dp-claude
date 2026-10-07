@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Иулиана</title><title xml:lang="en">Epitaph of Julian</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.83</idno><idno type="PE">PE5000083</idno>
+            <idno type="AYV2012-number">byz083</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>121/36504</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>121/36504</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Горизонтальная полочка с углублением на верхней грани внизу, полукруглый верх и изображение 4-лепестковой розетки в круге в 
+                              верхней части лицевой стороны. Выщербины по поверхности.</p>
+                           <p xml:lang="en">Stele with rounded top, horizontal ledge at the bottom, and inset roundel with relief four-petal rosette in the top half of the front. 
+                              The surface is chipped.</p>
+                           <dimensions>
+                              <height>50,0</height>
+                              <width>34,0</width>
+                              <depth>23,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">Под розеткой.</seg>
+                           <seg xml:lang="en">Below the rosette.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с ломаной перекладиной. Лигатура омикрон-ипсилон ромбовидная.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with broken crossbar. Diamond ligature: omicron-upsilon.</seg>
+                        <height unit="cm">2,3–3,5.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0501" notAfter="0700" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">VI–VII вв.</seg>
+                        <seg xml:lang="en">VI–VIIth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08"> август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>.</seg>
+                     <seg xml:lang="en"> <date when="1999-05">May 1999</date>, <date when="2001-08"> August 2001</date>, <date when="2002-09"> September 2002</date>, <date when="2003-09"> September 2003</date>, <date when="2004-09"> September 2004</date>, <date when="2005-09"> September 2005</date>, <date when="2006-09">September 2006</date>, <date when="2007-09"> September 2007</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1914 г., раскопки Р.Х. Лепера.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1914, excavations of R.Ch. Loeper.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-17" who="CB">Andrey's corrections</change>
+          <change when="2013-10-24" who="TW">Added image code</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-12" who="AG">small corrections</change>
+         <change when="2012-05-22" who="AG">several lines translated, tags corrected</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-01-17" who="AG">1 line translated</change>
+         <change when="2012-01-09" who="AG">updating</change>
+         <change when="2011-12-07" who="AG">some corrections, tags added to the Greek text</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.83">
+                <desc xml:lang="en">Photograph of face (from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p/>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" ref="#person95"><name nymRef="Ἰουλιανός"><supplied reason="lost">Ἰ</supplied>ουλαν<unclear>οῦ</unclear></name>
+                  <persName type="attested" ref="#person96"><name nymRef="Ἄρειος">Ἀρήου</name></persName></persName>.
+            </ab>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p><supplied reason="lost">И</supplied>улиана, сына Ария.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Of Julian, son of Areios.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Латышев (1918b, 17, № 10, рис. 1) оставил надпись без прочтения.</p>
+                <p> Пропуск йоты в имени Иулиан — видимо, случайность. Если наше чтение верно, то мы имеем одну из немногих надписей с патронимиком из 
+                   Херсона  (ср. <ref type="inscription">V 83</ref><!--byz083-->.2, <ref type="inscription">V 85</ref><!--byz085-->, 
+                   <ref type="inscription">V 267</ref><!--byz255-->, <ref type="inscription">V 283</ref><!--byz271-->, <ref type="inscription">V 286</ref><!--byz274-->). 
+                   Оба имени — христианские (см. Delehaye 1902, 41 etc., 732).</p>
+                <p> Археологический контекст находки неизвестен. </p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Latyshev (1918b, 17, № 10, fig. 1) did not offer a reading of this text.</p>
+            <p>A missing iota in the name Julian is probably unintentional. If our reading is correct, then we have one of only a few examples of the use of a patronymic
+               in an inscription from Cherson  (cf. <ref type="inscription">V 83</ref><!--byz083-->.2, <ref type="inscription">V 85</ref><!--byz085-->, 
+               <ref type="inscription">V 267</ref><!--byz255-->, <ref type="inscription">V 283</ref><!--byz271-->, <ref type="inscription">V 286</ref><!--byz274-->). 
+               Both names are Christian.</p>
+            <p>The archaeological context of this find is unknown.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

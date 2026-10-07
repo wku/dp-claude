@@ -1,0 +1,137 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Volume III. Inscriptions of Chersonesos and vicinity</title>
+                <title xml:lang="ru">Том III. Надписи Херсонеса и окрестностей</title>
+                <title xml:lang="uk">Том III. Написи Херсонеса та околиць </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text xml:lang="en">
+                <body>
+                    <div>
+                        <head>Igor Makarov</head>
+                        <p>This is the first electronic edition of the inscriptions from Chersonesos
+                            and its vicinity, from the Northern Black Sea (IOSPE<hi
+                                rend="superscript">3</hi> vol. III). The introduction, editions and
+                            commentary are by Igor Makarov, English translations are by Irene
+                            Polinskaya. The inscriptions were encoded following the <ref
+                                target="http://epidoc.sf.net/">EpiDoc</ref> Guidelines for use of
+                            XML for ancient documentary editions, and the website and supporting
+                            materials are the work of Gabriel Bodard, Irene Polinskaya and
+                            colleagues at the Department of Digital Humanities, King's College
+                            London.</p>
+
+                        <div>
+                            <head>Note for users</head>
+                            <p>The current edition is preliminary. With questions and comments on
+                                the current version, please contact the author and editors:
+                                igmakarov@mail.ru, irene.polinskaya@kcl.ac.uk</p>
+                        </div>
+
+                        <div>
+                            <!--<head><ref target="introduction.html">Introduction</ref></head>
+                            <p>[ENGLISH INTRO NEEDED]</p>-->
+                            <!--<divGen type="intro-toc"/>-->
+                        </div>
+                        <div>
+                            <head><ref target="/3/toc.html">Inscriptions</ref></head>
+                            <p>The inscriptions in this volume are grouped by Category of Text, with
+                                relevant sub-categories, and within the latter, by Date, in
+                                chronological order. They are also accessible via <ref
+                                    target="/indices/index.html">Indices</ref>, Ins. # window and
+                                the <ref target="/search/en/-500/1800/?">Search Corpus</ref>
+                                interface.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:lang="ru">
+                <body>
+                    <div>
+                        <head>Игорь Макаров</head>
+                        <p>Первое электронное издание надписей Херсонеса и его окрестностей
+                                (IOSPE<hi rend="superscript">3</hi> III). Автор введения, надписей и
+                            комментариев Игорь Макаров. Английский перевод Ирины Полинской.
+                            Электронное издание следует руководящим принципам схемы EpiDoc,
+                            использующей платформу XML для публикации древних документальных
+                            источников. Сайт электронного издания и документация разработаны
+                            Габриэлем Бодар, Ириной Полинской и сотрудниками Факультета Цифровых
+                            Гуманитарных наук при Кингс Колледж Лондон.</p>
+
+                        <div>
+                            <head>Вниманию пользователей</head>
+                            <p>Текущая версия тома является предварительной. С вопросами и
+                                замечаниями по текущей версии можно обратиться к автору и
+                                редакторам: igmakarov@mail.ru,
+                                irene.polinskaya@kcl.ac.uk</p>
+                        </div>
+                        <div>
+                            <!--<head><ref target="introduction-ru.html">Введение</ref></head>
+                            <p>[RUSSIAN TEXT NEEDED]</p>-->
+                            <!--<divGen type="intro-toc-ru"/>-->
+                        </div>
+                        <div>
+                            <head><ref target="/3/toc-ru.html">Надписи</ref></head>
+                            <p>Надписи тома сгруппированы по типам или жанрам; в типах надписей
+                                выделяются подтипы. Те фрагменты надписей, жанровую принадлежность
+                                которых определить не удалось, помещены в раздел Incerta. Внутри
+                                каждой группы надписи приводятся в хронологической
+                                последовательности. В отдельный раздел сведены Надписи округи
+                                Херсонеса. Поиск можно осуществлять по <ref
+                                    target="/indices/index-ru.html">Указателям</ref> и через окошки
+                                « №" и "<ref target="/search/ru/-500/1800/?">Поиск по
+                                корпусу</ref>."</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+
+            <text xml:lang="uk">
+                <body>
+                    <div>
+                        <head>Ігор Макаров</head>
+                        <p>Перше електронне видання написів Херсонесу та його околиць
+                            (IOSPE<hi rend="superscript">3</hi> III). Автор вступу, написів та коментарів Ігор Макаров.
+                            Англійський переклад Ірини Полінської. Електронне видання слідує керівним принципам схеми EpiDoc, 
+                            використовує платформу XML для публікації стародавніх документальних джерел. 
+                            Сайт електронного видання й документацію розроблено Габріелем Бодар, 
+                            Іриною Полінською та співробітниками Факультету Цифрових Гуманітарних наук
+                            при Кінгс Коледж Лондон.</p>
+
+                        <div>
+                            <head>До уваги користувачів</head>
+                            <p>Поточна версія є попередньою. З питаннями та зауваженнями щодо поточної версії 
+                                можна звертатися до автора та редакторів: igmakarov@mail.ru, irene.polinskaya@kcl.ac.uk</p>
+                        </div>
+                        <div>
+                            <!--<head><ref target="introduction-uk.html">Вступ</ref></head>
+                            <p>[INTRODUCTION NOT WRITTEN YET]</p>-->
+                            <!--<divGen type="intro-toc-UK"/>-->
+                        </div>
+                        <div>
+                            <head><ref target="/3/toc.html">Написи</ref></head>
+                            <p>Написи тому згруповані за типами чи жанрами; у типах написів виділяються підтипи. 
+                                Ті фрагменти написів, жанрову належність яких визначити не вдалося, 
+                                розміщені у розділі Incerta. У середині кожної групи написи наводяться в 
+                                хронологічній послідовності. В окремий розділ зведено Написи округу Херсонесу. 
+                                Пошук можна здійснювати за<ref target="/indices/index.html"> Вказівниками</ref>й через віконця
+                                « №" та"<ref target="/search/en/-500/1800/?"> пошук по корпусу</ref>.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

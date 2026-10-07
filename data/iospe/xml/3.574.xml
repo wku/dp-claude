@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент посвящения (?)</title>
+            <title xml:lang="en">Dedication (?)</title>
+            <editor xml:id="ip" role="translator">
+               <persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.737</idno><idno type="PE">PE3000549</idno><idno type="filename">3.574</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc><msIdentifier><region>Crimea</region></msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвящение (?).</seg>
+                     <seg xml:lang="en">Dedicatory inscription (?)</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon45">Эдикула (?).</objectType>
+                           <objectType xml:lang="en">Aedicula (?).</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Два фрагмента арочной дуги миниатюрной эдикулы (?). Не соединяются в контакте. 
+                              Лицевая поверхность отшлифована, тыльная сторона обработана грубо. На обоих фрагментах сохранились 
+                              следы рельефа, расположенного в углублении, и остатки однострочной надписи на обрамляющей его дуге. 
+                              Надпись фрагмента 1 повреждена сколами, буквы не поддаются надежному прочтению.</p>
+                           <p xml:lang="en">The front is polished.</p>
+                           <dimensions n="2">
+                              <height unit="cm">10,5</height>
+                              <width unit="cm">8,0</width>
+                              <depth unit="cm">5,0</depth>
+                           </dimensions>
+                           <dimensions n="1">
+                              <height unit="cm">7,0</height>
+                              <width unit="cm">9,0</width>
+                              <depth unit="cm">5,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Внутренние гасты мю касаются вертикалей почти посередине, кси в форме Ζ с поперечной чертой, 
+                           апексы и утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Serifs and flaring of the ends of hastae.</seg>
+                        <height unit="cm">1,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="ru">Округа Херсонеса.</seg>
+                        <seg xml:lang="en">Vicinity of Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0150" notAfter="0250" precision="low" evidence="Палеография археологический_контекст">
+                        <seg xml:lang="ru">середина II - середина III в. н.э.</seg>
+                        <seg xml:lang="en">mid-II - mid-III century C.E. </seg>
+                     </origDate>
+                  </origin>
+               </history>
+               <msPart n="1">
+                  <msIdentifier>
+                     <altIdentifier xml:lang="ru">
+                        <repository>Сакский историко-краеведческий музей (Музей истории грязелечения).</repository>
+                        <idno>СП-86/137</idno>
+                     </altIdentifier>
+                     <altIdentifier xml:lang="en">
+                        <repository>Saki Museum of History and Ethnography (Museum of the History of Mud Therapy).</repository>
+                        <idno>СП-86/137</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions n="1">
+                                 <height unit="cm">7,0</height>
+                                 <width unit="cm">9,0</width>
+                                 <depth unit="cm">5,0</depth>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance type="found" n="1">
+                        <seg xml:lang="ru">
+                           <placeName type="ancientFindspot" ref="findspot.xml#saki">Сакская пересыпь (Северо-Западный Крым).</placeName>
+                           <rs type="circumstances">Найдена в 1986 г. кладоискателями.</rs>
+                           <rs type="context"/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName type="ancientFindspot">Isthmus of Saki, Northwest Crimea.</placeName>
+                           <rs type="circumstances">Found in 1986 by treasure hunters.</rs>
+                           <rs type="context">Unknown.</rs>
+                        </seg>
+                     </provenance>
+                     <provenance type="observed" n="1">
+                        <seg xml:lang="ru">Саки, Крым.</seg>
+                        <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saki, Crimea.</tei:seg>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart n="2">
+                  <msIdentifier>
+                     <altIdentifier xml:lang="ru" n="2">
+                        <repository>Сакский историко-краеведческий музей (Музей истории грязелечения).</repository>
+                        <idno>СП-86/138</idno>
+                     </altIdentifier>
+                     <altIdentifier xml:lang="en" n="2">
+                        <repository>Saki Museum of History and Ethnography (Museum of the History of Mud Therapy).</repository>
+                        <idno>СП-86/138</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions n="2">
+                                 <height unit="cm">10,5</height>
+                                 <width unit="cm">8,0</width>
+                                 <depth unit="cm">5,0</depth>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance type="found" n="2">
+                        <seg xml:lang="ru">
+                           <placeName type="ancientFindspot" ref="findspot.xml#saki">Сакская пересыпь (Северо-Западный Крым).</placeName>
+                           <rs type="circumstances">Найдена в 1986 г. кладоискателями.</rs>
+                           <rs type="context"/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName type="ancientFindspot">Isthmus of Saki, Northwest Crimea.</placeName>
+                           <rs type="circumstances">Found in 1986 by treasure hunters.</rs>
+                           <rs type="context">Unknown.</rs>
+                        </seg>
+                     </provenance>
+                     <provenance type="observed" n="2">
+                        <seg xml:lang="ru">Саки, Крым.</seg>
+                        <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saki, Crimea.</tei:seg>
+                     </provenance>
+                  </history>
+               </msPart>
+           </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-03-09" who="PY">encoded Leiden and metadata</change>
+         <change when="2016-11-28" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.737A">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="30.737B">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Ланцов 1999 --><ptr target="bib:b0992"/>, <citedRange>98</citedRange>
+               (= <bibl><!-- Ланцов 2003 --><ptr target="bib:b0984"/> <citedRange>30, № 23, 24</citedRange></bibl>)</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Внуков 2007a --><ptr target="bib:b0993"/>, 159</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="fragment" n="1">
+            <ab>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+            </div>
+            <div type="textpart" subtype="fragment" n="2">
+               <ab>
+                  	                       <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> 
+                  <persName type="attested"><name>Μαξιμ<unclear>ο</unclear></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+               </ab>
+            </div>
+         </div>
+         <div type="apparatus">
+           <div type="textpart" n="2">
+               <listApp>
+                  <app>
+                     <rdg>Μάξιμο̣[ς] vel Μαξίμο̣[υ] <note>ed. pr.</note></rdg>
+                  </app>
+               </listApp>
+            </div>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[- - -] Максим[- - -]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[- - -] Maxim[- - -]</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Фрг. 1 Слева направо: низ вертикали, вертикальная линия с верхней горизонталью (Τ ?), 
+               три вертикальные линии; Τ Ι ΤΕ - рисунок в ed. pr.</p>
+            <p>Фрг. 2 В начале стк. след апекса.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надпись Евтихия и Фанния</title><title xml:lang="en">Inscription of Eutychis and Phannes</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.308</idno><idno type="PE">PE5000308</idno>
+            <idno type="AYV2012-number">byz302</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>In situ (?)</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>In situ (?)</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc8">
+                     <seg xml:lang="ru">Памятная надпись.</seg>
+                     <seg xml:lang="en">Commemoration.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon20">Стена.</objectType>
+                           <objectType xml:lang="en">Wall.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m10">Глина.</material>
+                           <material xml:lang="en">Clay.</material>
+                           <p xml:lang="ru">Склеп. Отдельные повреждения.</p>
+                           <p xml:lang="en">Burial vault. Damages in a few places.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">Под нишей справа от центральной лежанки первой камеры.</seg>
+                           <seg xml:lang="en">Under the niche, to the right of the central couch of the first chamber.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито</rs>.</seg>
+                        <seg xml:lang="en">Graffito.</seg>
+                      </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p044">
+                        <seg xml:lang="ru">Пантикапей.</seg>
+                        <seg xml:lang="en">Pantikapaion.</seg>
+                     </origPlace>
+                     <origDate notBefore="0301" notAfter="0600" precision="low" evidence="общий_облик">
+                        <seg xml:lang="ru">IV–VI вв.</seg>
+                        <seg xml:lang="en">IV-VIth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#kerch">Керчь.</placeName>
+                        <rs type="circumstances">1893 г., раскопки Ю.А. Кулаковского.</rs>
+                        <rs type="context">Феодосийская дорога, усадьба Григорьева, склеп, дромос.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Kerch.</placeName>
+                        <rs type="circumstances">1893, excavations of Yu.A. Kulakovsky.</rs>
+                        <rs type="context">Feodosia Road, estate of Grigoriev, burial vault, dromos.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Керчь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Kerch.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+         <change when="2012-09-26" who="AG">small corrections</change>
+         <change when="2012-09-03" who="AG">several lines translated</change>
+          <change when="2012-08-23" who="AL">checked metadata</change>
+          <change when="2012-07-25" who="AL">small corrections in metadata and bibliography</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+          <change when="2012-05-23" who="AFS">corrections in metadata</change>
+         <change when="2012-03-13" who="AL">text tagged, original date tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+                <bibl n="L1"><!-- Кулаковский 1894--><ptr target="bib:b0323"/>, <citedRange>89</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" ref="#person387"><name nymRef="Εὐτύχις">Εὐτύχης</name></persName>.
+               <lb n="2"/><persName type="attested" ref="#person388"><name nymRef="Φάννης">Φάννης</name></persName>.
+               <lb n="3"/><gap reason="ellipsis"/>
+            </ab>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Евтихий. Фанний...</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Eutychis, Phannes...</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Надпись опубликована без изображения.</p>
+            <p>Возможно, имена принадлежат погребенным в катакомбе, но местоположение вне погребальной камеры наталкивает на мысль, что это записи 
+               посетителей или строителей.  </p>
+            <p> 1. Имя Евтихий встречается и на античном Боспоре (четырежды — см. КБН 868, 903), и в христианской эпиграфике Средиземноморья 
+               (напр., Wessel 1989, № 259, 567, 795, 859, 995, 1095, 1630–1632; ICUR314, 4730, 7204, 26046b, 26500; Grégoire 1929, № 210; IdC 89).</p>
+                <p> 2. Фанний — это чисто боспорское и при том весьма популярное имя: оно упоминается в КБН около 20 раз (ср. Тохтасьев 2000, 147). </p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The inscription was published without an image.</p>
+            <p>The names could belong to those buried in the catacomb, but the placement outside the burial chamber rather suggests that they belong 
+            to either visitors or builders.</p>
+            <p>1. The name Eutychis (here Eutyches) is attested in Bosporus both in classical antiquity (four times, see CIRB 868, 903), and in Christian epigraphy of the Northern Black Sea
+            region (e.g., Wessel 1989, № 259, 567, 795, 859, 995, 1095, 1630–1632; ICUR 314, 4730, 7204, 26046b, 26500; Grégoire 1929, № 210; IdC 89).</p>
+            <p>2. Phannes is a purely Bosporan, and very popular, name: it is attested about 20 times in CIRB (see Tokhtasiev 2000, 147).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

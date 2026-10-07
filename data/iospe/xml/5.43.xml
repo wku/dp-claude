@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надпись на кресте<certainty cert="low" locus="value" match=".."/></title><title xml:lang="en">Apotropaic inscription on a cross<certainty cert="low" locus="value" match=".."/></title><editor xml:id="ayv2012">
+               <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+               <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+            </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.43</idno><idno type="PE">PE5000043</idno>
+            <idno type="AYV2012-number">byz043</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc6">
+                     <seg xml:lang="ru">Апотропеическая надпись.</seg>
+                     <seg xml:lang="en">Apotropaic inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon9">Крест <certainty cert="low" locus="value" match=".."/>.</objectType>
+                           <objectType xml:lang="en">Cross <certainty cert="low" locus="value" match=".."/>.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Обгорел или поврежден морской водой, выветрен, обломан со всех сторон, кроме правой, сколы слева.</p>
+                           <p xml:lang="en">Burnt and damaged by sea water; weathered, broken off on all sides, except the right; chipped on the left.</p>
+                           <dimensions>
+                              <height>20,0</height>
+                              <width>13,0</width>
+                              <depth>?</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На лицевой стороне.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы прокрашены красной краской. Альфа с ломаной перекладиной, 
+                           эпсилон и сигма лунарные. Лигатура омикрон-ипсилон ромбовидная.</seg>
+                        <seg xml:lang="en">Lapidary. Letters are filled in with red paint. Alpha with broken crossbar; lunate epsilon and sigma. Diamond-shaped ligature: omicron-upsilon.</seg>
+                        <height unit="cm">2,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0501" notAfter="0700" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">VI–VII вв.</seg>
+                        <seg xml:lang="en">VI–VIIth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1911 г., раскопки Р.Х. Лепера, случайная находка.</rs>
+                        <rs type="context">Оборонительные стены, западный участок, снаружи.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1911, excavations of R.Ch. Loeper, chance find.</rs>
+                        <rs type="context">City wall, western sector, external face.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-03-20" who="CB">Andrey's corrections</change>
+         <change when="2013-10-24" who="TW">Added image code</change>
+          <change when="2013-01-15" who="AL">inserted English names in commentary</change>
+          <change when="2012-10-01" who="AL">small corrections</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-11" who="AG">1 line translated</change>
+         <change when="2012-05-15" who="AG">several lines translated, bibliography updated</change>
+         <change when="2012-04-18" who="AG">several lines translated, editor added</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-02-22" who="AG">bibliography tags tidied</change>
+          <change when="2012-02-20" who="AL">tagged bibliography</change>
+         <change when="2012-01-16" who="AG">updated</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.43">
+                <desc xml:lang="en">Photograph of face (from ??)</desc>
+                <desc xml:lang="ru">Фотография лицевой части (из ??)</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!-- IOSPE --><ptr target="bib:IOSPE2"/> <citedRange>724</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="apparatus">
+            <listApp><app loc="1‐4"><rdg source="bib:IOSPE2">ΣΑΥΡΟΥ ... ΟΚΗΜΕΝΟΥ ... ΛΟΝΟΣ ... Μ ...</rdg><note> corr. Feissel.</note></app></listApp> 
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Где крест установлен, пусть зависть <supplied reason="lost">о</supplied>тступ<supplied reason="lost">ит</supplied>.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Where a cross is set forth, may Envy <supplied reason="lost">retreat</supplied>.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Камень в Национальном заповеднике "Херсонес Таврический" обнаружить не удалось (старый инв. №35050). Латышев видел (очевидно, на эстампаже) 
+               буквы над 1-й строкой — их нет на фотографии надписи. Первоиздатель датировал надпись римским временем. В ее ранневизантийском происхождении 
+               убеждает в том числе и ромбовидная лигатура омикрон-ипсилон (ср. <ref type="inscription">V 24</ref><!--byz023-->).  </p>
+            <p>Чтение надписи и ее датировка были предложены Д. Фейсселем в частной беседе с И.А. Макаровым, который любезно сообщил это нам. Относительно формулы см. <ref type="introduction">IV.3.D.b</ref>. Надпись была, 
+               по всей вероятности, высечена на кресте.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>I was not able to locate this stone in the National Preserve of Tauric Chersonesos (old inv. no. 35050).  Latyshev was able to see (apparently on 
+            an estampage) letters above line 1. The photograph does not show them. The first editor dated the inscription to the Roman period, but its Early Byzantine
+            date is supported by the diamond-shaped ligature omicron-upsilon (cf. <ref type="inscription">V 24</ref><!--byz023-->).</p>
+            <p>The reading and dating had been proposed by D.Feissel in a private conversation with I.A.Makarov, and the latter kindly relayed that information to me. 
+               On the formula, see <ref type="introduction">IV.3.D.b</ref>. The inscription was probably carved on a cross.</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><g ref="#stauros"/> <w lemma="σταυρός"><supplied reason="lost">Σ</supplied>ταυροῦ</w>
+               <lb n="2"/><w lemma="πρόκειμαι"><supplied reason="lost">πρ</supplied><unclear>ο</unclear>κιμένου</w>,
+               <lb n="3"/><w lemma="ὁ"><supplied reason="lost">ὁ</supplied></w> <w lemma="φθόνος"><supplied reason="lost">φ</supplied><unclear>θ</unclear>όνος</w>
+               <lb n="4"/><w lemma="ἄπειμι"><supplied reason="lost">ἀ</supplied><unclear>πέ</unclear><supplied reason="lost">στω</supplied></w>.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

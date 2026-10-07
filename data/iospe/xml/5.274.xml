@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Феодосия</title><title xml:lang="en">Epitaph of Theodosis</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.274</idno><idno type="PE">PE5000274</idno>
+            <idno type="AYV2012-number">byz262</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Мелкозернистый известняк.</material>
+                           <material xml:lang="en">Close-coarsed limestone.</material>
+                           <p xml:lang="ru">На лицевой стороне изображение креста с коротким верхним рукавом и с раздваивающимися концами (кроме верхнего, который 
+                              растраивается), прокрашенного охрой. Сохранилась целиком.</p>
+                           <p xml:lang="en">On the front - small carved cross filled with ochre, with short top arm ending in a triple fork, and other arms with simple forked
+                           ends. Fully preserved.</p>
+                           <dimensions>
+                              <height>84,0</height>
+                              <width>43,0</width>
+                              <depth>12,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">По сторонам и снизу от креста.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the sides and below the cross.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы прокрашены охрой. Альфа с ломаной перекладиной, дельта с удлиненной правой гастой, эпислон, тета, омикрон и 
+                           сигма прямоугольные, каппа с удлиненной вертикалью.</seg>
+                        <seg xml:lang="en">Lapidary; letters painted with ochre. Alpha with broken crossbar, delta with projecting right hasta, rectangular epsilon, theta, omicron, 
+                           and sigma, kappa with extended vertical.</seg>
+                        <height unit="cm">6,0–9,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p044">
+                        <seg xml:lang="ru">Пантикапей.</seg>
+                        <seg xml:lang="en">Pantikapaion.</seg>
+                     </origPlace>
+                      <origDate notBefore="0301" notAfter="0500" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">IV–V вв.</seg>
+                          <seg xml:lang="en">IV–Vth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#kerch">Керчь.</placeName>
+                        <rs type="circumstances">До 1908 г.</rs>
+                        <rs type="context">Глинище, сад Франчески.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Kerch.</placeName>
+                        <rs type="circumstances">Before 1908.</rs>
+                        <rs type="context">Glinishche, garden of Francesca.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-11-07" who="TW">Added image code</change>
+          <change when="2012-10-06" who="AL">small corrections in Russian text; translation of orig place corrected</change>
+         <change when="2012-08-15" who="AG">inscription + one line translated, small corrections</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-06-20" who="AG">corrections, several lines translated</change>
+          <change when="2012-05-09" who="AFS">corrections on layout and text</change>
+          <change when="2012-03-20" who="AL">original date tagged, bibliography tagged, text tagged</change> 
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.274">
+                <desc xml:lang="en">Photograph of face</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!-- Марти 1911--><ptr target="bib:b0170"/>,  4–5, № <citedRange>1</citedRange></bibl>
+               <bibl n="1.1"><!-- КХНБ --><ptr target="bib:b0068"/>, № <citedRange>17</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="ἐνθάδε">Ἐνθά<lb n="2" break="no"/>δε</w> <w lemma="κατάκειμαι">κα<lb n="3" break="no"/>τάκιτε</w>
+               <lb n="4"/><persName type="attested" ref="#person336"><name nymRef="Θεοδόσις">Θεοδ<lb n="5" break="no"/>όσις</name></persName>.
+            </ab>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Здесь лежит Феодосий.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Here lies Theodosis.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Надпись приобретена для музея Мелек-Чесменского кургана у торговца древностями И. Пекерева 27 декабря 1908 г., 
+               который и сообщил о месте ее находки. Публикуемая фотография надписи хранится в ФА ИИМК РАН (O.90.1, Q. 759.39; II–88282, I–90985).</p>
+                <p> 1–3. Относительно формулы см. <ref type="introduction">IV.3.F.d</ref>.  </p>
+                <p>4–5. Имя Феодосий, частое в христианской эпиграфике, встречается и в античных надписях Боспора: КБН 36, 65, 1140. Относительно перехода 
+                   окончания -ιος в -ις см. Тохтасьев 2007.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The inscription was acquired for the collection of the Melek-Chesmen Tumulus Museum from an antiques dealer I. Pekerev on December 27, 1908. He was the source
+               of information about the monuments' find spot. The photograph published here is preserved at the Photo Archive of the Institute for History of Material Culture, 
+               Russian Academy of Sciences (O.90.1, Q. 759.39; II–88282, I–90985).</p>
+            <p>1–3. On the formula, see Introduction <ref type="introduction">IV.3.F.d</ref>.</p>
+            <p>The name Theodosios, common in Christian epigraphy, is also attested in Bosporus in classical antiquity: CIRB 36, 65, 1140. On the transition of endings in -ιος to -ις, 
+               see Tokhtasiev 2007.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

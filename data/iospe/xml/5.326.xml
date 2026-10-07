@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Евферия</title><title xml:lang="en">Epitaph of Eutheris</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.326</idno><idno type="PE">PE5000326</idno>
+            <idno type="AYV2012-number">byz329</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country>Russia</country>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Государственный музей изобразительных искусств им. Пушкина</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Pushkin Museum of Fine Arts</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon6">Блок.</objectType>
+                           <objectType xml:lang="en">Block.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Оббит справа и снизу.</p>
+                           <p xml:lang="en">Chipped on the right and bottom.</p>
+                           <dimensions>
+                              <height>25,0</height>
+                              <width>30,0</width>
+                              <depth>?</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На лицевой стороне.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с ломанной перекладиной, ипсилон V-образный.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with broken crossbar, V-shaped upsilon.</seg>
+                        <height unit="cm">1,5–2,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p048">
+                        <seg xml:lang="ru">Фанагория.</seg>
+                        <seg xml:lang="en">Phanagoreia.</seg>
+                     </origPlace>
+                     <origDate notBefore="0481" notAfter="0481" evidence="указание_надписи палеография" cert="low">
+                        <seg xml:lang="ru">481 г.</seg>
+                        <seg xml:lang="en">481 C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="2009-04">Апрель 2009</date>.</seg>
+                     <seg xml:lang="en"><date when="2009-04">April 2009</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sennoy">Сенной.</placeName>
+                        <rs type="circumstances">До 1941 г., случайная находка.</rs>
+                        <rs type="context">Каменный завал.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sennoy.</placeName>
+                        <rs type="circumstances">Before 1941, random find.</rs>
+                        <rs type="context">Rubble fill.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Москва, Россия.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Moscow, Russian Federation.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+         <change when="2012-09-11" who="AG">some corrections, translation added, lemmata added and corrected</change>
+          <change when="2012-09-03" who="AL">checked metadata</change>
+          <change when="2012-08-23" who="AL">checked metadata and bibliography</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+          <change when="2012-05-29" who="AFS">adding metadata</change>
+         <change when="2012-03-07" who="AG">small corrections</change>
+         <change when="2012-02-29" who="AG">small corrections, bibliography, the Greek text and apparatus tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="5.326">
+            <desc xml:lang="en">Photograph of face</desc>
+            <desc xml:lang="ru">Фотография лицевой части</desc>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Розанова 1941--><ptr target="bib:b0196"/>, 256, <seg xml:lang="ru">рис.</seg><seg xml:lang="en">fig.</seg> <citedRange>6</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="ἔνθα"><supplied reason="lost">Ἔ</supplied>νθα</w> <w lemma="κατάκειμαι">κατά<lb n="2" break="no"/>κητε</w> <persName type="attested" ref="#person426"><name nymRef="Εὐθήρις">Εὐθέ<unclear>ρ</unclear><lb n="3" break="no"/>ης</name></persName> <w lemma="ποθητός">ποθητ<supplied reason="lost">ός,</supplied></w> 
+               <w lemma="καί"><supplied reason="lost">κ</supplied><lb n="4" break="no"/>ὲ</w> <w lemma="μάμμη">μάμης</w>, <w lemma="καί">κὲ</w>
+               <lb n="5"/><w lemma="μήτηρ">μητρὸς</w>
+               <w lemma="χθιζός">χ<unclear>θ</unclear><supplied reason="lost">ι</supplied><lb n="6" break="no"/>ζὰ</w> <w lemma="κληρονόμος">κληρονό<supplied reason="lost">μ</supplied><lb n="7" break="no"/><supplied reason="lost">ο</supplied><unclear>ς</unclear></w>. 
+               <date><w lemma="ἔτος"><expan><abbr>Ἔτ</abbr><ex>ει</ex></expan></w> 
+                  <num value="779">θο<unclear>ψ</unclear></num> <note>?</note></date>.
+            </ab>
+         </div>
+         <div type="apparatus">
+             <listApp>
+               <app loc="2-4"><rdg source="bib:b0196">Εὐθεηηο ποθητ[ή] ...</rdg></app> 
+                 <app loc="5-7"><rdg source="bib:b0196">χθ[όνα] ἄκληρον ο... ..... τθο ...</rdg></app> 
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Здесь лежит возлюбленный Евферий, и бабки и матери вчера еще наследник. В 779 (?) году.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Here lies beloved Eutheris, an heir, just yesterday, both to his mother and grandmother. In the year 779 (?).</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Вероятно, перед нами 2 своеобразные додекасиллабические строки плюс датировка.</p>
+                <p> 1–2. Относительно формулы см.<ref type="introduction"> IV.3.F.d</ref>.</p>
+                <p> 2–3. Имя Евферий засвидетельствовано как христианское в <ref type="inscription">V 5</ref><!--byz004--> и в Thomsen 1921, 92, № 129 (Иерусалим). 
+                   Относительно передачи эты через эпсилон 
+                   см. комм. к <ref type="inscription">V 61</ref><!--byz061-->. Относительно перехода окончания -ιος в -ις см. Тохтасьев 2007.</p>
+            <p> 3. Термин ποθητός часто прилагается в христианской эпиграфике к умершим, в т.ч. и к детям (MAMA I 279; Agnello 1953, № 12).</p>
+                <p> 4–5. В христианских надписях часто упоминаются родственники, в т.ч. и бабка (например, Grégoire 1929, № 29; MAMA VII 421, 577, 578; Feissel 1983, № 13; 
+                   Strazzulla 186; Agnello 1953, № 61).</p>
+                <p> 6–7. Слово «наследник» часто встречается в христианских надгробиях, однако всегда в контексте права владения могилой. В нашем же случае это явно 
+                   поэтическое описание умершего сына и внука бабкой и матерью, которые, по всей видимости, и поставили стелу.</p>
+                <p> 7. Датировка, судя по обратному порядку цифр, дана явно по боспорской эре. Число сотен читается плохо, однако из возможных вариантов (фи, хи, пси) 
+                   следует выбрать, явно, пси.</p>
+                <p> В надписи нет явных христианских черт, однако палеография и неизвестная в нехристианских надписях Боспора формула позволяет предположить ее 
+                   христианское происхождение.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The text probably consists of two dodekasyllabic verses, plus the date.</p>
+            <p>1–2. On the formula, see Introduction  <ref type="introduction"> IV.3.F.d</ref>.</p>
+            <p>2–3. The name Eutheris (here Eutheres) is attested in Christian epigraphy in <ref type="inscription">V 5</ref><!--byz004--> and in Thomsen 1921, 92, № 129 (Jerusalem).
+               On the use of epsilon to represent eta, see commentary to <ref type="inscription">V 61</ref><!--byz061-->. On the transition of the ending -ιος to -ις,
+               see Tokhtasiev 2007.</p>
+            <p>3. The term ποθητός is often used in Christian epigraphy with reference to deceased, including children (MAMA I 279; Agnello 1953, № 12).</p>
+            <p>4-5. In Christian inscriptions, relatives, including grandmothers, are often mentioned (e.g., Grégoire 1929, № 29; MAMA VII 421, 577, 578; 
+            Feissel 1983, № 13; Strazzulla 186; Agnello 1953, № 61).</p>
+            <p>6-7. The word "heir" is common in Christian tombstones, but always in reference to ownership rights with respect to the grave. By constrast, in our case, 
+            it is used poetically as a description of the deceased son and grandson by his mother and grandmother who must have set up the stele.</p>
+            <p>7. The date, judging by the reverse order of digits, must be according to the Bosporan era. The hundreds are difficult to make out, but out of all possibilities
+            (phi, chi, psi) it must surely be psi.</p>
+            <p>There are no obvious indicators of the Christian character of the inscription, but the palaeography and the formula, otherwise unknown in non-Christian 
+            inscriptions of Bosporus, speak in favour of its Christian origin.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

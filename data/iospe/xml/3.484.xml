@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Incertum (метрическая эпитафия ?)</title><title xml:lang="en">Incertum (metrical epitaph ?)</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.572</idno><idno type="PE">PE3000289</idno><idno type="filename">3.484</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>34919</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>34919</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc22">
+                     <seg xml:lang="ru">Incertum.</seg>
+                     <seg xml:lang="en">Unknown.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Оббита со всех сторон. Сохранились остатки двух строк
+                              надписи, вырезанной по предварительной разметке. Лицевая сторона
+                              отшлифована.</p>
+                           <p xml:lang="en">Broken off on all sides. The front is polished. Two-line inscription cut following ruled lines.</p>
+                           <dimensions>
+                              <height unit="cm">8,0</height>
+                              <width unit="cm">10,0</width>
+                              <depth unit="cm">1,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Слегка удлиненные буквы, альфа с прямой поперечной
+                           линией, узкие гамма, эпсилон, сигма с параллельными верхней и нижней
+                           линиями, выходящими за пересечение с наклонными, слабое
+                           апицирование.</seg>
+                        <seg xml:lang="en">Slightly elongated letters, alpha with straight crossbar, narrow gamma and epsilon, four-bar sigma with parallel top and bottom bars, light serifs.</seg>
+                        <height unit="cm">2,6</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0200" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">II в. н.э.</seg>
+                        <seg xml:lang="en">II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1897 г. Раскопки
+                           К.К. Косцюшко-Валюжинича (НА НЗХТ, д. 6, № 144; д. 26, л. 4, № 144).</rs>
+                        <rs type="context">В юго-восточном районе Херсонеса
+                           на участке некрополя, расположенного около Карантинной бухты.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1897, excavations of K.K.
+                           Kostsyushko-Valyuzhinich (НА НЗХТ, д. 6, № 144; д. 26, л. 4, № 144).</rs>
+                        <rs type="context">Southeast sector of Chersonesos, necropolis by the Quarantine Bay.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-13" who="KK">Tokenised</change>
+         <change when="2015-11-13" who="CB">Added origDate</change>
+         <change when="2015-11-06" who="KK">Leidenised</change>
+         <change when="2015-11-02" who="CB">biblio and app crit</change>
+         <change when="2015-10-23" who="CB">Metadata</change>
+         <change when="2015-09-25" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1899--><ptr target="bib:b0136"/>, 23, № <citedRange>33</citedRange></bibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>IV 168</citedRange>
+               (= <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>625</citedRange></bibl>)</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ε</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig>αλο</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ο</unclear>ιογενες</orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <note>в начале стк., перед Α и в конце стк. вертикальные гасты</note>
+                  <rdg cert="low">μ̣ε̣γ̣άλοι̣ <note>vel</note> μ̣ε̣γ̣άλοι̣[ο]</rdg>
+               </app>
+               <app loc="3">
+                  <note>edd.: vocativum nominis Διογένης (Латышев 1899; IOSPE) vel διογενές (Латышев
+                     1899), однако на камне ясно читается Ο: [- - -]ο̣ιο γενεσ[- - -] ?</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p/>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Возможно, фрагмент метрической эпитафии.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

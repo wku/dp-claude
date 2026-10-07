@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+             <title xml:lang="ru">Декрет в честь Диофанта, сына Асклепиодора, из Синопы</title>
+             <title xml:lang="en">Decree honouring Diophantos of Sinope</title>
+         </titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.283</idno><idno type="PE">PE3000566</idno><idno type="filename">3.8</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Государственный Эрмитаж</repository>
+                     <idno>X.1878.1</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>The State Hermitage Museum</repository>
+                     <idno>X.1878.1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc15">
+                     <seg xml:lang="ru">Декрет.</seg>
+                     <seg xml:lang="en">Decree.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon12">Постамент.</objectType>
+                           <objectType xml:lang="en">Base.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Сохранился полностью. По краям имеются небольшие сколы. Расколот на две части. 
+                              Поверхность заглажена, лицевая сторона тщательно обработана. На верхней плоскости сохранились остатки углубления 
+                              для ступней статуи. На лицевой стороне в два столбца (шириной 51 и 46 см) вырезана многострочная надпись. 
+                              Постамент был вторично использован: на нижней плоскости также имеются углубления для ступней статуи.</p>
+                           <p xml:lang="en">Fully preserved. Chipped along the edges, broken in two pieces. The front is well worked.</p>
+                           <dimensions>
+                              <height unit="cm">31,0</height>
+                              <width unit="cm">99,0</width>
+                              <depth unit="cm">65,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Наклонные линии альфа и лямбда не сомкнуты вверху, поперечная гаста альфа иногда прямая, 
+                           иногда чуть изогнутая, широкая гамма, эпсилон с укороченной средней горизонталью, дзета состоящая из двух горизонталей и наклонной линии, 
+                           тета с точкой, каппа с укороченными наклонными, мю имеет сближенные, почти параллельные боковые линии, вертикали ню 
+                           одинаковой длины, кси состоит из трех горизонталей, маленький круглый омикрон, пи с короткой правой вертикалью и 
+                           далеко выступающей за края горизонталью, верхние и нижние линии сигма немного расходятся, в месте соединения 
+                           ее наклонных гаст имеется короткая горизонтальная черта, овальная узкая омега с утолщенными боковыми горизонталями, 
+                           небольшие штрихи и утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Alpha and lambda with open tops; alpha with straight and sagging crossbar, wide gamma, epsilon with shortened middle bar; slight serifs
+                        and flaring of the ends of hastae.</seg>
+                        <height unit="cm">0,7</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0110" notAfter="-0110" precision="medium" evidence="Исторический_контекст просопография">
+                        <seg xml:lang="ru">около 110 г. до н.э.</seg>
+                        <seg xml:lang="en">ca. 110 B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Найден случайно  в 1878 г. в ходе археологических исследований ООИД.</rs>
+                        <rs type="context">Около одного из жилых домов. Вероятно, использовался как строительный материал.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Random find in 1878, during the survey conducted by the Odessa Society for History and Antiquities.</rs>
+                        <rs type="context">Near one of residential buildings. Probably reused as building material.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Санкт-Петербург, Россия.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      <revisionDesc>
+         <change when="2016-11-29" who="SS">encoded text and metadata</change>
+         <change when="2016-11-28" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.283">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="30.283A">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="30.283B">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Юргевич 1881 --><ptr target="bib:b0926"/>, <citedRange>1</citedRange></bibl>
+               <bibl><!-- Egger 1880 --><ptr target="bib:b0927"/>, <citedRange>706</citedRange></bibl>
+               <bibl><!-- Foucart 1881 --><ptr target="bib:b0928"/>, <citedRange>70</citedRange>
+               (= <bibl><!-- Syll. --><ptr target="bib:Syll.1"/> <citedRange>252</citedRange></bibl>)</bibl>
+               <bibl><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>I 185</citedRange></bibl>
+               <bibl><!-- Bechtel, SGDI --><ptr target="bib:b0518"/> <citedRange>III 1, 3087</citedRange></bibl>
+               <bibl><!-- Reinach 1890 --><ptr target="bib:b1011"/>, <citedRange>460</citedRange></bibl>
+               <bibl><!-- Michel, Recueil --><ptr target="bib:b0851"/> <citedRange>338</citedRange></bibl>
+               <bibl><!-- Syll.2 --><ptr target="bib:Syll.2"/> <citedRange>326</citedRange></bibl>
+               <bibl><!-- Minns 1913 --><ptr target="bib:b0336"/>, <citedRange>647, № 18</citedRange></bibl>
+               <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>352</citedRange></bibl>
+               <bibl><!-- Syll.3 --><ptr target="bib:Syll.3"/> <citedRange>709</citedRange></bibl>
+               <bibl><!-- Müller 2010 --><ptr target="bib:b0435"/>, <citedRange>381, № 16</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Blass 1881 --><ptr target="bib:b0929"/>, <citedRange>611, № 9</citedRange></bibl>
+               <bibl><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>IV, p. 278, ad №185</citedRange></bibl>
+               <bibl><!-- Крюгер 1925 --><ptr target="bib:b0930"/>, <citedRange>91</citedRange>
+               (= <bibl><!-- SEG --><ptr target="bib:SEG"/> <citedRange>3, 600</citedRange></bibl>)</bibl>
+               <bibl><!-- Жебелев 1938 --><ptr target="bib:b0931"/> 
+               (cf. <bibl type="comparison"><!-- Жебелев 1953 --><ptr target="bib:b0563"/>, <citedRange>82-115</citedRange></bibl>)</bibl>
+               <bibl><!-- Žébélev 1936 --><ptr target="bib:b0932"/></bibl>
+               <bibl><!-- Lurie 1959 --><ptr target="bib:b0725"/></bibl>
+               <bibl><!-- Казакевич 1963 --><ptr target="bib:b0933"/></bibl>
+               <bibl><!-- Дашевская 1964 --><ptr target="bib:b0934"/></bibl>
+               <bibl><!-- Соломоник 1977 --><ptr target="bib:b0935"/>
+               (= <bibl><!-- SEG --><ptr target="bib:SEG"/> <citedRange>27, 430</citedRange></bibl>)</bibl>
+               <bibl><!-- Rubinsohn 1980 --><ptr target="bib:b0936"/></bibl>
+               <bibl><!-- Chaniotis 1987 --><ptr target="bib:b0937"/></bibl>
+               <bibl><!-- Виноградов 1987 --><ptr target="bib:b0938"/>, <citedRange>69 сл.</citedRange>
+               (= <bibl><!-- BullEp. --><ptr target="bib:BE"/> <citedRange>1990, 582</citedRange></bibl>
+               cf. <bibl type="comparison">Vinogradov 1997, 547 сл.</bibl>)</bibl>
+               <bibl><!-- Boffo 1989 --><ptr target="bib:b0939"/></bibl>
+               <bibl><!-- Соломоник 1990 --><ptr target="bib:b0506"/>, <citedRange>21, № 11</citedRange></bibl>
+               <bibl><!-- Гаврилов 1992 --><ptr target="bib:b0940"/>
+               (= <bibl><!-- SEG --><ptr target="bib:SEG"/> <citedRange>42, 695</citedRange></bibl>)</bibl>
+               <bibl><!-- Виноградов 1994 --><ptr target="bib:b0452"/>, <citedRange>154, прим. 25</citedRange></bibl>
+               <bibl><!-- Gavrilov 1996 --><ptr target="bib:b0941"/>, <citedRange>151-159</citedRange></bibl>
+               <bibl><!-- Сапрыкин 1996 --><ptr target="bib:b0942"/>, <citedRange>132</citedRange></bibl>
+               <bibl><!-- Savalli-Lestrade 1998 --><ptr target="bib:b0943"/>, <citedRange>175</citedRange></bibl>
+               <bibl><!-- Трейстер 1999 --><ptr target="bib:b0509"/>, <citedRange>139, № 2 (23)</citedRange></bibl>
+               <bibl><!-- Avram 2005 --><ptr target="bib:b0944"/>, <citedRange>171</citedRange>
+               (= <bibl><!-- SEG --><ptr target="bib:SEG"/> <citedRange>55, 2119</citedRange></bibl>)</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+               <ab>
+               	<cb n="a"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΣΩ</orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name><seg part="F">ων</seg></name> 
+               		                   <persName type="attested"><name>Ζήθου</name></persName></persName> <w>εἶπαν</w>· 
+                                          <w>ἐπε<supplied reason="lost">ιδὴ</supplied></w> <persName type="attested"><name><supplied reason="lost">Διόφαντος</supplied></name> 
+                                          <persName type="attested"><name><supplied reason="lost">Ἀσκλ</supplied>α<supplied reason="lost">πι</supplied>οδώρου</name></persName> 
+                                          <placeName type="ethnic">Σινωπεὺς</placeName></persName> <w>φίλος</w> <supplied reason="lost"><w>μὲν</w> <w>καὶ</w></supplied>
+               		<lb n="3"/><supplied reason="lost"><w>εὐεργέτας</w> <w>ἁμῶν</w></supplied> <w>ἐών</w>, <w>πιστε<supplied reason="lost">υ</supplied>όμενος</w> 
+                                          <w>δὲ</w> <w>κα<supplied reason="lost">ὶ</supplied></w> <w><supplied reason="lost">τιμώμενος</supplied></w> 
+                                          <w><supplied reason="lost">οὐ</supplied>θενὸς</w> <w>ἧσσον</w> <w>ὑπὸ</w> <persName type="ruler" key="mithridates"><w>βασιλέος</w> <name>Μιθραδάτα</name> <name>Εὐπά
+               		<lb n="4" break="no"/><supplied reason="lost">τορος</supplied></name></persName> <w><unclear>δι</unclear>ὰ</w> <w>παντὸς</w> <w>ἀγαθοῦ</w> <w>παραίτιος</w> 
+                                          <w>γίνεται</w> <supplied reason="lost"><w>τᾶι</w> <w>πόλει</w></supplied> <w>ἁμῶν</w> <w>ἐπ<supplied reason="lost">ὶ</supplied></w> 
+                                          <w>τὰ</w> <w>κάλλιστα</w> <w>καὶ</w> <w>ἐνδοξότατα</w> <w>τὸν</w>
+               		<lb n="5"/><w><supplied reason="lost">βασ</supplied>ιλέα</w> <w>προτρεπόμενος</w>· <w>παρακληθεὶς</w> <w>δ’</w> <w>ὑπ’</w> 
+                                          <w>αὐτοῦ</w> <w><supplied reason="lost">καὶ</supplied></w> <w>τὸν</w> <w>ποτὶ</w> <placeName>Σκύθας</placeName> 
+                                          <w>πόλεμον</w> <w>ἀναδεξάμενος</w>
+               		<lb n="6"/><w><supplied reason="lost">καὶ</supplied></w> <w>παραγενόμενος</w> <w>εἰς</w> <w>τὰν</w> <w>πόλιν</w> <w>ἁμῶν</w> <w>ἐπάνδρως</w> 
+                                          <w>παντὶ</w> <w>τῶι</w> <w>στρατοπέδωι</w> <w>τὰν</w> <w>εἰς</w> <w>τὸ</w> <w>πέραν</w> <w>διάβα
+               		<lb n="7" break="no"/><supplied reason="lost">σι</supplied>ν</w> <w>ἐποήσατο</w>. <persName type="ruler" key="palacus"><name>Παλάκου</name> <w>δὲ</w> <w>τοῦ</w> <placeName>Σκυθᾶν</placeName> <w>βασιλεῖος</w></persName> 
+                                          <w>αἰφνιδίως</w> <w>ἐπιβαλόντος</w> <w>μετὰ</w> <w>ὄχλου</w> <w>πολλοῦ</w> <w>παρα
+               		<lb n="8" break="no"/><supplied reason="lost">τα</supplied>ξάμενος</w> <w>ἐν</w> <w>χρείαι</w> <w>τοὺς</w> <w>ἀνυποστάτους</w> 
+                                             <w>δοκοῦντας</w> <w>εἶμεν</w> <placeName>Σκύθας</placeName> <w>τρεψάμενος</w> <w>πρῶτον</w> <w>ἀπ’</w> <w>αὐ
+               		<lb n="9" break="no"/><supplied reason="lost">τῶ</supplied>ν</w> <w>ἐπόησε</w> <persName type="ruler" key="mithridates"><w>βασιλέα</w> 
+               		                      <name>Μιθραδάταν</name> <name>Εὐπάτορα</name></persName> 
+                                             <w>τρόπαιον</w> <w>ἀναστᾶσαι</w>· <w>τοὺς</w> <w>δὲ</w> <w>παροικοῦντας</w> <placeName type="ethnic">Ταύρους</placeName> 
+                                             <w>ὑ
+               		<lb n="10" break="no"/><supplied reason="lost">φ’</supplied></w> <w><supplied reason="lost">ἑ</supplied>αυτὸν</w> <w>ποησάμενος</w> 
+                                             <w>καὶ</w> <w>πόλιν</w> <w>ἐπὶ</w> <w>τοῦ</w> <w>τόπου</w> <w>συνοικίξας</w> <w>εἰς</w> <w>τοὺς</w> <w>κατὰ</w> 
+                                             <placeName>Βόσπορον</placeName> <w>τόπους</w> <w>ἐχωρί
+               		<lb n="11" break="no"/><supplied reason="lost">σθη</supplied></w> <w>καὶ</w> <w>πολλὰς</w> <w>καὶ</w> <w>μεγάλας</w> <w>ἐν</w> 
+                                             <w>ὀλίωι</w> <w>χρόνωι</w> <w>πράξεις</w> <w>ἐπιτελέσας</w> <w>πάλιν</w> <w>εἰς</w> <w>τοὺς</w> <w>καθ’</w> 
+                                             <w>ἁμὲ</w> <w>τόπους</w> <w><supplied reason="lost">ἐ</supplied>πέ
+               		<lb n="12" break="no"/><supplied reason="lost">στ</supplied>ρεψε</w> <w>καὶ</w> <w>παραλαβὼν</w> <w>τοῦς</w> <w>ἐν</w> <w>ἀκμᾶι</w> 
+                                             <w>τῶν</w> <w>πολιτᾶν</w> <w>εἰς</w> <w>μέσαν</w> <w>τὰν</w> <placeName>Σκυθίαν</placeName> <w>προῆλθε</w>. 
+                                             <w>παραδόντων</w> <w>δὲ</w>
+               		<lb n="13"/><w><supplied reason="lost">αὐτ</supplied>ῶι</w> <w>τὰ</w> <w>βασίλεια</w> <placeName>Χαβαίους</placeName> <w>καὶ</w> 
+                                             <placeName>Νέαν πόλιν</placeName> <w>σχεδὸν</w> <w>πάντας</w> <w>ὑπακόους</w> <w>συνέβα</w> <w>γενέσθαι</w>
+               		<lb n="14"/><persName type="ruler" key="mithridates"><w><supplied reason="lost">βα</supplied>σιλεῖ</w> <name>Μιθραδάται</name> 
+               		                   <name>Εὐπάτορι</name></persName>· <w>ἐφ’</w> <w>οἷς</w> <w>ὁ</w> <w>δᾶμος</w> <w>εὐχαριστῶν</w> <w>ἐτίμασε</w> 
+                                             <w>ταῖς</w> <w>καθηκούσαις</w> <w>αὐτὸν</w> <w>τιμαῖς</w>
+               		<lb n="15"/><w><supplied reason="lost">ὡ</supplied><unclear>ς</unclear></w> <w>ἀπολελυμένος</w> <w>ἤδη</w> <w>τᾶς</w> <w>τῶν</w> 
+                                             <w>βαρβάρων</w> <w>ἐπικρατείας</w>· <w>τῶν</w> <w>δὲ</w> <placeName>Σκυθᾶν</placeName> <w>τὰν</w> <w>ἔμφυτον</w>
+               		<lb n="16"/><w><supplied reason="lost">α</supplied>ὐτοῖς</w> <w>ἀθεσίαν</w> <w>ἐκφανῆ</w> <w>καταστασάντων</w> <w>καὶ</w> <w>τοῦ</w> 
+                                             <w>μὲν</w> <w>βασιλεῖος</w> <w>ἀποστάντων</w> <w>τὰ</w> <w>δὲ</w> <w>πρά
+               		<lb n="17" break="no"/><supplied reason="lost">γμ</supplied>ατα</w> <w>εἰς</w> <w>μεταβολὰν</w> <w>ἀγαγόντων</w>, <w>δι’</w> <w>ἃς</w> 
+                                             <w>αἰτίας</w> <persName type="ruler" key="mithridates"><w>βασιλεῖος</w> <name>Μιθραδάτα</name> 
+                                             <name>Εὐπάτορος</name></persName> <persName type="attested"><name>Διόφαντον</name></persName>
+               		<lb n="18"/><w><supplied reason="lost">πά</supplied>λιν</w> <w>ἐκπέμψαντος</w> <w>μετὰ</w> <w>στρατοπέδου</w> <w>καίπερ</w> 
+                                             <w>τοῦ</w> <w>καιροῦ</w> <w>συγκλείοντος</w> <w>εἰς</w> <w>χειμῶνα</w> <persName type="attested"><name>Διό
+               		<lb n="19" break="no"/><supplied reason="lost">φα</supplied>ντος</name></persName> <w>ἀναλαβὼν</w> <w>τοὺς</w> <w>ἰδίους</w> <w>καὶ</w> 
+                                             <w>τῶν</w> <w>πολιτᾶν</w> <w>τοὺς</w> <w>δυνατωτάτους</w> <w>ὥρμασε</w> <w>μὲν</w> <w>ἐπ’</w> <w>αὐτὰ</w>
+               		<lb n="20"/><w><supplied reason="lost">τὰ</supplied></w> <w><supplied reason="lost">β</supplied>ασίλεια</w> <w>τῶν</w> <placeName>Σκυθᾶν</placeName>, 
+                                             <w>κωλυθεὶς</w> <w>δὲ</w> <w>διὰ</w> <w>χειμῶνας</w> <w>ἐπιστρέψας</w> <w>ἐπὶ</w> <w>τὰ</w> <w>παραθαλάσσια</w> 
+                                             <placeName>Κερκινῖτιν</placeName>
+               		<lb n="21"/><w><supplied reason="lost">μὲν</supplied></w> <w>ἐλάβετο</w> <w>καὶ</w> <w>τὰ</w> <w>τείχη</w>, <w>τοὺς</w> <w>δὲ</w> <w>τὸν</w> 
+                                             <placeName>Καλὸν λιμένα</placeName> <w>κατοικοῦντας</w> <w>πολιορκεῖν</w> <w>ἐπεβάλετο</w>. 
+                                             <persName type="ruler" key="palacus"><name>Παλά
+               		<lb n="22" break="no"/><supplied reason="lost">κο</supplied>υ</name></persName> <w>δὲ</w> <w>συνεργεῖν</w> <w>τὸν</w> <w>καιρὸν</w> <w>ἑαυτῶι</w> 
+                                             <w>νομίζοντος</w> <w>καὶ</w> <w>συναγαγόντος</w> <w>τοὺς</w> <w>ἰδὶους</w> <w>πάντας</w>, <w>ἔτι</w> <w>δὲ</w>
+               		<lb n="23"/><w><supplied reason="lost">καὶ</supplied></w> <w>τὸ</w> <w>τῶν</w> <placeName type="ethnic">Ῥευξιναλῶν</placeName> <w>ἔθνος</w> 
+                                             <w>συνεπισπασαμένου</w>, <w>ἁ</w> <w>διὰ</w> <w>παντὸς</w> <placeName>Χερσονασιτᾶν</placeName> <w>προστατοῦσα</w>
+               		<lb n="24"/><persName type="divine" key="parthenos"><name><supplied reason="lost">Πα</supplied>ρθένος</name></persName>, <w>καὶ</w> <w>τότε</w> 
+                                             <w>συμπαροῦσα</w> <persName type="attested"><name>Διοφάντωι</name></persName>, <w>προεσάμανε</w> <w>μὲν</w> <w>τὰν</w> 
+                                             <w>μέλλουσαν</w> <w>γίνεσθαι</w> <w>πρᾶξιν</w>
+               		<lb n="25"/><w><supplied reason="lost">διὰ</supplied></w> <w><supplied reason="lost">τ</supplied>ῶν</w> <w>ἐν</w> <w>τῶι</w> <w>ἱερῶι</w> 
+                                             <w>γενομένων</w> <w>σαμείων</w>, <w>θάρσος</w> <w>δὲ</w> <w>καὶ</w> <w>τόλμαν</w> <w>ἐνεποίησε</w> <w>παντὶ</w> <w>τῶι</w> 
+                                             <w>στρατοπέ
+               		<lb n="26" break="no"/><supplied reason="lost">δωι</supplied></w>· <persName type="attested" key="mithridates"><name><supplied reason="lost">Δ</supplied>ιοφάντου</name></persName> <w>δὲ</w> <w>διαταξαμένου</w> <w>σωφρόνως</w>, <w>συνέβα</w> 
+                                             <w>τὸ</w> <w>νίκαμα</w> <w>γενέσθαι</w> <persName type="ruler"><w>βασιλεῖ</w> <name>Μιθ<supplied reason="lost">ρ</supplied>αδά
+               		<lb n="27" break="no"/><supplied reason="lost">ται</supplied></name> <name><supplied reason="lost">Εὐ</supplied>πάτορι</name></persName> 
+                                             <w>καλὸν</w> <w>καὶ</w> <w>μνάμας</w> <w>ἄξιον</w> <w>εἰς</w> <w>πάντα</w> <w>τὸν</w> <w>χρόνον</w>· <w>τῶν</w> <w>μὲγ</w> 
+                                             <w>γὰρ</w> <w>πεζῶν</w> <w>ἤτοι</w> <w>τις</w> <w>ἢ</w> <w>οὐ
+               		<lb n="28" break="no"/><supplied reason="lost">θεὶς</supplied></w> <w><supplied reason="lost">ἐσώ</supplied>θη</w>, <w>τῶν</w> <w>δὲ</w> 
+                                             <w>ἱππέων</w> <w>οὐ</w> <w>πολλοὶ</w> <w>διέφυγον</w>· <w>οὐδένα</w> <w>δὲ</w> <w>χρόνον</w> <w>ἀργὸν</w> 
+                                             <w>παρεὶς</w>, <w>παραλαβὼν</w>
+               		<lb n="29"/><supplied reason="lost"><w>τὸ</w> <w>στρατόπεδον</w></supplied>, <w><supplied reason="lost">ἄ</supplied><unclear>κ</unclear>ρου</w> 
+                                             <w>τοῦ</w> <w>ἔαρος</w> <w>ἐπὶ</w> <placeName>Χαβαίους</placeName> <w>καὶ</w> 
+                                             <placeName>Νέ<supplied reason="lost">αν</supplied> <supplied reason="lost">π</supplied>όλιν</placeName> <w>ἐλθὼν</w> 
+                                             <w>παντὶ</w> <w><supplied reason="lost">τῶι</supplied></w> <w><unclear>βά</unclear>ρ<unclear>ει</unclear></w>
+                <cb n="b"/>
+                         <lb n="30"/><gap reason="lost" extent="unknown" unit="character"/><orig>Σ</orig><gap reason="lost" quantity="1" unit="character"/><orig>Ω</orig><gap reason="lost" quantity="3" unit="character"/><orig>Ι</orig><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w>ὥστε</w> <w>τοὺς</w> <w>μὲν</w> <w>περὶ</w> 
+                                             <persName type="ruler" key="palacus"><name>Πάλακον</name></persName></supplied>
+               		<lb n="31"/><w><supplied reason="lost">δι</supplied><unclear>α</unclear>φυγεῖν</w>, <w>τοὺς</w> <w>δὲ</w> <w>λοιποὺς</w> 
+                                             <placeName type="ethnic">Σκύθας</placeName> <w>περὶ</w> <w>τῶν</w> <w>καθ’</w> <w>ἑαυτοὺ<supplied reason="lost">ς</supplied></w> 
+                                             <w><supplied reason="lost">παραδοῦναι</supplied></w> <w><supplied reason="lost">αὐ</supplied>
+               		<lb n="32" break="no"/>τῶι</w> <w>βουλεύσασθαι</w>· <w>εἴς</w> <w>τε</w> <w>τοὺς</w> <w>κατὰ</w> <placeName>Βόσπορον</placeName> 
+                                             <w>τόπους</w> <w>χωρισθε<supplied reason="lost">ὶ</supplied>ς</w> <w>καὶ</w> <w><supplied reason="lost">καταστα</supplied>
+               		<lb n="33" break="no"/>σάμενος</w> <w>καὶ</w> <w>τὰ</w> <w>ἔν<supplied reason="omitted">θ</supplied>ινα</w> <w>καλῶς</w> <w>καὶ</w> 
+                                             <w>συμφερόντως</w> <persName type="ruler" key="mithridates"><w>βασιλεῖ</w> <name>Μιθραδάτι</name> 
+                                             <name>Εὐπά<supplied reason="omitted">τορι</supplied></name></persName>,
+               		<lb n="34"/><w>τῶν</w> <w>περὶ</w> <persName type="attested"><name>Σαύμακον</name></persName> <placeName type="ethnic">Σκυθᾶν</placeName> 
+                                             <w>νεωτεριξάντων</w> <w>καὶ</w> <w>τὸν</w> <w>μὲν</w> <w>ἐκθρέψαντα</w> <w>αὐτὸν</w> <w><supplied reason="omitted">βα</supplied>
+               		<lb n="35" break="no"/>σιλέα</w> <placeName>Βοσπόρου</placeName> <persName type="ruler" key="pairisades"><name>Παιρισάδαν</name></persName> 
+                                             <w>ἀνελόντων</w>, <w>αὐτῶι</w> <w>δ’</w> <w>ἐπιβουλευσάντων</w>, <w>διαφ<supplied reason="omitted">υγὼν</supplied></w> 
+                                             <w><supplied reason="omitted">τὸν</supplied></w>
+               		<lb n="36"/><w>κίνδυνον</w> <w>ἐπέβα</w> <w>μὲν</w> <w>ἐπὶ</w> <w>τὸ</w> <w>ἀποσταλὲν</w> <w>ὑπὸ</w> <w>τῶν</w> <w>πολιτᾶν</w> 
+                                             <w>πλοῖον</w>, <w>παραγ<supplied reason="omitted">ενό</supplied>
+               		<lb n="37" break="no"/>μενος</w> <w>δ<supplied reason="omitted">ὲ</supplied></w> <w>καὶ</w> <w>παρακαλέσας</w> <w>τοὺς</w> <w>πολίτας</w>, 
+                                             <w>συνεργὸν</w> <w>πρόθυμον</w> <w>ἔχων</w> <w>τὸν</w> <w>ἐξ<supplied reason="omitted">απο</supplied>
+               		<lb n="38" break="no"/>στέλλοντα</w> <persName type="ruler" key="mithridates"><w><unclear>β</unclear>ασιλέα</w> 
+               		                      <name>Μ<supplied reason="omitted">ι</supplied>θραδάταν</name> <name>Εὐπάτορα</name></persName>, <w>παρῆν</w> <w>ἔχων</w> 
+                                             <w>ἄκρου</w> <w>τοῦ</w> <w>ἔαρος</w> <w>σ<supplied reason="omitted">τρα</supplied>
+               		<lb n="39" break="no"/>τόπεδον</w> <w>πεζικ<supplied reason="omitted">ό</supplied>ν</w> <w>τε</w> <w>καὶ</w> <w>ναυτικὸν</w>, 
+                                             <w>παραλαβὼν</w> <w>δὲ</w> <w>καὶ</w> <w>τῶν</w> <w>πολιτᾶν</w> <w>ἐπιλέ
+               		<lb n="40" break="no"/>κτους</w> <w>ἐμ</w> <w>πληρώμασι</w> <w>τρισὶ</w> <w>ὁρμαθεὶς</w> <w>ἐκ</w> <w>τᾶς</w> <w>πόλεος</w> 
+                                             <w>ἁμῶν</w> <w>παρέλαβ<supplied reason="omitted">ε</supplied></w>
+               		<lb n="41"/><w>μὲν</w> <placeName>Θεοδοσίαν</placeName> <w>καὶ</w> <placeName>Παντικάπαιον</placeName>, <w>τοὺς</w> <w>δὲ</w> 
+                                             <w>αἰτίους</w> <w>τᾶς</w> <w>ἐπαναστάσεο<supplied reason="omitted">ς</supplied></w>
+               		<lb n="42"/><w>τιμωρησάμενος</w> <w>καὶ</w> <persName type="attested"><name>Σαύμακον</name></persName> 
+                                             <w>τὸν</w> <w>αὐτόχειρα</w> <w>γεγονότα</w> <w>βασιλέος</w> <persName type="ruler" key="pairisades"><name>Παιρι 
+               		<lb n="43" break="no"/>σάδα</name></persName> <w>λαβὼν</w> <w>ὑποχείριον</w> <w>εἰς</w> <w>τὰν</w> <w>βασιλείαν</w> <w>ἐξαπέστειλε</w>, 
+                                             <w>τὰ</w> <w>δὲ</w> <w>πράγματα</w> <w>ἀ
+               		<lb n="44" break="no"/>νεκτ<unclear>ά</unclear>σατο</w> <persName type="ruler" key="mithridates"><w>βασιλεῖ</w> <name>Μιθραδάται</name> 
+               		                      <name>Εὐπάτορι</name></persName>· <w>ταῖς</w> <w>τε</w> <w>πρεσβείαις</w> <w>ταῖς</w> <w>ἀποστελ
+               		<lb n="45" break="no"/>λομέναις</w> <w>ὑπὸ</w> <w>τοῦ</w> <w>δάμου</w> <w>συνεργῶν</w> <w>εἰς</w> <w>πᾶν</w> <w>τὸ</w> 
+                                             <w>συμφέ<supplied reason="omitted">ρ</supplied>ον</w> <placeName type="ethnic">Χερσονασίταις</placeName> <w>εὔ
+               		<lb n="46" break="no"/>νουν</w> <w>ἑαυτὸν</w> <w>καὶ</w> <w>φιλότιμον</w> <w>παρέχεται</w>· <w>ὅπως</w> <w>οὖν</w> <w>καὶ</w> 
+                                             <w>ὁ</w> <w>δᾶμος</w> <w>τοῖς</w> <w>εὐεργέταις</w>
+               		<lb n="47"/><w>ἑαυτοῦ</w> <w>τὰς</w> <w>καθηκούσας</w> <w>φαίνηται</w> <w>χάριτας</w> <w>ἀποδιδοὺς</w>, <w>δεδόχθαι</w> <w>τᾶι</w> <w>βου
+               		<lb n="48" break="no"/>λᾶι</w> <w>καὶ</w> <w>τῶι</w> <w>δάμωι</w> <w>στεφανῶσαι</w> <persName type="attested"><name>Διόφαντον</name> 
+               		                   <persName type="attested"><name>ʼΑσκλαπιοδώρου</name></persName></persName> <w>χρυσέωι</w> <w>στεφά
+               		<lb n="49" break="no"/>νωι</w> <persName type="divine" key="parthenos"><name>Παρθενεῖοις</name></persName> <w>ἐν</w> <w>τᾶι</w> <w>πομπᾶι</w>, 
+                                             <w>τὸ</w> <w>ἀνάγγελμα</w> <w>ποιουμένων</w> <w>τῶν</w> <w>συμμναμόνων</w>
+               		<lb n="50"/><w>ὁ</w> <w>δᾶμος</w> <w>στεφανοῖ</w> <persName type="attested"><name>Διόφαντον</name> 
+               		                   <persName type="attested"><name>Ἀσκλαπιοδώρου</name></persName> <placeName type="ethnic">Σινωπέα</placeName></persName> 
+                                             <w>ἀρετᾶς</w> <w>ἕνεκα</w> <w>καὶ</w> <w>εὐνο<supplied reason="omitted">ί</supplied>
+               		<lb n="51" break="no"/>ας</w> <w>τᾶς</w> <w>εἰς</w> <w>αὐτὸν</w>· <w>σταθῆμεν</w> <w>δὲ</w> <w>αὐτοῦ</w> <w>καὶ</w> <w>εἰκόνα</w> 
+                                             <w>χαλκέαν</w> <w>ἔνοπλον</w> <w>ἐν</w> <w>τᾶι</w> <w>ἀκροπό
+               		<lb n="52" break="no"/>λε<supplied reason="omitted">ι</supplied></w> <w>παρὰ</w> <w>τὸν</w> <w>τᾶς</w> 
+                                             <persName type="divine" key="parthenos"><name>Παρθένου</name></persName> <w>βωμὸν</w> <w>καὶ</w> <w>τὸν</w> <w>τᾶς</w> 
+                                             <placeName>Χερσονάσου</placeName>, <w>περὶ</w> <w>δὲ</w> <w>τούτων</w> <w>ἐπιμε
+               		<lb n="53" break="no"/>λὲ<supplied reason="omitted">ς</supplied></w> <w>γενέσθαι</w> <w>τοῖς</w> <w>ἐπιγεγραμμένοις</w> <w>ἄρχουσι</w>, 
+                                             <w>ὅπως</w> <w>ὅτι</w> <w>τάχιστα</w> <w>καὶ</w> <w>κάλλιστα</w>
+               		<lb n="54"/><w>γένηται</w>· <w>ἀναγράψαι</w> <w>δὲ</w> <w>καὶ</w> <w>τὸ</w> <w>ψάφισμα</w> <w>εἰς</w> <w>τὰν</w> <w>βάσιν</w> 
+                                             <w>τοῦ</w> <w>ἀνδριάντος</w>, <w>τὸ</w> <w>δὲ</w> <w>εἰς</w>
+               		<lb n="55"/><w>ταῦτα</w> <w>γενόμενον</w> <w>ἀνάλωμα</w> <w>δόμεν</w> <w>τοὺς</w> <w>ταμίας</w> <w>τῶν</w> <w>ἱερῶν</w>· 
+                                             <w>ταῦτα</w> <w>ἔδοξε</w> <w>βουλ<unclear>ᾶ</unclear><supplied reason="omitted">ι</supplied></w>
+               		<lb n="56"/><w>καὶ</w> <w>δάμωι</w> <w>μηνὸς</w> <rs type="month" ref="dionysios"><w>Διονυσίου</w></rs> <w>ἐννεακαιδεκάται</w>, <w>βασιλεύοντος</w> 
+                                             <persName type="attested"><name>Ἀγέλα</name> <w>τοῦ</w> <persName type="attested"><name>Λ<supplied reason="omitted">α</supplied>
+               		<lb n="57" break="no"/>γορίνου</name></persName></persName>, <w>προαισυμνῶντος</w> <persName type="attested"><name>Μήνιος</name> 
+               		                   <w>τοῦ</w> <persName type="attested"><name>Ἡρακλείου</name></persName></persName>, <w>γραμματεύοντος</w> 
+                                             <persName type="attested"><name>Δαμ<supplied reason="omitted">ασι</supplied>
+               		<lb n="58" break="no"/><supplied reason="omitted">κλ</supplied>εῖος</name> <w>το<unclear>ῦ</unclear></w> 
+                                          <persName type="attested"><name>Ἀ<unclear>θ</unclear>ανα<unclear>ί</unclear>ου</name></persName></persName>  
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2-3">
+                  <rdg source="bib:b0928">[μὲν καὶ / εὐεργέτας] ὢν</rdg>
+                  <rdg source="bib:IOSPE">[μὲν καὶ εὐεργέτας ἁμῶν ἐ]ὼν</rdg>
+                  <rdg>ἐὼν scripsi <note>sec. lap.</note></rdg>
+               </app>
+               <app loc="4">
+                  <rdg source="bib:b0930">τ̣ᾶ̣[ι πόλει ἁ]μῶν</rdg>
+                  <rdg>[τᾶι πόλει] ἁμῶν <note>scripsi sec. lap.</note></rdg>
+                  <rdg>[ἑκάστωι] ἁμῶν <note>edd.</note></rdg>
+               </app>
+               <app loc="11">
+                  <rdg>ὀλίωι = ὀλίγωι</rdg>
+               </app>
+               <app loc="21">
+                  <rdg source="bib:Syll.1 bib:b0518"><note>in.:</note> [κατ]ελάβετο</rdg>
+                  <rdg source="bib:IOSPE">Τείχη</rdg>
+               </app>
+               <app loc="28">
+                  <rdg source="bib:b0929"><note>in.:</note> <note>suppl.</note></rdg>
+               </app>
+               <app loc="29">
+                  <rdg source="bib:IOSPE"><note>fin.:</note> [τῶι βα]ρ[εῖ]</rdg>
+                  <rdg source="bib:b0518">τῶι βάρει <note>(«nach L.’s Zeichnung»)</note></rdg>
+               </app>
+               <app loc="30-31">
+                  <rdg source="bib:b0725">τοὺς μὲν [περὶ Πάλακον Σκύθας <note>vel sim.</note>] φυγεῖν</rdg>
+               </app>
+               <app loc="30-32">
+                  <rdg source="bib:b0938">τοὺς μὲν [περὶ Πάλακον δι]αφυγεῖν, τοὺς δὲ λοιποὺς Σκύθας περὶ τῶν καθ’ ἑαυτο[ὺς πραγμάτων σὺν αὐ]/τῶι 
+                     (<note>sc.</note> Διοφάντωι) βουλεύσασθαι <note>(cf. Виноградов 1994, 154)</note></rdg>
+               </app>
+               <app loc="31">
+                  <rdg source="bib:Syll.3"><note>in.:</note> [δι]αφυγεῖν <note>suppl. (Hiller v. Gärtringen)</note></rdg>
+                  <rdg source="bib:IOSPE2">[- - -]φυγεῖν</rdg>
+                  <rdg>[δι]α̣φυγεῖν <note>scripsi</note></rdg>
+                  <rdg><note>fin.:</note> [παραδοῦναι] <note>supplevi</note></rdg>
+                  <rdg source="bib:b0940"><note>fin./32:</note> καθ’ ἑαυτοὺ[ς σπείσασθαι vel συμβαλέσθαι vel διομολογεῖν αὐ]τῶι vel καθ’ 
+                     ἑαυτοὺ[ς σπεῖσαι Διοφάν]τωι βουλεύσασθαι</rdg>
+               </app>
+               <app loc="33">
+                  <rdg>ΕΝΟΝΝΑ <note>lap.</note></rdg>
+                  <rdg source="bib:b0929">ἔν<supplied reason="omitted">θ</supplied>ινα <note>corr.</note></rdg>
+               </app>
+               <app loc="34">
+                  <rdg source="bib:b0940"><note>fin./35:</note> αὐτὸν [τὸν (?) βα]/σιλέα vel αὐτὸν [ποτε (?) βα]/σιλέα</rdg>
+               </app>
+               <app loc="35">
+                  <rdg source="bib:b0938">διαφθ[άσας]</rdg>
+                  <rdg source="bib:b0940">διαφε̣ύ̣[γων]</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>a. [ - - - (сын)] Зета, предложили: поскольку Диофант, сын Асклепиодора, синопеец, являясь нашим другом и [благодетелем], пользуясь, 
+               как никто другой, доверием и [почетом] со стороны царя Митридата Евпатора, постоянно оказывается для нашего [города] виновником блага, 
+               склоняя царя к прекраснейшим и славнейшим деяниям; будучи же призван им и приняв на себя войну против скифов, он прибыл в наш город и 
+               отважно совершил со всем войском переправу на ту сторону; а когда скифский царь Палак внезапно напал на него с большим полчищем, он, 
+               по необходимости вступив в сражение, обратил в бегство скифов, считавшихся до тех пор непобедимыми, и сделал так, что царь Митридат Евпатор 
+               первым воздвиг трофей в знак победы над ними. Подчинив себе соседних тавров и основав в этой местности город, он отправился на Боспор и, 
+               совершил там много великих дел за короткое время. Снова вернувшись в наши края и взяв с собой граждан цветущего возраста, он выступил вглубь Скифии. 
+               После тоги как скифы сдали ему царские крепости Хабеи и Неаполь, почти все они подчинились царю Митридату Евпатору. В благодарность за это 
+               народ почтил его подобающими почестями, (считая), что уже освобожден от власти варваров. Но когда скифы обнаружили врожденное им вероломство, 
+               отказавшись подчиняться царю и изменив положение дел, царь Митридат Евпатор по этой причине снова направил Диофанта с войском в Херсонес. 
+               Диофант, хотя время склонялось к зиме, взяв своих воинов и сильнейших из граждан, двинулся прямо на царские крепости скифов, однако из-за непогоды 
+               повернул к побережью, захватил Керкинитиду и крепости и приступил к осаде жителей Прекрасной Гавани (Калос Лимена).</p>
+            <p>Когда же Палак, полагая, что ему содействует благоприятный момент, собрал всех своих, а также привлек на свою сторону племя ревксиналов, 
+               Дева, всегда покровительствующая херсонеситам, и в тот раз, помогая Диофанту, предзнаменовала предстоящее деяние посредством случившихся в 
+               храме знамений, и внушила смелость и отвагу всему войску. Поскольку Диофант разумно расположил войско, царю Митридату Евпатору досталась 
+               славная и достойная памяти на все времена победа: из пехоты почти никто не спасся, а из всадников убежали лишь немногие. Он же, не теряя времени 
+               в бездействии, в начале весны выступив с войском на Хабеи и Неаполь - - -</p>
+            <p>b. - - - так что (одни) - - - бежали, а остальные скифы [передали ему (право)] принимать решения относительно их дел. Отправившись на Боспор, 
+               он устроил тамошние дела прекрасно и полезно для царя Митридата Евпатора. Когда же скифы во главе с Савмаком произвели государственный 
+               переворот и убили воспитавшего его Перисада, царя Боспора, а против него самого составили заговор, он, избежав опасности, сел на отправленный 
+               (херсонесскими) гражданами корабль; посетив (Херсонес) и призвав на помощь граждан, он, имея ревностное содействие со стороны отправившего 
+               его царя Митридата Евпатора, прибыл в начале весны с сухопутным и морским войском; получив также отборных из граждан на трех кораблях и 
+               выдвинувшись из нашего города, он захватил Феодосию и Пантикапей и, покарав виновников восстания, – причем Савмака, убийцу царя Перисада, 
+               он, пленив, отправил в царство (Митридата), – восстановил владения царя Митридата Евпатора.</p>
+            <p>Также  он, содействуя отправляемым народом посольствам во всем полезном, являет себя доброжелательным и щедрым по отношению к херсонеситам; 
+               итак, с тем чтобы было очевидно, что и народ воздает подобающую благодарность своим благодетелям, пусть Совет и Народное собрание постановят: 
+               увенчать Диофанта, сына Асклепиодора, золотым венком на Парфениях во время процессии, при этом симмнамоны должны провозгласить: 
+               "Народ награждает венком Диофанта, сына Асклепиодора, синопейца, за доблесть и благосклонность по отношению к себе"; поставить также его 
+               медную статую в доспехах на акрополе рядом с алтарем Девы и Херсонас, и пусть вышеуказанные должностные лица позаботятся, чтобы это было 
+               сделано как можно скорее и лучше; записать это постановление на пьедестале статуи, а средства на это пусть выдадут казначеи священных сумм.</p>
+            <p>Это решено Советом и народом в девятнадцатый день месяца Дионисия, при царе Агеле сыне Лагорина, при председателе эсимнетов Мении, 
+               (сыне) Гераклия, при секретаре Дамаскиле, (сыне) Афинея.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Col. a: [--- and ---, son of] Zethos proposed: since Diophantos, (son of) Asklapiodoros, citizen of Sinope, being a good man and our benefactor, 
+            trusted and honoured like no other by king Mithridates, is always a force for good for our city, urging the king towards the most noble and highly reputable deeds.
+            Summoned by him and taking up the war against the Scythians, he arrived in our city and bravely made a crossing to the other side with the whole army. And when Palakos,
+            king of Scythians, attacked suddenly, with a large host, he by necessity drew up in battle order, and turning to flight the Scythians who had been considered to be irresistible,
+           caused king Mithridates Eupator to be the first to set up a trophy over them. Subduing the neighbouring Taurians and establishing (as synoikia) a city in that place, 
+            he departed to the places of Bosporus, where in a short period of time he accomplished many and great things and returned again to our parts. Taking those of the citizens
+            who were in their prime, he then proceeded into the Scythian hinterland. And when they turned over to him the kingly possessions, Chabai and Neapolis, it came to pass
+            that almost all became subjects to king Mithridates Eupator. For which (deeds), the grateful People honoured him with fitting honours, as if they had now been freed
+            from the dominion of barbarians. But when the Scythians had made plain their inborn faithlessness, revolted from the king and changed the situation, and king Mithridates Eupator
+            for these reasons sent Diophantos out again with the army, and moreover since the season was closing in towards winter, Diophantos took up his men and the strongest of the
+            citizens and started off against those royal (possessions) of the Scythians, but prevented by winter, he turned towards the coastal area and took Kerkinitis and its 
+            strongholds and set upon besieging the inhabitants of Kalos Limen.</p>
+            <p>When Palakos believed the timing to be on his side and gathered his men, and even brought along with him the tribe of Reuxinaloi, then Parthenos who has always
+               been the guardian of Chersonesites, coming at that time to help Diophantos, foreshadowed the action that was about to take place through the signs taking
+               place in her sanctuary, and instilled courage and daring in the whole army. Because Diaphantos had positioned his troops wisely, a beautiful victory, worthy of 
+               eternal memory, came to pass for king Mithridates Eupator. Of the (enemy) foot soldiers, virtually no one was saved, and not many of the cavalry escaped. Passing no
+               lazy moment, but taking up the army, he went, at the beginning of spring, against Chabai and Neapolis - - -</p>
+            <p>[- - -] so that some around Palakos fled, while other Scythians, on account of these (events), turned over to him the power to rule as king. Departing for the places
+            around Bosporus, he arranged the local affairs well and profitably for king Mithridates Eupator; but when the Scythians who were with Saumakos made an attempt at political changes 
+            and killed the king of Bosporus Pairisadas who had raised him, at the same time as they plotted against his own person, he, to avoid danger, embarked upon a ship sent by the 
+            citizens (of Chersonesos). Appearing by the side of and calling upon the citizens (of Chersonesos), and having an eager support of king Mithridates Eupator who had sent him,
+            he arrived at the beginning of spring with ground troops and a fleet, and in addition taking along the chosen citizens in three vessels and setting out from our city, 
+            he took Theodosia and Pantikapaion. And he took vengeance on those responsible for the revolt, and taking Saumakos who had been the murderer of king Pairisadas prisoner, he 
+            sent him off to the kingdom (of Mithridates) and restored the affairs for king Mithridates Eupator.</p>
+            <p>In addition, assisting in everything beneficial in the embassies sent by the People, he renders himself friendly and kindly towards the Chersonesites. Therefore, so 
+            that indeed the People may be seen to be returning proper thanks to its benefactors, the Council and the People shall deem it good to crown Diophantos, (son of) 
+            Asklapiodoros, with a golden crown, in the Parthenia festival, during the procession, with the summnamones making a proclamation: the People crowns Diophantos, 
+            (son of) Asklapiodoros, the Sinopean, on account of his courage and goodwill towards it: also to set a bronze statue of him in armour on the acropolis by the altar 
+            of Parthenos and that of Chersonasos; and the said officials shall take care of these things, so that they happen in the quickest and best way possible. The decision
+            shall be inscribed on a statue base, and the treasurers of the sacred funds shall disburse sums for the incurred expense. This was decided by the Council and the People
+            on the 19th of the month of Dionysios, in the reign of Agelas, (son of) Lagorinos, when Menios, (son of) Herakleios, was chairman of aisymnetai, and Damasikleios, (son of) 
+            Athanaios, was secretary.</p>
+
+        </div>
+         <div type="commentary" xml:lang="ru">
+            <p>35: διαφθ[άσας] (на основании недостаточно надежного эстампажа К.К. Косцюшко-Валюжинича) - Виноградов 1987</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

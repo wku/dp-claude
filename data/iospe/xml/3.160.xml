@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надпись на постаменте статуи Аристона, сына Аттины</title>
+            <title xml:lang="en">Statue identification with honours for Ariston, son of Attinas</title>
+            <editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.481</idno><idno type="PE">PE3000539</idno><idno type="filename">3.160</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3341</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3341</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc21">
+                     <seg xml:lang="ru">Почетная надпись.</seg>
+                     <seg xml:lang="en">Honorific inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon12">Постамент.</objectType>
+                           <objectType xml:lang="en">Base.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Сохранился почти полностью. Несколько отколовшихся фрагментов нижней правой части соединяются в контакте. 
+                              На горизонтальной поверхности имеются два углубления для ступней статуи. 
+                              На лицевой стороне постамента вырезаны десять венков (пять вверху и пять внизу) с надписями различной длины. 
+                              Над венками имеется однострочная надпись, выполненная более крупными буквами. 
+                              Внизу под венками следы другой однострочной надписи. Буквы во многих местах серьезно повреждены сколами и потертостями.</p>
+                           <p xml:lang="en">Almost fully preserved. </p>
+                           <dimensions>
+                              <height unit="cm">33,0</height>
+                              <width unit="cm">69,0</width>
+                              <depth unit="cm">77,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с ломаной перекладиной, пи с равными вертикалями и выходящей за их пределы горизонталью, 
+                           сигма с горизонтальными верхней и нижней гастами и пересекающимися наклонными, омега, приподнятая над строкой на 
+                           вертикальных линиях, незначительное апицирование.</seg>
+                        <seg xml:lang="en">Alpha with broken crossbar, pi with even verticals and extended horizontal; light serifs.</seg>
+                        <height unit="cm">0,8</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес Таврический.</seg>
+                        <seg xml:lang="en">Chersonesos</seg>
+                     </origPlace>
+                     <origDate notBefore="0138" notAfter="0138" precision="medium" evidence="Исторический_контекст просопография">
+                        <seg xml:lang="ru">около 138 г. н.э.</seg>
+                        <seg xml:lang="en">ca. 138 C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Найден в 1881 г. (НА НЗХТ, д. 37, л. 16; ср. Юргевич 1883, 2).</rs>
+                        <rs type="context">в центральной части Херсонеса, на углу Главной и 3-й 
+                           Поперечной улицы (около «древнего водопровода»).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1881 (НА НЗХТ, д. 37, л. 16; ср. Юргевич 1883, 2).</rs>
+                        <rs type="context">Central part of Chersonesos, corner of the Main and 3rd cross street (near the "ancient aqueduct").</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+                  </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-03-06" who="PY">encoded Leiden and metadata</change>
+         <change when="2016-11-28" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.481">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Юргевич 1883b --><ptr target="bib:b0986"/>, <citedRange>2</citedRange>
+               (= <bibl><!-- Jurgiewicz 1883a -->, <ptr target="bib:b0887"/> <citedRange>89</citedRange></bibl>)</bibl>
+               <bibl><!-- Loewy 1885 --><ptr target="bib:b0970"/>, <citedRange>237, № 337</citedRange> (cf. ibid., XXV, zu n. 337)</bibl>
+               <bibl><!-- Латышев 1884 --><ptr target="bib:b0811"/>, <citedRange>37</citedRange>
+               (= <bibl><!-- Latychew 1885 --><ptr target="bib:b0812"/>, <citedRange>267</citedRange></bibl>)</bibl>
+               <bibl><!-- IOSPE I 199 --><ptr target="bib:IOSPE"/> <citedRange>I 199</citedRange> 
+                  <!-- attention IOSPE I 199 (IGR I 865; Marcadé, Recueil I, 55 (SEG 13, 416)) -->
+                  (= <bibl><!-- IGR I 865 --><ptr target="bib:IGR"/> <citedRange>I 865</citedRange></bibl>
+                  <bibl><!-- Marcadé, Recueil I, 55 --><ptr target="bib:b0971"/> <citedRange>I, 55</citedRange> 
+                     (= <bibl><!-- SEG 13, 416 --><ptr target="bib:SEG"/> <citedRange>13, 416</citedRange></bibl>))</bibl>
+               </bibl>
+               <bibl><!-- IOSPE I2 423 --><ptr target="bib:IOSPE2"/> <citedRange>423</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- IOSPE --><ptr target="bib:IOSPE"/>, <citedRange>IV p. 280, ad № 199</citedRange></bibl>
+               <bibl><!-- Minns 1913 --><ptr target="bib:b0336"/>, <citedRange>648, № 19</citedRange></bibl>
+               <bibl><!-- Кадеев 1981 --><ptr target="bib:b0472"/>, <citedRange>25</citedRange></bibl>
+               <bibl><!-- Соломоник 1990 --><ptr target="bib:b0506"/>, <citedRange>42, № 33</citedRange></bibl>
+               <bibl><!-- Tрейстер 1999 --><ptr target="bib:b0509"/>, <citedRange>139, 3(24)</citedRange></bibl>
+               <bibl><!-- Habicht 2001 --><ptr target="bib:b0972"/>, <citedRange>12, 14</citedRange></bibl>
+               <bibl><!-- Habicht 2002 --><ptr target="bib:b0973"/>, <citedRange>14</citedRange></bibl>
+               <bibl><!-- Макаров 2013 --><ptr target="bib:b0956"/>, <citedRange>110</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="inscription">
+            <ab>
+                  <lb n="1"/><persName type="attested"><name>Ἀρίστωνα</name> 
+               <persName type="attested"><name>Ἀττίνα</name></persName></persName> 
+               <w>τὸν</w> <w>φιλόπατριν</w>.
+            </ab>
+            </div>
+         <div type="textpart" subtype="corona" n="cor.1">
+            <ab>        
+               <lb n="2"/><w>πρεσ
+               <lb n="3" break="no"/>βεύοντα</w>
+               <lb n="4"/><w>ὑπὲρ</w> <w>τὰς</w> <w>ἐ
+               <lb n="5" break="no"/>λευθερίας</w> <w>πο
+               <lb n="6" break="no"/>τὶ</w> <w>τὸν</w> <w>θεὸν</w> <persName type="emperor"><name>Σε
+               <lb n="7" break="no"/>βαστὸν</name></persName> <w>ἐξα
+               <lb n="8" break="no"/>ετίαν</w> <w>κα<supplied reason="lost">ὶ</supplied></w> <w>ἀ
+               <lb n="9" break="no"/>ποκαμόν
+               <lb n="10" break="no"/>τα</w>.
+            </ab>
+         </div>
+          <div type="textpart" subtype="corona" n="cor.2">
+             <ab>
+               <lb n="11"/><w>προ<supplied reason="lost">δ</supplied>ική
+               <lb n="12" break="no"/>σαντα</w>.
+             </ab>
+          </div>
+         <div type="textpart" subtype="corona" n="cor.3">
+            <ab>               
+               <lb n="13"/><w>νομοφυ
+               <lb n="14" break="no"/>λακήσαν
+               <lb n="15" break="no"/>τα</w>.
+            </ab>
+         </div>
+         <div type="textpart" subtype="corona" n="cor.4">
+            <ab>
+               <lb n="16"/><w>δαμιορ
+               <lb n="17" break="no"/>γήσαντα</w>
+               <lb n="18"/><w>καλῶς</w>.
+            </ab>
+         </div>
+         <div type="textpart" subtype="corona" n="cor.5">
+            <ab>
+               <lb n="19"/><w>πρεσ
+               <lb n="20" break="no"/>βεύσαντα</w>
+               <lb n="21"/><w>ποτὶ</w> <w>βασι
+               <lb n="22" break="no"/>λέα</w> <persName type="ruler" key="rhoem"><name>Ῥοιμητά<supplied reason="omitted">λ</supplied>καν</name></persName> 
+               <w>περὶ</w> <w>συ<supplied reason="lost">μ</supplied>
+               <lb n="23" break="no"/>μαχίας</w> <w>κα<supplied reason="lost">ὶ</supplied></w>
+               <lb n="24"/><w>ἐπιτετε<supplied reason="lost">υ</supplied>
+               <lb n="25" break="no"/>χότα</w>.
+            </ab>
+         </div>
+         <div type="textpart" subtype="corona" n="cor.6">
+            <ab>
+               <lb n="26"/><w>ἱερα
+               <lb n="27" break="no"/>τεύσαν
+               <lb n="28" break="no"/>τα</w> <w>καλῶς</w>
+               <lb n="29"/><w>καὶ</w> <w>ἰκόνι</w>
+               <lb n="30" break="no"/><w>χαλκέᾳ</w>.
+            </ab>
+         </div>
+         <div type="textpart" subtype="corona" n="cor.7">
+            <ab>
+               <lb n="31"/><w>διοι<supplied reason="lost">κ</supplied>ήσαν
+               <lb n="32" break="no"/>τα</w> <w>καὶ</w> <w>φωτί
+               <lb n="33" break="no"/>σαντα</w> <w>χρή
+               <lb n="34" break="no"/>ματα</w> <w><supplied reason="lost">τ</supplied>ᾶι</w>
+               <lb n="35"/><w>πόλει</w>.
+            </ab>
+         </div>
+         <div type="textpart" subtype="corona" n="cor.8">
+            <ab>
+               <lb n="36"/><w>πρεσ
+               <lb n="37" break="no"/>βεύσαντα</w> 
+               <lb n="38"/><w>ποτὶ</w> <w>βα<supplied reason="lost">σ</supplied>ιλέ
+               <lb n="39" break="no"/>α</w> <persName type="ruler" key="rhoem"><name>Ῥοιμητάλ
+               <lb n="40" break="no"/>καν</name></persName> <w>τὸ</w> <w>δεύτε
+               <lb n="41" break="no"/>ρον</w> <w>κα<supplied reason="lost">ὶ</supplied></w> <w><supplied reason="lost">ἐ</supplied>πι
+               <lb n="42" break="no"/>τετευχό
+               <lb n="43" break="no"/>τα</w>.
+            </ab>
+         </div>
+         <div type="textpart" subtype="corona" n="cor.9">
+            <ab>
+               <lb n="44"/><w>δαμιορ
+               <lb n="45" break="no"/>γήσαντα</w>
+               <lb n="46"/><w>καὶ</w> <w>εἰκόνι</w>
+               <lb n="47"/><w>τελ<unclear>εία</unclear><supplied reason="lost">ι</supplied></w>.
+            </ab>
+         </div>
+         <div type="textpart" subtype="corona" n="cor.10">
+            <ab>
+               <lb n="48"/><w>πολ<supplied reason="lost">ε</supplied>ιτευ 
+               <lb n="49" break="no"/><supplied reason="lost">ο</supplied>μενον</w> <w>κα
+               <lb n="50" break="no"/><supplied reason="lost">λ</supplied>ῶς</w>.
+            </ab></div>
+            <div type="textpart" subtype="inscription">
+              <ab><lb n="51"/><persName type="attested"><name>Κηφισόδοτος</name></persName> 
+               <w><supplied reason="lost">ἐ</supplied>π<supplied reason="lost">οί</supplied>ησε</w>
+            </ab></div>
+         </div> 
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg source="bib:b0811">Ἀ[τ]τινᾶ</rdg>
+                  <rdg source="bib:IOSPE">Ἀττινᾶ</rdg>
+                  <rdg source="bib:IOSPE2"><note>corr.</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Аристона, сына Аттины, любящего отечество.</p>
+            <p>1. В течение шести лет находившегося в посольстве к богу Августу по поводу свободы (Херсонеса) и скончавшегося.</p>
+            <p>2. Исполнившего должность продика.</p>
+            <p>3. Исполнившего должность номофилака.</p>
+            <p>4. Прекрасно исполнившего дамиургию.</p>
+            <p>5. Бывшего послом к царю Реметалку по поводу военной помощи и добившегося успеха.</p>
+            <p>6. Прекрасно исполнившего должность жреца (народ наградил венком) и медным изображением.</p>
+            <p>7. Исполнившего должность диойкета и изыскавшего (?) денежные средства для полиса.</p>
+            <p>8. Бывшего послом к царю Реметалку во второй раз и добившегося успеха.</p>
+            <p>9. Прекрасно исполнившего дамиургию (народ наградил венком) и изображением в полный рост.</p>
+            <p>10. Прекрасного гражданина.</p>
+            <p>Изготовил Кефисодот.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Ariston, (son of) Attinas, lover of his fatherland</p>
+            <p>1. Who was ambassador for six years to the god Augustus regarding the freedom (of Chersonesos) and died.</p>
+            <p>2. Who had served as prodikos.</p>
+            <p>3. Who had served as nomophylax.</p>
+            <p>4. Who had fulfilled public duty well.</p>
+            <p>5. Who went on an embassy to king Roimetalkas about military aid and succeeded.</p>
+            <p>6. Who served as priest well and (was awarded a crown) and bronze image.</p>
+            <p>7. Who had served as dioiketes and revealed (?) money for the polis.</p>
+            <p>8. Who went on an embassy to king Roimetalkas for a second time and succeeded.</p>
+            <p>9. Who had fulfilled public duty well and (was awarded a crown) and life-size statue.</p>
+            <p>10. Who had been a fine citizen.</p>
+            <p>Kephisodotos made (this).</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Ошибочные чтения и дополнения ed. pr., исправленные в Латышев 1884 и IOSPE, не указываются.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

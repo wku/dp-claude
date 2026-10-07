@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент надписи</title><title xml:lang="en">Incertum</title>
+            <editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.58</idno>
+            <idno type="filename">1.48</idno>
+            <idno type="PE">PE1000058</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc22">
+                     <seg xml:lang="ru">Incertum.</seg>
+                     <seg xml:lang="en">Incertum.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon6">Блок.</objectType>
+                           <objectType xml:lang="en">Block.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк белый.</material>
+                           <material xml:lang="en">Limestone, white.</material>
+                           <p xml:lang="ru">Фрагмент блока, который, вероятно, служил перекрытием двери. 
+                              Один край закруглен. Оббит справа и слева.</p>
+                           <p xml:lang="en">Fragment of a block that probably served as a lintel of a doorframe. One end is rounded. Broken off on the right and left. 
+                              Размеры приводятся по данным Кочубинского.
+                           </p>
+                           <dimensions><!-- По данным Кочубинского -->
+                              <height unit="cm">35,0</height>
+                              <width unit="cm">70,0</width>
+                              <depth unit="cm">53,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Оббито справа и слева.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. Broken off on the right and left.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны довольно тщательно, украшены небольшими апексами. 
+                           Альфа с прямой перекладиной. 
+                           Омега украшена загнутыми внутрь окружности завитками на нижних концах круга.</seg>
+                        <seg xml:lang="en">Letters are cut with care, decorated with small serifs. Alpha with straight crossbar. Rounded omega, open at the bottom,
+                           with inward-curving ends.</seg>
+                        <height unit="cm">5,0</height><!-- по Латышеву -->
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира (?).</seg>
+                        <seg xml:lang="en">Tyras (?).</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0300" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">II-III вв. н.э.</seg>
+                        <seg xml:lang="en">II-III century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#diviziya">Дивизия, Татарбунарский район, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">По сведениям Кочубинского, блок обнаружен зимой 1885-1886 г. 
+                           двумя местными кладоискателями (Вакул и Александр Котляренко) при раскопках кургана рядом с селом.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Diviziya village, Tatarbunar district, Odessa region.</placeName>
+                        <rs type="circumstances">According to Kochubinsky, the monument was found in the winter of 1885-1886 by two local treasure hunters (Vakul and Alexander Kotlyarenko)
+                           during the excavation of a kurgan in the vicinity of Diviziya village.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+                </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-02-27" who="PY">encoded Leiden and metadata</change>
+         <change when="2016-11-29" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.58">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Латышев 1890 --><ptr target="bib:b0793"/>, 125, <citedRange>№ 71</citedRange> (по эстампажу)</bibl>
+               <bibl n="1.1"><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>IV, 5</citedRange></bibl>
+               <bibl n="2"><!-- Кочубинский 1901 --><ptr target="bib:b0105"/>, <citedRange>100-101</citedRange> (по карандашному рисунку)</bibl>
+               <bibl n="2.1"><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>IV, p. 293, Ad n° 5</citedRange></bibl>
+               <bibl n="3"><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/>, <citedRange>13</citedRange> (по эстампажу)</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>ν</unclear>ῳ</w> 
+                                       <w>ναῷ</w> <w>ἐν</w> <w>τ<unclear>ῷ</unclear></w> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1"><rdg source="bib:b0105">ΓΩΝΑΩΕΝΤΩ</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Не предлагается.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Not attempted.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>По предположению Латышева, блок являлся верхним косяком дверного проема.</p>
+            <p>Село Дивизия находится на расстоянии примерно 37 км к юго-западу от Белгорода-Днестровского, 
+               на берегу реки Хаджидер поблизости от места ее впадения в лиман (лагуна Хаджидер). Можно предполагать, 
+               что блок был привезен туда по морю из Аккермана/Белгорода для вторичного использования в качестве строительного материала.</p>
+            <p>Ни один из публикаторов камня не видел. В.В. Латышев судил о нем по эстампажу, полученному весной 1887 г. 
+               от Н.П. Кондакова; прорисовка этого эстампажа воспроизведена в IOSPE I2. Кочубинский, сообщающий о месте и 
+               обстоятельствах находки надписи и размерах камня, знал о нем из корреспонденции некого журналиста 
+               «Одесских новостей». По-видимому, от него же он получил карандашный рисунок надписи, по которому и судил 
+               о ней. Больше надпись никто не видел, в музеи она, по-видимому, не поступала, и может считаться утраченной.</p>
+            <p>О содержании надписи судить трудно. Видимо, Латышев прав, читая здесь слово «храм» в дательном падеже. 
+               Если верить карандашному рисунку Кочубинского, то первую букву можно восстанавливать как тау, 
+               что дало бы чтение ἐν] τῳ ναῷ.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Latyshev suspected that the block was part of a door lintel.</p>
+            <p>The village Diviziya is situated about 37km southeast of Belgorod-Dnestrovsky, on the bank of the river Chadjider, near to the spot where it empties into
+            the estuary (lagune Chadjider). We may speculate that the block arrived there by sea from Akkerman/Belgorod as a spolion to be reused as building material.</p>
+            <p>No one of the publishers had seen the monument. Latyshev relied on an estampage, received in the spring of 1887 from N.P. Kondakov; the tracing of the estampage
+            is presented in IOSPE I2. Kochubinsky, who supplies information about the place and circumstances of discovery, learned about it from a correspondence of some journalist
+            working for the "Odessa News." He probably received a pencil drawing of the monument from the same journalist and relied on that in his opinion of the monument.
+            Apparently, no one else saw the stone. It never reached a museum and can be considered lost.</p>
+            <p>It is difficult to form an opinion of the content. Latyshev is probably right to read the word "temple" in the Dative. If we trust Kochubinsky's drawing, the first 
+               letter can be restored as tau, giving us ἐν] τῳ ναῷ.</p>
+
+<p/>         </div>
+      </body>
+   </text>
+</TEI>

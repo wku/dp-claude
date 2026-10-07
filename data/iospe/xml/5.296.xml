@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Авики</title><title xml:lang="en">Epitaph of Abika</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.296</idno><idno type="PE">PE5000296</idno>
+            <idno type="AYV2012-number">byz290</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Керченский историко-культурный заповедник</repository>
+                     <idno>КЛ–523</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Historical and Archeological Museum of Kerch State Historical and Cultural Preserve</repository>
+                     <idno>КЛ–523</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon9">Крест.</objectType>
+                           <objectType xml:lang="en">Cross.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Твердый известняк-дикарь.</material>
+                           <material xml:lang="en">Hard limestone rubble.</material>
+                           <p xml:lang="ru">Латинский крест с утолщенной перекладиной; наверху лицевой стороны изображение апицированного креста с подвешенной 
+                              альфой и омегой. Сколы справа. </p>
+                           <p xml:lang="en">Latin cross with enlarged crossbar; on the front top - line carving of a cross with serifs, with suspended alpha and omega.
+                           Chipped on the right.</p>
+                           <dimensions>
+                              <height>46,0</height>
+                              <width>31,0</width>
+                              <depth>17,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p044">
+                        <seg xml:lang="ru">Пантикапей.</seg>
+                        <seg xml:lang="en">Pantikapaion.</seg>
+                     </origPlace>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2004-09">Сентябрь 2004</date>, <date when="2008-09"> сентябрь 2008</date>.</seg>
+                     <seg xml:lang="en"><date when="1999-05">May 1999</date>, <date when="2004-09">September 2004</date>, <date when="2008-09">September 2008</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#kerch">Керчь.</placeName>
+                        <rs type="circumstances">Июль 1892 г., случайная находка.</rs>
+                        <rs type="context">За Арестантской казармой (район совр. заводского сквера рыбоконсервного завода «Пролив» (ул. Кирова, 41)?), двор И. Демидова.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Kerch.</placeName>
+                        <rs type="circumstances">July 1892, chance find.</rs>
+                        <rs type="context">Behind the Prisoners' Barrack (park area on the territory of the modern fish cannery 'Proliv' (41 Kirov St.)?),
+                        property of I. Demidov.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Керчь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Kerch, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+               <msPart n="1">
+                  <msIdentifier><idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc4 document-search.xml#doc2">
+                        <seg xml:lang="ru" n="1">Демонстративная надпись.</seg>
+                        <seg xml:lang="en" n="1">Demonstrative.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f1" n="1">
+                              <seg xml:lang="ru">На перекладине.</seg>
+                              <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the crossbar.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="1">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с ломаной перекладиной, омега прямоугольная.</seg>
+                           <seg xml:lang="en">Lapidary. Alpha with broken crossbar, rectangular omega.</seg>
+                           <height unit="cm">3,5–5,5.</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="0301" notAfter="0600" precision="low" n="1" evidence="палеография">
+                           <seg xml:lang="ru">IV–VI вв.</seg>
+                           <seg xml:lang="en">IV–VIth century C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="2">
+                  <msIdentifier><idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc4 document-search.xml#doc2">
+                        <seg xml:lang="ru" n="2">Надгробная надпись.</seg>
+                        <seg xml:lang="en" n="2">Epitaph.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f1" n="2">
+                              <seg xml:lang="ru">На перекладине.</seg>
+                              <seg xml:lang="en">On the crossbar.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="2">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с ломаной перекладиной, бета с увеличенным нижним полукружием.</seg>
+                           <seg xml:lang="en">Lapidary. Alpha with broken crossbar, beta with enlarged bottom loop.</seg>
+                           <height unit="cm">3,5–5,5.</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="0301" notAfter="0600" precision="low" n="2" evidence="палеография">
+                           <seg xml:lang="ru">IV–VI вв. </seg>
+                           <seg xml:lang="en">IV–VIth century C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-05-01" who="CB">Textparts</change>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-11-07" who="TW">Added image code</change>
+         <change when="2012-08-28" who="AG">3 lines and the inscriptions translated, lemmata added</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+          <change when="2012-07-10" who="AL">small corrections in metadata, bibliography tagging</change>
+          <change when="2012-05-21" who="AFS">corrected metadata and tagging in greek text</change>
+         <change when="2012-03-13" who="AL">text tagged, original date tagged, bibliography tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.296">
+                <desc xml:lang="en">Photograph of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl n="1">
+               <bibl n="L1"><!-- Латышев 1895a--><ptr target="bib:b0130"/>, 62, № <citedRange>67</citedRange></bibl>
+               <bibl n="1.1"><!-- Сборник --><ptr target="bib:b0132"/>, 89, №<citedRange>87</citedRange></bibl>
+               <bibl n="1.2"><!--  КХНБ--><ptr target="bib:b0068"/>, № <citedRange>4</citedRange></bibl>
+            </listBibl>
+            <listBibl n="2">
+                <bibl n="L1"><!-- Латышев 1895a--><ptr target="bib:b0130"/>, 62, № <citedRange>67</citedRange></bibl>
+               <bibl n="1.1"><!-- Сборник --><ptr target="bib:b0132"/>, 89, №<citedRange>87</citedRange></bibl>
+               <bibl n="1.2"><!--  КХНБ--><ptr target="bib:b0068"/>, № <citedRange>4</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <div type="textpart" n="1">
+               <p>Альфа, омега.</p>
+            </div>
+            <div type="textpart" n="2">
+               <p>Авика.</p>
+            </div>
+         </div>
+         <div type="translation" xml:lang="en">
+            <div type="textpart" n="1">
+               <p>Alpha, omega</p>
+            </div>
+            <div type="textpart" n="2">
+               <p>Abika.</p>
+            </div>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <div type="textpart" n="1">
+               <p> Изображение креста с подвешенной альфой и омегой известно на Боспоре также по <ref type="inscription">V 305</ref><!--byz299--> (491 г.). </p>
+                <p> Относительно формулы см. <ref type="introduction">IV.3.C.d</ref>.</p>
+               <p> Относительно надгробий в форме креста см. комм. к <ref type="inscription">V 61</ref><!--byz061-->.</p>
+            </div>
+            <div type="textpart" n="2">
+               <p>Имя погребенной негреческое, возмножно, иранское, со значением «овца» (любезное
+                  сообщение С.Р. Тохтасьева).</p>
+               <!--<p> Относительно имени Авика см. прил. 1.  </p>-->
+            </div>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <div type="textpart" n="1">
+               <p>Image of a cross with suspended alpha and omega is known in Bosporus also from <ref type="inscription">V 305</ref><!--byz299--> (491 C.E.).</p>
+               <p>On the formula, see Introduction <ref type="introduction">IV.3.C.d</ref>.</p>
+               <p>On tombstones in the shape of a cross, see commentary to <ref type="inscription">V 61</ref><!--byz061-->.</p>
+               <p/>
+            </div>
+            <div type="textpart" n="2">
+               <p>The name of the deceased is non-Greek, possibly Iranian, meaning "sheep" (kindly communicated to me by S.R. Tokhtasiev).</p>
+            </div>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="inscription" n="1">
+               <ab>
+                  <lb n="1"/><w lemma="ἄλφα">Α</w> <w lemma="ὠμέγα">Ω</w>.
+               </ab>
+            </div>
+            <div type="textpart" subtype="inscription" n="2">
+               <ab>
+                  <lb n="1"/><persName type="attested" ref="#person373"><name nymRef="Ἀβίκα">Ἀβίκα</name></persName>.
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

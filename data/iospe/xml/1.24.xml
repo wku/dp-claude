@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надпись о строительстве силами римского гарнизона</title><title xml:lang="en">Building inscription of the Roman garrison</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.47</idno>
+            <idno type="filename">1.24</idno>
+            <idno type="PE">PE1000047</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Одесский археологический музей</repository>
+                     <idno>88366</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Odessa Archaeological Museum</repository>
+                     <idno>88366</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc1">
+                     <seg xml:lang="ru">Строительная надпись.</seg>
+                     <seg xml:lang="en">Building inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon6">Блок.</objectType>
+                           <objectType xml:lang="en">Block.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор белый с серыми прожилками.</material>
+                           <material xml:lang="en">Marble, white with gray veins.</material>
+                           <p xml:lang="ru">На лицевой стороне греческая надпись (<ref type="inscription">I 23</ref>), на оборотной латинская надпись, 
+                              нанесенная при вторичном использовании. 
+                              Лицевой и оборотный фасы отшлифованы, остальные оббиты. Лицевой фас ровный. На оборотном фасе имеется горизонтальная 
+                              площадка шириной 9-10 см, затем плоскость идет на сужение. В центре фрагмента находится круглый след (диаметр 10 см) 
+                              какого-то объекта, для которого блок служил базой при третьем использовании; он повредил латинскую надпись, 
+                              нанесенную при вторичном использовании.</p>
+                           <p xml:lang="en">On the front: Greek inscription (<ref type="inscription">I 23</ref>), on the back: Latin inscription, made in secondary usage of the block. 
+                              The front and back are polished, the rest are broken off. The front is even; on the back there is an flat area  9-10cm wide, below which the surface recedes towards 
+                              front, so that the block becomes thinner. In the center, a circular depression (Diam. 10cm) from an object that rested on the base in tertiary usage. 
+                              The circle damaged the Latin inscription.</p>
+                           <dimensions>
+                              <height unit="cm">28,2</height>
+                              <width unit="cm">36,6</width>
+                              <depth unit="cm">15,3-16,7</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Оборотная сторона блока. Надпись повернута на 180° по отношению к греческой надписи на лицевой стороне. 
+                              Центр поля поврежденм круглым следом объекта, для которого блок служил базой при вторичном использовании. 
+                              Латинская надпись нанесена без учета профилировки блока, что, очевидно, свидетельствует о ее вторичном характере. 
+                              Оббито со всех сторон.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the back. The text is at 180° angle to the Greek text on the front. The center of the epigraphic field is damaged by a circular depression 
+                              from an object that rested on the base in tertiary usage. The Latin text is inscribed without regard to the profile of the block, suggesting seconday usage. 
+                           Broken off on all sides.</seg>
+                           <dimensions>
+                              <height unit="cm">27,5</height>
+                              <width unit="cm">34,6</width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны глубоко, ровно и тщательно, украшены небольшими апексами.
+                           Среднее расстояние между строк: 1,0.</seg>
+                        <seg xml:lang="en">Deeply, evenly and neatly cut letters, adorned with light serifs. Average distance between lines: 1,0cm.</seg>
+                        <height unit="cm">10,5 (line 1), 9,6 (line 2), 6,0 (line 3, but not fully preserved).</height> 
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0114" notAfter="0117" evidence="Титулатура палеография">
+                        <seg xml:lang="ru">114-117 гг. н.э.</seg>
+                        <seg xml:lang="en">114-117 C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">Случайная находка, сделана В.П. Пушкаревым в 1982 г. и передана им в музей. Полевой номер БД-82, № 58.</rs>
+                        <rs type="context">Вторичный. В первом дворе крепости (после снятия турецкой насыпи), в районе башни Пушкина,</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Random find by V.P. Pushkarev in 1982. The latter passed it on to the museum. Field catalogue number БД-82, № 58.</rs>
+                        <rs type="context">In secondary context; in the first courtyard of the fortress (after the removal of the Turkish {mound?} {sand bank?}, in the area of Pushkin Tower.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Одесса.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Odessa.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2007-08">август 2007</date>.</seg>
+                     <seg xml:lang="en">A.I. Ivantchik, <date when="2007-08">August 2007</date>.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-28" who="SS">encoded metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.47">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl>Ineditum</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><persName type="emperor"><supplied reason="lost"><w><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> <name>Nervae</name></supplied> 
+                                          <name><supplied reason="lost">Tr</supplied><unclear>a</unclear>i<unclear>a</unclear>n<supplied reason="lost">o</supplied></name> 
+                                          <name><supplied reason="lost">Caesari</supplied></name>
+               		<lb n="2"/><supplied reason="lost"><w>Optimo</w> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></supplied> 
+                                          <name><supplied reason="lost">G</supplied>er<unclear>m</unclear><unclear>a</unclear><supplied reason="lost">nico</supplied></name> 
+                                          <name><expan><abbr>Dac</abbr><ex>ico</ex></expan></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <w><unclear>per</unclear></w> 
+                                          <w><unclear>vex</unclear><supplied reason="lost">ilationem</supplied></w> 
+                                          <w><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied></w> 
+                                          <gap reason="lost" quantity="3" unit="character"/> <w><supplied reason="lost">fecit</supplied></w>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app><note/></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[Императору Нерве Тр]аяну [Цезарю, Лучшему Августу, Г]ерма[нскому, Дакийскому - - -] через векс[иляцию легиона - - - сделал]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[To emperor Nerva Tr]aianus [Caesar, Augustus Optimus, G]erman[, Dacian - - -] through the vex[illatio of the legion - - - made]</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>1-2. В первой и второй строках восстановление имени Траяна и его победного титула Germanicus не вызывает сомнений, 
+               что позволяет надежно отнести надпись к его правлению. То, что эти имена находятся не на одной строке, а на двух, 
+               заставляет восстанавливать между ними Caesari Optimo Aug(usto), как в другой надписи из Тиры (Карышковский 1959, № 5): 
+               при восстановлении Aug или даже Caesari Aug текст не заполняет лакуну. Определяемый на основании этого восстановления 
+               примерный размер строк заставляет предполагать здесь использование краткой формы титулатуры Траяна – без указания на 
+               происхождение от Божественного Нервы и без упоминания консулата, трибунской власти и т.д. Впрочем, если предполагать, 
+               что титулатура Траяна располагалась на трех строчках и восстанавливать дополнительную строку в начале надписи, в ней мог 
+               размещаться текст Imp(eratori) divi Nervae filio. Восстановление титула Optimus позволяет уточнить дату надписи: в лапидарных надписях 
+               Траяна он встречается начиная с 113/114 г. Если надпись датируется 116-117 гг., в конце второй строки следует восстанавливать титул Parthicus, 
+               который Траян носил со 116 г. Возможно и восстановление первой строки [Imp(eratore) Nerva Tr]ạiạn[o Caesare] с переводом 
+               “При императоре Нерве Траяне Цезаре и т.д.”</p>
+            <p>3. В начале строки, по-видимому, стояло имя и должность римского сановника, заказавшего строительство, 
+               проведенное силами вексиляции римских войск в Тире. В аналогичной по содержанию и близкой по времени надписи (Карышковский 1959, 
+               № 5) говорится о строительстве, которое велось по поручению наместника Нижней Мезии силами тирасской вексиляции под надзором ее командира, 
+               центуриона V Македонского легиона.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>1-2. In lines 1-2, the restoration of the name Traianus and his victory title Germanicus is doubtless, suggesting the date of the inscription during the reign of the 
+               latter. The fact that the name and title appear not in the same line, but in lines 1 and 2, suggests that between them we should restore Caesari Optimo Aug(usto), 
+               as in another inscription from Tyras (Karyshkovsky 1959, № 5): restoring just Aug or even Caesari Aug would not fill the lacuna. The proposed restoration gives us 
+               the length of the line and suggessts that a short titulature of Trajan is being used, without the mention of his descent from divine Nerva or of his consulate and 
+            tribunate powers. Another possibility would be to envision one additional line before line 1, and in that case, the titulature could have occupied three lines, and in 
+            the hypothetical lost line we could restore Imp(eratori) divi Nervae filio. If we restore the title Optimus, the date of the inscription could be given more precisely: 
+            in lapidary inscriptions of Trajan's reign, it starts to appear from 113/114 C.E. If the inscription postdates 116, we would have to restore another title (Parthicus) 
+            at the end of line 2. Another possible restoration of line 1: [Imp(eratore) Nerva Tr]ạiạn[o Caesare], that is, "At the time of emperor Nerva Trajan Caesar etc."</p>
+            <p>3. At the beginning of this line, we may expect the name and title of the Roman official who had commissioned the construction, which was carried out by the vexillation of 
+               Roman troops in Tyras. In another inscription, analogous in content and similar in date (Karyshkovsky 1959, № 5), the construction is commissioned by the governour 
+            of Lower Moesia and carried out by the vexillation of Tyras under the supervision of its commander, the centurion of the V Macedonian legion.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие –ия</title><title xml:lang="en">Epitaph of –ias</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.73</idno><idno type="PE">PE5000073</idno>
+            <idno type="AYV2012-number">byz073</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>34960</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>34960</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Обломана со всех сторон, кроме левой.</p>
+                           <p xml:lang="en">Broken on all sides except the left. </p>
+                           <dimensions>
+                              <height>10,5</height>
+                              <width>7,5</width>
+                              <depth>6,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На лицевой стороне.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с ломаной перекладиной, сигма полуромбовидная.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with a broken hasta; half-diamond sigma.</seg>
+                        <height unit="cm">2,5–2,8.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0501" notAfter="0700" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">VI–VII вв.</seg>
+                        <seg xml:lang="en">VI–VIIth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08"> август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>.</seg>
+                     <seg xml:lang="en"> <date when="1999-05">May 1999</date>, <date when="2001-08"> August 2001</date>, <date when="2002-09"> September 2002</date>, <date when="2003-09"> September 2003</date>, <date when="2004-09"> September 2004</date>, <date when="2005-09"> September 2005</date>, <date when="2006-09"> September 2006</date>, <date when="2007-09"> September 2007</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1889 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1889, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+          <change when="2013-10-24" who="TW">Added image code</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-05-21" who="AG">several lines translated</change>
+          <change when="2012-04-30" who="AFS">updated bibliography</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-04-16" who="AG">apparatus marked up</change>
+         <change when="2012-02-22" who="AG">bibliography corrected and tagged</change>
+         <change when="2012-01-10" who="AG">updating, partial translation, some corrections</change>
+         <change when="2011-12-06" who="AG">minor corrections, tags added to the Greek text</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.73">
+                <desc xml:lang="en">Photograph of face (from ??)</desc>
+                <desc xml:lang="ru">Фотография лицевой части (из ??)</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+                <bibl n="L1"><!--Соломоник 1973--><ptr target="bib:НЭПХ2"/>, 119-122, № <citedRange>134</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>Α</orig><gap reason="lost" extent="unknown" unit="character"/><lb n="2" break="no"/><persName type="attested" ref="#person77"><name><seg part="F"><unclear>ι</unclear>ας</seg></name></persName>
+               <w lemma="κατάκειμαι"><supplied reason="lost">κα</supplied><lb n="3" break="no"/>τά<unclear>κ</unclear><supplied reason="lost">ιτε</supplied></w>
+               <lb n="4"/><supplied reason="lost"><w lemma="ἐνθάδε">ἐνθάδε</w></supplied>.
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1"><rdg source="bib:НЭПХ2"><note>om.</note></rdg></app>
+               <app loc="2-3"><rdg source="bib:НЭПХ2">ΙΑΟ ΤΑ<unclear>Ν</unclear></rdg></app>
+               <app loc="4"><rdg source="bib:НЭПХ2"><note>om.</note></rdg></app>
+            </listApp>
+         </div>
+         
+         <div type="translation" xml:lang="ru">
+            <p>…ий <supplied reason="lost">ле</supplied>жи<supplied reason="lost">т здесь</supplied>.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>...a[...]ias lies here.</p>
+         </div>
+         
+         <div type="commentary" xml:lang="ru">
+            <p> Фотография надписи приложена к перепечатке отчета о раскопках за 1889 и 1890 гг. в архиве Национального заповедника "Херсонес Таврический", 
+               но в описи находок за 1890 г. камня нет — вероятно, он был найден в 1889 г., когда детальная опись находок не велась.</p>
+             <p> 2–4. Относительно формулы см. <ref type="introduction">IV.3.F.d</ref>; обратный порядок слов встречается в Γιαννόπουλος 1912, 154, № 4 
+                (Фессалия, VI (?) в.).</p>
+            <p> Ромбовидная форма сигмы находит параллель в <ref type="inscription">V 60</ref><!--byz060-->.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>A photograph of the inscription was attached to the typescript of the report about the excavations of 1889 and 1890 in the archive of the 
+               National Preserve of Tauric Chersonesos, but in the register of finds for the year 1890 the monument is not listed; perhaps it was found in 1889 when
+               a detailed registration of finds had not yet been introduced.</p>
+            <p>2-4. On the formula, see Introduction <ref type="introduction">IV.3.F.d</ref>; the reverse order of words is attested in Γιαννόπουλος 1912, 154, № 4 
+               (Thessaly, VIth (?) century)</p>
+            <p>Diamond-shaped sigma has a parallel in <ref type="inscription">V 60</ref><!--byz060-->.</p>
+         </div>
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент надгробия</title><title xml:lang="en">Fragment of an epitaph</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.10</idno>
+            <idno type="filename">1.34</idno>
+            <idno type="PE">PE1000010</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Белгород-Днестровский краеведческий музей</repository>
+                     <idno>А-5833 (1377)</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Belgorod-Dnestrovsky Regional Studies Museum</repository>
+                     <idno>А-5833 (1377)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробие.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор белый сероватого оттенка.</material>
+                           <material xml:lang="en">Marble, white with grayish hue.</material>
+                           <p xml:lang="ru">Лицевой и оборотный фасы отполированы, остальные оббиты,
+                              задняя сторона несколько закопчена. Состоит из двух фрагментов, сходящихся встык.</p>
+                           <p xml:lang="en">Two joining fragments. The front and back are polished, other sides broken off; the back also shows signs of soot. </p>
+                           <dimensions>
+                              <height unit="cm">11,6</height>
+                              <width unit="cm">11,0</width>
+                              <depth unit="cm">1,5-1,9</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Оббито со всех сторон, кроме верхней. Сверху верхнее поле размером не менее 3,5 см или пропуск строки.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. Broken off on all sides, except the top. Either the top margin is no less than 3,5cm or there is vacat in the line above.</seg>
+                           <dimensions>
+                              <height unit="cm">8,0</height>
+                              <width unit="cm">10,8</width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны глубоко, но достаточно небрежно и не
+                           вполне ровно, украшены небольшими апексами. Перекладина альфы
+                           горизонтальна или слегка наклонна.
+                           Среднее расстояние между строк: 2,2.</seg>
+                        <seg xml:lang="en">Deeply, but rather sloppily and unevenly cut letters; adorned with small serifs. Alpha with straight or slanting crossbar. 
+                           Average distance between lines: 2,2cm.</seg>
+                        <height unit="cm">3,1-3,3</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0300" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">II-III вв. н.э.</seg>
+                        <seg xml:lang="en">II-III century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский</placeName>
+                        <rs type="circumstances">При раскопках Л.Д. Дмитрова в 1947 г.</rs>
+                        <rs type="context">В мусорном смешанном слое, (раскоп А).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Found in 1947, excavations L.D. Dmitrov.</rs>
+                        <rs type="context">In a mixed refuse layer, (Trench A).</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Белгород-Днестровский.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Belgorod-Dnestrovsky.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2006-08">август 2006</date>.</seg>
+                     <seg xml:lang="en">A. I. Ivantchik, <date when="2006-08">August 2006</date>.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <!-- volNum = ﻿10-->
+      <revisionDesc>
+         <change when="2016-08-25" who="SS">encoded metadata</change>
+         <change when="2016-08-02" who="SS">encoded Leiden</change>
+         <change when="2016-05-18" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.10">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Дмитров 1952 --><ptr target="bib:b0920"/>, <citedRange>62, рис. 4</citedRange></bibl>
+               <bibl n="2"><!-- Карышковский 1959 --><ptr target="bib:b0908"/>, <citedRange>122, № 15</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Ρ</unclear>ΑΙ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">γυναῖ</supplied><unclear>κ</unclear>ι</w> 
+                                                      <persName type="attested"><name type="gentilicium">Αὐρη<supplied reason="lost">λίᾳ</supplied></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg source="bib:b0908">ΡΑII</rdg>
+               </app>
+               <app loc="2">
+                  <rdg source="bib:b0908">ΧΙΑΥΡΗ</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[- - -cуп]руге Авре[лии- - -]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[- - - for wi]fe Aure[lia- - -]</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>В 1959 г., согласно указанию Карышковского (возможно, ошибочному), надпись хранилась в Институте археологии АН УССР в Киеве. 
+               Карышковский надпись по всей видимости не видел. В публикации он не предлагал восстановлений, ограничившись воспроизведением 
+               текста маюскулами. Надпись фрагментирована, однако во второй строке восстановление достаточно надежно.
+               Датив указывает, что она была скорее всего надгробной и содержала что-нибудь вроде
+               расхожей формулы “такой-то соорудил эту гробницу себе и жене Аврелии, детям и т.д.”
+               Этому предположению не противоречит и характер носителя: это тонкая мраморная плитка,
+               которой облицовывались кирпичные или каменные стены.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>According to Karyshkovsky (but this might not be correct), in 1959, the inscription was in Kiev, in the collection of the Institute of Archaeology, Academy of Sciences of 
+            the Ukranian Soviet Socialist Republic. It would appear the Karyshkovsky did not actually see the inscription. He did not offer restorations, providing only a 
+            transcription in majuscule. The inscription is fragmentary, but in line 2, the restoration is quite reliable. The dative form suggests that it was most likely an epitaph, 
+            consisting of some common formula, such as e.g. "so and so made this tomb for himself and his wife Aurelia, for their children etc." The character of the monument would support 
+            this supposition: a thin marble panel could have served as revetment for a brick or stone wall. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

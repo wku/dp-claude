@@ -1,0 +1,171 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Byzantine 28: Dedication of an emperor (ed. A. Vinogradov)</title>
+        <title xml:lang="ru">Византийская надпись 28: Посвящение императора (редакция А. Виноградова)</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text xml:lang="en">
+        <body>
+          <div>
+          <head>Stone.</head>
+            <p><hi rend="italic">Type of monument:</hi> Cornice. 
+              <hi rend="italic">Material:</hi> White small-grained marble. 
+              <hi rend="italic">Description and condition:</hi> A cornice embellished with a ledge and two concentric mouldings.
+              On the back side – 2 dowel holes. Obverse side polished. Broken, 2 fragments survive. 
+              Frag. 1 is damaged on the top and right side, and the bottom left corner is chipped off.; 
+              Frag. 2 is damaged on all sides apart from the top.</p>
+            
+            <p><hi rend="bold">Fragment 1.</hi>
+              <hi rend="italic">Dimensions:</hi> H. 0.095, W. 0.31, Th. 0.135. 
+              <hi rend="italic">Autopsy:</hi> May 1999, August 2001, September 2002, September 2003, September 2004, 
+              September 2005, September 2006, September 2007.</p>
+            <p>— <hi rend="italic">Find place:</hi> Chersonesos. 
+              <hi rend="italic">Find circumstances:</hi> 1893, excavations of K.K. Kostsyushko-Valyuzhinich. 
+              <hi rend="italic">Find context:</hi> Temple 22 ("Northern basilica").</p>
+            <p><hi rend="italic">Modern location:</hi> Sebastopol, Ukraine.
+              <hi rend="italic">Institution and inventory:</hi> National Preserve of Tauric Chersonesos 35117.</p>
+            
+            <p><hi rend="bold">Fragment 2.</hi>
+              <hi rend="italic">Dimensions:</hi> H. 0.06, W. 0.18, Th. 0.135. 
+              <hi rend="italic">Autopsy:</hi> May 1999, August 2001, September 2002, September 2003, September 2004, 
+              September 2005, September 2006, September 2007.</p>
+            <p>— <hi rend="italic">Find place:</hi> Chersonesos. 
+              <hi rend="italic">Find circumstances:</hi> unknown. 
+              <hi rend="italic">Find context:</hi> unknown.</p>
+            <p><hi rend="italic">Modern location:</hi> Sebastopol, Ukraine.
+              <hi rend="italic">Institution and inventory:</hi> National Preserve of Tauric Chersonesos 3345.</p>
+          </div>
+          <div>
+          <head>Text field: </head>
+            <p><hi rend="italic">Faces code:</hi> f1. 
+              <hi rend="italic">Style of lettering:</hi> Lapidary. Letters embellished with serifs. 
+              Alpha with a broken crossbar, rectangular epsilon and sigma, omega in the shape of an upside down mu.
+            <hi rend="italic">Letterheights:</hi> 0.023.</p>
+          </div>
+          <div>
+          <head>Text:</head>
+            <p><hi rend="italic">Origin of text:</hi> Chersonesos. 
+            <hi rend="italic">Document type:</hi> Dedication.  
+            <hi rend="italic">Date:</hi> 6th century CE. 
+            <hi rend="italic">Dating criteria:</hi> Archaeological context and letterforms.</p>
+            <p><hi rend="italic">Editions:</hi> Fragment 1. L1. Latyshev 1895a, 24, no. 30; 1.1 Collection 17. Fragment 2: unedited.</p>
+            
+            <p>+ Ὑπὲρ σωτηρίας κ[αὶ ... Ἰουστινιανοῦ e.g.] αὐγούστ[ου</p>
+            <figure><graphic url="28.1.jpg" width="600px" height="179px"/></figure>
+            <figure><graphic url="28.2.jpg" width="500px" height="271px"/></figure>
+          </div>
+          <div>
+            <head>Translation:</head>
+            <p>For the salvation and [… of Justinian (?)] emperor.</p>
+        </div>  
+          
+          <div>
+            <head>Commentary:</head>
+            <p>The origin of Frag. 2 is unknown, but the cornice’s profile and the letterforms leave no doubt that it belongs to the same inscription as Frag. 1.</p>
+            <p>On the dedicatory formula and its possible reconstruction, see IV.3.B.c.</p>
+            <p>A kappa that follows σωτηρίας must be the beginning of a conjunction κ[αὶ "and", rather than the first letter of a name.
+              The letters ΑΥΓΟΥΣΤ on Frag. 2 further complicate matters. Because in dedications where such formulae are used,
+              a date is never given by month, these letters must indicate either an emperor’s title or his personal name. 
+              Personal names Augustus or Augusta are not attested in Byzantium, and the name Augustine does not occur in inscriptions.
+              Therefore, the most likely scenario is that the letters indicate an imperial title. It is quite possible that an emperor could 
+              have provided money for the construction or renovation of a temple: compare a similar votive formula in 
+              Mango 1951, 66, no. H2 B (Constantinopole, 457-474 CE): [Ὑπἐρ εὐχῆς τ]οῦ βασιλέως [Λέοντο]ς α&lt;ὐ&gt;γούστου.</p>
+            <p>Regarding the archaeological dating of the Temple 22, see my commentary to Byz. 19. Rectangular epsilon and sigma are similar to those on Byz. 6, but ypsilon-shapen epsilon finds an even closer parallel in Byz. 22.</p>
+            <p>The cornice was found in the same Temple 22 as Byz. 19 – a dedication of Theodore on a panel of altar partition - but the script is very different there: rectangular letters with serifs, with vertical ypsilon. The letterforms and the difference in votive formulae virtually exclude the possibility of our inscription belonging to the same templon as Byz. 19. Instead we have to conclude that two types of script were used in the same temple structure: a more archaic, rounded (Byz. 19) and a newer, angular type that appears some time in the 6th century CE (cf. Byz. 29). The two scripts could co-exist only within one century, and most likely in the middle of that century. If, however, the two scripts were not contemporary, it would be very unlikely for a templon panel with the archaic script to be later than the construction of the temple with a cornice inscribed in a newer script. Conversely, it would be unlikely for that panel to survive the temple’s reconstruction when the cornice in question would have been installed in it. The only remaining possibility that could fit a scenario of non-contemporaneous use of the two scripts is where the cornice belongs to some auxiliary structure adjunct to Temple 22, but no architectural additions or reconstructions are attested for the “Northern basilica” in the Early Byzantine period (see Bernatzki, Klenina, Rhyzhov 2004, 67). Thus, Byz. 19 and 29 must be contemporary and date to the 6th century CE (see above). In this century, however, no emperors’ names start with kappa, excluding that possibility of reconstructing Byz. 28. With some caution, therefore, we may suggest that the construction of Temple 22 is to be connected with building activities of emperor Justinian I. </p>
+        </div>
+        </body>
+      </text>
+      
+      
+      <text xml:lang="ru">
+        <body>
+          <div>
+            <head>Камень.</head>
+            <p><hi rend="italic">Разновидность:</hi> Карниз. 
+              <hi rend="italic">Материал:</hi> Белый мелкозернистый мрамор. 
+              <hi rend="italic">Описание и состояние документа:</hi> 
+              Карниз c полочкой и 2 выкружками; на тыльной стороне 2 паза для креплений, на верхней углубление; 
+              лицевая сторона отполирована. Разбит на части, сохранилось 2 фрагмента; 
+              фр. 1 обломан справа и снизу, сколот левый нижний угол; фр. 2 обломан со всех сторон, кроме верхней.</p>
+            
+            <p><hi rend="bold">Фрагмент 1.</hi>
+              <hi rend="italic">Размеры:</hi> Высота 9,5; ширина 31,0; толщина 13,5. 
+              <hi rend="italic">Автопсия:</hi> май 1999, август 2001, сентябрь 2002, сентябрь 2003, сентябрь 2004, 
+              сентябрь 2005, сентябрь 2006, сентябрь 2007.</p>
+            <p>— <hi rend="italic">Место находки:</hi> Херсонес. 
+              <hi rend="italic">Условия находки:</hi> 1893 г., раскопки К. К. Косцюшко-Валюжинича. 
+              <hi rend="italic">Контекст находки:</hi> Храм № 22 («Северная базилика»).</p>
+            <p><hi rend="italic">Место хранения:</hi> Севастополь, Украина.
+              <hi rend="italic">Институт хранения:</hi> НЗХТ 35117.</p>
+            
+            <p><hi rend="bold">Фрагмент 2.</hi>
+              <hi rend="italic">Размеры:</hi> H. 0.06, W. 0.18, Th. 0.135. 
+              <hi rend="italic">Автопсия:</hi> май 1999, август 2001, сентябрь 2002, сентябрь 2003, сентябрь 2004,
+              сентябрь 2005, сентябрь 2006, сентябрь 2007.</p>
+            <p>— <hi rend="italic">Место находки:</hi> Херсонес. 
+              <hi rend="italic">Условия находки:</hi> Неизвестны. 
+              <hi rend="italic">Контекст находки:</hi> Неизвестен.</p>
+            <p><hi rend="italic">Место хранения:</hi> Севастополь, Украина.
+              <hi rend="italic">Институт хранения:</hi> НЗХТ 3345.</p>
+          </div>
+          <div>
+            <head>Эпиграфическое поле: </head>
+            <p><hi rend="italic">Код фаса:</hi> f1. 
+              <hi rend="italic">Стиль письма:</hi> Лапидарный; буквы апицированы. 
+              Альфа с не доходящей до низа ломаной перекладиной, эпсилон и сигма прямоугольные, 
+              омега в форме перевернутой мю.
+              <hi rend="italic">Высота букв:</hi> 0,023.</p>
+          </div>
+          <div>
+            <head>Текст:</head>
+            <p><hi rend="italic">Происхождение текста:</hi> Херсон. 
+              <hi rend="italic">Характер документа:</hi> Посвятительная надпись.  
+              <hi rend="italic">Датировка текста:</hi> VI в. 
+              <hi rend="italic">Обоснование датировки:</hi> Археологический контекст и палеография.</p>
+            <p><hi rend="italic">Издания:</hi> L1. Латышев 1895a, 24, № 30; 1.1. Сборник 17. Фрагмент 2: ined.</p>
+            
+            <p>+ Ὑπὲρ σωτηρίας κ[αὶ ... Ἰουστινιανοῦ e.g.] αὐγούστ[ου</p>
+            <figure><graphic url="28.1.jpg" width="600px" height="179px"/></figure>
+            <figure><graphic url="28.2.jpg" width="500px" height="271px"/></figure>
+          </div>
+          <div>
+            <head>Перевод:</head>
+            <p>О спасении и [... Юстиниана (?)] августа.</p>
+          </div>  
+          
+          <div>
+            <head>Комментарий:</head>
+            <p>Происхождение фр. 2 неизвестно, однако профиль карниза и шрифт не оставляют сомнения в его принадлежности к одной надписи с фр. 1.</p>
+            <p>Относительно формулы и ее возможного восстановления см. IV.3.B.c. 
+              Следующая за σωτηρίας каппа является скорее началом слова κ[αὶ] «и», 
+              чем первой буквой имени. Еще более усложняют проблему буквы ΑΥΓΟΥΣΤ 
+              на фр. 2. Поскольку в посвятительных надписях с такого рода формулами 
+              никогда не указывается датировка по месяцу, эти буквы надо относить либо 
+              к титулу императора, либо к личному имени. Однако личные имена Август или 
+              Августа в Византии неизвестны, а имя Августин на Востоке в надписях 
+              практически не встречается. Таким образом, наиболее вероятным является 
+              вариант с упоминанием в надписи императора, который вполне мог дать 
+              деньги на возведение или реконструкцию храма: относительно такой формулы
+              императорского посвящения ср. Mango 1951, 66, № H2 B (Константинополь, 
+              457–474 гг.): [Ὑπἐρ εὐχῆς τ]οῦ βασιλέως [Λέοντο]ς α&lt;ὐ&gt;γούστου.</p>
+            <p>Относительно археологической датировки храма № 22 см. комм. к № 19. По форме прямоугольных эпсилона и сигма надпись стоит ближе к № 6, однако Y-образный эпсилон еще больше роднят ее с № 22.</p>
+            <p>Карниз с надписью найден в том же храме № 22, что и надпись № 19 — посвящение Феодора на плите алтарной преграды, однако шрифт здесь совсем иной: буквы прямоугольные и апицированные, ипсилон вертикальный. Это обстоятельство и разность формул практически исключают возможность принадлежности данной надписи темплону, к которому относится № 19. Налицо сосуществование в одном храме двух типов шрифта: более архаичного, округлого (№ 19) и нового, угловатого, появляющегося где-то в VI в. (ср. № 29) — сосуществовать они могли только в пределах этого столетия и даже, скорее, в его середине. Если же они не одновременны, то маловероятно, чтобы плита алтарной преграды с более архаичным шрифтом появилась после строительства храма с карнизом, отмеченным более поздним шрифтом, или чтобы она сохранилась после реконструкции храма, когда туда был вставлен данный карниз. Поэтому единственным вариантом разновременности двух надписей является тот, при котором карниз относится к какой-то вспомогательной постройке при храме № 22, однако у «Северной базилики» пристройки или перепройки в ранневизантийское время не фиксируется (см. Бернацки, Кленина, Рыжов 2004, 67). Следовательно, надписи № 19 и 29 должны быть современны и датироваться VI в. (см. выше). Однако в этом столетии не было императоров с именем на К, что исключает еще один вариант реконструкции надписи № 28 (см. выше), — с определенной осторожностью, можно предположить, что строительство храма № 22 связано со строительной деятельностью Юстиниана I.</p>
+          </div>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI>

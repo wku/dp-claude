@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие неизвестного</title><title xml:lang="en">Epitaph of an unknown</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.307</idno><idno type="PE">PE5000307</idno>
+            <idno type="AYV2012-number">byz301</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Сероватый мрамор.</material>
+                           <material xml:lang="en">Grayish marble.</material>
+                           <p xml:lang="ru">Снизу полированный обрез; тыльная сторона тщательно выглажена. Обломана верху и слева.</p>
+                           <p xml:lang="en">Cut at the bottom and polished; the back is carefully smoothed. Broken on the top and left.</p>
+                           <dimensions>
+                              <height>3,5</height>
+                              <width>10,5</width>
+                              <depth>2,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На лицевой стороне.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с ломаной перекладиной, омикрон круглый и ромбовидный.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with broken crossbar, round and diamond-shaped omicron.</seg>
+                        <height unit="cm">1,5–2,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p044">
+                        <seg xml:lang="ru">Пантикапей.</seg>
+                        <seg xml:lang="en">Pantikapaion.</seg>
+                     </origPlace>
+                      <origDate notBefore="0691" notAfter="0692" evidence="указание_надписи">
+                        <seg xml:lang="ru">691–692 гг.</seg>
+                        <seg xml:lang="en">691–692 C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#kerch">Керчь.</placeName>
+                        <rs type="circumstances">1911 г., строительные работы.</rs>
+                        <rs type="context">Предтеченская площадь (совр. Ленина).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Kerch.</placeName>
+                        <rs type="circumstances">1911, construction works.</rs>
+                        <rs type="context">Predtechenskaya (modern Lenin) Square.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-11-07" who="TW">Added image code</change>
+         <change when="2012-08-29" who="AG">several lines translated, tags corrected</change>
+          <change when="2012-08-23" who="AL">checked metadata</change>
+         <change when="2012-08-14" who="AFS">inserted key name</change>
+          <change when="2012-07-25" who="AL">small corrections in metadata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+          <change when="2012-05-23" who="AFS">corrections in metadata and greek text</change>
+         <change when="2012-03-13" who="AL">text tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.307">
+                <desc xml:lang="en">Drawing of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p/>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>… в 6200 году от Адама.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>...in the year 6299 since Adam.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Камень был издан без чтения надписи (Шкорпил 1912, 21, № 12). По форме и формуле очевидно, что данный камень — надгробная плитка 
+               (параллели см. в комм. к <ref type="inscription">V 319</ref><!--byz287-->). Относительно датировки «от Адама», характерной для VIII–Х вв., 
+               см. Введение <ref type="introduction">IV. 4. D</ref> и 
+               Виноградов 2008. На рисунке Шкорпила после стигмы показан один знак в виде части нижнего полукружия: вариант с числом десятков исключается, 
+               поэтому остается лишь сигма. Действительно,  по палеографии данный памятник из всех с формулой «от Адама», похож только на самый 
+               ранний — <ref type="inscription">V 316</ref><!--byz282--> (767 г.). Для столь ранней датировки по эре от сотворения мира ср. Ὀρλάνδος, Βρανούσσης 1973, № 34 (693 г.); 
+               керченская надпись — чуть ли не древнейшая, датированная таким образом (о соотношении годов от сотворения мира и от Р.Х. в средневизантийское время 
+               см. Введение <ref type="introduction">IV. 4. D</ref>).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The inscription was originally published without a critical edition (Shkorpil 1912, 21, № 12). The shape of the monument and the formula of the inscription
+               make it clear that this is a tombstone (for parallels, see commentary to <ref type="inscription">V 319</ref><!--byz287-->). On the dating 'since Adam,' 
+               typical for the VIII-Xth centuries, see Introduction <ref type="introduction">IV. 4. D</ref> and Vinogradov 2008. On the drawing of Shkorpil, stigma is followed
+               by a sign, from which a part of the bottom semicircle is preserved: the possibility with the number of tens is to be excluded, thus only sigma remains. Indeed, of
+               all monuments that use the dating formula 'since Adam,' only the earliest (<ref type="inscription">V 316</ref><!--byz282--> (767 C.E.)) bears resemblance
+               to the palaeography of our monument. For such an early date according to the era 'since Creation', cf.  Ὀρλάνδος, Βρανούσσης 1973, № 34 (693 C.E.); 
+               our example from Kerch is virtually the oldest inscription dated in this way (on the correspondence between the years 'since Creation' and 'since the Birth of
+               Christ' in the Middle Byzantine period, see Introduction <ref type="introduction">IV. 4. D</ref>).</p>
+            <p/>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>, 
+               <num value="6200"><unclear>ςσ</unclear></num> <w lemma="ἔτος">ἔτο<lb n="2" break="no"/><supplied reason="lost">υς</supplied></w> <w lemma="ἀπό">ἀπὸ</w>
+               <persName type="divine" key="adam"><name nymRef="Ἀδὰμ"><expan><abbr>Ἀδ</abbr><ex>ά</ex><abbr>μ</abbr></expan></name></persName>.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

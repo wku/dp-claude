@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ru">Застольная надпись на аске</title><title xml:lang="uk"/>
+                <title xml:lang="en">Incertum (ownership or sympotic?) inscription</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>King's College London</authority>
+                <idno type="PE">PE2010036</idno>
+                <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="filename">2.1.1.55</tei:idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/>
+                        <altIdentifier xml:lang="ru">
+                            <repository>Государственный Эрмитаж</repository>
+                            <idno>Б.478</idno>
+                        </altIdentifier><altIdentifier xml:lang="uk"><repository/><idno/></altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>The State Hermitage Museum</repository>
+                            <idno>Б.478</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="filename.xml#id">
+                            <seg xml:lang="ru">Застольная надпись.</seg>
+                            <seg xml:lang="uk"/>
+                            <seg xml:lang="en">Incertum (ownership or sympotic?)</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ru" ref="#">Фрагмент.</objectType><objectType xml:lang="uk" ref="#"/>
+                                    <objectType xml:lang="en">Attic, BG askos, 475-450 B.C.E., deep type (close to Agora XII, nos. 66-68).</objectType>
+                                    
+                                    <material xml:lang="ru" ref="material-search.xml#m10">Глина.</material>
+                                    <material xml:lang="uk" ref="material-search.xml#m10"/>
+                                    <material xml:lang="en">Clay.</material>
+                                    <p xml:lang="ru"/>
+                                    <p xml:lang="uk"/>
+                                    <p xml:lang="en">Nearly complete, neck and spout broken off.</p>
+                                    <dimensions>
+                                        <height unit="cm"/>
+                                        <width unit="cm"/>
+                                        <depth unit="cm"/>
+                                        <dim type="diameter" unit="cm"/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <seg xml:lang="ru"/>
+                                    <seg xml:lang="uk"/>
+                                    <seg xml:lang="en">Wall, exterior, along the circumference.</seg>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито.</rs></seg><seg xml:lang="uk"><rs type="execution" ref="execution.xml#scariphatis"/></seg>
+                                <seg xml:lang="en">Graffito.</seg>
+                                <height unit="cm">1.0-1.8</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origPlace.xml#p066"/>
+                            <seg xml:lang="ru">Борисфен.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">Borysthenes.</seg>
+                            <origDate notBefore="0001" notAfter="0001" evidence="Датировка_керамики">
+                                <seg xml:lang="ru">ок. 475-450 г. до н.э.</seg><seg xml:lang="uk"/>
+                                <seg xml:lang="en">ca. 475-450 B.C.E.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="ru">
+                               
+                                <placeName type="ancientFindspot" ref="findspot.xml#berezan">Березань.</placeName>
+                                <rs type="circumstances">Найден в 1900 г., раскопки Г.Л. Скадовского.</rs>
+                                <rs type="context">Могила 104.</rs>
+                            </seg><seg xml:lang="uk"><placeName type="ancientFindspot" ref="findspot.xml#berezan"/><rs type="circumstances"/><rs type="context"/></seg>
+                            <seg xml:lang="en">
+                                <placeName type="ancientFindspot">Berezan.</placeName>
+                                <rs type="circumstances">Found in 1900, excavations of G.L. Skadovsky.</rs>
+                                <rs type="context">Grave 104.</rs>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="ru">Санкт-Петербург, Россия.</seg><seg xml:lang="uk"/>
+                            <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsy">
+                            <seg xml:lang="ru">Август 2016.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">August 2016.</seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-01-01" who="IP"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="2010036-dr"><desc xml:lang="en"/><desc xml:lang="ru"/><desc xml:lang="uk"/></graphic></surface> <!-- <surface>
+            <graphic url="2010036-a">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010036-b">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010036-c">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010036-d">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface> -->
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <!-- Издания -->
+                <listBibl>
+                     
+                    <bibl n="L1"><!--Толстой 1953 --><ptr target="bib:b1027"/>, № 75<citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                </listBibl>
+            </div>
+            <div type="bibliography" subtype="commentaries">
+                <!-- Комментарии -->
+                
+            </div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+                        <lb n="1"/>Λήναιος Α<unclear>Ο</unclear><!--Greek text here  -->
+            </ab>
+         </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><rdg source="bib:b1027">Λήναιος Α<unclear>C</unclear> </rdg><note>Λήναιος Ἀθ̣(ηνᾶι?)  Yaylenko 1980/2; Λήναιος Ἀθ̣(ηνάηι)  Dubois</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="ru">
+                <p/>
+            </div><div xml:lang="uk" type="translation"><p/></div>
+            <div type="translation" xml:lang="en">
+                <p/>
+            </div>
+            <div type="commentary" xml:lang="ru">
+                <p/>
+            </div><div xml:lang="uk" type="commentary"><p/></div>
+            <div type="commentary" xml:lang="en">
+                <p>ΛΗΝΑΙΟΣ should most likely be read as a personal name Λήναιος, so listed in LGPN online (V4-19514), marking the pot as his property. The name is followed by a probable alpha 
+                    (or a lambda with an accidental horizontal stroke that extends far to the left beyond lambda's left diagonal) and quite a clear circle, 
+                    which should presumably be read as an omicron, so I print ΑΟ, but the meaning of these last two letters is unclear. The circle that follows 
+                    alpha does not have legs and therefore cannot be an omega, unless we are dealing with Attic script, which is not likely here. There might be a letter 
+                    (diamond-shaped?) between the iota and omicron of ΛΗΝΑΙΟΣ, unless the strokes are accidental. In fact, the whole graffito is very messy: there are many 
+                    double strokes and slips of the writing tool. The surface, while convex, was not so difficult for writing, and the writer had to be either inexperienced 
+                    or with their hand unsteadied (by drink?).</p>
+               
+                <p>Tolstoy (1953, no. 75) preferred to read ΛΗΝΑΙΟΣ as an adjective ληναῖος derived from the festival Λήναια and to interpret the last letter on the right 
+                    as a lunate sigma, restoring the whole text as ληναῖος ἀσ[κός]. At the same time, he mentioned T.N. Knipovich's view that the use of lunate sigma could 
+                    be seen as too early for the proposed date of the cup (late V - early IV cent. B.C.E.), which would also be my objection. Apparently, Knipovich was inclined 
+                    to read the last letter as either omicron or theta. Yaylenko (1980/2, p. 90. no. 19; SEG 30.883) read the text as Λήναιος Ἀθ̣(ηνᾶι?), and 
+                    Dubois (IGDOlb no. 70) as Λήναιος Ἀθ̣(ηνάηι) "Lenaios to Athena". They both see the graffito as dedicatory.</p>
+               
+                <p>Λήναιος as a personal name derives from the name of the month Ληναιών, which was an Ionian, not an Attic month, and was specifically a Milesian 
+                    and Olbian month, so we should perhaps lean towards expecting the writer to be Ionian and using the Ionian alphabet. 
+                    At least six more individuals bearing this name are attested at Olbia-Borysthenes; in my view, it is not certain that we should assume the two
+                    attestations of the name on a bronze mirror (dated ca. 500 BCE, found in a burial at Olbia) to be references to the same person, that is, that 
+                    Λήναιος Δημοκλō was the father of Δημώνασσα Ληναίō, also mentioned on that mirror (IGDOlb no. 92; Dubois interprets these two as father and daughter), 
+                    and LGPN accepts these attestations as referring to one individual (V4-19515). If that were the case, it would be unusual for the daughter's name 
+                    to precede the father's as family members typically appeared in inscriptions in generational and senioral sequence.</p>
+                <p>Ληναῖος is also a cultic epiclesis of Dionysos, and we could conceivably see a dedication here, in the Nominative form of the theonym. Also conceivable is that
+                    the epiclesis could be read in the Genitive, Ληναῖο, followed by Σαο(?). Yaylenko thought the inscription may have been left unfinished, which is a distinct 
+                    possibility. On the worship of Dionysos at Olbia and on various Dionysic festivals, such as Lenaia, see Rusyaeva (1979, 72-91).</p>
+                <p><!--Rusyaeva 1979, 80-81 discusses the name and the month.--></p>
+            </div>
+        </body>
+    </text>
+ 
+</TEI>

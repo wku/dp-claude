@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Платониды <certainty cert="low" locus="value" match=".."/></title><title xml:lang="en">Epitaph of Platonis <certainty cert="low" locus="value" match=".."/></title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.333</idno><idno type="PE">PE5000333</idno>
+            <idno type="AYV2012-number">byz328</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Мягкий известняк.</material>
+                           <material xml:lang="en">Soft limestone.</material>
+                           <p xml:lang="ru">Античная (?) плита (во вторичном использовании), напоминает по форме изуродованный крест. Обломана снизу (?).</p>
+                           <p xml:lang="en">Classical (?) stele (in secondary use), resembles a mutilated cross. Broken at the bottom (?).</p>
+                           <dimensions>
+                              <height>26,0</height>
+                              <width>14,0–23,0</width>
+                              <depth>11,0–13,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На лицевой стороне.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы прокрашены охрой. Альфа с прямой перекладиной (?), 
+                           лямбда с удлиненным верхом.</seg>
+                        <seg xml:lang="en">Lapidary; letters filled in with ochre. Alpha with straight crossbar (?), lambda with extended vertical.</seg>
+                        <height unit="cm">4,0–7,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p049">
+                        <seg xml:lang="ru">Гермонасса.</seg>
+                        <seg xml:lang="en">Hermonassa.</seg>
+                     </origPlace>
+                      <origDate notBefore="0301" notAfter="0500" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">IV–V вв.</seg>
+                        <seg xml:lang="en">IV–Vth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#tamanvicinity">Тамань, окрестности.</placeName>
+                        <rs type="circumstances">До декабря 1907 г.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Taman, vicinity.</placeName>
+                        <rs type="circumstances">Before December 1907.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+          <change when="2013-02-13" who="AG">repository corrected</change>
+         <change when="2013-01-09" who="AG">some corrections</change>
+         <change when="2012-09-11" who="AG">translation added, lemma added</change>
+          <change when="2012-09-03" who="AL">checked metadata</change>
+          <change when="2012-08-23" who="AL">checked metadata and bibliography</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+          <change when="2012-05-29" who="AFS">adding metadata</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-02-29" who="AG">small corrections, bibliography, apparatus and the Greek text tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Марти 1910--><ptr target="bib:b0167"/>, 12, №<citedRange>2</citedRange></bibl>
+               <bibl n="1.1"><!--КХНБ--><ptr target="bib:b0068"/>, <citedRange>27</citedRange></bibl>
+               <bibl n="1.2"><!--Виноградов 2010b--><ptr target="bib:b0414"/>, <citedRange>159</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="apparatus">
+             <listApp>
+               <app loc="1-5"> <rdg source="bib:b0167 bib:b0068">Πλάτωνι ἐν[...</rdg></app> 
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Платонида здесь лежит (?)</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Platonis [lies (?)] he[re].</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Надпись куплена у И. Пекерева в декабре 1907 г. Марти отнес ее к христианским по шрифту, но ввиду утраты памятника подтвердить или опровергнуть 
+               такую атрибуцию невозможно.  </p>
+            <p> Относительно реконструируемой формулы ср. <ref type="inscription">V 73</ref><!--byz073-->.</p>
+                <p>Имя Платонида известно по христианской надписи из Пессинунта (Strubbe 1983, 232). В античной эпиграфике это имя засвидетельствовано семь раз, 
+                   причем в трех случаях указывается, что это прозвище.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            
+            <p>The inscription was purchased from I. Pekerev in December 1907. Marti judged it to be Christian on the basis of script, but due to the loss of the 
+            monument, it is now impossible to confirm or dismiss his opinion.</p>
+            <p>For the reconstructed formula, cf. <ref type="inscription">V 73</ref><!--byz073-->.</p>
+            <p>The name Platonis is known in a Christian inscription from Pessinus (Strubbe 1983, 232). In classical antiquity, the name is epigraphically 
+               attested 7 times, in three of which it is used as a nickname.</p>
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" ref="#person425"><name nymRef="Πλατωνίς">Πλατ<lb n="2" break="no"/>ωνὶ<supplied reason="lost">ς</supplied></name></persName>
+               <lb n="3"/><w lemma="ἔνθα">ἔν<supplied reason="lost">θα</supplied></w>
+               <lb n="4"/><w lemma="κατάκειμαι"><supplied reason="lost" cert="low">κατά</supplied><lb n="5" break="no"/><supplied reason="lost">κειται</supplied></w>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Декрет</title><title xml:lang="en">Decree</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.313</idno><idno type="PE">PE3000409</idno><idno type="filename">3.36</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>35084</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>35084</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc15">
+                     <seg xml:lang="ru">Декрет.</seg>
+                     <seg xml:lang="en">Decree.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Обломана со всех сторон. Сохранились остатки шести строк
+                              надписи.</p>
+                           <p xml:lang="en">Broken off on all sides. Remains of six lines of text.</p>
+                           <dimensions>
+                              <height unit="cm">17,0</height>
+                              <width unit="cm">21,5</width>
+                              <depth unit="cm">8,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Некоторые буквы слегка наклонены влево; чуть изогнутые
+                           линии альфы, лямбды, мю, ню, пи; верхняя и нижняя гасты эпсилон
+                           значительно выступают влево за вертикаль, омикрон меньше размера строки,
+                           широкая омега с загнутыми внутрь концами полукружия и удлиненной
+                           горизонталью на уровне нижней линии строки, крупные апексы на концах
+                           линий букв.</seg>
+                        <seg xml:lang="en">Some letters slightly lean to the left; slightly curving hastae of alpha, lambda, mu, nu, pi; large serifs.</seg>
+                        <height unit="cm">1,2</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0200" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">II в. н.э.</seg>
+                        <seg xml:lang="en">II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1908 г. Раскопки Р.Х. Лепера
+                           (НА НЗХТ, д. 101, л. 19, № 2798; д. 66, л. 49, 18/09/08, № 2798; д. 67,
+                           л. 65).</rs>
+                        <rs type="context">В северо-восточном районе Херсонеса, близ батареи Канэ, в византийском слое.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1908, excavations of R.Ch. Loeper (НА НЗХТ, д. 101, л. 19, № 2798; д. 66, л. 49, 18/09/08, № 2798; д. 67,
+                           л. 65).</rs>
+                        <rs type="context">Northeast sector of Chersonesos, near the battery of Canet, in the Byzantine layer.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-04-06" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2016-04-14" who="Chris de Lisle">Encoded text</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.313">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Лепер 1912 --><ptr target="bib:b0480"/>, 59, № <citedRange>7</citedRange></bibl>
+               <bibl><!-- IOSPE2 --><ptr target="bib:IOSPE2"/> <citedRange>378</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Тюменев 1950 --><ptr target="bib:b0752"/>, <citedRange>18</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>			
+                <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               	<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">ἐπαινέσαι</supplied></w> 
+                        <persName type="attested" ref="#person1089"><gap reason="lost" extent="unknown" unit="character"/>
+               	<lb n="2"/><persName type="attested" ref="#person1090"><gap reason="lost" quantity="2" unit="character"/><name nymRef="—ειδης"><seg part="F"><unclear>εί</unclear>δου</seg></name> 
+               		   <w><supplied reason="lost">το</supplied><unclear>ῦ</unclear></w> 
+               	           <persName type="attested" ref="#person1091"><name nymRef="Ἡρακλείδης">Ἡρακλείδο<unclear>υ</unclear></name></persName></persName></persName> 
+                           <gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">δόμεν</supplied></w> <w><supplied reason="lost">δὲ</supplied></w>
+                           <w><supplied reason="lost">αὐ</supplied>
+               	<lb n="3" break="no"/><supplied reason="lost">τ</supplied>ῷ</w> <w>προξενίας</w> <w>πολειτε<supplied reason="lost">ίαν</supplied></w> 
+                        <w><supplied reason="lost">ἔσπλουν</supplied></w> <w><supplied reason="lost">τε</supplied></w> <w><supplied reason="lost">καὶ</supplied></w> 
+                        <w><supplied reason="lost">ἔκπλουν</supplied></w>
+               	<lb n="4"/><w><supplied reason="lost">ἐν</supplied></w> <w><supplied reason="lost">ε</supplied>ἰράναι</w> <w>καὶ</w> <w>πολέμωι</w> 
+                           <w>ἀσ<supplied reason="lost">υλεὶ</supplied></w> <w><supplied reason="lost">ἀσπονδεὶ</supplied></w> <w><supplied reason="lost">αὐτῶι</supplied></w> 
+                           <w><supplied reason="lost">τε</supplied></w>
+               	<lb n="5"/><w><supplied reason="lost">καὶ</supplied></w> <w>χράμασιν</w> <w>αὐτοῦ</w> <w>μετ<supplied reason="lost">οχάν</supplied></w> 
+                           <w><supplied reason="lost">τε</supplied></w> <w><supplied reason="lost">πάντων</supplied></w> <w><supplied reason="lost">τῶν</supplied></w> 
+                           <w><supplied reason="lost">ἐν</supplied></w> <w><supplied reason="lost">τᾷ</supplied></w> <w><supplied reason="lost">πό</supplied>
+               	<lb n="6" break="no"/><supplied reason="lost">λει</supplied></w> <w>ὧ<unclear>ν</unclear></w> <w>καὶ</w> 
+                           <placeName type="ethnic">Χερ<unclear>σ</unclear><supplied reason="lost">ονασείταις</supplied></placeName> 
+                           <w><supplied reason="lost">μέτεστι</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+               	<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+               	<lb n="7a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <rdg><note source="bib:b0480">Suppl.</note></rdg>
+               </app>
+               <app loc="0-1">
+                  <rdg source="bib:IOSPE">ἐπαινέσαι τὸν δεῖνα Ἡρα]|[κλ]ε̣ί̣δου, <note>vel sim. -ειδης</note></rdg>
+               </app>
+               <app loc="5">
+                 <rdg><note>fin.:</note> τᾷ <note>scripsi</note></rdg> 
+                  <rdg source="bib:IOSPE">τᾶι</rdg>
+               </app>
+               <app loc="7">
+                  <note>vestigia</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[- - - восхвалить (такого-то, сына) - - -]ида, (внука) Гераклида, [даровать ему]
+               гражданство на основании проксении, [право входа в гавань и выхода из гавани], в
+               мирное и военное время, [без риска конфискации и необходимости заключения договора,
+               ему самому], его имуществу, а также обладание [всеми (правами) в полисе, которыми
+               обладают] херсонеситы [ - - -]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[- - - to praise ---, son of ---] son of Herakleidas, [and grant him citizenship on the grounds of proxeny, 
+               [the right of sailing in and out of the harbour] in peace time and in war time, without a threat of con[fiscation 
+               and without a formal treaty, for him] and his goods, as well as a sha[re in all the things shared by the Chersonesites - - -].</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Лепер 59, не исключает, что стк. 1 появилась вследствие диттографии и была намеренно
+               сбита резчиком.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

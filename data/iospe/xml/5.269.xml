@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Аникита</title><title xml:lang="en">Epitaph of Aniketos</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.269</idno><idno type="PE">PE5000269</idno>
+            <idno type="AYV2012-number">byz257</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Керченский историко-культурный заповедник</repository>
+                     <idno>КЛ–1018</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Kerch Historical and Cultural Reserve</repository>
+                     <idno>КЛ–1018</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">На лицевой стороне изображение крестов в верхних углах. Разбита на 5 частей, сколы со всех сторон.</p>
+                           <p xml:lang="en">On the front - carved crosses in top corners. Broken into 5 parts, chipped on all sides.</p>
+                           <dimensions>
+                              <height>57,0</height>
+                              <width>36,0</width>
+                              <depth>6,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На лицевой стороне.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с ломаной перекладиной, эпсилон, тета, 
+                           омикрон и сигма прямоугольные, дельта с удлиненной вверх правой гастой.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with broken crossbar, rectangular epsilon, theta, omicron, sigma, delta with projecting right hasta.</seg>
+                        <height unit="cm">ок. 3,0–4,5.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p044">
+                        <seg xml:lang="ru">Пантикапей.</seg>
+                        <seg xml:lang="en">Pantikapaion.</seg>
+                     </origPlace>
+                     <origDate notBefore="0301" notAfter="0500" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">IV–V вв.</seg>
+                        <seg xml:lang="en">IV–Vth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Сентябрь 2010.</seg>
+                     <seg xml:lang="en">September 2010.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#kerch">Керчь.</placeName>
+                        <rs type="circumstances">Март 1896 г., случайная находка.</rs>
+                        <rs type="context">Глинище, сад К. Верле.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Kerch.</placeName>
+                        <rs type="circumstances">March 1896, chance find.</rs>
+                        <rs type="context">Glinishche, garden of K. Woerle.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Керчь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Kerch, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-11-07" who="TW">Added image code</change>
+          <change when="2012-10-06" who="AL">small corrections in Russian text; English translation of orig place corrected</change>
+         <change when="2012-08-15" who="AG">1 line translated</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-10" who="AG">1 line translated</change>
+         <change when="2012-06-26" who="AG">bibl. corrected</change>
+         <change when="2012-05-08" who="AG">several lines translated, tags corrected, some corrections in metadata, bibliography and apparatus marked up</change>
+          <change when="2012-03-27" who="AL">original date tagged, bibliography tagged, text tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.269-1">
+                <desc xml:lang="en">Drawing of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="5.269-2">
+                <desc xml:lang="en">Photograph of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!-- Сборник --><ptr target="bib:b0132"/>, 131–132, № <citedRange>91а</citedRange></bibl>
+               <bibl n="2"><!-- Шкорпил 1898--><ptr target="bib:b0400"/>,  190, № <citedRange>11</citedRange></bibl>
+               <bibl n="1.1"><!-- КХНБ --><ptr target="bib:b0068"/>, № <citedRange>7</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="apparatus">
+             <listApp>
+                <app loc="4-5"><rdg source="bib:b0068">(Ἀ)νικετος (sic!)</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Здесь лежит Аникит.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Here lies Aniketos.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Надпись была приобретена в 1896 г. Шкорпилом для ООИД. Латышев издал ее по эстампажу, присланному К.Е. Думбергом вместе с сообщением 
+               Шкорпила. В частности, последний сообщает, что по шрифту надпись близка к <ref type="inscription">V 276</ref><!--byz264-->. Затем, через два года, 
+               Шкорпил сам опубликовал надпись без ссылки на Латышева. В настоящее время сохранился только правый нижний угол.</p>
+                <p> 1–3. Относительно формулы см. <ref type="introduction">IV.3.F.d</ref>.</p>
+                <p>4–5. Конъектура Диатроптова и Емца Ἀνικετος (sic!) — бессмысленна. Имя Аникит как христианское точно зафиксировано только в надписях 
+                   Малой Азии, причем 6 раз (MAMA I 173 (иерей апотактитов), 180, 237, 357; 7, 279b; Mitchell 1977 98, № 40). Известны также два мученика с этим 
+                   именем, также  из Малой Азии (Delehaye 1902, 201, 885). Кроме того, в античной эпиграфике Малой Азии это имя встречается семь раз, а за ее 
+                   пределами по разу в Афинах, Фессалии, Македонии и на Аморгосе и четырежды в Египте (согласно PHI7 Database). Исходя из этого, можно с осторожностью 
+                   предположить, что боспорский Аникит был уроженцем Анатолии. </p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The monument was acquired by Shkorpil for the Odessa Society for History and Antiquities in 1896. Latyshev used an estampage sent to him by 
+               K.E. Dumberg and accompanied by Shkorpil's note in preparing his edition. In particular, the latter observed that the script was similar to that of 
+               <ref type="inscription">V 276</ref><!--byz264-->. Two years later, Shkorpil published the inscription as well, without referring to Latyshev's edition.
+             At present, only the bottom right corner survives.</p>
+           
+            <p>1–3. On the formula, see Introduction <ref type="introduction">IV.3.F.d</ref>.</p>
+            <p>The conjecture of Diatroptov and Yemets - Ἀνικετος (sic!) - makes no sense. The name Aniketos is attested as such only in inscriptions from Asia Minor, 
+               and only 6 times (MAMA I 173 (hiereus of apotactics), 180, 237, 357; 7, 279b; Mitchell 1977 98, № 40). Two martyrs of this name are also known in Asia Minor
+               (Delehaye 1902, 201, 885). In addition, this name is also attested 7 times in the epigraphic record of Asia Minor in classical antiquity, and outside Asia Minor - 
+               once each in Athens, Thessaly, Macedonia, and Amorgos, as well as 4 times in Egypt (according to PHI7 Database). On these grounds, we can cautiously hypothesize
+            that the Bosporan Aniketos hailed from Anatolia.</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="ἐνθάδε">Ἐν<unclear>θ</unclear>ά<lb n="2" break="no"/>δε</w> <w lemma="κατάκειμαι">κ<unclear>ατ</unclear><lb n="3" break="no"/>άκιτε</w>
+               <lb n="4"/><persName type="attested" ref="#person331"><name nymRef="Ἀνίκητος">Ἀνίκη<lb n="5" break="no"/>τος</name></persName>.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

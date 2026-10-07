@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Incertum</title>
+            <title xml:lang="en">Incertum</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.735</idno><idno type="PE">PE3000547</idno><idno type="filename">3.584</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Музей древностей Северо-Западного Крыма.</repository>
+                     <idno>КТ-87/516</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Museum of Antiquities of Northwestern Crimea.</repository>
+                     <idno>КТ-87/516</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc22">
+                     <seg xml:lang="ru">Incertum.</seg>
+                     <seg xml:lang="en">Incertum.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Сохранился правый верхний угол с остатками четырех строк надписи. Лицевая поверхность частично заглажена.</p>
+                           <p xml:lang="en">Top right corner is preserved with traces of four lines of text.The front is partly planed.</p>
+                           <dimensions>
+                              <height unit="cm">18,0</height>
+                              <width unit="cm">13,0</width>
+                              <depth unit="cm">8,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Надпись выполнена непрофессиональным резчиком; альфа с ломаной поперечной линией, каппа с укороченными 
+                           наклонными, вертикальные гасты ню имеют одинаковую длину, пи с равными вертикалями и выходящей за их пределы горизонталью.</seg>
+                        <seg xml:lang="en">Alpha with broken crossbar, pi with even verticals and extended horizontal.</seg>
+                        <height unit="cm">2,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p014">
+                        <seg xml:lang="ru">Хора Херсонеса.</seg>
+                        <seg xml:lang="en">Chora of Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0168" notAfter="-0001" evidence="Палеография">
+                        <seg xml:lang="ru">конец II - I в. до н.э.</seg>
+                        <seg xml:lang="en">late II - I century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#karatobe">Кара-Тобе (Северо-Западный Крым).</placeName>
+                        <rs type="circumstances">Найдена в 1987 г. Раскопки С.Ю. Внукова.</rs>
+                        <rs type="context">В заполнении зерновой ямы № 22/87.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Kara-Tobe (Northwest Crimea).</placeName>
+                        <rs type="circumstances">Found in 1987, excavations of S. Yu. Vnukov.</rs>
+                        <rs type="context">Fill of silo pit № 22/87.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Саки, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saki, Crimea.</tei:seg>
+                  </provenance>
+                  </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-03-09" who="PY">encoded Leiden and metadata</change>
+         <change when="2016-11-28" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.735">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Виноградов, Внуков 1989 --><ptr target="bib:b0990"/> (предварительная публикация)</bibl>
+               <bibl><!-- Vinogradov, Vnukov 1997 --><ptr target="bib:b0991"/>, 498
+               (= <bibl><!-- SEG --><ptr target="bib:SEG"/> <citedRange>47, 1177</citedRange></bibl>)</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- BullEp 1998 --><ptr target="bib:BE"/>, <citedRange>1998, 289</citedRange> (Gauthier)</bibl>
+               <bibl><!-- Gauthier 1998 --><ptr target="bib:b0987"/>, <citedRange>1187</citedRange></bibl>
+               <bibl><!-- Яйленко 1999 --><ptr target="bib:b0988"/></bibl>
+               <bibl><!-- Vnukov 2001 --><ptr target="bib:b0989"/>, <citedRange>168</citedRange></bibl>
+               <bibl><!-- Сапрыкин, Внуков 2015 --><ptr target="bib:b0883"/>, <citedRange>106</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΙΠΑΡ</orig>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">παιον</w>
+               		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Σ</unclear>ΤΟΝΙ</orig>
+               		<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">τικοι</w>
+               		<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
+               		<lb n="5a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <rdg source="bib:b0991">[Διὶ Σωτήρ]ι, Παρ/[θένωι τὸ τρό]παιον / 
+                     [ἔστησαν Ἀρι]σ̣τόνι/[κος καὶ Πον]τικοὶ / [στρατιῶται?] ν̣[ική/σαντες ? κτλ.] 
+                     vel [Διὶ Σωτήρι κα]ὶ Παρ/[θεένωι τόδε τὸ τρό]παιον / [ἀνέστησαν Ἀρι]σ̣τόνι/[κος 
+                     καὶ οἱ Πον]τικοὶ / [στρατιῶται ?] ν̣[ική/σαντες ? κτλ.]</rdg>
+               </app>
+               <app loc="3">
+                  <rdg source="bib:b0991">Ἀρι]σ̣τόνι/[κος], vel  [πρὸ]ς̣ τὸν ἰ/[- - -] vel [ἐ]κ̣ τῶν ἰ/[δίων]</rdg>
+               </app>
+               <app loc="5">
+                  <note>in.: vestigia.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p/>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>3: скорее личное имя Ἀρι]σ̣τόνι/[κος], чем  [πρὸ]ς̣ τὸν ἰ/[- - -] или [ἐ]κ̣ τῶν ἰ/[δίων]</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

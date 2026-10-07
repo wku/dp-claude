@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Гиря с надписью</title><title xml:lang="en">Designation of weight measure</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.45</idno>
+            <idno type="filename">1.38</idno>
+            <idno type="PE">PE1000045</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Одесский археологический музей</repository>
+                     <idno>89901</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Odessa Archaeological Museum</repository>
+                     <idno>89901</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc28">
+                     <seg xml:lang="ru">Цифровое обозначение.</seg>
+                     <seg xml:lang="en">Numerical designation.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon41">Гиря.</objectType>
+                           <objectType xml:lang="en">Weight</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор cерый.</material>
+                           <material xml:lang="en">Marble, gray.</material>
+                           <p xml:lang="ru">Каменная гиря, имеет форму параллелепипеда, увенчанного сужающейся ручкой, 
+                              завершающейся плоской площадкой, на которую нанесена надпись. Достаточно тщательно заглаженa со всех сторон, 
+                              нижняя часть повреждена насечками, одна из боковых сторон – выбоиной.</p>
+                           <p xml:lang="en">Weight in the shape of a cuboid bottom and trapezium prism top. The top part serves as a handle. 
+                              The inscription is on the flat top surface. It is well worked on all sides, the bottom is scarred with notches, one side is dented.</p>
+                           <dimensions>
+                              <height unit="cm">8,5</height>
+                              <width unit="cm">8,6</width>
+                              <depth unit="cm">9,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Верхний фас. Сохранилось практически полностью; повреждено выбоинами справа.
+                              Размеры полей: Верхнее и нижнее 0,8, правое 1,5, левое 2,0.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. Preserved nearly complete; dented on the right. Margins: top and bottom 0,8; left 2,0.</seg>
+                           <dimensions>
+                              <height unit="cm">2,7</height>
+                              <width unit="cm">8,0</width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Знаки вырезаны достаточно аккуратно и глубоко, украшены крупными апексами, 
+                           однако имеют неодинаковый размер и разный наклон.</seg>
+                        <seg xml:lang="en">Deeply and neatly cut; adorned with large serifs; however, they are of uneven height and incline.</seg>
+                        <height unit="cm">2,6-3,1</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0001" notAfter="0001" evidence="Нет">
+                        <seg xml:lang="ru">Неизвестна.</seg>
+                        <seg xml:lang="en">Unknown.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">Найдена при раскопках И.Б. Клеймана в 1986 г. Полевой номер БД-86/№ 17б.</rs>
+                        <rs type="context">Вторичный контекст.  Центральный раскоп, северный участок, кв. 4-ЮВ, 5-ЮЗ, 
+                           зольная яма на ур. 15.83-15.60 м. </rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Found in 1986, excavations of I.B. Kleyman. Field catalogue number БД-86/№ 17б.</rs>
+                        <rs type="context">Central area, northern section, grid square кв. 4-ЮВ, 5-ЮЗ, ash pit at the level 15.83-15.60m.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Одесса.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Odessa.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2006-08">август 2006</date>.</seg>
+                     <seg xml:lang="en">A.I. Ivantchik, <date when="2006-08">August 2006</date>.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-28" who="SS">encoded metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.45-1">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="10.45-2">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <bibl>Ineditum</bibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><num type="acrophonic" value="3">III</num>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app><note/></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Не предлагается.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Not attempted.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Цифровое обозначение веса гири в акрофонической системе – «три». Очевидно, гиря имела вес три мины.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Numerical designation of the weight in acrophonic system - "three." Apparently, the weight was 3 minae.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

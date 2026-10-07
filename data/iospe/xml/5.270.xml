@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Арсакия</title><title xml:lang="en">Epitaph of Arsakis</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.270</idno><idno type="PE">PE5000270</idno>
+            <idno type="AYV2012-number">byz258</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Керченский историко-культурный заповедник</repository>
+                     <idno>КЛ–1174</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Historical and Archeological Museum of Kerch State Historical and Cultural Preserve</repository>
+                     <idno>КЛ–1174</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">На лицевой стороне вверху вытянутый по вертикали крест с расширяющимися концами, пересеченный горизонтальной чертой 
+                              посередине и косым крестом в верхней части; на нижнем рукаве первого креста изображение вытянутого по вертикали креста. 
+                              Расколота на 4 части в районе перекрестия.</p>
+                           <p xml:lang="en">On the top front - carved elongated cross with flaring arms, criss-crossed in the middle by a horizontal line and by a sideways
+                           cross in the top part; on the bottom arm of the central cross - carved elongated cross. Broken into 4 parts at the intersection of the arms.</p>
+                           <dimensions>
+                              <height>97,0</height>
+                              <width>29,5</width>
+                              <depth>14,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">В средней части, между двумя горизонтальными линиями.</seg>
+                           <seg xml:lang="en">In the middle, between two horizontal lines.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы, кресты и линии рамки прокрашены охрой. 
+                           Альфа с ломаной перекладиной, дельта с удлиненной вверх правой гастой.</seg>
+                        <seg xml:lang="en">Lapidary; letters, crosses, and framing lines are filled in with ochre. Alpha with broken crossbar, delta with projecting right hasta.</seg>
+                        <height unit="cm">3,0–4,5.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p044">
+                        <seg xml:lang="ru">Пантикапей.</seg>
+                        <seg xml:lang="en">Pantikapaion.</seg>
+                     </origPlace>
+                     <origDate notBefore="0201" notAfter="0400" precision="low" evidence="формула">
+                        <seg xml:lang="ru">III–IV вв.</seg>
+                        <seg xml:lang="en">III–IVth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2004-09">сентябрь 2004</date>, <date when="2008-09"> сентябрь 2008</date>.</seg>
+                     <seg xml:lang="en"><date when="1999-05">May 1999</date>, <date when="2004-09">September 2004</date>, <date when="2008-09">September 2008</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#kerch">Керчь.</placeName>
+                        <rs type="circumstances">23 января 1903 г., случайная находка.</rs>
+                        <rs type="context">Глинище, Братская ул. (совр. Фрунзе), д. 17, двор вдовы А. Бондаренко.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Kerch.</placeName>
+                        <rs type="circumstances">23 January 1903, chance find.</rs>
+                        <rs type="context">Glinishche, Bratskaya (modern Frunze) Street, house no. 17, yard of the widow of A. Bondarenko.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Керчь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Kerch, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-11-07" who="TW">Added image code</change>
+         <change when="2012-08-15" who="AG">small corrections, 2 lines translated</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-06-19" who="AG">one line translated</change>
+         <change when="2012-05-08" who="AG">several lines translated, some corrections in metadata, tags in the Greek te[t corrected, bibliography tidied</change>
+          <change when="2012-03-27" who="AL">original date tagged, bibliography tagged, text tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.270">
+                <desc xml:lang="en">Photograph of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!-- Латышев 1904--><ptr target="bib:b0144"/>,  86, № <citedRange>100</citedRange></bibl>
+               <bibl n="1.1"><!-- КХНБ --><ptr target="bib:b0068"/>, № <citedRange>8</citedRange></bibl>
+               <bibl n="2"><!-- Vinogradov 2007--><ptr target="bib:b0376"/>,  261, № <citedRange>8</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Здесь лежит Арсакий христианин.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Here lies Arsakis, a Christian.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Камень найден рядом с <ref type="inscription">V 287</ref><!--byz275-->. Форма камня весьма своеобразна: с одной стороны, навершие в форме креста сближает его с надгробными 
+               крестами <ref type="inscription">V 275</ref><!--byz263-->, <ref type="inscription">V 285</ref><!--byz273-->, <ref type="inscription">V 287</ref><!--byz275-->, 
+               а с другой, он имеет еще нехарактерную для христианских форму античной высокой и узкой стелы, как и другая 
+               ранняя (IV в.) и выделяющаяся среди остальных <ref type="inscription">V 283</ref><!--byz271-->.</p>
+                <p> 1–2. Относительно формулы см.<ref type="introduction"> IV.3.F.d</ref>.</p>
+                <p> 3.<!-- Относительно происхождения имени см. прил. 1. -->Известен мученик Арсакий Никомидийский (Sozomenus,  Hist. eccl. IV, 16), пострадавший при 
+                   Лицинии. В христианских надписях это имя встречается однажды (IK.Prusias 126).</p>
+                <p>3–4. Латышев считал, что слово «христианин» свидетельствует об официальном признании христианства во время составления надписи. 
+                   На деле, эта формула распространена именно в III–IV вв., когда такая самоидентификация была более всего актуальна: 
+                   см., напр., Feissel 1983, № 123 (IV? в.); Beševliev 1964, № 36 (IV в.), 220b (III–IV в.); Wessel 1989, № 325–332; Hagel 1998, № Kry 18; IGLS 598 (369 г.); 
+                   Asdracha 2003, № 118 (II–III вв.), 130–131, 165, 196. Относительно эпитета «христианин» в надписях см. Leclercq 1913, 1470–1478. Также обозначение 
+                   «христианин» было распространено в эпиграфической традиции фригийских монтанистов (см. Gibson 1978), однако других оснований считать 
+                   боспорского Арсакия монтанистом нет, да и имя Арсакий во Фригии не зафиксировано. </p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The monument was found next to <ref type="inscription">V 287</ref><!--byz275-->. The shape of the monument is quite peculiar: on the one hand, the top part
+               in the shape of the cross points to its affinity with burial crosses <ref type="inscription">V 275</ref><!--byz263-->, <ref type="inscription">V 285</ref><!--byz273-->, 
+               <ref type="inscription">V 287</ref><!--byz275-->, on the other hand, its main body is that of a tall and narrow stele, uncommon for Christian tombstones,
+               but similar to another early (IVth century) monument, which also stands out among others - <ref type="inscription">V 283</ref><!--byz271-->.</p>
+            <p>1–2. On the formula, see Introduction <ref type="introduction"> IV.3.F.d</ref>.</p>
+            <p>3. Under this name, we know of a martyr - Arsakis of Nicomedia (Sozomenus  Hist. eccl. IV, 16), who suffered persecution under Licinius. This name is attested
+            once among Christian inscriptions (IK.Prusias, № 126).</p>
+            <p>3-4. Latyshev believed that the use of the term "Christian" testified to the official status of Christianity at the time when the text had been inscribed.
+               In reality, this formula was popular in the IIIrd-IVth centuries, that is, at the time when such identification was particularly poignant: see, e.g., Feissel 1983, № 123 
+               (IVth? century); Beševliev 1964, № 36 (IVth century), 220b (III–IVth century); Wessel 1989, № 325–332; Hagel 1998, № Kry 18; IGLS 598 (369 C.E.); 
+               Asdracha 2003, № 118 (II–III вв.), 130–131, 165, 196. On the epithet "Christian" in inscriptions, see Leclercq 1913, 1470–1478. The identification 
+               "Christian" was also common in the epigraphic tradition of Phrygian montanists (see Gibson 1978), although there are no other indications to suspect that the 
+            Bosporan Arsakis was a montanist, and additionally, the name Arsakis is not attested in Phrygia.</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><g ref="#stauros"/> <w lemma="ἐνθάδε">Ἐνθάδε</w>
+               <lb n="2"/><w lemma="κατάκειμαι">κατάκιττε</w>
+               <lb n="3"/><persName type="attested" ref="#person332"><name nymRef="Ἀρσάκις">Ἀρσάκις</name></persName>
+               <w lemma="Χριστιανός">χρισ<lb n="4" break="no"/>τιανός</w>.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

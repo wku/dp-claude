@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Марко</title><title xml:lang="en">Epitaph of Marko</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.62</idno><idno type="PE">PE3000062</idno><idno type="filename">3.270</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3640</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3640</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Верхняя часть стелы. Украшена фронтоном с акротерием
+                              (частично сбит). На лицевой стороне сохранились маленькие рельефные
+                              розетки. Между карнизом и розетками красной краской была нанесена
+                              трехстрочная надпись (в настоящее время утрачена).</p>
+                           <p xml:lang="en">Upper part of a stele decorated with a pediment and
+                              acroterion (partially damaged). Small relief rosettes on the front.
+                              Three-line inscription (now lost) was painted in red paint
+                              between the cornice and rosettes.</p>
+                           <dimensions>
+                              <height unit="cm">44,0</height>
+                              <width unit="cm">30,0</width>
+                              <depth unit="cm">12,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">На лицевой стороне, между карнизом и розетками.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front, between the cornice and rosettes.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Правая вертикаль ню приподнята, верхняя поперечная линия
+                           пи слегка выступает за короткую правую вертикаль, омикрон меньше
+                           остальных букв.</seg>
+                        <seg xml:lang="en">Nu with raised right vertical, mu with short right vertical and slightly extended horizontal, omicron smaller than other 
+                        letters.</seg>
+                        <height unit="cm">Неизвестна.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0201" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">III в. до н.э.</seg>
+                        <seg xml:lang="en">III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1910 г. Раскопки
+                           Р.Х. Лепера (НА НЗХТ, д. 103, № 3746; д. 71, л. 83).</rs>
+                        <rs type="context">Юго-восточный район Херсонеса, оборонительные стены, ядро башни XVII (башня Зенона), кладка.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1910, excavations of R.Ch. Loeper (НА НЗХТ, д. 103, № 3746; д. 71, л. 83).</rs>
+                        <rs type="context">Southeast sector of Chersonesos, fortification walls, Tower XVII ("Zeno's Tower"), masonry.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-15" who="CB">Bibliography</change>
+         <change when="2015-09-01" who="CB">Metadata and app crit</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2015-05-15" who="CB">metadata tagging</change>
+         <change when="2015-03-13" who="AV">tagging Greek names XML from Word docs</change>
+         <change when="2014-01-31" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.62">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--НЭПХ I--><ptr target="bib:НЭПХ"/> <citedRange>30</citedRange></bibl>
+               <bibl><!--Perlman 2011--><ptr target="bib:b0437"/>, 451, №
+                     <citedRange>C54</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Гриневич 1927--><ptr target="bib:b0459"/>, 55 сл</bibl>
+               <bibl><!--АСХ--><ptr target="bib:b0523"/> № 191</bibl>
+               <bibl><!--Posamentir 2011--><ptr target="bib:b0439"/>, 126, № C54</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person600"><name nymRef="Μαρκώ">Μαρκὼ</name>
+               	<lb n="2"/><persName type="attested" ref="#person601"><name nymRef="Ἀριστοκλής">Ἀριστοκλέος</name></persName>,
+               	<lb n="3"/><persName type="attested" ref="#person602"><name nymRef="Ἀπολλᾶς">Ἀπολλᾶ</name></persName>
+               	   <w>γυνά</w></persName>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Марко, (дочь) Аристокла, жена Аполлая.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Marko, (daughter of) Aristokles, wife of Apollas.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Женское имя Μαρκώ засвидетельствовано помимо этой надписи лишь на Фасосе в римское
+               время (LGPN I), его происхождение остается неясным (ср. Stolba 1996, 452, где имя
+               связывается с группой μαργός). Два других ЛИ носят общегреческий характер.
+               Относительно окончания gen. sg. -κλέος для ЛИ, заканчивающихся в nom. sg. на -κλῆς
+               ср. Thumb-Kieckers 138, § 132.9; Тохтасьев 1997, 399.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

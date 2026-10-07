@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент надписи</title><title xml:lang="en">Incertum</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.39</idno>
+            <idno type="filename">1.55</idno>
+            <idno type="PE">PE1000039</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Институт археологии НАНУ, коллекционный фонд.</repository>
+                     <idno>Кол. 1266/14/78-93</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Repository of finds, Institute of Archaeology, National Academy of Sciences of Ukraine</repository>
+                     <idno>Кол. 1266/14/78-93</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc22">
+                     <seg xml:lang="ru">Incertum.</seg>
+                     <seg xml:lang="en">Incertum.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор белый.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Рельеф с расположенной под ним надписью. Лицевой и оборотный фасы отполированы, остальные оббиты.</p>
+                           <p xml:lang="en">A relief with an inscription below it. The front and back are polished, the other sides broken off. </p>
+                           <dimensions>
+                              <height unit="cm">16,6</height>
+                              <width unit="cm">10,5</width>
+                              <depth unit="cm">5,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас, под рельефом, от которого сохранился небольшой фрагмент. Оббито со всех сторон, кроме верхней.
+                              Размер полей: верхнее 0,8.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front, below the relief, from which a small fragment survives. Broken off on all sides, except the top. Margins: top 0,8cm.</seg>
+                           <dimensions>
+                              <height unit="cm">13,0</height>
+                              <width unit="cm">10,3</width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Написано ровными и аккуратными буквами, вырезанными по линиям предварительной разметки, 
+                           апексы небольшие, используются лигатуры.
+                           Среднее расстояние между строк: 1,0.</seg>
+                        <seg xml:lang="en">Even and neat letters, following ruled lines, adorne with small serifs. Ligatures. Average distance between lines: 1,0.</seg>
+                        <height unit="cm">2,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0300" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">II-III вв. н.э.</seg>
+                        <seg xml:lang="en">II-III century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">При раскопках Н.А. Сон в 1988 г., пол. номер БД-88, No. 5.</rs>
+                        <rs type="context">Вторичный.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Found in 1988, excavations of N.A. Son; field catalogue number БД-88, No. 5.</rs>
+                        <rs type="context">In secondary context.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Киев.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Kiev.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2009-10">октябрь 2009</date>.</seg>
+                     <seg xml:lang="en">A.I. Ivantchik, <date when="2009-10">October 2009</date>.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-28" who="SS">encoded metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.39">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl>Ineditum</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>Σ</orig><gap reason="illegible" quantity="1" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΟΝΔ<unclear>Ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>ξ</unclear>αντα</w> 
+                                             <w part="I">ἐ</w><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name><seg part="I"><unclear>Μ</unclear>αρκε<supplied reason="lost">λλ</supplied><gap reason="lost" extent="unknown" unit="character"/></seg></name></persName>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="3">
+                  <note>ΝΤ in ligatura</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Не предлагается.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Not attempted.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Надпись слишком фрагментирована, чтобы можно было предложить надежное восстановление.</p>
+            <p>3. Одно из возможных восстановлений: ἄρ]ξ̣αντα ἐ[πιφανῶς vel sim., однако возможны и другие варианты.</p>
+            <p>4. В этой строке достаточно надежно восстанавливается одна из форм латинского имени Marcellus или Marcellinus.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The inscription is too fragmentary to allow a secure restoration.</p>
+            <p>3. One of possible restorations: ἄρ]ξ̣αντα ἐ[πιφανῶς vel sim., but there are other possibilities.</p>
+            <p>4. In this line, we can quite safely restore a form of the Latin name Marcellus or Marcellinus.</p>         </div>
+      </body>
+   </text>
+</TEI>

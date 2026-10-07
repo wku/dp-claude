@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент списка имен эллинистического времени</title><title xml:lang="en">List of names</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.515</idno><idno type="PE">PE3000493</idno><idno type="filename">3.178</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>34847</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>34847</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc17">
+                     <seg xml:lang="ru">Список имен.</seg>
+                     <seg xml:lang="en">List of names.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Частично сохранился левый край. Надпись расположена с отступом от края плиты. 
+                              Лицевая и тыльная сторона тщательно обработаны.</p>
+                           <p xml:lang="en">Partly preserved left side.</p>
+                           <dimensions>
+                              <height unit="cm">8,0</height>
+                              <width unit="cm">9,0</width>
+                              <depth unit="cm">4,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Слегка изогнутые линии некоторых букв, тета с точкой, мю с наклонными боковыми линиями 
+                           и короткими внутренними гастами, правая вертикаль ню слегка приподнята, сигма с расходящимися верхней и нижней гастами.</seg>
+                        <seg xml:lang="en">Slightly curved hastae of some letters, dotted theta, four-bar sigma with splayed bars.</seg>
+                        <height unit="cm">0,8</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0201" evidence="Палеография">
+                        <seg xml:lang="ru">III в. до н.э.</seg>
+                        <seg xml:lang="en">III century B.C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена случайно в 1912 г. (НА НЗХТ, д. 106, л. 50).</rs>
+                        <rs type="context">В северо-восточном районе Херсонеса. </rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Random find in 1912 (НА НЗХТ, д. 106, л. 50).</rs>
+                        <rs type="context">Northeast sector of Chersonesos.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-13" who="SS">encoded text and metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.515">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Латышев 1915 --><ptr target="bib:b0154"/>, 30, № <citedRange>2</citedRange>
+               (= <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>581</citedRange></bibl>)</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><persName type="attested"><gap reason="lost" quantity="4" unit="character" cert="low"/><name><seg part="F">ων</seg></name> 
+                                                   <persName type="attested"><name><seg part="I">Διο</seg></name><gap reason="lost" extent="unknown" unit="character"/></persName></persName>
+               		<lb n="2"/><persName type="attested"><name>Θεόφιλος</name> <persName type="attested"><name><seg part="I">Σκ</seg></name><gap reason="lost" extent="unknown" unit="character"/></persName></persName>
+               		<lb n="3"/><persName type="attested"><name>Φανικὸς</name> <persName type="attested"><name>Ἡροξ<supplied reason="lost">ένου</supplied></name></persName></persName> 
+                                                   <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4"/><persName type="attested"><name>Θεοφάνης</name> <persName type="attested"><name><seg part="I">Ἡρ</seg></name><gap reason="lost" extent="unknown" unit="character"/></persName></persName>
+               		<lb n="5"/><persName type="attested"><name>ʼΟμφαλίων</name> <persName type="attested"><name><seg part="I">Η</seg></name><gap reason="lost" extent="unknown" unit="character"/></persName></persName>
+               		<lb n="6"/><persName type="attested"><name>Ἡρ<unclear>α</unclear>κλείδα<supplied reason="lost">ς</supplied></name> 
+               		                   <gap reason="lost" extent="unknown" unit="character"/></persName>
+               		<lb n="7"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="3" unit="character"/><persName type="attested"><name><seg part="Y">λακα</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="8"/><gap reason="lost" quantity="4" unit="character" cert="low"/><persName type="attested"><name><seg part="F">οδωρο<supplied reason="lost">ς</supplied></seg></name> 
+                                                <gap reason="lost" extent="unknown" unit="character"/></persName>
+               		<lb n="9"/><gap reason="lost" quantity="6" unit="character" cert="low"/><persName type="attested"><name><seg part="M"><unclear>α</unclear>κλ</seg></name><gap reason="lost" extent="unknown" unit="character"/></persName>
+               		<lb n="9a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg>Διο[νυσίου?] <note>edd.</note></rdg>
+               </app>
+               <app loc="2">
+                  <rdg>Σκ[ύθα?] <note>edd.</note></rdg>
+               </app>
+               <app loc="4">
+                  <rdg><note>fin.:</note> Ρ <note>om. edd.</note></rdg>
+               </app>
+               <app loc="9">
+                  <rdg>Ἡρα]̣κλ[είδου - - -] <note>edd.</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p/>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>7: в начале стк. след треугольной буквы</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

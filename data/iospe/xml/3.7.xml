@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Декрет в честь посла (или стратега?) Митридата Евпатора</title><title xml:lang="en">Decree honouring a man in the service of Mithridates Eupator</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.273</idno><idno type="PE">PE3000402</idno><idno type="filename">3.7</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>34845 и 34875</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>34845 and 34875</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc15">
+                     <seg xml:lang="ru">Почетный декрет.</seg>
+                     <seg xml:lang="en">Honorific decree.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Три соединяющихся в контакте фрагмента плиты, оббитой со
+                              всех сторон.</p>
+                           <p xml:lang="en">Three joining fragments of a panel broken off on all sides.</p>
+                           <dimensions>
+                              <height unit="cm">29,0</height>
+                              <width unit="cm">18,0</width>
+                              <depth unit="cm">3,8</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с незамкнутым верхом и ломаной поперечной линией,
+                           бета с коротким верхним и удлиненным нижним полукружием, гамма с широкой
+                           горизонталью, наклонные линии дельта не сомкнуты вверху, эпсилон с
+                           короткой средней горизонталью, дзета, состоящая из одной вертикали и двух
+                           горизонталей, каппа с короткими наклонными линиями, мю имеет параллельные
+                           боковые линии, правая вертикаль ню слегка приподнята, омикрон меньше
+                           размера строки, пи с короткой правой вертикалью и выступающей за края
+                           горизонталью, сигма с расходящимися верхней и нижней гастами, штрихи и
+                           утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Alpha with broken crossbar and open top, delta with open top, gamma with long horizontal, 
+                           kappa with short diagonals, four-bar sigma with splayed bars; serifs and flaring of the ends of letterstrokes.</seg>
+                        <height unit="cm">1,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0120" notAfter="-0063" evidence="просопография" precision="medium">
+                        <seg xml:lang="ru">ca. 120 – 63 гг. до н.э.</seg>
+                        <seg xml:lang="en">between 120 - 63 B.C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Нижний правый фрагмент найден в 1891 г. Раскопки К.К.
+                           Косцюшко-Валюжинича (НА НЗХТ, д. 20, л. 3, № 48). Нижний левый обломок
+                           случайно обнаружен в 1913 г., раскопки Р.Х. Лепера (НА НЗХТ, д. 109, л. 40, № 2929). Верхний
+                           фрагмент найден случайно  в ходе раскопок Р.Х. Лепера 1914 г. (НА НЗХТ, д. 110, л. 4, № 126).</rs>
+                        <rs type="context">Нижний правый фрагмент: в центральной части городища, близ собора св. Владимира. Нижний левый обломок: в
+                           северо-восточной части городища. Верхний фрагмент: "внутри монастырской ограды, поле XIX."</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Bottom right fragment found in 1891, excavations of K.K.
+                           Kostsyushko-Valyuzhinich (НА НЗХТ, д. 20, л. 3, № 48). Bottom left fragment found in 1913, excavations of R.Ch. Loeper (НА НЗХТ, д. 109, л. 40, № 2929).
+                           Top fragment found in 1914, excavations of R.Ch. Loeper (НА НЗХТ, д. 110, л. 4, № 126).</rs>
+                        <rs type="context">Bottom right fragment: central sector of the citadel, near St. Vladimir cathedral. Bottom left fragment: northeast sector of the 
+                           citadel. Top fragment: "on the inside of the monastery wall, field XIX."</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-04-06" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2016-04-13" who="Chris de Lisle">Encoded text</change>
+         <change when="2017-04-26" who="PY">moved Russian text to commentary</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.273">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Латышев 1892 --><ptr target="bib:b0125"/>, 18, № <citedRange>3</citedRange></bibl>
+               <bibl><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>IV 66</citedRange></bibl>
+               <bibl><!-- IOSPE2 --><ptr target="bib:IOSPE2"/> <citedRange>349</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Латышев 1895 --><ptr target="bib:b0130"/>, 77, ad № <citedRange>3</citedRange></bibl>
+               <bibl><!-- НЭПХ II--><ptr target="bib:НЭПХ2"/> <citedRange>110</citedRange></bibl>
+               <bibl><!-- Avram 2002 --><ptr target="bib:b0805"/>, <citedRange>69</citedRange>
+               (= <bibl><!-- BullEp 2004 --><ptr target="bib:BE"/> <citedRange>2004, 230</citedRange> (Ph. Gauthier</bibl>)</bibl>
+               <bibl><!-- SEG --><ptr target="bib:SEG"/> <citedRange>52, 735</citedRange>)</bibl>
+               <bibl><!-- Avram, PPEE --><ptr target="bib:b0709"/> 30, № <citedRange>309, 310</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="00"/><supplied reason="lost"><w>νομοφύλακες</w></supplied><gap reason="lost" quantity="16" precision="low" unit="character"/>
+               	<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               	<lb n="1"/><supplied reason="lost"><w>καὶ</w> <w>ὁ</w> <w>ἐπὶ</w> <w>τᾶς</w></supplied> 
+                                 <w><supplied reason="undefined" evidence="previouseditor">δ</supplied>ιοικήσε<supplied reason="lost">ος</supplied></w><gap reason="lost" quantity="7" precision="low" unit="character"/>
+               	<lb n="2"/><gap reason="lost" unit="character" quantity="11" precision="low"/><w part="F">εῖος</w> <space unit="character" quantity="1"/> 
+                                 <w>εἶπ<supplied reason="lost">αν</supplied></w>· <supplied reason="lost"><w>ἐπειδὴ</w></supplied>
+               	<lb n="3"/><persName type="attested" ref="#person1034"><gap reason="lost" quantity="6" unit="character"/> 
+               	                 <persName type="attested" ref="#person1035"><name nymRef="Κεφαλᾶς"><supplied reason="lost" cert="low">Κε</supplied><supplied reason="undefined" evidence="previouseditor">φ<unclear>α</unclear></supplied>λ<unclear>ᾶ</unclear></name> 
+               	                 <placeName type="ethnic"><name>Ἀμι<supplied reason="lost">σηνὸς</supplied></name></placeName></persName></persName><gap reason="lost" quantity="4" precision="low" unit="character"/> 
+                 <lb n="4"/><gap reason="lost" quantity="6" unit="character"/> <w><supplied reason="lost">ἀποσταλε</supplied><unclear>ίς</unclear></w> 
+                                 <w>ὑπὸ</w> <persName type="ruler" key="mithridates"><w>βα<supplied reason="lost">σιλέος</supplied></w> 
+                                    <name nymRef="Μιθραδάτης"><supplied reason="lost">Μι</supplied>
+               	<lb n="5" break="no"/><supplied reason="lost">θραδάτα</supplied></name> <w><supplied reason="lost">Εὐ</supplied><supplied reason="undefined" evidence="previouseditor">π</supplied>άτορος</w></persName> <w>εἰς</w> <supplied reason="lost"><w>τὰν</w> <w>πόλιν</w></supplied>
+               	<lb n="6"/><supplied reason="lost"><w>ἁμῶν</w> <w>ἐν</w> <w>πᾶσιν</w></supplied> <w>εὔνουν</w> <w>ἑ<supplied reason="lost">αυτὸν</supplied></w> <w><supplied reason="lost">πα</supplied>
+               	<lb n="7" break="no"/><supplied reason="lost">ρέχεται</supplied></w> <supplied reason="lost"><w>καὶ</w></supplied>
+               <w><supplied reason="undefined" evidence="previouseditor">πάν</supplied>τα</w> 
+                                 <w>τὰ</w> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="10" unit="character"/>
+                	<lb n="8"/><gap reason="lost" unit="character" quantity="7"/>
+               <w><supplied reason="lost">κατα</supplied>σκευάζ<unclear>ε</unclear><supplied reason="lost">ι</supplied></w>
+               <supplied reason="lost"><w>τάν</w> <w>τε</w></supplied> <w><supplied reason="lost">παρε</supplied>
+               	<lb n="9" break="no"/><supplied reason="lost">πιδαμίαν</supplied></w>
+               <w><supplied reason="lost">ε</supplied><supplied reason="undefined" evidence="previouseditor">ὐσχ</supplied>ήμονα</w>
+               <supplied reason="lost"><w>καὶ</w></supplied> <w><supplied reason="lost">συμφέ</supplied>
+               	<lb n="10" break="no"/><supplied reason="lost">ρουσαν</supplied></w>
+               <supplied reason="lost"><w>τῶι</w></supplied> <w><supplied reason="lost">τ</supplied>ε</w>
+               <w>βασιλε<supplied reason="lost">ῖ</supplied></w> 
+                                    <supplied reason="lost"><w>καὶ</w> <w>τᾶι</w> <w>πόλει</w></supplied>
+               	<lb n="11"/><supplied reason="lost"><w>ἁμῶν</w> <w>ποιεῖται</w></supplied> <w>δεδόχ<supplied reason="lost">θαι</supplied></w> <supplied reason="lost"><w>τᾶι</w> <w>βουλᾶι</w></supplied>
+                	<lb n="12"/><supplied reason="lost"><w>καὶ</w></supplied> <w>τῶι</w> <w>δάμωι</w> <w>ἐπαιν<supplied reason="lost">έσαι</supplied></w> <supplied reason="lost"><w>μὲν</w> 
+                	                   <w>αὐτὸν</w></supplied>
+               	<lb n="13"/><w><supplied reason="lost">ἐπ</supplied>ὶ</w> <w>τούτο<supplied reason="lost">ι</supplied>ς</w> <w>κα<supplied reason="lost">ὶ</supplied></w> 
+                                    <w><supplied reason="lost">δό</supplied>μ<supplied reason="lost">εν</supplied></w> <supplied reason="lost"><w>αὐτῶι</w> <w>καὶ</w></supplied>
+               	<lb n="14"/><w><supplied reason="lost">ἐκ</supplied>γόνοις</w> <w>προξενί<supplied reason="lost">αν</supplied></w> 
+                                    <w><supplied reason="lost">πολιτείαν</supplied></w> <w><supplied reason="lost">εἴσ</supplied>
+               	<lb n="15" break="no"/><supplied reason="lost">πλ</supplied>ουν</w> <w>ἔκπ<supplied reason="lost">λ</supplied>ουν</w> <w>ἀσυλ<supplied reason="lost">εὶ</supplied></w> 
+                                    <supplied reason="lost"><w>καὶ</w> <w>ἀσπονδεὶ</w></supplied>
+                	<lb n="16"/><w><supplied reason="lost">αὐ</supplied>τοῖς</w> <w>καὶ</w> <w><unclear>χ</unclear>ρήμασι</w> <w>τὰ</w> 
+                                    <supplied reason="lost"><w>δὲ</w> <w>ἐψαφισμένα</w></supplied> <w><supplied reason="lost">ἀνα</supplied>
+               	<lb n="17" break="no"/><supplied reason="lost">γ</supplied>ράψαι</w> <w>τοὺς</w> <w>συμνάμ<supplied reason="lost">ονας</supplied></w> <supplied reason="lost"><w>εἰς</w> 
+               	                    <w>στάλαν</w></supplied> <w><supplied reason="lost">λευ</supplied>
+               	<lb n="18" break="no"/><supplied reason="lost">κοῦ</supplied></w> <w>λίθου</w> <w>καὶ</w> <w>θέμεν</w> <w>εἰς</w><gap reason="lost" quantity="11" unit="character" precision="low"/>
+               	<lb n="19"/><gap reason="lost" unit="character" quantity="6" precision="low"/> <w><supplied reason="lost">τ</supplied>ὸ</w> <w>δὲ</w> 
+                                    <w><supplied reason="lost">γ</supplied>ενόμ<supplied reason="lost">ενον</supplied></w>
+               <supplied reason="lost"><w>ἀνάλωμα</w></supplied> <w><supplied reason="lost">δό</supplied>
+                 <lb n="20" break="no"/><supplied reason="lost">μεν</supplied></w>
+               <supplied reason="lost"><w>τοὺς</w></supplied> <w><supplied reason="lost">ταμία</supplied>ς</w> <w>τῶν</w> 
+                                 <w>ἱερ<supplied reason="lost">ῶν</supplied></w><supplied reason="lost"> <w>ταῦτ’</w>
+                                    <w>ἔδοξε</w></supplied> <w><supplied reason="lost">βου</supplied>
+               	<lb n="21" break="no"/><supplied reason="lost">λᾶι</supplied></w>
+               <supplied reason="lost"><w>καὶ</w></supplied>
+               <w><supplied reason="lost">δάμ</supplied><supplied reason="undefined" evidence="previouseditor">ωι</supplied></w>
+               <w><supplied reason="undefined" evidence="previouseditor">μη</supplied>νὸς</w> 
+                                    <gap reason="lost" precision="low" quantity="13" unit="character"/>
+               	<lb n="21a"/><gap reason="lost" unit="line" extent="unknown"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2">
+                  <rdg source="bib:IOSPE2">[- - - κλ]εῖος</rdg>
+               </app>
+               <app loc="5">
+                  <rdg source="bib:IOSPE2">[ὁ δ. - - -]λάδα Μη[. . . . . .πρεσ]|[βευτάς]</rdg>
+                  <rdg source="bib:НЭПХ">[Κε]φαλ<unclear>ᾶ</unclear> Ἀμι[σηνὸς πρεσ]|[βευτάς] <note>corr.</note></rdg> 
+                  <rdg source="bib:b0805">[---]φαλ<unclear>ᾶ</unclear> Ἀμι[σηνὸς στρα]|[ταγός] <note>(cf. SEG 47, 1125: 4-5)</note></rdg>
+               </app>
+               <app loc="7-8">
+                  <rdg source="bib:IOSPE2">τὰ τ[ᾶς πρεσβείας] | [ἄριστα κατα]σκευάζ[ει]</rdg> 
+                  <rdg source="bib:b0805">τὰ π[ρὸς τὸν]| [καιρὸν παρα]σκευάζ[ει], <note>(cf. Syll3, 707 = ISM I 65, l. 15)</note></rdg>
+               </app>
+               <app loc="10">
+                  <rdg source="bib:IOSPE2"><note>fin.:</note> τᾶι πόλει <note>scripsi</note></rdg>
+                  <rdg source="bib:IOSPE2">τῶι δάμωι</rdg>
+               </app>
+               <app loc="17">
+                  <rdg source="bib:IOSPE2">στάλαι</rdg>
+                  <rdg>εἰς στάλαν <note>scripsi</note></rdg>
+               </app>
+               <app loc="21">
+                  <rdg><note>fin.:</note> (βασιλεύοντος ΔΔ,
+                     προαισυμνῶντος ΔΔ, γραμματεύοντος ΔΔ)</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[Номофилаки - - - и стоящий во главе] управления [- - -] внесли [предложение:
+               поскольку - - - (сын) - - -], ам[исенец, посланный] царем [Митридатом] Евпатором в
+               [наш город в качестве - - - являет всяческую] преданность, [наилучшим образом]
+               устраивает - - - и делает свое [пребывание] подобающим [и полезным для] царя [и
+               нашего города], пусть [Совет] и народ решит похвалить его за это, [даровать ему
+               самому] и (его) потомкам проксению, [гражданство], право входа в гавань и выхода из
+               гавани без риска конфискации [и необходимости заключения договора], им самим и их
+               имуществу; пусть симмнамоны напишут постановление на беломраморной [плите] и поставят
+               в [- - -] пусть казначеи священных сумм выдадут понесенный [расход. Это решено
+               Советом и народом] в месяц [- - -]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[Nomophylakes - - - and the head of] administration [--] prop[osed: since - - -  (son of) - - -], citizen of Ami[sos, sent by king Mithridates Eu]pator
+               to [our polis, in everything renders himself] friendly and everything - - - maintains his residence properly and makes it beneficial to the King and our polis, 
+            the Council and People shall deem it good to praise him because of these and to grant him and his descendants proxen[y, citizenship, right of sailing in and] out of the harbour, 
+            [without a threat of] confisca[tion and without formal treaty, for his fam]ily and his goods. Symmnamones shall inscribe [what has been decided on a stele 
+            of white st]one and set it up [in ---]. The treasurer of sacred funds shall disburse (funds) for the incurred expense. [These decisions the Council and the Peo]ple made in the month [---].
+            </p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Ca. 120–63 гг. до н.э. (вероятно, не позднее II в. до. н.э.; см. комментарий).</p>
+            <p>Латышев 1892, 18, № 3 (издание фрагмента, найденного в 1891 г.).</p>
+            <p>IOSPE I2 349 (объединение с фрагментами, найденными в 1913 и 1914 г.).</p>
+            <p>Латышев 1895, 77, ad № 3 (corrigendum к Латышев 1892, 18, № 3)</p>
+            <p>НЭПХ II 110 (восстановление имени в стк. 3)</p>
+            <p>5: чтение окончания патронимика при нынешнем состоянии камня не поддается
+               проверке</p>
+            <p>5: предполагая возможность этникона, производного от Μητρόπολις) - IOSPE I2</p>
+            <p>7-8: от последней буквы в стк. 7 видна лишь горизонтальная черта (скорее
+               всего <unclear>Τ</unclear>)</p>
+            <p>17: εἰς στάλαν - scripsi (в соответствии c херсонесской
+               формулой публикации эллинистического времени)</p>
+            <p>21: ожидается стандартная формула датировки</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

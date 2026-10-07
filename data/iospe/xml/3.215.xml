@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Абы</title><title xml:lang="en">Epitaph of Aba</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.13</idno><idno type="PE">PE3000013</idno><idno type="filename">3.215</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>104/37545</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>104/37545</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Верхняя часть стелы, украшенной карнизом без антефиксов.
+                              Правый боковой фас и правая часть лицевого фаса стелы повреждены
+                              сколами. На лицевой и боковых сторонах расположены рельефные розетки.
+                              Под розетками рельефное изображение перевязанных узлом и свисающих
+                              тэний, а также шнурка для алабастра. Между карнизом и розетками
+                              неглубоко вырезана четырехстрочная надпись.</p>
+                           <p xml:lang="en">On the front, between the cornice and rosettes.</p>
+                           <dimensions>
+                              <height unit="cm">75,0</height>
+                              <width unit="cm">29,0</width>
+                              <depth unit="cm">16,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">На лицевой стороне, </seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front, between the cornice and rosettes.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Ню с немного укороченной правой вертикалью, омикрон чуть
+                           меньше остальных букв, широко расходящиеся наклонные линии ипсилон,
+                           отсутствие украшений на концах линий букв.</seg>
+                        <seg xml:lang="en">Nu with short right hasta, omicron smaller than other letters, 
+                           ypsilon with widely spalyed diagonals; absence of decorative elements at the ends of letterstrokes.</seg>
+                        <height unit="cm">1,5-2,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0350" notAfter="-0268" evidence="палеография">
+                        <seg xml:lang="ru">2-я пол. IV - нач. III в. до н.э.</seg>
+                        <seg xml:lang="en">2nd half of IV - early III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 2008 г. Раскопки В.Г. Самойленко.</rs>
+                        <rs type="context">В юго-восточном районе Херсонеса
+                           в ходе археологического изучения куртины 19 оборонительных стен.
+                           Извлечена из второго ряда фундамента куртины 19 четвертого строительного периода.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 2008. Excavations of V.G. Samoylenko.</rs>
+                        <rs type="context">Southeast sector of Chersonesos, during the archaeological investigation of Curtain wall 19. Removed from the second row of
+                        foundation blocks of Curtain Wall 19, corresponding to the 4th construction period.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-02-15" who="SS">corrected references to alists; tidied xml</change>
+         <change when="2015-11-05" who="CB">Adding origDate</change>
+         <change when="2015-09-28" who="CB">Bibliography</change>
+         <change when="2015-08-21" who="CB">App crit</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2015-05-15" who="CB">Metadata tagging</change>
+         <change when="2015-03-12" who="VP">Tagging Greek names</change>
+         <change when="2015-03-12" who="CB">normalising and checking</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.13">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Макаров, Самойленко 2013--><ptr target="bib:b0487"/>, 65, №
+                     <citedRange>1</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><persName type="attested" ref="#person479"><name nymRef="Ἄβα">Ἄβα</name>
+               		<lb n="2"/><persName type="attested" ref="#person480"><name nymRef="Νεομήνιος">Νεομηνίου</name></persName>,
+               		<lb n="3"/><persName type="attested" ref="#person481"><name nymRef="Ὕπιος">Ὑπίου</name></persName>
+                             <lb n="4"/><w>γυνά</w></persName>.
+         </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Аба, (дочь) Неомения, жена Гипия.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Aba, (daughter of) Neomenios, wife of Hypios.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Женское личное имя Αβα встречается в Северном Причерноморье только в этой надписи. В
+               Западном Понте имя засвидетельствовано дважды, в эпитафии III в. до н.э. из Каллатиса
+               (ISM III 153) и в истрийском почетном декрете II в. н.э. (ISM I 57). Его
+               происхождение остается не вполне ясным. Некоторые исследователи усматривали в нем
+               фракийский корень (Detschew 1957, 1, s.v. Ἄβα). В то же время это ЛИ неоднократно
+               встречалось в Малой Азии (Robert 1958, 581, n. 22; Zgusta 1964, 43, § 1–1). Судя по
+               всему оно должно быть отнесено к категории «лепетных» («Lallnamen»; ср. Zgusta 1955,
+               293; ср. Robert 1963, 504 сл.). Возможной параллелью для этого ЛИ в Северном
+               Причерноморье является мужской антропоним Αβαβος, встречающийся в Ольвии I в. н.э.
+               (IOSPE I2 79; 181; 182).</p>
+            <p>Имя отца Абы Νεομήνιος известно в Херсонесе. В тaком же написании оно встречается в
+               надгробной надписи III в. до н.э. (№ ipe470). В форме Νευμήνιος имя фиксируется в
+               херсонесской эпиграфике IV–III вв. до н.э. (ср. Bechtel GD II, 170; Buck GD, 40, 165
+               o дифтонгизации ευ в мегарском диалекте); утвердившийся в эпоху койнэ вариант
+               Νουμήνιος засвидетельствован в Херсонесе в одном из декретов римского времени (LGPN
+               IV).</p>
+            <p>ЛИ Ὕπιος не засвидетельствовано среди греческих антропонимов (в Pape–Benseler
+               ошибочно фигурирует как антропоним со ссылкой на CIG III 5894, где в действительности
+               речь идет о гидрониме). Весьма вероятно, что по происхождению оно связано с
+               одноименной рекой Гипий (ср. также название горного хребта, где находились ее истоки)
+               в Вифинии, вблизи которой располагалась метрополия Херсонеса Гераклея Понтийская
+               ([Scylax] 91; Steph. Byz. s.v.). ЛИ, идентичные географическим названиям или именам
+               божественных покровителей стран, городов, гор, рек, хорошо известны в греческой
+               ономастической практике. См. Bechtel HPN, 550–556; ср. засвидетельствованное в
+               Херсонесе ЛИ Κίνωλις (№ neph143) ольвийские антропонимы Ὕπανις, Ὕπανος, Ὑπάνιχος
+               (Zgusta 1955, 341, §782) и другие примеры ЛИ, связанных с географическими названиями
+               понтийского региона: Βιλλαῖος, Λάδων, Σάγαρις, Ἴστρων (Masson 1986, 42).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

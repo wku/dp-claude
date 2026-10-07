@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Сотирия и Савватия</title><title xml:lang="en">Epitaph of Sotereis and Sambatis</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.282</idno><idno type="PE">PE5000282</idno>
+            <idno type="AYV2012-number">byz270</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Керченский историко-культурный заповедник</repository>
+                     <idno>КЛ–3172</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Historical and Archeological Museum of Kerch State Historical and Cultural Preserve</repository>
+                     <idno>КЛ–3172</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Мягкий известняк.</material>
+                           <material xml:lang="en">Soft limestone.</material>
+                           <p xml:lang="ru">Расширяется кверху (от 17 до 42 см); верхняя часть лицевой стороны выглажена, на ней изображение трех крестов посередине, 
+                              из которых центральный состоит из двойных линий, и к его боковым рукавам подвешены альфа и омега, а на верхнем и в начале правого 
+                              процарапаны два косых креста. Сколы по поверхности.</p>
+                           <p xml:lang="en">The stele tapers to the bottom (from 42 to 17cm); the upper half of the front is smooth and bears carved images of three crosses in 
+                           the centre. The arms of the central cross are of approximately same width, but its left and right ones are poorly aligned. An alpha hangs from
+                           the end of the left arm, and an omega from the end of the right one. In addition, two sideways crosses are scratched on the top and right arms.
+                           The surface is chipped.</p>
+                           <dimensions>
+                              <height>61,0</height>
+                              <width>42,0</width>
+                              <depth>12,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">Над крестами.</seg>
+                           <seg xml:lang="en">Above the crosses.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с ломанной перекладиной, эпсилон и тета прямоугольные, 
+                           омега с полукруглым низом.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with broken crossbar, rectangular epsilon and theta, bowl-shaped omega.</seg>
+                        <height unit="cm">4–6,2.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p044">
+                        <seg xml:lang="ru">Пантикапей.</seg>
+                        <seg xml:lang="en">Pantikapaion.</seg>
+                     </origPlace>
+                      <origDate notBefore="0368" notAfter="0500" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">кон. IV–V вв.</seg>
+                        <seg xml:lang="en">late IV-Vth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2004-09">сентябрь 2004</date>, <date when="2008-09"> сентябрь 2008</date>.</seg>
+                     <seg xml:lang="en"><date when="1999-05">May 1999</date>, <date when="2004-09">September 2004</date>, <date when="2008-09">September 2008</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#kerch">Керчь.</placeName>
+                        <rs type="circumstances">23 мая 1901 г., случайная находка.</rs>
+                        <rs type="context">Глинище.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Kerch.</placeName>
+                        <rs type="circumstances">23 May 1901, chance find.</rs>
+                        <rs type="context">Glinishche.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Керчь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Kerch, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-11-07" who="TW">Added image code</change>
+          <change when="2012-10-06" who="AL">small corrections in Russian text</change>
+         <change when="2012-08-15" who="GB">lemma corrected, inscription translated</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-06-21" who="AG">corrections, tags added, several lines translated</change>
+          <change when="2012-05-16" who="AFS">corrected metadata and text</change>
+          <change when="2012-03-20" who="AL">original date tagged, bibliography tagged, text tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.282">
+                <desc xml:lang="en">Photograph of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!-- Латышев 1902b--><ptr target="bib:b0143"/>,  48–50, № <citedRange>15</citedRange></bibl>
+               <bibl n="1.1"><!-- КХНБ --><ptr target="bib:b0068"/>, № <citedRange>30</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><g ref="#stauros"/> <w lemma="ἐνθάδε">Ἐνθάδη</w> <g ref="#stauros"/>
+               <lb n="2"/><w lemma="κατάκειμαι">κατάκειτη</w>
+               <persName type="attested" ref="#person344"><name nymRef="Σωτήρις">Σ<lb n="3" break="no"/>ωτήρεις</name></persName> <g ref="#stauros"/>
+               <lb n="4"/><w lemma="καί">καὶ</w>
+               <persName type="attested" ref="#person345"><name nymRef="Σαμβάτις">Σαμ<supplied reason="lost">β</supplied>άτις</name></persName>.
+            </ab>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Здесь лежит Сотирий и Савватий.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Here lie Soteris and Sambatis.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Надпись была опубликована Латышевым по фотографии. По его наблюдению, второе имя и нижние кресты добавлены другой рукой. Действительно, 
+               буквы здесь меньше и вырезаны не так глубоко, что может свидетельствовать о дописке этого имени к первоначальной надписи.</p>
+                <p> 1–2. Относительно формулы см. <ref type="introduction">IV.3.F.d</ref>.</p>
+            <p> 2–3. Типичное греческое (и неизвестное среди иудеев) имя Сотирий встречается в христианских надписях с севера Малой Азии: Marek 1993, № 10; 
+               SEG 35.1360 (Бонджуклар в Гонориаде); 42.1157 (Синопа). Относительно перехода окончания -ιος в -ις см. Тохтасьев 2007.</p>
+                <p> 4. Имя Савватий носил один мученик (см. Delehaye 1902, 1159). В форме Σαμβάτις оно встречается в Feissel 1983, № 175 и IG III, 3525. Имя 
+                   Σαμβατίων было хорошо известно на Боспоре: в Горгиппии, на Западной Кубани, в Танаисе (КБН 1142, 1231, 1278, 1279, 1280, 1282), в основном в связи 
+                   с культом Бога Всевышнего, так что можно предположить, что Савватий данной надписи происходил из иудаизированных боспорян.</p>
+                <p>Отметим замену эпсилона этой (строки 1 и 2), которая в другом месте строка 3 передает звук "и" (см. комм. к <ref type="inscription">V 61</ref><!--byz061-->). </p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The inscription was published by Latyshev on the basis of a photograph. In his opinion, the second name and crosses below are added by a second hand.
+               Indeed, the letters here are smaller and carved not as deeply, which can be due to a later addition.</p>
+            <p> 1–2. On the formula, see Introduction <ref type="introduction">IV.3.F.d</ref>.</p>
+            <p> 2–3. A typical Greek name (and unknown among the Hebrews), Soteris, occurs in Christian inscriptions in Asia Minor: Marek 1993, № 10; 
+               SEG 35.1360 (Boncuklar in Honorias); 42.1157 (Sinope). On the change of the ending -ιος into -ις, see Tokhtasiev 2007.</p>
+            <p>4. The name Sabbatis (here Sambatis) is known as that of a certain martyr (see Delehaye 1902, 1159). In the form Σαμβάτις it is attested in 
+               Feissel 1983, № 175 и IG III 3525. The name Σαμβατίων was also popular in Bosporus: in Gorgippia, Western Kuban, and Tanais
+               (CIRB 1142, 1231, 1278, 1279, 1280, 1282), mostly in connection with the cult of Zeus Hypsistos, so we can speculate that Sambatios of our inscription may have 
+               come from the circles of those Bosporans who worshipped the Jewish god.</p>
+            <p>We should note the replacement of epsilon with eta (lines 1 and 2), which elsewhere (line 3) represents the sound "i" (see commentary to <ref type="inscription">V 61</ref><!--byz061-->).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

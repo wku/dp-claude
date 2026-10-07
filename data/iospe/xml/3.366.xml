@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Клавдия (?)</title><title xml:lang="en">Epitaph of Claudius (?)</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.158</idno><idno type="PE">PE3000146</idno><idno type="filename">3.366</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>23/36856</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>23/36856</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble, white.</material>
+                           <p xml:lang="ru">Сохранилась почти полностью. Немного отбит нижний правый
+                              край. Мрамор белый, покрыт желтой патиной. Обратная сторона сглажена.
+                              Внизу имеется круглое сквозное отверстие, возможно, для крепления на
+                              постаменте. Поле рельефа окружено неширокой гладкой рамкой. На рельефе
+                              изображена сцены загробной трапезы: на ложе мужчина, облокотившийся на
+                              подушку, и женщина. Перед ними пиршественный стол. По обе стороны от
+                              стола небольшие фигурки слуги и служанки.</p>
+                           <p xml:lang="en">Nearly fully preserved. Bottom right corner is slightly damaged. The back is planed. Relief of funerary feast on the front.</p>
+                           <dimensions>
+                              <height unit="cm">43,0</height>
+                              <width unit="cm">42,0</width>
+                              <depth unit="cm">6,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с прямой поперечной линией, овальный омикрон в
+                           габарите строки, курсивная сигма, небольшие штрихи и апексы на концах
+                           линий букв.</seg>
+                        <seg xml:lang="en">Alpha with straight crossbar, oval omicron, cursive sigma, serifs.</seg>
+                        <height unit="cm">1,7</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0068" notAfter="0200" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">кон. I – II в. н.э.</seg>
+                        <seg xml:lang="en">late I-II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1971 г. Раскопки А.И. Романчук (НА
+                           НЗХТ, д. 886, № 36856/23).</rs>
+                        <rs type="context">В юго-восточной части Херсонеса,
+                           в портовом районе (помещение Δ, слой 10). </rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1971, excavations of A.I. Romanchuk (НА НЗХТ, д. 886, № 36856/23).</rs>
+                        <rs type="context">Southeast sector of Chersonesos, harbour area (Building Δ, layer 10).</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-18" who="CB">Adding biblio and app crit tags</change>
+         <change when="2015-11-05" who="CB">Added origDate</change>
+         <change when="2015-09-28" who="CB">Bibliography</change>
+         <change when="2015-09-01" who="CB">App Crit</change>
+         <change when="2015-08-21" who="CB">App Crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-25" who="CB">Tagging metadata</change>
+         <change when="2015-05-08" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-05-14" who="AV">programmatically tagging Greek words from Word
+            docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.158">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Соломоник 1985--><ptr target="bib:b0114"/>, 25, №
+                     <citedRange>1</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Соломоник 1990--><ptr target="bib:b0506"/>, № <citedRange>97</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" ref="#person785"><name nymRef="Κλάδεος">Κλά<unclear>δ</unclear>εος</name></persName>
+               <lb n="1a"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Клавдий (?) [- - -].</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[Claudius (?)] [---]. </p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>1. Ed. pr. интерпретирует форму как gen. личного имени Κλάδος.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Line 1. Ed. pr. interprets the name as the genitive of Κλάδος.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

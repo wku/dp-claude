@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение Приска</title><title xml:lang="en">Dedication of Priscus</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.50</idno>
+            <idno type="filename">1.19</idno>
+            <idno type="PE">PE1000050</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Одесский археологический музей</repository>
+                     <idno>50717</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Odessa Archaeological Museum</repository>
+                     <idno>50717</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвящение.</seg>
+                     <seg xml:lang="en">Dedicatory inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon12">Постамент.</objectType>
+                           <objectType xml:lang="en">Base.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m13">Плотный мраморовидный известняк.</material>
+                           <material xml:lang="en">Limestone, marble-like, dense.</material>
+                           <p xml:lang="ru">Лицевой фас отполирован, левый обработан суммарно, на нем видны следы троянки, нижний также суммарно. 
+                              Верхний фас отполирован, на нем имеется небольшое чашеобразное углубление, значительная часть верхнего фаса выщерблена. 
+                              Правый и оборотный отбиты.</p>
+                           <p xml:lang="en">The front is polished, the left is treated summarily with the use of tooth chisel; the back is also treated summarily. The top is 
+                           polished, there is a small bowl-shaped depression on it; a significant portion of the top face is chipped and pitted. The right and back are broken off.</p>
+                           <dimensions>
+                              <height unit="cm">15,0</height>
+                              <width unit="cm">60,0</width>
+                              <depth unit="cm">54,7</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевая сторона. Сохранилась левая часть, оббито справа. 
+                              По сравнению с состоянием, в котором камень видел Латышев, имеются небольшие утраты.
+                              Размеры полей: левое 3,5; верхнее 1,0; нижнее 1,5.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. The left part is preserved, broken off on the right. Since Latyshev's autopsy, the stone suffered additional slight damage.
+                           Margins: left 3,5; top 1,0; bottom 1,5.</seg>
+                           <dimensions>
+                              <height unit="cm">11,7</height>
+                              <width unit="cm">40,0</width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны аккуратно, ровно и глубоко, украшены апексами. Центральный горизонтальный штрих эпсилон 
+                           не соединяется с вертикальным.
+                           Среднее расстояние между строк: 1,0.</seg>
+                        <seg xml:lang="en">Neatly, deeply and evenly cut letters. Epsilon with detached middle bar. Average distance between lines: 1,0cm.</seg>
+                        <height unit="cm">4,8-5,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0200" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">II в. н.э.</seg>
+                        <seg xml:lang="en">II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">Неизвестны. Долгое время находилась перед частным домом в Аккермане (Белгороде-Днестровском) 
+                           поблизости от крепости. В 1900 г. перевезена в Одесский музей.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Unknown. For a long time, it was sitting in front of a private house in Akkerman (Belgorod Dnestrovsky), near the fortress. In 1900, it 
+                        was transferred to the Odessa Archaeological Museum.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Одесса.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Odessa,</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2008-09">сентябрь 2008</date> г.</seg>
+                     <seg xml:lang="en">A.I. Ivantchik, <date when="2008-09">September 2008</date>.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-28" who="SS">encoded metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.50">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Штерн 1901 --><ptr target="bib:b0888"/>, <citedRange>1-2, № 1</citedRange></bibl>
+               <bibl n="1.1"><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>IV, add. n° 453</citedRange></bibl>
+               <bibl n="1.1.1"><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/>, <citedRange>7</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><persName type="attested"><name>Πρεῖσκος</name> <name>Φ<gap reason="lost" extent="unknown" unit="character"/></name></persName> 
+               		<lb n="2"/><space quantity="2" unit="character"/> <w>ων</w> <w>τὸν</w> 
+                                          <w>ν<supplied reason="lost" cert="low">αὸν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <rdg source="bib:b0888">Πρεῖσκος Φ[λάβιος ἄρχ-]|ων τὸν [δεῖνα]</rdg>
+               </app>
+               <app loc="2">
+                  <rdg source="bib:IOSPE">τὸν μ[- - -]</rdg>
+                  <rdg source="bib:IOSPE2">τὸν ν[αὸν? - - -]</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Приск, сын Ф[- - -] х[рам ? - - -]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Priscus, son of F[- - -] the t[emple? - - -]</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>1. Если предполагать, что имя Priscus является частью латинского имени, оно может быть только cognomen, поэтому восстановление 
+               фон Штерна невозможно. Нет никаких сомнений, однако, что в данном случае речь идет о греческом имени латинского происхождения, 
+               использованном в соответствии с обычным греческим узусом «имя + патроним», так что вслед за именем Πρεῖσκος стояло имя его отца, 
+               начинающееся на фи.</p>
+            <p>2. Латышев предполагает, что первые две буквы являются окончанием причастия, указывавшего на то, какую должность занимал Приск 
+               (вроде ἀρχοντεύων, ἱερεύων и под.). Это, однако, лишь одно из возможных восстановлений (нельзя исключать, например, ἐξ ἰδίων, или 
+               окончание множественного числа имени божеств, жрецом которых был дедикант). Восстановление τὸν ν[αὸν представляется наиболее вероятным. 
+               Учитывая, что надпись нанесена на базу, вероятно, статуи, можно предполагать восстановление τὸν ν[αὸν καὶ τὸ ἄγαλμα.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>1. If we consider the name Priscus as one of Latin trinomina, then it could only be a cognomen, for which reason the restoration of von Stern is impossible.
+               There is no doubt that we are dealing with a Greek name of Latin origin, used in a typical Greek way, "personal name + patronymic", so that the name Πρεῖσκος would have been 
+            followed by his father's name, beginning with phi.</p>
+            <p>2. Latyshev supposed that the fist two letters were the ending of a participle, pointing to some office occupied by Priscus (something like ἀρχοντεύων, ἱερεύων and 
+               alike). This is only one of possible restorations (we cannot exclude, e.g. ἐξ ἰδίων, or the ending of a plural form of divine names, whose dedicant Priscus may have 
+               been). The restoration τὸν ν[αὸν seems most likely. Since the inscription is made on a statue base, we could envision τὸν ν[αὸν καὶ τὸ ἄγαλμα.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

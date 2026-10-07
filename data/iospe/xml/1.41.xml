@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент надписи</title>
+            <title xml:lang="en">Incertum</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.57</idno>
+            <idno type="filename">1.41</idno>
+            <idno type="PE">PE1000057</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc22">
+                     <seg xml:lang="ru">Неизвестен.</seg>
+                     <seg xml:lang="en">Unknown.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор белый.</material>
+                           <material xml:lang="en">Marble, white.</material>
+                           <p xml:lang="ru">Правый верхний угол плиты, оббит снизу и слева. Окатан.</p>
+                           <p xml:lang="en">Top right corner of a panel. Broken off on the bottom and left. Rounded by tidal action.</p>
+                           <dimensions>
+                              <height unit="cm">8,8</height>
+                              <width unit="cm">10,0</width>
+                              <depth unit="cm">8,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Оббито со всех сторон, кроме верхней.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. Broken off on all sides, except the top.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Неизвестен. Согласно Латышеву, начертание букв характерно для III в. до н.э.</seg>
+                        <seg xml:lang="en">Unknown. According to Latyshev, letterforms point to the III century B.C.E. Letterheight is 1,0 in line, but smaller in other lines.</seg>
+                        <height unit="cm">1,0</height><!-- В первой строке 1 см, в следующих - меньше. -->
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира (?).</seg>
+                        <seg xml:lang="en">Tyras (?).</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0201" evidence="Палеография" cert="low">
+                        <seg xml:lang="ru">III в. до н.э. (?).</seg>
+                        <seg xml:lang="en">III century B.C.E. (?).</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#karolino-bugaz">Каролино-Бугаз, Овидиопольский район, 
+                           Одесская область.</placeName>
+                        <rs type="circumstances">Т. Струве получил камень от Л.А. Биликовича в Аккермане, 
+                           который, в свою очередь, получил его от некого еврея. 
+                           По словам последнего, камень был найден каким-то мальчиком на песчаном кургане (дюне) в Бугазе.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Karolino-Bugaz, Ovidiopolis district, Odessa region.</placeName>
+                        <rs type="circumstances">T. Struve received the stone from L.A. Bilikovich in Akkerman, who in turn received it from a Jewish man. The latter reported
+                        that the stone had been found by a boy on a sand dune in Bugaz.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-02-27" who="PY">encoded Leiden and metadata</change>
+         <change when="2016-11-29" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.57">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Струве 1867 --><ptr target="bib:b0393"/>, <citedRange>608</citedRange></bibl>
+               <bibl n="1.1"><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>I, 6</citedRange></bibl>
+               <bibl n="2"><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>I, add. p. 219</citedRange></bibl>
+               <bibl n="2.1"><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/>, <citedRange>12</citedRange>.</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
+                                          <persName type="attested"><name>
+                                                <seg part="I"><supplied reason="lost">Π</supplied>οσειδ</seg><gap reason="lost" quantity="2" unit="character"/>
+                                             </name></persName>
+                                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΔΟΝΤ<unclear>Ο</unclear></orig><gap reason="lost" quantity="1" unit="character"/>
+               		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΩΝΤΟΣ</orig>
+               		<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Χ</unclear>ΟΥ</orig>
+               		<lb n="4a"/><gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1"><rdg source="bib:b0393">Π]ΟΣΕΙΔ[ΟΥ]</rdg></app>
+               <app loc="2"><rdg source="bib:b0393">ΜΕ]ΔΟΝΤΟ[Σ</rdg></app>
+               <app loc="3"><rdg source="bib:b0393">ΞΕΝΟΦ]ΩΝΤΟΣ</rdg></app>
+               <app loc="4"><rdg source="bib:b0393">ΝΕΟΠΤΟΛΕ]ΜΟΥ</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Не предлагается.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Not attempted.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Издание Латышева было сделано по его собственной копии 1884 г.</p>
+            <p>Камень хранился в Одесском археологическом музее, где его в 1884 г. осмотрел В.В. Латышев, и на основе этого осмотра сделал второе издание надписи после Т. Струве. Во второй половине 2000-х годов камень в музее обнаружить не удалось.</p>
+            <p>Латышев справедливо замечает, что предложенные Струве восстановления маловероятны. Так, в первой строке, кроме имени Посейдона, можно предполагать одно 
+               из многочисленных личных имен, включавших элемент Ποσειδ-, многие имена кончаются на те сочетания букв, которые сохранились во второй и третьей строках, 
+               а в четвертой строке первая буква – скорее всего хи,  а не мю.</p>
+            <p>Что касается места находки, то Латышев отмечает, что фрагмент производит впечатление сильно окатанного водой и вероятно был выброшен на берег морскими волнами. 
+               Он также полагает, что камень мог происходить не из Тиры, а из Никония.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The stone was in the collection of the Odessa Arechaeological Museum in 1884, when it was inspected by V.V. Latyshev. In the second half of the first decade of the 21st
+            century, it could no longer be located in the museum.</p>
+            <p>Latyshev rightly observed that the restorations proposed by Struve are unlikely. In line 1, besides the name Poseidon, a number of other personal theophoric names, with the 
+               element Ποσειδ- are possible, and a large variety of names have the endings fitting the combinations of letters in lines 2 and 3. In line 4, the first letter is probably chi
+            and not a mu.</p>
+            <p>As for the place of find, Latyshev pointed out that the stone looked like it had been rounded by the rolling waves and must have been washed ashore. He also speculated
+            that the stone may have originated in Nikonion and not in Tyras.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

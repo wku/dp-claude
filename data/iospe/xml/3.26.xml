@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.21/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.21/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+             <title xml:lang="ru">Декрет в честь навклера Диофанта</title>
+             <title xml:lang="en">Decree honouring haukleros Diophantos</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="IM2015">30.298</idno><idno type="filename">3.26</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>НЗХТ</repository>
+                     <idno>3342</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository/>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc15">
+                     <seg xml:lang="ru">Декрет.</seg>
+                     <seg xml:lang="en">Decree.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Сохранилась верхняя правая часть. Лицевая поверхность гладко отшлифована. Надпись вырезана по предварительной разметке. 
+                              Вследствие отслаивания поверхности камня с правой стороны буквы в конце строк читаются очень плохо. Внизу слева лицевая поверхность повреждена 
+                              крупным сколом.</p>
+                           <p xml:lang="en">Top right part is preserved. The front is well worked. The inscription is cut following ruled lines. Due to exfoliation on the right, 
+                           the letters are barely legible. The bottom left section of the front is missing.</p>
+                           <dimensions>
+                              <height unit="cm">44</height>
+                              <width unit="cm">42</width>
+                              <depth unit="cm">7,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru"/>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/></seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Α и Δ с заметно выступающей правой гастой, круглая Θ с незамкнутой поперечной гастой, внутренние гасты Μ касаются вертикалей чуть 
+                           выше середины, маленький круглый Ο, Π с равными вертикалями и немного выходящей за их пределы горизонталью, Σ с горизонтальными верхней и нижней 
+                           гастами и наклонными, образующими тупой угол, вертикаль Φ выходит за линии строки, крупная круглая Ω, крупные апексы на концах линий букв.</seg>
+                        <seg xml:lang="en">Alpha and delta with projecting right hasta; round theta with detached crossbar; large wide omega; large serifs.</seg>
+                        <height unit="cm">1,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0134" notAfter="0167" precision="medium" evidence="Палеография">
+                        <seg xml:lang="ru">около середины II в. н.э.</seg>
+                        <seg xml:lang="en">ca. mid-II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в ходе раскопок ООИД в мае 1880 г. Других данных нет.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in the excavations of the Odessa Society for History and Antiquities in May 1880. No other information is available.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xi:include href="encoding-desc.xml">
+         <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+      </xi:include>
+      <revisionDesc>
+         <change when="2017-06-14" who="FHV">tagged date</change>
+         <change when="2017-06-03" who="FHV">tagged Greek, bibliography and apparatus, tokenised</change>
+         <change when="2017-05-22" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Юргевич 1881 --><ptr target="bib:b0926"/>, <citedRange>46</citedRange></bibl>
+               <bibl><ptr target="bib:IOSPE"/> <citedRange>187</citedRange><!-- (издан как часть надписи № ipe365) --></bibl><!-- Can we remove this Russian commentary from the editions section, please? -->               
+               <bibl><ptr target="bib:IOSPE2"/> <citedRange>365, l. 1-15</citedRange> et addendum p. <citedRange>519</citedRange><!--  (издан как верхний фрагмент надписи № ipe365) --></bibl>
+               <bibl><!-- Сапрыкин 2002 --><ptr target="bib:b0755"/>, <citedRange>74</citedRange> 
+                  (cf. <bibl type="comparison"><ptr target="bib:AE"/> 2002 [2005], <citedRange>1254</citedRange>: 
+                     «des lectures très hypothétiques», «une analyse tout aussi aléatoire»</bibl>
+                  <bibl><ptr target="bib:SEG"/> <citedRange>52, 737</citedRange></bibl>)
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Латышев 1907b -->Latyshev 1907, 49</bibl> <!-- not in bibl.?? -->
+               <bibl><!-- Makarov 2015 --><ptr target="bib:b0790"/>, 212, n. 14.</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/>	
+                     <supplied reason="lost"><w lemma="πρόεδρος">πρόεδροι</w>
+                        <w lemma="χερσονησίτης">Χερσονασειτᾶν</w> <w lemma="ὁ">τῶν</w></supplied> 
+               	   <supplied reason="lost"><w lemma="ποτί">ποτὶ</w> <w lemma="ὁ">τᾶι</w></supplied>
+               <placeName><supplied reason="lost">Ταυρ</supplied>ικᾶ<supplied reason="lost">ι</supplied></placeName>
+               <w lemma="εἶπον">εἶ<unclear>πα</unclear><supplied reason="lost">ν</supplied></w>
+               	<lb n="2"/>	
+               <supplied reason="lost"><w lemma="ἐπειδή">ἐπειδὴ</w> <placeName>Διόφαντος</placeName></supplied>
+               <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>σ</unclear></orig> 
+               <w lemma="ναύκληρος">να<supplied reason="lost">ύ</supplied>κλα<unclear>ρ</unclear><supplied reason="lost">ος</supplied></w>
+               <lb n="3"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+              <supplied reason="lost"><w lemma="ποτί">ποτὶ</w></supplied> <w lemma="ὁ"><unclear>τ</unclear>ὰν</w> 
+                  <w lemma="πόλις">πόλιν</w> <w lemma="ἀμάω">ἁ<supplied reason="lost">μῶν</supplied></w>
+               <lb n="4"/>
+               <gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὁ"><unclear>τ</unclear>οῖς</w>
+                  <w lemma="διαφέρω">διαφέρου<unclear>σ</unclear><supplied reason="lost">ι</supplied></w>
+               <lb n="5"/>
+               <gap reason="lost" extent="unknown" unit="character"/><orig>αν</orig> <w lemma="ὑπουργέω">ὑπούργησεν</w> 
+               <w lemma="χρόνος">χρ<supplied reason="undefined" evidence="previouseditor">ό</supplied>
+               	<lb n="6" break="no"/><supplied reason="lost">νον</supplied></w> 
+               <supplied reason="lost" cert="low"><w lemma="πολύς">πολὺν</w></supplied> 
+                  <gap reason="lost" extent="unknown" unit="character"/> <w lemma="καί">καὶ</w> <w lemma="τιμάω">τειματὸν</w> 
+                  <w>ἁ<unclear>μ</unclear>εῖν</w> <w lemma="χιλιάρχης"><unclear>χειλ</unclear><supplied reason="lost">ι</supplied>
+               	<lb n="7" break="no"/><supplied reason="lost">άρχην</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/> 
+                  <persName type="attested"><name type="praenomen"><supplied reason="lost">Γ</supplied>άιον</name>
+                     <name type="gentilicium">Σιλο<unclear>υ</unclear>ανὸν</name></persName> 
+                  <orig>μεταπασ</orig><gap reason="lost" quantity="2" unit="character"/>
+               <lb n="8"/>
+               <gap reason="lost" extent="unknown" unit="character"/> 
+               <w lemma="αὐτός"><supplied reason="lost">αὐ</supplied><unclear>τ</unclear>ὸς</w> <w lemma="ὡς">ὡς</w> 
+                  <w lemma="ἐγώ">ἁμὲς</w> <w lemma="διακομίζω">διεκό<unclear>μ</unclear>ισεν</w>
+               <orig>προσ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/>
+               	<lb n="9"/>	<gap reason="lost" extent="unknown" unit="character"/><w part="F">αται</w>
+               <w lemma="ὑπέρ">ὑπὲρ</w> <w lemma="ὁ">τᾶς</w> <w lemma="εἰς">ἐς</w> 
+                  <w lemma="αὐτός">αὐτὸν</w> <orig>δ</orig><gap reason="illegible" quantity="2" unit="character"/><orig>τα</orig>
+               	<lb n="10"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="καθήκω"><supplied reason="lost">κ</supplied>αθ<supplied reason="lost">ᾶκο</supplied><unclear>ν</unclear></w> <w lemma="εἰμί">ἔμμεν</w> <w lemma="διά">διά</w>
+               <w lemma="τε">τε</w> <w lemma="ὁ">τὰν</w> 
+                  <w lemma="εἰς">ἐς</w>               
+                  <lb n="11"/>
+               <gap reason="lost" extent="unknown" unit="character"/> <w lemma="τιμή">τειμάν</w> <w lemma="διά">διά</w>
+               <w lemma="τε">τε</w> <w lemma="ὁ">τὰν</w> <w lemma="αὐτός">αὐ
+                  <lb n="12" break="no"/><supplied reason="lost">τοῦ</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/><supplied reason="undefined" evidence="previouseditor"><orig>α</orig></supplied><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="εὔνοια">εὔνοιαν</w> 
+                  <w lemma="ὁ">τᾶι</w> <w lemma="πρέπω">πρεπο<supplied reason="lost">ύ</supplied>
+               	<lb n="13" break="no"/>
+                     <supplied reason="lost">σαι</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost"><w lemma="ἀντιτιμάω">ἀντιτειμαθῆναι</w></supplied> <g ref="#stop"/> <w lemma="διά">δι’</w>
+               <w lemma="ὅς">ἃ</w> <w type="δοκέω">δεδόχθαι</w> 
+                  <w lemma="ὁ">τᾶι</w> <w lemma="βουλή">βου
+               	<lb n="14" break="no"/><supplied reason="lost">λᾶι</supplied></w> 
+               <supplied reason="lost"><w lemma="καί">καὶ</w> <w lemma="ὁ">τῶι</w></supplied> 
+               	   <supplied reason="lost"><w lemma="δῆμος">δάμωι</w><g ref="#stop"/>
+               	      <w type="ἐπαινέω">ἐπαινέσαι</w></supplied> 
+                  <w lemma="μέν"><supplied reason="lost">μὲ</supplied>ν</w> <w lemma="ἐπί">ἐπὶ</w>
+               <w lemma="οὗτος">τούτοις</w> <persName type="attested"><name>Διόφαν
+               	<lb n="15" break="no"/><supplied reason="lost">τον</supplied></name></persName>
+               <gap reason="lost" extent="unknown" unit="character"/>  
+                  <w type="δίδωμι"><supplied reason="lost">δό</supplied>μεν</w> 
+                     <w lemma="δέ"><unclear>δ</unclear>ὲ</w> <w lemma="αὐτός">αὐτῶι</w>
+               <w lemma="προξενία">προξενί<supplied reason="lost">ας</supplied></w>
+               <lb n="16"/>	<supplied reason="lost"><w lemma="πολιτεία">πολιτείαν</w></supplied>
+               <gap reason="lost" extent="unknown" unit="character"/> 
+               <lb n="16a"/><gap reason="lost" extent="unknown" unit="line"/> 
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app><note source="bib:IOSPE2"> 365 et addendum p. 519.</note></app>
+               <app loc="2">
+                  <rdg source="bib:IOSPE2">[Διόφαντος Ἡράκ]ου;</rdg> 
+                  <rdg source="bib:b0755">[Διόφαντος Ἡράκου ὁ ἐκ τοῦ Τύ]ρ̣α;</rdg>
+                  <note>перед Σ низ вертикали и след наклонной гасты, вероятно от Υ;</note> 
+                  <rdg source="bib:b0790">[?Σινωπε]υ̣ς.</rdg>
+               </app>
+               <app loc="3"><rdg source="bib:IOSPE2">[- - - εὔνους ὢν διατελεῖ περὶ τ]ὰν;</rdg> 
+                  <rdg source="bib:b0755">[ἀνὴρ ἀγαθὸς - - - εὔνους ὢν διατελεῖ περὶ] τ̣ὰν.</rdg>
+               </app>
+               <app loc="4"><note>fin.:</note> 
+                  <rdg source="bib:b0755">διαφέρουσιν.</rdg>
+               </app>
+               <app loc="5"><note>in.:</note> 
+                  <rdg source="bib:b0755">[- - - ἐπὶ θάλασσ]αν.</rdg>
+               </app>
+               <app loc="5/6">
+                  <rdg source="bib:b0755">χρυ/[σῶν],</rdg> 
+                  <note>однако в конце стк. 5 на камне читается Ο.</note></app>
+               <app loc="6/7">
+                  <note>χ̣ε̣ι̣λ̣[ι/άρχην] scripsi (после Ε виден верх вертикальной гасты, затем скол по треугольной букве);</note>
+                  <rdg source="bib:IOSPE2">Χ̣Ε̣Α̣/[- - -] (факсимиле);</rdg>
+                  <rdg source="bib:b0755">χελύ̣/[κλονον εὐδοκιμοῦντα?].</rdg>
+               </app>
+               <app loc="7"><rdg source="bib:IOSPE2">[- - - Γ]άιον.</rdg></app>
+               <app loc="7/8">
+                  <rdg source="bib:IOSPE2">μετ’ ἀπαύ̣σ/[του - - -];</rdg> 
+                  <rdg source="bib:b0755">μετὰ πασώ/[λου],</rdg> 
+                  <note>однако на камне в конце стк. 7 после ΠΑ видна только нижняя часть Σ.</note>
+               </app>
+               <app loc="8">
+                  <note>in.:</note>
+                  <rdg source="bib:b0755">[- - - αὐ]τὸς;</rdg> 
+                  <note>fin: после Σ следы окружности; не исключаю προσφ̣[ά]/τως vel sim.;</note> 
+                  <rdg source="bib:b0926">πρὸς (=<note source="bib:IOSPE2"/>);</rdg> 
+                  <rdg source="bib:b0755">προσῳ/[δῶι].</rdg>
+               </app>
+               <app loc="9"><note>in.:</note> 
+                  <rdg source="bib:b0755">[- - - πεπό]αται;</rdg> 
+                  <rdg source="bib:IOSPE2"><note>med.:</note> εἰς;</rdg>
+                  <rdg source="bib:b0755">ἐς.</rdg>
+               </app>
+               <app loc="9/10">
+                  <note> на камне в конце стк. 9 между Δ и Τ видна часть вертикальной гасты, затем, возможно, след наклонной линии;</note> 
+                     <rdg source="bib:IOSPE2">δε[.]τα/[- - -];</rdg> 
+                     <rdg source="bib:b0755">διατά/[ξεως].</rdg>
+               </app>
+               <app loc="10">
+                  <rdg source="bib:IOSPE2">[κ]αθ[ᾶκο]ν̣ scripsi; vestigia;</rdg>
+                  <rdg source="bib:b0755">θ̣αώ[μ]ε̣ν̣ο̣[ι] ἔμμεν.</rdg>
+               </app>
+               <app loc="11"><note>fin. - 13:</note> 
+                  <rdg source="bib:IOSPE2">αὐ/[τοῦ κα]λο[κἀγαθίαν καὶ ἐξ]α[ίρετον] εὔνοιαν τᾶι πρεπο[ύ/σαι αὐτ]ὸν ἀ[μείψασθαι χάριτι·] δι’ ἃ etc.</rdg> 
+                  <note>(на основе присоединения надписи № ipe365b).</note><!-- № ipe? -->
+               </app>
+               <app loc="12">
+                  <note>med.:</note>
+                  <rdg source="bib:b0755">[- - - φι]λ̣ο̣[τιμίαν κ]α̣[ὶ] εὔνοιαν.</rdg>
+               </app>
+               <app loc="13">
+                  <note>med.: [ἀντιτειμαθῆναι] addidi;</note>
+                  <rdg source="bib:b0755">[- - -]οναι[- - -] · δι’ ἃ etc.</rdg> 
+                  <note>(следуя IOSPE I2, но без учета addendum IOSPE I2, p. 519).</note><!-- ? -->
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[Проедры херсонеситов, что около Таврики, внесли предложение: поскольку Диофант] навклер - - - [по отношению к нашему] городу - - - [в] важных (делах) - - - 
+               оказывал услуги [в течение долгого времени] - - - и [лично] доставил к нам пользующегося у нас почтением во[енного трибуна] Гая Сильвана - - - ради - - - 
+               [следует] по причине - - - почесть - - - и по причине его - - - доброго отношения - - - удостоить ответных почестей - - - подобающей - - - поэтому пусть 
+               будет решено Советом [и народом: восхвалить] за это Диофанта - - - [даровать] ему [гражданство на основании] проксении - - -</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[Proedroi of Chersonesites who are near Tauris proposed: since Diophantos] naukleros - - - [towards our] polis - - - [in] important (matters) - - - rendered services 
+            [over long period of time] - - - and [personally] conveyed to us the mili[tary tribune[ Gaius Silvanus, honoured among us - - - for - - - [follows] due to - - - honour - - - 
+            and because of - - - kind disposition - - - to reciprocate honours - - - fitting - - - For this reason, the Coun[cil and the People] shall deem it good to praise] for 
+            these Diophan[tos and gra]nt him [citizenship on the basis] of proxen[y - - -]</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

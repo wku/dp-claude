@@ -1,0 +1,92 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Inscriptions of the Northern Black Sea</title>
+        <title xml:lang="ru">Надписи Северного Причерноморья</title>
+        <title xml:lang="uk">Написи Північного Причорномор'я</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text xml:lang="en">
+        <body>
+            <div>
+            <head>IOSPE volumes</head>
+                <list type="simple">
+                  <item><ref target="../corpora/tyras/index.html">Volume I. Tyras and vicinity</ref></item>
+                  <item><ref target="../corpora/olbia/borysthenes_berezan/part_1/index.html">Volume II. Olbia and vicinity</ref></item>
+                  <item><ref target="../corpora/chersonesos/index.html">Volume III. Chersonesus and vicinity</ref></item>
+                  <item>Volume IV. Bosporus (forthcoming)</item>
+                  <item><ref target="../corpora/byzantine/index.html">Volume V. Byzantine Inscriptions</ref></item>
+              </list>
+            </div>
+            <div>
+              <head>Instrumenta:</head>
+              <list type="simple">
+                <item><ref target="../indices/index.html">Indices</ref></item>
+                <item><ref target="bibliography.html">Bibliography</ref></item>
+                <item><ref target="../conc/index.html">Concordance and comparatio numerorum</ref> of inscriptions in the main corpora</item>
+                <item><ref target="../search/en/-500/1800/">Search the corpus</ref></item>
+              </list>
+            </div>
+      </body>
+      </text>
+      <text xml:lang="ru">
+        <body>
+          <div>
+            <head>Структура нового IOSPE</head>
+            <list type="simple">
+              <item><ref target="../corpora/tyras/index-ru.html">Том I. Тира и окрестности</ref></item>
+              <item><ref target="../corpora/olbia/borysthenes_berezan/part_1/index-ru.html">Том II. Ольвия и окрестности</ref></item>
+              <item><ref target="../corpora/chersonesos/index-ru.html">Том III. Херсонес и окрестности</ref></item>
+              <item>Том IV. Боспор (в разработке)</item>
+              <item><ref target="../corpora/byzantine/index-ru.html">Том V. Византийские надписи</ref></item>
+            </list>
+          </div>
+          <div>
+              <head>Вспомогательный аппарат:</head>
+                <list type="simple">
+                  <item><ref target="../indices/index-ru.html">Указатели</ref> имен, слов и т.д. во всем корпусе</item>
+                  <item><ref target="bibliography-ru.html">Библиография</ref></item>
+                  <item><ref target="../conc/index-ru.html">Concordantia editionum et comparatio numerorum</ref> всех надписей</item>
+                  <item><ref target="../search/ru/-500/1800/">Поиск по корпусу</ref></item>
+                </list>
+          </div>
+        </body>
+      </text>
+      <text xml:lang="uk">
+        <body>
+          <div>
+            <head>Структура нового IOSPE</head>
+            <list type="simple">
+              <item><ref target="../corpora/tyras/index-uk.html">Том I. Тіра та околиці</ref></item>
+              <item><ref target="../corpora/olbia/borysthenes_berezan/part_1/index-uk.html">Том ІІ. Ольвія та околиці</ref></item>
+              <item><ref target="../corpora/chersonesos/index-uk.html">Том ІІІ. Херсонес та околиці</ref></item>
+              <item>Том ІV. Боспор (у розробці)</item>
+              <item><ref target="../corpora/byzantine/index-uk.html">Том V. Візантійські написи</ref></item>
+            </list>
+          </div>
+          <div>
+            <head>Допоміжний апарат:</head>
+            <list type="simple">
+              <item><ref target="../indices/index-uk.html">Вказівники</ref>імен, слів тощо у всьому корпусі</item>
+              <item><ref target="bibliography.html">Бібліографія</ref></item>
+              <item><ref target="../conc/index.html">Concordantia editionum et comparatio numerorum</ref> </item>
+              <item><ref target="../search/en/-500/1800/">Пошук по корпусу</ref></item>
+            </list>
+          </div>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI>

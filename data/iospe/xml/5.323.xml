@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Завага</title><title xml:lang="en">Epitaph of Zabagos</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.323</idno><idno type="PE">PE5000323</idno>
+            <idno type="AYV2012-number">byz327</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>In situ (?)</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>In situ (?)</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon20">Стена.</objectType>
+                           <objectType xml:lang="en">Wall.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m10">Глина.</material>
+                           <material xml:lang="en">Clay.</material>
+                           <p xml:lang="ru">Неизвестно.</p>
+                           <p xml:lang="en">Unknown.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На лицевой стороне.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#pictura">Дипинто</rs> красной краской.</seg>
+                        <seg xml:lang="en">Dipinto made with red paint.</seg>
+                      </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p055">
+                        <seg xml:lang="ru">Китей.</seg>
+                        <seg xml:lang="en">Kytaion.</seg>
+                     </origPlace>
+                      <origDate notBefore="0301" notAfter="0400" precision="low" evidence="археологический_контекст">
+                        <seg xml:lang="ru">IV в.</seg>
+                        <seg xml:lang="en">IVth century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#dzhurt-oba">Джурт-Оба, Курган.</placeName>
+                       <rs type="circumstances">1929 г., раскопки Ю.Ю. Марти.</rs>
+                        <rs type="context">Склеп у подошвы кургана, над восточной нишей.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Dzhurt-Oba, Tumulus.</placeName>
+                        <rs type="circumstances">1929, excavations of Yu.Yu. Marti.</rs>
+                        <rs type="context">Burial vault at the foot of the tumulus, above the eastern niche.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-02-25" who="AG">repository corrected</change>
+         <change when="2012-09-11" who="AG">some corrections, several lines translated</change>
+          <change when="2012-08-23" who="AL">checked metadata and bibliography</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+          <change when="2012-05-29" who="AFS">adding metadata</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-03-05" who="AG">small corrections, tags tidied, bibliography, apparatus and the Greek text tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <text> 
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Марти1935--><ptr target="bib:b0168"/>, <citedRange>70</citedRange></bibl>
+               <bibl n="1.1"><!--Гайдукевич 1959--><ptr target="bib:b0058"/>, <citedRange>228</citedRange></bibl>
+                <bibl n="1.2"><!--КБН--><ptr target="bib:CIRB"/>, <citedRange>944</citedRange></bibl>
+               <bibl n="1.3"><!-- Diatropov --><ptr target="bib:b0068"/></bibl>
+            </listBibl>
+         </div>
+         <div type="apparatus">
+             <listApp>
+               <app loc="1-2"><rdg source="bib:b0168">Τάσιν</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Заваг, сын Тасия.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Zabagos, son of Tasios.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> В западной нише склепа на некрополе Китея красной краской изображен корабль с человеком на борту, а выше крест в круге и альфа и омега (?) под ним. 
+               Надпись выполнена также красной краской между линеек. Инвентарь склепа при доследовании оказался относящимся к IV в. (Ермолин, Юрочкин 2002; 
+               любезно указано А. Куликовым). Датировка Марти надписи по палеографии II в. ошибочна, однако отсутствие фотографии (в т.ч. в фотоальбоме к КБН) 
+               не позволяет судить о ней точнее.  </p>
+                <!--<p> 1. Относительно имени Заваг см. прил. 1.  </p>-->
+                <p>1–2. Форма второго имени не совсем ясна. Марти считал, что это стяженное имя Τάσιον, т.е., видимо, мужское имя в аккузативе (ср. SEG 6.830); 
+                   авторы КБН — что это аккузатив (?) от женского имени Τάσις (или Τᾶσις — в КБН ошибочно Τασῗς), т.е. речь идет о семейном погребении; наконец, 
+                   Гайдукевич — что это ошибочно вырезанный патронимик Τασίου. Новая прорись (Ермолин, Юрочкин 2002) показывает правоту последнего. Среди христианских имен известно только 
+                   Τασία (SEG 27.1120). В Сиракузах зафиксировано христианское имя (?), начинающееся на Τασιν- (Strazzula 1897, № 228). Τασις (sic! издатель) как 
+                   мужское имя (вместо Τάσιος?) известно в Македонии (SEG 30.594).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>In the western niche of a burial vault in the Kytaion necropolis, we find a drawing of a ship with a man on board, painted with red paint. Above it, there
+               is a cross inside a circle, and alpha and omega (?) below it. The inscription is also painted in red paint between drawn red lines. Grave goods in this 
+               burial vault date to the IVth century (Yermolin, Yurochkin 2002; kindly brought to my attention by A. Kulikov). The date (IInd century), proposed by Marti on the basis 
+               of palaeography, is incorrect, but the lack of a photograph (including its absence from the album imaginum for CIRB) does not allow us to offer 
+               a more precise date.</p>
+            <p>The form of the second name is not entirely clear. Marti thought that it was a contraction of the name Τάσιον, that is, apparently a masculine name
+               in accusative (cf. SEG 6.830); authors of CIRB considered it an accusative (?) of the feminine name Τάσις (or Τᾶσις — in CIRB, incorrectly Τασῗς), thus 
+               suggesting a family burial; finally, Gajdukevich believed that a patronymic Τασίου had been intended, with nu carved by mistake. A new rubbing (Yermolin, Yurochkin 2002) confirms 
+               that the latter's hypothesis was correct. Among Christian inscriptions, we know only Τασία (SEG 27.1120). In Syracuse, a Christian name (?), starting 
+               with Τασιν- (Strazzula 1897, № 228) is attested. Τασις (sic! editor) as a masculine name (instead of Τάσιος?) is known in Macedonia (SEG 30.594).</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" ref="#person424"><name nymRef="Ζαβαγος">Ζαβαγος</name>
+                  <persName type="attested" ref="#person562"><name nymRef="Τάσιος"><expan><abbr>Τα<lb n="2" break="no"/>σί</abbr><ex>ο</ex><abbr>υ</abbr></expan></name></persName></persName>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

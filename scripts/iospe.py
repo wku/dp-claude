@@ -7,7 +7,6 @@ from pathlib import Path
 
 OUT = Path(__file__).resolve().parent.parent / "data" / "iospe"
 NS = "{http://www.tei-c.org/ns/1.0}"
-LANG = "{http://www.w3.org/XML/1.1/namespace}lang"
 
 
 def txt(e):

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Устана, сына Агафа</title><title xml:lang="en">Epitaph of Oustanos, son of Agathos</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.328</idno><idno type="PE">PE5000328</idno>
+            <idno type="AYV2012-number">byz330</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country>Russia</country>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Темрюкский историко-археологический музей</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Temryuk Historical-Archaeological Museum</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc8">
+                     <seg xml:lang="ru">Памятная надпись<certainty cert="low" locus="value" match=".."/>.</seg>
+                      <seg xml:lang="en">Commemoration<certainty cert="low" locus="value" match=".."/>.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Наверху лицевой стороны рельефная розетка в прямоугольной рамке. Вторично использована (?); обломана снизу, сколы по 
+                              левому краю.</p>
+                           <p xml:lang="en">At the top of the front - relief rosette within rectangular frame. In secondary use? Broken at the bottom, chipped along 
+                           the left edge.</p>
+                           <dimensions>
+                              <height>65,0</height>
+                              <width>40,0</width>
+                              <depth>17,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">Под розеткой, в рамке.</seg>
+                           <seg xml:lang="en">Below the rosette, inside the frame.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с наклонной перекладиной, мю с прогнутой серединой, сигма и омега прямоугольные.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with slanting crossbar, mu with sagging middle, rectangular sigma and omega.</seg>
+                        <height unit="cm">5,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p048">
+                        <seg xml:lang="ru">Фанагория.</seg>
+                        <seg xml:lang="en">Phanagoreia.</seg>
+                     </origPlace>
+                      <origDate notBefore="0301" notAfter="0500" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">IV–V вв.</seg>
+                        <seg xml:lang="en">IV–Vth century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="2007-09">Сентябрь 2007</date>.</seg>
+                     <seg xml:lang="en"><date when="2007-09">September 2007</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#solenyhamlet">Хутор Соленый, окрестности.</placeName>
+                        <rs type="circumstances">1962 г., случайная находка Н.И. Сокольского.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Soleny hamlet, vicinity.</placeName>
+                        <rs type="circumstances">1962, chance find of N.I. Sokolsky.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Темрюк, Краснодарский край, Россия.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Temryuk, Krasnodar region, Russian Federation.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2012-10-13" who="AL">small corrections in Russian text</change>
+         <change when="2012-09-24" who="AG">tags in the text corrected, key added</change>
+         <change when="2012-09-11" who="AG">several lines translated, apparatus corrected, lemmata added</change>
+          <change when="2012-09-03" who="AL">checked metadata</change>
+          <change when="2012-08-23" who="AL">checked metadata and bibliography</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+          <change when="2012-05-29" who="AFS">adding metadata</change>
+         <change when="2012-02-29" who="AG">some corrections, tags tidied, apparatus and the Greek text tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Яйленко 1987--><ptr target="bib:b0257"/>, <citedRange>167–168</citedRange></bibl>
+               <bibl n="1.1"><!--Bull. ép. 1990--><ptr target="bib:BE"/> <citedRange>1990, 903</citedRange></bibl>
+               <bibl n="1.2"><!--SEG --><ptr target="bib:SEG"/> <citedRange>39, 704</citedRange></bibl>
+               <bibl n="1.3"><!--Виноградов 1998--><ptr target="bib:b0057"/>, <citedRange>245–246</citedRange></bibl>
+                <bibl n="1.3.1"><!--SEG --><ptr target="bib:SEG"/> <citedRange>48, 1025</citedRange></bibl>
+               <bibl n="1.4"><!--Яйленко 2002b--><ptr target="bib:b0259"/></bibl>
+                <bibl n="1.4.1"><!--SEG --><ptr target="bib:SEG"/> <citedRange>52, 747</citedRange></bibl>
+               <bibl n="3"><!--Виноградов 2010b--><ptr target="bib:b0414"/>, <citedRange>159-161</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="ἐνθάδε"><expan><abbr>Ἐνθάδ</abbr><ex>η</ex></expan></w> <w lemma="τοξεύω">ἠ<lb n="2" break="no"/>τοξεύετ᾿</w>
+               <lb n="3"/><persName type="attested" ref="#person427"><name nymRef="Οὐστανος">Οὐστανος</name>,
+               <lb n="4"/><w lemma="ὁ"><supplied reason="lost">ὁ</supplied></w> <w lemma="πρωτοκόμης">προτω<lb n="5" break="no"/>κομίτες</w>
+               <lb n="6"/><placeName key="chimiris">Χιμίρις</placeName>,
+               <lb n="7"/><w lemma="υἱός">υεἱὸς</w>
+                  <persName type="attested" ref="#person428"><name nymRef="Ἀγαθός">Ἀγά<lb n="8" break="no"/>θου</name></persName></persName>
+               <w lemma="ὁ">τοῦ</w> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+             <listApp>
+               <app loc="1-3"><rdg source="bib:b0057">Ἐνθάδ᾿ ἐτοξεύετο</rdg></app>
+               <app loc="2"><rdg source="bib:b0257 bib:b0259">τοξεύει</rdg></app>
+               <app loc="3"><rdg source="bib:b0057">ἱστανό(μενο)ς</rdg></app>
+               <app loc="4"><lem>[ὁ]</lem><rdg source="bib:b0057"><note>om.</note></rdg></app>
+               <app loc="5"><rdg source="bib:b0257 bib:b0259">Χιμιρί(δο)ς</rdg>
+                  <rdg source="bib:b0057">Κιμίριος</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Здесь застрелен Устан, протокомит Химирии, сын Агафа, …</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Here was shot Oustanos, protocomes of Chimiris, son of Agathos...</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Камень, на котором выполнена надпись, возможно, принадлежит римскому времени; отсутствие христианской символики, нетипичность формулы и 
+               ненадежные палеографическме привязки не исключают того, что и сама надпись может быть римского времени. Грамматически она близка к <ref type="inscription">V 282</ref><!--byz270--> и <ref type="inscription">V 305</ref><!--byz299--> 
+               (491–492 гг.): звук  <foreign xml:lang="la">e</foreign> (равно как и <foreign xml:lang="la">о</foreign>) потерял квантитативность, но эта еще не обозначает 
+               звука  <foreign xml:lang="la">i</foreign>, и на письме эпсилон и эта смешиваются, однако, 
+               первая эта в слове πρωτοκωμήτης обозначает звук  <foreign xml:lang="la">i</foreign>. Сама надпись не обязательно надгробная — возможно, это просто памятный 
+               знак на месте гибели  Устана.</p>
+                <p> 1–3. Большие сложности вызывает разделение слов в первых трех строках. Очевидно, что грамматически непротиворечивая гипотеза Яйленко 
+                   неприемлема, так как, с одной стороны, на камне ясно читается в конце 2-й строки тау, а с другой - надписи со значением «Здесь стреляет из лука» 
+                   не известны ни в древней, ни в христианской эпиграфике. Вариант Ю.Г. Виноградова ἐτοξεύετο ἱστανός отпадает ввиду маловероятности как самого причастия 
+                   ἱστανός (в т.ч. и в силу позднего, после VIII века, перехода ипсилона в звук  <foreign xml:lang="la">i</foreign>), так и его постановки на том месте, 
+                   где в надписях 
+                   стандартно ставится имя усопшего. Более приемлемым кажется, на первый взгляд, чтение Ἐνθάδ᾿ ἐτοξεύετο. Однако характерно, что резчик данной надписи 
+                   всегда старается соединить 
+                   конец строки с концом слова или его компонента (за исключением 7-й строки), так что наиболее вероятным представляется, что ради этого мастер считает 
+                   последнюю букву первых двух слов одновременно и первой буквой следующего.</p>
+                <p> Формула с ἐτοξεύετο уникальна и не находит параллелей в христианской эпиграфике (впрочем, идея Яйленко о стрельбище Устана вообще невероятна); 
+                   обстоятельства смерти, прежде всего насильственной, указываются в христианской эпиграфике Северного Причерноморья в надгробии Чупана из Лак 
+                   (<ref type="inscription">V 144</ref><!--byz139-->), которое датируется, однако, 1364 г., т.е. почти на тысячу лет позже данной надписи. В христианской эпиграфике примеров такого рода нам также 
+                   найти не удалось (если не считать загадочного ἀπώλετο в Wessel 1989, № 687).  </p>
+            <p> 3, 7–8. Имя Устан известно в боспорской эпиграфике (см. комм. к <ref type="inscription">V 312</ref><!--byz326-->) и имеет иранское происхождение (Justi 1995, 69, 139). Хотя Агаф, отец Устана, 
+                   мог и не быть христианином, однако это распространенное в боспорской эпиграфике имя (более 40 раз в КБН) засвидетельствовано и в христианской 
+                   эпиграфике (напр., Sironen 1997, № 241; Pontica 218). Принадлежность Устана к иранской знати, приписываемая ему Яйленко, сомнительна, потому что 
+                   отцы и нашего Устана, и других боспорских Установ (<ref type="inscription">V 312</ref><!--byz326--> и КБН 1278) носят греческие имена (Агаф, Никифор и Зенон (?) соответственно), что характерно 
+                   для давно ассимилированных семей знатных боспорских граждан.</p>
+                <p> 4–5. Титул Устана «протокомит» означает, как указал первоиздатель, сельского старосту (см. LSJ, s.v.). Единственную сложность здесь, как было 
+                   упомянуто выше, представляет фонетический облик слова.  </p>
+                <p> 6. Самые большие проблемы вызывает трактовка топонима (или имени собственного, по мнению Ю.Г. Виноградова) Химирис (в надписи в gen. Χιμίρις). 
+                   Яйленко видит здесь Киммериду (т.е. Χιμιρί(δο)ς от Κιμμερίδος). Ю.Г. Виноградов, принимая эту этимологию, видит здесь, однако, в рамках своего общего чтения 
+                   надписи, личное имя Киммерий (т.е. Χιμίρι(ο)ς от Κιμμέριος). Наконец, еще одно, неопубликованное, соображение высказано С.Р. Тохтасьевым (в письме к 
+                   Ю.Г. Виноградову). Соглашаясь с регрессивной ассимиляцией e между двумя i (ср. Threatte 1980, 388), он считает маловероятным переход Κιμμ- в Χιμ-. 
+                   Вместо этого Тохтасьев предлагает возвести Χιμίρι(ο)ς к Χειμέριος (в рамках гипотезы Ю.Г. Виноградова), относящегося к т. н. Temperament-und 
+                   Charakternamen (см. Bechtel 1917, 500–506) — LGPN дает, впрочем, только Χείμαρος/Χίμαρος. Поскольку Χιμίρις здесь должно означать по нашему 
+                   мнению все же название деревни, протокомитом который был Устан, то применив верную, как нам кажется, гипотезу Тохтасьева к топонимам, мы 
+                   получим имя Χείμιρις (gen. Χειμίρις образовался по модели Χειμιρίδος &gt; Χειμιρίος &gt; Χειμίρις). В качестве ближайшей параллели можно указать топоним 
+                   Χείμαρις (или Χειμάριον; место ссылки и смерти прп. Максима Исповедника в Абхазии). Таким образом, название деревни Химирис должно указывать на 
+                   какие-то природные явления зимой, отличающие данную местность (как Χείμαρις — от бурных зимних потоков). Вне зависимости, однако, от этимологии данного слова его локализация на 
+                   Тамани (по Яйленко) представляется совсем не обязательной, поскольку камень, видимо, стоит на месте случайной смерти сельского старосты, который мог 
+                   попасть сюда совсем из другой местности.</p>
+                <p>8–9. Нехарактерное для Боспора помещение патронимика (в виде «сын такого-то») после имени и профессии усопшего вполне типично для разных 
+                   областей византийского мира (за исключением Сирии и Италии, согласно PHI7 Database). Артикль  после имени Агафа мог указывать, по верному замечанию 
+                   Ю.Г. Виноградова, не только на имя деда Устана, но и на его должность (последнее нам представляется более вероятным).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The monument that bears our inscription might be of Roman date; the absence of Christian symbols, atypical formula and uncertain palaeographic
+               indicators leave the possibility of the inscription's Roman date open. Its grammar is close to <ref type="inscription">V 282</ref><!--byz270--> and
+               <ref type="inscription">V 305</ref><!--byz299--> (491–492 C.E.): the sound <foreign xml:lang="la">e</foreign> and equally <foreign xml:lang="la">о</foreign> 
+               lost their quantitative value, but eta does not yet stand for the sound <foreign xml:lang="la">i</foreign>, and in writing, epsilon and eta
+               are occasionally conflated, however, the first eta in πρωτοκωμήτης does signify <foreign xml:lang="la">i</foreign>. The text is not necessarily funerary, 
+               it might be a memorial at the site of Oustanos' death.</p>
+            <p> 1–3. One of the main questions is where to place word divisions in the first three lines of text. Although Yaylenko's reading is grammatically
+               correct, it is nevertheless unacceptable because at the end of line 2 a tau is very clear, and because there are no parallels either in the classical or 
+               Byzantine epigraphy for an inscription that reads "Here shoots from a bow."  An alternative proposed by Yu. Vinogradov, ἐτοξεύετο ἱστανός, is also not convincing:
+               both because a participle ἱστανός is an unlikely form (also due to the late, after the VIIIth century, transition of upsilon into the sound  <foreign xml:lang="la">i</foreign>), 
+               and also because in inscriptions this position is typically occupied by the name of a deceased. More plausible, at least at first sight, seems to be
+               the reading Ἐνθάδ᾿ ἐτοξεύετο, however, the letter-cutter of this inscription had a tendency to fit the end of lines with the end of words or of
+               its components (except in line 7), so that the most likely hypothesis is that the cutter considered the last letter of the first two words to be also
+               the first letter of the following word.</p>
+            <p>The formula with ἐτοξεύετο is unique and has no parallels in Christian epigraphy (while Yaylenko's hypothesis about a shooting range of Oustanos is
+               simply outlandish); circumstances of death, and of violent death for that matter, are recorded in the Christian epigraphy of the Northern Black Sea region  
+                on the tombstone of Chupan from Laki (<ref type="inscription">V 144</ref><!--byz139-->), dated, however, to 1364 C.E., that is, almost
+               a thousand years later than the inscription in question. We could not find parallels in the Christian epigraphy of other regions either
+               (except for a rather puzzling ἀπώλετο in Wessel 1989, № 687).</p>
+            <p> 3, 7–8. The name Oustanos is known in Bosporan epigraphy (see commentary to <ref type="inscription">V 312</ref><!--byz326-->) and can be safely said to be of
+               Iranian origin (Justi 1995, 69, 139). Although Agathos, the father of Oustanos, might not have been Christian, this name is common in Bosporan epigraphy
+               (40 times in CIRB), and is attested in Christian use (e.g., Sironen 1997, № 241; Pontica 218). It is highly doubtful that Oustanos was a representative
+               of Iranian nobility, as argued by Yaylenko, because the father of our Oustanos and the fathers of other men of that name (<ref type="inscription">V 312</ref><!--byz326--> 
+               and CIRB 1278) have Greek names (Agathos, Nikephoros, and Zenon (?) respectively), which is typical of long-assimilated families of noble Bosporites.</p>
+            <p> 4–5. The title of Oustanos - "protocomes" - signifies, as the first editor had observed, the head man of a village (see LSJ, s.v.). 
+            The only difficulty in this word is the phonetics, as I have mentioned in the above.</p>
+            <p> 6. The greatest difficulty in the interpretation of this insciption is caused by the word Χιμίρις, probably a toponym (in the text, in the gen.), or personal name, 
+               according to Yu.G. Vinogradov. Yaylenko sees here Kimmeris (i.e., Χιμιρί(δο)ς from Κιμμερίδος). Accepting this etymology. Yu.G. Vinogradov, identifies here a personal name
+               (i.e. Χιμίρι(ο)ς from  Κιμμέριος), in line with his overall reading of the text. Finally, there is an unpublished opinion expressed by S. Tokhtasiev in a letter
+               to Yu. Vinogradov. Agreeing with the view that the word may have taken this form as a result of regressive assimilation of the vowel e between two i (cf. Threatte 1980, 388), 
+               Tokhtasiev considers the transition of Κιμμ- to Χιμ- unlikely. Instead, he proposes to derive Χιμίρι(ο)ς from Χειμέριος (in line with Yu. Viongradov's hypothesis),
+               as a type of the so-called Temperament- und Charakternamen (see Bechtel 1917, 500–506) — LGPN offers only the examples of Χείμαρος/Χίμαρος. In my opinion, Χιμίρις should 
+               indicate a village name, where Oustanos served as protocomes, but we can apply Tokhtayev's linguistic reasoning, which seems correct, to the toponym and reconstruct the name 
+                Χείμιρις (gen. Χειμίρις formed on the model Χειμιρίδος &gt; Χειμιρίος &gt; Χειμίρις). The closest parallel would be the toponym Χείμαρις (or Χειμάριον; the place of exile and death 
+                of the St. Maximus the Confessor in  Abkhazia). Thus, a toponym Chimiris would originate from some local natural phenomenon associated with winter and characteristic for this geographic
+                area (e.g., Χείμαρις was so called because of rushing and roaring winter streams). Independent of etymology, however, the localization of Chimiris in Taman (so Yaylenko)
+               is not inevitable because the monument was apparently set up at the site of accidental death of a village head, who may have come there from
+               another area altogether.</p>
+            <p>8–9. A patronymic (in the form "son of") after the name and occupation of the deceased is uncharacteristic of Bosporus, although it is quite common 
+               in other parts of the Byzantine world (except Syria and Italy, according to PHI7 Database). The article after the name Agathos could have introduced not only
+               the name of Oustanos' grandfather, but also his (grandfather's) position, as has been rightly pointed out by Yu.G. Vinogradov, and the latter possibility seems to me 
+               the most likely. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

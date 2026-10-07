@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+             <title xml:lang="ru">Incertum</title>
+            <title xml:lang="en">Incertum</title>
+         </titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.682</idno><idno type="PE">PE3000576</idno><idno type="filename">3.541</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><region>Crimea</region>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Херсонесский музей (ранее)</repository>
+                     <idno>4491/08</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Formerly in Museum of Chersonesos (later renamed National Preserve of Tauric Chersonesos)</repository>
+                     <idno>4491/08</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc22">
+                     <seg xml:lang="ru">Incertum.</seg>
+                     <seg xml:lang="en">Incertum.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Два фрагмента, соединяющиеся в контакте, относятся к правому краю плиты (фрг. 1-2). 
+                              Третий фрагмент (фрг. 3) предположительно относится к той же самой плите, а именно к ее левому краю. 
+                              Сохранились остатки двух строк надписи. Лицевая поверхность обтесана мелкой зубаткой, но не отшлифована. 
+                              Тыльная сторона обработана суммарно.</p>
+                           <p xml:lang="en">Two joining fragments. The front is worked with tooth chisel, but not polished. The back is treated summarily.</p>
+                      </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Крупные глубоко вырезанные буквы, Μ с немного расходящимися внешними гастами, угловатая Ω, апексы на концах линий букв.</seg>
+                        <seg xml:lang="en">Large deeply cut letters; serifs.</seg>
+                        <height unit="cm">4,4 - 5,8</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес Таврический.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0300" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">II-III в. н.э.</seg>
+                        <seg xml:lang="en">II-III century C.E.</seg>
+                     </origDate>
+                  </origin>
+               </history>
+               <msPart n="1">
+                  <msIdentifier>
+                     <region>Crimea</region>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions n="1">
+                                 <height unit="cm">18,0</height>
+                                 <width unit="cm">23,0</width>
+                                 <depth unit="cm">16,5</depth>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                  <provenance type="found" n="1">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Фрагменты 1-2 найдены в 1908 г.  
+                           Раскопки Р. Х. Лепера (см. Лепер 1912, 66).</rs>
+                        <rs type="context">В северо-восточном районе городища («в с.-в. конце Главной улицы близ с.-в. базилики»).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Fragments 1-2 found in 1908, excavations of R.Ch. Loeper (see Loeper  1912, 66).</rs>
+                        <rs type="context">Northeast sector of Chersonesos ("at the northeast end of the Main street, near the Northeastern Basilica").</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь (ранее).</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en"> Sevastopol (formerly).</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi. В настоящее время камень считается утерянным.</seg>
+                     <seg xml:lang="en">Non vidi. The monument is considered lost.</seg>
+                  </provenance>
+               </history>
+               </msPart>
+               <msPart n="2">
+                <msIdentifier>
+                     <region>Crimea</region>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions n="2">
+                                 <height unit="cm">18,0</height>
+                                 <width unit="cm">23,0</width>
+                                 <depth unit="cm">16,5</depth>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance type="found" n="2">
+                        <seg xml:lang="ru">
+                           <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                           <rs type="circumstances">Фрагменты 1-2 найдены в 1908 г. Раскопки Р. Х. Лепера (см. Лепер 1912, 66).</rs>
+                           <rs type="context">В северо-восточном районе городища («в с.-в. конце Главной улицы близ с.-в. базилики»). 
+                           </rs>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                           <rs type="circumstances">Fragments 1-2 found in 1908, excavations of R.Ch. Loeper (see Loeper  1912, 66).</rs>
+                           <rs type="context">Northeast sector of Chersonesos ("at the northeast end of the Main street, near the Northeastern Basilica").</rs>
+                        </seg>
+                     </provenance>
+                     <provenance type="observed">
+                        <seg xml:lang="ru">Севастополь (ранее).</seg>
+                        <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol (formerly).</tei:seg>
+                     </provenance>
+                     <provenance type="observed" subtype="autopsy">
+                        <seg xml:lang="ru">Non vidi. В настоящее время камень считается утерянным.</seg>
+                        <seg xml:lang="en">Non vidi. The monument is considered lost.</seg>
+                     </provenance>
+                  </history>
+                  </msPart>
+               <msPart n="3">
+                  <msIdentifier><region>Crimea</region></msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions n="3"/><!-- Dimensions unknown -->
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance type="found" n="3">
+                        <seg xml:lang="ru">
+                           <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                           <rs type="circumstances">Фрагмент 3 найден не позднее 19/03/1919, когда он был сфотографирован в Херсонесском музее; 
+                              более точных данных нет.</rs>
+                           <rs type="context">Данных нет.</rs>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                           <rs type="circumstances">Found no later than 19/03/1919 when it was photographed at the Chersonesos Museum; nothing else is known.</rs>
+                           <rs type="context">Unknown.</rs>
+                        </seg>
+                     </provenance>
+                     <provenance type="observed">
+                        <seg xml:lang="ru">Севастополь (ранее).</seg>
+                        <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol (formerly).</tei:seg>
+                     </provenance>
+                     <provenance type="observed" subtype="autopsy">
+                        <seg xml:lang="ru">Non vidi. В настоящее время камень считается утерянным.</seg>
+                        <seg xml:lang="en">Non vidi. The monument is considered lost.</seg>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      <revisionDesc>
+         <change when="2017-04-10" who="PY">encoded Leiden and metadata</change>
+         <change when="2017-03-15" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.682">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl n="1-2">
+               <bibl><!-- Лепер 1912 --><ptr target="bib:b0480"/>, <citedRange>65, № 13</citedRange></bibl>
+               <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>413</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="fragment" n="1-2">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΔΙ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΑΤΩ</orig>
+               		<lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+               </div>
+            <div type="textpart" subtype="fragment" n="3">
+               <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><orig>Μ</orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+               </div>
+         </div>
+         <div type="apparatus">
+            <listApp n="1-2">
+               <app loc="1">
+                  <rdg>Διὶ [῾Υπ]/άτῳ <note>edd.</note></rdg>
+                  </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Не предлагается.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Not attempted.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Фрг. 1 - 1: в конце стк. на фото видна лишь нижняя часть апицированной вертикали</p>
+            <p>Фрг. 3 - Ineditum; 2: в начале стк. следы вертикали и наклонной линии (возможно, Ν или Μ)</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

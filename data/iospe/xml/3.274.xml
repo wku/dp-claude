@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Ксенокла</title><title xml:lang="en">Epitaph of Xenokles</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.65</idno><idno type="PE">PE3000065</idno><idno type="filename">3.274</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>27/36504</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>27/36504</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Верхняя часть стелы, украшенной карнизом с антефиксами.
+                              На лицевой грани изображены рельефные розетки и портупея. Между
+                              карнизом и розетками по предварительной разметке тонко вырезана
+                              двухстрочная надпись. Тыльная сторона тщательно обработана, на ней
+                              также имеются рельефные розетки.</p>
+                           <p xml:lang="en">Upper part of a stele topped by a cornice with
+                              antefixes. On the front: relief rosettes and a sword-belt. Between the cornic and rosettes is a two-line insription cut in thin 
+                              strokes, following ruled lines. The back is well worked, adorned with relief rosettes.</p>
+                           <dimensions>
+                              <height unit="cm">41,0</height>
+                              <width unit="cm">30,0</width>
+                              <depth unit="cm">12,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Поперечная линия альфы слегка выгнута, тета и омикрон
+                           немного меньше остальных букв, вертикальные гасты ню одинаковой длины,
+                           кси имеет вертикальную черту, верхние и нижние линии сигмы расходятся,
+                           линии некоторых букв изогнуты, утолщения и штрихи на концах линий
+                           букв.</seg>
+                        <seg xml:lang="en">The crossbar of alpha is slightly curved, theta and
+                           omicron smaller than other letters, verticals of nu are of equal height,
+                           ksi with a vertical, four-bar sigma with splayed bars, some letter
+                           strokes are curved, letter strokes flare at the ends and terminate in
+                           serifs.</seg>
+                        <height unit="cm">1,7</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0201" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">III в. до н.э.</seg>
+                        <seg xml:lang="en">III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Случайная находка 1964 г.</rs>
+                        <rs type="context">В юго-восточном районе
+                           Херсонеса (на участке гончарных мастерских на месте древнего некрополя у
+                           Карантинной бухты) юго-западнее башни XVII (башня Зенона).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Random find in 1964. </rs>
+                        <rs type="context">Southeast sector of Chersonesos (ceramic workshops on the site of the ancient necropolis by the Quarantine Bay), southeast of 
+                        Tower XVII (Zeno's Tower).</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-15" who="CB">Bibliography</change>
+         <change when="2015-09-01" who="CB">Metadata and app crit</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2015-05-15" who="CB">metadata tagging</change>
+         <change when="2014-01-31" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-03-13" who="AV">tagging Greek names XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.65">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--НЭПХ II--><ptr target="bib:НЭПХ2"/> <citedRange>178</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--АСХ-->
+                  <ptr target="bib:b0523"/>71, № 176</bibl>
+               <bibl><!--Posamentir 2011--><ptr target="bib:b0437"/>, 88, № C7+7a</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person608"><name nymRef="Ξενοκλῆς">Ξενοκλῆς</name>
+               	<lb n="2"/><persName type="attested" ref="#person609"><name nymRef="Θεοχάρης">Θεοχά<supplied reason="lost">ρ</supplied>
+               	   <unclear>ειος</unclear></name></persName></persName>.
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Ксенокл, (сын) Феохара.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Xenokles, (son of) Theochares.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Оба личных имени известны в Херсонесе (LGPN IV). Относительно характерного для
+               херсонесских надписей эллинистического времени написания ειος (наряду с -εος) для
+               окончания gen. sg. основ на -σ- см. Тохтасьев 1997, 399 (с примерами); ср.
+               Thumb-Kieckers 137, § 132.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

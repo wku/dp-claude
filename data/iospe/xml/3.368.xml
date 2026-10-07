@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Северы, сына Лиллона</title><title xml:lang="en">Epitaph of Severas</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.162</idno><idno type="PE">PE3000483</idno><idno type="filename">3.368</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3630</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3630</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Прямоугольная плита с рельефным изображением фронтона и акротериев. Стесана снизу. 
+                              В прямоугольном углублении помещен поясной мужской портрет. Под рельефом расположена трехстрочная надпись, 
+                              вырезанная по предварительной разметке.</p>
+                           <p xml:lang="en">Rectangular panel with relief pediment and acroteria. Cut off at the bottom. In a rectangular inset area: male portrait in relief, 
+                              up to the waist. Below the relief is a three-line inscription cut following ruled lines.</p>
+                           <dimensions>
+                              <height unit="cm">53,0</height>
+                              <width unit="cm">37,0</width>
+                              <depth unit="cm">10,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Курсивная или прямоугольная сигма, омега в виде перевернутого мю, незначительное апицирование, знаки-разделители.</seg>
+                        <seg xml:lang="en">Cursive and rectangular sigma, omega in the shape of upside down mu, word divisions.</seg>
+                        <height unit="cm">2,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0168" notAfter="0233" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">кон. II - нач. III в. н.э.</seg>
+                        <seg xml:lang="en">end of II - early III century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1900 г.  
+                           Раскопки К.К. Косцюшко-Валюжинича (НА НЗХТ, д. 9, л. 17, № 183; д. 29, л. 4, № 183).</rs>
+                        <rs type="context">В юго-восточном районе Херсонеса, в периболе у куртины 19 оборонительной стены.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1900, excavations of K.K. Kostsyushko-Valyuzhinich (НА НЗХТ, д. 9, л. 17, № 183; д. 29, л. 4, № 183).</rs>
+                        <rs type="context">Southeast sector of Chersonesos, peribolos by Curtain Wall 19 of the fortification wall.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-13" who="SS">encoded text and metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.162">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>IV 114</citedRange></bibl>
+               <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>491</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Латышев 1902 --><ptr target="bib:b0142"/>, <citedRange>61</citedRange></bibl>
+               <bibl><!-- KW --><ptr target="bib:b0519"/> № <citedRange>482</citedRange></bibl>
+               <bibl><!-- Иванова 1941 --><ptr target="bib:b0470"/>, <citedRange>110</citedRange></bibl>
+               <bibl><!-- АСХ --><ptr target="bib:b0523"/> 116, № <citedRange>363</citedRange></bibl>
+               <bibl><!-- Соломоник 1990 --><ptr target="bib:b0506"/>, 88, № <citedRange>89</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><persName type="attested"><name>Σεβηρᾶς</name> <persName type="attested"><name>Λίλλω
+               		<lb n="2" break="no"/>νος</name></persName> <w>ὁ</w> <w>καὶ</w> <name><unclear>Λ</unclear>ίλλις</name></persName>, <w>ζή
+               		<lb n="3" break="no"/><surplus>σ<unclear>η</unclear></surplus>σας</w> <w><unclear>ἔ</unclear>τη</w> <num value="37"><w>τριάκοντα</w> 
+                                                            <g ref="#stop"/> ζ</num> <g ref="#stop"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2">
+                  <rdg source="bib:IOSPE">[Δ]ι[ᾶ]λις <note>vel fortasse</note> Λίλλις</rdg>
+                  <rdg source="bib:b0519">[Λ]ίλλις</rdg>
+               </app> 
+               <app loc="2-3">
+                  <rdg>ΖΗ/ΣΗΣΑΣ <note>lapis</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Севера, сын Лиллона, он же Лиллис, проживший 37 лет.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Severas, son of Lillon, also known as Lillis, having lived 37 years.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>3: точки-разделители</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

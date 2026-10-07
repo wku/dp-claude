@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Савага и Фаиспарты</title><title xml:lang="en">Catacomb of Sauagas and Phaïsparta</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.305</idno><idno type="PE">PE5000305</idno>
+            <idno type="AYV2012-number">byz299</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>In situ</repository>
+                      <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>In situ</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon20">Стена.</objectType>
+                           <objectType xml:lang="en">Wall.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m10">Светло-желтая глина.</material>
+                           <material xml:lang="en">Light yellow clay.</material>
+                           <p xml:lang="ru">Катакомба подквадратной формы с 3 лежанками. Небольшие утраты букв.</p>
+                           <p xml:lang="en">Catacomb of quasi-square shape with three couches in niches. Some letters have been lost.</p>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p044">
+                        <seg xml:lang="ru">Пантикапей.</seg>
+                         <seg xml:lang="en">Pantikapaion.</seg>
+                     </origPlace>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#kerch">Керчь.</placeName>
+                        <rs type="circumstances">4 августа 1890 г., раскопки Ю.А. Кулаковского.</rs>
+                        <rs type="context">Госпитальная улица, усадьба Коробки, «катакомба 491 г.»</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Kerch.</placeName>
+                        <rs type="circumstances">4 August 1890, excavations of Yu.A. Kulakovsky.</rs>
+                        <rs type="context">Gospitalnaya Street, estate of Korobka, "Catacomb of 491".</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">In situ.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">In situ.</tei:seg>
+                  </provenance>
+               </history> 
+               <msPart n="1">
+                  <msIdentifier>
+                        <idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc2 document-search.xml#doc12">
+                        <seg xml:lang="ru" n="1">Надгробная надпись.</seg>
+                        <seg xml:lang="en" n="1">Epitaph.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f2" n="1">
+                              <seg xml:lang="ru">Центральная стена левой ниши, справа от креста.</seg>
+                              <seg xml:lang="en">Central wall of the left niche, to the right of the cross.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="1">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#pictura">Дипинто</rs>.</seg>
+                           <seg xml:lang="en">Dipinto.</seg>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate n="1" notBefore="0491" notAfter="0492" evidence="указание_надписи">
+                           <seg xml:lang="ru">491–492 гг.</seg>
+                           <seg xml:lang="en">491–492 C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="2">
+                  <msIdentifier>
+                        <idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc2 document-search.xml#doc12">
+                        <seg xml:lang="ru" n="2">Литургическая надпись.</seg>
+                        <seg xml:lang="en" n="2">Liturgical inscription.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f2" n="2">
+                              <seg xml:lang="ru">Правая стена левой ниши, в углах между рукавами и под крестом.</seg>
+                              <seg xml:lang="en">Right wall of the left niche, in corners between and below the cross.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="2">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#pictura">Дипинто</rs>.</seg>
+                           <seg xml:lang="en">Dipinto.</seg>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate precision="high" n="2" notBefore="0491" notAfter="0492" evidence="указание_надписи">
+                           <seg xml:lang="ru">491–492 гг.</seg>
+                           <seg xml:lang="en">491–492 C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="3">
+                  <msIdentifier>
+                        <idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc2 document-search.xml#doc12">
+                        <seg xml:lang="ru" n="3">Литургическая надпись.</seg>
+                        <seg xml:lang="en" n="3">Liturgical inscription.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f1, f3" n="3">
+                              <seg xml:lang="ru">Левая, центральная и правая (левая половина) стены центральной ниши; левая, центральная и правая стены правой ниши. Стиль надписи:  дипинто.</seg>
+                              <seg xml:lang="en">Left, central and right (left half) wall of the central niche; left, central and right walls of the right niche. Style of the inscription: dipinto.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="3">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#pictura">Дипинто</rs>.</seg>
+                           <seg xml:lang="en">Dipinto.</seg>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate n="3" notBefore="0491" notAfter="0492" evidence="указание_надписи">
+                           <seg xml:lang="ru">491–492 гг.</seg>
+                           <seg xml:lang="en">491–492 C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="4">
+                  <msIdentifier>
+                        <idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc2 document-search.xml#doc12">
+                        <seg xml:lang="ru" n="4">Надгробная надпись.</seg>
+                        <seg xml:lang="en" n="4">Epitaph.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f1" n="4">
+                              <seg xml:lang="ru">Правая половина правой стены центральной ниши.</seg>
+                              <seg xml:lang="en">Right half of the right wall of the central niche.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="4">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#pictura">Дипинто</rs>.</seg>
+                           <seg xml:lang="en">Dipinto.</seg>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate n="4" notBefore="0491" notAfter="0492" evidence="указание_надписи">
+                           <seg xml:lang="ru">491–492 гг.</seg>
+                           <seg xml:lang="en">491–492 C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="5">
+                  <msIdentifier>
+                        <idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc2 document-search.xml#doc12">
+                        <seg xml:lang="ru" n="5">Литургическая надпись.</seg>
+                        <seg xml:lang="en" n="5">Liturgical inscription.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f6" n="5">
+                              <seg xml:lang="ru">Входная стена, над дверью.  Стиль надписи:  дипинто.</seg>
+                              <seg xml:lang="en">Wall with the entrance, above the door. Style of the inscription: dipinto.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="5">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#pictura">Дипинто</rs>.</seg>
+                           <seg xml:lang="en">Dipinto.</seg>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate n="5" notBefore="0491" notAfter="0492" evidence="указание_надписи">
+                           <seg xml:lang="ru">491–492 гг.</seg>
+                           <seg xml:lang="en">491–492 C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="6">
+                  <msIdentifier>
+                        <idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc2 document-search.xml#doc12">
+                        <seg xml:lang="ru" n="6">Надгробная надпись.</seg>
+                        <seg xml:lang="en" n="6">Epitaph.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f2, f3" n="6">
+                              <seg xml:lang="ru">Карниз над левой нишей; карниз над правой нишей.</seg>
+                              <seg xml:lang="en">Cornice above the left niche; cornice above the right niche.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="6">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#pictura">Дипинто</rs>.</seg>
+                           <seg xml:lang="en">Dipinto.</seg>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                  <origin>
+                        <origDate n="6" notBefore="0491" notAfter="0492" evidence="указание_надписи">
+                           <seg xml:lang="ru">491–492 гг.</seg>
+                           <seg xml:lang="en">491–492 C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="7">
+                  <msIdentifier>
+                        <idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc2 document-search.xml#doc12">
+                        <seg xml:lang="ru" n="7">Надгробная надпись.</seg>
+                        <seg xml:lang="en" n="7">Epitaph.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f4" n="7">
+                              <seg xml:lang="ru">Входная стена, наружная сторона, над входом слева.</seg>
+                              <seg xml:lang="en">Wall with the entrance, exterior, above the entrance on the left.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="7">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито</rs>.</seg>
+                           <seg xml:lang="en">Graffito.</seg>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate n="7" notBefore="0491" notAfter="0492" evidence="указание_надписи">
+                           <seg xml:lang="ru">491–492 гг.</seg>
+                           <seg xml:lang="en">491–492 C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="8">
+                  <msIdentifier>
+                        <idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc2 document-search.xml#doc12">
+                        <seg xml:lang="ru" n="8">Надгробная надпись.</seg>
+                        <seg xml:lang="en" n="8">Epitaph.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f1" n="8">
+                              <seg xml:lang="ru">Карниз над центральной нишей.</seg>
+                              <seg xml:lang="en">Cornice above the central niche.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="8">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#pictura">Дипинто</rs>.</seg>
+                           <seg xml:lang="en">Dipinto.</seg>
+                           <!-- <height>Неизвестно.</height>-->
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate n="8" notBefore="0491" notAfter="0492" evidence="указание_надписи">
+                           <seg xml:lang="ru">491–492 гг.</seg>
+                           <seg xml:lang="en">491–492 C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-05-22" who="CB">Corrections to msParts</change>
+         <change when="2015-05-01" who="CB">Textparts</change>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-11-07" who="TW">Added image code</change>
+          <change when="2013-05-02" who="NG">inserted Greek lemmata </change>
+          <change when="2013-03-06" who="NG">corrected Greek lemmata </change>
+          <change when="2012-09-26" who="AG">metadata, text, date corrected</change>
+          <change when="2012-08-14" who="AFS">inserted key name</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+          <change when="2012-07-25" who="AL">small corrections in metadata and bibliography</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+          <change when="2012-05-21" who="AFS">corrected metadata and tagging in greek text</change>
+          <change when="2012-04-17" who="AL">original date tagging corrected</change>
+         <change when="2012-03-13" who="AL">textpart 1 tagged, original date tagged, bibliography tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.305-1" n="1">
+                <desc xml:lang="en">Drawing of text 1</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="5.305-2" n="2">
+                <desc xml:lang="en">Photograph of text 2</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+           <graphic url="5.305-4" n="3">
+              <desc xml:lang="en">Photograph of text 3</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+           <graphic url="5.305-3" n="3">
+              <desc xml:lang="en">Photograph of text 3</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+           <graphic url="5.305" n="3">
+              <desc xml:lang="en">Photograph of text 3</desc>
+                <desc xml:lang="ru"/>
+           </graphic>
+           <graphic url="5.305-7" n="4">
+              <desc xml:lang="en">Drawing of text 4</desc>
+              <desc xml:lang="ru"/>
+           </graphic>
+           <graphic url="5.305-5" n="5">
+              <desc xml:lang="en">Photograph of text 5</desc>
+              <desc xml:lang="ru"/>
+           </graphic>
+           <graphic url="5.305-6" n="5">
+              <desc xml:lang="en">Photograph of text 5</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+       </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl n="1">
+               <bibl n="L1"><!-- Кулаковский 1891b--><ptr target="bib:b0108"/>,  № <citedRange>1</citedRange></bibl>
+               <bibl n="1.1"><!-- Kulakowsky 1894--><ptr target="bib:b0323"/>,  № <citedRange>1</citedRange></bibl>
+               <bibl n="1.2"><!-- Сборник --><ptr target="bib:b0132"/>, 85–86, № <citedRange>77</citedRange></bibl>
+               <bibl n="1.3"><!-- Виноградов 1998--><ptr target="bib:b0057"/>, 240, № <citedRange>5</citedRange></bibl>
+                <bibl n="1.3.1"><!-- SEG --><ptr target="bib:SEG"/>  <citedRange>48, 996</citedRange></bibl>
+               <bibl n="1.4"><!-- Vinogradov 2007 --><ptr target="bib:b0376"/>, 259, № <citedRange>5.1</citedRange></bibl>
+            </listBibl>
+            <listBibl n="2">
+               <bibl n="L1"><!-- Кулаковский 1891b--><ptr target="bib:b0108"/>, № <citedRange>2</citedRange></bibl>
+               <bibl n="1.1"><!-- Kulakowsky 1894--><ptr target="bib:b0323"/>, № <citedRange>2</citedRange></bibl>
+               <bibl n="1.2"><!-- Сборник --><ptr target="bib:b0132"/>, 85–86, № <citedRange>78</citedRange></bibl>
+               <bibl n="1.3"><!-- Vinogradov 2007 --><ptr target="bib:b0376"/>, 259, № <citedRange>5.2.</citedRange></bibl>
+            </listBibl>
+            <listBibl n="3">
+               <bibl n="L1"><!-- Кулаковский 1891b--><ptr target="bib:b0108"/>, № <citedRange>3</citedRange>, <citedRange>5</citedRange></bibl>
+               <bibl n="1.1"><!-- Kulakowsky 1894--><ptr target="bib:b0323"/>, № <citedRange>3</citedRange>, <citedRange>5</citedRange></bibl>
+               <bibl n="1.2"><!-- Сборник --><ptr target="bib:b0132"/>, 85–86, № <citedRange>79</citedRange>, <citedRange>81</citedRange></bibl>
+               <bibl n="1.3"><!-- Vinogradov 2007 --><ptr target="bib:b0376"/>, 259, № <citedRange>5.3, 5.5</citedRange></bibl>
+            </listBibl>
+            <listBibl n="4">
+               <bibl n="L1"><!-- Кулаковский 1891b--><ptr target="bib:b0108"/>, № <citedRange>4</citedRange></bibl>
+               <bibl n="1.1"><!-- Kulakowsky 1894--><ptr target="bib:b0323"/>, № <citedRange>4</citedRange></bibl>
+               <bibl n="1.2"><!-- Сборник --><ptr target="bib:b0132"/>, 85–86, № <citedRange>80</citedRange></bibl>
+               <bibl n="1.3"><!-- Виноградов 1998--><ptr target="bib:b0057"/>, 240, № <citedRange>5</citedRange></bibl>
+                <bibl n="1.3.1"><!-- SEG --><ptr target="bib:SEG"/> <citedRange>48, 996</citedRange></bibl>
+               <bibl n="1.4"><!-- Vinogradov 2007 --><ptr target="bib:b0376"/>, 259, № <citedRange>5.4.</citedRange></bibl>
+            </listBibl>
+            <listBibl n="5">
+               <bibl n="L1"><!-- Кулаковский 1891b--><ptr target="bib:b0108"/>, 4–23, табл. <citedRange>II–IV, В</citedRange></bibl>
+               <bibl n="1.1"><!-- Kulakowsky 1894--><ptr target="bib:b0323"/>, <citedRange>49–87</citedRange>, <citedRange>309–327</citedRange></bibl>
+               <bibl n="1.2"><!-- Сборник --><ptr target="bib:b0132"/>, 85–86, № <citedRange>77–83</citedRange></bibl>
+               <bibl n="1.3"><!--  Vinogradov 2007--><ptr target="bib:b0376"/>, 259, № <citedRange>5.6.</citedRange></bibl>
+            </listBibl>
+            <listBibl n="6">
+               <bibl n="L1"><!-- Кулаковский 1891b--><ptr target="bib:b0108"/>, № <citedRange>7–8</citedRange></bibl>
+               <bibl n="1.1"><!-- Kulakowsky 1894--><ptr target="bib:b0323"/>, № <citedRange>7–8</citedRange></bibl>
+               <bibl n="1.2"><!-- Сборник --><ptr target="bib:b0132"/>, 85–86, № <citedRange>82</citedRange></bibl>
+               <bibl n="1.3"><!--  Vinogradov 2007--><ptr target="bib:b0376"/>, 259, № <citedRange>5.7–8</citedRange></bibl>
+            </listBibl>
+            <listBibl n="7">
+               <bibl n="L1"><!-- Кулаковский 1891b--><ptr target="bib:b0108"/>, № <citedRange>10</citedRange></bibl>
+               <bibl n="1.1"><!-- Kulakowsky 1894--><ptr target="bib:b0323"/>, № <citedRange>10</citedRange></bibl>
+               <bibl n="1.2"><!-- Сборник --><ptr target="bib:b0132"/>, 85–86, № <citedRange>83</citedRange></bibl>
+               <bibl n="1.3"><!-- Vinogradov 2007 --><ptr target="bib:b0376"/>, 259, № <citedRange>5.9</citedRange></bibl>
+            </listBibl>
+            <listBibl n="8">
+               <bibl n="L1"><!-- Кулаковский 1891b--><ptr target="bib:b0108"/>,  № <citedRange>8</citedRange></bibl>
+               <bibl n="1.1"><!-- Kulakowsky 1894--><ptr target="bib:b0323"/>,  № <citedRange>8</citedRange></bibl>
+               <bibl n="1.2"><!-- Vinogradov 2007 --><ptr target="bib:b0376"/>,  259, № <citedRange>5.10</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="apparatus" n="7">
+             <listApp>
+               <app loc="1"><rdg source="bib:b0108 bib:b0323 bib:b0132">Κ(ύρι)ε [εἰσάκουσον τῆς εὐ]χῆς μου</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <div type="textpart" n="1">
+               <p>В 788 году.</p>
+            </div>
+            <div type="textpart" n="2">
+               <p>Альфа, омега. Настала радость велия / сегодня дому этому: / ведь святые сюда прибывают, /
+                  с ними праведные ликуют, / воспевают же все Тебя: / помилуй.</p>
+            </div>
+            <div type="textpart" n="3">
+               <p>Живый в помощи Вышнего, в крове Бога небесного водворится. Речет Господеви,
+                   Заступник мой еси и Прибежище мое, Бог мой, Помощник мой, и уповаю на Него.
+                   Яко Той избавит от сети ловчи, от словесе мятежна. Плещма Своими осенит тя, и под криле
+                   Его надеешися; оружием обыдет тя истина Его. Не убоишися от страха ночнаго, от стрелы,
+                   летящия во дни, от вещи, во тьме преходящия, от сряща и беса полуденного.
+                   Падет от страны твоея тысяща и тьма одесную тебе, к тебе же не приближится.
+                   Обаче очима твоима смотриши и воздаяние грешников узриши. Яко Ты, Господи, упование мое,
+                   вышнего положил еси прибежище Твое. Не прийдет к тебе зло, и рана не приближится телеси Твоему.
+                   Яко ангелом своим заповесть о Тебе сохранити Тя во всех путех Твоих.
+                   На руках возьмут Тя, да не когда преткнеши о камень ногу Твою.
+               На аспида и василиска наступиши и попереши льва и змия. Яко на Мя упова, и избавлю и;
+               покрыю и, яко позна имя мое. Воззовет ко Мне, и услышу его; с ним есмь в скорби, изму его и прославлю его;
+               долготою дний исполню его и явлю ему спасение Мое.</p>
+            </div>
+            <div type="textpart" n="4">
+               <p>Святый Боже, Святый Крепкий, Cвятый Безсмертный, помилуй раба Твоего Савага и Фаиспарту.</p>
+            </div>
+            <div type="textpart" n="5">
+               <p>Господь сохранит тя от всякого зла, сохранит душу твою Господь;
+                  Господь сохранит вхождение твое и исхождение твое от ныне и до века.</p>
+            </div>
+            <div type="textpart" n="6">
+               <p>Господь просвещение мое и спаситель мой; кого убоюся?
+               Господь защитетель живота моего; кого устрашуся?</p>
+            </div>
+            <div type="textpart" n="7">
+               <p>Господь заступник души моея.</p>
+            </div>
+            <div type="textpart" n="8">
+               <p>Альфа, бета, гамма, дельта. Альфа, бета, гамма, дельта, эпсилон, дзета.</p>
+            </div>
+         </div>
+         <div type="translation" xml:lang="en">
+            <div type="textpart" n="1">
+               <p>In the year 788.</p>
+            </div>
+            <div type="textpart" n="2">
+               <p>Alpha, omega. A great joy happened in this house today, for the saints arrived, and the righteous rejoice, and everyone sings hymns to you:
+               have mercy.</p>
+            </div>
+            <div type="textpart" n="3">
+               <p> He that dwells in the help of the Highest, shall sojourn under the shelter of the God of heaven. He shall say to the Lord, Thou art my helper
+                  and my refuge: my God; I will hope in him. For he shall deliver thee from the snare of the hunters, from every troublesome matter. He shall
+                  overshadow thee with his shoulders, and thou shalt trust under his wings: his truth shall cover thee with a shield. Thou shalt not be afraid of
+                  terror by night; nor of the arrow flying by day; nor of the evil thing that walks in darkness; nor of calamity, and the evil spirit at noon-day.
+                  A thousand shall fall at thy side, and ten thousand at thy right hand; but it shall not come nigh thee. Only with thine eyes shalt thou observe
+                  and see the reward of sinners.
+                  For thou, O Lord, art my hope: thou, my soul, hast made the Most High thy refuge. No evils shall come upon thee, and no scourge shall draw
+                  night to thy dwelling. For he shall give his angels charge concerning thee, to keep thee in all thy ways. They shall bear thee up on their hands,
+                  lest at any time thou dash thy foot against a stone. Thou shalt tread on the asp and basilisk: and thou shalt trample on the lion and dragon.
+                  For he has hoped in me, and I will deliver him: I will protect him, because he has known my name. He shall call upon me, and I will hearken to him:
+                  I am with him in affliction; and I will deliver him, and glorify him. I will satisfy him with length of days, and shew him my salvation.</p>
+            </div>
+            <div type="textpart" n="4">
+               <p>Holy God, Holy Mighty, Holy Immortal, have mercy for your servants Sauagas and Phaïsparta.</p>
+            </div>
+            <div type="textpart" n="5">
+               <p>Lord shall safeguard you from every evil, shall protect your soul, the Lord. Lord shall safeguard your coming and your going, from now and forever.</p>
+            </div>
+            <div type="textpart" n="6">
+               <p>Lord is my illumination and my salvation. Whom shall I fear? Lord is the protector of my life. Whom shall I dread?</p>
+            </div>
+            <div type="textpart" n="7">
+               <p>Lord is the protector of my soul.</p>
+            </div>
+            <div type="textpart" n="8">
+               <p>Alpha, beta, gamma, delta. Alpha, beta, gamma, delta, epsilon, zeta.</p>
+            </div>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <div type="textpart" n="1">
+               <p> Относительно обстоятельств находки и устройства катакомбы см. подр. в: Кулаковский 1891, 1–3. Публикуемые фотографии хранятся
+                  в ФА ИИМК РАН (Q.550.1, Q.759.74–5; I–90982–3, 27125–7).</p>
+               
+               <p> Относительно формулы датировки ср. <ref type="inscription">V 342</ref><!--byz318--> — владельческую надпись того же Савага.</p>
+            </div>
+            <div type="textpart" n="2">
+               <p> 1. Относительно формулы см. <ref type="introduction">IV.3.C.d</ref>.</p>
+                <p>2–9. Это неизвестная из других источников молитва (подр. анализ см. в: Кулаковский 1891b, 12–13).  </p>
+            </div>
+            <div type="textpart" n="3">
+               <p>Пс 90 (в еврейской Библии — 91) разделен на две части: стихи 1–12 и 13–16. Пс 90 цитируется в христианских надписях в разном объеме:
+                  от одного 1 стиха (IGLS 1488, Апамена, 473 г.) до полного текста (см. Feissel 1984, 571–579). О связи Пс 90 с Трисвятым (Текст 4) см.
+                  Heinen 1982, 679–681.</p>
+            </div>
+            <div type="textpart" n="4">
+               <p> Это расширенный вариант Трисвятого. Последнее засвидетельствовано в эпиграфике в 3 формах: в канонической
+                  (Grégoire 1929, № 114 (Эфес, V в.) = Ephesos, № 1359 (Милет, 538 г., строительная), Ephesos 1369; IGLS II 317A (Халкидика, 563–4 г.), 357
+                  (Антиохена, 573 г.), 1474 (Апамена), 2529 (Эмесена)), теопасхитской — с  добавленными антиохийским патриархом Петром Фуллоном словами
+                  σταυρωθεὶς δι᾿ ἡμᾶς перед ἐλέησον (известна только в Сирии и Египте: IGLS II, № 289 (Халкидика, 546–7 г.), 357 (Антиохена, 573 г.), 500 (Антиохена, 592 г.),
+                  633 (Антиохена), 1726 (Апамена, 563 г.), 1847 (Апамена); Sammelbuch 7564) и компромиссной (с заменой σταυρωθεὶς на ὑπαχθείς: IGLS V  2528
+                  (Эмесена)). В надписях представлен и сокращенные варианты: без «помилуй нас» (IGLS I 338) и просто ἅγιος ὁ θεός (Bandy 1970, № 24 (VI в.?),
+                  52 (VI–VIII вв.), Feissel 1983, № 281 (V–VI вв., надгробие)). Аналогий нашему варианту (с прибавлением имен усопших вместо ἡμᾶς) обнаружить не удалось.
+                  Возможно, что эта инновация связана с погребальным характером надписи, так как все остальные случаи употребления Трисвятого связаны с
+                  посвящениями зданий (за исключением упомянутой надписи из Македонии с сокращенной формулой). Характерно, что теопасхитский вариант
+                  засвидетельствован эпиграфически только с сер. VI в., т.е. на полстолетия позже катакомбы Савага.  </p>
+                <p> Имя Фаиспарты, как показывает формула, дописано позже. <!--Относительно имен см. прил. 1.--></p>
+            </div>
+            <div type="textpart" n="5">
+               <p>Пс 120, 7–8. Пс 120, 8 в христианской эпиграфике чаще всего пишется в связи со входом в храм (например, LBW V  1814c; 22 раза в IGLS).
+                  Вместе стихи 7–8 (стих 7 отдельно не встречается) нам известны только в 2 малоазийских надписях: MAMA VIII  256 (Ликаония) и SEG 12.458
+                  (Текир в Карии). </p>
+            </div>
+            <div type="textpart" n="6">
+               <p>Пс 26, 1–2 вместе встречаются только в MAMA VI 385 (Примнесс во Фригии). В богослужении они используются как прокимен при освящении воды и в
+                  некоторых других чинах.</p>
+            </div>
+            <div type="textpart" n="7">
+               <p>Надпись опубликована без изображения. Пс 53, 6 в эпиграфике неизвестен, но по смыслу лучше подходит к надписи 6.</p>
+
+            </div>
+            <div type="textpart" n="8">
+               <p>Надпись опубликована без изображения.</p>
+               <p> Скорее всего, это упражнение писца. Начало алфавита засвидетельствовано несколькими христианскими надписями (см., напр., Grégoire 1929, № 227
+                  (Латмос: Α-Η), ICUR 7268 (катакомба Домициллы, Α-Ι)). Впрочем, алфавит может иметь здесь и символический смысл (см. Dornseiff 1925).</p>
+                <p>Палеография и орфография надписи подробно разобрана в: Кулаковский 1891, 14–16). Относительно исторического контекста см.
+                   Виноградов 1998, 233–247.</p>
+            </div>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <div type="textpart" n="1">
+               <p>On the circumstances of find and the design of the catacomb, see in detail: Kulakovsky 1891, 1–3. The photographs published here are preserved at 
+                  the Photo Archive of the Institute for History of Material Culture, Russian Academy of Sciences (Q.550.1, Q.759.74–5; I–90982–3, 27125–7).</p>
+               
+               <p>On the dating formula, compare <ref type="inscription">V 342</ref><!--byz318--> — the ownership inscription of the same Sauagas.</p>
+                           </div>
+            <div type="textpart" n="2">
+               <p>1. On the formula, see Introduction <ref type="introduction">IV.3.C.d</ref>.</p>
+               <p>2–9. This prayer is not otherwise attested (detailed analysis in Kulakovsky 1891, 12–13).</p>
+            </div>
+            <div type="textpart" n="3">
+               <p>Ps 90 (in the Hebrew Bible — 91) is divided into two parts: verses 1–12 and 13–16. In Christian inscriptions, varying numners of verses from Ps 90 are cited:
+                 from one verse (IGLS 1488 (Apamea, 473 C.E.)) to the full text (see Feissel 1984, 571–579). On the connection of Ps 90 with the threefold invocation of 
+                 the Holy one (Text 4), see Heinen 1982, 679–681.</p>            
+            </div>
+            <div type="textpart" n="4">
+               <p>This is an extended version of Triagion - a threefold invocation of the Holy One. The latter is epigraphically attested in 3 forms: (a) canonical
+                  (Grégoire 1929, № 114 (Ephesos, Vth century) = Ephesos, № 1359 (Miletos, 538 C.E., building), Ephesos 1369; IGLS II 317A (Chalkidiki, 563–4 C.E.), 357
+                  (Antiochaea, 573 C.E.), 1474 (Apamea), 2529 (Emesena)), (b) theopashite — with words σταυρωθεὶς δι᾿ ἡμᾶς before ἐλέησον 
+                  added by the Antiochaean patriarch Peter Fullo (attested only in Syria and Egypt: IGLS II 289 (Chalkidiki, 546–7 C.E.), 357 (Antiochaea, 573 C.E.), 500 
+                  (Antiochaea, 592 C.E.), 633 (Antiochaea), 1726 (Apamea, 563 г.), 1847 (Apamea); Sammelbuch 7564)) and (c) compromise (where σταυρωθεὶς is replaced with ὑπαχθείς: IGLS V 2528
+                  (Emesena). Abbreviated variants are also known in inscriptions: without "have mercy for us" (IGLS I 338) and also simply ἅγιος ὁ θεός (Bandy 1970, № 24 (VIth century?),
+                  52 (VI–VIIIth century), Feissel 1983, № 281 (V–VIth century, tombstone)). I was not able to find an exact parallel for the usage of our text: where personal names
+                  of the deceased replace ἡμᾶς. It is possible that the innovation has to do with the funerary nature of the inscription, since all other instances of the 
+                  threefold invocation are in dedications of buidings (except the inscription from Macedonia, where the formula is abbreviated).
+                  It is noteworthy that the theopashite version is attested for the first time in the mid-VIth century, that is, half a century later than in the catacomb of Sauagas.</p>
+               <p>The name Phaïsparta (here Phaeisparta), as the formula shows, was added later.<!--Относительно имен см. прил. 1.--></p>
+                           </div>
+            <div type="textpart" n="5">
+               <p>Ps 120, 7–8. In Christian epigraphy, Ps 120, 8 is most often inscribed next to a church entrance (e.g., LBW V 1814c; 22 times in IGLS).
+                  Verses 7-8 together (verse 7 is not attested alone) are known to us only from two inscriptions in Asia Minor: MAMA VIII 256 (Lykaonia) and 
+                  SEG 12.458 (Tekir in Caria). </p>
+            </div>
+            <div type="textpart" n="6">
+               <p>Ps 26, 1–2 is attested only in MAMA VI 385 (Premnessos in Phrygia). In liturgy, it is used as a prokeimenon at the blessing of water 
+                  and in some other rites.</p>
+            </div>
+            <div type="textpart" n="7">
+               <p>The inscription was published without an image. Ps 53, 6 is not attested epigraphically, but semantically it goes better with Text 6.</p>
+            </div>
+            <div type="textpart" n="8">
+               <p>The inscription was published withhout an image.</p>
+               <p>Most likely, these are scribal excercises. The beginning of an alphabet is attested in several Christian inscriptions (see, e.g., Grégoire 1929, № 227
+                  (Latmos: Α-Η), ICUR 7268 (catacmb of Domicilla, Α-Ι)). At the same time, the alphabet here could be used symbolically (see Dornseiff 1925).</p>
+               <p>The palaeography and orthography are discussed in detail by Kylakovsky 1891, 14–16. On the historical context, see Vinogradov 1998, 233–247.</p>
+            </div>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="inscription" n="1">
+               <ab>
+                  <lb n="1"/><w lemma="ἐν">Ἐν</w> <w lemma="ὁ">τῷ</w> <w lemma="ἔτος">ἔτι</w>
+                  <lb n="2"/><num value="788">ηπψ</num>.
+               </ab>
+            </div>
+            <div type="textpart" subtype="inscription" n="2">
+               <ab>
+                  <lb n="1"/><w lemma="ἄλφα">Α</w> <w lemma="ὠμέγα">Ω</w>.
+               </ab>
+               <lg>
+                  <l>
+                  <lb n="2"/><w lemma="χαρά">Χαρὰ</w> <w lemma="μέγας">μεγάλη</w>
+                     <w lemma="γίγνομαι">γέ
+                 <lb n="3" break="no"/>γονεν</w> </l> <l> <w lemma="ὁ">τῷ</w> <w lemma="οἶκος">οἴκῳ</w> <w lemma="οὗτος">τού<lb n="4" break="no"/>τῳ</w>
+                    <w lemma="σήμερον">σήμερον</w>, </l>
+                  <l><w lemma="ὁ">τ<lb n="5" break="no"/>ῶν</w> <w lemma="ἅγιος">ἁγίω<supplied reason="omitted">ν</supplied></w>
+                     <w lemma="παραγίγνομαι">παρα<lb n="6" break="no"/>γενομένων</w>, </l>
+                  <l><w lemma="ὁ">τῶν</w>
+                  <lb n="7"/><w lemma="δίκαιος">δικέων</w> <w lemma="συνάλλομαι">συναλομέ<lb n="8" break="no"/>νων</w> </l>
+                  <l> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῶν</w> <w lemma="πᾶς"><expan><abbr>πάντω</abbr><lb n="9" break="no"/><ex>ν</ex></expan></w>
+                     <w lemma="ὑμνέω">ὑμνούτων</w> <w lemma="σύ">σέ</w>· </l>
+                  <l><w lemma="ἐλεέω"><expan><abbr>ἐλέ</abbr><ex>η</ex><abbr>σ</abbr><ex>ον</ex></expan></w>.</l>
+               </lg>
+            </div>
+            <div type="textpart" subtype="inscription" n="3">
+               <ab>
+                  <lb n="1"/><w lemma="ὁ">Ὁ</w> <w lemma="κατοικέω">κατοικῶν</w> <w lemma="ἐν">ἐν</w>
+                      <w lemma="βοήθεια">βοηθίᾳ</w> <w lemma="ὁ">τοῦ</w> <w lemma="ὕψιστος">ὑψίστου</w>
+                      <w lemma="ἐν">ἐν</w> <w lemma="σκέπη">σκέπῃ</w> <w lemma="ὁ">τοῦ</w> <persName type="divine" key="theos"><roleName><w lemma="θεός">θεοῦ</w></roleName></persName>
+                      <w lemma="ὁ">τοῦ</w> <w lemma="οὐρανός">οὐρανοῦ</w> <w lemma="αὐλίζομαι">αὐλισθήσεται</w>.
+                      <w lemma="λέγω">Ἐρεῖ</w> <w lemma="ὁ">τῷ</w> <w lemma="κύριος">κυρίῳ</w>·
+                      <w lemma="ἀντιλήπτωρ">Ἀντιλήμπτωρ</w>
+                  <lb n="2"/><w lemma="ἐγώ">μου</w> <w lemma="εἰμί">εἶ</w> <w lemma="καί">καὶ</w>
+                        <w lemma="καταφυγή">καταφυγή</w> <w lemma="ἐγώ">μου</w>, <w lemma="ὁ">ὁ</w> <persName type="divine" key="theos"><roleName><w lemma="θεός">θεός</w></roleName></persName>
+                        <w lemma="ἐγώ">μου</w>, <w lemma="βοηθέω">βοηθός</w> <w lemma="ἐγώ">μου</w>, <w lemma="καί">καὶ</w>
+                        <w lemma="ἐλπίζω">ἐλπιῶ</w> <w lemma="ἐπί">ἐπ᾿</w> <w lemma="αὐτός">αὐτόν</w>,
+                        <w lemma="ὅτι">ὅτι</w> <w lemma="αὐτός">αὐτὸς</w> <w lemma="ῥύομαι">ῥύσεται</w> <w lemma="ἐκ">ἐκ</w>
+                        <w lemma="παγίς">παγίδος</w> <w lemma="θηρευτός">θηρευ
+                <lb n="3" break="no"/>τῶν</w>, <w lemma="ἀπό">ἀπὸ</w> <w lemma="λόγος">λόγου</w> <w lemma="ταραχώδης">ταραχόδους</w>.
+                      <w lemma="ἐν">Ἐν</w> <w lemma="ὁ">τοῖς</w> <w lemma="μετάφρενον">μεταφρένοις</w>
+                      <w lemma="αὐτός">αὐτοῦ</w> <w lemma="ἐπισκίασις">ἐπισκιάσι</w> <w lemma="σύ">σοι</w>,
+                      <w lemma="καί">καὶ</w> <w lemma="ὑπό">ὑπὸ</w> <w lemma="ὁ">τὰς</w> <w lemma="πτέρυξ">πτέρυγας</w>
+                      <w lemma="αὐτός">αὐτοῦ</w> <w lemma="ἐλπίζω">ἐλπιεῖς</w>·
+                  <lb n="4"/><w lemma="ὅπλον">ὅπλῳ</w> <w lemma="κύκλωσις">κυκλώσι</w> <w lemma="σύ">σαι</w>
+                        <surplus>σε</surplus> <w lemma="ὁ">ἡ</w> <w lemma="ἀλήθεια">ἀλήθια</w> <w lemma="αὐτός">αὐτοῦ</w>.
+                        <w lemma="οὐ">Οὐ</w> <w lemma="φοβέω">φοβηθήσει</w> <w lemma="ἀπό">ἀπὸ</w>
+                        <w lemma="φόβος">φόβου</w> <w lemma="νυκτερινός">νυκτερινοῦ</w>, <w lemma="ἀπό">ἀπὸ</w>
+                        <w lemma="βέλος">βέλους</w> <w lemma="πέτομαι">πετομένου</w><surplus>ς</surplus>
+                        <w lemma="ἡμέρα">ἡμέρας</w>,
+                  <lb n="5"/><w lemma="ἀπό">ἀπὸ</w> <w lemma="πρᾶγμα">πρά<supplied reason="lost">γμα</supplied>τος</w>
+                        <w lemma="ἐν">ἐν</w> <w lemma="σκότος">σκότι</w>
+                       <w lemma="διαπορεύω">διαπορευομένου</w>, <w lemma="ἀπό">ἀπὸ</w>
+                       <w lemma="σύμπτωμα">συνπτώματος</w> <w lemma="καί">καὶ</w> <w lemma="δαιμόνιος">δημονίου</w>
+                       <w lemma="μεσημβρινός">μεσεμβρινοῦ</w>.  <w lemma="πίπτω">Πεσῖται</w>
+                       <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τοῦ</w> <w lemma="κλῖτος">κλίτου</w> <w lemma="σύ">σου</w>
+                       <w lemma="χιλιάς">χιλιὰς</w> <w lemma="καί">καὶ</w> <w lemma="μυριάς">μυριὰς</w>
+                  <lb n="6"/><w lemma="ἐκ">ἐκ</w> <w lemma="δεξιός">δεξιο͂ν</w> <w lemma="σύ">σου</w>,
+                        <w lemma="πρός">πρὸς</w> <w lemma="σύ">σὲ</w> <w lemma="δέ">δὲ</w> <w lemma="οὐ">οὐκ</w>
+                        <w lemma="ἐγγίζω">ἐνγιεῖ</w>· <w lemma="πλήν">πλὴν</w> <w lemma="ὁ">τοῖς</w>
+                        <w lemma="ὀφθαλμός">ὀφθαλμοῖς</w> <w lemma="σύ">σου</w> <w lemma="κατάνησις">κατανήσις</w>
+                        <w lemma="καί">καὶ</w> <w lemma="ἀνταπόδοσις">ἀνταπόδοσιν</w> <w lemma="ἁμαρτωλός">ἁμαρτολῶν</w>
+                        <w lemma="ὁράω">ὄψε</w>. <w lemma="ὅτι">Ὅτι</w> <w lemma="σύ">σύ</w>, <w lemma="κύριος">κύριε</w>,
+                        <w lemma="ὁ">ἡ</w> <w lemma="ἐλπίς">ἐλ
+                  <lb n="7" break="no"/>πίς</w> <w lemma="ἐγώ">μου</w>· <w lemma="ὁ">τὸ</w>
+                        <w lemma="ὕψιστος">ὕψιστον</w> <w lemma="ἔθος">ἔθου</w> <w lemma="καταφυγή">καταφυγή</w>
+                        <w lemma="σύ">σου</w>. <w lemma="οὐ">Οὐ</w> <w lemma="προσέρχομαι">προσελεύσεται</w>
+                        <w lemma="πρός">πρὸς</w> <w lemma="σύ">σὲ</w> <w lemma="κακόν">κακά</w>, <w lemma="καί">καὶ</w>
+                        <w lemma="μάστιξ">μάστιξ</w> <w lemma="οὐ">οὐκ</w> <w lemma="ἐγγίζω">ἐνγιεῖ</w>
+                        <w lemma="ὁ">τῷ</w> <w lemma="σκήνωμα">σκηνώματί</w> <w lemma="σύ">σου</w>,
+                        <w lemma="ὅτι">ὅτι</w>
+                  <lb n="8"/><w lemma="ὁ">τοῖς</w> <w lemma="ἄγγελος">ἀνγέλοις</w> <w lemma="αὐτός">αὐτοῦ</w>
+                        <w lemma="ἐντέλλω">ἐντελῖται</w> <w lemma="περί">περὶ</w><w lemma="σύ"> σοῦ</w> <w lemma="ὁ">τοῦ</w>
+                        <w lemma="διαφυλάσσω">διαφυλάξαι</w> <w lemma="σύ">σε</w> <w lemma="ἐν">ἐν</w>
+                        <w lemma="πᾶς">πᾶσιν</w> <w lemma="ὁ">ταῖς</w> <w lemma="ὁδός">ὁδοῖς</w>
+                        <w lemma="σύ">σου</w>· <w lemma="ἐπί">ἐπὶ</w> <w lemma="χείρ">χιρῶν</w>
+                  <lb n="9"/><w lemma="αἴρω">ἀροῦσίν</w> <w lemma="σύ">σε</w>, <w lemma="μήποτε">μέποτε</w> <w lemma="προσκόπτω">προσκόψῃς</w>
+                        <w lemma="πρός">πρὸς</w> <w lemma="λίθος">λίθον</w> <w lemma="ὁ">τὸν</w> <w lemma="πούς">πόδα</w>
+                        <w lemma="σύ">σου</w>.
+                  <lb n="10"/><w lemma="ἐπί">Ἐπ᾿</w> <w lemma="ἀσπίς">ἀσπίδα</w> <w lemma="καί">καὶ</w>
+                         <w lemma="βασιλίσκος"> βασιλίσκον</w> <w lemma="ἐπιβαίνω">ἐπιβήσει</w> <w lemma="καί">καὶ</w>
+                         <w lemma="καταπάτησις">καταπατήσεις</w> <w lemma="λέων">λέοντα</w> <w lemma="καί">καὶ</w>
+                         <w lemma="δράκων">δράκοντα</w>. <w lemma="ὅτι">Ὅτι</w> <w lemma="ἐπί">ἐπ᾿</w> <w lemma="ἐγώ">ἐμὲ</w>
+                         <w lemma="ἐλπίζω">ἤλπισεν</w>, <w lemma="καί">καὶ</w> <w lemma="ῥύομαι">ῥύσομαι</w>
+                  <lb n="11"/><w lemma="αὐτός">αὐτόν</w>· <w lemma="σκεπάζω">σκεπάσω</w> <w lemma="αὐτός">αὐτόν</w>,
+                        <w lemma="ὅτι">ὅτι</w> <w lemma="γιγνώσκω">ἔγνω</w> <w lemma="ὁ">τὸ</w> <w lemma="ὄνομα">ὄνομά</w>
+                        <w lemma="ἐγώ">μου</w>.  <w lemma="κράζω">καικράξεται</w> <w lemma="πρός">πρὸς</w> <w lemma="ἐγώ">μέ</w>,
+                        <w lemma="καί">καὶ</w> <w lemma="ἐπακούω">ἐπακούσομε</w> <w lemma="αὐτός">αὐτοῦ</w>, <w lemma="μετά">μετ᾿</w>
+                        <w lemma="αὐτός">αὐτοῦ</w> <w lemma="εἰμί">εἰμι</w> <w lemma="ἐν">ἐν</w>
+                        <w lemma="θλῖψις">θλίψι</w>, <w lemma="ἐξαιρέω">ἐξελοῦμε</w> <w lemma="καί">καὶ</w> <w lemma="δοξάζω">δοξάσω</w>
+                        <w lemma="αὐτός">αὐτόν</w>. <w lemma="μακρότης">Μακρότητα</w> <w lemma="ἡμέρα">ἡμερῶν</w>
+                        <w lemma="ἐμπίμπλημι">ἐνπλήσω</w> <w lemma="αὐτός">αὐτὸν</w> <w lemma="καί">καὶ</w>
+                        <w lemma="δείκνυμι">δίξω</w> <w lemma="αὐτός">αὐτὸν</w> <w lemma="ὁ">τὸ</w> <w lemma="σωτήριος">σωτήριόν</w>
+                        <w lemma="ἐγώ">μου</w>.
+                  <!--Orig.: 5: ΠΡΑΤΟΣ.--> <!--to be checked-->
+               </ab>
+            </div>
+            <div type="textpart" subtype="inscription" n="4">
+               <ab>
+                  <lb n="1"/><w lemma="ἅγιος">Ἅγιος</w> <w lemma="ὁ">ὁ</w> <persName type="divine" key="theos"><roleName><w lemma="θεός">θεός</w></roleName></persName>,
+                  <lb n="2"/><w lemma="ἅγιος">ἅγι<surplus>ει</surplus>ος</w> <w lemma="ἰσχυρός">εἰσχυρός</w>,
+                  <lb n="3"/><w lemma="ἅγιος">ἅγι<surplus>ει</surplus>ος</w> <w lemma="ἀθάνατος">ἀθάνα<lb n="4" break="no"/>τος</w>, <w lemma="ἐλεέω">ἐλέησον</w>
+                  <lb n="5"/><w lemma="ὁ">τὸν</w> <w lemma="δοῦλος">δοῦλόν</w> <w lemma="σύ">σου</w>
+                  <lb n="6"/><persName type="attested" ref="#person325"><name nymRef="Σαυαγας">Σαυαγαν</name></persName>
+                  <lb n="7"/><w lemma="καί">καὶ</w> <persName type="attested" ref="#person386"><name nymRef="Φαϊσπάρτα">Φαεισπαρταν</name></persName>.
+               </ab>
+            </div>
+            <div type="textpart" subtype="inscription" n="5">
+               <ab>
+                  <lb n="1"/><persName type="divine" key="theos"><roleName><w lemma="κύριος">Κύριος</w></roleName></persName> <w lemma="φυλάττω">φυλάξι</w> <w lemma="σύ">σε</w> <w lemma="ἀπό">ἀπὸ</w> <w lemma="πᾶς">πα<supplied reason="lost">ν</supplied>τὸς</w>
+                  <lb n="2"/><w lemma="κακός">κακοῦ</w>, <w lemma="φυλάττω">φυλάξι</w> <w lemma="ὁ">τὴν</w> <w lemma="ψυχή">ψυχήν</w> <w lemma="σύ">σου</w>
+                  <lb n="3"/><w lemma="ὁ">ὁ</w> <w lemma="κύριος">κύρ<supplied reason="lost">ι</supplied>ος</w>. <persName type="divine" key="theos"><roleName><w lemma="κύριος">Κύριος</w></roleName></persName> <w lemma="φυλάττω">φυλά<supplied reason="lost">ξει</supplied></w> <w lemma="ὁ">τὴν</w> <w lemma="εἴσοδος">εἴσοδόν</w> <w lemma="σύ">σου</w>
+                  <lb n="4"/><w lemma="καί">καὶ</w> <w lemma="ὁ">τὴν</w> <w lemma="ἔξοδος">ἔξοδόν</w> <w lemma="σύ">σου</w>
+                  <lb n="5"/><w lemma="ἀπό">ἀπὸ</w> <w lemma="ὁ">τοῦ</w> <w lemma="νῦν">νῦν</w> <w lemma="καί">καὶ</w> <w lemma="ἕως">αἵος</w> <w lemma="ὁ">τοῦ</w> <w lemma="αἰών">αἰ<lb n="6" break="no"/>ῶνος</w>.
+               </ab>
+            </div>
+            <div type="textpart" subtype="inscription" n="6">
+               <ab>
+                  <lb n="1"/><persName type="divine" key="theos"><roleName><w lemma="κύριος">Κύριος</w></roleName></persName> <w lemma="φωτισμός">φωτισμός</w>
+                  <w lemma="ἐγώ">μου</w> <w lemma="καί">καὶ</w> <w lemma="σωτήρ">σωτήρ</w> <w lemma="ἐγώ">μου</w>· <w lemma="τίς">τίνα</w>
+                  <w lemma="φοβάμαι">φοβε<supplied reason="lost">θήσομαι</supplied></w>;
+                  <lb n="2"/><persName type="divine" key="theos"><roleName><w lemma="κύριος"><expan><abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr></expan></w></roleName></persName>
+                  <w lemma="ὑπερασπιστής">ὑπερασπιστὴς</w> <w lemma="ὁ">τῆς</w> <w lemma="ζωή">ζωῆς</w> <w lemma="ἐγώ">μου</w>· <w lemma="ἀπό">ἀπὸ</w>
+                  <w lemma="τις">τίνος</w> <w lemma="δηλιάζω">διλιάσω</w>;
+               </ab>
+            </div>
+            <div type="textpart" subtype="inscription" n="7">
+               <ab>
+                  <lb n="1"/><persName type="divine" key="theos"><roleName><w lemma="κύριος"><expan><abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr></expan></w></roleName></persName>
+                  <w lemma="ἀντιλήπτωρ"><supplied reason="lost">ἀντιλήμπτωρ</supplied></w> <w lemma="ὁ"><supplied reason="lost">τῆς</supplied></w>
+                  <w lemma="ψυχή"><supplied reason="lost">ψυ</supplied>χ<unclear>ῆ</unclear>ς</w> <w lemma="ἐγώ">μου</w>.
+               </ab>
+            </div>
+            <div type="textpart" subtype="inscription" n="8">
+               <ab>
+                  <lb n="1"/><orig>Α Β Γ Δ</orig>
+                  <lb n="2"/><orig>Α Β Γ Δ Ε Ζ</orig>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

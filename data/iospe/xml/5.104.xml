@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надпись на плите с крестом</title><title xml:lang="en">Inscribed panel with a cross</title><editor xml:id="ayv2012">
+               <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+               <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+            </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.104</idno><idno type="PE">PE5000104</idno>
+            <idno type="AYV2012-number">byz104</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>34929</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>34929</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Белый мелкозернистый мрамор.</material>
+                           <material xml:lang="en">White fine-grained marble.</material>
+                           <p xml:lang="ru">На лицевой стороне рельефное изображение креста. Обломана со всех сторон.</p>
+                           <p xml:lang="en">On the front - relief cross. Broken off on all sides.</p>
+                           <dimensions>
+                              <height>16,0</height>
+                              <width>19,0</width>
+                              <depth>8,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08"> август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>.</seg>
+                     <seg xml:lang="en"> <date when="1999-05">May 1999</date>, <date when="2001-08"> August 2001</date>, <date when="2002-09"> September 2002</date>, <date when="2003-09"> September 2003</date>, <date when="2004-09"> September 2004</date>, <date when="2005-09"> September 2005</date>, <date when="2006-09"> September 2006</date>, <date when="2007-09"> September 2007</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1907 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Храм № 19 («храм с ковчегом»).</rs> 
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1907, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Church 19 ("Church with the reliquary").</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+               <msPart n="1">
+                  <msIdentifier><idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc4">
+                        <seg xml:lang="ru" n="1">Неизвестен.</seg>
+                        <seg xml:lang="en" n="1">Unknown.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f1" n="1">
+                              <seg xml:lang="ru">На кресте.</seg>
+                              <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the cross.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="1">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>, кионедон. Альфа с ломаной перекладиной.</seg>
+                           <seg xml:lang="en">Lapidary, kionedon. Alpha with broken crossbar.</seg>
+                           <height unit="cm">1,8.</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate n="1" notBefore="0501" notAfter="0600" precision="low" evidence="палеография">
+                           <seg xml:lang="ru">VI в.</seg>
+                           <seg xml:lang="en">VIth century C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               
+               <msPart n="2">
+                  <msIdentifier><idno/>
+                  </msIdentifier>
+                  <msContents>
+                     <summary corresp="document-search.xml#doc4">
+                        <seg xml:lang="ru" n="2">Демонстративная надпись.</seg>
+                        <seg xml:lang="en" n="2">Demonstrative.</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout ana="f1" n="2">
+                              <seg xml:lang="ru">По сторонам от нижнего рукава креста.</seg>
+                              <seg xml:lang="en">On either side of the bottom arm of the cross.</seg>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="2">
+                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с ломаной перекладиной и удлиненной верхушкой.</seg>
+                           <seg xml:lang="en">Lapidary style. Alpha with broken crossbar and ornate upward-curving stroke at the apex.</seg>
+                           <height unit="cm">3,5.</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate n="2" notBefore="0501" notAfter="0600" precision="low" evidence="палеография">
+                           <seg xml:lang="ru">VI в.</seg>
+                           <seg xml:lang="en">VIth century C.E.</seg>
+                        </origDate>
+                     </origin>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-30" who="CB">Textparts</change>
+          <change when="2013-10-24" who="TW">Added image code</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-16" who="AG">small corrections</change>
+         <change when="2012-05-01" who="AG">several lines translated, bibliography corrected</change>
+         <change when="2012-04-23" who="AG">several lines translated, editor added</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-02-22" who="AG">bibliography tagged</change>
+         <change when="2012-01-17" who="AG">1 line translated</change>
+         <change when="2011-12-21" who="AG">tagging</change>
+         <change when="2011-12-20" who="AG">small corrections, tagging</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+    <surface>
+    <graphic url="5.104" n="2">
+        <desc xml:lang="en">Photograph of face 1(from ??)</desc>
+        <desc xml:lang="ru"/>
+    </graphic>
+    </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl n="1">
+               <bibl n="L1"><!--IOSPE--><ptr target="bib:IOSPE2"/> <citedRange>623</citedRange></bibl>
+               <bibl n="2"><!--Латышев 1908--><ptr target="bib:b0149"/>, 35, № <citedRange>31</citedRange></bibl>
+            </listBibl>
+            <listBibl n="2">
+               <bibl n="L1"><!--IOSPE--><ptr target="bib:IOSPE2"/> <citedRange>623</citedRange></bibl>
+               <bibl n="2"><!--Латышев 1908--><ptr target="bib:b0149"/>, 35, № <citedRange>31</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="inscription" n="1">
+               <ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+                  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>τ</unclear></orig>
+                  <g ref="#stauros"/> <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="3"/><orig>Τ</orig>
+                  <lb n="4"/><orig>Ι</orig>
+                  <lb n="5"/><orig>Α</orig>
+                  <lb n="6"/><orig>Ν</orig>
+                  <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
+               </ab>
+            </div>
+            <div type="textpart" subtype="inscription" n="2">
+               <ab>
+                  <lb n="1"/><orig>Α</orig> <supplied reason="lost"><orig>Ω</orig></supplied>.
+               </ab>
+            </div>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <div type="textpart" n="1">
+               <note>Не предлагается.</note>
+            </div>
+            <div type="textpart" n="2">
+               <p>Альфа, <supplied reason="lost">омега</supplied>.</p>
+            </div>
+         </div>
+         <div type="translation" xml:lang="en">
+            <div type="textpart" n="1">
+               <note>Not feasible.</note>
+            </div>
+            <div type="textpart" n="2">
+               <p>Alpha, <supplied reason="lost">omega</supplied>.</p>
+            </div>
+        
+         
+            <div type="textpart" n="1">
+               <p>См. комм. к Тексту 2.</p>
+            </div>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <div type="textpart" n="2">
+               <p> Судя по форме памятника, это экран алтарной преграды из ранневизантийского храма. Альфа и омега были расположены, вероятней всего, 
+                  посередине ширины угловых полей — в этом случае первоначальная ширина плиты (или, точнее, креста) составляла ок. 40 см, а на боковых и верхнем 
+                  рукаве креста располагалось примерно по 10 букв. Скорее всего, на кресте сохранился фрагмент имени дедиканта (типа Домитиан) или формулы
+                  (типа ... ἁμαρτίαν). В первом случае не исключено, что это имя повторялось и по горизонтали. Относительно формулы надписи 2 см. <ref type="introduction">IV.3.C.d</ref>.</p>
+               <p>Датируется храм № 19 по-разному (см. Бернацки, Кленина, Рыжов 2004, 85–88), однако находка под его престолом ковчежца с монограммами 
+                  Юстиниана I вполне согласуется с палеографией надписи: альфа с ломаной перекладиной и четкие апексы указывают на VI–VII вв. Редкая форма 
+                  альфы с удлиненной влево верхушкой находит аналогию в евлогийном штампе (Косцюшко-Валюжинич 1901, 116–117, рис. 16), относящемуся, судя 
+                  по шрифту, к VI в., и в <ref type="inscription">V 314</ref><!--byz254--> из Керчи.  </p>
+            </div>
+            </div>
+         
+         <div type="commentary" xml:lang="en">
+               <div type="textpart" n="1">
+                  <p>See commentary on Text 2.</p>
+               </div>
+            
+            <div type="textpart" n="2">
+               <p>Judging by the shape of the monument, it is a panel of an altar screen from an Early Byzantine church. Alpha and omega were probably placed in the middle
+                  of each sector, in which case the original width of the panel (or rather, of the cross) would have been ca. 40cm, and on the left, right, and top
+                  arms of the cross there would have been ca. 10 letters. Most likely, the letters preserved on the relief cross belong to the name of a dedicant 
+                  (e.g., Domitian) or a formula (something mentioning ...ἁμαρτίαν). If the former is correct, then the name might also have been repeated horizontally. 
+                  For the formula of Text 2, see Introduction <ref type="introduction">IV.3.C.d</ref>.</p>
+               <p>Church 19 is variously dated (Biernacki, Klenina, Ryzhov 2004, 85–88), but the discovery made under its altar of a small reliquary with the monogram of 
+                  Justinian I fits rather well with the palaeographic features of the inscription: alpha with broken crossbar and distinct serifs point to the
+                  VI-VIIth centuries. The rare shape of alpha with projecting right hasta is similar to that found on a eulogia stamp (Kostsyushko-Valyuzhinich 1901, 116–117, fig. 16), 
+                  datable to the VIth century, to judge by the script, and in <ref type="inscription">V 314 </ref><!--byz254-->from Kerch.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Пасиона</title><title xml:lang="en">Epitaph of Pasion</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.237</idno><idno type="PE">PE3000199</idno><idno type="filename">3.410</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>73/37545</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>73/37545</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Верхняя часть стелы, расколотая на две части. На тыльной
+                              стороне заметны следы вторичного использования. На лицевой стороне над
+                              сбитыми рельефными розетками хорошо сохранившаяся надпись, выполненная
+                              красной краской.</p>
+                           <p xml:lang="en">Upper part of a stele split in two pieces.</p>
+                           <dimensions>
+                              <height unit="cm">36,0</height>
+                              <width unit="cm">30,0</width>
+                              <depth unit="cm">17,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Слегка изогнутые линии букв, мю и сигма с широко
+                           расставленными боковыми гастами, ню с немного укороченной правой
+                           вертикалью, омикрон меньше остальных букв (1,2 см), небольшие утолщения
+                           на концах линий букв.</seg>
+                        <seg xml:lang="en">Slightly curved letterstrokes, omicron smaller than other letters (1,2cm); slight flaring of the ends of hastae.</seg>
+                        <height unit="cm">2,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0201" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">III в. до н.э.</seg>
+                        <seg xml:lang="en">III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 2008 г. Раскопки В.Г.
+                           Самойленко.</rs>
+                        <rs type="context">В юго-восточном районе Херсонеса
+                           в ходе археологического изучения куртины 19 оборонительных стен.
+                           Обнаружена в слое третьего строительного периода. </rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 2008. Excavations of V.G. Samoylenko.</rs>
+                        <rs type="context">Southeast sector of Chersonesos, archaeological investigation of Curtain wall 19, level of the 3rd 
+                           construction period.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-05" who="CB">Added origDate</change>
+         <change when="2015-10-13" who="CB">Bibliography</change>
+         <change when="2015-08-24" who="CB">App crit check</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-26" who="CB">Tagging metadata.</change>
+         <change when="2015-03-16" who="VP">Tagging Greek names</change>
+         <change when="2015-03-16" who="AV">tagging Greek names XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.237">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Макаров, Самойленко 2013--><ptr target="bib:b0487"/> 69, № <citedRange>4</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" ref="#person861"><name nymRef="Πασίων">Πασίων</name>
+               <lb n="2"/><space quantity="1" unit="character"/> <persName type="attested" ref="#person862"><name nymRef="Διότιμος">Διοτίμου</name></persName>
+               <lb n="3"/><placeName type="ethnic"><name>Ἡρακλεώτας</name></placeName></persName>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Пасион, (сын) Диотима, гераклеот.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Pasion, (son of) Diotimos, citizen of Heraklea.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Самое раннее упоминание граждан метрополии Херсонеса Гераклеи Понтийской в
+               херсонесской эпиграфике. Другие свидетельства относятся к римскому времени (ср. Avram
+               PPE 1865 слл.), среди которых, в частности, два надгробия: Гераклеонa, сынa
+               Менофонта (ipe544) и Понтикa, сына Немерия (ipe545).</p>
+            <p>Личные имена общегреческого характера Πασίων и Διότιμος в гераклейской просопографии
+               до настоящего времени не встречались (LGPN VA). В то же время личное имя Пасион неоднократно
+               засвидетельствовано в Херсонесе в III–II в. до н.э. (LGPN IV), а Диотим упоминается
+               во второй половине II в. до н.э. как монетарий на двух разновидностях херсонесских
+               серебряных монет (Анохин 1977, 146, № 181, 183).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The earliest mention of the citizens of the Chersonesian metropolis, Herakleia Pontica, in the epigraphy of Chersonesos. Other mentions date to the Roman period 
+               (cf. Avram PPE 1865ff.), among which, there are two funerary monuments: of Herakleion, (son of) Menophon (<ref type="inscription">III 418</ref>), and of Pontikos, 
+               (son of) Nemerios (<ref type="inscription">III 419</ref>).</p>
+            <p>Such common personal Greek names as Πασίων and Διότιμος had not been previously attested in Heraleian prosopography (LGPN VA). At the same time, the name 
+               Πασίων is attested multiple time in Chersonesos in the III-II centuries B.C.E. (LGPN IV), while Diotimos, is mentioned in the 2nd half of the II century B.C.E. on two 
+               types of silver coins of Chersonesos (Anochin 1977, 146, № 181, 183).
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

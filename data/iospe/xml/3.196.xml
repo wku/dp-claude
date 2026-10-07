@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Метрическая эпитафия Ойнанфы</title><title xml:lang="en">Metrical epitaph of Oinanthe </title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.217</idno><idno type="PE">PE3000187</idno><idno type="filename">3.196</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3657</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3657</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc18">
+                     <seg xml:lang="ru">Метрическая надгробная надпись.</seg>
+                     <seg xml:lang="en">Metrical epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Стела «боспорского типа» с широким основанием и
+                              зауженной верхней частью, украшенной карнизом; внизу шип для крепления
+                              на постаменте. Сохранилась полностью. В прямоугольной углублении
+                              изображена стоящая женщина, рядом с ней высокая корзина; в правом углу
+                              — маленькая фигура служанки. Под рельефом расположены 18 строк
+                              достаточно хорошо сохранившейся надписи.</p>
+                           <p xml:lang="en"/>
+                           <dimensions>
+                              <height unit="cm">88,0</height>
+                              <width unit="cm">48,0</width>
+                              <depth unit="cm">9,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Курсивные эпсилон, сигма, омега, альфа с ломаной
+                           поперечной линией, изогнутые линии отдельных букв, слабое
+                           апицирование.</seg>
+                        <seg xml:lang="en">Cursive epsilon, sigma, omega; alpha with broken crossbar, some curved letterstrokes, light serifs.</seg>
+                        <height unit="cm">2,2 (стк. 1-2); 1 (остальные сткк.).</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0200" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">II в. н.э.</seg>
+                        <seg xml:lang="en">II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1890 г. Раскопки К.К. Косцюшко-Валюжинича
+                           (НА НЗХТ, д. 1, л. 23, № 68; д. 19, л. 70, № 68).</rs>
+                        <rs type="context">На островке в устье Казачей бухты, в кладке средневекового храма.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1890, excavations of K.K.
+                           Kostsyushko-Valyuzhinich (НА НЗХТ, д. 1, л. 23, № 68; д. 19, л. 70, № 68).</rs>
+                        <rs type="context">Islet in the delta of Kazachy (Cosacs) Bay, masonry of a medieval church.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-19" who="CB">Leidenised, tokenised, app crit</change>
+         <change when="2015-11-09" who="CB">Added origDate</change>
+         <change when="2015-10-22" who="CB">Metadata</change>
+         <change when="2015-09-25" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1892--><ptr target="bib:b0125"/>, 27, № <citedRange>10</citedRange></bibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>IV 136</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>519</citedRange></bibl>
+               <bibl><!--Peek, GVI--><ptr target="bib:b0521"/>, <citedRange>1684</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--KW--><ptr target="bib:b0519"/>, № <citedRange>319</citedRange></bibl>
+               <bibl><!--Wilamowitz 1928--><ptr target="bib:b0788"/>, <citedRange>384</citedRange></bibl>
+               <bibl><!--АСХ--><ptr target="bib:b0523"/>, № <citedRange>376</citedRange></bibl>
+               <bibl><!--Соломоник 1990--><ptr target="bib:b0506"/>, 91, № <citedRange>91</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="attested" ref="#person848"><name nymRef="Οἰνάνθη">Οἰνάνθη</name> 
+                           <persName type="attested" ref="#person849"><name nymRef="Γλαυκίας">Γλαυκίου</name></persName></persName>
+               <lb n="2"/><lg>
+                        <l met="hexameter" n="1"><w>ἆ</w> <w>βάλε</w> <w>τοι</w> <persName type="divine" key="muses"><name>Μοῦ<supplied reason="omitted">σαι</supplied></name></persName> <w>σὰ</w> <w>χαρείσια</w>, 
+                           <w>κάμμορε</w> <w>νύμφη</w></l> 
+               <lb n="3"/><l met="hexameter" n="2"><persName type="attested" ref="#person848"><name nymRef="Οἰνάνθη">Οἰνάνθη</name></persName>, 
+                                 <w>πα<supplied reason="omitted">ί</supplied><choice><corr>δ</corr><sic>Λ</sic></choice>ων</w> 
+                           <w>ἐπὶ</w> <w>γούνασι</w> <w>σεῖο</w> <w>τεθέντων</w>,</l>
+               <lb n="4"/><l met="hexameter" n="3"><w>φώνησα<choice><corr>ν</corr><sic>ι</sic></choice></w> <w>λοχίης</w> <w>τε</w> <w>καλὸν</w> 
+                                 <w>νόμον</w> <persName type="divine" key="eileithyia"><w>Εἰλειθύης</w></persName>,</l>
+               <lb n="5"/><l met="hexameter" n="4"><w>μητρὶ</w> <w>τε<unclear>ῆ</unclear></w> <w>καὶ</w> <w>πατρὶ</w> 
+                                 <w>κε<choice><corr>χ</corr><sic>κ</sic></choice>αρμένα</w> <w>δῶρα</w> 
+                                 <w>πό<choice><corr>σ</corr><sic>Λ</sic></choice>ε<choice><corr>ιτε</corr><sic>ΠΗ</sic></choice></w></l>
+               <lb n="6"/><l met="hexameter" n="5"><w>νῦν</w> <w><choice><corr>δ</corr><sic>Ν</sic></choice>ὲ</w> <w>σὺ</w> <w>μὲν</w> 
+                                 <w>κρυεραῖ<supplied reason="omitted">σ</supplied>ιν</w> <w>ἐπὶ</w> 
+                              <w>ψαμάθοισιν</w> <w><supplied reason="omitted">ἀλ</supplied>ύεις</w></l> 
+               <lb n="7"/><l met="hexameter" n="6"><w>Κωκυτοῦ</w> <w>κελάδοντο<supplied reason="omitted">ς</supplied></w> <w>ἀνὰ</w> <w>δρόσον</w>, 
+                                 <w>οὐδέ</w> <w>σ’</w> <w>ἐγείρει</w></l>
+               <lb n="8"/><l met="hexameter" n="7"><w>ἀεναὲς</w> <w>κελάδημα</w> <w><supplied reason="omitted">φ</supplied>ίλης</w> 
+                                 <w>ὀ<supplied reason="omitted">π</supplied>ός</w>, <w>ὧτέ</w> <w>σε</w> <w>μήτηρ</w></l>
+               <lb n="9"/><l met="hexameter" n="8"><w>ὄρνις</w> <w>ὅκως</w> <w>γεγό<supplied reason="omitted">η</supplied>κε</w>, 
+                                    <w><supplied reason="omitted">σ</supplied>ὺ</w> <w>δὲ</w> <w>λίθος</w>
+                                    <w>οὐδὲν</w> <w>ἀκούεις</w>,</l> 
+               <lb n="10"/><l met="hexameter" n="9"><w>ἀλ<supplied reason="omitted">λ</supplied>ὰ</w> <w>μελανδεῖν<supplied reason="omitted">αί</supplied></w> 
+                                    <w>σε</w> <w>περὶ</w> 
+                                  <w>ῤό<supplied reason="omitted">ε</supplied>ς</w> <w>ὠκεανοῖο</w></l> 
+               <lb n="11"/><l met="hexameter" n="10"><w>εἰλεῦνται</w>, <w>ψυχαὶ</w> <w>δὲ</w> <w>κατα<supplied reason="omitted">χ</supplied>θονίων</w> 
+                                 <w>ἀ<supplied reason="omitted">λι</supplied>βάντων</w></l>
+               <lb n="12"/><l met="hexameter" n="11"><w>ζμερδαλέον</w> <w>βρομέουσι</w>, <w>σὺ</w> <w>δὲ</w> 
+                                    <w>θρ<supplied reason="omitted">ό</supplied>ο<supplied reason="omitted">ν</supplied></w> <w>οὐχὶ</w> <w>τοκήων</w>,</l> 
+               <lb n="13"/><l met="hexameter" n="12"><w>οὐ</w> <w>πόσιος</w> <w>νενόηκας</w>, <w>ἐπεὶ</w> <w>πίες</w> <w>ἆ</w> <w>στύγα</w> <w>Λήθης</w></l>
+               <lb n="14"/><l met="hexameter" n="13"><w>τίς</w> <w>μακάρων</w> <w>νόμος</w> <w>οὗτος</w> <w>ἵ<supplied reason="omitted">ν’</supplied></w>  
+                                    <w>ἀν<supplied reason="omitted">έ</supplied>ρες</w> 
+                                    <w>ἠέ</w> <w>νυ</w> <w>κῶρ<supplied reason="omitted">αι</supplied></w></l>
+               <lb n="15"/><l met="hexameter" n="14"><w>οὐχὶ</w> <w>κακαὶ</w> <w>θνήσκουσι</w> <w>προμοιρίες</w>, <w>οὐχὶ</w> <w>τοκήων</w></l>
+               <lb n="16"/><l met="hexameter" n="15"><w>οὐτιδανῶν</w>, <w><unclear>ἀ</unclear>λλ’</w> <w>εἴ</w> <w>τι<supplied reason="lost">ς</supplied></w> 
+                                    <w>ἀριπρεπὲς</w> <w>εἶδο<unclear>ς</unclear></w> <w>ἔχουσα</w></l>
+               <lb n="17"/><l met="hexameter" n="16"><w>ἢ</w> <w>γένος</w>; <w>ἦ</w> <w>ῥα</w> <w>τόδ’</w> <w>ἐσθλὸν</w> <w>ἐτήτυμον</w> <w>ἀνδράσι</w> 
+                                    <persName type="divine" key="pythia"><name>Πυθώ</name></persName>,</l> 
+               <lb n="18"/><l met="hexameter" n="17"><w>χρύσεον</w> <w>ὅττι</w> <w>γένεθλον</w> <w>ἐς</w> <persName type="divine" key="hades"><name>Ἄιδα</name></persName> 
+                                 <w>πρῶτον</w> <w>ὁδεύειν</w></l>
+               </lg>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2">
+                  <rdg source="bib:b0125">Μοῦ<supplied reason="omitted">σαι</supplied> σά <note>Корш ap.</note></rdg>
+                  <rdg>ΜΟΥΣΑ <note>lapis</note></rdg>
+                  <rdg>χαρείσια = χαρίσια</rdg>
+               </app>
+               <app loc="3">
+                  <rdg source="bib:b0125">ΠΑΛΩΝ <note>lapis, emend. Корш ap.</note></rdg>
+               </app>
+               <app loc="4">
+                  <rdg source="bib:b0788 bib:b0521">φώνησα<choice><corr>ν</corr></choice></rdg>
+                  <rdg>φωνῆσαι <note>alii sec. lap.</note></rdg>
+               </app>
+               <app loc="5">
+                  <rdg source="bib:IOSPE">κε<choice><corr>χ</corr></choice>αρμένα</rdg>
+                  <rdg source="bib:b0521">κεκαρμένα</rdg>
+               </app>
+               <app loc="5">
+                  <rdg source="bib:b0125">ΠΟΛΕΠΗ <note>lap., emend.</note></rdg>
+               </app>
+               <app loc="6">
+                  <rdg><note>in.:</note> ΝE <note>lap.</note></rdg>
+                  <rdg><note>fin.:</note> ΜΥΕΙΣ <note>lapis</note></rdg>
+               </app>
+               <app loc="6">
+                  <rdg source="bib:b0521 bib:b0788"><choice><corr>ἀλ</corr></choice>ύεις</rdg>
+                  <rdg source="bib:IOSPE"><choice><corr>ἰα</corr></choice>ύεις</rdg>
+               </app>
+               <app loc="7">
+                  <rdg>ΚΕΛΑΔΟΝΤΟΠΑΝΑΝΔΡΟΣΟΝ <note>lapis</note></rdg>
+               </app>
+               <app loc="8">
+                  <rdg>ΥΙΛΗΣΟΚΙΟΣ <note>lap., emend. Латышев 1892 (IOSPE)</note></rdg>
+               </app>
+               <app loc="9">
+                  <note>ΓΕΓΟΜΚΕΙΥ <note>lapis</note>, <note>emend. Латышев 1892 (IOSPE)</note></note>
+               </app>
+               <app loc="10">
+                  <rdg>ΑΛΑΜΜΕΛΑΝΔΕΙΝΗ <note>lap., emend. Латышев 1892 (IOSPE)</note></rdg>
+                  <rdg>ΡΟΣΣ <note>lap., emend. Латышев 1892 (IOSPE)</note></rdg>
+               </app>
+               <app loc="11">
+                  <note>ΑΜΒΑΝΤΩΝ  <note>lapis</note>, <note>emend. Латышев 1892 (IOSPE)</note></note>
+               </app>
+               <app loc="12">
+                  <note>ΘΡΣΟΣ <note>lapis</note>, <note>emend. Латышев 1892 (IOSPE)</note></note>
+               </app>
+               <app loc="14">
+                  <rdg>ΜΑΝΣΡΕΣΗΕΝΥΚΩΡΧΗ <choice><corr>ἀν</corr></choice>ά<choice><corr>μ</corr></choice>ερ<choice><corr>ο</corr></choice>ς
+                     <note>lapis</note>, <note>emend. Wilamowitz (Peek)</note></rdg>
+                  <rdg source="bib:b0125">ἠέ νυ κῶρ<choice><corr>αι</corr></choice></rdg>
+               </app>
+               <app loc="15">
+                  <rdg source="bib:b0125">προμοίρ<choice><corr>ω</corr></choice>ς</rdg>
+                 <rdg>προμοιρίες <note>Wilamowitz secundum lap. (Peek)</note></rdg>
+               </app>
+               <app loc="16">
+                  <rdg>ἀ̣λλ’ <note>cripsi sec. lap.</note></rdg> 
+                  <rdg source="bib:IOSPE">[ἀ]λλ’</rdg>
+                  <rdg source="bib:b0521">ἀλ<supplied reason="omitted">λ’</supplied></rdg>
+                  <rdg source="bib:b0125">εἶδο[ς]</rdg>
+               </app>
+               <app loc="18">
+                  <rdg source="bib:b0788">ὁδεύειν</rdg>
+                  <rdg source="bib:b0521">ὁδεύ<supplied reason="omitted">ε</supplied>ιν</rdg>
+                  <rdg source="bib:b0125">ὁδεύ[ε]ιν</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Ойнанфа, (дочь) Главкия.</p>
+            <p>Несчастная новобрачная Ойнанфа, лучше бы Музы, после того как детей положили на твои
+               колени, воспели твои радости и прекрасный образ действий Илифии, помощницы в родах, –
+               желанные дары для твоей матери, отца и супруга. Но оказалось, что теперь ты бредешь
+               по страшным пескам вдоль влаги шумящего Кокита, и не будит тебя непрестанное звучание
+               любимого голоса, которым мать словно птица оплакивает тебя. Но ты, словно камень,
+               ничего не слышишь, и вокруг тебя бурлят темные потоки Океана и страшно гудят души
+               подземных мертвецов. Ты не узнала зова ни родителей, ни мужа, потому что ты, увы,
+               выпила проклятой воды Леты. Что за жестокий закон блаженных (богов), когда умирают до
+               срока мужи или девы, которые не безобразны и не от ничтожных родителей, но отличаются
+               прекрасным обликом и происхождением? Ведь Пито сказала людям истинную правду:
+               «золотое потомство должно первым отправиться в Аид».</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Oinanthe, daughter of Glaukios.</p>
+         <p/>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

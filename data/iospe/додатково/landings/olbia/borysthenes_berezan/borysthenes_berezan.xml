@@ -1,0 +1,118 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Volume II.1 Inscriptions of Borysthenes (Berezan).</title>
+                <title xml:lang="ru">Том II.1 </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text xml:lang="en">
+                <body>
+                    <div>
+                        <head>Irene Polinskaya</head>
+
+                        <div>
+                            <p>This is the first electronic edition of inscriptions from
+                                Borysthenes, an ancient Greek settlement on the island of Berezan, located in the Dnipro-Buh delta, 
+                                in modern Ukraine: https://pleiades.stoa.org/places/226545.
+                                 In antiquity, this piece of land was a promontory connected to the mainland, and it shows the first traces of ancient 
+                                Greek presence in the 7th century BCE, making it one of the earliest Greek sites in the Black Sea.
+                                </p>
+                            <p>The site has been excavated since ca. 1900 by archaeological teams from various institutions, first in tsarist Russia, then in the Soviet Union, 
+                            and following the dissolution of the latter in 1991, from Ukraine, and the Russian Federation. As a result of the complex history of 
+                            excavations and due to geopolitical changes over time, material from the site ended up in several museums and repositories in Ukraine and the Russian Federation.
+                            The vast majority of inscriptions from Borysthenes (Berezan) are graffiti and dipinti on pottery. The importance of ceramic supports for the organization of the 
+                            corpus justifies publication of collections of each museum and repository separately (Parts 1 - 4), similarly to the approach adopted in the Corpus Vasorum Antiquorum. 
+                           This approach also recognizes separate authority of specific national institutions over heritage managemeent in each case. A Table of Contents is provided
+                           for each Part, and at the same time, following standard epigraphic conventions, a Unified Table of Contents for the volume (II) fascicle (1), representing the 
+                           geographic area of Borysthenes as a whole, is made available, combining Tables of Contents for each Part.
+                            At the same time, faceted search capability of the database allows selections of lemmata according to researchers' individual interests.</p>
+                            <p>The introduction, epigraphic editions and commentaries are by Irene
+                                POLINSKAYA. The inscriptions were encoded following the EpiDoc
+                                Guidelines for use of XML for ancient documentary editions, and the
+                                website and supporting materials are the work of Gabriel BODARD,
+                                Irene POLINSKAYA and colleagues at the Department of Digital
+                                Humanities and King’s Digital Lab, King's College London.</p>
+                            <!--<head><ref target="introduction.html">Introduction</ref></head>
+                            <p>[TEXT NEEDED]</p>-->
+                           
+                            
+                            <!--<divGen type="intro-toc"/>-->
+                        </div>
+                        <div>
+                            <head><ref target="part_1/index.html">Inscriptions - unified Table of Contents for ALL collections (Parts 1 - 4)</ref></head>
+                            <p>The unified ToC corresponds to the currently published collections and will be updated as new collections become available. 
+                                The groupping of inscriptions in this volume is based on the identification of Categories of Text and, for texts on ceramic supports,
+                                 on the identification of stages in the life cycle of pottery. Detailed principles of corpus structure
+                                are presented in the Introduction. 
+                              Inscriptions are also accessible via <ref
+                                    target="/indices/index.html">Indices</ref>, Ins. # window and
+                                the <ref target="/search/en/-500/1800/?">Search Corpus</ref>
+                                interface.</p>
+                        </div>
+                        <div>
+                            <head>Individual Collections</head>
+                            <div>
+                                <head><ref target="part_1/index.html">Part 1. Collection of the State Hermitage Museum</ref></head>
+                                <head>Part 2. Collection of the Odessa Archaeological Museum (forthcoming)</head>
+                                <head>Part 3. Collections of Mykolaiv, Ochakiv, and Kherson (forthcoming)</head>
+                                <head>Part 4. Collections of Kyiv (forthcoming)</head>
+                            </div>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:lang="ru">
+                <body>
+                    <div>
+                        <head/>
+                        <p/>
+                        <div>
+                            <!-- Holding note until final versions of everything are ready -->
+                            <head/>
+                            <p/>
+                            <!--<head><ref target="introduction-ru.html">Введение</ref></head>
+                            <p>[INTRODUCTION IN RUSSIAN]</p>-->
+                            <!--<divGen type="intro-toc-ru"/>-->
+                        </div>
+                        <div>
+                            <head></head>
+                            <p>Русскоязычная версия находится в разработке. На данный момент, доступна английская версия.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:lang="uk">
+                <body>
+                    <div>
+                        <head/>
+                        <p/>
+                        <div>
+                            <!-- Holding note until final versions of everything are ready -->
+                            <head/>
+                            <p/>
+                            <!--<head><ref target="introduction-ru.html">Введение</ref></head>
+                            <p>[INTRODUCTION IN RUSSIAN]</p>-->
+                            <!--<divGen type="intro-toc-ru"/>-->
+                        </div>
+                        <div>
+                            <head></head>
+                            <p>Українська версія знаходиться в процесі розробки. Поки що ви можете скористатися англійською версією.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

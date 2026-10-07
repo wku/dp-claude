@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение Формиона</title><title xml:lang="en">Dedication of Phormion</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.421</idno><idno type="PE">PE3000236</idno><idno type="filename">3.116</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3367</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3367</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвятительная надпись.</seg>
+                     <seg xml:lang="en">Dedicatory inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon12">Постамент.</objectType>
+                           <objectType xml:lang="en">Base.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">На верхней плоскости остатки трех углублений различной
+                              формы с обломанными краями (диаметр ок. 5-7,5 см, глубина ок. 4-9 см)
+                              с остатками свинцовой заливки. На нижней поверхности круглое
+                              отверстие. Имеются следы неоднократного вторичного использования.
+                              Частично сохранилась двухстрочная надпись (в середине повреждена
+                              выбоиной, нижняя строка почти целиком уничтожена желобком карниза,
+                              вырезанным при вторичном использования камня).</p>
+                           <p xml:lang="en">On the top: three depressions of different shapes, with broken edges (Diam. ca. 5-7,5 cm, depth ca. 4-9 cm) and with remains of lead. 
+                              On the bottom: a circular hole. Traces of multiple reuse.</p>
+                           <dimensions>
+                              <height unit="cm">18,0</height>
+                              <width unit="cm">73,0</width>
+                              <depth unit="cm">47,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Слегка изогнутые линии альфа, мю с наклонными боковыми
+                           линиями и короткими внутренними гастами, вертикальные гасты ню имеют
+                           почти одинаковую длину, сигма с расходящимися верхней и нижней гастами,
+                           омикрон и омега почти того же размера, что и остальные буквы, небольшие
+                           утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Alpha has slightly curved hastae, mu with slanting outer hastae, four-bar sigma with splayed bars, omicron and omega are
+                           almost the same size as the rest of the letters, slight flaring of the ends of letterstrokes.</seg>
+                        <height unit="cm">1,7</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0201" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">III в. до н.э.</seg>
+                        <seg xml:lang="en">III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1890 г. Раскопки К.К.
+                           Косцюшко-Валюжинича (НА НЗХТ, д. 1, № 38; д. 19, л. 5, № 38).</rs>
+                        <rs type="context">В центральной части городища, на
+                           площади около собора св. Владимира (раскоп I).</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1890, excavations of K.K.
+                           Kostsyushko-Valyuzhinich (НА НЗХТ, д. 1, № 38; д. 19, л. 5, № 38).</rs>
+                        <rs type="context">Central part of the cidadel, square of St. Vladimir cathedral (Trench I).</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-14" who="CB">Bibliography</change>
+         <change when="2015-08-26" who="CB">App crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-26" who="CB">Tagging metadata</change>
+         <change when="2015-05-14" who="AV">programmatically tagging Greek words from Word
+            docs</change>
+         <change when="2015-05-08" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.421">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1895--><ptr target="bib:b0130"/>, 11, № <citedRange>6</citedRange>
+               (= <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>IV 88</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>415</citedRange></bibl>)</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Firatli–Robert--><ptr target="bib:b0524"/>, <citedRange>164</citedRange></bibl>
+               <bibl><!--Кадеев 1981--><ptr target="bib:b0472"/>, <citedRange>67</citedRange></bibl>
+               <bibl><!--Пичикян 1976--><ptr target="bib:b0483"/>, <citedRange>254</citedRange>
+               (= <bibl><!-- Пичикян 1984 --><ptr target="bib:b0482"/>, <citedRange>205</citedRange></bibl>)</bibl>
+               <bibl><!--Трейстер 1999--><ptr target="bib:b0509"/>, 140, № <citedRange>4 (25)</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person956"><name nymRef="Φορμίων">Φορμίων</name> 
+               	                 <persName type="attested" ref="#person957"><name nymRef="Ἥρις">Ἥριος</name></persName></persName> <w><supplied reason="lost">ἱερεὺς</supplied></w> 
+                                 <w>ἐὼγ</w> <w>καὶ</w> <w>βα<supplied reason="lost">σι</supplied>
+               	<lb n="2" break="no"/><supplied reason="lost">λεύων</supplied></w> <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+                                 <w><supplied reason="lost">ἀν</supplied>έθη<supplied reason="lost">κεν</supplied></w>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg source="bib:b0524">Ἤριος <note>ed. pr., corr.</note></rdg>
+                  <rdg>ἐὼγ = ἐὼν <note>per assimilationem</note> ἐ[ών ---]</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Формион, (сын) Герия, будучи жрецом и царем, [---] посвятил.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Phormion, (son of) Herios, serving as priest and king, [---] dedicated.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Ed. pr. предположил, ссылаясь на место находки постамента, что постамент со статуей
+               были посвящены Деве. Эта гипотеза подтверждается тем фактом, что магистратура
+               царя-эпонима согласно эпиграфическим данным была несомненно связана с культом
+               богини-покровительницы Херсонеса (ср. № ipe410, 414, ined).</p>
+            <p> Личное имя Ἦρις (в индексе IOSPE I2 в качестве номинатива указана форма Ἤριος)
+               интерпретировано Л. Робером как диминутив теофорного ЛИ группы Ἥρα (Firatli–Robert
+               164), возможно, мегарского происхождения. Засвидетельствовано в Византии, Хакедоне,
+               на Делосе (ср. Masson 1994, 140 = OGS III 209).</p>
+            <p>III в. до н.э. (скорее всего 1-я пол.).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>III century B.C.E. (probably the first half of the century).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

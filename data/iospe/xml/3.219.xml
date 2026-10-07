@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Антипатра</title><title xml:lang="en">Epitaph of Antipatros</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.17</idno><idno type="PE">PE3000017</idno><idno type="filename">3.219</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>198/36579</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>198/36579</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Верхняя часть стелы, украшенная карнизом без антефиксов.
+                              На лицевой стороне рельефные розетки (правая сбита), под которыми
+                              сохранились следы изображения посоха (прочерчены контуры, слабые следы
+                              красной краски). Tыльная сторона заглажена. Между карнизом и розетками
+                              в неглубоком прямоугольном углублении вырезана двухстрочная надпись.
+                              Верхний левый угол стелы и поле надписи повреждены глубокой
+                              трещиной.</p>
+                           <p xml:lang="en">Upper part of a stele bearing a cornice with antefixes. On the front: two relief rosettes (the right is damaged), 
+                              and an image of {посох} (the contour is carved, traces of red paint). The back is planed. In a rectangular shallow inset field -
+                           two-line carved inscription. The top left corner and the epigraphic field are cut by a deep fissure.</p>
+                           <dimensions>
+                              <height unit="cm">42,5</height>
+                              <width unit="cm">27,0</width>
+                              <depth unit="cm">14,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Мю с наклонными боковыми, правая вертикаль ню слегка
+                           приподнята, сигма с расходящимися верхними и нижними линиями, слегка
+                           изогнутые линии отдельных букв, утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Mu with slanting outer hastae, nu with short right
+                           vertical, four-bar sigma with splayed bars, flaring of the ends of letterstrokes.</seg>
+                        <height unit="cm">2,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0201" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">III в. до н.э.</seg>
+                        <seg xml:lang="en">III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Случаная находка 1989 г.</rs>
+                        <rs type="context">В районе Загородного храма.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Random find 1989.</rs>
+                        <rs type="context">In the area of the Extramural Church.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-05" who="CB">Added origDate</change>
+         <change when="2015-09-28" who="CB">Tagging bibliography</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2015-06-02" who="CB">Metadata tagging</change>
+         <change when="2015-03-12" who="VP">Tagging Greek names</change>
+         <change when="2015-03-12" who="CB">checking and normalising</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.17">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl>Ineditum</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Posamentir 2006--><ptr target="bib:b0438"/>, <citedRange>42 сл.</citedRange></bibl>
+               <bibl><!--Posamentir 2011--><ptr target="bib:b0439"/>, 85, № <citedRange>C3</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person489"><name nymRef="Ἄντίπατρος"><unclear>Ἄ</unclear>ντίπατρος</name>
+               	<lb n="2"/><persName type="attested" ref="#person490"><name nymRef="Τίμιων"><unclear>Τ</unclear>ιμίωνος</name></persName></persName>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Антипатр, (сын) Тимиона.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Antipatros, (son of) Timion.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Имя Ἀντίπατρος фигурирует в херсонесских надписях эллинистического и римского времени
+               (LGPN IV). Имя Τιμίων в Херсонесе больше не встречается. Не исключено, что упомянутый
+               в надписи № ipe511 Тимон, сын Антипатра, происходил из той же семьи (являлся сыном
+               Антипатра, упомянутого в этой надписи ?). Стела, вероятно, выполнена в той же
+               мастерской, что и № neph180.</p>
+            <p>Posamentir 2006, 42 сл. (фото, без издания греческого текста); Posamentir 2011, 85, № C3 (фото, без издания греческого текста)</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

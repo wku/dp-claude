@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение Марии</title><title xml:lang="en">Dedication of Mary</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.227</idno><idno type="PE">PE5000227</idno>
+            <idno type="AYV2012-number">byz215</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Бахчисарайский историко-культурный заповедник</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Bakhchisaray State Historical and Cultural Preserve</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвятительная надпись.</seg>
+                     <seg xml:lang="en">Dedication.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon5">Карниз.</objectType>
+                           <objectType xml:lang="en">Cornice.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Сероватый мрамор.</material>
+                           <material xml:lang="en">Grayish marble.</material>
+                           <p xml:lang="ru">Профилированный карниз. Сохранился целиком.</p>
+                           <p xml:lang="en">Moulded cornice. Fully Preserved.</p>
+                           <dimensions>
+                              <height>35,0</height>
+                              <width>128,0</width>
+                              <depth>15,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На лицевой стороне.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с ломаной перекладиной, эпсилон лунарный, 
+                           каппа с удлиненной вертикалью, пи с удлиненной перекладиной, ро и ипсилон удлинены по вертикали.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with broken crossbar, lunate epsilon, kappa with extended vertical, pi with extended horizontal, elongated rho and upsilon.</seg>
+                        <height unit="cm">4,0–6,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p054">
+                     <seg xml:lang="ru">Неизвестно (Горный Крым?).</seg>
+                     <seg xml:lang="en">Unknown (Mountainous Crimea?).</seg>
+                  </origPlace>
+                     <origDate notBefore="0401" notAfter="0700" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">V–VII вв.</seg>
+                        <seg xml:lang="en">V–VIIth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="2005-09">Сентябрь 2005</date>.</seg>
+                     <seg xml:lang="en"><date when="2005-09">September 2005</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#bakhchisaray">Бахчисарай.</placeName>
+                        <rs type="circumstances">1960 г., строительные работы под руководством Е.В. Веймарна.</rs>
+                        <rs type="context">Ханский дворец, беседка Селямат-Гирея.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Bakhchisaray.</placeName>
+                        <rs type="circumstances">1960, construction works under the supervision of E.V. Veymarn.</rs>
+                        <rs type="context">Khan's palace, summerhouse of Selâmet Giray.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Бахчисарай, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Bakhchisaray, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-17" who="CB">Andrey's corrections</change>
+         <change when="2013-11-07" who="TW">Added image code</change>
+         <change when="2012-10-30" who="AL">small corrections in Russian text</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-08-07" who="AG">1 line translated</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-06-29" who="AG">small corrections</change>
+          <change when="2012-06-19" who="AL">small corrections</change>
+         <change when="2012-05-02" who="AG">some corrections, several lines translated, tags corrected, apparatus tagged</change>
+          <change when="2012-04-24" who="AL">inserted editor tag, translated a line</change>
+          <change when="2012-04-05" who="AL">original date tagged, bibliography tagged, text tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.227">
+                <desc xml:lang="en">Photograph of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!-- Соломоник 1991--><ptr target="bib:b0212"/>, 174–175, № <citedRange>2</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="apparatus">
+             <listApp>
+               <app><rdg source="bib:b0212">ΚΟΜ</rdg></app> 
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>О молитве Марии комитиссы.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>For the prayer of cometissa Mary.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Точное происхождение надписи установить невозможно. Камень был взят для строительства беседки Селямет-Гирея, вероятней всего, 
+               откуда-то из Горного Крыма. Ближайшие к Бахчисараю памятники с постройками ранневизантийского времени — Тепе-Кермен и Бакла. Данная 
+               надпись — типичное ранневизантийское посвящение, по всей вероятности, из какого-то храма, причем единственное ранневизантийское в 
+               Горном Крыму. В этой связи претендентами на надпись могут считаться Бакла, Эски-Кермен и Мангуп.</p>
+            <p> Относительно формулы см. <ref type="introduction">IV.3.B.b</ref>. Имя Мария встречается также в<ref type="inscription">V 62</ref><!--byz062--> и 
+               <ref type="inscription">V 235</ref><!--byz222-->. Поскольку камень сохранился целиком (что подтверждает и 
+                   симметрическое расположение сrucis monogrammaticae), то буквы КОМ могут быть лишь сокращением. В византийской эпиграфике оно 
+                   употребляется для слова κώμη «село» (здесь, явно, неуместного) или «комит» (Avi-Yоnah 1940, 77–78), однако в виду того, что неизвестны случаи
+                   применения последнего термина к женщинам, данные буквы остается расшифровывать лишь как «комитисса». Термин «комитисса», означающий
+                   «жена комита» известен с V века (см. Sophocles, s.v.).</p>
+            <p>Crux monogrammatica в Крыму известен также по <ref type="inscription">V 44</ref><!--byz044--> (IV–V вв.), <ref type="inscription">V 294</ref><!--byz284--> (IV–VI вв.)
+               и <ref type="inscription">V 316</ref><!--byz282--> (770 г.); ср. также MAMA I 371; Beševliev 1964, № 7, 41, 93, 
+               96, 116, 241. Шрифт надписи больше всего похож на <ref type="inscription">V 56</ref><!--byz056-->, <ref type="inscription">V 57</ref><!--byz057-->, 
+               <ref type="inscription">V 58</ref><!--byz058-->, <ref type="inscription">V 59</ref><!--byz059-->. Альфа с ломаной перекладиной встречается в 
+               датированных надписях 
+                   Херсонеса до нач. Х в., однако все надписи с формулой «О молитве» относятся к ранневизантийской эпохе. В пользу такой датировки говорит и 
+                   использование мрамора.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The exact provenance of the inscription is impossible to determine. The stone was used for the construction of a gazebo for Selâmet Giray and 
+               was probably brought from somewhere in Mountainous Crimea. The two closest sites to Bakhchisaray, with Early Byzantine buildings, are Tepe-Kermen 
+               and Bakla. Our inscription is a typical Early Byzantine dedication, probably from some church, and it is the only Early Byzantine in date  in 
+               Mountainous Crimea. The possible candidates for original location can be Bakla, Eski-Kermen and Mangup.</p>
+          <p> On the formula, see Introduction <ref type="introduction">IV.3.B.b</ref>. The name Mary occurs also in  <ref type="inscription">V 62</ref><!--byz062--> 
+             and <ref type="inscription">V 235</ref><!--byz222-->. Because the stone is fully preserved (which is confirmed by the symmetrical position crucis monogrammaticae),
+             the letters КОМ can only represent an abbreviation. In Byzantine epigraphy, such an abbreviation usually signifies κώμη "village" (here clearly inappropriate)
+             or "comes" (Avi-Yоnah 1940, 77–78), although this term is never applied to women, thus the remaining possibility is to interpret it as "cometissa." The term, 
+             which means "a wife of comes" is known since the Vth century (see Sophocles, s.v.).</p> 
+            <p>Crux monogrammatica is also known in Crimea from <ref type="inscription">V 44</ref><!--byz044--> (IV-Vth century), 
+               <ref type="inscription">V 294</ref><!--byz284--> (IV-Vth century), and <ref type="inscription">V 316</ref><!--byz282--> (770 C.E.);
+               cf. also MAMA I 371; Beševliev 1964, № 7, 41, 93, 96, 116, 241. The script most closely resembles that of 
+               <ref type="inscription">V 56</ref><!--byz056-->, <ref type="inscription">V 57</ref><!--byz057-->, <ref type="inscription">V 58</ref><!--byz058-->, 
+               <ref type="inscription">V 59</ref><!--byz059-->. Alpha with broken crossbar occurs in dated inscriptions of Cherson{esos} before the early Xth century,
+            however all inscriptions using the formula "for a prayer" belong to the Early Byzantine period. The use of marble also supports this date.</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="ὑπέρ">Ὑπὲρ</w> <w lemma="εὐχή">εὐχῆς</w> <g ref="#staurogram"/> <persName type="attested" ref="#person275"><name nymRef="Μαρία">Μαρίας</name></persName> <w lemma="κομήτισσα"><expan><abbr>κομ</abbr><ex>ητίσσης</ex></expan></w>.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

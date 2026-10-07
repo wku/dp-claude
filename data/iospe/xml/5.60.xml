@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Евфросинии</title><title xml:lang="en">Epitaph of Euphrosyne</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.60</idno><idno type="PE">PE5000060</idno>
+            <idno type="AYV2012-number">byz060</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>4142</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>4142</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Наверху заглаженной лицевой стороны вырезан крест с расширяющимися концами в круге; в средней части — по краям изображения 
+                              двух деревьев; внизу полуовальная ниша. Обломана сверху, стесана с боков, сколы по поверхности.</p>
+                           <p xml:lang="en">On the planed front, at the top: incised cross with flaring arms, in a circle. In the middle of the front:
+                           images of two trees along the sides of the panel; at the bottom of the front: semicircular niche.  Broken off at the top, cut on the left and 
+                           right; chipped all over.</p>
+                           <dimensions>
+                              <height>52.0</height>
+                              <width>17.0</width>
+                              <depth>9.5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">Средняя часть.</seg>
+                           <seg xml:lang="en">In the centre of the middle section of the panel.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы неглубокие, угловатые. Альфа с ломаной перекладиной, 
+                           дельта с удлиненной вверх правой гастой и апексами на перекладине, эпсилон, омикрон и сигма ромбовидные, ипсилон У-образный с усиками наверху, 
+                           омега W-образная.</seg>
+                        <seg xml:lang="en">Lapidary. Letters are shallow, angular. Alpha with broken crossbar, delta with projecting right hasta and downward serifs at 
+                           either end of the horizontal; diamond-shaped epsilon, omicron and sigma (with inward-pointed serifs); У-shaped upsilon with serifs at the tops of verticals; W-shaped omega. </seg>
+                        <height unit="cm">1.5–2.0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0401" notAfter="0700" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">V–VII вв.</seg>
+                        <seg xml:lang="en">V–VIIth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08"> август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>.</seg>
+                     <seg xml:lang="en"> <date when="1999-05">May 1999</date>, <date when="2001-08"> August 2001</date>, <date when="2002-09"> September 2002</date>, <date when="2003-09"> September 2003</date>, <date when="2004-09"> September 2004</date>, <date when="2005-09"> September 2005</date>, <date when="2006-09"> September 2006</date>, <date when="2007-09"> September 2007</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1898 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Стена, куртины XVI–XVII, наружная сторона, каменный завал.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1898, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Wall, curtain walls XVI-XVII, the outer side, rubble fill.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-03-20" who="CB">Andrey's corrections</change>
+          <change when="2013-10-24" who="TW">Added image code</change>
+          <change when="2013-01-15" who="AL">inserted English names in commentary</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-12" who="AG">several lines translated</change>
+         <change when="2012-05-17" who="AG">several lines translated, some corrections</change>
+          <change when="2012-04-25" who="AFS">bibliography updated</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-04-11" who="AG">apparatus tagged</change>
+         <change when="2012-02-22" who="AG">bibliography tags tidied</change>
+          <change when="2012-02-20" who="AL">tagged bibliography</change>
+         <change when="2012-01-11" who="AG">small corrections, 1 line translated</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.60">
+                <desc xml:lang="en">Photograph of face (from ??)</desc>
+                <desc xml:lang="ru">Фотография лицевой части (из ??)</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Латышев 1899a--><ptr target="bib:b0136"/>, 49–50, № <citedRange>46</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="9"><rdg source="bib:b0136">ΔΟΜΗΝ resp. ἀ{ο}μὴν</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Об упокоении рабы Божьей Евфросинии; в 4-й (?) месяц, 31-го числа.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>For the resting of the servant of God, Euphrosyne, in the 4th (?) month, 31st day.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+                <p>Надпись экспонировалась на выставке «Византийский Херсон» (Чичуров 1991, 27, № 11).</p>
+            <p>Надгробие Евфросинии — единственное в Херсоне, имеющее изображения.  Деревья на камне — это, по предположению Латышева, кипарис и ель. 
+                   Ниша внизу надгробия, возможно, служила для постановки светильника, как в поздневизантийских памятниках Горного Крыма (ср., например, <ref type="inscription">V 169</ref><!--byz162-->).</p>
+                <p>4–6. О формуле надписи см. <ref type="introduction">IV.3.F.a</ref>.</p>
+                <p>7–8. Имя Εὐφροσύνη относится к символическим («веселье»), частым у ранних христианок, и встречается в христианской эпиграфике, согласно PHI7 Database, 
+                   10 раз (например, Wessel 1989, № 1093, 1642–1645; Sironen 1997, № 194; Lefebvre 1907, № 250).</p>
+            <p>9. Число месяца (ср. <ref type="inscription">V 89</ref><!--byz089-->, <ref type="inscription">V 151</ref><!--byz145-->) читается плохо, однако, как кажется, восстанавливается следующим образом. Во-первых, речь может идти только о месяце с 
+                   31 днем, т.е. октябре, декабре, январе, марте, мае, июле или августе. Во-вторых, остатки от низа буквы, обозначающей число месяца, более всего похожи 
+                   на дельту. Если счет месяцев в ранневизантийском Херсоне был сентябрьским (см. комм. к <ref type="inscription">V 6</ref><!--byz005-->), тогда четвертый месяц — это декабрь. На сокращение резчика
+                   могло подвигнуть и совпадение цифры с первой буквой имени месяца. Кроме того, иная форма букв в 9-й строке (они не вытянуты, как предыдущие, по вертикали)
+                   наталкивает на мысль о том, что дата (не вписывающаяся, к тому же, в формулу) была добавлена позднее, после смерти Евфросинии, на том неровном пространстве, 
+                   которое не было заглажено под надпись, и потому дана в сокращении.</p>
+                <p>Палеографический анализ надписи затрудняется тем обстоятельством, что все округлые формы были превращены резчиком для удобства написания в угловатые. 
+                   В общем и целом палеография похожа на <ref type="inscription">V 62</ref><!--byz062-->; форма дельты близка к <ref type="inscription">V 6</ref><!--byz005-->.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+             <p>The inscription was included in the exhibition 'Byzantine Chersonesos' (Chichurov 1991, 27, № 11).</p>
+            <p>The tombstone of Euphrosyne is the only one in Cherson that is decorated with images. The trees, according to Latyshev, might be a cypress and a fir.
+                The niche at the bottom might have housed a lamp, as in the Late Byzantine examples from the Mountainous Crimea (see, e.g., <ref type="inscription">V 169</ref><!--byz162-->).</p>
+            <p>4-6. On the formula, see  <ref type="introduction">IV.3.F.a</ref>.</p>
+            <p>7-8. The name  Εὐφροσύνη is symbolic, it means "joy" or "merriment", and is common among early Christians. In the Christian epigraphy it is attested 10 times,
+               according to  PHI7 Database (see also Wessel 1989, no. 1093, 1642–1645; Sironen 1997, no. 194; Lefebvre 1907, no. 250).</p>
+            <p>9. The day of the  month (cf. <ref type="inscription">V 89</ref><!--byz089--> and <ref type="inscription">V 151</ref><!--byz145-->) is not very legible, but it seems that it should be restored in the following way: firstly, it can only be a month with
+             31 days, that  is, October, December, January, March, May, July, or August. Secondly, the traces of the bottom end of the letter strokes designating the date look
+             most like delta. If in the Early Byzantine Cherson the year began in September (see commentary to <ref type="inscription">V 6</ref><!--byz005-->), then the fourth month would be December. The letter carver
+             may have chosen to abbreviate the month in order to distinguish the numeral from the first letter of the month, which otherwise happen to be the same. In addition, 
+             the difference of lettershapes in line 9 (they are not elongated as in the previous lines) suggests that the date (which also does not fit the formula) was added
+             later, after the death of Euphrosyne, in the uneven space, which had not been prepared for the inscription, and for that reason was given only in abbreviated form.</p>
+             <p>The analysis of script is made difficult by the fact that the mason was forced to turn all rounded forms into angular for the ease of carving. In general, 
+             the script is similar to <ref type="inscription">V 62</ref><!--byz062-->, and the shape of delta to <ref type="inscription">V 6</ref><!--byz005-->.</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><g ref="#stauros"/> <w lemma="ὑπέρ">Ὑπὲρ</w>
+               <lb n="2"/><w lemma="ἀνάπαυσις">ἀνα<lb n="3" break="no"/>παύσε<lb n="4" break="no"/>ως</w> <w lemma="ὁ">τῆς</w>
+               <lb n="5"/><w lemma="δοῦλος">δούλης</w>
+               <lb n="6"/><w lemma="ὁ">τοῦ</w> <persName type="divine" key="theos"><roleName><w lemma="θεός"><expan><abbr>θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w></roleName></persName>
+               <lb n="7"/><persName type="attested" ref="#person43"><name nymRef="Εὐφροσύνη">Εὐφρο<lb n="8" break="no"/>σύνης</name></persName>,
+               <lb n="9"/><date><w lemma="μήν">μην<unclear>ὶ</unclear></w> <num value="4"><unclear cert="low">δ</unclear></num>
+                  <num value="31">λα</num></date>.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

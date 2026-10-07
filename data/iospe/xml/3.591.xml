@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Incertum</title><title xml:lang="en">Incertum</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.725</idno><idno type="PE">PE3000392</idno><idno type="filename">3.591</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc22">
+                     <seg xml:lang="ru">Incertum.</seg>
+                     <seg xml:lang="en">Incertum.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Частично сохранился левый край с остатками четырех строк
+                              надписи. Поверхность сглажена со всех сторон.</p>
+                           <p xml:lang="en"/>
+                           <dimensions>
+                              <height unit="cm">8,3</height>
+                              <width unit="cm">4,5</width>
+                              <depth unit="cm">8,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы неровные, правая вертикаль ню слегка приподнята,
+                           сигма с наклонно поставленными или почти горизонтальными верхней и нижней
+                           гастами, отсутствие утолщений на концах линий букв.</seg>
+                        <seg xml:lang="en">Uneven letters, nu with short right vertical; absence of flaring of the ends of hastae.</seg>
+                        <height unit="cm">1,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="ru"/>
+                        <seg xml:lang="en"/>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0101" evidence="палеография">
+                        <seg xml:lang="ru">III–II в. до н.э.</seg>
+                        <seg xml:lang="en">III-II century B.C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#panskoe">Панское.</placeName>
+                        <rs type="circumstances">Найдена в 1969 г. Раскопки А.Н. Щеглова.</rs>
+                        <rs type="context">При раскопках кургана вблизи с.
+                           Панского. Вместе с антропоморфным надгробием была использована в
+                           облицовке ямы, впущенной в насыпь кургана. </rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Panskoe.</placeName>
+                        <rs type="circumstances">Found in 1969, excavations of A.N. Shcheglov.</rs>
+                        <rs type="context">In a kurgan near the village of Panskoe; used as revetment of a shaft dug into the kurgan mound.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru"/>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en"/>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi. В настоящее время местонахождение камня
+                        неизвестно.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.725">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Соломоник 1974 --><ptr target="bib:b0392"/>, 39, № <citedRange>5</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Соломоник, ГХХ, 1984 --><ptr target="bib:b0798"/>, 7, № <citedRange>3</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><orig>Ν</orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><orig>ΟΣ</orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="3"/><orig>ΔΕ<unclear>Λ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4"/><orig>ΣΤ<unclear>Α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="3">
+                  <rdg>Δελ̣[φος] ? <note>ed. pr.</note></rdg>
+               </app>
+               <app loc="3-4">
+                  <rdg>[Ἀρι]|στα̣[γόρας] <note>vel sim. ? ed. pr.</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Не предлагается.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Not attempted.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

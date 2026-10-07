@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+                <fileDesc>
+                        <titleStmt>
+                                <title>Controlled vocabulary for Dating Criteria</title>
+                        </titleStmt>
+                        <publicationStmt>
+                                <p/>
+                        </publicationStmt>
+                        <sourceDesc>
+                                <p/>
+                        </sourceDesc>
+                </fileDesc>
+        </teiHeader>
+        <text>
+                <body>
+                        <ab type="authority_list">
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Appearance of the monument</seg>
+                                        <seg type="representation" xml:lang="ru">Облик_памятника</seg>
+                                        <seg type="representation" xml:lang="uk">Зовнішній вигляд пам'ятника</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Architectural context</seg>
+                                        <seg type="representation" xml:lang="ru">Архитектурный_контекст</seg>
+                                        <seg type="representation" xml:lang="uk">Архітектурний контекст</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Archaeological context</seg>
+                                        <seg type="representation" xml:lang="ru">Археологический_контекст</seg>
+                                        <seg type="representation" xml:lang="uk">Археологічний контекст</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Architectural-archaeological context</seg>
+                                        <seg type="representation" xml:lang="ru">Архитектурно-археологический контекст</seg>
+                                        <seg type="representation" xml:lang="uk">Архітектурно-археологічний контекст</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Ceramic date</seg>
+                                        <seg type="representation" xml:lang="ru">Датировка_керамики</seg>
+                                        <seg type="representation" xml:lang="uk">Типологія</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Character of representation</seg>
+                                        <seg type="representation" xml:lang="ru">Характер_изображения</seg>
+                                        <seg type="representation" xml:lang="uk">Характер зображення</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Date of painting</seg>
+                                        <seg type="representation" xml:lang="ru">Датировка росписи</seg>
+                                        <seg type="representation" xml:lang="uk">Датування розпису</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Date of V 209</seg>
+                                        <seg type="representation" xml:lang="ru">Указание № V 209</seg>
+                                        <seg type="representation" xml:lang="uk">Вказівка № V 209</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Decoration</seg>
+                                        <seg type="representation" xml:lang="ru">Декорация</seg>
+                                        <seg type="representation" xml:lang="uk">Декорація</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Epigraphical context</seg>
+                                        <seg type="representation" xml:lang="ru">Эпиграфический_контекст</seg>
+                                        <seg type="representation" xml:lang="uk">Епіграфічний контекст</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Explicit date</seg>
+                                        <seg type="representation" xml:lang="ru">Указание_надписи</seg>
+                                        <seg type="representation" xml:lang="uk">Вказівка напису</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Form of the cross</seg>
+                                        <seg type="representation" xml:lang="ru">Форма креста</seg>
+                                        <seg type="representation" xml:lang="uk">Форма хреста</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Form of gravestone</seg>
+                                        <seg type="representation" xml:lang="ru">Форма надгробия</seg>
+                                        <seg type="representation" xml:lang="uk">Форма надгробка</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <!--<seg type="representation" xml:lang="en">Form of the stone</seg>
+                                        <seg type="representation" xml:lang="ru">Форма надгробия</seg>
+                                        <seg type="representation" xml:lang="uk">NEEDS UPDATING</seg>-->
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Formula</seg>
+                                        <seg type="representation" xml:lang="ru">Формула</seg>
+                                        <seg type="representation" xml:lang="uk">Формула</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">General appearance</seg>
+                                        <seg type="representation" xml:lang="ru">Общий_облик</seg>
+                                        <seg type="representation" xml:lang="uk">Загальний вигляд</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Historical context</seg>
+                                        <seg type="representation" xml:lang="ru">Исторический_контекст</seg>
+                                        <seg type="representation" xml:lang="uk">Історичний контекст</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Image</seg>
+                                        <seg type="representation" xml:lang="ru">Изображение</seg>
+                                        <seg type="representation" xml:lang="uk">Зображення</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Language</seg>
+                                        <seg type="representation" xml:lang="ru">Язык</seg>
+                                        <seg type="representation" xml:lang="uk">Мова</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Decorative elements</seg>
+                                        <seg type="representation" xml:lang="ru">Художественное_оформление</seg>
+                                        <seg type="representation" xml:lang="uk">Художнє оформлення</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Monogram</seg>
+                                        <seg type="representation" xml:lang="ru">Монограмма</seg>
+                                        <seg type="representation" xml:lang="uk">Монограма</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <!--<seg type="representation" xml:lang="en">Monograms</seg>
+                                        <seg type="representation" xml:lang="ru">Монограммы</seg>
+                                        <seg type="representation" xml:lang="uk">Монограми</seg>-->
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Nearby graffiti</seg>
+                                        <seg type="representation" xml:lang="ru">Окружающие граффити</seg>
+                                        <seg type="representation" xml:lang="uk">Оточуючі графіті</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Onomastics</seg>
+                                        <seg type="representation" xml:lang="ru">Ономастика</seg>
+                                        <seg type="representation" xml:lang="uk">Ономастика</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Orthography</seg>
+                                        <seg type="representation" xml:lang="ru">Орфография</seg>
+                                        <seg type="representation" xml:lang="uk">Орфографія</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Palaeography</seg>
+                                        <seg type="representation" xml:lang="ru">Палеография</seg>
+                                        <seg type="representation" xml:lang="uk">Палеографія</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Phonetics</seg>
+                                        <seg type="representation" xml:lang="ru">Фонетика</seg>
+                                        <seg type="representation" xml:lang="uk">Фонетика</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Find place</seg>
+                                        <seg type="representation" xml:lang="ru">Место_находки</seg>
+                                        <seg type="representation" xml:lang="uk">Місце знахідки</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Prosopography</seg>
+                                        <seg type="representation" xml:lang="ru">Просопография</seg>
+                                        <seg type="representation" xml:lang="uk">Просопографія</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Script</seg><seg
+                                                type="representation" xml:lang="ru">Шрифт</seg><seg
+                                                type="representation" xml:lang="uk">Шрифт</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Style of painting</seg>
+                                        <seg type="representation" xml:lang="ru">Стиль_росписей</seg>
+                                        <seg type="representation" xml:lang="uk">Стиль розписів</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Style of representation</seg>
+                                        <seg type="representation" xml:lang="ru">Стиль изображения</seg>
+                                        <seg type="representation" xml:lang="uk">Стиль зображення</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Superscript nu</seg>
+                                        <seg type="representation" xml:lang="ru">Надстрочное ню</seg>
+                                        <seg type="representation" xml:lang="uk">Надрядковий ню</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Terminology</seg>
+                                        <seg type="representation" xml:lang="ru">Лексика</seg>
+                                        <seg type="representation" xml:lang="uk">Лексика</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Titulature</seg>
+                                        <seg type="representation" xml:lang="ru">Титулатура</seg>
+                                        <seg type="representation" xml:lang="uk">Титулатура</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Type of gravestone</seg>
+                                        <seg type="representation" xml:lang="ru">Тип надгробия</seg>
+                                        <seg type="representation" xml:lang="uk">Тип надгробка</seg>
+                                </ab>
+                                <ab type="entry">
+                                        <seg type="representation" xml:lang="en">Type of representation</seg>
+                                        <seg type="representation" xml:lang="ru">Тип изображения</seg>
+                                        <seg type="representation" xml:lang="uk">Тип зображення</seg>
+                                </ab>
+                        </ab>
+
+                </body>
+        </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Sponsors</title>
+        <title xml:lang="ru">Спонсоры</title>
+        <title xml:lang="uk">Спонсори</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text xml:lang="en">
+        <body>
+       <div> 
+          <head>Current and Main</head>
+         <list type="simple">
+           <item><ref target="http://www.kcl.ac.uk/">King's College London</ref> (2022)</item>         
+          <item><ref target="http://www.leventisfoundation.org/">A.G. Leventis Foundation</ref> (2011-2016)</item>
+         </list>
+       </div>
+        <div xml:id="previous">
+          <head>Previous</head>
+          <list type="simple">
+            
+            <item><ref target="http://www.britac.ac.uk/">British Academy</ref> (2008-2009)</item>
+            <item><ref target="http://www.cnrs.fr/">Centre nationale de la recherche scientifique</ref></item>
+            <item><ref target="http://www.lclf.harvard.edu/">Loeb Library Foundation</ref>, Harvard University (2011-2012)</item>
+            <item><ref target="https://michaelmarkscharitabletrust.org/">Michael Marks Charitable Fund</ref></item>
+            <item><ref target="www.diplomatie.gouv.fr/">Ministère des Affaires étrangères et européennes (MAEE)</ref></item>
+            <item><ref target="http://www.rfbr.ru/rffi/ru/">Russian Foundation for Basic Research</ref></item>
+            <item><ref target="http://www.rfh.ru/">Russian Foundation for the Humanities</ref></item>
+            <item><ref target="http://www.snf.ch/">Swiss National Science Foundation (SNSF)</ref></item>
+          </list>
+        </div>
+       <!--<div> 
+          <head>Supporting Institutions</head>
+         <list type="simple">
+           <item><ref target="http://www.kcl.ac.uk/">King's College London</ref></item>
+           <item><ref target="http://ausonius.u-bordeaux3.fr/">Institute Ausonius</ref>, CNRS, Bordeaux</item>
+           <item><ref target="http://www.igh.ru/">Institute of World History</ref>, Russian Academy of Sciences</item>
+           <item><ref target="http://www.hermitagemuseum.org/html_En/index.html">The Hermitage</ref>, St Petersburg</item>
+           <item><ref target="http://www.uai-iua.org/">International Union of Academies</ref></item>
+        </list></div>-->
+      </body>
+      </text>
+      
+      
+      <text xml:lang="ru">
+        <body>
+          <div>
+            <head>Текущие и Основные</head>
+            <list type="simple">
+              <item><ref target="http://www.kcl.ac.uk/">King's College London</ref> (2022)</item>         
+              <item><ref target="http://www.leventisfoundation.org/">A.G. Leventis Foundation</ref> (2011-2016)</item>
+        </list>
+          </div>
+          <div>
+          <head>Бывшие</head>
+        <list type="simple">
+          <item><ref target="http://www.lclf.harvard.edu/">Библиотека Лойба фонд</ref>, Гарвардский университет (2011-2012)</item>
+          <item><ref target="http://www.britac.ac.uk/">Британская Академия</ref> (2008-2009)</item>
+          <item><ref target="https://michaelmarkscharitabletrust.org/">Майкл Маркс благотворительный Фонд</ref></item>
+          <item><ref target="www.diplomatie.gouv.fr/">Министерство иностранных и европейских дел Франции</ref></item>
+          <item><ref target="http://www.snf.ch/">Национальный исследовательский фонд Швейцарии</ref></item>
+          <item><ref target="http://www.cnrs.fr/">Национальный центр научных исследований Франции</ref></item>
+          <item><ref target="http://www.rfh.ru/">Российский гуманитарный научный фонд</ref></item>
+          <item><ref target="http://www.rfbr.ru/rffi/ru/">Российскй фонд фундаментальных исследований</ref></item>
+        </list>
+          </div>
+          <!--<div>
+          <head>Организации связанные с проектом</head>
+        <list type="simple">
+          <item><ref target="http://www.kcl.ac.uk/">Кингс Колледж Лондон</ref></item>
+          <item><ref target="http://ausonius.u-bordeaux3.fr/">Институт Ausonius</ref>, Национальный центр научных исследований Франции, Бордо</item>
+          <item><ref target="http://www.igh.ru/">Институт Всемирной Истории</ref>, Российская Академия Наук, Москва</item>
+          <item><ref target="http://www.hermitagemuseum.org/html_Ru/index.html">Государственный Эрмитаж</ref>, Санкт-Петербург</item>
+          <item><ref target="http://www.uai-iua.org/">Международный Союз Академий</ref></item>
+        </list>
+          </div>-->
+      </body>
+      </text>
+      <text xml:lang="uk">
+        <body>
+          <div> 
+            <head>Поточні та Основні</head>
+            <list type="simple">
+              <item><ref target="http://www.kcl.ac.uk/">King's College London</ref></item>         
+              <item><ref target="http://www.leventisfoundation.org/">A.G. Leventis 
+                Foundation</ref> (2011-2016)</item>
+            </list>
+          </div>
+          <div>
+            <head>Колишні</head>
+            <list type="simple">
+              
+              <item><ref target="http://www.britac.ac.uk/">Британська Академія</ref> (2008-2009)</item>
+              <item><ref target="http://www.cnrs.fr/">Національний центр наукових досліджень Франції</ref></item>
+              <item><ref target="http://www.lclf.harvard.edu/">Бібліотека Лойба фонд</ref>
+                Гарвардський університет (2011-2012)</item>
+              <item><ref target="https://michaelmarkscharitabletrust.org/">Майкл Маркс 
+                благодійний фонд</ref></item>
+              <item><ref target="www.diplomatie.gouv.fr/">Міністерство закордонних 
+                та європейських справ Франції</ref></item>
+              <item><ref target="http://www.rfbr.ru/rffi/ru/">Російський фонд 
+                фундаментальних досліджень</ref></item>
+              <item><ref target="http://www.rfh.ru/">Російський гуманітарний науковий фонд</ref></item>
+              <item><ref target="http://www.snf.ch/">Національний дослідницький фонд Швейцарії</ref></item>
+            </list>
+          </div>
+          <!--<div> 
+          <head></head>
+         <list type="simple">
+           <item><ref target="http://www.kcl.ac.uk/"></ref></item>
+           <item><ref target="http://ausonius.u-bordeaux3.fr/"></ref>, </item>
+           <item><ref target="http://www.igh.ru/"></ref>, </item>
+           <item><ref target="http://www.hermitagemuseum.org/html_En/index.html"></ref>, </item>
+           <item><ref target="http://www.uai-iua.org/"></ref></item>
+        </list></div>-->
+        </body>
+      </text>
+      
+    </group>
+  </text>
+</TEI>

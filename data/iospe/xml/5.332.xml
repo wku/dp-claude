@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Сотиады <certainty cert="low" locus="value" match=".."/></title><title xml:lang="en">Epitaph of Sotias <certainty cert="low" locus="value" match=".."/></title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.332</idno><idno type="PE">PE5000332</idno>
+            <idno type="AYV2012-number">byz313</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                 <altIdentifier xml:lang="ru">
+                     <repository>Государственный исторический музей</repository>
+                    <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>State Historical Museum</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Проконесский мрамор.</material>
+                            <material xml:lang="en">Proconnesian marble.</material>
+                           <p xml:lang="ru">Лицевая сторона отшлифована. Обломана со всех строн; центр и правая часть строки 2 залиты красной краской.</p>
+                           <p xml:lang="en">The front is polished. Broken on all sides; the middle and right half of line 2 are covered in red paint.</p>
+                           <dimensions>
+                              <height>42,0</height>
+                              <width>46,0</width>
+                              <depth>4,0–5,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На лицевой стороне.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с наклоненной вправо перекладиной.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with right-slanting crossbar.</seg>
+                        <height unit="cm">3,5–4,5.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p049">
+                        <seg xml:lang="ru">Гермонасса.</seg>
+                        <seg xml:lang="en">Hermonassa.</seg>
+                     </origPlace>
+                     <origDate notBefore="0351" notAfter="0500" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">2 пол. IV–V вв. </seg>
+                        <seg xml:lang="en">second half of IV-Vth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2008-11">ноябрь 2008</date>.</seg>
+                     <seg xml:lang="en"><date when="1999-05">May 1999</date>, <date when="2008-11">November 2008</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#taman">Тамань.</placeName>
+                        <rs type="circumstances">1954 г., раскопки Б.А. Рыбакова.</rs>
+                        <rs type="context">Около крестовокупольного храма, раскоп XXXа, кв. 182.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Taman.</placeName>
+                        <rs type="circumstances">1954, excavations of B.A. Rybakov.</rs>
+                        <rs type="context">Near the cross-domed church, excavation trench XXXa, grid square 182.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Москва, Россия.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Moscow, Russian Federation.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-11-07" who="TW">Added image code</change>
+         <change when="2012-09-05" who="AG">several lines translated, apparatus tagged</change>
+          <change when="2012-09-03" who="AL">checked metadata</change>
+          <change when="2012-08-23" who="AL">checked metadata</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+          <change when="2012-05-23" who="AFS">corrections in metada,tagging greek text</change>
+         <change when="2012-02-28" who="AL">text tagged, bibliography tagged, original dates tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.332">
+                <desc xml:lang="en">Photograph of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+                <bibl n="L1"><!-- КХНБ --><ptr target="bib:b0068"/>, <citedRange> 42</citedRange></bibl>
+               <bibl n="2"><!-- Виноградов 2006 --><ptr target="bib:b0046"/>, 293, № <citedRange>4</citedRange></bibl>
+               <bibl n="2.1"><!-- Виноградов 2010a --><ptr target="bib:b0414"/>, <citedRange>151-152</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="apparatus">
+             <listApp>
+               <app loc="2"><rdg source="bib:b0068">ὁ [δοῦλος τοῦ θεοῦ δεῖνα (?)]</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Здесь лежит Сотиада (?).</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Here lies Sotias (?).</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Это надгробие, вероятно, христианское. К сожалению, обломы по всем краям не позволяют 
+                ничего сказать о первоначальной форме памятника. Но шлифованная поверхность проконесского 
+                мрамора свидетельствует, скорее всего, о вторичном использовании античного архитектурного 
+                фрагмента. Точный археологический контекст находки неизвестен: в отчете Рыбакова надпись не 
+                упомянута.</p>
+                <p> 1–2. Относительно формулы см. <ref type="introduction">IV.3.F.d</ref>.</p>
+                <p>2. Имя усопшего залито после находки надписи красной масляной краской, и с уверенностью 
+                    читаются только 3 первые его буквы. Имя Сотиада трижды засвидетельствовано в надписи с 
+                    Коса (Iscr. Cos, № 165, 9c; вариант — Σωτία (Syll. 3rd ed., № 901)). Не исключено, однако, что в нашем 
+                    случае это может быть мужское имя Σωτίας, родственное Σωτιάδης (IG V 3) и, более отдаленно, 
+                    Σωτᾶς (LGPN IV, 325) и Σώτιος (Anthologiae graecae appendix, 604).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>This is probably a Christian tombstone. Unfortunately, the damage to all sides prevents us from reaching any conclusion about the original
+            shape of the monument. The polished front and the proconnesian marble suggest that we are mostly likely dealing with a reused architectural 
+            fragment from classical antiquity. The exact archaeological context of the find is unknown: in Rybakov's field report, the monument is not mentioned.</p>
+            <p>1–2. On the formula, see Introduction <ref type="introduction">IV.3.F.d</ref>.</p>
+            <p>2. Subsequent to discovery, the name of the deceased has suffered damage from a spill of red oil paint, and only 3 letters are clearly legible.
+               The name Sotias (here Soteas) is attested three times in a Coan inscription (Iscr. Cos, № 165, 9c; variant — Σωτία (Syll. 3rd ed., № 901)). We cannot rule out, however,
+               that in our case it might be the male name Σωτίας, a cognate of Σωτιάδης (IG V 3) or, more distantly, of Σωτᾶς (LGPN IV, 325) and Σώτιος 
+               (Anthologiae graecae appendix, 604).</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="ἐνθάδε"><supplied reason="lost">Ἐνθ</supplied>άδε</w> <w lemma="κατάκειμαι">κατά<lb n="2" break="no"/><supplied reason="lost">κει</supplied>τε</w> <persName type="attested" ref="#person413"><name nymRef="Σωτιάς">Σωτ<unclear>ηά</unclear><!-- ? -->ς</name></persName>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

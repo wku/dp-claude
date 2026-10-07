@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Декрет в честь Коккея</title>
+            <title xml:lang="en">Decree honouring Cocceius</title>
+            <editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname>
+            </persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.2</idno>
+            <idno type="filename">1.2</idno>
+            <idno type="PE">PE1000002</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Одесский археологический музей</repository>
+                     <idno>50723 (fr. a), 50720 (fr. b1+2), 50719 (fr. c), 50717a (fr. d), 50716
+                        (fr. e), 50681 (fr. g1), 50667 (fr. g2), 50678 (fr. g3), 50671 (fr. i),
+                        54786 (fr. k)</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Odessa Archaeological Museum</repository>
+                     <idno>50723 (fr. a), 50720 (fr. b1+2), 50719 (fr. c), 50717a (fr. d), 50716
+                        (fr. e), 50681 (fr. g1), 50667 (fr. g2), 50678 (fr. g3), 50671 (fr. i),
+                        54786 (fr. k)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg xml:lang="ru">Почетный декрет.</seg>
+                     <seg xml:lang="en">Honorific decree.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru">Мрамор серый.</material>
+                           <material xml:lang="en">Grey marble.</material>
+                           <p xml:lang="ru">Нижняя часть. Лицевой фас тщательно обработан, поле надписи отполировано и окружено рельефной рамкой с полировкой. В
+                              нижней части лицевого фаса, за пределами поля надписи обработка суммарная, на камне заметны следы троянки. Видимо, эта часть была
+                              предназначена для закрепления стелы на постаменте. Оборотная сторона обработана грубо и частично оббита, вероятно, при вторичном
+                              использовании. Боковые фасы в сохранившихся частях обработаны суммарно, нижний – грубо. В нижней части левого фаса сохранились
+                              отверстия для крепления плиты с надписью. В настоящее время плита разбита. В момент поступления в Одесский арехологический музей
+                              фрагментов было 10, один из них был утерян уже ко времени Латышева. Из 9 фрагментов, осмотренных Латышевым, в музее имеется 8 (пропал
+                              фрагмент f, содержащий части строк 14-16). Фрагмент b теперь разбит на два фрагмента (b1 и b2), а фрагмент g – на три (g1, g2, g3).</p>
+                           <p xml:lang="ru">Орнаментация: Рельефная профилированная рамка справа и слева, справа сбита, сохранилась слева. Состоит из углубления,
+                              отделяющего плоскую крайнюю поверхность от валика, завершающегося плавным округлым желобом, отделенным от поля надписи ребром. </p>
+                           <p xml:lang="ru">Ширина рамки слева: 11,2-11,4, справа: 9,8. Поле надписи углублено по сравнению с рамкой на 4,7. Высота пустого поля под
+                              надписью: 31,1-32,4. Размер углубления на боковом фасе 4,8 (высота) х 6,8 (ширина), расстояние от нижнего края 18,0.</p>
+                           <p xml:lang="en">Bottom part of a panel. The front is carefully worked: the epigraphic field is polished and framed by a polished relief border.
+                              At the bottom of the front, outside the epigraphic field, the surface is summarily treated, showing tooth chisel marks. This part was apparently meant
+                           to be fitted in a base. The back is roughly worked and partly chipped off, probably as a result of secondary use. The sides of the preserved sections of the
+                           panel are treated summarily, the bottom - roughly. In lower part of the left side, there are dowel holes. The panel is broken.
+                           10 fragments had originally arrived at the Odessa Archaeological Museum, but one was lost already by Latyshev's time. Of 9 fragments inspected by Latyshev, 8 are 
+                           still in the museum's collection, while fragment f, with remains of lines 14-16, is missing. Fragment b has split into two pieces (b1 and b2), 
+                           and fragment g into three (g1, g2, g3).</p>
+                           <p>Decoration: Relief border on the right (damaged) and left (preserved). The profile of the border consists of a quirk, separating the flat outer margin from cyma reversa, which 
+                              ends with a fillet dropping to the inset epigraphic field.</p> 
+                           <p>Border width:  left 11,2-11,4cm, right 9,8. Epigraphic field is inset 4,7cm deep. Height of the uninscribed space below the epigraphic
+                           field is 31,1-32,4cm. Inset rectangle on the side: H. 4,8, W. 6,8; distance from the bottom - 18cm.</p>
+                           <dimensions>
+                              <height unit="cm">147,4</height>
+                              <width unit="cm">91,2</width>
+                              <depth unit="cm">19,4-20,4</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Верхняя часть отбита, в правой нижней
+                              части слегка выщерблено. Находится внутри рельефной рамки. Размеры
+                              полей: левое 1,7-2,1; правое 1,8; нижнее 7,0.
+                              <!-- so which are the dimensions of the epgraphic field? -->
+                           </seg>
+                           <dimensions>
+                              <height unit="cm">101,8</height>
+                              <width unit="cm">69,4</width>
+                           </dimensions>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. The top is broken off, the bottom right area is chipped and pitted. Inside the relief border. Margins: left 1,7-2,1; 
+                              right 1,8; bottom 7,0cm.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны аккуратно и глубоко, строчки ровные, хотя линии предварительной разметки на камне отсутствуют. Буквы украшены
+                           довольно крупными апексами. Ипсилон украшен горизонтальной чертой. Широко применяются лигатуры и словоделители в виде небольших
+                           треугольников, расположенных на середине высоты строк, а в 31 строке – в виде листка. Омикрон обычного размера, но в словах Μόκκα в 23 строке и
+                           Σεπτού в 25 сильно уменьшен. В 28 строке последняя альфа выписана на полях и также сильно уменьшена. Применяется два начертания сигмы –
+                           квадратная (вне лигатур редко) и обычная четырехчастная (преобладает). Среднее расстояние между строк: 0,6.</seg>
+                        <seg xml:lang="en">Letters are carefully and deeply cut, lines are straight, although there is no trace of ruling. Large serifs. Ypsilon  with decorative crossbar.
+                           Ligatures are frequent; word dividers: mostly in the shape of small triangles placed at mid-letter height, but in line 31 - an ivy leaf. Omicron 
+                           is of the same size as other letters, except in line 23 in Μόκκα and in line 25 in Σεπτού, where it is much smaller. In line 28, alpha appears 
+                           in the margin and is also much smaller. Two shapes of sigma are used: rectangular (rarely not in ligatures) and four-bar (predominates). 
+                           Average distance between lines: 0,6cm.</seg>
+                        <height unit="cm">1,9-2,4</height> <!-- В последней строке 2,5. -->
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0181-04-25" notAfter="0181-04-25" evidence="Указание_надписи">
+                        <seg xml:lang="ru">27 апреля 181 г. н.э.</seg>
+                        <seg xml:lang="en">April 27, 181 C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovskyvicinity">с. Чобручи (Молдавия,
+                           Слободзейский район) на левом берегу Днестра, поблизости от Слободзеи, в
+                           100 км от Белгорода (Аккермана).</placeName>
+                        <rs type="circumstances">Обнаружен в 1881 г. случайно</rs>
+                        <rs type="context">Вторичный. Во дворе крестьянского дома.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Cioburciu, Slobozia district, Transnistria, Moldova; near Slobozia, 100km from  
+                           Belgorod-Dnestrovsky (Akkerman).</placeName>
+                        <rs type="circumstances">Random find in 1881.</rs>
+                        <rs type="context">In the yard of a peasant's house. Secondary use.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Одесса.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Odessa.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Август 2006.</seg>
+                     <seg xml:lang="en">August 2006.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <!-- volNum = ﻿10-->
+      <revisionDesc>
+         <change when="2016-08-02" who="SS">encoded metadata and Leiden</change>
+         <change when="2016-05-18" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.2">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Юргевич 1883 --><ptr target="bib:b0886"/>, <citedRange>7-16</citedRange>
+               (= <bibl><!-- Jurgiewicz 1883 --><ptr target="bib:b0887"/>, <citedRange>83-88</citedRange></bibl>)</bibl>
+               <bibl n="2"><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>I, 2</citedRange></bibl>
+               <bibl n="2.1"><!-- IGR --><ptr target="bib:IGR"/> <citedRange>I, add. n° 1438</citedRange></bibl>
+               <bibl n="2.2"><!-- Minns 1913 --><ptr target="bib:b0336"/>, <citedRange>639, n° 3</citedRange></bibl>
+               <bibl n="2.3"><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/>, <citedRange>2</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               	<lb n="1"/><g ref="#stop"/> <orig><unclear>Λ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               	<lb n="2"/><orig>Κ<unclear>Α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               	<lb n="3"/><orig>ΣΕ<unclear>Ρ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               	<lb n="4"/><w part="I">χρησ<unclear>α</unclear></w><gap reason="lost" extent="unknown" unit="character"/>
+                 <lb n="5"/><w part="I">θειό<unclear>τα</unclear><supplied reason="lost">τ</supplied></w> 
+                                  <w part="I"><supplied reason="lost">αὐτοκρατ</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> 
+                                 <w part="I"><supplied reason="lost">ὑπε</supplied>
+               	<lb n="6" break="no"/>ρηύξ<hi rend="ligature">η<del rend="erasure">σ</del></hi><del rend="erasure"><supplied reason="lost">ε</supplied></del></w> 
+                                 <gap reason="lost" extent="unknown" unit="character"/>
+               
+               	<lb n="7"/><milestone unit="block" n="a"/><orig>ΕΙΣΤΑΚΑΤΕ</orig><gap reason="lost" extent="unknown" unit="character"/>
+               	<lb n="8"/><orig>ΝΑ</orig> <w>ἡμεῖ<hi rend="ligature">ν</hi></w> 
+               	                 <orig>Ε</orig><orig>Θ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+               	<lb n="9"/><w>διὰ</w> <w>τῆς</w> <w>τῶν</w> <orig>Δ</orig><gap reason="lost" extent="unknown" unit="character"/>
+               	<lb n="10"/><w>παρὰ</w> <w>τοὺς</w> <w>ἡγο<supplied reason="lost" cert="low">υμένους</supplied></w> 
+                                    <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w>περὶ</w> <w>τῶν</w></supplied>
+               	<lb n="11"/><w>συμφερόντω<supplied reason="lost">ν</supplied></w> 
+                                    <supplied reason="lost"><app type="editorial"><lem><w>ἡμεῖν</w></lem><rdg><w>τῷ</w> <w>δήμῳ</w></rdg></app> <note>vel sim.</note></supplied> 
+                                    <gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">ἀν</supplied>
+               	<lb n="12" break="no"/>δρὸς</w> <w>γεγονό<unclear>τ</unclear><supplied reason="lost">ος</supplied></w> 
+                                    <gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">δε</supplied>
+               	<lb n="13" break="no"/>δόχθαι</w> <w>τῇ</w> 
+                                    <w>βουλῇ</w> <w>κα<unclear>ὶ</unclear></w> 
+                                    <w><unclear>τῷ</unclear></w> <w>δήμῳ</w> 
+                                    <placeName>Κ<unclear>ο</unclear><supplied reason="lost">κκήιον</supplied></placeName> 
+                                    <gap reason="lost" extent="unknown" unit="character"/>
+               <milestone unit="block" n="b"/>
+               
+               	<lb n="14"/><w part="F">νον</w> 
+                                    <w>τετειμῆσθα<unclear>ι</unclear></w> 
+                                    <w><unclear>χ</unclear>ρυσῷ</w> <w>στεφάνῳ</w> 
+                                    <w><del rend="erasure">κ<unclear>αὶ</unclear></del></w> <w><del rend="erasure"><unclear>τ</unclear></del><supplied reason="lost">ύπ</supplied>ῳ</w> 
+                                    <w>ἐπι<supplied reason="lost" cert="low">χρύσῳ</supplied></w>, <milestone unit="block" n="c"/>
+               
+               	<lb n="15"/><w>τό</w> <w>τε</w> <w>ψήφισμ<unclear>α</unclear></w> 
+                                    <w>τελειωθὲν</w> <w>ὑπὸ</w> <w><del rend="erasure">τοῦ</del></w> 
+                                    <w>γραμμα<supplied reason="lost">τέως</supplied></w>
+               	<lb n="16"/><w>τῆς</w> <w>πόλεως</w> 
+                                    <persName type="attested"><name type="gentilicium">Οὐ<unclear>αλ</unclear>ερίου</name> <name type="cognomen">῾Ρούφου</name></persName> 
+                                    <w>δο<unclear>θ</unclear>ῆναι</w> <w>τῷ</w> <w><unclear>π</unclear><supplied reason="lost">ατρὶ</supplied></w>
+               	<lb n="17"/><w>αὐτοῦ</w> <persName type="attested"><name type="gentilicium">Κοκκηίῳ</name> <name type="cognomen">Οὐάλεντι</name></persName> 
+                                    <w>καὶ</w> <w>τὸ</w> <w>ἀντίγραφον</w> <w>ἀ<supplied reason="lost">ποτ</supplied>ε
+               	<lb n="18" break="no"/>θῆναι</w> <w>εἰς</w> <w>τὰ</w> <w>δη<unclear>μ</unclear>όσια</w>. 
+                                    <g ref="#stop"/> <w>ἐγένητο</w> <w>ἐν</w> 
+                                    <placeName>Τύρᾳ</placeName> <w>πρὸ</w> <g ref="#stop"/> <num value="5">ε</num> 
+                                    <g ref="#stop"/> <w><expan><abbr>κ<unclear>α</unclear></abbr><del rend="erasure"><abbr>λ</abbr><ex>ανδῶν</ex></del></expan></w> 
+                                    <del rend="erasure"><g ref="#stop"/></del> <w><del rend="erasure">Μα</del>
+               	<lb n="19" break="no"/>ΐων</w> <persName type="emperor"><w>Αὐτοκράτ<unclear>ο</unclear>ρι</w> <name type="cognomen">Κομόδῳ</name></persName> 
+                                       <w>τὸ</w> <g ref="#stop"/> <num value="3">γ</num> <g ref="#stop"/> 
+                                       <w>καὶ</w> <persName type="consul"><name>Ἀντιστίῳ</name> <name>Β<del rend="erasure">ούρ</del>
+               	<lb n="20" break="no"/>ρῳ</name></persName> <w>ὑπάτοις</w>, <w>ὡς</w> <w>δὲ</w> <w>Τυρανοὶ</w> <w>ἄγουσιν</w>, 
+                                    <w>ἔτους</w> <g ref="#stop"/> <num value="125">εκρ</num> <g ref="#stop"/> 
+                                    <w>ἀ<del rend="erasure">ρχόν</del>
+               	<lb n="21" break="no"/>των</w> <w>δὲ</w> <w>τῶν</w> <w>περὶ</w> 
+                                    <persName type="attested"><name>Θεόδωρον</name> 
+                                             <persName type="attested"><name>Βοήθου</name></persName></persName>, 
+                                    <w>μηνὸς</w> <w>Ἀρτεμ<unclear>ε</unclear>ισ<unclear>ι</unclear>
+                                       <milestone unit="block" n="i"/>
+                                    
+               	<lb n="22" break="no"/>ῶνος</w> <g ref="#stop"/> <num value="30">λ</num> <g ref="#stop"/> <space quantity="1" unit="character"/> 
+                                 <w>ʼΕσφραγίσαντο</w>· <space quantity="1" unit="character"/>
+                                 <persName type="attested"><name>Θεόδωρος</name> <persName type="attested"><name>Βοήθου</name></persName></persName> <w>πρῶ
+               
+               	<lb n="23" break="no"/><milestone unit="block" n="g"/><unclear>τος</unclear></w> <w><unclear>ἄρχων</unclear></w> <g ref="#stop"/> 
+                                    <persName type="attested"><name>Κ<unclear>αῖ</unclear>σαρ</name> <persName type="attested"><name>Ζουρη</name></persName></persName> 
+                                    <w>ἄρχων</w> <g ref="#stop"/> <persName type="attested"><name>Λαϊσθένης</name> 
+                                    <persName type="attested"><name>Μοκκα</name></persName></persName>
+               	<lb n="24"/><w>ἄρχων</w> <g ref="#stop"/> <persName type="attested"><name type="gentilicium">Αἴλιος</name> <name type="cognomen">Λούκιος</name></persName> 
+                                       <w>ἄρχ<unclear>ων</unclear></w> <g ref="#stop"/> <persName type="attested"><name type="gentilicium">Οὐαλερια<unclear>ν</unclear>ὸς</name> 
+                                          <name type="cognomen">Πον
+               	<lb n="25" break="no"/>τικοῦ</name></persName> <w>εἰσηγητής</w> <g ref="#stop"/> 
+                                    <persName type="attested"><name type="praenomen"><expan><abbr>Τιβ</abbr><ex>έριος</ex></expan></name> <g ref="#stop"/> 
+                                    <name type="gentilicium">Κλαύδιος</name> 
+                                    <name type="cognomen">Ἀντ<supplied reason="lost">ι</supplied><unclear>σ</unclear><supplied reason="lost">θένη</supplied>ς</name></persName> 
+                                    <g ref="#stop"/> <persName type="attested"><name>Σ<unclear>ε</unclear>πτου<unclear>́</unclear><milestone unit="block" n="e"/>
+               
+               	<lb n="26" break="no"/><milestone unit="block" n="d"/>μιος</name>
+                                       <persName type="attested"><name>῾Ιεροσῶντος</name></persName></persName> 
+                                    <g ref="#stop"/> <persName type="attested"><name>Πιδανος</name> 
+                                    <persName type="attested"><name>Πιτφαρ<unclear>ν</unclear><supplied reason="lost">ακου</supplied></name></persName></persName> 
+                                    <supplied reason="lost"><g ref="#stop"/></supplied>
+               <persName type="attested"><name><supplied reason="lost">Οὐα</supplied><unclear>λέριος</unclear></name><milestone unit="block" n="k"/>
+               	<lb n="27"/><name>Βασσιανοῦ</name></persName> <g ref="#stop"/>
+               <persName type="attested"><name>῾Ιερώνυμος</name> 
+               	                 <persName type="attested"><name>Ἀρτεμιδώ<unclear>ρου</unclear></name></persName></persName> <g ref="#stop"/> 
+                                    <persName type="attested"><name>Θ<unclear>ε</unclear>οδ<unclear>ᾶ</unclear><supplied reason="lost">ς</supplied></name> 
+                                       <persName type="attested"><name><unclear>Αρτεμι</unclear>
+               	<lb n="28" break="no"/>δώρου</name></persName></persName> <g ref="#stop"/>
+               <persName type="attested"><name>Χρύσιππος</name> 
+                                       <persName type="attested"><name>Χρυσίππου</name></persName></persName> 
+                                       <g ref="#stop"/> <persName type="attested"><name>Νίγερ</name> 
+                                       <persName type="attested"><name>Ἀρτεμιδώρου</name></persName></persName> <g ref="#stop"/> 
+                                       <persName type="attested"><name>Μα
+               	<lb n="29" break="no"/>κάριος</name> <persName type="attested"><name>Ἀρτεμιδώρου</name></persName></persName> 
+                                    <g ref="#stop"/> <persName type="attested"><name>Διονυσόδωρος</name> <name>Ἀχιλλαίου</name></persName>
+               	<lb n="30"/><persName type="attested"><name>Λούκιος</name> <persName type="attested"><name>Σατορνείλου</name></persName></persName> 
+                                    <g ref="#stop"/> <persName type="attested"><name>Φιλόκαλος</name> <name>Φιλοκάλου</name></persName> <g ref="#stop"/> 
+                                    <persName type="attested"><name>Διο
+               	<lb n="31" break="no"/>νύσιος</name> <name>Πίσκα</name></persName> <g ref="#stop"/> 
+                                    <persName type="attested"><name>Ἡρακλέων</name> 
+                                    <persName type="attested"><name>Σωμᾶ</name></persName></persName> 
+                                    <g ref="#stop"/> <persName type="attested"><name>Δελφὸς</name> 
+                                    <persName type="attested"><name>Δελφοῦ</name></persName></persName> <g ref="#leaf"/>
+               	<lb n="32"/><persName type="attested"><name type="gentilicium">Οὐαλέριος</name> 
+               	                 <name type="cognomen">Ῥοῦφος</name></persName> <w>γραμματεὺς</w> 
+                                    <w>ἐτελειώσατο</w>
+               	<lb n="33"/><g ref="#stop"/> <w><supplied reason="omitted">τὸ</supplied></w> <w>ψήφισμα</w>. <g ref="#stop"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg source="bib:IOSPE">Α̣</rdg>
+               </app>
+               <app loc="3">
+                  <rdg source="bib:b0887 bib:IOSPE">ΣΕΙ</rdg>
+               </app>
+               <app loc="4">
+                  <rdg source="bib:b0887">χρήσ[ιμος vel εὔχρηστος ἐγένετο τῇ πατρίδι]</rdg>
+                  <note>ΗΣ in ligatura</note>
+               </app>
+               <app loc="4-5">
+                  <rdg source="bib:IOSPE">πλ]εῖστα κα⁽τε⁾[σκεύασε <note>Mordtmann apud Latyshev</note></rdg>
+               </app>
+               <app loc="5-6">
+                  <rdg>θειότ[ατος - - - ῥωμαίων αὐτοκράτω]|ρ ηὔξησε [τὴν πόλιν ἡμῶν]</rdg>
+               </app>
+               <app loc="6">
+                  <rdg source="bib:IOSPE">ρηύξησ[ε</rdg>
+                  <note>ΗΣ in ligatura</note>
+               </app>
+               <app loc="7">
+                  <note>ΤΕ in ligatura</note>
+               </app>
+               <app loc="7-8">
+                  <rdg source="bib:IOSPE">τὰ κοι]νὰ ἡμεῖν ἔθ[η <note>Mordtmann apud Latyshev</note></rdg>
+               </app>
+               <app loc="8">
+                  <note>ΗΜΕ, ΝΕ in ligatura</note>
+               </app>
+               <app loc="9">
+                  <rdg source="bib:IOSPE">δ[ημοσίων ἐνδείας <note>Mordtmann apud Latyshev</note></rdg>
+                  <note>ΤΗΣ in ligatura</note>
+               </app>
+               <app loc="10">
+                  <note>ΗΓ in ligatura</note>
+               </app>
+               <app loc="11">
+                  <note>ΝΤ in ligatura</note>
+               </app>
+               <app loc="10-11">
+                  <rdg source="bib:b0887">τῷ δήμῳ συμφερόντω[ν - - - ὠφελίμου ἀν-]</rdg>
+               </app>
+               <app loc="13">
+                  <note>ΤΗΒ, ΗΚ, ΗΜ in ligatura</note>
+               </app>
+               <app loc="14">
+                  <rdg source="bib:b0887">καὶ [ὅπλ]ῳ ἐπι[χρύσῳ]</rdg>
+                  <note>ΝΤΕ, ΤΕ, ΜΗΣ, ΤΕ in ligatura</note>
+               </app>
+               <app loc="15">
+                  <rdg source="bib:IOSPE">γραμμ[ατέως]</rdg>
+                  <note>ΤΕ, ΤΕ, ΜΜ in ligatura</note>
+               </app>
+               <app loc="16">
+                  <note>ΤΗΣ, ΗΝ in ligatura</note>
+               </app>
+               <app loc="17">
+                  <note>ΝΤ, ΝΤ in ligatura</note>
+               </app>
+               <app loc="18">
+                  <note>ΗΝ, ΝΗ, ΝΤ, ΠΡ in ligatura</note>
+               </app>
+               <app loc="19">
+                  <note>ΝΤ in ligatura</note>
+               </app>
+               <app loc="20">
+                  <note>ΝΕ in ligatura</note>
+               </app>
+               <app loc="21">
+                  <rdg source="bib:b0887">Ἀρτεμισι-</rdg>
+                  <note>ΝΠΕ, ΝΒ, ΜΗΝ, ΤΕ, ΜΕ in ligatura</note>
+               </app>
+               <app loc="22">
+                  <note>ΝΤ, ΠΡ in ligatura</note>
+               </app>
+               <app loc="23">
+                  <rdg source="bib:IOSPE">Κ[α]ῖσαρ</rdg>
+                  <note>ΝΗΣ in ligatura</note>
+               </app>
+               <app loc="25">
+                  <rdg source="bib:b0887">Ἀν[τέρωτο]ς Σ.πτου-</rdg>
+                  <note>ΗΣ, ΝΤ in ligatura</note>
+               </app>
+               <app loc="26">
+                  <rdg source="bib:b0887">Πιτφαρ . . . . . . . . ος</rdg>
+                  <rdg source="bib:IOSPE">Πιτφαρ[νάκ]ο[υ Οὐα]λ[έρ]ιος</rdg>
+                  <note>ΝΤ in ligatura</note>
+               </app>
+               <app loc="27">
+                  <rdg source="bib:b0887">Θεόδ[ωρος Θεο]-</rdg> 
+                  <rdg source="bib:IOSPE">Θεοδ[ᾶς Ἀρτε]μι-</rdg>
+                  <note>ΤΕ in ligatura</note>
+               </app>
+               <app loc="28">
+                  <note>ΠΠ, ΠΠ, ΤΕ in ligatura</note>
+               </app>
+               <app loc="29">
+                  <note>ΤΕ in ligatura</note>
+               </app>
+               <app loc="30">
+                  <rdg source="bib:b0887">Σατορνείλου <note>Fr. f, h Latyshev desunt</note></rdg>
+                  <note>ΝΕ in ligatura</note>
+               </app>
+               <app loc="31">
+                  <note>ΗΡ, ΝΣ in ligatura</note>
+               </app>
+               <app loc="32">
+                  <note>ΟΥ, ΜΜ, ΤΕ, ΤΕ in ligatura</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[- - -] божественн[- император- - - - в высшей степени] увеличил [- - -] нам [- - -]
+               к гос[подам ? - - - о] полезных [для нас или народа - -] совет и народ да постановят
+               почтить Ко[ккея - - -]на золотым венком и поз[олоченным ? релье]фом, и это
+               постановление, редактированное секретарем города Валерием Руфом выдать его о[тцу]
+               Коккею Валенту и копию положить в государственный архив. Состоялось в Тире за 5
+               (дней) до календ мая при консулах императоре Коммоде в третий раз и Антистии Буре, а
+               как считают тириты в 125 год при архонтах под началом Теодора, сына Боэта, месяца
+               Артемисиона тридцатого (дня). Печати приложили Теодор, сын Боэта, первый архонт;
+               Кесарь, сын Зуры, архонт; Лаистен, сын Мокки, архонт; Элий Лукий, архонт; Валериан,
+               сын Понтика, докладчик; Тиб. Клавдий Ант[истен]; Септумий, сын Гиеросонта; Пидан, сын
+               Питфар[нак]а; Валерий, сын Бассиана; Иероним, сын Артемидора; Теод, сын Артемидора;
+               Хрисипп, сын Хрисиппа; Нигер, сын Артемидора; Макарий, сын Артемидора; Дионисодор,
+               сын Ахиллея; Лукий, сын Сатурнила; Филокал, сын Филокала; Дионисий, сын Писки;
+               Гераклеон, сын Сомы; Дельф, сын Дельфа. Валерий Руф, секретарь, редактировал
+               постановление.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[- - -] divin[e emperor inc]reased [- - -] us [- - -] the rule[rs? - - - of be]nefici[al for us? or the People? - - - the m]an who became - - - the Council and the 
+               People shall deem it good that Co[cceius - - -] should be honoured with a gold crown and a gilded relief. This decision, edited by the secretary of the polis Valerius 
+               Rufus, is to be given to his father, Cocceius Valens, and a copy is to be deposited in the public archive. This took place in Tyras, 5 days before the calends of May,
+               when the consuls were emperor Commodus, for the third time, and Antistios Burrus, or as the citizens of Tyras hold, in the year 125, when archons were under the 
+               leadership of Theodoros Boethos, in the month of Artemision, on the 30th. 
+               Applied their seals: Theodoros, (son of) Boethos, first archon, Caesar, (son of) Zoures, archon, Laisthenes, (son of) Mokkas, archon, Aelius Lucius, archon, 
+               Valerianus, (son of) Pontikos, presenter, Tib(erius) Claudius Antisthenes, Septumius, (son of) Hieroson, Pidanos, (son of) Pitpharnakos, Valerius, (son of) Bassianos, 
+               Hieronymos, (son of) Artemidoros, Theodas, (son of) Artemidoros, Chrysippos, (son of) Chrysippos, Niger, (son of) of Artemidoros, Makarios, (son of) 
+               Artemidoros, Dionysodoros, (son of) Achillaios, Lucius, (son of) Satourneilos, Philokalos, (son of) Philokalos, Dionysios, (son of) Piskas, 
+               Herakleon, (son of) Somas, Delphos, (son of) Delphos. Valerius Rufus, the secretary, edited the decision.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Камень, очевидно, был перевезен из Аккермана в дер. Чобручи по Днестру в новое время,
+               как правильно предполагал Юргевич. По словам Юргевича, все десять фрагментов были
+               переданы в Одесский музей. Латышев одного из фрагментов (h) там уже не обнаружил, мне
+               не удалось найти еще один (f). Восстановления строк 5-9 предложил Латышеву Мордтман
+               после публикации первого издания корпуса (см. Латышев 1890, 141-142; IOSPE IV, p.
+               263; IOSPE I2, p. 5). Восстановление строк 10-12 предложено Юргевичем. Большая часть
+               предложенных для этих строк восстановлений, однако, сомнительны и не подтверждаются
+               аналогиями из известных надписей. Ясно лишь, что в этих строках, перечислявших
+               заслуги чествуемого Коккея, упоминался император или императоры, а также, скорее
+               всего, посольство к римским властям (вероятно провинциального уровня) с целью
+               добиться чего-то полезного для города. Юргевич предполагал, что речь идет о
+               подтверждении освобождения от пошлин для граждан Тиры, которое упоминается в надписи
+               <ref type="inscription">I 12</ref>.</p>
+            <p>13. Латышев предполагает, что когномен чествуемого мог быть Οὐαλεντινιανός от имени его отца Валента, однако это предположение ничем не подтверждается. 
+               Во II в. в греческой среде личным именем был именно когномен, в отличие от наследуемых преномен и номен, и здесь можно предполагать любое имя, 
+               кончающееся на -νος.</p>
+            <p>16. Восстановление слова π̣[ατρί] в конце строки надежно, первая буква – пи вне
+               всяких сомнений. По-видимому, это означает, что декрет в честь сына Коккея Валента
+               был принят посмертно.</p>
+            <p>18-22. Эти строки содержат датировку надписи, а также дают ценную информацию
+               относительно принятого в Тире летоисчисления и календаря. Император Коммод был
+               консулом в третий раз, совместно с Л. Антистием Бурром, в 181 г. Дата декрета – 27
+               апреля (пятый день до майских календ) 181 г. Как показал Латышев, эта надпись вместе
+               с надписью <ref type="inscription">I 12</ref>, свидетельствует о том, что в Тире во II-III вв., параллельно
+               с солнечным юлианским календарем, продолжал использоваться древний лунный календарь,
+               принесенный из Милета еще основателями города (Латышев 1887, 66-69 = 1909, 37-40); по
+               этому календарю декрет датировался 30 днем месяца Артемисиона. Наряду с древним
+               счетом годов по эпонимам, надпись фиксирует использование в Тире собственной эры. На
+               181 г. приходится ее 125 г., таким образом, она началась в 56/57 г. По-видимому,
+               введение новой эры связано с включением Тиры в состав римской провинции Мезии (см. уже: Borghesius apud Henzen 1854, 70;
+               Карышковский, Клейман 1985, 90-92, с литературой, несколько иначе: Сон 1993,
+               21-31).</p>
+            <p>21-32. Из этой надписи стали известны важные детали государственного устройства Тиры
+               во II в. н.э. Во главе города стояла коллегия из четыерх архонтов под руководством
+               первого архонта, который был также городским эпонимом (счет годов по архонтам
+               продолжал вестись и после введения тирасской эры). Остальные перечисленные в этом
+               пассаже лица, скрепившие декрет своими печатями, были, очевидно, членами совета,
+               включая докладчика, внесшего проект постановления, и секретаря, оформившего
+               окончательный текст.</p>
+            <p>Этот пассаж интересен также тем, что дает обширный ономастический материал,
+               относящийся к городской элите Тиры. Как и следовало ожидать, среди имен преобладают
+               греческие: Θεόδωρος, Βόηθος, Λαϊσθένης, Ποντικός, Ἀντισθένης, ῾Ιεροσῶν (имя,
+               специфичное для Ольвии и Тиры), ῾Ιερώνυμος, Ἀρτεμίδωρος (четырежды), Θεοδᾶς,
+               Χρύσιππος (дважды), Μακάριος, Διονυσόδωρος, Ἀχιλλαῖος (уникальное имя), Φιλόκαλος
+               (дважды), Διονύσιος, Ἡρακλέων, Σωμᾶς Δελφός (дважды). Довольно широко по сравнению с
+               соседней Ольвией представлены латинские, причем некоторые из их носителей были
+               римскими гражданами: Κοκκήιος Οὐάλε(ντο)ς (Cocceius Valens), Αἴλιος Λούκιος (Aelius
+               Lucius), Τιβέριος Κλαύδιος Ἀντισθένης (Tiberius Claudius Antisthenes), Οὐαλέριος
+               Ῥοῦφος (Valerius Rufus). Другие же по-видимому просто использовали латинские имена
+               вне системы tria nomina: Καῖσαρ (Caesar, по-видимому, единственный случай такого
+               употребления этого императорского cognomen), Οὐαλεριανός (Valerianus), Σεπτούμιος
+               (Septumius, архаическая форма nomen Septimius), Οὐαλέριος (Valerius), Βασσιανός
+               (Bassianus), Νίγερ (Niger), Λούκιος (Lucius), Σατορνεῖλος (Saturnilus). В отличие от
+               соседней Ольвии, имена варварского происхождения представителями тирасской элиты
+               использовались относительно редко: в надписи встречается два фракийских (Ζουρης,
+               Μοκκας) и два сарматских (Πιδανος, Πιτφαρνακος) имени, причем во втором случае их
+               носят отец и сын. Принадлежность имени Πισκας неясна.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p> The monument had apparently been moved from Akkerman to the village of Cioburciu in modern times, as Yurgevich rightly surmised. 
+               According to him, all ten fragments were, upon discovery, turned over to the Odessa Museum, but already Latyshev was not able to locate Fragment (h) there, 
+               and I could not locate Fragment (f). The restorations of lines 5-9 were suggested to Latyshev by Mordtmann after the publication of editio princeps 
+               (see Latyshev 1890, 141-142; IOSPE IV, p. 263; IOSPE I2, p. 5). The restorations of lines 10-12 were proposed by Yurgevich, but most are doubtful and find no parallels 
+               in known inscriptions. One thing that 
+               is clear is that in the lines listing the good deeds of Cocceius, there was a mention of an emperor or emperors, as well as, most likely, an embassy to the Roman 
+               officials (possibly at provincial level) with the aim of attaining something useful for the polis. Yurgevich believed that it was about the exemption from taxes for 
+               the citizens of Tyras, a privilege mentioned in <ref type="inscription">I 12</ref>.</p>
+            <p>13. Latyshev thought that the cognomen of the honorand may have been Οὐαλεντινιανός, on the basis of his father's name Valens, but this speculation has no support. 
+               In the IInd century, in the Greek world, cognomen served as a given name in contrast to the inherited praenomen and nomen, and we may be dealing with any name, ending 
+               in  -νος.</p>
+            <p>16. The restoration of the word π̣[ατρί] at the end of the line is secure, the first letter pi is beyond any doubt. This might mean that the decree honouring Cocceius was 
+               passed posthumously.</p>
+            <p>18-22. These lines contain the dating formula, as well as valuable information on the local count of years and calendar. The emperor Commodus
+               served as consul for the third time, together with Antistios Burrus, in 181 C.E. The date of the decree is 27th of April (the fifth day before the calends of May)
+               in 181. As has been shown by Latyshev, this inscription, together with <ref type="inscription">I 12</ref>, attests to the simultaneous use in Tyras in the II-III centuries C.E. 
+               of the Julian 
+               solar calendar and of the ancient lunar calendar, brought from Miletus by the original city founders (Latyshev 1887, 66-69 = 1909, 37-40); according to that calendar, 
+               the decree was dated to the 30th of Artemision. Alongside the ancient way of counting years by eponyous officials, the inscription also attests the use in Tyras of the 
+               local year count. Year 181 C.E. corresponds to the 125th year of the local era, which means that the latter began in 56/57 C.E. It is probable that the inception of this 
+               new era count began with the inclusion of Tyras in the Roman province of Lower Moesia (see already Borghesius apud Henzen 1854, 70; Karyshkovsky, Kleiman 1985, 90-92, 
+               with bibliograpy, and somewhat differently: Son 1993, 21-31).</p>
+            <p>21-32. The inscription provides important details about the political organisation of Tyras in the IInd century C.E.
+               At the head of the polis was a college of four archons led by the First Archon, who was eponymous (the year count by archons continued alongside with 
+               the use of the new era). Other persons listed here as applying their seals were apparently members of the Council, including the presenter who proposed the 
+               decree and the secretary who prepared the final text.</p>
+            <p>The list of names provides extensive onomastic data on the city elite. As is to be expected, Greek names predominate: 
+               Θεόδωρος, Βόηθος, Λαϊσθένης, Ποντικός, Ἀντισθένης, ῾Ιεροσῶν (the name specific to Olbia and Tyras),῾Ιερώνυμος, Ἀρτεμίδωρος (four times), Θεοδᾶς,
+               Χρύσιππος (twice), Μακάριος, Διονυσόδωρος, Ἀχιλλαῖος (unique), Φιλόκαλος
+               (twice), Διονύσιος, Ἡρακλέων, Σωμᾶς Δελφός (twice). In contrast to the neighbouring Olbia, Latin names are widely attested, and some belong to Roman citizens:
+               Κοκκήιος Οὐάλε(ντο)ς (Cocceius Valens), Αἴλιος Λούκιος (Aelius
+               Lucius), Τιβέριος Κλαύδιος Ἀντισθένης (Tiberius Claudius Antisthenes), Οὐαλέριος
+               Ῥοῦφος (Valerius Rufus). Other individuals apparently used Roman names casually, not following the system of tria nomina: 
+               Καῖσαρ (Caesar, might be the only such use of the emperor's cognomen), Οὐαλεριανός (Valerianus), Σεπτούμιος
+               (Septumius, archaic form of the nomen Septimius), Οὐαλέριος (Valerius), Βασσιανός
+               (Bassianus), Νίγερ (Niger), Λούκιος (Lucius), Σατορνεῖλος (Saturnilus). By contrast with Olbia, non-Greek names are quite rare among the elite of Tyras: 
+               in this inscription, two names are Thracian (Ζουρης, Μοκκας) and two are Sarmatian (Πιδανος, Πιτφαρνακος), and in the latter case, they belong to 
+                a father and son. The ethnic origin of the name Πισκας is unclear.</p>
+           
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Атаная</title><title xml:lang="en">Epitaph of Athanaios</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.126</idno><idno type="PE">PE3000122</idno><idno type="filename">3.333</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>223/36679</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>223/36679</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Отбита сверху и снизу. Поверхность обработана грубо.
+                              Центральную часть плиты занимает рельеф с изображением, композиционно
+                              напоминающим сцену «загробной трапезы». Мужчина возлежит на высоком
+                              ложе, в левой руке он держит свиток; слева изображена сидящая женщина.
+                              Перед ложем столик с предметами, не поддающимися надежной
+                              идентификации. В нижней части следы еще одной фигуры, вероятно, слуги.
+                              Надпись расположена на поле рельефа, вверху над фигурами; вырезана
+                              небрежно, вероятно, непрофессиональным резчиком.</p>
+                           <p xml:lang="en">Broken off on the top and bottom. The surface is roughly treated. Relief of funerary feast on the front, in the centre. The inscription is 
+                              sloppily cut, probably by an unprofossional, in the field of the relief, above the figures.</p>
+                           <dimensions>
+                              <height unit="cm">36,0</height>
+                              <width unit="cm">33,0</width>
+                              <depth unit="cm">14,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с ломаной перекладиной, крупная тета с чертой,
+                           доходящей до краев окружности, ню с вертикальными гастами одинаковой
+                           длины, пи с равными вертикалями и заметно выходящей за их пределы
+                           горизонталью, сигма с параллельными верхней и нижней линиями, крупная
+                           омега с туловом, приподнятым над строкой, отсутствуют украшения на концах
+                           линий букв.</seg>
+                        <seg xml:lang="en">Alpha with broken crossbar, large theta with attached crossbar, nu with even verticals, four-bar sigma with parallel top and bottom bars; 
+                        ends of hastae are not enhanced.</seg>
+                        <height unit="cm">1,7</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0050" notAfter="0050" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">2-я пол. I в. до н.э. – 1-я пол. I в. н.э.</seg>
+                        <seg xml:lang="en">2nd half of I century B.C.E. - 1st half of I century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1966 г. Раскопки
+                           И.А. Антоновой.</rs>
+                        <rs type="context">В юго-восточном районе Херсонеса,
+                           с внутренней стороны куртины 23 оборонительных стен, в траншее.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1966, excavations of I.A. Antonova.</rs>
+                        <rs type="context">Southeast sector of Chersonesos, fortification walls, inner side of Curtain Wall 23, in a trench.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-23" who="CB">Adding origDate tag</change>
+         <change when="2015-11-03" who="CB">Adding origDate tag</change>
+         <change when="2015-09-24" who="CB">Bibliography</change>
+         <change when="2015-08-27" who="CB">App crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-25" who="CB">Tagging metadata</change>
+         <change when="2015-03-16" who="VP">Tagging Greek names</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.126">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="30.126a">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Соломоник 1967--><ptr target="bib:b0501"/>, <citedRange>149</citedRange>
+               </bibl>
+               <bibl><!--НЭПХ II--><ptr target="bib:НЭПХ"/> <citedRange>184</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--АСХ--><ptr target="bib:b0519"/> № 349</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><persName type="attested" ref="#person727"><name nymRef="Ἀθάναιος">Ἀθ<unclear>ά</unclear>ναιος</name>
+               		<lb n="2"/><persName type="attested" ref="#person728"><name nymRef="Ἀπολλώνιδος">Ἀπολλωνίδου</name></persName></persName>
+               		<lb n="3"/><w>χαῖρε</w>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Атанай, (сын) Аполлонида, приветствую.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Athananios, (son of) Apollonidos, greeting.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

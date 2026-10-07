@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Папия</title><title xml:lang="en">Epitaph of Papias</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.134</idno><idno type="PE">PE3000130</idno><idno type="filename">3.341</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Верхняя часть стелы, украшенной фронтоном с акротериями.
+                              В тимпанe изображение круглой розетки. </p>
+                           <p xml:lang="en">Upper part of pedimental stele with acroteria. Relief rosette in the centre of the pediment.</p>
+                           <dimensions>
+                              <height unit="cm">62,0</height>
+                              <width unit="cm">42,0</width>
+                              <depth unit="cm">20,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Под фронтоном сохранилась двухстрочная надпись.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с прямой поперечной линией, курсивные эпсилон и
+                           сигма, правая гаста дельты выступает за пересечение с левой гастой,
+                           омикрон почти того же размера, что и остальные буквы, пи с вертикалями
+                           одинаковой длины и выходящей за их пределы горизонталью, небольшие апексы
+                           на концах линий букв.</seg>
+                        <seg xml:lang="en">Alpha with straight crossbar, cursive epsilon and sigma, delta with projecting right diagonal, omicron nearly the same size as other 
+                        letters, pi with even verticals and extended horizontal; small serifs.</seg>
+                        <height unit="cm">2,2</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0068" notAfter="0133" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">кон. I – нач. II в. н.э.</seg>
+                        <seg xml:lang="en">late I - early II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена случайно Р.П. Смирновым в 2004 г.</rs>
+                        <rs type="context">В юго-восточной части Херсонеса, в портовом районе.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Random find by R.P. Smirnov in 2004.</rs>
+                        <rs type="context">Southeast sector of Chersonesos, harbour area.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-23" who="CB">Added origDate</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-25" who="CB">Tagging metadata</change>
+         <change when="2015-05-08" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-05-13" who="AV">programmatically tagging Greek words from Word
+            docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.134">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl>Ineditum</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person747"><name nymRef="Παπίας">Παπίας</name> 
+               	                 <persName type="attested" ref="#person748"><name nymRef="Ἡρακλείδας">Ἡρακλεί
+                <lb n="2" break="no"/>δου</name></persName></persName>, <w>χαῖρε</w>.
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Папий, (сын) Гераклида, приветствую.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Papias, (son of) Herakleidas, greeting.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Строки надписи выровнены по центру.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Lines of text are centred with respect to the sides of the stele.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

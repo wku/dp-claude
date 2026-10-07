@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Демонстративная надпись</title><title xml:lang="en">Demonstrative inscription</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.221</idno><idno type="PE">PE5000221</idno>
+            <idno type="AYV2012-number">byz209</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>In situ</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>In situ</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc4">
+                     <seg xml:lang="ru">Демонстративная надпись.</seg>
+                     <seg xml:lang="en">Demonstrative.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon20">Стена.</objectType>
+                           <objectType xml:lang="en">Wall.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Изображение апицированного креста в прямоугольной рамке. Поверхность повреждена.</p>
+                           <p xml:lang="en">Image of a cross enclosed within rectangular frame; arms of the cross end in serifs. The surface is damaged.</p>
+                           <dimensions>
+                              <height>30,0</height>
+                              <width>22,0</width>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">В углах между рукавами креста.</seg>
+                           <seg xml:lang="en">In corners between the arms of the cross.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы неровные.</seg>
+                        <seg xml:lang="en">Lapidary; uneven letters.</seg>
+                        <height unit="cm">5,0–8,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p029">
+                        <seg xml:lang="ru">Эски-Кермен.</seg>
+                        <seg xml:lang="en">Eski-Kermen.</seg>
+                     </origPlace>
+                     <origDate>
+                        <seg xml:lang="ru">Неизвестна.</seg>
+                        <seg xml:lang="en">Unknown.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#eski-kermen">Эски-Кермен.</placeName>
+                        <rs type="circumstances">1966 г., обследования М.Я. Чорефа.</rs>
+                        <rs type="context">Восток, пещера над восточной калиткой, восточный угол, бывшая зерновая яма, на выс. 170 см от пола.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Eski-Kermen.</placeName>
+                        <rs type="circumstances">1966, survey of M.Ya. Choref.</rs>
+                        <rs type="context">East, cave over the eastern wicket gate, eastern corner, former sylo, 170cm above ground.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">In situ.</seg>
+                      <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">In situ.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+          <change when="2013-11-07" who="TW">Added image code</change>
+         <change when="2012-08-14" who="AFS">inserted key name</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-06-27" who="AG">several lines translated</change>
+          <change when="2012-06-19" who="AL">inserted object type, character and material; small corrections</change>
+          <change when="2012-04-24" who="AL">inserted editor tag, translated a line</change>
+          <change when="2012-03-26" who="AFS">checked and corrected Greek text tags </change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.221">
+                <desc xml:lang="en">Drawing of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <p/>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Иисус Христос.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Jesus Christ.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Несколько необычна формула надписи — ожидалось бы стандартное «Иисус Христос побеждает» (см. <ref type="introduction">IV.3.C.e</ref>).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The formula is somewhat unusual - one expects a standard "Jesus Christ is victorious" (see Introduction <ref type="introduction">IV.3.C.e</ref>)</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><persName type="divine" key="iesous"><name nymRef="Ἰησοῦς"><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan></name>
+               <lb n="2"/><name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan></name></persName>.
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

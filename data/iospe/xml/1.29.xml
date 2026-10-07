@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Почетная надпись в честь Автокла, сына Эниада</title><title xml:lang="en">Honorific inscription for Autokles, son of Oiniades</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.24</idno>
+            <idno type="filename">1.29</idno>
+            <idno type="PE">PE1000024</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Одесский археологический музей</repository>
+                     <idno>90111</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Odessa Archaeological Museum</repository>
+                     <idno>90111</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc21">
+                     <seg xml:lang="ru">Почетная надпись.</seg>
+                     <seg xml:lang="en">Honorific inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon12">Постамент.</objectType>
+                           <objectType xml:lang="en">Base.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор белый, мелкозернистый.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Блок представляет собой часть верхней плиты постамента для статуи, видимо, конной. 
+                              Верхняя часть оформлена в виде карниза со сложной профилировкой на переходе к основной части базы. 
+                              Размеры: Высота 28,0; ширина 64,0; толщина 40,0. Высота карниза 12,5. Высота профилированной части 5,0.
+                             
+                              Лицевой фас обработан тщательно, но без полировки; на карнизе видны следы троянки; правый фас обработан так же. 
+                              Верхний и нижний фасы обработаны суммарно. Левый, правый и оборотный фасы отбиты. Оборотный фас частично 
+                              подработан при вторичном использовании блока. На верхнем фасе, у левого скола, имеются два углубления, очевидно, 
+                              предназначенных для крепления статуи: неглубокое прямоугольное и глубокое для пирона с окончанием в виде ласточкиного хвоста. 
+                              Бок обожжен и частично закопчен, что свидетельствует о пребывании в огне. Поблизости от этого блока был обнаружен второй блок, 
+                              который принадлежал нижней части того же постамента статуи. Его поврехности обработаны суммарно, аналогично верхнему и 
+                              нижнему фасу первого блока. Нижняя часть завершается сложной профилировкой иного профиля, чем на карнизе первого блока. 
+                              Сохранились лицевой и левый фасы, правый и задний оббиты. Его размеры: 17 х 53 х 41.</p>
+                           <p>Высота карниза 12,5. Высота профилированной части 5,0.</p>
+                           <p xml:lang="en">The block is part of a statue base, apparently, for an equestrian statue. The upper part is articulated by a cornice (H. 12,5cm) with an 
+                              elaborate profile (H. 5,0cm). The front is well worked, but not polished. The cornice shows tooth chisel marks. The right side is also well worked. The top and bottom are 
+                           treated summarily. The left, right and back are broken off. The back was partly reworked for secondary use.`On the top, at the break on the left, there 
+                           are two depressions, probably, dowel holes for fixing the statue: a shallow rectangular one and a deep one for a dowel ending in swallowtail. 
+                           The side shows fire damage, traces of soot. In the vicinity of this block, another one was found, forming the lower part of the same base.
+                           Its faces were summarily treated, in a manner similar to the top and bottom surfaces of the first block. The lower part is articulated on the bottom with an 
+                           elaborately profiled moulding, different from the cornice on the upper part of the base. The front and left side are preserved, the right and back are broken off. 
+                           <!--Dimensions: 17 х 53 х 41.--></p>
+                           <dimensions>
+                              <height unit="cm">28,0</height>
+                              <width unit="cm">64,0</width>
+                              <depth unit="cm">40,0</depth><!-- NB *dimensions don't match!* (GB) -->
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" ref="execution.xml#scalpro"/></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0251" evidence="Палеография">
+                        <seg xml:lang="ru">1-я пол. III в. до н.э.</seg>
+                        <seg xml:lang="en">1st half of III century B.C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">Обнаружен при раскопках И.Б. Клеймана в 1987 г.</rs>
+                        <rs type="context">В крайней северной части Центрального раскопа 
+                           (кв. IV Д, 4-ЮВ, 5-ЮЗ, полевой номер БД-87-31), в фундаменте кладки № 466 конца III в. до н.э. 
+                           Фрагмент нижнего блока постамента обнаружен в том же году на расстоянии 20 м от первого в развале постройки римского времени.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Found in 1987, excavations of I.B. Kleyman.</rs>
+                        <rs type="context">The very north of the Central trench (grid square IV Д, 4-ЮВ, 5-ЮЗ, field catalogue No. БД-87-31), in the foundation course of masonry № 466, dated 
+                        to the III century B.C.E.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Одесса.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Odessa.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2006-08">август 2006</date>.</seg>
+                     <seg xml:lang="en">A.I. Ivantchik, <date when="2006-08">August 2006</date>.</seg>
+                  </provenance>
+               </history>
+               <msPart n="1">
+                  <msIdentifier/>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout>
+                              <seg xml:lang="ru">Лицевой фас, который по-видимому находился на длинной стороне прямоугольного в плане постамента. 
+                                 Расположено на вертикальной поверхности карниза. Сохранилась лишь правая часть.
+                                 Размеры полей: верхнее 2,5; правое 15,6; нижнее 4,1.</seg> <!-- how do these relate to the ones in dimensions? -->
+                             <seg xml:lang="en">On the front, which was apparently the longer side of a rectangular base. On the vertical surface of the cornice. Only the right half 
+                             survives. Margins: top 2,5; right 15,6; bottom 4,1cm.</seg>
+                              <dimensions>
+                                 <height unit="cm">10,17</height>
+                                 <width unit="cm">16,7</width>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>
+                           <seg xml:lang="ru">Буквы вырезаны аккуратно и ровно, украшены небольшими апексами. Альфа с прямой перекладиной, 
+                              эпсилон с коротким средним штрихом, тета с точкой, уменьшена, как и омикрон и омега, крайние гасты мю почти вертикальны и 
+                              лишь слегка разведены, окончания округлой части омеги сближены.
+                              Среднее расстояние между строк: 0,5.</seg>
+                           <seg xml:lang="en">Neatly and evenly cut letters, with light serifs. Alpha with straight crossbar, epsilon with short middle bar, dotted theta, 
+                              smaller than other letters, just as omicron and omega, outer hastae of mu are almost vertical and slant very slightly, 
+                              the wedges of semicircular omega are drawn together. 
+                              Average distance between lines: 0,5cm.</seg>
+                           
+                           <height unit="cm">1,2</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="2">
+                  <msIdentifier/>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout>
+                              <seg xml:lang="ru">Лицевой фас, который по-видимому находился на длинной стороне прямоугольного в плане постамента. 
+                                 На базе, под карнизом, заполняя практически всю сохранившуюся поверхность камня. Оббито слева, нижняя строка 
+                                 частично повреждена. Надпись продолжалась на блоке, примыкавшем снизу к публикуемому.
+                                 Размеры полей: верхнее 4,5; правое 0,5.</seg>
+                              <seg xml:lang="en">On the front, which was apparently the longer side of a rectangular base. On the base, below the cornice, filling all the preserved 
+                              surface. Broken off on the left, the bottom line is partly damaged. The inscription continued on the block that adjoined the one published here.
+                              Margins: top 4,5; right 0,5cm.</seg>
+                              <dimensions>
+                                 <height unit="cm">10,2</height>
+                                 <width unit="cm">40,7</width>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote>
+                           <seg xml:lang="ru">Буквы вырезаны аккуратно и ровно, украшены небольшими апексами. Альфа с прямой перекладиной, 
+                              эпсилон с коротким средним штрихом, омикрон и омега уменьшены, крайние гасты мю почти вертикальны и лишь слегка разведены, 
+                              правый штрих ню укорочен и отогнут наружу, правый штрих пи укорочен, горизонтальный штрих не выступает за пределы вертикальных, 
+                              верхний и нижний штрихи сигмы немного разведены, в некоторых случаях почти горизонтальны, омега имеет форму почти полукруга, 
+                              от нижних концов которого отходят горизонтальные штрихи.
+                              Среднее расстояние между строк: 0,4.</seg>
+                           <seg xml:lang="en">Neatly and evenly cut letters, with light serifs. Alpha with a straight crossbar, epsilon with short middle bar, 
+                              omicron and omega smaller than other letters, outer hastae of mu are almost vertical and slant very slightly, 
+                              nu with short right hasta, bent outwards, pi with short right vertical and the horizontal that does not extend beyond the verticals, 
+                              upper and lower bars of sigma slightly splayed, but sometimes are nearly horizontal, semicircular omega with straight horzontals. 
+                              Average distance between lines: 0,4cm.</seg>
+                           <height unit="cm">0,7</height>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-26" who="SS">encoded metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.24-1">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="10.24-2">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="10.24-3">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="10.24-4">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Виноградов 1999 --><ptr target="bib:b0909"/></bibl>
+               <bibl n="1.2"><!-- SEG --><ptr target="bib:SEG"/> <citedRange>49, 1051</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <bibl><!-- Ruscu 2004 --><ptr target="bib:b0910"/></bibl>
+            <bibl><!-- SEG --><ptr target="bib:SEG"/> <citedRange>54, 707</citedRange></bibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="fragment" n="A">
+               <ab>
+               		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w><unclear>δ</unclear>ᾶμος</w> <space quantity="2" unit="character"/>
+               		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <space quantity="9" unit="character"/>
+               		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> <w>ἔργα</w> 
+                                                   <space quantity="6" unit="character"/>
+               		<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>Γ</unclear>ΩΝ</orig> <space quantity="9" unit="character"/>
+               		<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>ΟΥΔΕ</orig> <w>μέγα</w> <w>αὐχεῖν</w>
+               		<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>ε</unclear>α</w> <space quantity="11" unit="character"/>
+               </ab>
+            </div>
+            <div type="textpart" subtype="fragment" n="B">
+               <ab>
+               		<lb n="1"/><supplied reason="lost"><w>Ἔδοξε</w> <w>τῆι</w> <w>βουλῆι</w> <w>καὶ</w> <w>τῶι</w> <w>δήμωι</w></supplied> 
+                                                <gap reason="lost" extent="unknown" unit="character" cert="low"/><supplied reason="lost">, </supplied>
+                                                <w><supplied reason="lost">μηνὸς</supplied></w> <rs type="month" ref="kalamaion"><w><supplied reason="lost">Καλα</supplied>μαιῶνος</w></rs> 
+                                                   <w>ἑνδεκάτηι</w>, <persName type="attested"><name>Ἀπολλᾶς</name> 
+                                                   <persName type="attested"><name>Ἡροδότου</name></persName></persName> <w>εἶπεν</w>· <w>ἐπειδὴ</w> 
+                                                   <persName type="attested"><name>Αὐτοκ<supplied reason="omitted">λ</supplied>ῆς</name> <persName type="attested"><name>Οἰνι
+               		<lb n="2" break="no"/><supplied reason="lost" cert="low">άδου</supplied></name></persName></persName> <supplied reason="lost"><w>ἀνὴρ</w> 
+               		                   <w>ἀγαθὸς</w> <w>ὑπάρχων</w> <w>παρέχεται</w> <w>τῶι</w></supplied> <w><supplied reason="lost">δ</supplied>ήμωι</w> 
+                                                   <w>πολλὰς</w> <w>καὶ</w> <w>μεγάλας</w> <w>χρείας</w> <w>εἰς</w> <w>μ<supplied reason="omitted">εγ</supplied>ίστην</w> 
+                                                   <w>ἀσφάλειαν</w> <w>καὶ</w> <w>σωτηρίαν</w>
+               		<lb n="3"/><supplied reason="lost"><w>τῆς</w> <w>πόλεως</w> <w>κοινῆι</w> <w>καὶ</w> <w>ἰδίαι</w></supplied> 
+                                                   <gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">τοῖ</supplied><unclear>ς</unclear></w> 
+                                                   <w>π<unclear>ο</unclear>λίταις</w> <w>μετὰ</w> <w>πάσης</w> <w>εὐνοίας</w>, <w>εἰς</w> <w>ἃ</w> 
+                                                   <w>ἂν</w> <w>παρακαλῆται</w>, <w>προθύμως</w> <w>ὑπα
+               		<lb n="4" break="no"/><supplied reason="lost">κούει,</supplied></w> <gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>ν</unclear>θαι</w> <w>κατοικοῦντες</w> <w>τὸ</w> <placeName>Νικώνεον</placeName> 
+                                                   <w>ἐγλιπόντες</w> <w>τὸν</w> <w>τόπον</w> <w>διὰ</w> <w>τὴν</w>
+               		<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <w>ἀποστα<supplied reason="lost">λεὶ</supplied>ς</w> 
+                                                   <w>πρεσβευτὴς</w> <w>εἰς</w> <placeName>Ἴστρον</placeName> <w>ὑπὲρ</w> <w>ἀναστάσεως</w> <w>καὶ</w> <w>ἐνοι
+               		<lb n="6" break="no"/><supplied reason="lost">κήσεως</supplied></w> <w><supplied reason="lost">αὐτῶν</supplied></w> 
+                                                   <gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">συνέ</supplied><unclear>π</unclear>εισε</w> 
+                                                   <w>τὸν</w> <w>δῆμον</w> <w>τὸν</w> <placeName type="ethnic">Ἰστριανῶν</placeName> <w>οὐκ</w> <w>οὔσης</w> 
+                                                   <w>ἀπαγωγῆς</w> <w>εἰς</w> <w>τροφὴν</w> <orig>ΑΠΑ</orig>
+               		<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">κατ</supplied><unclear>ά</unclear>γειν</w> 
+                                                   <w>κατὰ</w> <w>θάλασσαν</w> <w>οὐ</w> <w>δυνηθεὶς</w> <w>δόμα</w> <w>τὸ</w> 
+                                                   <w>κατειληφέν<surplus>δ</surplus><supplied reason="omitted">α</supplied>ι</w>
+               		<lb n="8"/><supplied reason="lost" cert="low"><w>ἐνδέον</w></supplied> <gap reason="lost" extent="unknown" unit="character"/> 
+                                                   <w><supplied reason="lost">δι</supplied>ασώισας</w>, <w>ἕως</w> <w>μ<supplied reason="lost">ό</supplied>νον</w> 
+                                                   <orig>Α</orig> <gap reason="illegible" quantity="2" unit="character"/> <orig>ΤΗΝΓΠΡΕ</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ΙΣΑΛΟΜ</orig><gap reason="illegible" quantity="3" unit="character"/>
+               		<lb n="8a"/><gap reason="lost" extent="unknown" unit="line"/>
+               </ab>
+         </div>
+         </div>
+         <div type="apparatus">
+            <div type="textpart" n="A">
+               <listApp>
+               <app loc="3">
+                  <rdg source="bib:b0909">πο]λ̣ὺ̣ ἔργα ?</rdg>
+               </app>
+               <app loc="5">
+                  <rdg source="bib:b0909">τ]οῦδε vel ]ου δὲ</rdg>
+               </app>
+            </listApp>
+            </div>
+            <div type="textpart" n="B">
+               <listApp>
+                  <app loc="2">
+                     <rdg source="bib:b0909 bib:SEG">δ]ήμ{ο}⟨ω⟩ι</rdg>
+                     <rdg source="bib:b0909">μίστην (sic)</rdg>
+                     <rdg source="bib:SEG">μ⟨εγ⟩ίστην <note>vel</note> εἰς {μισ} τὴν</rdg> 
+                  </app>
+                  <app loc="3">
+                     <rdg source="bib:b0909 bib:SEG">ἰδίαι τὰ ἀξιούμενα τοῖ]ς̣</rdg>
+                  </app>
+                  <app loc="4">
+                     <rdg source="bib:b0909 bib:SEG">[κούει, ὡς δὲ e.g. ἠναγκάσθησαν ἡμῖν συνεπιφά]νθαι</rdg>
+                  </app>
+                  <app loc="5">
+                     <rdg source="bib:b0909 bib:SEG">[e.g. εἰσ/ἐμ/ἐπιβολὴν τῶν δείνων - - -]</rdg>
+                  </app>
+                  <app loc="6">
+                     <rdg source="bib:b0909 bib:SEG">[κήσεως αὐτῶν σῖτον ἱκανὸν διδόναι συνέ]π̣εισε; Ἰστριανῶν, καὶ οὐκ</rdg>
+                  </app>
+                  <app loc="7">
+                     <rdg source="bib:b0909 bib:SEG">[γωγίμου σίτου (?) - - - κατ]άγειν</rdg>
+                     <rdg source="bib:SEG">κατ]άγειν κατὰ θάλασσαν οὐ δυνηθεὶς (τὸ) δόμα ⟨διὰ⟩ τὸ κατειληφέν⟨α⟩ι | [e.g. τοὺς βαρβάρους τὰ πλοῖα?</rdg>
+                  </app>
+                  <app loc="8">
+                     <rdg source="bib:b0909 bib:SEG">μ[ό]νον [- - -]Α.ΤΗΝ</rdg>
+                  </app>
+               </listApp>
+            </div>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <div type="textpart" n="A">
+               <p>[- - -] народ [- - -] деяния [- - -] весьма прославиться [- - -]</p>
+            </div>
+            <div type="textpart" n="B">
+               <p>[Совет и народ постановили - - - ?, месяца Кала]мэона одиннадцатого числа, Аполлад, сын Геродота, внес предложение. 
+                  Поскольку Автокл, сын Эни[ада?, будучи мужем прекрасным, оказывает] народу многие и большие услуги для величайшей 
+                  безопасности и спасения [города и в целом, и в частности] к гражданам со всем благоросположением, в чем бы к нему ни 
+                  обратились, охотно прислуши[вается - - -] жители Никония, покинувшие это место из-за [- - -] отправленный послом в Истрию 
+                  относительно выселения и водво[рения их - - - уго]ворил народ истрийцев, но поскольку не было платы для пропитания 
+                  [- - - пере]везти по морю; не могущий дар (или плату), который(ую) [было необходимо] забрать [- - -с]охранив, пока только [- - -]</p>
+            </div>
+         </div>
+         <div type="translation" xml:lang="en">
+            <div type="textpart" n="A">
+            <p>[- - -] People [- - -] works [- - -] declare loudly [- - -]</p>
+         </div>
+         <div type="textpart" n="B">
+            <p>[The Council and the People? decided. In the month Kala]maion, on the 11th. Apollas, (son of) Herodotos proposed: since Autokles, 
+            (son of) Oini[ades, being a noble man, renders for the Pe]ople many and great services, aimed at the greatest security and salvation [of the polis as a whole, and in 
+            specific cases - - -] to the citizens with every kindness, in whatever he is be called upon, he eagerly lends [his ear - - -] inhabitants of Nikonion, leaving the place
+            due to [- - -] sent as an ambassador to Histria regarding the rising (or removal) and dwel[ling in - - - con]vinced the People of Histria, but since there was no payment 
+            for the provisions of food [- - -] to transport by sea; unable ... the payment (or gift?) that was [necessary?] to collect [- - - having pre]served, until only [- - -]</p>
+         </div>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Первая часть надписи, видимо, содержала эпиграмму из шести строк, от которых сохранились лишь окончания, 
+               а от второй строки – и вовсе ничего. Это делает восстановление надписи невозможным: читаются лишь отдельные слова. 
+               Это «народ», δᾶμος в дорийской форме, употребляемой в стихотворных текстах, а также некие «деяния» (видимо, чествуемого) и 
+               сочетание «весьма прославиться». Параллели в текстах см. Виноградов 1999, 54.</p>
+            <p>Вторая часть надписи воспроизводит декрет в честь Автокла, в соответствии с которым, очевидно, и была поставлена статуя, 
+               установленная на постаменте. Судя по размерам постамента, статуя была конной (Виноградов 1999, 51-53). Размеры левой, пропавшей, 
+               части надписи точно установить невозможно; для восстановления текста также возможны различные варианты – более короткие и более длинные, 
+               так что размер лакун неясен. Соответственно, предложенные Ю.Г. Виноградовым восстановления являются отчасти гипотетическими. 
+               В текст включены наиболее надежные из них, остальные помещены в критическом аппарате.</p>
+            <p>B 1. Месяц Καλαμαιών – третий месяц года согласно календарю Милета; засвидетельствован в календаре соседней с Тирой Ольвии: 
+               Виноградов, Русяева 1980, 25-38, с литературой. В имени Автокла пропущена лямбда. Восстановление патронима предположительно; 
+               здесь может стоять любое имя, начинающееся на Οἰνι-, см. LGPN, s.v. Имя Οἰνιάδης из них встречается чаще всего.
+               2. Вопреки указанию Виноградова в слове δ]ήμωι ошибки нет – на камне читается омега, хотя на опубликованной им фотографии 
+               очертание буквы напоминает омикрон. Восстанавливаемая в лакуне формула может быть расширена до встречающейся чаще: 
+               ἀνὴρ καλὸς κἀγαθὸς ὑπάρχων. Этот вариант Виноградов обсуждает в комментарии к своей публикации, однако в тексте оставляет 
+               сокращенный вариант.</p>
+               <p>Виноградов предлагает сохранить в тексте чтение μίστην, предполагая здесь фонетическое развитие 
+                  μεγίστην &gt; με-j-ίστην &gt; μείστην  &gt; μίστην. В принципе случаи использования гаммы для передачи спиранта j в интервокальной позиции, 
+                  и специально между e и i, в самом деле эпизодически встречаются начиная с IV в. до н.э., в том числе в аттических надписях, 
+                  а в египетских папирусах довольно распространены начиная со II в. до н.э. (Mayser 1906, 163-168; Schwyzer 1939, 209; Lejeune 1955, 47). 
+                  Однако предполагать такое фонетическое развитие в данном случае все же трудно, в том числе и из-за отсутствия аналогий этого 
+                  времени в близких регионах. Гораздо вероятнее предположение Плекета о том, что речь идет об ошибке резчика, пропустившего 
+                  две буквы, тем более, что в надписи имеется еще две его ошибки.</p>
+               <p>4. Предложенное Виноградовым восстановление не является совершенно надежным. Его утверждение, что окончание -]νθαι возможно 
+                  только для глаголов, производных от φαίνω, на котором строится восстановление, ошибочно – такое окончание имеют перфектные 
+                  инфинитивы множества глаголов с n-основой. Виноградов справедливо отмечает, что использованные здесь слова κατοικοῦντες и τὸν τόπον в 
+                  приложении к Никонию свидетельствуют о том, что у него не было статуса независимого полиса и он скорее всего входил в состав Тиры 
+                  (вопреки Ruscu 2004, 38-40, ср. SEG 54, 707, A. Chaniotis).</p>
+            <p>6. Восстановление Виноградова основывается на понимании им слова ἀπαγωγή как «транспорт для перевозки». 
+               Однако, насколько мне известно, такого значения у этого слова не засвидетельствовано: слово, согласно LSJ, кроме технических терминов 
+               в афинском судопроизводстве или в логике, обозначает или «увод (войск, пленников), похищение (женщин), отделение», или «плату». 
+               Именно последнее значение представляется в данном случае наиболее подходящим по контексту. Но в таком случае меняется понимание 
+               текста: речь идет не о даре истрийцев, а о закупке (скорее всего у них же) продовольствия, на оплату которого, однако, не было средств.</p>
+            <p>7. Слово δόμα в этом контексте может иметь два значения – «дар» (значение, принятое Виноградовым) и «плата». 
+               При понимании текста, предложенным Виноградовым, ожидался бы артикль перед этим словом.
+               В целом смысл текста мне представляется менее ясным, чем Виноградову. Речь идет о жителях Никония, покинувших свой город 
+               по неясным причинам, и о переговорах между Истрией и Тирой, связанных с этим. Предположение, что Автоклу удалось получить от 
+               Истрии в дар зерно для них, мне не кажется следующим из сохранившегося фрагментарного текста. Речь идет скорее о закупке 
+               продовольствия и трудностях, связанных с финансированием этой операции. В момент составления надписи Никоний, по всей видимости, 
+               не был независимым полисом (во всяком случае не считался таковым в Тире) и скорее всего входил в состав полиса Тиры.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The first part of the inscription was probably an epigram of six lines, of which only the endings remain, or nothing at all, as in line 2. 
+               This makes it nearly impossible to restore the text; only isolated words can be made out: People, δᾶμος in the Dorian form, attested in poetic texts,
+               as well as some "works" (probably of the honorand) and the expression "proclaim loudly." Paralles are cited in Vinogradov 1999, 54.</p>
+            <p>The second half of the inscription reproduces the decree honouring Autokles, in accordance with which the statue on this inscribed base was probably set up.
+               Judging by the size of the base, the statue was probably equestrian (Vinogradov 1999, 51-53). The dimensions of the lost part of the inscription, are 
+               impossible to determine; the size of the lacunae is unclear, and so both longer and shorter possibilities for the restoration of the text 
+               are conceivable. For this reason, the restorations proposed by Vinogradov are partly hypothetical. I have adopted only the most plausible ones in my edition, 
+               listing others in the Apparatus criticus.</p>
+            <p>B 1. The month Καλαμαιών is the third month of the year in the Milesian calendar; it is attested in the calendar of the neighbrouing Olbia: 
+               vinogradov, Rusyaeva 1980, 25-38, with bibliography. In the name of Autokles, lambda is omitted. The patronymic is restored tentatively; 
+               any name beginning with Οἰνι- is possible, see  LGPN, s.v. The name Οἰνιάδης is only the most common of such names. 
+               2. Despite Vinogradov's remark, there is no mistake in the word δ]ήμωι – omega is clear on the stone, although his published photo suggests an omicron.  
+               The formula restored in the lacuna can be expanded to a more frequently attested: ἀνὴρ καλὸς κἀγαθὸς ὑπάρχων. 
+               Vinogradov discusses this variant in his publication, but prefers the shorter variant in his edition.</p>
+            <p>Vinogradov argues that we should accept the reading μίστην, supposing a phonetic development here: μεγίστην &gt; με-j-ίστην &gt; μείστην  &gt; μίστην. 
+               In principle, cases where intervocalic gamma is used to convey spirant j in intervocalic position, and specifically between e and i, are indeed attested from 
+               the IV century B.C.E., in Attic inscriptions among others, while it is also quite common in Egyptian papyri from the II century B.C.E. (Mayser 1906, 163-168; 
+               Schwyzer 1939, 209; Lejeune 1955, 47). It is, however, difficult to envision such a phonetic development in our case, not least because of the lack of parallels in the region 
+               under consideration or in neighbouring regions. More likely is the supposition of Pleket that we are dealing with a stonecutter's mistake, since there are two more 
+               such mistakes in the text.</p>
+            <p>4. Vinogradov's restoration is not entirely secure. His point that the ending -]νθαι is only possible in verbs derived from φαίνω, which 
+               is the basis of his restoration, is faulty, since perfect infinitives of many verbes with n-base have such endings. His other point, however, is well taken, namely that the use of such 
+               words as κατοικοῦντες and τὸν τόπον Nikonion with respect to Nikonion suggest that it did not have the status of an independent polis and most likely was part of 
+               the polis of Tyras (contra Ruscu 2004, 38-40, сf. SEG 54, 707, A. Chaniotis).</p>
+            <p>6. Vinogradov's restoration here is based on his understanding of the word ἀπαγωγή as "vehicle for transportation." As far as I am aware, such usage is not 
+               attested: according to LSJ, aside from technical usage in the Athenian legal system and in logic, the word means "leading away" (of an army, prisoners), 
+               "abduction" (of women), "removal," or "payment." It is the last sense that seems most fitting in our context. In that case, however, the meaning of the text is 
+               altered: we are dealing not with a gift of the Histrians, but with the purchase (most likely, from them) of food provisions and the inability to pay for them.</p>
+            <p>7. The word δόμα in this context may also have two senses: either "gift" (as Vinogradov) or "payment." If we follow Vinogradov, we would expect an article before the word.
+               In general, the meaning of the text is less clear to me than it appeared to Vinogradov. It refers to inhabitants of Nikonion, who had left their city for unknown 
+               reasons, and about negotiations between Histria and Tyras, related to that. A supposition that Autokles managed to receive a gift of grain from Histria does not seem 
+               to me to follow from the text.  More likely, we are deling with a purchase of food provision and some difficulties, concerning the financial side of the transaction. 
+               At the time of the inscribing, Nikonion in all likelihood was not an independent polis (or, in any case, was not so considered by Tyras) and was probably part 
+               of the polis of Tyras.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

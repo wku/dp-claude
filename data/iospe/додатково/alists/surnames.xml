@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><ab/></publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Canonical spellings of Russian authors in English</head>
+            <listPerson>
+                <person xml:id="n1"><persName>
+                    <surname xml:lang="ru">Латышев</surname><surname xml:lang="en">Latyshev</surname>
+                    <forename xml:lang="ru">В.В.</forename><forename xml:lang="en">V.V.</forename>
+                </persName></person>
+                <person xml:id="n2"><persName><surname>Zuckermann</surname></persName></person>
+                <person xml:id="n3"><persName><surname>Adaksina</surname></persName></person>
+                <person xml:id="n4"><persName><surname>Aybabin</surname></persName></person>
+                <person xml:id="n5"><persName><surname>Aynalov</surname></persName></person>
+                <person xml:id="n6"><persName><surname>Almazov</surname></persName></person>
+                <person xml:id="n7"><persName><surname>Amelkin</surname></persName></person>
+                <person xml:id="n8"><persName><surname>Antonova</surname></persName></person>
+                <person xml:id="n9"><persName><surname>Arkas</surname></persName></person>
+                <person xml:id="n10"><persName><surname>Makarova</surname></persName></person>
+                <person xml:id="n11"><persName><surname>Pletnyova</surname></persName></person>
+                <person xml:id="n12"><persName><surname>Rybakov</surname></persName></person>
+                <person xml:id="n13"><persName><surname>Afinogenov</surname></persName></person>
+                <person xml:id="n14"><persName><surname>Ashik</surname></persName></person>
+                <person xml:id="n15"><persName><surname>Bayer</surname></persName></person>
+                <person xml:id="n16"><persName><surname>Baranov</surname></persName></person>
+                <person xml:id="n17"><persName><surname>Barmina</surname></persName></person>
+                <person xml:id="n18"><persName><surname>Bartikyan</surname></persName></person>
+                <person xml:id="n19"><persName><surname>Bezobrazov</surname></persName></person>
+                <person xml:id="n20"><persName><surname>Bekker</surname></persName></person>
+                <person xml:id="n21"><persName><surname>Beletsky</surname></persName></person>
+                <person xml:id="n22"><persName><surname>Belov</surname></persName></person>
+                <person xml:id="n23"><persName><surname>Yakobson</surname></persName></person>
+                <person xml:id="n24"><persName><surname>Bely</surname></persName></person>
+                <person xml:id="n25"><persName><surname>Solomonik</surname></persName></person>
+                <person xml:id="n26"><persName><surname>Kirilko</surname></persName></person>
+                <person xml:id="n27"><persName><surname>Biernacki</surname></persName></person>
+                <person xml:id="n28"><persName><surname>Klenina</surname></persName></person>
+                <person xml:id="n29"><persName><surname>Ryzhov</surname></persName></person>
+                <person xml:id="n30"><persName><surname>Bertye-Delagard</surname></persName></person>
+                <person xml:id="n31"><persName><surname>Myts</surname></persName></person>
+                <person xml:id="n32"><persName><surname>Blavatsky</surname></persName></person>
+                <person xml:id="n33"><persName><surname>Borozdin</surname></persName></person>
+                <person xml:id="n34"><persName><surname>Bruyako</surname></persName></person>
+                <person xml:id="n35"><persName><surname>Sapozhnikov</surname></persName></person>
+                <person xml:id="n36"><persName><surname>Waxel</surname></persName></person>
+                <person xml:id="n37"><persName><surname>Vasilyevsky</surname></persName></person>
+                <person xml:id="n38"><persName><surname>Veymarn</surname></persName></person>
+                <person xml:id="n39"><persName><surname>Choref</surname></persName></person>
+                <person xml:id="n40"><persName><surname>Loboda</surname></persName></person>
+                <person xml:id="n41"><persName><surname>Pioro</surname></persName></person>
+                <person xml:id="n42"><persName><surname>Bank</surname></persName></person>
+                <person xml:id="n43"><persName>
+                    <surname xml:lang="ru">Виноградов</surname><surname xml:lang="en">Vinogradov</surname>
+                    <forename xml:lang="ru">А.Ю.</forename><forename xml:lang="en">A.Yu.</forename>
+                </persName></person>
+                <person xml:id="n44"><persName><surname>Kharitonov</surname></persName></person>
+                <person xml:id="n45"><persName><surname>Zakharova</surname></persName></person>
+                <person xml:id="n46"><persName><surname>Gaydukov</surname></persName></person>
+                <person xml:id="n47"><persName><surname>Zheltov</surname></persName></person>
+                <person xml:id="n48"><persName><surname>Dzhanov</surname></persName></person>
+                <person xml:id="n49"><persName><surname>Komar</surname></persName></person>
+                <person xml:id="n50"><persName><surname>Lukovnikova</surname></persName></person>
+                <person xml:id="n51"><persName><surname>Voytsekhovsky</surname></persName></person>
+                <person xml:id="n52"><persName><surname>Gaydukevich</surname></persName></person>
+                <person xml:id="n53"><persName><surname>Gaydukov</surname></persName></person>
+                <person xml:id="n54"><persName><surname>Gerts</surname></persName></person>
+                <person xml:id="n55"><persName><surname>Gertsen</surname></persName></person>
+                <person xml:id="n56"><persName><surname>Naumenko</surname></persName></person>
+                <person xml:id="n57"><persName><surname>Ginkut</surname></persName></person>
+                <person xml:id="n58"><persName><surname>Alekseenko</surname></persName></person>
+                <person xml:id="n59"><persName><surname>Grigorovich</surname></persName></person>
+                <person xml:id="n60"><persName><surname>Diatroptov</surname></persName></person>
+                <person xml:id="n61"><persName><surname>Yemets</surname></persName></person>
+                <person xml:id="n62"><persName><surname>Dombrovsky</surname></persName></person>
+                <person xml:id="n63"><persName><surname>Hermogenes</surname></persName></person>
+                <person xml:id="n64"><persName><surname>Yermolin</surname></persName></person>
+                <person xml:id="n65"><persName><surname>Yurochkin</surname></persName></person>
+                <person xml:id="n66"><persName><surname>Zavadskaya</surname></persName></person>
+                <person xml:id="n67"><persName><surname>Zeibt</surname></persName></person>
+                <person xml:id="n68"><persName><surname>Zalesskaya</surname></persName></person>
+                <person xml:id="n69"><persName><surname>Zubar</surname></persName></person>
+                <person xml:id="n70"><persName><surname>Ivanov</surname></persName></person>
+                <person xml:id="n71"><persName><surname>Dublyansky</surname></persName></person>
+                <person xml:id="n72"><persName><surname>Kadeev</surname></persName></person>
+                <person xml:id="n73"><persName><surname>Karaulov</surname></persName></person>
+                <person xml:id="n74"><persName><surname>Köhne</surname></persName></person>
+                <person xml:id="n75"><persName><surname>Köppen</surname></persName></person>
+                <person xml:id="n76"><persName><surname>Klopotovich</surname></persName></person>
+                <person xml:id="n77"><persName><surname>Knyazky</surname></persName></person>
+                <person xml:id="n78"><persName><surname>Kostsyushko-Valyuzhinich</surname></persName></person>
+                <person xml:id="n79"><persName><surname>Kochubinsky</surname></persName></person>
+                <person xml:id="n80"><persName><surname>Kryzhitsky</surname></persName></person>
+                <person xml:id="n81"><persName>
+                    <surname xml:lang="en">Kulakovsky</surname>
+                    <surname xml:lang="ru">Кулаковский</surname>
+                </persName></person>
+                <person xml:id="n82"><persName><surname>Lazarenko</surname></persName></person>
+                <person xml:id="n83"><persName><surname>Nenevolya</surname></persName></person>
+                <person xml:id="n84"><persName><surname>Pichka</surname></persName></person>
+                <person xml:id="n85"><persName><surname>Lebedinsky</surname></persName></person>
+                <person xml:id="n86"><persName><surname>Levinskaya</surname></persName></person>
+                <person xml:id="n87"><persName><surname>Leper</surname></persName></person>
+                <person xml:id="n88"><persName><surname>Mayko</surname></persName></person>
+                <person xml:id="n89"><persName><surname>Malitsky</surname></persName></person>
+                <person xml:id="n90"><persName><surname>Markevich</surname></persName></person>
+                <person xml:id="n91"><persName><surname>Marr</surname></persName></person>
+                <person xml:id="n92"><persName><surname>Marti</surname></persName></person>
+                <person xml:id="n93"><persName><surname>Matantseva</surname></persName></person>
+                <person xml:id="n94"><persName><surname>Makhnyova</surname></persName></person>
+                <person xml:id="n95"><persName><surname>Miller</surname></persName></person>
+                <person xml:id="n96"><persName><surname>Mogarichev</surname></persName></person>
+                <person xml:id="n97"><persName><surname>Molev</surname></persName></person>
+                <person xml:id="n98"><persName><surname>Murzakevich</surname></persName></person>
+                <person xml:id="n99"><persName><surname>Novichikhin</surname></persName></person>
+                <person xml:id="n100"><persName><surname>Ovchinnikova</surname></persName></person>
+                <person xml:id="n101"><persName><surname>Pavlova</surname></persName></person>
+                <person xml:id="n102"><persName><surname>Petrova</surname></persName></person>
+                <person xml:id="n103"><persName><surname>Pomyalovsky</surname></persName></person>
+                <person xml:id="n104"><persName><surname>Ponomaryov</surname></persName></person>
+                <person xml:id="n105"><persName><surname>Redin</surname></persName></person>
+                <person xml:id="n106"><persName><surname>Repnikov</surname></persName></person>
+                <person xml:id="n107"><persName><surname>Dimitrov</surname></persName></person>
+                <person xml:id="n108"><persName><surname>Rozanova</surname></persName></person>
+                <person xml:id="n109"><persName><surname>Romanchuk</surname></persName></person>
+                <person xml:id="n110"><persName><surname>Bykov</surname></persName></person>
+                <person xml:id="n111"><persName><surname>Romanyuk</surname></persName></person>
+                <person xml:id="n112"><persName><surname>Rudakov</surname></persName></person>
+                <person xml:id="n113"><persName><surname>Lozhkina</surname></persName></person>
+                <person xml:id="n114"><persName><surname>Sidorenko</surname></persName></person>
+                <person xml:id="n115"><persName><surname>Skrzynska</surname></persName></person>
+                <person xml:id="n116"><persName><surname>Soznik</surname></persName></person>
+                <person xml:id="n117"><persName><surname>Turovsky</surname></persName></person>
+                <person xml:id="n118"><persName><surname>Sorochan</surname></persName></person>
+                <person xml:id="n119"><persName><surname>Stefani</surname></persName></person>
+                <person xml:id="n120"><persName><surname>Stupko</surname></persName></person>
+                <person xml:id="n121"><persName><surname>Turovsky</surname></persName></person>
+                <person xml:id="n122"><persName><surname>Filippenko</surname></persName></person>
+                <person xml:id="n123"><persName><surname>Struve</surname></persName></person>
+                <person xml:id="n124"><persName><surname>Strukov</surname></persName></person>
+                <person xml:id="n125"><persName><surname>Sumarokov</surname></persName></person>
+                <person xml:id="n126"><persName><surname>Tikhanova</surname></persName></person>
+                <person xml:id="n127"><persName><surname>Tikhanova-Klimenko</surname></persName></person>
+                <person xml:id="n128"><persName><surname>Tolstoy</surname></persName></person>
+                <person xml:id="n129"><persName><surname>Kondakov</surname></persName></person>
+                <person xml:id="n130"><persName><surname>Tokhtasyev</surname></persName></person>
+                <person xml:id="n131"><persName><surname>Tunkina</surname></persName></person>
+                <person xml:id="n132"><persName><surname>Uvarov</surname></persName></person>
+                <person xml:id="n133"><persName><surname>Firsov</surname></persName></person>
+                <person xml:id="n134"><persName><surname>Khrushkova</surname></persName></person>
+                <person xml:id="n135"><persName><surname>Zuckermann</surname></persName></person>
+                <person xml:id="n136"><persName><surname>Chichurov</surname></persName></person>
+                <person xml:id="n137"><persName><surname>Shalkevich</surname></persName></person>
+                <person xml:id="n138"><persName><surname>Shandrovskaya</surname></persName></person>
+                <person xml:id="n139"><persName><surname>Shangin</surname></persName></person>
+                <person xml:id="n140"><persName><surname>Shestakov</surname></persName></person>
+                <person xml:id="n141"><persName><surname>Shkorpil</surname></persName></person>
+                <person xml:id="n142"><persName><surname>Şlapac</surname></persName></person>
+                <person xml:id="n143"><persName><surname>Shmit</surname></persName></person>
+                <person xml:id="n144"><persName><surname>Yurgevich</surname></persName></person>
+                <person xml:id="n145"><persName><surname>Uzhentsev</surname></persName></person>
+                <person xml:id="n146"><persName><surname>Yaylenko</surname></persName></person>
+                <person xml:id="n147"><persName><surname>Zhebelev</surname></persName></person>
+                <person xml:id="n148"><persName><surname>Rostowzew</surname></persName></person>
+            </listPerson>
+        </body>
+    </text>
+</TEI>

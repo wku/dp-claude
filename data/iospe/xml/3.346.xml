@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+             <title xml:lang="ru">Семейное надгробие</title>
+             <title xml:lang="en">Family epitaph</title>
+         </titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.153</idno><idno type="PE">PE3000559</idno><idno type="filename">3.346</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>НЗХТ</repository>
+                     <idno>3667</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3667</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon40">Оссуарий.</objectType>
+                           <objectType xml:lang="en">Ossuary.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m4">Песчаник.</material>
+                           <material xml:lang="en">Sandstone.</material>
+                           <p xml:lang="ru">Оссуарий в форме прямоугольного саркофага. Сверху на углах крышки расположены акротерии. 
+                              Сохранился полностью. Поверхности тщательно обработаны. На одной из продольных сторон сохранились остатки надписи. 
+                              Верхняя строка (a) вырезана на грани крышки, остальные строки раположены на грани оссуария в три ряда: одна строка слева (b), 
+                              шесть строк в правом столбце (d) и пять строк в среднем столбце (c), причем между столбцами d и c нет какого-либо заметного 
+                              промежутка. В настоящее время лишь отдельные буквы поддаются прочтению.</p>
+                           <p xml:lang="en">Ossuary in the shape of a rectangular sarcophagus. Top corners are shaped as acroteria. Fully preserved. Surfaces are well worked. 
+                           one of the long sides bears the inscription.</p>
+                           <dimensions>
+                              <height unit="cm">28,0</height>
+                              <width unit="cm">48,0</width>
+                              <depth unit="cm">35,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны тонкими линиями. Альфа с прямой перекладиной, 
+                           тета с замкнутой поперечной гастой, мю с расходящимися внешними гастами, ню 
+                           с равными вертикалями, пи с равными вертикалями и выходящей за их пределы горизонталью, 
+                           слабые утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Thinly cut letters, alpha with straight crossbar, mu with slanting outer hastae; slight flaring of the ends of hastae.</seg>
+                        <height unit="cm">2,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес Таврический.</seg>
+                        <seg xml:lang="en">Chesonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0033" notAfter="0100" evidence="Палеография">
+                        <seg xml:lang="ru">конец I в. до н.э. – I в. н.э.</seg>
+                        <seg xml:lang="en">late I century B.C.E. – I century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1891 г. Раскопки К.К. Косцюшко-Валюжинича (НА НЗХТ д. 2, л. 17, № 70; д. 20, № 70).</rs>
+                        <rs type="context">В южном районе городища, при раскопках некрополя у южной части 
+                           оборонительний стены, в склепе № 23.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol.</placeName>
+                        <rs type="circumstances">Found in 1891, excavations of K.K. Kostsyushko-Valyuzhinich (НА НЗХТ д. 2, л. 17, № 70; д. 20, № 70).</rs>
+                        <rs type="context"/>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+                  </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      <revisionDesc>
+         <change when="2017-03-27" who="PY">encoded Leiden and metadata</change>
+         <change when="2017-03-16" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.153">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Латышев 1892 --><ptr target="bib:b0125"/> <citedRange>9, № 11</citedRange>
+               (= <bibl><!-- IOSPE IV --><ptr target="bib:IOSPE"/> <citedRange>IV, 135</citedRange></bibl>
+               <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>I2, 513</citedRange></bibl>)</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="section" n="a">
+            <ab>
+               		<lb n="1"/><orig>ΟΚΤΙΟΛΟΙΟ</orig><w><choice><corr>μν</corr><sic>ν</sic></choice>ῆμα</w> 
+               <orig>ΜΗΤΡΟ</orig><gap reason="illegible" quantity="3" unit="character"/>
+            </ab>
+            </div>
+            <div type="textpart" subtype="section" n="b">
+            <ab>
+               		<lb n="2"/><w>χαῖρε</w>.
+            </ab>
+            </div>
+            <div type="textpart" subtype="section" n="c">
+               <ab>
+               		<lb n="3"/><persName type="attested"><name>Ἡμέρα</name> <w>γυνὴ</w>
+               		<lb n="4"/><persName type="attested"><name>Μ<supplied reason="undefined" evidence="previouseditor">ητρο</supplied>δόρο
+               		<lb n="5" break="no"/><supplied reason="undefined" evidence="previouseditor">υ</supplied></name></persName></persName> 
+                  <w>ε<supplied reason="undefined" evidence="previouseditor">ἰς</supplied></w> <w>ἔτη</w> <num value="5">ε</num>
+               		<lb n="6"/><supplied reason="undefined" evidence="previouseditor"><w>ἥμυσυ</w></supplied>, <w>θυγά
+               		<lb n="7" break="no"/><supplied reason="undefined" evidence="previouseditor">τηρ</supplied></w> 
+                  <persName type="attested"><name>Ἀπελλᾶ</name></persName>               
+               </ab>
+            </div>
+            <div type="textpart" subtype="section" n="d">
+               <ab>
+               		<lb n="8"/><w>τοῦ</w> <persName type="attested"><name>Ἀ
+               		<lb n="9" break="no"/>πελλ
+               		<lb n="10" break="no"/>ᾶ</name></persName> <w>τοῦ</w> <w>κ
+               		<lb n="11" break="no"/>ὲ</w> <orig>ΠΡΟ</orig>
+               		<lb n="12"/><orig>ΜΑΕ<unclear>Τ</unclear></orig>               		
+                                                <lb n="13"/><supplied reason="undefined" evidence="previouseditor"><orig>Ο</orig></supplied>
+                  <gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
+                  <space quantity="2" unit="character"/>
+            </ab>
+            </div>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app><note/></app>
+               <app loc="1"><rdg><note>scripsi</note>; [. . .] μνῆμα Μητρο[δώρου?] - 
+                  edd. ΟΚΤΙΟΛΟΙΟΝΗΜΑΜΗΤΡΟΡΟΜ</rdg></app>
+               <app loc="4-5"><rdg>Μητροδόρο/υ = Μητροδώρο/υ</rdg></app>
+               <app loc="6"><rdg>ἥμυσυ = ἥμισυ</rdg></app>
+               <app loc="10-11"><rdg>κ/έ = κ/αί</rdg></app>
+               <app loc="12-13"><rdg><note>scripsi;</note> Προμα[θίωνος ?] <note>- edd.</note></rdg> 
+                  <rdg><note>не исключаю</note> Προ/μᾶ, ἐτ̣ο̃[ν (= ἐτῶν) - - -]</rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>- - - памятник - - - приветствую, Гемера, жена Метродора в течение (?) 5 с половиной (?) лет, дочь Апеллая, сына Апеллая, по прозвищу Пром[- - -]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Ed. pr. (по эстампажу К.К. Косцюшко-Валюжинича)</p>
+            <p>1: рисунок по эстампажу в edd.; в конце стк. на эстампажe буквы не поддаются надежному определению.</p>
+            <p>12: Τ - рисунок  по эстампажу в edd.</p>
+            <p>13: в начале стк. Ο, в середине стк. наклонная линия (вероятно, Λ) - рисунок по эстампажу в edd.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

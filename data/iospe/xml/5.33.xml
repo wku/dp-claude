@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение Вик-<certainty cert="low" locus="value" match=".."/> и Михаила</title><title xml:lang="en">Dedication of Bik- <certainty cert="low" locus="value" match=".."/> and Michael</title><editor xml:id="ayv2012">
+               <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+               <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+            </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.33</idno><idno type="PE">PE5000033</idno>
+            <idno type="AYV2012-number">byz033</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>34978</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвятительная надпись.</seg>
+                     <seg xml:lang="en">Dedication.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon5">Карниз.</objectType>
+                           <objectType xml:lang="en">Cornice.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Облицовочная плита была использована вторично в качестве карниза. Обожжен, обломан слева и справа.</p>
+                           <p xml:lang="en">Originally a panel from architectural revetment, here in secondary use as cornice. Burnt, broken off on the left and right. </p>
+                        </support>
+                     </supportDesc>
+                  <layoutDesc>
+                     <layout ana="f1">
+                        <seg xml:lang="ru">На лицевой стороне.</seg>
+                        <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                     </layout>
+                  </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы слабо апицированы. Альфа с ломаной перекладиной, бета с нижним подчеркиванием, эпсилон прямоугольный, 
+                           лямбда с выступающей влево вверх правой диагональю, пи с удлиненной перекладиной, ро в форме R, ипсилон слегка наклонен вправо.</seg>
+                        <seg xml:lang="en">Lapidary. Lightly articulated serifs. Alpha with broken crossbar; beta with bottom underline; rectangular epsilon; lambda
+                           with projecting right hasta; pi with extended horizontal; tailed rho; upsilon slightly leans to the right. </seg>
+                        <height unit="cm">1,7–2,2.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0501" notAfter="0700" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">VI–VII вв.</seg>
+                        <seg xml:lang="en">VI–VIIth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+               <msPart n="1">
+                  <msIdentifier>
+                     <idno/>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions>
+                                 <height>3,5</height>
+                                 <width>10,0</width>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance type="observed" subtype="autopsy">
+                        <seg xml:lang="ru">Non vidi.</seg>
+                        <seg xml:lang="en">Non vidi.</seg>
+                     </provenance>
+                     <provenance type="found">
+                        <seg xml:lang="ru">
+                           <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                           <rs type="circumstances">2010 г., раскопки С.В. Ушакова.</rs>
+                           <rs type="context">Храм № 7 («базилика Крузе»), отвал раскопок 1891 г.</rs>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                           <rs type="circumstances">2010, excavations of S.V. Ushakov.</rs>
+                           <rs type="context">Church 7 ("Kruze Basilica"), spoil heap of 1891 excavations.</rs>
+                        </seg>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart n="2">
+                  <msIdentifier>
+                  <idno/>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <dimensions>
+                                 <height>3,5</height>
+                                 <width>18,0</width>
+                                 <depth>7,0</depth>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <provenance type="observed" subtype="autopsy">
+                        <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08"> август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>.</seg>
+                        <seg xml:lang="en"> <date when="1999-05">May 1999</date>, <date when="2001-08"> August 2001</date>, <date when="2002-09"> September 2002</date>, <date when="2003-09"> September 2003</date>, <date when="2004-09"> September 2004</date>, <date when="2005-09"> September 2005</date>, <date when="2006-09"> September 2006</date>, <date when="2007-09"> September 2007</date>.</seg>
+                     </provenance>
+                     <provenance type="found">
+                        <seg xml:lang="ru">
+                           <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                           <rs type="circumstances">1891 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                           <rs type="context">Храм № 7 («базилика Крузе»).</rs>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                           <rs type="circumstances">1891, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                           <rs type="context">Church 7 ("Kruze Basilica").</rs>
+                        </seg>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc> 
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-05-27" who="CB">Small corrections to fragments</change>
+         <change when="2015-04-24" who="CB">Textparts</change>
+         <change when="2015-03-20" who="CB">Andrey's corrections</change>
+          <change when="2013-01-15" who="AL">inserted toponyms in English commentary</change>
+          <change when="2012-10-01" who="AL">corrected Russian metadata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-11" who="AG">1 line translated, names corrected</change>
+         <change when="2012-05-15" who="AG">tags corrected</change>
+         <change when="2012-05-14" who="AG">several lines translated, some corrections</change>
+         <change when="2012-04-18" who="AFS">several lines translated, editor added, bibliography corrected</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-02-21" who="AG">bibliography tags corrected</change>
+          <change when="2012-02-20" who="AL">tagged bibliography</change>
+         <change when="2012-01-18" who="AG">updated, 1 line translated, tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="5.33-1">
+            <desc xml:lang="en">Photograph of fragment 1 (Vinogradov 20??)</desc>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="5.33-2">
+            <desc xml:lang="en">Photograph of fragment 2 (from ??)</desc>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl n="1">
+               <bibl/>
+            </listBibl>
+            <listBibl n="2">
+               <bibl n="L1"><!-- Латышев 1892а --><ptr target="bib:b0125"/>, 36, № <citedRange>28</citedRange></bibl>
+               <bibl n="1.1"><!-- Сборник --><ptr target="bib:b0132"/>, 29–30, № <citedRange>18</citedRange></bibl>
+            </listBibl>
+          </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab> 
+               <lb n="1"/><w lemma=""><gap reason="lost" extent="unknown" unit="character"/><seg part="F">α</seg></w>, 
+               <persName type="attested" ref="#person30"><name nymRef="Βικ—"><seg part="I">Βι<unclear>κ</unclear></seg></name></persName><gap reason="lost" extent="unknown" cert="low" unit="character"/>
+               <supplied reason="lost"><w lemma="καί">καὶ</w></supplied>
+               <persName type="attested" ref="#person31"><name nymRef="Μιχαήλ"><supplied reason="lost" cert="low">Μιχ</supplied>αὴλ</name></persName>
+               <w lemma="ὑπέρ">ὑπὲρ</w> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>...], Вик<supplied reason="lost"><gap reason="ellipsis"/>  (?) и Ми</supplied>хаил (?) о <gap reason="lost" extent="3" unit="character"/>.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>...], Bik[...](?) and Mi]chael for/about [...].</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Об археологическом контексте находки фрагмента 2 см. Косцюшко-Валюжинич 1893b, 4. Фрагмент 1 обнаружен в отвале раскопок 1891 г., и был, по всей 
+               видимости, найден первоначально где-то рядом с фрагментом 2, но случайно выброшен в отвал.</p>
+                <p> Латышев считал относительно фрагмента 2, что «обломок, по-видимому, происходит от записи о посвящении какого-нибудь предмета в храм, 
+                   сделанном неким Михаилом за кого-либо из близких». Действительно, небольшая высота камня свидетельствует о том, что это карниз какого-то устройства 
+                   (например, темплона), а не храма.</p>
+            <p> Буквы ΑΒΙΚ на фрагменте 1 не могут принадлежать целиком никакому греческому слову и вряд ли — какому-то имени (имя Авика в <ref type="inscription">V 296</ref><!--byz290--> из Керчи 
+                   абсолютно уникально). Поэтому логичнее всего видеть здесь альфу от окончания (вероятней всего, от женского имени) и начало имени на Вик 
+                   (типа Виктор или Викентий). Впрочем, нельзя исключать и другого прочтения фр. 1: например, как ...]α βικαρ... (см. комм. к <ref type="inscription">V 6</ref><!--byz005-->) или καβικλάριος. 
+                   Перед именем второго дедиканта, вероятно, стоял союз «и». Оно почти точно Михаил: другие имена с окончанием -аил в христианских надписях, 
+                   согласно PHI7 Database, почти не фиксируются (единственное исключение — одно лишь упоминание имени Месаил).</p>
+                <p> По всей видимости вслед за ὑπέρ шло какое-то слово типа «молитве», «спасении», «себе» и т.п. Разные варианты формулы с ὑπέρ после имени 
+                   дедиканта см., например, в Grégoire 1929, № 44, 64, 94, 119. Поскольку имена здесь предшествуют формуле посвящения, то очевидно, что фрагмент 2 
+                   стоял после фрагмента 1 с негреческим именем.</p>
+            <p>По форме прямоугольного эпсилона надпись стоит ближе к <ref type="inscription">V 7</ref><!--byz006-->, однако Y-образный ипсилон делает возможным датировку и 1 пол. VI в. R-образная 
+                   форма ро для Северного Причерноморья уникальна. Археологически храм № 7 датируется не ранее сер. VI в. (любезное сообщение С.В. Ушакова — 
+                   автора последних раскопок храма).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>For the archaelogical context of Fragment 2, see Kostsyushko-Valyuzhinich 1893b, 4. Fragment 1 was found in the spoil heap resulting from the excavation of 
+            1891. It must have been originally found somewhere near Fragment 2, but ended up in the spoil heap by accident.</p>
+             <p>Latyshev considered Fragment 2 to be "a piece, apparently belonging to an inscribed dedication of some object in a church, made by a certain Michael on behalf 
+             of a relative." Indeed, the small height of the stone suggests that it is a cornice of some element of the interior, e.g. a templon, rather than of a church 
+             building.</p>
+            <p>The letters ΑΒΙΚ on Fragment 1 cannot as a sequence belong to any single Greek word, and it is not likely that they belong to a name (the name Abika in Kerch (<ref type="inscription">V 296</ref><!--byz290-->)
+            is completely unique). One possible way of breaking up the sequence is to take the alpha as the last letter of some word (e.g., a female name) and the rest of letters
+            - Bik - as the beginning of another name, e.g., Biktor or Bikentios, that is, Viktor or Vikentios). Alternative readings are possible, however, e.g. ...]α βικαρ... (see commentary to <ref type="inscription">V 6</ref><!--byz005-->) 
+            or καβικλάριος. Before the name of the second dedicant there was probably a conjunction "and." The second dedicant's name was almost certainly Michael: other
+            names with the ending -ael in Christian inscriptions are not attested (according to the HI7 Database), with the exception of a single case of Mesael.</p>
+            <p>The preposition ὑπέρ was most likely followed by a noun or pronoun, such as "prayer," "salvation", "oneself," or similar. For various possibilities of the
+               formula ὑπέρ after the name of a dedicant, see Grégoire 1929, nos. 44, 64, 94, 119. Since here the names precede the formula, it must be that Fragment 2 
+               followed Fragment 1 (with the non-Greek name).</p>
+             <p>The rectangular epsilon calls for a comparison with <ref type="inscription">V 7</ref><!--byz006-->, but the Y-shaped upsilon suggests a date in the first half of the VIth century.
+                Tailed rho is unique for the Northern Black Sea region. Archaeologically, Church 7 dates no earlier than the middle of the VIth century (according
+                to the kind personal communication of S.V. Ushakov, the last excavator of the site).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

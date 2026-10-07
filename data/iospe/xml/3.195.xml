@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Метрическая эпитафия Ксанфа</title><title xml:lang="en">Metrical epitaph of Xanthos</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.216</idno><idno type="PE">PE3000186</idno><idno type="filename">3.195</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3698</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3698</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc18">
+                     <seg xml:lang="ru">Метрическая надгробная надпись.</seg>
+                     <seg xml:lang="en">Metrical epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Стела, украшенная профилированным карнизом без
+                              антефиксов. Внизу профилированная база и шип для крепления на
+                              постаменте. На лицевой стороне две рельфные розетки. Под розетками
+                              трехстрочная надпись с именем умершего, вырезанная поверх более ранней
+                              стесанной надписи. В самом низу плиты, у базы, расположены восемь
+                              строк стихотворной эпитафии.</p>
+                           <p xml:lang="en"/>
+                           <dimensions>
+                              <height unit="cm">153,0</height>
+                              <width unit="cm">36,0</width>
+                              <depth unit="cm">16,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Альфа с ломаной перекладиной, тета с чертой, гасты каппа
+                           не укорочены, мю с немного расходящимися боковыми линиями и пересечением
+                           внутренних гаст посередине или чуть ниже, горизонталь пи не выступает за
+                           вертикальные линии, имеющие одинаковую длину, сигма с легким наклоном
+                           вправо, немного вытянутые тета, омикрон, омега, слабые утолщения на
+                           концах линий букв.</seg>
+                        <seg xml:lang="en">Alpha with broken crossbar.</seg>
+                        <height unit="cm">3 (l. 1-3); 1,3 (l. 4-11)</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0033" notAfter="0050" evidence="палеография">
+                        <seg xml:lang="ru">кон. I в. до н.э. - 1-я пол. I в. н.э.</seg>
+                        <seg xml:lang="en">late I century B.C.E. - 1st half of II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1892 г. Раскопки К.К.
+                           Косцюшко-Валюжинича (НА НЗХТ, д. 3, л. 50, № 77; д. 21, № 77; ср. ОАК за
+                           1892 г., 102, № 73).</rs>
+                        <rs type="context">При раскопках некрополя у южной
+                           оборонительной стены, в обкладке гробницы № 73.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1892, excavations of K.K.
+                           Kostsyushko-Valyuzhinich (НА НЗХТ, д. 3, л. 50, № 77; д. 21, № 77; ср. ОАК за
+                           1892 г., 102, № 73).</rs>
+                        <rs type="context">Necropolis by the southern fortification wall, {в обкладке} of Tomb 73.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-05" who="CB">Added origDate</change>
+         <change when="2015-10-13" who="CB">Tagging biblio</change>
+         <change when="2015-09-01" who="CB">Tagging app crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-26" who="CB">Tagging metadata</change>
+         <change when="2015-03-17" who="VP">Tagging Greek names</change>
+         <change when="2015-03-16" who="AV">tagging Greek names XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.216">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1895--><ptr target="bib:b0130"/>, 13, сл., No <citedRange>10</citedRange>
+               (= <bibl><!--Latyschev 1895--><ptr target="bib:b0130"/>, 517 сл., No <citedRange>8</citedRange></bibl>)</bibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>IV 110</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>482</citedRange></bibl>
+               <bibl><!--Peek, GVI--><ptr target="bib:b0521"/>, <citedRange>767</citedRange></bibl>
+               <bibl><!--Макаров 2013--><ptr target="bib:b0486"/>, <citedRange>310 слл</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--KW--><ptr target="bib:b0519"/>, № <citedRange>49</citedRange></bibl>
+               <bibl><!--АСХ--><ptr target="bib:b0523"/>, № <citedRange>216</citedRange></bibl>
+               <bibl><!--Соломоник--><ptr target="bib:b0506"/>, 83, № <citedRange>88</citedRange></bibl>
+               <bibl><!--Буйских--><ptr target="bib:b0449"/>, <citedRange>185</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="section" n="1">
+               <ab>
+                  <lb n="1"/><persName type="attested" ref="#person846"><name nymRef="Ξάνθος">Ξάνθος</name>
+                  <lb n="2"/><persName type="attested" ref="#person847"><name nymRef="Λαγορῖνος">Λαγορείνου</name></persName></persName>
+                  <lb n="3"/><w>χαῖρε</w>
+               </ab>
+            </div>
+            <div type="textpart" subtype="section" n="2">
+               <ab>
+                  <lb n="1"/><space extent="unknown" unit="line"/>
+               </ab>
+            </div>
+            <div type="textpart" subtype="section" n="3">
+               <ab>
+                  <lb n="1"/>
+                        <lg met="elegiac" n="1">
+                           <l met="hexameter"><persName type="attested" ref="#person846"><name n="Ξάνθος">Ξάνθον</name></persName> <w>ἐγὼ</w> <w>στάλα</w> 
+                              <w>κεύθω</w>, <w>ξένε</w>, <w>τόν</w> <w>πότε</w> <w>πατρὶ</w>,</l>
+                  <lb n="2"/><l met="pentameter"><w>σώφρονα</w>, <w>τὸν</w> <w>πάτρῃ</w> <w>ξυνὸν</w> <w>ἄγαλμα</w> <w>νέων</w></l>
+                        </lg>
+                  <lb n="3"/><lg met="elegiac" n="2">
+                     <l met="hexameter"><w>τὸν</w> <w>σοφὸν</w> <w>ἐν</w> <persName type="divine" key="muses"><name>Μούσαις</name></persName>, <w>τὸν</w> 
+                              <w>ἀμεμφέα</w> <w>πᾶσι</w> <w>πολείταις</w>,</l>
+                  <lb n="4"/><l met="pentameter"><w>τείμιον</w> <w>ἠιθέων</w>, <w>ἀστέρα</w> <w>καλλοσύνης</w>,</l></lg>
+                  <lb n="5"/><lg met="elegiac" n="3">
+                        <l met="hexameter"><w>βάσκανος</w> <w>ὃν</w> <w>κατέπεφνεν</w> <persName type="divine" key="ares"><name>Ἄρης</name></persName> 
+                              <w>πάτρῃ</w> <w>προμαχεῦντα</w>,</l>
+                  <lb n="6"/><l met="pentameter"><w>λειπόμενον</w> <w>θρήνους</w> <w>τῶνδε</w> <w>γονεῦσι</w> <w>γέρας</w>.</l></lg>
+                  <lb n="7"/><lg met="elegiac" n="4">
+                        <l met="hexameter"><w>εἰ</w> <w>δ'</w> <w>ἀπόλαυσιν</w> <w>ἔχει</w> <persName type="divine" key="hades"><name>Πλούτων</name></persName> <w>πλέον</w> <w>ἠὲ</w> <w>τοκεῖες</w>,</l>
+                  <lb n="8"/><l met="pentameter"><w>τίπτε</w> <w>δι'</w> <w>ὠδείνων</w> <w>κάμνετε</w>, <w>θηλύτεραι</w>;</l></lg>
+               </ab>
+            </div>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <note>Ξ вырезана на месте более ранней Π;</note>
+                  <note>Α была оставлена без изменений, Ν вырезано на месте более раннего Ρ;</note>
+                  <note>на месте Θ различима нижняя часть косой правой гасты Μ;</note>
+                  <note>внутри следующего Ο заметны следы вертикали; </note>
+                  <note>Σ в конце стκ. оставлено без изменений. Таким образом, в стк. 1
+                     первоначально было вырезано личное имя Πάρμις – legit Макаров 2013.</note>
+               </app>
+               <app loc="2">
+                  <note>Γ получена в результате исправления Π, правая вертикаль которой была сбита.
+                     Перед Γ левая гаста Α была перенесена правее, чтобы дать больше места для
+                     добавления начальной Λ. Ρ и Ε, а также Ν были вырезаны на месте двух Λ, между
+                     которыми резчик поместил Ι. Под окончанием gen. sg. ΟΥ достаточно ясно
+                     просматриваются очертания первоначальной Α. Таким образом, в стк. 2
+                     первоначально было вырезано личное имя в gen. sg. Ἀπολλᾶ – legit Макаров
+                     2013.</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <div type="textpart" n="1">
+               <p>Ксанф, сын Лагорина, приветствую. </p>
+            </div>
+            <div type="textpart" n="2">
+               <p>Не предлагается.</p>
+            </div>
+            <div type="textpart" n="3">
+               <p>Странник, я, плита, скрываю Ксанфа. Когда-то (при жизни) для отца он был послушным
+                  (сыном), для отечества - украшением, сообща подаренным молодежью. Он был искусен в
+                  Музах, безупречен по отношению ко всем сограждан, чтим юношами; он был звездой
+                  красоты. Завистливый Арес убил его, когда он в первых рядах сражался за отеческую
+                  землю. В награду за эти (добродетели) он оставил родителям плач. Но если Плутон
+                  получает (от детей) больше, чем родители, зачем вы, женщины, испытываете муки
+                  (деторождения)?</p>
+            </div>
+         </div>
+         <div type="translation" xml:lang="en">
+            <div type="textpart" n="1">
+               <p>Xanthos, (son of) Lagoreinos, greeting.</p>
+            </div>
+            <div type="textpart" n="2">
+               <p>Not attempted.</p>
+            </div>
+            <div type="textpart" n="3">
+               <p>O stranger, I, the stele, hide Xanthos who in his lifetime with respect to his father was chaste,
+                  and with respect to his fatherland, was a public icon for the young; skilled in (the arts of) the Muses,
+               blameless with respect to all citizens, honoured by youths, a star of beauty, whom 
+               malicious Ares slayed, fighting in the forefront for his fatherland, leaving to his parents funerary dirges as a prize of these (virtues).
+              But if Pluton has a greater pleasure (from children) than parents, why ever do you labour through pangs of childbirth, o women?</p>
+            </div>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Первоначально на памятнике было вырезано имя Пармиса, сына Аполлая (см. критический
+               аппарат). Сохранившиеся следы букв более ранней надписи (Α с ломаной перекладиной, Σ
+               с параллельными гастами, Π с вертикальными линиями одинаковой длины) свидетельствуют
+               о схожести (или даже идентичности) ее шрифта и шрифта последующей эпитафии Ксанфа.
+               Это позволяет датировать первоначальную и последующую надписи в рамках одного
+               хронологического отрезка: конец I в. до н.э. - первая половина I в. н.э.</p>
+            <p>ЛИ Πάρμις и Ἀπολλᾶς неоднократно засвидетельствованы в Херсонесе в эллинистическое
+               время (LGPN IV). В силу сходства имен и патронимиков нельзя исключать возможность
+               родственных связей между Пармисом, сыном Аполлая, и херсонесским астиномом
+               Аполлонием, сыном Пармиса, чья деятельность, вероятно, датируется ок. 195-180 г. до
+               н.э. (Stolba 2005, 171; ок. 230-215 г. до н.э. согласно Кац 1994, 89, № 24).</p>
+            <p>Антропонимы Ξάνθος и Λαγορῖνος хорошо известны в Херсонесе, причем последнее
+               встречается только здесь (LGPN IV; ср. Тохтасьев 1997, 382). Из содержания
+               стихотворной (элегический дистих) эпитафии Ксанфа следует, что она относится к
+               категории надписей, посвященных смерти в молодом возрасте (mors immatura, ср.
+               Lattimore 1948, 184-187; Griessmair 1966): Ксанф погиб молодым (ср. стк. 5: ἄγαλμα
+               νέων), участвуя в военных действиях (ср. стк. 8: κατέπεφνεν Ἄρης).</p>
+            <p>Стк. 4-5: πατρὶ σώφρονα. Мотив σωφροσύνη, дисциплинированного и скромного поведения,
+               регулярно встречается в эпитафиях молодых людей начиная с классического времени
+               (Макаров 2013, 315 сл., ср. Herrmann 1995, 191; Kollmann 1941, 23). Однако в этой не
+               имеющей явных параллелей формуле автор скорее всего употребил прилагательное σώφρων в
+               значении «послушный» (πειθαρχής, см. Макаров 2013, 316, прим. 27), желая отметить
+               лишь частное проявление данной добродетели, а именно послушание родителям. В то же
+               время нельзя исключать и намерение автора совместить два канонических мотива в
+               изображении идеального молодого человека: с одной стороны, юношеской σωφροσύνη, с
+               другой стороны, любви и уважения к родителям (φιλοστοργία). Упоминаемая ниже
+               физическая красота умершего Ксанфа (стк. 7: ἀστέρα καλλοσύνης) - также один из
+               элементов представления об идеальном юноше.</p>
+            <p>Выражение σοφὸν ἐν Μούσαις в стк. 6 указывает на интеллектуальное образование
+               (σοφία), в условиях Херсонеса состоявшее скорее всего в традиционном изучении поэзии
+               и музыки. При этом следует иметь в виду, что ко времени создания эпитафии Ксанфа
+               понятие интеллектуального (мусического) образования в греческом мире претерпело
+               значительные изменения и могло подразумевать изучение молодыми людьми риторики и
+               философии в рамках гимнасия (Scholz 2004, 109 слл.). Независимо от его конкретного
+               содержания мусическое образование начиная с позднеэллинистического времени достаточно
+               регулярно упоминается в эпитафиях как юношеская добродетель и показатель высокого
+               социального статуса (Макаров 2013, 319). </p>
+            <p>В стк. 5 эпитафия уподобляет Ксанфа драгоценному подарку (ἄγαλμα), преподнесенному
+               родному полису от лица всей молодежи (νέων). По поводу выражения ξυνὸν ἄγαλμα (букв.
+               «совместное посвящение») ср. IG XII Suppl. 4291-2: κισσοφόρου Βρομίου πρόπολον
+               φιλοπαίγμονα Πᾶνα / ἔστησαν φρουροὶ κοινὸν ἄγαλμα τόδε; Ael. Arist. Panathen. p.
+               17917 Jebb: τιμᾶν ὥσπερ ἄγαλμα κοινὸν τῆς Ἑλλάδος. Хотя слово νέοι не является
+               строгим термином, оно нередко употребляется терминологически для обозначения молодых
+               людей, завершивших курс эфебии и получивших гражданские права, но в то же время
+               обязанных продолжать занятия в гимнасии (см. Forbes 1933, 59-67; Gauthier,
+               Hatzopoulos 1993, 68-72 и 77-78). В частности, в Афинах нижняя возрастная граница
+               этой группы определялась завершением эфебии, т.е. двадцатью годами (Arist. Ath. 42),
+               а верхняя – тридцатилетием (Arist. Ath. 42; Xen. Sypm. II 4). Обстоятельства смерти
+               Ксанфа, погибшего в бою, сражаясь в первых рядах (стк. 8: προμαχεῦντα), делают
+               вероятным предположение, что он был не юношей-эфебом, а представителем возрастной
+               группы νέοι, которые являлись важной частью полисной армии (Макаров 2013, 321 сл.). В
+               этом случае слово ἠίθεοι в стк. 7 могло обозначать младшую по отношению к νέοι
+               возрастную категорию и указывать на эфебов (ср. Макаров 2013, 323, где высказывается
+               гипотеза о том, что указание на почетное положение Ксанфа среди младших юношей было
+               связано с какой-либо из функций, которые νέοι могли выполнять по отношению к ним в
+               контексте гимнасия - ἐφήβαρχος или ὑπογυμνασίαρχος).</p>
+            <p>Стк. 10-11: ἄποστροφή в конце эпитафии представляет собой топос, присутствующий в
+               ряде стихотворных эпитафий, посвященных смерти молодых людей: плoдами родительских
+               трудов пользуются не сами родители, а бог подземного царства (Peek, GVI 1679; 1680;
+               1181; Griessmair 1966, 37-40).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

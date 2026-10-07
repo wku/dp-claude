@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надпись о строительстве (восстановлении) стены</title><title xml:lang="en">Building inscription</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.458</idno><idno type="PE">PE3000257</idno><idno type="filename">3.138</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>8/36504</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>8/36504</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc1">
+                     <seg xml:lang="ru">Строительная надпись.</seg>
+                     <seg xml:lang="en">Building inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Обломана со всех сторон кроме нижней. Лицевая сторона
+                              отполирована. Сохранились остатки четырех строк надписи, аккуратно
+                              вырезанной по предварительной разметке.</p>
+                           <p xml:lang="en">Broken off on all sides except the bottom. The front is polished. Four-line inscription 
+                              cut following ruled lines.</p>
+                           <dimensions>
+                              <height unit="cm">28,0</height>
+                              <width unit="cm">28,0</width>
+                              <depth unit="cm">6,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Эта с незамкнутой средней гастой, омикрон в высоту
+                           строки, пи с равными вертикалями и немного выходящей за их пределы
+                           горизонталью, незамкнутая форма фи, широкая омега с загнутыми внутрь
+                           концами полукружия, апексы.</seg>
+                        <seg xml:lang="en">Alpha with broken crossbar, eta with detached crossbar, omicron the same size as other letters, pi with even verticals; serifs.</seg>
+                        <height unit="cm">4,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0200" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">II в. н.э.</seg>
+                        <seg xml:lang="en">II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1940 г. Раскопки Г.Д. Белова (НА НЗХТ, д. 426, № 2137).</rs>
+                        <rs type="context">В северном районе городища, в помещении № 15.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1940, excavations of G.D. Belov (НА НЗХТ, д. 426, № 2137).</rs>
+                        <rs type="context">North sector of the citadel, Enclosure № 15.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-20" who="KK">Leidenised</change>
+         <change when="2015-11-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.458">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Соломоник 1961 --><ptr target="bib:b0762"/>, 31, № <citedRange>1</citedRange></bibl>
+               <bibl><!-- НЭПХ --><ptr target="bib:НЭПХ"/> <citedRange>25</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Виноградов 1975 --><ptr target="bib:b0450"/>, <citedRange>174</citedRange></bibl>
+               <bibl><!-- Соломоник 1990 --><ptr target="bib:b0506"/>, 68, № <citedRange>61</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><w><supplied reason="lost">τὸ</supplied></w> <w><supplied reason="lost">τε</supplied>ῖχος</w> <w>τῇ</w> 
+               <w><unclear>π</unclear><supplied reason="lost">όλει</supplied></w>
+               		<lb n="2"/><w><supplied reason="lost">κατ</supplied>εσκεύα<unclear>σ</unclear><supplied reason="lost">εν</supplied></w> 
+               <w><supplied reason="lost">ἐκ</supplied></w> <w><supplied reason="lost">τῶν</supplied></w>
+               		<lb n="3"/><w><supplied reason="lost">ἰδί</supplied>ων</w> <w part="I">Πε</w><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4"/><gap reason="lost" quantity="2" unit="character"/><w part="M"><unclear>ρ</unclear>ατοφ</w><gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                   <rdg source="bib:НЭПХ">[πόλει]</rdg>
+               </app>
+               <app loc="2-3">
+                   <rdg source="bib:НЭПХ">[κατ]ε̣σκεύασ̣[εν ἐκ τῶ|ν ἰδί]ων</rdg> 
+                   <rdg source="bib:НЭПХ"><note>не исключено</note> [ἐπ]εσκεύασ̣[εν]</rdg>
+               </app>
+               <app loc="3-4">
+                   <rdg source="bib:НЭПХ"><note>fin.-4: вероятно, остатки личного имени с патронимиком;</note> Πέ[λανος |
+                     Στ]ρ̣ατοφ[ῶντος] ?</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>- - - стену [для города] построил (восстановил) на собственные средства - - -</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>- - - a wall [for the city] built (rebuilt) from personal funds - - -</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

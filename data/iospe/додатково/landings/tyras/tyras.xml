@@ -1,0 +1,156 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Volume I. Inscriptions of Tyras and vicinity</title>
+                <title xml:lang="ru">Том I. Надписи Тиры и окрестностей</title>
+                <title xml:lang="uk">Том I. Написи Тіри та околиць</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            
+            <text xml:lang="en">
+                <body>
+                    <div>
+                        <head>Askold Ivantchik</head>
+                        <p>This is the first electronic edition of the inscriptions from Tyras and
+                            its vicinity, from the Northern Black Sea (IOSPE<hi 
+                                rend="superscript">3</hi> vol. I). The introduction, editions and commentary are by
+                            Askold Ivantchik, English translations are by Irene Polinskaya. 
+                            The inscriptions were encoded following the <ref 
+                                target="http://epidoc.sf.net/">EpiDoc</ref> Guidelines for use of
+                            XML for ancient documentary editions, and the website and supporting
+                            materials are the work of Gabriel Bodard, Irene Polinskaya and
+                            colleagues at the Department of Digital Humanities, King's College
+                            London.</p>
+                        
+                        <div>
+                            <head>Note for users</head>
+                            <p>An updated edition of volume I (Inscriptions of Tyras) was published
+                                in print in 2021 by Ausonius Press (<ref
+                                    target="https://ausoniuseditions.u-bordeaux-montaigne.fr/collections/autres-collections/inscriptions-of-the-northern-black-sea"
+                                    >https://ausoniuseditions.u-bordeaux-montaigne.fr/collections/autres-collections/inscriptions-of-the-northern-black-sea</ref>) and
+                                should be cited as <hi rend="i">INBS</hi> I. 
+                                The present online edition (2017) should continue to be cited as IOSPE³ vol. I,
+                                followed by the inscription number and the relevant URL. With
+                                questions and comments, please contact the author and editors:
+                                ivantchik@u-bordeaux-montaigne.fr, irene.polinskaya@kcl.ac.uk</p> 
+                        </div>
+                        <!--<head><ref target="introduction.html">Introduction</ref></head>
+                            <p>[TEXT NEEDED]</p>-->
+                        <!--<divGen type="intro-toc"/>-->
+                        
+                        <div>
+                            <head><ref target="/1/toc.html">Inscriptions</ref></head>
+                            <p>The inscriptions in this volume are grouped by Category of Text, with
+                                relevant sub-categories, and within the latter, by Date, in
+                                chronological order. They are also accessible via 
+                                <ref target="../../indices/index.html">Indices</ref>, Ins. # window
+                                and the <ref target="../../search/index.html">Search Corpus</ref>
+                                interface.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:lang="ru">
+                <body>
+                    <div>
+                        <head>Аскольд Иванчик</head>
+                        <p>Первое электронное издание надписей Тиры и ее окрестностей (IOSPE<hi rend="superscript">3</hi> vol. I). 
+                            Автор введения, надписей и комментариев Аскольд Иванчик. Английский
+                            перевод Ирины Полинской. Электронное издание следует руководящим
+                            принципам схемы <ref target="http://epidoc.sf.net/">EpiDoc</ref> использующей платформу XML
+                            для публикации древних документальных источников. Сайт электронного издания и
+                            документация разработаны Габриэлем Бодар, Ириной Полинской и
+                            сотрудниками Факультета цифровых гуманитарных наук при Кингс Колледж
+                            Лондон.</p>
+                        
+                        <div>
+                            <head>Вниманию пользователей</head>
+                            <p>Дополненное и обновленное издание этого тома вышло в печать в
+                                бумажном виде в 2021 году в издательстве Ausonius Press (<ref
+                                    target="https://ausoniuseditions.u-bordeaux-montaigne.fr/collections/autres-collections/inscriptions-of-the-northern-black-sea">https://ausoniuseditions.u-bordeaux-montaigne.fr/collections/autres-collections/inscriptions-of-the-northern-black-sea</ref>)
+                                IOSPE / Inscriptions of the Northern Black Sea - new IOSPE и должно
+                                цитироваться в английской аббревиации <hi rend="i">INBS</hi> I. Представленное на
+                                данном сайте электронне издание 2017 года должно цитироваться в
+                                латинской аббревиации IOSPE³, с обозначением тома римской цифрой I,
+                                а надписей арабскими цифрами, и в сопровождении соответствуюшего
+                                URL. С вопросами и замечаниями по текущей версии можно обратиться к
+                                автору и редакторам: ivantchik@u-bordeaux-montaigne.fr,
+                                irene.polinskaya@kcl.ac.uk</p>
+                        </div>
+                        <div>
+                            <!--<head><ref target="introduction-ru.html">Введение</ref></head>
+                            <p>[INTRODUCTION IN RUSSIAN]</p>-->
+                            <!--<divGen type="intro-toc-ru"/>-->
+                        </div>
+                        <div>
+                            <head><ref target="/1/toc-ru.html">Надписи</ref></head>
+                            <p>Надписи корпуса сгруппированы по типам или жанрам; в типах надписей
+                                выделяются подтипы. Те фрагменты надписей, жанровую принадлежность
+                                которых определить не удалось, помещены в раздел Varia. Внутри
+                                каждой группы надписи приводятся в хронологической
+                                последовательности. Кроме этого, поиск можно осуществлять 
+                                <ref target="../../indices/index.html">указателям</ref>и через окошки "№" и
+                                <ref target="../../search/index.html">Поиск по корпусу</ref>."</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            
+            <text xml:lang="uk">
+                <body>
+                    <div>
+                        <head>Іванчик Аскольд</head>
+                        <p> Це перше електронне видання написів Тіри та її околиць 
+                            (IOSPE<hi rend="superscript" >3</hi> vol. I).  
+                            Автор вступу, написів та коментарів Аскольд Іванчик. 
+                            Англійський переклад Ірини Полінської. 
+                            Електронне видання слідує керівним принципам схеми 
+                            <ref target="http://epidoc.sf.net/">EpiDoc</ref>
+                            що використовує платформу XML для публікації стародавніх документальних джерел. 
+                            Сайт електронного видання та документація розроблені Габріелем Бодаром, 
+                            Іриною Полінською та співробітниками Факультету цифрових гуманітарних
+                            наук при Кінгс Коледж Лондон.</p>
+                        
+                        <div>
+                            <head>До уваги користувачів</head>
+                            <p> Доповнене та оновлене видання цього тому вийшло друком у
+                                паперовому вигляді у 2021 році у видавництві Ausonius Press 
+                                <ref target="https://ausoniuseditions.u-bordeaux-montaigne.fr/collections/autres-collections/inscriptions-of-the-northern-black-sea"
+                                    >https://ausoniuseditions.u-bordeaux-montaigne.fr/collections/autres-collections/inscriptions-of-the-northern-black-sea</ref>)
+                                і слід цитувати як <hi rend="i">INBS</hi>                                                               
+                                I. Представлене на цьому сайті електронне онлайн-видання 2017 року слід і надалі цитувати як IOSPE³,
+                                з позначенням тому римською цифрою I, а написів арабськими цифрами, та у супроводі відповідної URL-адреси. 
+                                З питаннями та зауваженнями за поточною версією можна звернутися до автора та редакторів:
+                                ivantchik@u-bordeaux-montaigne.fr, irene.polinskaya@kcl.ac.uk</p>
+                        </div>
+                        <div>
+                            <!--<head><ref target="introduction.html">Introduction</ref></head>
+                            <p>[TEXT NEEDED]</p>-->
+                            <!--<divGen type="intro-toc"/>-->
+                        </div>
+                        <div>
+                            <head><ref target="/1/toc.html">Написи</ref></head>
+                            <p>Написи корпусу згруповані за типами чи жанрами; у типах написів виділяються підтипи. 
+                                Ті фрагменти написів, жанрову приналежність яких визначити не вдалося, поміщені розділ Varia. 
+                                Усередині кожної групи написи наводяться у хронологічній послідовності. Вони також доступні через <ref
+                                    target="../../indices/index.html">Індекси</ref>, За вказівниками, та через вікна <ref target="../../search/index.html">Пошук корпусу
+                                    </ref>інтерфейс.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

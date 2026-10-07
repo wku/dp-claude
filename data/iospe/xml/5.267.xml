@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Агораста</title><title xml:lang="en">Epitaph of Agorastos</title><editor xml:id="ayv2012">
+                 <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+                 <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+             </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.267</idno><idno type="PE">PE5000267</idno>
+            <idno type="AYV2012-number">byz255</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Керченский историко-культурный заповедник</repository>
+                     <idno>КЛ–1143</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Historical and Archeological Museum of Kerch State Historical and Cultural Preserve</repository>
+                     <idno>КЛ–1143</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Плотный мелкозернистый известняк.</material>
+                           <material xml:lang="en">Cоmpact fine-grained limestone.</material>
+                           <p xml:lang="ru">В боку вытесано углубление для крепления; на лицевой стороне изображение 2 латинских крестов с расширяющимися концами в 
+                              начале и в конце надписи; вторично использована. Обломан левый верхний угол, сколы по поверхности.</p>
+                           <p xml:lang="en">A hole on the side is probably for a dowel; on the front - two Latin crosses with flaring arms, at the beginning and end of the inscription;
+                              in secondary use. Top left corner is missing, the surface is chipped. </p>
+                           <dimensions>
+                              <height>56,0</height>
+                              <width>33,0</width>
+                              <depth>7,0-15,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">В верхней части.</seg>
+                           <seg xml:lang="en">In the upper part.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с наклонной перекладиной, 
+                           дельта и лямбда с удлиненной вверх правой гастой, эпсилон и сигма прямоугольные, каппа с удлиненной вертикалью, 
+                           омикрон маленький, ромбовидный.</seg>
+                        <seg xml:lang="en">Lapidary. Alpha with slanting crossbar, delta and lambda with projecting right hasta, rectangular epsilon and sigma, kappa
+                        with extended vertical, small diamond-shaped omicron.</seg>
+                        <height unit="cm">2,0–4,0.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p044">
+                        <seg xml:lang="ru">Пантикапей.</seg>
+                        <seg xml:lang="en">Pantikapaion.</seg>
+                     </origPlace>
+                     <origDate notBefore="0301" notAfter="0400" precision="low" evidence="палеография археологический_контекст">
+                        <seg xml:lang="ru">IV в.</seg>
+                        <seg xml:lang="en">IVth century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2008-09"> сентябрь 2008</date>.</seg>
+                     <seg xml:lang="en"><date when="1999-05">May 1999</date>, <date when="2004-09">September 2004</date>, <date when="2008-09">September 2008</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#kerch">Керчь.</placeName>
+                        <rs type="circumstances">4 мая 1897 г., случайная находка.</rs>
+                        <rs type="context">Глинище, сад К. Верле.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Kerch.</placeName>
+                        <rs type="circumstances">4 May 1897, chance find.</rs>
+                        <rs type="context">Glinishche, garden of K. Woerle.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Керчь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Kerch, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-09" who="CB">Andrey's corrections</change>
+          <change when="2013-11-07" who="TW">Added image code</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-10" who="AG">1 line translated</change>
+         <change when="2012-06-19" who="AG">small correction</change>
+         <change when="2012-05-08" who="AG">several lines translated, corrections, tags in bibliography tidied</change>
+          <change when="2012-03-27" who="AL">original date tagged, bibliography tagged, text tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.267">
+                <desc xml:lang="en">Photograph of face 1(from ??)</desc>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!-- Шкорпил 1898b --><ptr target="bib:b0246"/>,  209–210, № <citedRange>19</citedRange></bibl>
+               <bibl n="1.1"><!-- КХНБ --><ptr target="bib:b0068"/>, № <citedRange>5</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Здесь лежит Агораст, сын Луя.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Here lies Agorastos, son of Louos.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Надпись найдена вместе с <ref type="inscription">V 280</ref><!--byz268--> и <ref type="inscription">V 281</ref><!--byz269-->, а также иудейским надгробием 
+               Симона (Шкорпил 1898b, 210, № 20).</p>
+                <p> 1–2. Относительно формулы см. <ref type="introduction">IV.3.F.d</ref>.</p>
+                <p> 3. Среди христианских имен встречается лишь женское имя Агораста (Feissel 1983, № 13 (V–VI вв.). Мужское же имя Агораст (равно как и Агораста) 
+                   засвидетельствовано только в античности в писидийском Термессе (34 раза в ТАМ III); за пределами Термесса имя Агораста встречается только один 
+                   раз — в Ликии (TAM II 990). Поэтому можно предположить, что боспорский Агораст и ликийская и македонская Агораста происходят из Термесса.  </p>
+                <p> 4. Имя Луй нигде не засвидетельствовано, хотя этимология его прозрачна. Патронимики в раннехристианских надписях Боспора встречаются не 
+                   часто — всего 4 раза (см. <ref type="introduction">III.1.E.a</ref>).</p>
+            <p>По мнению Шкорпила, шрифт надписи близок к <ref type="inscription">V 276</ref><!--byz264-->, <ref type="inscription">V 280</ref><!--byz268-->, 
+               <ref type="inscription">V 281</ref><!--byz269-->. Действительно, палеографически (и отчасти археологически) они образуют 
+                   некое единство. Учитывая находку на том же кладбище иудейского надгробия Симона, можно предположить, что все они относятся к 
+                   IV в. (подр. см. <ref type="introduction">III.1.E.a</ref>).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The inscription was found together with <ref type="inscription">V 280</ref><!--byz268--> and <ref type="inscription">V 281</ref><!--byz269-->, as well 
+               as the Jewish tombstone of Simon (Shkorpil 1898b, 210, № 20).</p>
+            <p>1–2. On the formula, see Introduction <ref type="introduction">IV.3.F.d</ref>.</p>
+            <p>3. Among Christian names, only a female name Agorasta is attested in Feissel 1983, № 13 (V–VIth century). The male name Agorastos (and also Agorasta) are 
+               known in antiquity only from Termessos in Pisidia (34 times in ТАМ III); outside of Termessos, Agorasta is attested once - in Lycia (TAM II 990).
+            We can hypothesize that the Bosporan Agorastos, as well as Lycian and Macedonian Agorastas all originated in Termessos.</p>
+            <p>4. The name Louos is not otherwise attested, although its etymology is quite obvious. Patronymics are not common in early Christian inscriptions of 
+               Bosporus, only four examples are known (see Introduction <ref type="introduction">III.1.E.a</ref>). </p>
+            <p>Shkorpil's opinion was that the script was similar to <ref type="inscription">V 276</ref><!--byz264-->, <ref type="inscription">V 280</ref><!--byz268-->, 
+               <ref type="inscription">V 281</ref><!--byz269-->. Indeed, in terms of palaeography (and also, in part, archaeologically) they form a certain unity.
+               Taking into consideration the presence of a Jewish tombstone in the same cemetery, we may suggest that they all date to the IVth century (see
+               Introduction <ref type="introduction">III.1.E.a</ref> for more detail).</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><g ref="#stauros"/> <w lemma="ἐνθάδε">Ἐνθάδε</w>
+               <lb n="2"/><w lemma="κατάκειμαι">κατάκιται</w>
+               <lb n="3"/><persName type="attested" ref="#person328"><name nymRef="Ἀγόραστος">Ἀγόραστος</name>
+               <lb n="4"/><persName type="attested" ref="#person329"><name nymRef="Λοῦος">Λούου</name></persName></persName> <g ref="#stauros"/>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

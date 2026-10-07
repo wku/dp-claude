@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Проксения Тимагора</title><title xml:lang="en">Proxeny decree honouring Timagoras</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.264</idno><idno type="PE">PE3000207</idno><idno type="filename">3.4</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Государственный Эрмитаж</repository>
+                     <idno>X.1897.83</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>The State Hermitage Museum</repository>
+                     <idno>X.1897.83</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc15">
+                     <seg xml:lang="ru">Декрет.</seg>
+                     <seg xml:lang="en">Decree.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="en">Stele.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Стела с треугольным фронтоном, оббита справа, левый край
+                              поврежден. Нижняя часть обрезана при вторичном использовании.</p>
+                           <p xml:lang="en">Stele with triangular pediment, broken off on the right; left side damaged. The bottom was cut off in secondary use.</p>
+                           <dimensions>
+                              <height unit="cm">12,0</height>
+                              <width unit="cm">23,0</width>
+                              <depth unit="cm">4,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Линии альфа, дельта, лямбда, мю, сигма немного изогнуты;
+                           альфа с изогнутой поперечной линией, средняя горизонталь эпсилон короче
+                           остальных, тета меньше размера строки, с поперечиной, касающейся
+                           окружности, наклонные каппа не укорочены, наклонные мю немного
+                           расходятся, правая вертикаль ню чуть укорочена, кси из трех горизонталей,
+                           омикрон меньше размера строки, пи с укороченной правой вертикалью и
+                           поперечиной, не выходящей за боковые линии, верхняя и нижняя гасты сигма
+                           слегка расходятся, омега в виде маленького полукруга с примыкающими
+                           короткими горизонталями.</seg>
+                        <seg xml:lang="en">Slightly curved letterstrokes of alpha, delta, lambda, mu and sigma;
+                           alpha with broken crossbar, theta with attached crossbar, mu with 
+                           slightly splayed outer hastae, sigma with slightly splayed bars.</seg>
+                        <height unit="cm">0,7</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0250" notAfter="-0201" evidence="палеография">
+                        <seg xml:lang="ru">2-я пол. III в. до н.э.</seg>
+                        <seg xml:lang="en">2nd half of III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Случайно найдена в 1897 г. (архив НЗХТ, д. 26, л. 4).</rs>
+                        <rs type="context">Вблизи Херсонеса в кладке каменного забора.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Random find in 1897 (archive of National Preserve of Tauric Chersonesos: НЗХТ, д. 26, л. 4).</rs>
+                        <rs type="context">Near Chersonesos, stone wall, masonry.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Санкт-Петербург, Россия.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2019-04-24" who="LE">Clean up with Makarov</change>
+         <change when="2015-11-05" who="CB">Added origDate</change>
+         <change when="2015-10-13" who="CB">Bibliography</change>
+         <change when="2015-08-24" who="CB">App crit</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-26" who="CB">Tagging metadata</change>
+         <change when="2014-01-31" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-03-16" who="AV">tagging Greek names XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.264">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1899--><ptr target="bib:b0136"/>, 2, № <citedRange>1</citedRange>
+               (= <bibl><!--IOSPE --><ptr target="bib:IOSPE"/> <citedRange>IV 64</citedRange></bibl>)</bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>340</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w>προξενία</w> <persName type="attested" ref="#person884"><name nymRef="Τιμαγόρας">Τιμαγόρα</name> 
+               		       <placeName type="ethnic">Ῥο<unclear>δ</unclear><supplied reason="lost">ίου</supplied></placeName></persName>
+               <lb n="2"/><w><supplied reason="lost">βου</supplied><unclear>λ</unclear>ὰ</w> <w>καὶ</w> <w>δᾶμος</w> <w>ἔδωκε</w>· 
+                              <persName type="attested" ref="#person886"><name nymRef="Θεότιμος">Θεότιμο<supplied reason="lost">ς</supplied></name> 
+                              <persName type="attested" ref="#person887"><name><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+               <lb n="3"/><persName type="attested" ref="#person888"><name nymRef="—γονος"><gap reason="lost" quantity="2" unit="character"/><seg part="F">γονος</seg></name> 
+                                 <persName type="attested" ref="#person889"><name nymRef="Πρόνους">Πρόνου</name></persName> 
+                                 <w>τοῦ</w> <persName type="attested" ref="#person890"><name nymRef="Αὐτέας">Αὐτέα</name></persName></persName> <w>εἶπαν</w>· 
+                                 <w><supplied reason="lost">δόμεν</supplied></w> 
+               		       <persName type="attested" ref="#person884"><name nymRef="Τιμαγόρας"><supplied reason="lost">Τιμαγό</supplied>
+              	<lb n="4" break="no"/><supplied reason="lost">ραι</supplied></name> <persName type="attested" ref="#person885"><name nymRef="Νικαγόρας"><unclear>Ν</unclear>ικαγόρα</name></persName> 
+               	                 <placeName type="ethnic"><name>Ῥοδίωι</name></placeName></persName> <w>προξενίαν</w> <w>καὶ</w> 
+                                 <w>πο<supplied reason="lost">λιτείαν</supplied></w> 
+                                    <w><supplied reason="lost">αὐ</supplied>
+          	<lb n="5" break="no"/><supplied reason="lost">τῶι</supplied></w> <w><supplied reason="lost">κ</supplied>αὶ</w> <w>γένει</w> <w>καὶ</w> <w>εἴσπλουν</w> 
+                                 <w>καὶ</w> <w>ἔκπλ<unclear>ο</unclear><supplied reason="lost">υν</supplied></w> <w><supplied reason="lost">αὐτοῖς</supplied></w>
+            	<lb n="6"/><w><supplied reason="lost">καὶ</supplied></w> <w><supplied reason="lost">χράμ</supplied><unclear>α</unclear>σι</w> <w>τοῖς</w> 
+                                 <w><unclear>α</unclear>ὐτ<supplied reason="lost">ῶ</supplied><unclear>ν</unclear></w> <w>καὶ</w> 
+                                 <w>πο<supplied reason="lost">λ</supplied>έμου</w> 
+                                 <w><unclear>κα</unclear><supplied reason="lost">ὶ</supplied></w> <w><supplied reason="lost">εἰράνας</supplied></w>
+               <lb n="6a"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="2-3">
+                  <rdg source="bib:b0136">[Ἀν|τί]γονος</rdg>
+               </app>
+               <app loc="7">
+                  <rdg source="bib:b0136"><note>fortasse</note> [ἀσυλεὶ καὶ ἀσπονδεί ---]</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Проксения Тимагора, родосца.</p>
+            <p>Совет и народ даровал.</p>
+            <p>Теотим, (сын) - - -, [- - -]гон, (сын) Прона, (сына) Автея, внесли предложение:
+               даровать Тимагору, (сыну) Никагора, родосцу проксению и гражданство, ему самому и
+               потомкам, а также право входа в гавань и выхода из гавани, [им самим] и их имуществу
+               во время войны и во время мира [---].</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Proxeny of Timagoras of Rhodes.</p>
+            <p>The Council and People decided.</p>
+            <p>Theotimos (son of) - - -, [- - -]gonos, (son of) Auteas, proposed: to grant Timagoras, son of Nikagoras, the Rhodian, proxeny and citizenship, 
+            to him and his descendants, as well as the right of sailing in and out of the harbour, [for them and their goo]ds in war time and peace time [---].</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Одна из немногих сохранившихся проксений раннеэллинистического Херсонеса. Следует
+               отметить единственный раз встречающуюся в херсонесских декретах формулу βουλὰ καὶ
+               δᾶμος ἔδωκε, а также краткость редакции: отсутствие мотивировочной части и отсутствие
+               обозначения должностей эйсегетов (большинство документов эллинистического времени
+               приняты по предложению коллегии магистратов).</p>
+            <p> На интенсивность экономических связей между эллинистическим Родосом и Северным
+               Причерноморьем указывает большой объем керамического материала - около 15 тысяч
+               родосских керамических клейм (Бадальянц 2000, 198; ср. Badal'janc 1999, 247 слл.). <!-- Бадальянц англ уточнить -->
+               Начало поступления родосского импорта вина в этот регион относится к середине III в.
+               до н.э., при этом значительным он становится около 215 г. до н.э., достигает
+               максимума около 195 г. до н.э., остается на высоком уровне до 145 г. до н.э., после
+               чего постепенно снижается в течение второй половины II в. до н.э. (Горлов 1996, 217;
+               Finkielsztejen 2001, 188 сл.; Lund 2011, 288). </p>
+            <p> По количеству найденных в в Северном Причерноморье родосских керамических клейм
+               Херсонес существенно уступал Ольвии и Боспору (2,5 % против 44,7% в Ольвии и 44,3% в
+               Боспорском царстве по подсчетам Бадальянц 2000, 198). Родосский импорт в общем
+               балансе херсонесской торговли занимал незначительное место (Крушкол 1957, 114;
+               Бадальянц 1986, 94 сл.), главный импорт Херсонеса составляли синопские, фасосские и
+               гераклейские амфоры (Стржелецкий 1961, 100, прим.1; 101; 107). Среди центров
+               Северного Причерноморья наибольшее число эпиграфических свидетельств о связях с
+               Родосом касается Ольвии. Из Ольвии происходят два эллинистических декрета в честь
+               граждан Родоса (IOSPE I2 30 и IOlb 24); ольвиополиту Посидею принадлежат три посвящения
+               родосским божествам из «Неаполя Скифского» (см. IOSPE3 III 594-597 с комментарием), 
+               датирующиеся II в. до н.э. В Пантикапее найдено посвящение родосцев за царя
+               Перисада II, сына Спартока (CIRB 20, 284/3-245 г. до н.э.; ср. упоминание некоего
+               боспорца в родосской надписи IG XII 1, 11). </p>
+            <p>ЛИ Τιμαγόρας и Νικαγόρας хорошо известны на Родосе (LGPN I, s.v.). ЛИ Θεότιμος,
+               Πρόνους, Αὐτέας засвидетельствованы в Херсонесе только данной надписью.</p>
+            <p>2-3. Помимо [Ἀντί]γονος, предложенного Латышевым, возможны и другие ЛИ на -γονος.</p>
+            <p>7. Не исключено, что в конце декрета следовала формула санкции и формула датировки: ταῦτ'
+               ἔδοξε βουλᾷ καὶ δάμῳ μηνὸς τοῦ δ., βασιλεύοντος τοῦ δ., προαισυμνῶντος τοῦ δ.,
+               γραμματεύοντος τοῦ δ.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

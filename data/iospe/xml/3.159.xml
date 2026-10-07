@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Почетная надпись</title><title xml:lang="en">Honorific inscription</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.485</idno><idno type="PE">PE3000428</idno><idno type="filename">3.159</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Одесский археологический музей</repository>
+                     <idno>50608</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Odessa Archaeological Museum</repository>
+                     <idno>50608</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg xml:lang="ru" corresp="document-search.xml#doc21">Почетная надпись.</seg>
+                     <seg xml:lang="en">Honorific inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon12">Постамент.</objectType>
+                           <objectType xml:lang="en">Base.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Сохранился левый нижний угол постамента. На верхней
+                              плоскости следы углублений для крепления статуи. На отшлифованной
+                              лицевой стороне вверху видны остатки одной строки надписи, внизу –
+                              рельефные изображения трех анэпиграфных венков (от левого венка
+                              сохранилась лишь небольшая часть, два других сохранились
+                              полностью).</p>
+                           <p xml:lang="en">Left bottom corner is preserved.</p>
+                           <dimensions>
+                              <height unit="cm">26,0</height>
+                              <width unit="cm">44,0</width>
+                              <depth unit="cm">44,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Курсивное эпсилон, мю с параллельными внешними гастами,
+                           крупное круглое омикрон, небольшие апексы на концах линий букв.</seg>
+                        <seg xml:lang="en">Cursive epsilon, mu with parallel outer hastae, large round omicron, small serifs.</seg>
+                        <height unit="cm">2,6</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес (?).</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0068" notAfter="0150" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">кон. I – 1-я пол. II в. н.э.</seg>
+                        <seg xml:lang="en">late I - 1st half of II century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol" cert="low">Севастополь (Херсонес) (?).</placeName>
+                        <rs type="circumstances">В 1883 г. камень находился в музее ООИД.
+                           Относительно его происхождения имеются противоречивые указания. По
+                           свидетельствам В.В. Латышева и В.Н. Юргевича, директор музея ООИД Н.Н.
+                           Мурзакевич указывал то на ольвийское, то на херсонесское происхождение
+                           постамента (Латышев 1890, 145; ср. Юргевич 1887, 67, № 14).</rs>
+                        <rs type="context">Данных нет.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">In 1883, the monument was in the museum of the Odessa Society for History and Antiquities. There are conflicting reports of 
+                        its place of find.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Одесса.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Odessa.</tei:seg>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      <revisionDesc>
+         <change when="2016-04-06" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.485">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>I 113</citedRange></bibl>
+               <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>427</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Юргевич 1887 --><ptr target="bib:b0514"/>, 67, № <citedRange>14</citedRange></bibl>
+               <bibl><!-- Латышев 1890 --><ptr target="bib:b0793"/>, 145, <citedRange>ad № 113</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+            <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> 
+                            <supplied reason="lost"><w>καλῶς</w></supplied> 
+                            <w><supplied reason="lost">πολιτευσ</supplied><unclear>ά</unclear>μενον</w> 
+                            <space extent="unknown" unit="character"/>
+               <lb n="2"/><space extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <rdg source="bib:IOSPE2">[τὸν δεῖνα καλῶς πολιτευσάμ]ενον <note>427</note></rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[- - - прекрасно исполнившего обязанности гражд]анина.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>IOSPE I 113 (издана как ольвийская надпись); IOSPE I2 427 (издана как херсонесская надпись).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

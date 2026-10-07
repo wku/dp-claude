@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Эвфрон[---]</title><title xml:lang="en">Epitaph of Euphron[---]</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.45</idno><idno type="PE">PE3000045</idno><idno type="filename">3.251</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>119/36847</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>119/36847</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc2">
+                     <seg xml:lang="ru">Надгробная надпись.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк.</material>
+                           <material xml:lang="en">Limestone.</material>
+                           <p xml:lang="ru">Верхний левый край плиты. Тыльная сторона обработана
+                              суммарно. Верхняя плоскость заглажена. Трехстрочная надпись вырезана
+                              по предварительной разметке и обведена черной краской.</p>
+                           <p xml:lang="en">Upper left corner of a panel. The back is summarily
+                              treated. The top side is planed. Three-line insription is cut following ruled lines and traced in black paint.</p>
+                           <dimensions>
+                              <height unit="cm">30,0</height>
+                              <width unit="cm">17,5</width>
+                              <depth unit="cm">16,8</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Эпсилон с короткой средней горизонталью, омикрон немного
+                           меньше остальных букв, слегка изогнутые линии букв, утолщения и черточки
+                           на концах линий букв.</seg>
+                        <seg xml:lang="en">Epsilon with a short middle bar, slightly curved letterstrokes; flaring of the ends of hastae; serifs.</seg>
+                        <height unit="cm">2,1</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0300" notAfter="-0251" evidence="палеография">
+                        <seg xml:lang="ru">1-я пол. III в. до н.э.</seg>
+                        <seg xml:lang="en">1st half of III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1961 г. Раскопки
+                           С.Ф. Стржелецкого (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Юго-восточный район Херсонеса, оборонительные стены, ядро башни XVII (башня Зенона), кладка.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1961, excavations of S.F. Strzheletsky (НА НЗХТ, д. 30).</rs>
+                        <rs type="context">Southeast sector of Chersonesos, fortification walls, Tower XVII ("Zeno's Tower"), masonry.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-15" who="CB">Tagging bibliography</change>
+         <change when="2015-09-01" who="CB">Tagging app crit</change>
+         <change when="2015-08-26" who="CB">App crit</change>
+         <change when="2015-07-10" who="KK">Add photo file name</change>
+         <change when="2015-06-02" who="CB">Metadata tagging.</change>
+         <change when="2015-03-13" who="VP">Tagging Greek names</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.45">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Соломоник 1969--><ptr target="bib:b0504"/>, 73, №
+                     <citedRange>39</citedRange></bibl>
+               <bibl><!--НЭПХ II-->
+                  <ptr target="bib:НЭПХ2"/><citedRange>173</citedRange></bibl>
+               <bibl><!--Perlman 2011--><ptr target="bib:b0437"/>, 452, <!--Arch-->№
+                     <citedRange>1</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+                  <lb n="1"/><persName type="attested" ref="#person568"><name nymRef="Εὐφρον—"><seg part="I">Εὐφρο<unclear>ν</unclear><gap reason="lost" extent="unknown" unit="character"/></seg></name>
+                  <lb n="2"/><persName type="attested" ref="#person569"><name nymRef="Αὐτοφ—"><seg part="I">Αὐτοφ<gap reason="lost" extent="unknown" unit="character"/></seg></name></persName>
+                  <lb n="3"/><persName type="attested" ref="#person570"><name nymRef="Δαλι—"><seg part="I">Δαλι<gap reason="lost" extent="unknown" unit="character"/></seg></name></persName></persName>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <rdg source="bib:НЭПХ2" n="1">Εὐφρό<unclear>ν</unclear>[ιον] | Αὐτοφ[ῶντος e.g.] |
+                     Δάλι[ος <note>(vel</note> Δαλί[ωνος) γυνά]</rdg>
+                  <rdg source="bib:НЭПХ2" n="2">Εὐφρο<unclear>ν</unclear>[ης] <note>(vel</note>
+                        Εὐφρό<unclear>ν</unclear>[ιος] <note>vel</note>
+                     Εὐφρό<unclear>ν</unclear>[ιον]) | Αὐτοφ[ῶν e.g.] | Δάλι[ος] <note>(vel</note>
+                     Δαλί[ωνος])</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Эвфрон[---]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Euphron[---]... Autoph[---]... Dali[---]. </p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Соломоник 1969 (= НЭПХ II) рассматривает два варианта восстановления надписи.</p>
+            <p>LGPN IV указывает на вариант восстановления Εὐφρоν[ίς]? в стк. 1, ошибочно приписывая
+               его НЭПХ II (повторено Perlman со ссылкой на Соломоник 1969 и НЭПХ II)</p>
+            <p>Согпасно предположению ed. pr. (см. критический аппарат) речь может идти о женском
+               надгробии или детском надгробии (двух братьев или сестры и брата). Имена  Εὐφρόνης и
+               Εὐφρόνιος известны в Херсонесе (LGPN IV). ЛИ Αὐτοφῶν в Северном Причерноморье не
+               засвидетельствовано. Имя Δᾶλις фигурирует в надписи № neph167, также найденной при
+               исследовании башни Зенона и датирующейся по палеографии тем же временем (ср.
+               комментарий).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

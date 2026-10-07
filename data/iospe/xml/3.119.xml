@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение Деве</title><title xml:lang="en">Dedication to Parthenos</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.416</idno><idno type="PE">PE3000231</idno><idno type="filename">3.119</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>3597</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>3597</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвятительная надпись.</seg>
+                     <seg xml:lang="en">Dedicatory inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon23">Капитель.</objectType>
+                           <objectType xml:lang="en">Capital.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m4">Песчаник.</material>
+                           <material xml:lang="en">Sandstone.</material>
+                           <p xml:lang="ru">Сохранилась верхняя правая часть небольшой дорической
+                              капители с остатками двухстрочной надписи.</p>
+                           <p xml:lang="en">Upper parrt of a small Doric capital.</p>
+                           <dimensions>
+                              <height unit="cm">5,0</height>
+                              <width unit="cm">13,0</width>
+                              <depth unit="cm">8,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Ню с немного укороченной правой вертикалью, крупное
+                           омикрон, правая вертикаль пи значительно укорочена, сигма с расходящимися
+                           верхней и нижней гастами, небольшие утолщения на концах линий букв.</seg>
+                        <seg xml:lang="en">Nu with slightly shorter right vertical, large omicron, four-bar sigma with splayed bars, slight flaring of the ends of letterstrokes.</seg>
+                        <height unit="cm">1,5</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0350" notAfter="-0268" evidence="палеография" precision="low">
+                        <seg xml:lang="ru">2-я пол. IV - нач. III в. до н.э.</seg>
+                        <seg xml:lang="en">2nd half of IV - early III century B.C.Е.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь
+                           (Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1896 г. Раскопки
+                           К.К. Косцюшко-Валюжинича (НА НЗХТ, д. 5, л. 2, № 123; д. 25, л. 2, №
+                           123).</rs>
+                        <rs type="context">В северо-восточном районе
+                           херсонесского городища, с северной стороны «склада древностей».</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1896, excavations of K.K.
+                           Kostsyushko-Valyuzhinich (НА НЗХТ, д. 5, л. 2, № 123; д. 25, л. 2, №
+                           123).</rs>
+                        <rs type="context">Northeast sector of the citadel of Chersonesos, to the north of the Repository of Antiquities.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol.</tei:seg>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2015-11-06" who="CB">Added origDate</change>
+         <change when="2015-10-28" who="CB">correcting Bibliography</change>
+         <change when="2015-10-14" who="CB">Bibliography</change>
+         <change when="2015-07-15" who="KK">Add photo file name</change>
+         <change when="2015-06-29" who="CB">Tagging metadata</change>
+         <change when="2015-05-08" who="AGi">programmatically created XML from Word docs</change>
+         <change when="2015-05-14" who="AV">programmatically tagging Greek words from Word
+            docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.416">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!--Латышев 1899--><ptr target="bib:b0136"/>, 8, № <citedRange>5</citedRange></bibl>
+               <bibl><!--IOSPE--><ptr target="bib:IOSPE"/> <citedRange>IV 84</citedRange></bibl>
+               <bibl><!--IOSPE I2--><ptr target="bib:IOSPE2"/> <citedRange>407</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!--Пичикян 1984--><ptr target="bib:b0482"/>, <citedRange>198</citedRange></bibl>
+               <bibl><!--Соломоник 1990--><ptr target="bib:b0506"/>, № <citedRange>41</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               	<lb n="1"/><persName type="attested" ref="#person947"><gap reason="lost" extent="unknown" unit="character"/> 
+               	                 <persName type="attested" ref="#person948"><name nymRef="Πόσις">Πόσιος</name></persName></persName> 
+               	<lb n="2"/><w><supplied reason="lost" cert="low">ἀνέθηκε</supplied></w> <persName type="divine" key="parthenos"><name><supplied reason="lost">Π</supplied>αρθένωι</name></persName>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note/>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[---], (сын) Посия, [посвятил ?] Деве.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[---], (son of) Posios, [dedicated?] to Parthenos.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

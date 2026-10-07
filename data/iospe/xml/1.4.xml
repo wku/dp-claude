@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент почетного декрета</title>
+            <title xml:lang="en">Honorific decree</title>
+            <editor xml:id="ip" role="translator">
+               <persName xml:lang="ru">Ирина<forename/>
+                  <surname>Полинская</surname></persName>
+               <persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName>
+            </editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.5</idno>
+            <idno type="filename">1.4</idno>
+            <idno type="PE">PE1000005</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Белгород-Днестровский краеведческий музей</repository>
+                     <idno>А-8918, КП-34958</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Belgorod-Dnestrovsky Regional Studies Museum</repository>
+                     <idno>А-8918, КП-34958</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc15">
+                     <seg xml:lang="ru">Почетный декрет.</seg>
+                     <seg xml:lang="en">Honorific decree.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор белый.</material>
+                           <material xml:lang="en">White marble.</material>
+                           <p xml:lang="ru">Лицевой фас тщательно обработан, поле надписи отполировано и окружено рельефной рамкой с полировкой. Левый и нижний
+                              фасы обработаны суммарно с помощью троянки, оборотный грубыми сколами, остальные оббиты. Снизу рамка плоская, слева сложно профилирована и состоит из плоского поля, отделенного глубокой бороздой от валика, 
+                              плавно переходящего в плоскую поверхность, который переходит к полю надписи посредством ребра, образующего прямой угол. 
+                              Ширина рамки слева 5,8, снизу – 4,3. Глубина поля надписи по отношению к рамке 0,8.</p>
+                           <p xml:lang="en">The front is carefully worked, the epigraphic field is polished and framed by a polished relief border. The left and bottom
+                              sides are summarily treated with tooth chisel, the back is roughly picked, the other faces are broken off.</p>
+                           <dimensions>
+                              <width unit="cm">13,6</width>
+                              <height unit="cm">15,6</height>
+                              <depth unit="cm">5,7</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Сохранился левый нижний угол, оббито сверху и справа. 
+                              Размеры полей: левое 0,6, нижнее 0,6. 
+                           </seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. Bottom left corner is preserved, broken off on on the top and right. Margins: left 0,6; right 0,6cm.</seg>
+                           <dimensions>
+                              <height unit="cm">9,0</height>
+                              <width unit="cm">4,8</width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны глубоко, но не очень аккуратно, украшены достаточно крупными апексами. Сигма квадратная, однажды
+                           использована обычная четырехчастная форма. Вертикальная гаста фи далеко выступает за пределы строки сверху и снизу, пси – снизу. Среднее расстояние между строк: 0,4.</seg>
+                        <seg xml:lang="en">Deeply cut, but not altogether neat letters, large serifs. Rectangular sigma, but once a regular four-bar shape is used.
+                           Phi with upward and downward extended vertical; psi with a downward extended vertical. Average distance between lines: 0,4cm.</seg>
+                        <height unit="cm">1,0-1,2</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0201" notAfter="0233" precision="low" evidence="просопография палеография">
+                        <seg xml:lang="ru">начало III в. н.э.</seg>
+                        <seg xml:lang="en">early III century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">Неизвестны. В музейную инвентарную книгу внесена
+                           27.09.1990.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Unknown. Entry in the Museum Inventory under 27.09.1990.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Белгород-Днестровский.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Belgorod-Dnestrovsky.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А. И. Иванчик, <date when="2006-08">август 2006</date>.</seg>
+                     <seg xml:lang="en">A. I. Ivantchik, <date when="2006-08">August 2006</date>.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <!-- volNum = ﻿10-->
+      <revisionDesc>
+         <change when="2016-08-02" who="SS">encoded metadata and Leiden</change>
+         <change when="2016-05-18" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.5">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl>Ineditum</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>Ρ</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><w part="F">σι<unclear>ο</unclear><supplied reason="lost">υ</supplied></w>
+                              <gap reason="lost" extent="unknown" unit="character"/> 
+                              <w><supplied reason="lost">ἐσφρα</supplied>
+               		<lb n="3" break="no"/>γίσ<unclear>α</unclear><supplied reason="lost">ντο</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="4"/><persName type="attested"><name><seg part="I">᾽Αττα</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="5"/><persName type="attested"><name>Καλλί<unclear>μ</unclear><supplied reason="lost">αχος <note>vel sim.</note></supplied></name></persName>  
+                                             <gap reason="lost" extent="unknown" unit="character"/><w><supplied reason="lost">ἀνα</supplied>
+               		<lb n="6" break="no"/>γράψας</w> 
+                                          <persName type="attested"><name><seg part="I">Χ<unclear>υ</unclear></seg></name></persName><gap reason="lost" extent="unknown" unit="character"/> 
+                                          <persName type="attested"><supplied reason="lost"><name>Οὐαλέριος</name></supplied>
+                                             <name><supplied reason="lost" cert="low">῾Ροῦ</supplied>
+               		<lb n="7" break="no"/>φος</name></persName>
+                                    <w>γρ<unclear>α</unclear><supplied reason="lost">μματεὺς</supplied></w> 
+                                    <supplied reason="lost"><w>ἐτελειώσατο</w> <w>τὸ</w> <w>ψήφισμα</w>
+                                    <space extent="unknown" unit="character"/></supplied>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="6">
+                  <note>ΓΡ in ligatura</note>
+               </app>
+               <app loc="7">
+                  <note>ΓΡ in ligatura</note>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[- - - Печати] приложи[ли - - -] Атта[- - -] Каллим[- - - на]писав [- - -Р]уф
+               сек[ретарь редактировал постановление]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[- - - their seals] appli[ed - - -] Atta[- - -] Kallim[- - -  wri]tten [- - -R]ufus, sec[retary edited the decision]</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Надпись чрезвычайно близка надписи <ref type="inscription">I 3</ref> и по шрифту, и по содержанию, и по толщине
+               плит, и по оформлению рамки. Их объединению препятствует, однако, то, что поля второй
+               надписи внутри рамки примерно в два с половиной раза уже. По-видимому, фрагмент
+               принадлежит декрету очень близкого времени; на камне сохранилась его заключительная
+               часть, которая может быть восстановлена по аналогии с надписью <ref type="inscription">I 2</ref>. После
+               слова ἐσφραγίσαντο, часть которого сохранилась в начале третьей строки, располагался
+               список имен, который, однако, был существенно короче, чем в этой надписи. В последней
+               строке сохранилось окончание имени секретаря -φος; поскольку оно стоит в номинативе,
+               речь идет о его оформлении на римский, а не греческий манер, без патронимика. По
+               аналогии с надписью <ref type="inscription">I 3</ref>, нетрудно восстановить имя Руфа; секретарь, носивший это
+               имя, таким образом, оказывается засвидетельствован уже тремя надписями. Это
+               увеличивает вероятность предположения о том, что должность секретаря в Тире была
+               пожизненной, или во всяком случае не ограниченной коротким сроком.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The inscription is very close to <ref type="inscription">I 3</ref> in script, content, thickness of panels and treatment of borders. What prevents us from joining the two 
+               is the difference in the size of the margins (2.5 times narrower in our inscription than in <ref type="inscription">I 3</ref>). The two decrees must be very close in 
+               date; the present fragment contains the concluding part of a decree, whic is restored by analogy with <ref type="inscription">I 2</ref>. After the verb ἐσφραγίσαντο, 
+               which is partially preserved at the start of line 3, there followed a list of names, which was, however, much shorter than the other inscription. In the last line, 
+               the ending of the secretary's name is preserved: -φος; since it appears in the Nominative, this means that it was rendered in the the Roman, not the Greek, fashion, 
+               that is, without a patronymic. By analogy with <ref type="inscription">I 3</ref>, it is not difficult to restore the name Rufusн; the secreatary who bore this name, is thus attested 
+               in at least three inscriptions. This fact increases the possibility that in Tyras the post of secretary was for life, or, in any case, not limited to a short term.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

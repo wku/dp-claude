@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Фрагмент декрета (?)</title><title xml:lang="en">Fragment of a decree (?)</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.33</idno>
+            <idno type="filename">1.7</idno>
+            <idno type="PE">PE1000033</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Отдел археологии Северо-западного Причерноморья Института археологии НАНУ</repository>
+                     <idno>полевой номер БТЭ-03, сп. 35, № 609</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Department of Archaeology of the Northern Black Sea Coast, Institute of Archaeology, National Academy of Sciences of Ukraine</repository>
+                     <idno>field catalogue number - БТЭ-03, сп. 35, № 609</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc22">
+                     <seg xml:lang="ru">Декрет (?)</seg>
+                     <seg xml:lang="en">Decree (?)</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор серый.</material>
+                           <material xml:lang="en">Marble, gray.</material>
+                           <p xml:lang="ru">Лицевой фас отполирован, оборотный обработан грубыми сколами. Левый обработан суммарно, 
+                              на нем заметны следы троянки, нижний более грубо. Состоит из трех сходящихся встык фрагментов. Сильно поврежден огнем: 
+                              закопчен и растрескался. В нижней части многочисленные глубокие царапины или насечки.</p>
+                           <p xml:lang="en">The front is polished, the back is roughly picked. Left side is treated summarily, showing tooth chisel marks, the bottom is roughly picked.
+                           Three joining fragments. Serious fire damage: soot and cracks. In the lower part, multiple deep gashes or notches.</p>
+                           <dimensions>
+                              <height unit="cm">30,5</height>
+                              <width unit="cm">20,8</width>
+                              <depth unit="cm">4,8-5,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас. Оббито со всех сторон, кроме нижней и левой, вытерто и повреждено огнем.
+                              Размеры полей: Левое 2,8, нижнее 13,2.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front. Broken of all sides, except the bottom and left. Defaced and damaged by fire. Margins: left 2,8; bottom 13,2.</seg>
+                           <dimensions>
+                              <height unit="cm">15,5</height>
+                              <width unit="cm">18,0</width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Буквы вырезаны достаточно аккуратно и ровно, хотя линий предварительной разметки на камне незаметно, 
+                           украшены небольшими апексами или горизонтальными штрихами на концах букв. Омикрон в одном случае сильно уменьшен (1,0), 
+                           в остальных имеет обычные размеры. Сигма двух форм – квадратная и лунарная. Фи с выступающей вверх и вниз вертикальной гастой.
+                           Среднее расстояние между строк: 1,0.</seg>
+                        <seg xml:lang="en">Letters are quite neatly and evenly cut, although no ruled lines are visible. Serifs and decorative horizontal strokes on the ends of hastae.
+                        Omicron is, in one case, much smaller (1,0cm) than other letters. Two shapes of sigma (rectangular and lunate) are used. Phi with upward and downward 
+                        extended vertical. Average distance between lines: 1,0cm. </seg>
+                        <height unit="cm">2,1-2,3</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0147" notAfter="0147" evidence="Указание_надписи">
+                        <seg xml:lang="ru">147 г. н.э.</seg>
+                        <seg xml:lang="en">147 C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский, Одесская область, Украина.</placeName>
+                        <rs type="circumstances">При раскопках Т.Л. Самойловой в 2003 г.</rs>
+                        <rs type="context"> Вторичный. На Центральном раскопе, в помещении золотоордынского времени.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Belgorod-Dnestrovsky.</placeName>
+                        <rs type="circumstances">Found in 2003, excavations of T.L. Samoylova.</rs>
+                        <rs type="context">Central Trench, in a building dated to the period of the Golden Horde.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Одесса.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Odessa.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">А.И. Иванчик, <date when="2006-08">август 2006</date>.</seg>
+                     <seg xml:lang="en">A.I. Ivantchik, <date when="2006-08">August 2006</date>.</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2016-09-28" who="SS">encoded metadata</change>
+         <change when="2016-09-13" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="10.33">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl>Ineditum</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+               		<lb n="1"/><gap reason="lost" quantity="5" unit="character"/><orig><unclear>Η</unclear>Δ</orig><gap reason="lost" extent="unknown" unit="character"/>
+               		<lb n="2"/><gap reason="lost" quantity="3" unit="character"/><orig><unclear>Ϲ</unclear></orig> <g ref="#denarius"/> <num value="500">φ</num> 
+                                             <w><unclear>ἐγ</unclear><supplied reason="lost">ένητο</supplied></w> <supplied reason="lost"><w>ἐν</w> <placeName>Τύρᾳ</placeName></supplied> 
+                                             <supplied reason="lost"><persName type="consul"><name type="praenomen"><expan><abbr>Γ</abbr><ex>αίῳ</ex></expan></name> 
+                                             <name type="gentilicium">Πραστείνῳ</name> <name type="cognomen">Μεσσαλείνῳ</name></persName> 
+                                             <w>καὶ</w></supplied> 
+                                             <persName type="consul"><supplied reason="lost"><name type="praenomen"><expan><abbr>Λ</abbr><ex>ουκίῳ</ex></expan></name> 
+                                             <name type="gentilicium">Ἀννίῳ</name></supplied> <name type="cognomen"><supplied reason="lost">Λάρ</supplied>
+               		<lb n="3" break="no"/><supplied reason="lost">γῳ</supplied></name></persName> <w><unclear>ὑ</unclear>πάτοις</w> <space extent="unknown" unit="character"/> 
+                                             <supplied reason="lost"><w>ὡς</w> <w>δὲ</w> <placeName type="ethnic">Τυρανοὶ</placeName> <w>ἄγουσιν</w></supplied>
+               		<lb n="4"/><w><supplied reason="lost">ἔ</supplied><unclear>τ</unclear>ους</w> <num value="91"><hi rend="supraline">αϙ</hi></num> 
+                                          <space extent="unknown" unit="character"/> <supplied reason="lost"><w>ἀρχόντων</w> <w>δὲ</w> <w>τῶν</w> <w>περὶ</w></supplied>
+               		<lb n="5"/><orig>ΕΙ</orig><gap reason="lost" quantity="1" unit="character"/><orig>Ι</orig><gap reason="lost" quantity="1" unit="character"/><orig>ΛΟΙ</orig><gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app><note/></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>[- - -] 500 денариев. Со[стоялось в Тире при] консулах [Г. Прастине Мессалине и Л. Аннии Ларге, а как считают тириты в] 91 год; 
+               [при архонтах под началом - - -]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[- - -] 500 denarii. Took pl[ace in Tyras], when consuls [were G. Prasteinus Messalina and L. Annius Largus, and as citizens of Tyras hold], in 91st year, [when 
+            archons were under the leadership of - - -]</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Фрагмент содержит окончание документа неясного жанра, возможно, декрета, которое включает датировочную формулу.</p>
+            <p>2-4. Ключ к восстановлению этих строк дают последние буквы в 4-й строке: это цифра 91, которая в сочетании с предшествующими 
+               буквами однозначно восстанавливается как датировка по принятой в Тире эре. Соответственно, по принятому в Тире обыкновению (см. <ref type="inscription">I 2</ref>) 
+               перед этой датой следует восстанавливать дату по римским консулам, а за ней – по архонту эпониму. 91-й год тирской эры соответствует 147 г. н.э.; 
+               соответственно, во второй строке, перед сохранившимся в третьей строке словом ὑ̣πάτοις следует восстанавливать имена консулов этого года 
+               (Gaius Prastina Messalinus и Lucius Annius Largus). Трудно сказать, с какой степенью полноты воспроизводились их имена (восстановление в 
+               этой части поэтому условно). Размер строк восстановить невозможно, поскольку в третьей и четвертой строках после сохранившихся слов 
+               следует пустое поле (vacat) неясного размера, которое разделяло разные способы датировки.</p>
+            <p>Во второй строке, перед началом датировочной формулы, имеется упоминание о сумме в 500 денариев, однако контекст этого упоминания неясен: 
+               возможно, речь идет об определении суммы штрафа, или каких-нибудь других выплат. В начале строки сохранилась нижняя часть лунарного 
+               завершения буквы, скорее всего сигмы. В конце строки, после эпсилон, сохранилась нижняя часть вертикальной гасты, которую можно восстанавливать 
+               как часть гаммы.</p>
+            <p>5: Между ΕΙ и ΛΟΙ поле надписи вытерто и на его середине угадывается вертикальная гаста.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The category of the document is uncertain, possibly a decree, and its preserved ending contains a dating formula.</p>
+            <p>2-4. The key to the restoration of these two lines is in the last letters of line 4: this is the numeral 91, which in combination with preceding letters 
+               unequivocally suggests a date according to the local era of Tyras. Considering what appears to be a standard form of dating in public documents 
+               (see <ref type="inscription">I 2</ref>), we should restore a date according to Roman consuls before the date according to the local era of Tyras, 
+               and following that, the date according to eponymous archon. The 91st year of the Tyras era corresponds to 147 C.E.; this allows us to restore before the word
+                ὑ̣πάτοις preserved in line 3 the names of Roman consuls for that year (Gaius Prastina Messalinus and Lucius Annius Largus). It is difficult to know how fully 
+                their names would have been presented (the restoration here is therefore approximate). The length of the lines is also impossible to determine due to the vacat 
+                of unknown size in lines 3 and 4, which served to separate the parallel dating formulae we have discussed.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

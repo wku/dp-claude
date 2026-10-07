@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Findspots Authority list for IOSPE</title>
+                <editor xml:id="GB">Gabriel Bodard</editor>
+                <editor xml:id="CB">Caroline Barron</editor>
+                <editor xml:id="AV">Athanasia Varveri</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>internal use only</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Generated from the tagged EpiDoc and <ref>https://iospe.kcl.ac.uk/indices/findspot.html</ref></p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="#GB" when="2015-05-01">Created outline, stubbed Alushta</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="alushta">
+                    <placeName xml:lang="en">Alushta</placeName>
+                    <placeName xml:lang="ru">Алушта</placeName>
+                    <placeName xml:lang="uk">Алушта</placeName>
+                    <idno type="geonames">http://sws.geonames.org/713513/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/226517</idno>
+                </place>
+                <place xml:id="anapa">
+                    <placeName xml:lang="en">Anapa</placeName>
+                    <placeName xml:lang="ru">Анапа</placeName>
+                    <placeName xml:lang="uk">Анапа</placeName>
+                    <idno type="geonames">http://www.geonames.org/582182/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/825265</idno>
+                </place>
+                <place xml:id="artek">
+                    <placeName xml:lang="en">Artek</placeName>
+                    <placeName xml:lang="ru">Артек</placeName>
+                    <placeName xml:lang="uk">Артек</placeName>
+                    <idno type="geonames">http://www.geonames.org/713191/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/226614</idno>
+                </place>
+                <place xml:id="ay-dimitry">
+                    <placeName xml:lang="en">Ay-Dimitry, Tract</placeName>
+                    <placeName xml:lang="ru">Ай-Димитрий, Урочище</placeName>
+                    <placeName xml:lang="uk">Ай-Димитрій, Урочище</placeName>
+                    <idno type="geonames"/>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="ay-vasil">
+                    <placeName xml:lang="en">Ay-Vasil</placeName>
+                    <placeName xml:lang="ru">Ай-Василь</placeName>
+                    <placeName xml:lang="uk">Ай-Василь, Василівка</placeName>
+                    <idno type="geonames">http://www.geonames.org/690398/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/856234</idno>
+                </place>
+                <place xml:id="ayu-dag">
+                    <placeName xml:lang="en">Ayu-Dag, Mount</placeName>
+                    <placeName xml:lang="ru">Аю-Даг, Гора</placeName>
+                    <placeName xml:lang="uk">Аю-Даг, Гора</placeName>
+                    <idno type="geonames">http://www.geonames.org/713080/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/226671</idno>
+                </place>
+                <place xml:id="bakhchisaray">
+                    <placeName xml:lang="en">Bakhchisaray</placeName>
+                    <placeName xml:lang="ru">Бахчисарай</placeName>
+                    <placeName xml:lang="uk">Бахчисарай</placeName>
+                    <idno type="geonames">http://www.geonames.org/712969/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="bakla">
+                    <placeName xml:lang="en">Bakla</placeName>
+                    <placeName xml:lang="ru">Бакла</placeName>
+                    <placeName xml:lang="uk">Бакла</placeName>
+                    <idno type="geonames">http://www.geonames.org/6974462/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/228867</idno>
+                </place>
+                <place xml:id="basmanridge">
+                    <placeName xml:lang="en">Basman Ridge</placeName>
+                    <placeName xml:lang="ru">Басман, Хребет</placeName>
+                    <placeName xml:lang="uk">Басман, Хребет</placeName>
+                    <idno type="geonames">http://www.geonames.org/712766/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="belgorod-dnestrovsky">
+                    <placeName xml:lang="en">Belgorod-Dnestrovsky</placeName>
+                    <placeName xml:lang="ru">Белгород-Днестровский</placeName>
+                    <placeName xml:lang="uk">Білгород-Дністровський </placeName>
+                    <idno type="geonames">http://www.geonames.org/712160/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/226800</idno>
+                </place>
+                <place xml:id="belgorod-dnestrovskyvicinity">
+                    <placeName xml:lang="en">Belgorod-Dnestrovsky, vicinity</placeName>
+                    <placeName xml:lang="ru">Белгород-Днестровский,окрестности</placeName>
+                    <placeName xml:lang="uk">Білгород-Дністровський, околиці</placeName>
+                    <idno type="geonames">http://www.geonames.org/712160/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/226800</idno>
+                </place>
+                <place xml:id="belyaus">
+                    <placeName xml:lang="en">Belyaus</placeName>
+                    <placeName xml:lang="ru">Беляус</placeName>
+                    <placeName xml:lang="uk">Біляус</placeName>
+                    <idno type="geonames"/>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="bermansgully">
+                    <placeName xml:lang="en">Berman's Gully</placeName>
+                    <placeName xml:lang="ru">Бермана, Балка</placeName>
+                    <placeName xml:lang="uk">Бермана, Балка</placeName>
+                    <idno type="geonames">http://www.geonames.org/7019608/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/226529</idno>
+                </place>
+                <place xml:id="cape-mayachny">
+                    <placeName xml:lang="en">Cape Mayachny (Strabo’s Chersonesos)</placeName>
+                    <placeName xml:lang="ru">Маячный полуостров (Страбонов Херсонес)</placeName>
+                    <placeName xml:lang="uk">Маячний півострів (Страбонів Херсонес)</placeName>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="cherkes-kermen">
+                    <placeName xml:lang="en">Cherkes-Kermen</placeName>
+                    <placeName xml:lang="ru">Черкес-Кермен</placeName>
+                    <placeName xml:lang="uk">Черкез-Кермен, Кріпке</placeName>
+                    <idno type="geonames">http://www.geonames.org/706514/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/226659</idno>
+                </place>
+                <place xml:id="chilter-marmara">
+                    <placeName xml:lang="en">Chilter-Marmara</placeName>
+                    <placeName xml:lang="ru">Чилтер-Мармара</placeName>
+                    <placeName xml:lang="uk">Чилтер-Мармара</placeName>
+                    <idno type="geonames">http://www.geonames.org/691634/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="chufut-kale">
+                    <placeName xml:lang="en">Chufut-Kale</placeName>
+                    <placeName xml:lang="ru">Чуфут-Кале</placeName>
+                    <placeName xml:lang="uk">Чуфут-Кале</placeName>
+                    <idno type="geonames">http://www.geonames.org/710377/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="crimeasouthwest">
+                    <placeName xml:lang="en">Crimea, Southwest</placeName>
+                    <placeName xml:lang="ru">Крым, Юго-Западный</placeName>
+                    <placeName xml:lang="uk">Крим, Південно-Західний</placeName>
+                    <idno type="geonames">http://www.geonames.org/703883/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="dzhurt-oba">
+                    <placeName xml:lang="en">Dzhurt-Oba, Tumulus</placeName>
+                    <placeName xml:lang="ru">Джурт-Оба, Курган</placeName>
+                    <placeName xml:lang="uk">Джурт-Оба, Курган</placeName>
+                    <idno type="geonames"/>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="eski-kermen">
+                    <placeName xml:lang="en">Eski-Kermen</placeName>
+                    <placeName xml:lang="ru">Эски-Кермен</placeName>
+                    <placeName xml:lang="uk">Ескі-Кермен</placeName>
+                    <idno type="geonames">http://www.geonames.org/708481/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/228870</idno>
+                </place>
+                <place xml:id="feodosia">
+                    <placeName xml:lang="en">Feodosia</placeName>
+                    <placeName xml:lang="ru">Феодосия</placeName>
+                    <placeName xml:lang="uk">Феодосія</placeName>
+                    <idno type="geonames">http://www.geonames.org/709161/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/854743</idno>
+                </place>
+                <place xml:id="feolent">
+                    <placeName xml:lang="en">Feolent, Cape</placeName>
+                    <placeName xml:lang="ru">Феолент, Мыс</placeName>
+                    <placeName xml:lang="uk">Фіолент, Мис</placeName>
+                    <idno type="geonames">http://www.geonames.org/709134/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/226713</idno>
+                </place>
+                <place xml:id="foros">
+                    <placeName xml:lang="en">Foros</placeName>
+                    <placeName xml:lang="ru">Форос</placeName>
+                    <placeName xml:lang="uk">Форос</placeName>
+                    <idno type="geonames">http://www.geonames.org/709112/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="fytskaplateau">
+                    <placeName xml:lang="en">Fytska Plateau</placeName>
+                    <placeName xml:lang="ru">Фыцка, Плато</placeName>
+                    <placeName xml:lang="uk">Фицка, Плато</placeName>
+                    <idno type="geonames"/>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="glubokyyar">
+                    <placeName xml:lang="en">Gluboky Yar</placeName>
+                    <placeName xml:lang="ru">Глубокий Яр</placeName>
+                    <placeName xml:lang="uk">Глибокий Яр</placeName>
+                    <idno type="geonames">http://www.geonames.org/708727</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="golubinka">
+                    <placeName xml:lang="en">Golubinka</placeName>
+                    <placeName xml:lang="ru">Голубинка</placeName>
+                    <placeName xml:lang="uk">Голубинка</placeName>
+                    <idno type="geonames">http://www.geonames.org/708546/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="golubitskaya">
+                    <placeName xml:lang="en">Golubitskaya, Stanitsa (Old Temryuk)</placeName>
+                    <placeName xml:lang="ru">Голубицкая, Станица (Старый Темрюк)</placeName>
+                    <placeName xml:lang="uk">Голубицька, Станиця (Старий Темрюк)</placeName>
+                    <idno type="geonames">http://www.geonames.org/560513/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/856277</idno>
+                </place>
+                <place xml:id="herakleianpanisula">
+                    <placeName xml:lang="en">Herakleian peninsula</placeName>
+                    <placeName xml:lang="ru">Гераклейский полуостров</placeName>
+                    <placeName xml:lang="uk">Гераклейський півострів</placeName>
+                    <idno type="geonames"/>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="inkerman">
+                    <placeName xml:lang="en">Inkerman</placeName>
+                    <placeName xml:lang="ru">Инкерман</placeName>
+                    <placeName xml:lang="uk">Інкерман</placeName>
+                    <idno type="geonames">http://www.geonames.org/712576/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="iografridge">
+                    <placeName xml:lang="en">Iograf Ridge</placeName>
+                    <placeName xml:lang="ru">Иограф, Хребет</placeName>
+                    <placeName xml:lang="uk">Іограф, Хребет</placeName>
+                    <idno type="geonames">http://www.geonames.org/707591/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="karatobe">
+                    <placeName xml:lang="en">Kara-Tobe</placeName>
+                    <placeName xml:lang="ru">Кара-Тобе</placeName>
+                    <placeName xml:lang="uk">Кара-Тобе</placeName>
+                    <idno type="geonames">http://www.geonames.org/7034948/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="kachi-kalyon">
+                    <placeName xml:lang="en">Kachi-Kalyon</placeName>
+                    <placeName xml:lang="ru">Качи-Кальон</placeName>
+                    <placeName xml:lang="uk">Качі-Кальон</placeName>
+                    <idno type="geonames">http://www.geonames.org/708479/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="kaloslimen">
+                    <placeName xml:lang="ru">Черноморское (Калос Лимен)</placeName>
+                    <placeName xml:lang="uk">Чорноморське (Калос Лімен)</placeName>
+                    <placeName xml:lang="en">Chernomorskoye (Kalos Limen)</placeName>
+                    <idno type="geonames">http://www.geonames.org/710687/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/226646</idno>
+                </place>
+                <place xml:id="kerch">
+                    <placeName xml:lang="en">Kerch</placeName>
+                    <placeName xml:lang="ru">Керчь</placeName>
+                    <placeName xml:lang="uk">Керч</placeName>
+                    <idno type="geonames">http://www.geonames.org/706524/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/854719</idno>
+                </place>
+                <place xml:id="krasnodarregion">
+                    <placeName xml:lang="en">Krasnodar region</placeName>
+                    <placeName xml:lang="ru">Краснодарский край</placeName>
+                    <placeName xml:lang="uk">Краснодарський край</placeName>
+                    <idno type="geonames">http://www.geonames.org/467854</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/825426</idno>
+                </place>
+                <place xml:id="krasnymak">
+                    <placeName xml:lang="en">Krasny Mak</placeName>
+                    <placeName xml:lang="ru">Красный Мак</placeName>
+                    <placeName xml:lang="uk">Красний Мак</placeName>
+                    <idno type="geonames">http://www.geonames.org/704201/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="kuchuk-babugan">
+                    <placeName xml:lang="en">Kuchuk-Babugan</placeName>
+                    <placeName xml:lang="ru">Кучук-Бабуган</placeName>
+                    <placeName xml:lang="uk">Кучук-Бабуган</placeName>
+                    <idno type="geonames">http://www.geonames.org/713012</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="kudrino">
+                    <placeName xml:lang="en">Kudrino</placeName>
+                    <placeName xml:lang="ru">Кудрино</placeName>
+                    <placeName xml:lang="uk">Кудрине</placeName>
+                    <idno type="geonames">http://www.geonames.org/703776/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="laki">
+                    <placeName xml:lang="en">Laki</placeName>
+                    <placeName xml:lang="ru">Лаки</placeName>
+                    <placeName xml:lang="uk">Лакі</placeName>
+                    <idno type="geonames">http://www.geonames.org/703417/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="laspi">
+                    <placeName xml:lang="en">Laspi</placeName>
+                    <placeName xml:lang="ru">Ласпи</placeName>
+                    <placeName xml:lang="uk">Ласпі</placeName>
+                    <idno type="geonames">http://www.geonames.org/703363/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="livadia">
+                    <placeName xml:lang="en">Livadia</placeName>
+                    <placeName xml:lang="ru">Ливадия</placeName>
+                    <placeName xml:lang="uk">Лівадія</placeName>
+                    <idno type="geonames">http://www.geonames.org/702907/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/226674</idno>
+                </place>
+                <place xml:id="luchistoe">
+                    <placeName xml:lang="en">Luchistoe</placeName>
+                    <placeName xml:lang="ru">Лучистое</placeName>
+                    <placeName xml:lang="uk">Лучисте</placeName>
+                    <idno type="geonames">http://www.geonames.org/702705/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="mangup">
+                    <placeName xml:lang="en">Mangup</placeName>
+                    <placeName xml:lang="ru">Мангуп</placeName>
+                    <placeName xml:lang="uk">Мангуп</placeName>
+                    <idno type="geonames">http://www.geonames.org/708478/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/228868</idno>
+                </place>
+                <place xml:id="maryam-dere">
+                    <placeName xml:lang="en">Maryam-Dere</placeName>
+                    <placeName xml:lang="ru">Марьям-Дере</placeName>
+                    <placeName xml:lang="uk">Мар'ям-Дере</placeName>
+                    <idno type="geonames"/>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="massandra">
+                    <placeName xml:lang="en">Massandra, Verkhniya</placeName>
+                    <placeName xml:lang="ru">Массандра, Верхняя</placeName>
+                    <placeName xml:lang="uk">Масандра, Верхня</placeName>
+                    <idno type="geonames">http://www.geonames.org/701619/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="panskoe">
+                    <placeName xml:lang="en">Panskoe</placeName>
+                    <placeName xml:lang="ru">Панское</placeName>
+                    <placeName xml:lang="uk">Панське</placeName>
+                    <idno type="geonames">http://www.geonames.org/7910533/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/226710</idno>
+                </place>
+                <place xml:id="partenit">
+                    <placeName xml:lang="en">Partenit</placeName>
+                    <placeName xml:lang="ru">Партенит</placeName>
+                    <placeName xml:lang="uk">Партеніт</placeName>
+                    <idno type="geonames">http://www.geonames.org/709075/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="polyana">
+                    <placeName xml:lang="en">Polyana</placeName>
+                    <placeName xml:lang="ru">Поляна</placeName>
+                    <placeName xml:lang="uk">Поляна</placeName>
+                    <idno type="geonames">http://www.geonames.org/696611/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="sennoy">
+                    <placeName xml:lang="en">Sennoy</placeName>
+                    <placeName xml:lang="ru">Сенной</placeName>
+                    <placeName xml:lang="uk">Сєнной</placeName>
+                    <idno type="geonames">http://www.geonames.org/694533/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="sevastopol">
+                    <placeName xml:lang="en">Sevastopol (Chersonesos)</placeName>
+                    <placeName xml:lang="ru">Севастополь (Херсонес)</placeName>
+                    <placeName xml:lang="uk">Севастополь (Херсонес)</placeName>
+                    <idno type="geonames">http://www.geonames.org/694423/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/930177</idno>
+                </place> 
+                <place xml:id="sevastopol-balaklava">
+                    <placeName xml:lang="en">Sevastopol (Balaklava)</placeName>
+                    <placeName xml:lang="ru">Севастополь (Балаклава)</placeName>
+                    <placeName xml:lang="uk">Севастополь (Балаклава)</placeName>
+                    <idno type="geonames"/>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="simferopol-kermenchik">
+                    <placeName xml:lang="en">Simferopol (Kermenchik)</placeName>
+                    <placeName xml:lang="ru">Симферополь (Керменчик)</placeName>
+                    <placeName xml:lang="uk">Сімферополь (Керменчик)</placeName>
+                    <idno type="geonames">http://www.geonames.org/706513/</idno> 
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="shabo">
+                    <placeName xml:lang="en">Shabo</placeName>
+                    <placeName xml:lang="ru">Шабо</placeName>
+                    <placeName xml:lang="uk">Шабо</placeName>
+                    <idno type="geonames">http://www.geonames.org/694392/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/226760</idno>
+                </place>
+                <place xml:id="shchebetovka">
+                    <placeName xml:lang="en">Shchebetovka</placeName>
+                    <placeName xml:lang="ru">Щебетовка</placeName>
+                    <placeName xml:lang="uk">Щебетовка</placeName>
+                    <idno type="geonames">http://www.geonames.org/694320/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="shuldan">
+                    <placeName xml:lang="en">Shuldan</placeName>
+                    <placeName xml:lang="ru">Шулдан</placeName>
+                    <placeName xml:lang="uk">Шулдан</placeName>
+                    <idno type="geonames">http://www.geonames.org/708477/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="solenyhamlet">
+                    <placeName xml:lang="en">Soleny hamlet, vicinity</placeName>
+                    <placeName xml:lang="ru">Соленый, Хутор, около</placeName>
+                    <placeName xml:lang="uk">Солоний хутір, біля</placeName>
+                    <idno type="geonames">http://www.geonames.org/693225/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="sudak">
+                    <placeName xml:lang="en">Sudak</placeName>
+                    <placeName xml:lang="ru">Судак</placeName>
+                    <placeName xml:lang="uk">Судак</placeName>
+                    <idno type="geonames">http://www.geonames.org/692315/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/226521</idno>
+                </place>
+                <place xml:id="syurenfortress">
+                    <placeName xml:lang="en">Syuren fortress</placeName>
+                    <placeName xml:lang="ru">Сюреньская крепость</placeName>
+                    <placeName xml:lang="uk">Сюренська фортеця</placeName>
+                    <idno type="geonames">http://www.geonames.org/8997535/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="taman">
+                    <placeName xml:lang="en">Taman</placeName>
+                    <placeName xml:lang="ru">Тамань</placeName>
+                    <placeName xml:lang="uk">Тамань</placeName>
+                    <idno type="geonames">http://www.geonames.org/484670/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/856306</idno>
+                </place>
+                <place xml:id="tamanpeninsula">
+                    <placeName xml:lang="en">Taman peninsula</placeName>
+                    <placeName xml:lang="ru">Таманский полуостров</placeName>
+                    <placeName xml:lang="uk">Таманський півострів</placeName>
+                    <idno type="geonames">http://www.geonames.org/484666/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="tamanchurch">
+                    <placeName xml:lang="en">Taman, church</placeName>
+                    <placeName xml:lang="ru">Тамань, храм</placeName>
+                    <placeName xml:lang="uk">Тамань, храм</placeName>
+                    <idno type="geonames"/>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="tamancoast">
+                    <placeName xml:lang="en">Taman, coast</placeName>
+                    <placeName xml:lang="ru">Тамань, берег</placeName>
+                    <placeName xml:lang="uk">Тамань, берег</placeName>
+                    <idno type="geonames"/>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/854666</idno>
+                </place>
+                <place xml:id="tamanvicinity">
+                    <placeName xml:lang="en">Taman, vicinity</placeName>
+                    <placeName xml:lang="ru">Тамань, окрестности</placeName>
+                    <placeName xml:lang="uk">Тамань, околиці</placeName>
+                    <idno type="geonames"/>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="tamanvicinity-suvorovskayafortress">
+                    <placeName xml:lang="en">Taman, vicinity; Suvorovskaya fortress</placeName>
+                    <placeName xml:lang="ru">Тамань, окрестности; Суворовская крепость</placeName>
+                    <placeName xml:lang="uk">Тамань, околиці; Суворовська фортеця</placeName>
+                    <idno type="geonames"/>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="tash-air">
+                    <placeName xml:lang="en">Tash-Air Canyon</placeName>
+                    <placeName xml:lang="ru">Таш-Аир, Ущелье</placeName>
+                    <placeName xml:lang="uk">Таш-Аїр, Ущелина</placeName>
+                    <idno type="geonames">http://www.geonames.org/1490056/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="tepe-kermen">
+                    <placeName xml:lang="en">Tepe-Kermen</placeName>
+                    <placeName xml:lang="ru">Тепе-Кермен</placeName>
+                    <placeName xml:lang="uk">Тепе-Кермен</placeName>
+                    <idno type="geonames">http://www.geonames.org/708476/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="theodosia">
+                    <placeName xml:lang="en">Theodosia</placeName>
+                    <placeName xml:lang="ru">Феодосия</placeName>
+                    <placeName xml:lang="uk">Феодосія</placeName>
+                    <idno type="geonames">http://www.geonames.org/709161/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/854743</idno>
+                </place>
+                <place xml:id="unknown">
+                    <placeName xml:lang="en">Unknown</placeName>
+                    <placeName xml:lang="ru">Неизвестно</placeName>
+                    <placeName xml:lang="uk">Невідомо</placeName>
+                    <idno type="geonames"/>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="utashsettlement">
+                    <placeName xml:lang="en">Utash settlement</placeName>
+                    <placeName xml:lang="ru">Уташское городище</placeName>
+                    <placeName xml:lang="uk">Уташське городище</placeName>
+                    <idno type="geonames">http://www.geonames.org/477757/</idno>
+                    <idno type="pleiades">http://pleiades.stoa.org/places/825416</idno>
+                </place>
+                <place xml:id="vysokoe">
+                    <placeName xml:lang="en">Vysokoe</placeName>
+                    <placeName xml:lang="ru">Высокое</placeName>
+                    <placeName xml:lang="uk">Високе</placeName>
+                    <idno type="geonames">http://www.geonames.org/1486607/</idno>
+                    <idno type="pleiades"/>
+                </place>
+                <place xml:id="kerchvicinity">
+                        <placeName xml:lang="en">Kerch vicinity</placeName>
+                        <placeName xml:lang="ru">Окрестности Керчи</placeName>
+                    <placeName xml:lang="uk">Околиці Керчі</placeName>
+                        <idno type="geonames"/>
+                        <idno type="pleiades"/>
+                </place>
+                <place xml:id="yevpatoria">
+                    <placeName xml:lang="en">Yevpatoria (Kerkinitis)</placeName>
+                    <placeName xml:lang="ru">Евпатория (Керкинитида)</placeName>
+                    <placeName xml:lang="uk">Євпаторія (Керкінітида)</placeName>
+                    <idno type="geonames">http://www.geonames.org/688105/</idno>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/226658</idno>
+                </place>
+                <place xml:id="karolino-bugaz">
+                    <placeName xml:lang="en">Karolino-Bugaz</placeName>
+                    <placeName xml:lang="ru">Каролино-Бугаз</placeName>
+                    <placeName xml:lang="uk">Кароліно-Бугаз</placeName>
+                    <idno type="geonames">http://www.geonames.org/687556</idno>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/226655</idno>
+                </place>
+                <place xml:id="roxolany">
+                    <placeName xml:lang="en">Roxolany</placeName>
+                    <placeName xml:lang="ru">Роксоланы</placeName>
+                    <placeName xml:lang="uk">Роксолани</placeName>
+                    <idno type="geonames">http://www.geonames.org/695513</idno>
+                </place>
+                <place xml:id="diviziya">
+                    <placeName xml:lang="en">Diviziya</placeName>
+                    <placeName xml:lang="ru">Дивизия</placeName>
+                    <placeName xml:lang="uk">Дивізія</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/226583</idno>
+                    <idno type="geonames">http://www.geonames.org/710024</idno>
+                </place>
+                <place xml:id="saki">
+                    <placeName xml:lang="en">Saki</placeName>
+                    <placeName xml:lang="ru">Саки</placeName>
+                    <placeName xml:lang="uk">Саки</placeName>
+                </place>
+                </listPlace>
+        </body>
+    </text>
+</TEI>

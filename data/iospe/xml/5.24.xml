@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Посвящение Зоила</title><title xml:lang="en">Dedication of Zoilos</title><editor xml:id="ayv2012">
+               <persName xml:lang="ru"><forename>А.Ю.</forename><surname>Виноградов</surname></persName>
+               <persName xml:lang="en"><forename>A.Yu.</forename><surname>Vinogradov</surname></persName>
+            </editor><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.24</idno><idno type="PE">PE5000024</idno>
+            <idno type="AYV2012-number">byz023</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><region>Crimea</region><altIdentifier><idno/></altIdentifier></msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5">
+                     <seg xml:lang="ru">Посвятительная надпись.</seg>
+                     <seg xml:lang="en">Dedication.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon7">Полукруглая столешница <certainty locus="value" match=".." cert="low"/>.</objectType>
+                           <objectType xml:lang="en">Semicircular tabletop<certainty locus="value" match=".." cert="low"/>.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Белый мрамор.</material>
+                           <material xml:lang="en">White marble.</material>
+                           <p xml:lang="ru">Разбита на 138 кусков, из которых было сложено в том числе 10 фрагментов с буквами (из них 5 пропало).</p>
+                           <p xml:lang="en">Broken in 138 pieces, of which some were joined to form ten fragments with letters (five have since disappeared).</p>
+                           
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">По всей длине лицевой поверхности верхней полочки.</seg>
+                           <seg xml:lang="en">Along the length of the flat-faced band of moulding.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы апицированы. 
+                           Альфа с ломаной перекладиной, эпсилон лунарный, каппа с укороченными диагоналями, фи ромбовидное, пи с удлиненной перекладиной,
+                           омега прямоугольная. Лигатура омикрон-ипсилон.</seg>
+                        <seg xml:lang="en">Lapidary. Letter strokes are accentuated with serifs. Alpha with broken crossbar; lunate epsilon; kappa with shortened 
+                           diagonals; diamond-shaped phi; pi with extended horizontal; rectangular omega. Ligature: omicron-upsilon. </seg>
+                        <height unit="cm">2,5–3,3.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                 <origDate notBefore="0501" notAfter="0700" cert="low" evidence="палеография">
+                        <seg xml:lang="ru">VI–VII вв. (573–576 или 673–676 гг.?).</seg>
+                        <seg xml:lang="en">VI–VIIth centuries C.E. (573–576 or 673–676 C.E.?).</seg>
+                    <certainty locus="value" match="../@notBefore" assertedValue="673"/>
+                    <certainty locus="value" match="../@notAfter" assertedValue="676"/>
+                     </origDate>
+                  </origin>
+               </history>
+             <msPart n="1">
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>34949/6</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>34949/6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dimensions><height>7,0</height><width>9,0</width><depth>4,0</depth></dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                   <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08"> август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>, <date when="2009-09"> сентябрь 2009</date>.</seg>
+                     <seg xml:lang="en"> <date when="1999-05">May 1999</date>, <date when="2001-08"> August 2001</date>, <date when="2002-09"> September 2002</date>, <date when="2003-09"> September 2003</date>, <date when="2004-09"> September 2004</date>, <date when="2005-09"> September 2005</date>, <date when="2006-09"> September 2006</date>, <date when="2007-09"> September 2007</date>, <date when="2009-09"> September 2009</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1902 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Крестообразный загородный храм, внутри.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1902, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Extramural Cruciform Church, inside.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+             </msPart>
+                <msPart n="2">
+               <msIdentifier><country/><altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <history>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1902 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Крестообразный загородный храм, внутри.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1902, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Extramural Cruciform Church, inside.</rs>
+                     </seg>
+                  </provenance>
+                     <provenance type="observed">
+                        <seg xml:lang="ru">Неизвестно.</seg>
+                        <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                     </provenance>
+               </history>
+             </msPart>
+                <msPart n="3">
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <history>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1902 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Крестообразный загородный храм, внутри.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1902, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Extramural Cruciform Church, inside.</rs>
+                     </seg>
+                  </provenance>
+                     <provenance type="observed">
+                        <seg xml:lang="ru">Неизвестно.</seg>
+                        <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                     </provenance>
+               </history>
+             </msPart>
+                <msPart n="4">
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>34949/3</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>34949/3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+                   <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dimensions><height>9,0</height><width>19,5</width><depth>5,0</depth></dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                   </physDesc>
+               <history>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="2009-09">Сентябрь 2009</date>.</seg>
+                     <seg xml:lang="en"><date when="2009-09">September 2009</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1902 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Крестообразный загородный храм, внутри.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1902, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Extramural Cruciform Church, inside.</rs>
+                     </seg>
+                  </provenance>
+                     <provenance type="observed">
+                        <seg xml:lang="ru">Севастополь, Крым.</seg>
+                        <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                     </provenance>
+               </history>
+             </msPart>
+                <msPart n="5">
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <history>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                 
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1902 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Крестообразный загородный храм, внутри.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1902, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Extramural Cruciform Church, inside.</rs>
+                     </seg>
+                  </provenance>
+                     <provenance type="observed">
+                        <seg xml:lang="ru">Неизвестно.</seg>
+                        <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                     </provenance>
+               </history>
+             </msPart>
+                <msPart n="6">
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>34949/2</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>34949/2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+                   <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dimensions><height>9,0</height><width>11,0</width><depth>5,0</depth></dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="2009-09">Сентябрь 2009</date>.</seg>
+                     <seg xml:lang="en"><date when="2009-09">September 2009</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1902 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Крестообразный загородный храм, внутри.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1902, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Extramural Cruciform Church, inside.</rs>
+                     </seg>
+                  </provenance>
+                     <provenance type="observed">
+                        <seg xml:lang="ru">Севастополь, Крым.</seg>
+                        <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                     </provenance>
+               </history>
+             </msPart>
+               <msPart n="7">
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>35043</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>35043</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dimensions><height>8,0</height><width>34,0</width><depth>18,0</depth></dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="2009-09">Сентябрь 2009</date>.</seg>
+                     <seg xml:lang="en"><date when="2009-09">September 2009</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1902 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Крестообразный загородный храм, внутри.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1902, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Extramural Cruciform Church, inside.</rs>
+                     </seg>
+                  </provenance>
+                     <provenance type="observed">
+                        <seg xml:lang="ru">Севастополь, Крым.</seg>
+                        <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+             </msPart>
+                <msPart n="8">
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <history>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1902 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Крестообразный загородный храм, внутри.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1902, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Extramural Cruciform Church, inside.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+             </msPart>
+                <msPart n="9">
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <history>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi.</seg>
+                     <seg xml:lang="en">Non vidi.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1902 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Крестообразный загородный храм, внутри.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1902, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Extramural Cruciform Church, inside.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+               </history>
+             </msPart>
+                
+                <msPart n="10">
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>34949</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>34949</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dimensions><height>19,5</height><width>37,0</width><depth>14,0</depth></dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="2009-09">Сентябрь 2009</date>.</seg>
+                     <seg xml:lang="en"><date when="2009-09">September 2009</date>.</seg>
+                  </provenance> 
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1902 г., раскопки К.К. Косцюшко-Валюжинича.</rs>
+                        <rs type="context">Крестообразный загородный храм, внутри.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1902, excavations of  K.K. Kostsyushko-Valyuzhinich.</rs>
+                        <rs type="context">Extramural Cruciform Church, inside.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+             </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-04-24" who="CB">Textparts</change>
+         <change when="2015-03-20" who="CB">Andrey's corrections</change>
+          <change when="2012-11-11" who="AL">inserted toponyms in English commentary</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-11" who="AG">date corrected</change>
+         <change when="2012-06-29" who="AG">1 line apparatus updated after Vingradov</change>
+         <change when="2012-05-16" who="AG">tags corrected</change>
+         <change when="2012-05-14" who="AG">small correction</change>
+         <change when="2012-04-24" who="AG">several lines translated</change>
+         <change when="2012-04-17" who="AG, AFS">editor added, date corrected, several lines translated</change>
+         <change when="2012-04-10" who="AG">apparatus marked up - partly</change>
+          <change when="2012-02-20" who="AL">tagged bibliography</change>
+         <change when="2012-01-18" who="AG">1 line translated, tagged</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="5.24-1">
+            <desc xml:lang="en">Drawing of all fragments (from ??)</desc>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="5.24-2">
+            <desc xml:lang="en">Photograph of fragment (from ??)</desc>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="5.24-3">
+            <desc xml:lang="en">Photograph of fragment (from ??)</desc>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="5.24-4">
+            <desc xml:lang="en">Photograph of fragment (from ??)</desc>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="5.24-5">
+            <desc xml:lang="en">Photograph of fragment (from ??)</desc>
+            <desc xml:lang="ru"/>
+         </graphic>
+         <graphic url="5.24-6">
+            <desc xml:lang="en">Photograph of fragment (from ??)</desc>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+                <bibl n="L1"><!-- Косцюшко-Валюжинич 1904 --><ptr target="bib:b0100"/>, <citedRange>40–41, <seg xml:lang="ru">прим.</seg><seg xml:lang="en">approx.</seg> 1</citedRange></bibl>
+                <bibl n="2"><!-- Виноградов 2009a --><ptr target="bib:b0048"/>, <citedRange>236–240</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><date><w lemma="ἔτος"><supplied reason="lost">Ἔτους</supplied></w>
+                  <num atLeast="99"><gap reason="lost" quantity="1" unit="character"/>Ϟθ</num></date>. 
+               <w lemma="ὑπέρ"><supplied reason="lost">Ὑπ</supplied>ὲρ</w>
+               <w lemma="εὐχή"><unclear>ε</unclear><supplied reason="lost">ὐ</supplied>χῆ<supplied reason="lost">ς</supplied></w>
+               <persName type="attested" ref="#person25"><name nymRef="Ζωίλος"><supplied reason="lost">Ζ</supplied>ωίλου</name></persName> 
+               <w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w> 
+               <app type="alternative"><lem><w lemma="ἔνδοξος">ἐν<unclear>δ</unclear><supplied reason="lost">οξοτάτου</supplied></w></lem>
+                  <rdg><w lemma="ἔνδοξος">ἐν<unclear>δ</unclear><supplied reason="lost">όξου</supplied></w></rdg></app>
+               <gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>ρήου</unclear></w> 
+               <w lemma="καί">καὶ</w> <w lemma="πᾶς">πάν<supplied reason="lost">των</supplied></w>
+               <w lemma="ὁ">τῶν</w> <w lemma="διαφέρω">δια<supplied reason="lost">φερόντω</supplied>ν</w>
+               <w lemma="αὐτός">αὐτοῦ</w>.
+            </ab>
+         </div>
+         
+         <div type="apparatus">
+            <listApp>
+               <app><rdg source="bib:b0048">ἀμήν Ϟθ? <note>Feissel apud </note></rdg>
+                  <rdg source="bib:b0100"><note>om. Latyshev apud </note></rdg></app>
+                  <app><rdg source="bib:b0100">ε̣[ὐ]χῆ[ς...] καὶ τ[...] καὶ πάν[των] <note>Latyshev apud </note></rdg> 
+                  <rdg source="bib:b0100">αὐτο[ῖς] <note>Latyshev apud </note></rdg></app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>В .]99 <supplied reason="lost">году.</supplied> О молитве за <supplied reason="lost">З</supplied>оила, 
+               сла<supplied reason="lost">внейшего (или: сла[вного) …</supplied>рия, 
+               и вс<supplied reason="lost">ех</supplied> его с<supplied reason="lost">роднико</supplied>в.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>[In the year]99. For the prayer of <supplied reason="lost">Z</supplied>oilos, the (most) excellent [...] 
+               and all his near and dear.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p> Чтение надписи дано В.В. Латышевым в примечании к Косцюшко-Валюжинич 1904, 40–41.</p>
+                <p> Сам первооткрыватель считал разбитый мраморный блок базой полуколонны, однако в таком случае буквы оказались бы написаны вверх ногами 
+                   (да и непонятна функция крупной полуколонны в небольшом пастофории храма). Следовательно, либо база полуколонны была использована 
+                   вторично для надписи как капитель, что маловероятно, либо перед нами другая архитектурная деталь. Ее полукруглая форма заставляет видеть здесь 
+                   подставку под крышку полукруглого стола-мензы, тем более что рядом были обнаружены другие остатки как раз таки полукруглой мензы (см. ниже). 
+                   Поверхность камня обработана, но оставлена шершавой для лучшего крепления крышки.</p>
+            <p> В настоящее время в Национальном заповеднике "Херсонес Таврический" хранятся 4 из 9 фрагментов надписи (отсутствуют фр. 2, 3, 5, 8 и 9). 
+                   При издании надписи Латышева ввел в заблуждение рисунок фрагментов, где левая часть фр. 6 ошибочно удлинена слева: 
+                   на самом деле, эта часть плотно примыкает к правой части фр. 6 (и в настоящее время с ним склеена). 
+                   Кроме того, вверх ногами оказался нарисован оказался фр. 5 с остатками трех букв: ро (или беты), эты и ипсилона или лигатуры омикрон-ипсилон.</p>
+            <p> Относительно формулы см. <ref type="introduction">IV.3.B.b.</ref></p>
+                <p> Буквы на фр. 5 являются, по всей видимости, окончанием названия какой-то должности (типа спафария) или, скорее, слова κυρίου. 
+                   Только сюда может относиться и фрагмент с буквами ΕΝΔ, восстанавливаемый нами как ἐνδ[οξοτάτου] или ἐνδ[όξου]: 
+                   второй эпитет намного реже прилагается к людям, а не к святым или императору — нам удалось найти лишь 2 константинопольских примера 
+                   (Mango 1951, 63, № 1a; Ἀντωνιάδης 1908, 352, № 519).</p>
+                <p> Не отождествленные издателем буквы ΩΙΛΟΥ могут принадлежать только одному имени — Зоил. В херсонесских надписях оно встречается 
+                   лишь в III в. до Р.Х. (LGPN IV, 146). Известно четыре святых с таким именем (см. Delehaye 1902, 336, 505, 600, 606, 909), а в греческих 
+                   христианских надписях оно засвидетельствовано 12 раз, согласно PHI7 Database (см. также ниже).</p>
+                <p> После букв ΑΥΤ хорошо различима лигатура омикрон-ипсилон. Тот факт, что после нее полукруг завершается, заставляет считать это слово концом 
+                   надписи.</p>
+                <p> Как верно заметил издатель, ясно читаемая на фр. 1 коппа может относиться только к обозначению года — вкупе со следующей за ней тетой 
+                   она дает число 99, которое не может быть годом правления, но явно относится к локальной эре. 
+                   Впрочем, в частной беседе с нами Д. Фейссель предложил видеть здесь исопсефию слова ἀμήν (ср. Feissel 2006, № 232, 846, 1048), однако 
+                   место для фр. 1 остается лишь перед основной надписью (правый край надписи сохранился, см. выше), что делает это заманчивое чтение 
+                   сомнительным, так как во всех известных нам примерах исопсефия слова «аминь» стоит в конце.</p>
+                <p> Альфа с ломаной перекладиной, угловатость некоторых букв (омега, лигатура омикрон-ипсилон) и ярко выраженные апексы 
+                   указывают на VI–VII вв., так что возможные даты — следующие: 599 или 699 херсонесской эры (другие эры в Херсоне до 915 г. неизвестны), 
+                   т.е. 573–576 или 673–676 гг. по Р.Х. (см. комм. к <ref type="inscription">V 6</ref><!--byz005-->) Первая может быть связана с перестройкой крестоообразного мартирия: здесь уместно 
+                   вспомнить о строительной надписи императора Юстина I, датируемой 565–574 гг. (<ref type="inscription">V 7</ref><!--byz006-->), из южной оборонительной стены 
+                   Херсонеса (куртины XVII–XVIII) — напротив Загородного храма, которая близка посвящению Зоила и по палеографии (кроме форм эпсилона и омеги). 
+                   Вторая же возможная дата легко связывается с культом папы Мартина, погребенного здесь в 655 г. (см. Сорочан 2005, 801–809). 
+                   Действительно, в кон. VII – нач. VIII в. нам известен один знатный херсонесит по имени Зоил — «протополит из древнего рода», взятый в 
+                   плен после карательного похода Юстиниана II в 711–712 гг. (Theophanes Confessor, Chronographia 378) Он вполне мог быть в 674–675 гг. 
+                   дедикатором в загородном крестообразном храме, особенно учитывая вероятное наличие при его имени нестандартного для херсонских посвящений 
+                   титула «славнейший …рий» или «славнейший господин» (хотя редкое имя Зоил могло и передаваться в знатном роду).</p>
+                <p> Обе предложенные датировки надписи хорошо согласуются с вышеописанной строительной историей храма. Если данный стол появился 
+                   после постройки крестообразного мартирия, тогда это строительство следует датировать началом 570-х гг., чему соответствует и датировка 
+                   монетного заклада в приделе (см. Виноградов 2009a). Если же он появился в храме после его перестройки, тогда ее надо будет датировать 
+                   началом 670-х гг. и следует связать с изменившейся ролью храма, как места погребения папы Мартина в 655 г. 
+                   Такая задержка в 15 лет выглядит вполне реальной, если учитывать то, что сославший понтифика в Херсонес император Констант II скончался 
+                   только в 668 г. — вскоре после его смерти, при Константине IV, который проводил политику религиозного умиротворения, перестройка храма и 
+                   могла начаться. В любом случае, данная надпись свидетельствует, что крестообразный храм, на полу которого были найдены ее фрагменты, 
+                   был перестроен не позднее конца VII в.</p>
+                <p> Надпись на столе — несомненно, посвящение ктитора в Крестообразный загородный храм. Оно могло быть совершено и во время 
+                   функционирования храма, но логичнее связывать его все же с постройкой или перестройкой здания, требовавшего украшения. 
+                   Вероятно, камень с данной надписью служил подставкой сигмообразной мензы из этого же храма диаметром ок. 110 см: 
+                   Залесская (Залесская 1976, 207–208) считает фрагменты последнего устройства блюдом кон. IV – нач. V вв. — оно, однако, могло быть 
+                   реутилизовано в кон. VI или VII в., так же, как в качестве светильника в храме была использована античная мраморная палица Геракла. 
+                   Полукруглый стол мог выполнять различные функции (см. Хрушкова 2002, 113–114, 376–377, 407). Посвятительная надпись с такой же 
+                   формулой на бортике стола хранится в Лувре (Duval, Metzger 1996, 311–314, fig. 3).</p>
+                <p>Херсонский памятник использовался достаточно долгое время: на фраг. 7 внизу нанесена двустрочная армянская надпись (см. Марр 1904), 
+                   но текст ее почти не читается, равно как и греческие буквы по соседству.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>V.V. Latyshev's reading of the inscription was printed in a footnote to Kostsyushko-Valyuzhinich 1904, 40–41.</p>
+            <p>The discoverer considered the shattered marble block to be the base of a half-column, but in that case the letters would appear to be upside down, 
+               and additionally, the function of a half-column in the pastophorion of a church would be incomprehensible. We must conclude that either the base of
+               a half-column was reused as a capital and inscribed, which is unlikely, or that we are dealing with a different architectural member. The semicircular shape
+               suggests that this is a support for a semicircular table-mensa, corroborated by the finds, nearby, of fragments of just such a mensa (see below). The surface is worked,
+               but left rough to ensure secure attachment of the table-top.</p>
+            <p>Presently, four out of nine fragments are preserved in the National Preserve of Tauric Chersonesos  (fr. 2, 3, 5, 8 and 9 are missing). 
+               When preparing his edition of the inscription Latyshev was misled by an inaccurate drawing of the fragments, where the left half of fragment 6 was shown as much longer than it
+               actually is: in fact, the left half joins the right half exactly and the two are currently glued together. In addition, fragment 5 was drawn upside down, 
+               bearing the letters rho (or beta), eta and epsilon, or a ligature omicron-upsilon.</p>
+            <p>On the formula, see Introduction <ref type="introduction">IV.3.B.b.</ref></p>
+            <p>The letters preserved on fragment 5 either represent the ending of a title, e.g., spatharios, or more likely, the word κυρίου. Only here could we place the 
+               fragment bearing the letters ΕΝΔ, which can be restored as either ἐνδ[οξοτάτου] or ἐνδ[όξου]: the latter epithet is rarely used with common people, being seemingly
+               reserved for saints and emperors - I could find only two examples from Constantinople (Mango 1951, 63, № 1a; Ἀντωνιάδης 1908, 352, 519).</p>
+            <p>Latyshev did not propose a reading for the sequence ΩΙΛΟΥ, but it can only stand for the name Zoilos. In inscriptions from Chersonesos, it
+               occurs only in the IIIrd century BCE (LGPN IV, 146). Four saints of this name are known (see Delehaye 1902, 336, 505, 600, 606, 909), and it is attested
+             twelve times in Greek Christian inscriptions, according to PHI7 Database (see also below).</p>
+            <p>After the letters ΑΥΤ, a ligature omicron-upsilon is clear. The fact that the arch of the semicircular tabletop ends at this point suggests that here the inscription ended.</p>
+        
+            <p>Qoppa, which is clear on Fragment 1, must be part of the date, as had already been noted by Latyshev, and together with the following theta it gives us the number
+               99, which cannot be the year of someone's rule, but must refer to the local era. An alternative explanation was suggested to me by D. Feissel in a private
+               conversation - to see here an isopsephy of the word ἀμήν (cf. Feissel 2006, № 232, 846, 1048), however, the only position where we could place fragment 1 would be 
+               at the start of the inscription (since the right end of the inscription is preserved, see above), which makes Feissel's attractive solution doubtful, since in all 
+               surviving examples the isopsephy of the word Amen occurs at the end of the text.</p>
+            <p>Alpha with broken crossbar, angularity of some letters (omega, ligature omicron-upsilon) and highly articulated serifs point to a date in the VI-VIIth centuries,
+               thus the following dates are possible: 599 or 699 of the Chersonessian era (other eras are not attested here prior to 915 C.E.), corresponding to
+               573–576 or 673–676 C.E. (see commentary to <ref type="inscription">V 6</ref><!--byz005-->). The first possible date could be connected with the reconstruction of 
+               a cruciform martyrium: we may recall the building inscription of Justinian I dated 565–574 C.E. (<ref type="inscription">V 7</ref><!--byz006-->), 
+               from the south city wall of Chersonesos (curtain walls XVII-XVIII — opposite the Suburban Church), which shows palaeographic similarities with the dedication of 
+               Zoilos (except for the forms of epsilon and omega). The second possible date could be associated with the cult of Pope Martin I who was buried here in 655 C.E. (see Sorochan 2005, 801–809). 
+               Finally, in the late VIIth - early VIIIth centuries we know of a famous Chersonian named Zoilos — "princeps civitatis from an ancient family," who was taken prisoner 
+               after the punitive raid of Justinian II in 711–712 C.E. (Theophanes Confessor, Chronographia 378). In 674–675 C.E., he may well have been a dedicator at the 
+               suburban cruciform church, especially considering the usual (for Chersonian dedications) title "most excellent." At the same time, the rare name Zoilos could 
+               reoccur in a noble family from generation to generation.</p>
+            <p>Both dates that we consider possible for this inscription fit in well with the building history of the church. If the inscribed table was dedicated
+               after the construction of the cruciform martyrium, then we should associate the construction with the early 570s, which is supported by the dating
+               of a monetary pledge found in a side chapel (see Vinogradov 2009a). If the table was dedicated after the church's reconstruction, then we should date the latter
+               event to the early 670s C.E. and associate the dedication with the change in the church's function as the burial place of Pope Martin I in 655 C.E. 
+               A delay of 15 years is not unrealistic, considering that the emperor Constans II who had exiled the pontifex to Cherson died in 668, and soon after his death, in the
+               reign of Constantine IV who adhered to a policy of religious pacification, the reconstruction of the church could have begun. In any case, the present inscription
+               testifies that the cruciform church, on whose floor its fragments were found, had been rebuilt no later than the end of the VIIth century.</p>
+            <p>The inscription on the table is undoubtedly the dedication of a ktitor for the Suburban Cruciform Church. It could conceivably have been dedicated while the 
+               church was in operation, but it would be more logical to envision that it was associated with the construction or reconstruction of the building
+               when it was in need of decoration. It is possible that the inscribed stone served as a support for a sigma-shaped mensa (Diam. 110cm) from the same church. 
+               Zalesskaya (1976, 207–208) considers the fragments of the latter as belong to a serving plate of the late IVth - early Vth centuries, but if so, it could
+               have been reused in the late VIth - early VIIth centuries, by analogy with the reuse of the antique marble Heracles' club as a lampstand in the church itself.  
+               A semicircular table could serve various functions (see Khrushkova 2002, 113–114, 376–377, 407). A dedicatory inscription with a similar inscription on the 
+               tabletop edge is in the collection of the Louvre (Duval, Metzger 1996, 311–314, fig. 3).</p>
+            <p>We can add that this Chersonian monument continued in use for a long time: fragment 7 bears a later two-line inscription in Armenian (cf. Маrr 1904), 
+               but its text is almost illegible, as well as the Greek letters next to it.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

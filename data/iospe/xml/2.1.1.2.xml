@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ru">Владельческая надпись</title><title xml:lang="uk"/>
+                <title xml:lang="en">Ownership inscription (speaking object)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>King's College London</authority>
+                <idno type="PE">PE2010004</idno>
+                <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="filename">2.1.1.2</tei:idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/>
+                        <altIdentifier xml:lang="ru">
+                            <repository>Государственный Эрмитаж</repository>
+                            <idno>Б.77</idno>
+                        </altIdentifier><altIdentifier xml:lang="uk"><repository/><idno/></altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>The State Hermitage Museum</repository>
+                            <idno>Б.77</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="filename.xml#id">
+                            <seg xml:lang="ru">Владельческая надпись (говорящий предмет)</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">Ownership inscription (speaking object).</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType xml:lang="ru" ref="#">Фрагмент закрытого сосуда (леканы?), вторая половина VI в. до н.э.</objectType><objectType xml:lang="uk" ref="#"/>
+                                    <objectType xml:lang="en">Fragment of lid.</objectType>
+                                    
+                                    <material xml:lang="ru" ref="material-search.xml#m10">Глина.</material><material xml:lang="uk" ref="material-search.xml#m10"/>
+                                    <material xml:lang="en">Clay.</material>
+                                    <p xml:lang="ru"/><p xml:lang="uk"/>
+                                    <p xml:lang="en">Closed vessel of large size (lekane?), 550-500(?) B.C.E. Restored from five 
+                                        fragments.</p>
+                                    <dimensions>
+                                        <height unit="cm">8.2 (inv)</height>
+                                        <width unit="cm">17.7 (inv)</width>
+                                        <depth unit="cm"/>
+                                        <dim type="diameter" unit="cm"/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <seg xml:lang="ru"/><seg xml:lang="uk"/>
+                                    <seg xml:lang="en">Top of the lid, exterior.</seg>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scariphatis">Граффито.</rs></seg><seg xml:lang="uk"><rs type="execution" ref="execution.xml#scariphatis"/></seg>
+                                <seg xml:lang="en">Graffito. In a straight line, orthograde. Closer to the top of the lid than to the rim. 
+                                    Quite evenly spaced letters. Four-bar sigma with widely splayed bars. Epsilon with downward slanting horizontals.</seg>
+                                <height unit="cm">0.3-0.6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origPlace.xml#p066"/>
+                            <seg xml:lang="ru">Борисфен.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">Borysthenes.</seg>
+                            <origDate notBefore="0001" notAfter="0001" evidence="Датировка_керамики">
+                                <seg xml:lang="ru">вторая половина VI в. до н.э.</seg><seg xml:lang="uk"/>
+                                <seg xml:lang="en">550-500(?) B.C.E.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="ru">
+                               
+                                <placeName type="ancientFindspot" ref="findspot.xml#berezan">Березань.</placeName>
+                                <rs type="circumstances">Найден в 1900-1901 г., раскопки Г.Л. Скадовского.</rs>
+                                <rs type="context"/>
+                            </seg><seg xml:lang="uk"><placeName type="ancientFindspot" ref="findspot.xml#berezan"/><rs type="circumstances"/><rs type="context"/></seg>
+                            <seg xml:lang="en">
+                                <placeName type="ancientFindspot">Berezan.</placeName>
+                                <rs type="circumstances">Found in 1900-1901, excavations of G.L. Skadovsky.</rs>
+                                <rs type="context">(Necropolis?) Grave (?)108.</rs>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="ru">Санкт-Петербург, Россия.</seg><seg xml:lang="uk"/>
+                            <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Saint Petersburg, Russian Federation.</tei:seg>
+                        </provenance>
+                        <provenance type="observed" subtype="autopsy">
+                            <seg xml:lang="ru">Август 2016.</seg><seg xml:lang="uk"/>
+                            <seg xml:lang="en">August 2016.</seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-01-01" who="IP"/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface><graphic url="2010004-dr"><desc xml:lang="en"/><desc xml:lang="ru"/><desc xml:lang="uk"/></graphic></surface> <!-- <surface>
+            <graphic url="2010004-a">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010004-b">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010004-c">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+            <graphic url="2010004-d">
+                <desc xml:lang="en"/>
+                <desc xml:lang="ru"/>
+            </graphic>
+        </surface> -->
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <!-- Издания -->
+                <listBibl>
+                    <!-- copy and paste citation -->
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                    <bibl n="L1"><!-- --><ptr target="#"/>, <citedRange/>, </bibl>
+                </listBibl>
+            </div>
+            <div type="bibliography" subtype="commentaries">
+                <!-- Комментарии -->
+                
+            </div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+                        <lb n="1"/>Σμίκης εἰμί
+            </ab>
+         </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>[- -]ι̣ς Μίκης Yaylenko 1980; [- -]ι̣ς Μίκης ou Σμίκης εἰμί Dubois 1996</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="ru">
+                <p/>
+            </div><div xml:lang="uk" type="translation"><p/></div>
+            <div type="translation" xml:lang="en">
+                <p/>
+            </div>
+            <div type="commentary" xml:lang="ru">
+                <p/>
+            </div><div xml:lang="uk" type="commentary"><p/></div>
+            <div type="commentary" xml:lang="en">
+                <p>This graffito belongs to the category of ownership inscriptions that are sometimes identified as 'speaking objects.' 
+                    Σμικης must therefore be a genitive form, either of the feminine name Σμίκα or of the male name Σμίκηος.
+                    <!--(see Dubois, Vinogradov, and Tokhtasiev)
+                    or feminine name Σμικη?  ... The name is attested.... Information on the context of find is taken from the inventory card.
+                    Inventory card (Krasotkina, Bilimovich under the supervision of Tolstoy, 1948) gives the reading Σμίκης εἰμί. 
+                    They translate: "Принадлежу Смике," presumably taking the name to be feminine. --></p>
+                <p>Dubois (IGDOlb no. 32) relied on Yaylenko's drawing (Pl. 11, no. 24), which represented a hint of a vertical before the first sigma at the left break, but my autopsy
+                    shows this to be mistaken. S.R. Tokhtasiev (Review of Dubois, L. Inscriptions grecques dialectales d’Olbia du Pont (Geneve, 1996), in Hyperboreus 5/1 
+                    (1999):164-192) noted (p. 183) the same, as well as pointing out that the iota to the right of mu appears to have an extra diagonal 
+                    stroke, which means that the inscriber began, by mistake, cutting a kappa, noticed the mistake and stopped.</p>
+                <p><!--Received from the Archaeological Commission in 1904.--></p>
+                <p>Dubois (p. 75, no. 32) explains the name as "un sobriquet féminin de la famille μικρός/μικκός "petit".</p>
+                <p><!--Dubois no. 32 lists previous editions: Stern, ZOOID 2, 1901, no. 23; Yaylenko, VDI 1980,2, p. 94, no. 28, Pl. 11, no. 24; SEG 30:891.--></p>
+            </div>
+        </body>
+    </text>
+ 
+</TEI>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Подпись к изображению</title><title xml:lang="en">Image-related inscription</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority>
+            <idno type="filename">5.58</idno><idno type="PE">PE5000058</idno>
+            <idno type="AYV2012-number">byz058</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Национальный заповедник "Херсонес Таврический"</repository>
+                     <idno>20307</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                      <repository>National Preserve of Tauric Chersonesos</repository>
+                     <idno>20307</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc7">
+                     <seg xml:lang="ru">Подпись к изображению.</seg>
+                     <seg xml:lang="en">Image-related inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon19">Экран.</objectType>
+                           <objectType xml:lang="en">Screen.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Белый мрамор.</material>
+                           <material xml:lang="en">White marble.</material>
+                           <p xml:lang="ru">Плита обработана со всех сторон, на лицевой стороне видна верхняя часть рамки, а под ней — следы изображения 
+                              головы, выполненного в технике сграффито; на тыльной стороне рельефная рамка. Обломана со всех сторон, кроме верхней.</p>
+                           <p xml:lang="en">The screen panel is worked on all sides. On the front are traces of the frame (top section), and below the framing line, 
+                           traces of an image (a human head), made in sgraffito technique. On the back is a frame in relief. Broken off on all sides, except the top.</p>
+                           <dimensions>
+                              <height>9,0</height>
+                              <width>6,5</width>
+                              <depth>3,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="f1">
+                           <seg xml:lang="ru">На верхнем поле рамки.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the frame (top section).</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; эпсилон и сигма лунарные, каппа с удлиненной вертикалью.</seg>
+                        <seg xml:lang="en">Lapidary. Lunate epsilon and sigma; kappa with extended vertical.</seg>
+                        <height unit="cm">0,9–1,1.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсон.</seg>
+                        <seg xml:lang="en">Cherson.</seg>
+                     </origPlace>
+                     <origDate notBefore="0368" notAfter="0500" precision="low" evidence="палеография">
+                        <seg xml:lang="ru">кон. IV–V вв.</seg>
+                        <seg xml:lang="en">late IV–Vth centuries C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru"><date when="1999-05">Май 1999</date>, <date when="2001-08"> август 2001</date>, <date when="2002-09"> сентябрь 2002</date>, <date when="2003-09"> сентябрь 2003</date>, <date when="2004-09"> сентябрь 2004</date>, <date when="2005-09"> сентябрь 2005</date>, <date when="2006-09"> сентябрь 2006</date>, <date when="2007-09"> сентябрь 2007</date>.</seg>
+                     <seg xml:lang="en"> <date when="1999-05">May 1999</date>, <date when="2001-08"> August 2001</date>, <date when="2002-09"> September 2002</date>, <date when="2003-09"> September 2003</date>, <date when="2004-09"> September 2004</date>, <date when="2005-09"> September 2005</date>, <date when="2006-09"> September 2006</date>, <date when="2007-09"> September 2007</date>.</seg>
+                  </provenance>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <rs type="circumstances">1909 г., раскопки Р.Х. Лепера.</rs>
+                        <rs type="context">Северо-восток, около батареи Кане, пом. 14.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">1909, excavations of R.Ch. Loeper.</rs>
+                        <rs type="context">North-east, near the Canet battery, room 14.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Севастополь, Крым.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Sevastopol, Crimea.</tei:seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+
+<revisionDesc>
+         <change when="2015-03-20" who="CB">Andrey's corrections</change>
+          <change when="2013-10-24" who="TW">Added image code</change>
+          <change when="2013-01-15" who="AL">inserted English names in commentary</change>
+         <change when="2012-08-21" who="AFS">Greek lemmata added</change>
+         <change when="2012-08-14" who="AFS">inserted key name</change>
+         <change when="2012-08-10" who="GB">inserted Greek lemmata (and normalized unicode)</change>
+         <change when="2012-08-09" who="GB">inserted full Greek lemmata</change>
+         <change when="2012-07-19" who="GB">lemmatized Greek</change>
+         <change when="2012-07-11" who="AG">1 line translated</change>
+         <change when="2012-06-26" who="AG">metadata corrected</change>
+         <change when="2012-05-17" who="AG">several lines translated, tags corrected</change>
+          <change when="2012-04-25" who="AFS">bibliography updated</change>
+          <change when="2012-04-17" who="AFS">translated a line</change>
+         <change when="2012-04-11" who="AG">date corrected</change>
+         <change when="2012-02-22" who="AG">bibliography tags tidied</change>
+          <change when="2012-02-20" who="AL">tagged bibliography</change>
+         <change when="2011-12-05" who="AG">some corrections, updated</change>
+         <change when="2011-12-05" who="AG">some corrections, tags added to the Greek text</change>
+         <change when="2011-11-30" who="KFL">programmatically created from Word doc</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="5.58">
+                <desc xml:lang="en">Photograph of face (from ??)</desc>
+                <desc xml:lang="ru">Фотография лицевой части (из ??)</desc>
+            </graphic>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl n="L1"><!--Виноградов 2005b--><ptr target="bib:b0044"/>,  <citedRange>91–93</citedRange></bibl>
+               <bibl n="1.1"><!--Виноградов 2010a--><ptr target="bib:b0399"/>, 117–118, № <citedRange>а3</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Господь Иисус <gap reason="ellipsis"/></p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Lord Jesus...</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Родство херсонесского фрагмента с петербургской и парижской плитами доказывает идентичная обработка лицевой и тыльной сторон, техника 
+               изображения сграффито и шрифт надписи. Отличие состоит лишь в том, что, судя по голове без нимба слева, Христос здесь был помещен справа.</p>
+                <p>Несомненно, все три плиты (первоначальная ширина петербургской плиты — ок. 75 см) принадлежали одному литургическому устройству из одного 
+                   храма. Подчеркнутая роль Петра на этих плитах с большой долей вероятности указывает на храм ап. Петра, упомянутый в «Житии епископов 
+                   Херсонских». Херсонесский фрагмент — единственный найденный точно на городище. Он найден на северо-востоке Херсона, неподалеку от 
+                   храмов № 23 («Уваровской базилики») и 36 («Восточной базилики»). На месте последнего, весьма вероятно, локализуется житийный храм 
+                   ап. Петра (см. Сорочан 2005, 875–886). Важно и то, что по шрифту данные плиты датируются концом IV — началом V вв.</p>
+                <p>Наличие сценических изображений на плитах практически исключает возможность их атрибуции как экранов алтарной преграды. Очевидно, плиты с 
+                   этими ясно тематически ориентированными изображениями были связаны с объектом культа ап. Петра, какого-то мемория. Разное положение 
+                   Христа на петербургской, парижской (слева) и херсонесской (справа) плитах свидетельствует в пользу некоей композиции этого объекта, построенной по 
+                   принципу зеркальной симметрии. Отметим также связь сохранившихся сюжетов с водной тематикой. Возможно, это было обрамление фиала или, 
+                   вероятней, баптистерия. Композиционная аналогия — латинские мозаичные надписи из Баптистерия православных в Равенне (Редин  1896, 45).  В любом 
+                   случае, три херсонские плиты подтверждают существование в городе древнего храма, посвященного ап. Петру, причем, судя по палеографии надписей, 
+                   вполне вероятно, что они принадлежат как раз той церкви, которая была воздвигнута св. Капитоном (см. Виноградов 2010a, 119-122).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+             <p>The kinship of this Chersonessian fragment and the ones from St.Petersburg (<ref type="inscription">V 56</ref><!--byz056-->) and Paris (<ref type="inscription">V 57</ref><!--byz057-->) is proven by the identical treatment of the front and
+             back sides, the use of sgraffito technique, and the script. What makes this example different is that the image without the halo is apparently on the left, which means
+             that the figure of Christ must have been on the right.</p>
+            <p>There is no doubt that all three panels (the original width of <ref type="inscription">V 56</ref><!--byz056--> is 0.75m) belonged to one and the same 
+               liturgical installation from the interior of the same
+                church. The emphasis on the role of Peter points with a good degree of probability to a church of the Apostle Peter, mentioned in the "Life of the Chersonian Bishops"
+                <ref type="inscription">V 58</ref><!--byz058--> is the only one certainly found on the territory of the ancient/medieval city. It was found in the northeast part of Cherson, not far from 
+                Church 23 ('Uvarov Basilica') and Church 36 ('Eastern Basilica'). The latter is quite possibly the church of the Apostle Peter mentioned in the "Life"
+                (see Sorochan 2005, 875–886). It is also significant that the script on all three panels points to the late IVth - early Vth century.</p>
+             <p>The presence of figurative images on these panels precludes the possibility that they constituted an altar screen. Rather, the panels that bear such explicitly
+                thematic depiction must be linked to an object related to the cult of the Apostle Peter, that is, some king of a memorial. The reverse position of the figure
+                of Christ (lefthand side on the panels in St. Petersburg and Paris, and the righthand side on the panel in Chersonesos) attest to a symmetrical compostion
+                where the left and the right sides are mirror-images of one another. We should also note that the subject of the panels is related to water. It thus suggests
+                either the framing structure of a phiale or, more likely, of a baptisterium. A Latin mosaic inscription in the Orthodox baptisterium in Ravenna 
+                (Redin  1896, 45) provides a compositional parallel. In sum: the three panels from Cherson support the existence of a church dedicated to Apostle Peter, and it is
+                quite likely the church that was built by St. Kapiton (Vinogradov 2010a, 119-122).</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><w lemma="ὁ"><supplied reason="lost">Ὁ</supplied></w> <persName type="divine" key="iesous"><roleName><w lemma="κύριος"><expan><abbr>κ</abbr><ex>ύριο</ex><abbr>ς</abbr></expan></w></roleName> <name nymRef="Ἰησοῦς"><expan><abbr>Ἰε</abbr><ex>σοῦ</ex><abbr>ς</abbr></expan></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

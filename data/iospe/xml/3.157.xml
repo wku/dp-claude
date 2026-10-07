@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Почетная надпись</title><title xml:lang="en">Honorific inscription</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.478</idno><idno type="PE">PE3000423</idno><idno type="filename">3.157</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Государственный исторический музей</repository>
+                     <idno>без номера (постоянная экспозиция)</idno>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>State Historical Museum</repository>
+                     <idno>n/a (permanent exhibition)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc21">
+                     <seg xml:lang="ru">Почетная надпись.</seg>
+                     <seg xml:lang="en">Honorific inscription.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">На лицевой поверхности плиты в рельефе изображены
+                              двенадцать венков с надписями различной длины. В венках, расположенных
+                              в верхней части плиты, надписи стерты не поддаются прочтению. В
+                              остальных венках надписи сохранились частично или полностью.</p>
+                           <p xml:lang="en">The front bears twelve relief crowns with inscriptions.</p>
+                           <dimensions>
+                              <height unit="cm">77,0</height>
+                              <width unit="cm">43,0</width>
+                              <depth unit="cm">6,0</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Дельта с выступающей правой гастой, мю с наклонными
+                           боковыми линиями, ню с вертикальными гастами одинаковой длины, пи с
+                           равными вертикалями и выходящей за их пределы горизонталью, сигма с
+                           параллельными верхней и нижней линиями, отсутствие украшений на концах
+                           линий букв.</seg>
+                        <seg xml:lang="en">Delta with projecting right hasta, mu with slanting outer hastae, nu with even verticals, sigma with parallel top and bottom bars.</seg>
+                        <height unit="cm">1,0</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="0001" notAfter="0100" precision="low" evidence="Палеография">
+                        <seg xml:lang="ru">I в. н.э.</seg>
+                        <seg xml:lang="en">I century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol" cert="low">Севастополь (Херсонес) (?).</placeName>
+                        <rs type="circumstances">До 1872 г. камень хранился в Херсонесе (ср. Мансветов 1872, 72).</rs>
+                        <rs type="context">Данных нет.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Sevastopol (Chersonesos).</placeName>
+                        <rs type="circumstances">Until 1872, the monument was in Chersonesos (cf. Mansvetov 1872, 72).</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Москва, Россия.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Moscow, Russian Federation.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Сверка текста была возможна лишь частично, поскольку камень
+                        находится в витрине экспозиции.</seg>
+                     <seg xml:lang="en"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      <revisionDesc>
+         <change when="2016-04-06" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.478">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- Латышев 1884 --><ptr target="bib:b0811"/>, <citedRange>43</citedRange>
+               (= <bibl><!-- Latychew 1885 --><ptr target="bib:b0812"/>, <citedRange>274</citedRange></bibl>)</bibl>
+               <bibl><!-- IOSPE --><ptr target="bib:IOSPE"/> <citedRange>I 196</citedRange>
+               (cf. <bibl type="comparison"><!-- IGR --><ptr target="bib:IGR"/> <citedRange>I 867</citedRange></bibl>)</bibl>
+               <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>420</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Minns 1913 --><ptr target="bib:b0336"/>, 524, n. <citedRange>3</citedRange></bibl>
+               <bibl><!-- Виноградов 1992 --><ptr target="bib:b0757"/>, <citedRange>137</citedRange>
+               (= <bibl><!-- Vinogradov 1997 --><ptr target="bib:b0453"/>, <citedRange>572</citedRange></bibl>)</bibl>
+               <bibl><!-- Соломоник 1990 --><ptr target="bib:b0506"/>, 28, № <citedRange>19</citedRange></bibl>
+               <bibl><!-- Сарновски 2006 --><ptr target="bib:b0826"/>, <citedRange>124</citedRange></bibl>
+               <bibl><!-- Зубарь 2004 --><ptr target="bib:b0468"/>, <citedRange>49</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+             <ab>
+                 <lb n="0"/><persName type="attested" ref="#person1129"><gap reason="lost" extent="unknown" unit="line"/></persName>
+             </ab>
+             <div type="textpart" subtype="cor" n="4">
+                 <ab>
+                     <lb n="1"/><w>ὁ</w> <w>δ<supplied reason="lost">ᾶμος</supplied></w>
+                     <lb n="2"/><w><supplied reason="lost">δα</supplied>μιορ<supplied reason="lost">γή</supplied>
+                     <lb n="3" break="no"/><supplied reason="lost">σ</supplied>αντι</w> <w>τὰν</w> 
+                                            <w><supplied reason="lost">πρώ</supplied>
+                     <lb n="4" break="no"/><supplied reason="lost">τ</supplied>αν</w> <w>ἀρχὰν</w>
+                     <lb n="5"/><w>τρ<supplied reason="lost">ί</supplied>ς</w>
+                     <lb n="5a"/><gap reason="lost" extent="unknown" unit="line"/>
+                 </ab>
+             </div>
+             <div type="textpart" subtype="cor" n="7">
+                 <ab>
+                     <lb n="6"/><w>δαμιοργήσαντι</w>
+                 </ab>
+             </div>
+             <div type="textpart" subtype="cor" n="8">
+                 <ab>
+                        <lb n="7"/><w>π<supplied reason="lost">ροδι</supplied>
+                        <lb n="8" break="no"/>κ<supplied reason="lost">ήσαν</supplied>
+                        <lb n="9" break="no"/>τι</w>
+                 </ab>
+             </div>
+             <div type="textpart" subtype="cor" n="9">
+                 <ab>
+                        <lb n="10"/><gap reason="lost" quantity="3" unit="character"/><w part="M">ο</w><gap reason="lost" quantity="1" unit="character"/>
+                        <lb n="11"/><w><supplied reason="lost">σα</supplied>
+                        <lb n="12" break="no"/>ντι</w> <w><supplied reason="lost">κα</supplied>
+                        <lb n="13" break="no"/>τὰ</w> 
+                                      <placeName>Βόσ<supplied reason="lost">πο</supplied>
+                        <lb n="14" break="no"/>ρον</placeName>
+                 </ab>
+             </div>
+             <div type="textpart" subtype="cor" n="10">
+                 <ab>
+                        <lb n="15"/><w>πρεσβεύ
+                        <lb n="16" break="no"/>σαντι</w> <w>ποτὶ</w>
+                        <lb n="17"/><w>τὸν</w> <w>τᾶς</w> <placeName>Μυσί
+                        <lb n="18" break="no"/>ας</placeName> <w>ἁγεμό
+                        <lb n="19" break="no"/>να</w>
+                 </ab>
+             </div>
+             <div type="textpart" subtype="cor" n="11">
+                 <ab>
+                         <lb n="20"/><w>καλῶς</w>
+                         <lb n="21"/><w>πολειτευ
+                         <lb n="22" break="no"/>σάμενον</w>
+                 </ab>
+             </div>
+             <div type="textpart" subtype="cor" n="12">
+                 <ab>
+                        <lb n="23"/><w>ὁ</w> <w>δᾶμος</w>
+                        <lb n="24"/><w>τειμαῖς</w>
+                        <lb n="25"/><w>ἀιδίοις</w>
+                 </ab>
+             </div>
+        </div>
+         <div type="apparatus">
+            <listApp>
+               <app/>               
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>4. Народ исполнившему трижды должность первого архонта.</p>
+            <p>7. Исполнившему должность.</p>
+            <p>8. Исполнившему должность п[родика].</p>
+            <p>9. [ - - - ]ему на Боспоре.</p>
+            <p>10. Совершившего посольство к наместнику Мезии.</p>
+            <p>11. Бывшего прекрасным гражданином.</p>
+            <p>12. Народ (наградил) вечными почестями.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p/>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Ed. pr. (Латышев 1884, 44) и некоторые последующие комментаторы (Зубарь 2004а, 49)
+               связывали упомянутое в стк. 15 слл. посольство к наместнику провинции Мезия с
+               действиями легата Мезии Тиберия Плавтия Сильвана, направленными на защиту Херсонеса
+               от скифов, о которых сообщает его эпитафия (CIL XIV 3608 = ILS 986). По мнению ed.
+               pr., название Μυσία, а не Μυσία ἡ κάτω указывает на провинцию Мезия до ее раздела на
+               Нижнюю и Верхнюю Мезию в 86 г. н.э. В этом случае надпись следует датировать временем
+               существования самостоятельной неразделенной провинции Мезия, т.е. ок. 45–86 гг. н.э.
+               Хотя этот аргумент не может быть признан решающим (см. критику в Minns 1913, 524,
+               n.3: Latyshev put this at 60–70 B.C.E. and thinks that this man implored the help of
+               Ti. Plautius Silvanus. But for Chersonese Lower Moesia was the only Moesia, so that
+               even after the division under Domitian, the nearer province would be understood
+               without «Lower», and inscription can quite well be put later»; ср. Сарновски 2006,
+               124), палеография надписи указывает на I в. н.э. (скорее вторую половину) как
+               наиболее вероятную датировку. Тем самым предположение о возможной связи упомянутого
+               здесь посольства и действий Плавтия Сильвана является вполне допустимым.</p>
+            <p>I в. н.э. (скорее середина – вторая половина).</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

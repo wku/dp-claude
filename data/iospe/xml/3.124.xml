@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надпись на алтарной плите</title><title xml:lang="en">Dedication (?) on an altar</title><editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt><authority>King's College London</authority><idno type="IM2015">30.427</idno><idno type="PE">PE3000519</idno><idno type="filename">3.124</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary corresp="document-search.xml#doc5" cert="low">
+                     <seg xml:lang="ru">Посвящение (?).</seg>
+                     <seg xml:lang="en">Dedication (?).</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m2" cert="low">Известняк (?).</material>
+                           <material xml:lang="en">Limestone ?.</material>
+                           <p xml:lang="ru">Сохранилась полностью. На узкой грани слева видны начальные буквы надписи. 
+                              Плита служила для устройства алтаря в виде низкого стола.</p>
+                           <p xml:lang="en">Fully preserved. On the narrow front side, the beginning of the inscription can be discerned. The panel served as a cover for a low table 
+                           altar.</p>
+                           <dimensions/>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <seg xml:lang="ru">Лицевой фас.</seg>
+                          <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Судя по рисунку в отчете К.К. Косцюшко-Валюжинича (см. Стржелецкий 1948, 103, рис. 3) надпись имела 
+                           ню с укороченной правой вертикалью и сигма с горизонтальными верхней и нижней гастами.</seg>
+                        <seg xml:lang="en">Judging by a drawing in the report of K.K. Kostsyushko-Valyuzhinich (see Strzheletsky 1948, 103, fig. 3), the script 
+                        had nu with short right vertical and sigma with horizontal top and bottom bars.</seg>
+                        <height unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p003">
+                        <seg xml:lang="ru">Херсонес.</seg>
+                        <seg xml:lang="en">Chersonesos.</seg>
+                     </origPlace>
+                     <origDate notBefore="-0400" notAfter="-0201" cert="low" evidence="Палеография археологический_контекст">
+                        <seg xml:lang="ru">IV-III в. до н.э. (?).</seg>
+                        <seg xml:lang="en">IV-III century B.C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#cape-mayachny">Маячный полуостров (Страбонов Херсонес).</placeName>
+                        <rs type="circumstances">Найдена в 1900 г. Раскопки К.К. Косцюшко-Валюжинича (НА НЗХТ, д. 1, № 36; ср. ОАК за 1890 г., 38). 
+                           Найдена вместе с фрагментом тонкой колонки, вставленной в базу, и находившемся на небольшом расстоянии маленьким очагом, 
+                           сложенным из четырех поставленных на ребро плит.</rs>
+                        <rs type="context">В районе Казачьей бухты, на перешейке Маячного полуострова 
+                           (примерно в 10 км от Херсонесского городища), при раскопоках небольшого культового сооружения, пристроенного к оборонительной стене.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Cape Mayachny (Strabo’s Chersonesos).</placeName>
+                        <rs type="circumstances">Found in 1900, excavations of K.K. Kostsyushko-Valyuzhinich (НА НЗХТ, д. 1, № 36; ср. ОАК за 1890 г., 38). Found together 
+                        with a fragment of a narrow colonnete set in a base, and not far off, a small hearth built from four panels rested on their narrow sides.</rs>
+                        <rs type="context">In the area of Kasachy (Cossacks') Bay, on the isthmus of Cape Mayachny (about 10km from the citadel of Chersonesos), during the 
+                        excavations of a small cult building, attached to a fortification wall.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+                  <provenance type="observed" subtype="autopsy">
+                     <seg xml:lang="ru">Non vidi. Камень, вероятно, исчез вскоре после обнаружения (ср. Стржелецкий 1948, 103).</seg>
+                     <seg xml:lang="en">Non vidi. The monument apparently disappeared soon after it had been discovered (Strzheletsky 1948, 103).</seg>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-04-26" who="PY">changed origPlace</change>
+         <change when="2016-10-13" who="SS">encoded metadata</change>
+         <change when="2016-10-11" who="SS">encoded text</change>
+         <change when="2016-10-07" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="30.427">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/> <citedRange>706</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            <listBibl>
+               <bibl><!-- Косцюшко-Валюжинич 1891 --><ptr target="bib:b0869"/>, <citedRange>60</citedRange></bibl>
+               <bibl><!-- Бертье-Делагард --><ptr target="bib:b0028"/> <citedRange>1893, 57</citedRange></bibl>
+               <bibl><!-- Стржелецкий 1948 --><ptr target="bib:b0870"/>, <citedRange>102 сл.</citedRange></bibl>
+               <bibl><!-- Щеглов 1969 --><ptr target="bib:b0871"/>, <citedRange>154</citedRange></bibl>
+               <bibl><!-- Соломоник, ГХХ, 1884 --><ptr target="bib:b0798"/> <citedRange>7, № 5</citedRange></bibl>
+               <bibl><!-- Николаенко 1997 --><ptr target="bib:b0872"/>, <citedRange>80</citedRange></bibl>
+               <bibl><!-- Сарновски, Ковалевская 2004 --><ptr target="bib:b0873"/>, <citedRange>48</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><persName type="attested"><name>Δι<supplied reason="lost">ο</supplied>νύσι<supplied reason="lost" cert="low">ος</supplied></name></persName> 
+                                             <gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <rdg>Δι[ο]νύσι[ος τοῦ δεῖνος ἀνέθηκεν ?] <note>ed. pr.</note></rdg>
+                  <rdg source="bib:b0798">ΔΙ[.]ΝΥΣI[- - -]</rdg>
+                  <rdg source="bib:b0028">ΔΙΟΝΥΣ[- - -]</rdg>
+               </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Ди[о]ниси[й? - - -]</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Di[o]nysi[os? - - -]</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Возможны другие личные имена на Διονυσι-.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>Other personal names beginning with Διονυσι- are possible.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

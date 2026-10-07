@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:lang="ru">Надгробие Дионисии Пии, жены Суса</title>
+            <title xml:lang="en">Epitaph of Dionysia Pia, wife of Sousos</title>
+            <editor xml:id="ip" role="translator"><persName xml:lang="ru">Ирина<forename/><surname>Полинская</surname></persName><persName xml:lang="en"><forename>Irene</forename><surname>Polinskaya</surname></persName></editor></titleStmt>
+         <publicationStmt>
+            <authority>King's College London</authority>
+            <idno type="AI2015">10.54</idno>
+            <idno type="filename">1.36</idno>
+            <idno type="PE">PE1000054</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><country/>
+                  <altIdentifier xml:lang="ru">
+                     <repository>Неизвестен</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier xml:lang="en">
+                     <repository>Unknown</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <seg xml:lang="ru" corresp="document-search.xml#doc2">Надгробие.</seg>
+                     <seg xml:lang="en">Epitaph.</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="en">Panel.</objectType>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Мрамор.</material>
+                           <material xml:lang="en">Marble.</material>
+                           <p xml:lang="ru">Нижняя часть отбита. В верхней части находится рельеф, довольно грубо исполненный, 
+                              изображающий сидящую женщину, перед которой стоит мальчик, а за ее спиной – другая женщина. 
+                              Головы изображенных на рельефе фигур повреждены.</p>
+                           <p xml:lang="en">The bottom is broken off. The top part of the front is decorated with a crudely carved relief depicting a seated woman,
+                           with a boy in front of her, and a woman - behind. The heads of the figures are damaged.</p>
+                          <!-- Dimensions - uknown -->
+                           <dimensions/>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <seg xml:lang="ru">Лицевой фас, под рельефом.</seg>
+                           <seg xml:lang="en"><rs type="execution" ref="execution.xml#scalpro"/> On the front, below the relief.</seg>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <seg xml:lang="ru">Неизвестен. Согласно фон Штерну, 
+                           «надгробие, по-видимому, римского императорского периода, 
+                           хотя форма буквы N могла бы рекомендовать более раннюю датировку».</seg>
+                        <seg xml:lang="en">Unknown. According to von Shtern, "an epitaph, apparently of the Roman imperial date, although the shape of nu might suggest
+                           an earlier date."</seg>
+                        <height unit="character">Unknown.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="origPlace.xml#p061">
+                        <seg xml:lang="ru">Тира.</seg>
+                        <seg xml:lang="en">Tyras.</seg>
+                     </origPlace>
+                     <origDate notBefore="0001" notAfter="0001" precision="low" evidence="Просопография">
+                        <seg xml:lang="ru">I-III вв. н.э.</seg>
+                        <seg xml:lang="en">I-III century C.E.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <seg xml:lang="ru">
+                        <placeName type="ancientFindspot" ref="findspot.xml#shabo">Шабо, Белгородский район, Одесская обл., Украина.</placeName>
+                        <rs type="circumstances">Обнаружена в 1900 г. в с. Шабо, во дворе дома Андрея Конопляна.</rs>
+                        <rs type="context">Неизвестен.</rs>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName type="ancientFindspot">Shabo.</placeName>
+                        <rs type="circumstances">Found in 1900 in Shabo, in the courtyard of a house belonging to Andrey Konoplyan.</rs>
+                        <rs type="context">Unknown.</rs>
+                     </seg>
+                  </provenance>
+                  <provenance type="observed">
+                     <seg xml:lang="ru">Неизвестно.</seg>
+                     <tei:seg xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">Unknown.</tei:seg>
+                  </provenance>
+                  </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <xi:include href="encoding-desc.xml">
+     <xi:fallback><!--encodingDesc should have been included here--></xi:fallback>
+     </xi:include>
+      
+      <revisionDesc>
+         <change when="2017-02-27" who="PY">encoded Leiden and metadata</change>
+         <change when="2016-11-29" who="AGi">programmatically created XML from Word docs</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="">
+            <desc xml:lang="en"/>
+            <desc xml:lang="ru"/>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <!-- Издания -->
+            <listBibl>
+               <bibl n="L1"><!-- Штерн 1901 --><ptr target="bib:b0888"/>, 4, <citedRange>№ 4</citedRange></bibl>
+               <bibl n="1.1"><!-- IOSPE --><ptr target="bib:IOSPE"/>, <citedRange>IV, 454</citedRange></bibl>
+               <bibl n="1.2"><!-- Kieseritzky, Watzinger 1909 --><ptr target="bib:b0519"/>, 41-42, <citedRange>n° 238</citedRange></bibl>
+               <bibl n="1.3"><!-- IOSPE I2 --><ptr target="bib:IOSPE2"/>, <citedRange>11</citedRange></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="commentaries">
+            <!-- Комментарии -->
+            
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               		<lb n="1"/><persName type="attested"><name>Διονυσία</name> <name>Πία</name></persName> 
+               <persName type="attested"><name>Σούσου</name></persName> <w>γυνὴ</w> <w>χαῖρε</w>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app loc="1">
+                  <rdg source="bib:b0888">ΓΥΗ<note> errore ut videtur</note></rdg>
+                  <rdg>Διονυσία Πία γυ[ν]ὴ Σούσου χαῖρε<note>Watzinger errore</note></rdg>
+                  </app>
+            </listApp>
+         </div>
+         <div type="translation" xml:lang="ru">
+            <p>Дионисия Пия, жена Суса, прощай.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Dionysia Pia, wife of Sousos, farewell.</p>
+         </div>
+         <div type="commentary" xml:lang="ru">
+            <p>Единственный исследователь, видевший камень – Э. фон Штерн, однако он издал его без какой-либо иллюстрации, 
+               ограничившись только словесным описанием. Все более поздние публикации основываются на его описании и чтении. 
+               В 1900 г. камень находился в собственности нашедшего его крестьянина А. Конопляна, который отказался продать плиту 
+               Одесскому музею. Не попала она в него и позже и, видимо, была утрачена. Э. фон Штерн не опубликовал никакого 
+               изображения надписи, поэтому и о рельефе, украшавшем плиту, и о форме букв, судить невозможно. 
+               Э. фон Штерн датировал надпись императорской эпохой на основании толкования имени Πία как передачи латинского Pia, 
+               которое он возводил к прозвищу императора Антонина Пия. Эта связь, однако, крайне сомнительна. 
+               Имя несомненно использовалось в грекоязычной среде и до правления этого императора, см. например надгробие некой Пии 
+               из Лидии, датированное 139/140 г. (SEG 40.1055) или упоминание того же женского имени в почетной надписи 
+               первой половины I в. н.э. из Писидии (SEG 42, 1223). По-видимому, речь идет об имени, образованном от латинского апеллятива 
+               с очевидным значением и распространившегося в римское время. Похороненная носила два имени, что встречается нередко; 
+               второе, вероятно, было прозвищем. 
+               Имя супруга похороненной Σοῦσος, видимо, греческое (Zgusta 1955, 325, § 743), достаточно хорошо засвидетельствовано 
+               во Фракии и Малой Азии.</p>
+         </div>
+         <div type="commentary" xml:lang="en">
+            <p>The only scholar who had seen this monument is E. von Shtern, who published it without an illustration, providing us only with a verbal description. All subsequent 
+            publications are based on his description and reading. In 1900, the stone was in the possession of a peasant, A. Konoplyan, who had found it, but refused to sell to the
+            Odessa Archaeological Museum. The monument never found its way to the museum and was apparently lost. Since von Shtern did not publish any image of the monument, we 
+            cannot form an opinion about its relief and lettershapes. Von Shtern dated the inscription to the imperial period on the basis of the name Πία, treating it as a transliteration of the
+            Latin Pia, viewed as a feminine form of the nickname of Antoninus Pius. This connection is highly doubtful. The name is known in the Greek-speaking world prior to the 
+            reign of Antoninus, see e.g. an epitaph of a certain Pia from Lydia, dated to 139/140 C.E. (SEG 40.1055) or the mention of the same feminine name in the honorific 
+            inscription of the first half of the I century C.E. from Pisidia (SEG 42.1223). Apparently, the name derives from the Latin appelation with its obvious meaning, 
+            becoming popular in the Roman period. The deceased had two names, which is not uncommon; the second was probably a nickname. The name of the husband of the deceased, Σοῦσος, 
+            is likely Greek (Zgusta 1955, 325, § 743): it is attested in Thrace and Asia Minor.</p>
+         </div>
+         </body>
+   </text>
+</TEI>

@@ -2,13 +2,13 @@
 
 Кому. irene.polinskaya@kcl.ac.uk (керівниця проєкту, Department of Classics, King's College London)
 
-Тема. Request for the EpiDoc XML data of IOSPE for non-commercial research
+Тема. Request for the photographs of IOSPE inscriptions for non-commercial research
 
 Dear Professor Polinskaya,
 
-I am studying ancient texts found in the Northern Black Sea region (Ukraine, up to 800 CE) and I am collecting open epigraphic data for personal research. The IOSPE website states that the EpiDoc XML is available for download and re-use, but I could not find a download link, and automated access to the site is not permitted by its robots.txt.
+I am studying ancient written sources found in the Northern Black Sea region (Ukraine, up to 800 CE). Thank you for publishing the EpiDoc XML of the corpus in the public GitHub repository kingsdigitallab/iospe. The photographs of the inscriptions are not included there, and automated access to the website is not permitted by its robots.txt, so I am writing to ask for the images directly.
 
-Could you please share an archive of the XML files (or point me to the repository where they are deposited)? I will keep the licence terms (CC BY) and cite the corpus in any use of the data.
+Could you please share the images (or point me to where they can be downloaded)? A bulk export of the IIIF images would be ideal. I will respect the licence terms and cite the corpus in any use of the material.
 
 Thank you very much for your time.
 

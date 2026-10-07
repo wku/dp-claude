@@ -1,0 +1,49 @@
+# EDH HD039011. Apulum
+
+**Країна.** Румунія
+
+**Провінція (код EDH).** Dac
+
+**Місце знахідки (антична назва).** Apulum
+
+**Сучасна назва.** Alba Iulia
+
+**Деталі знахідки.** {Platoul Romanilor}
+
+**Координати.** 46.0724587,23.556527400
+
+**Зберігання.** Alba Iulia, Muz. Unirii
+
+**Датування (роки, від'ємні до н. е.).** 151 … 250
+
+**Матеріал.** Kalkstein
+
+**Тип пам'ятки.** Stele
+
+**Розміри (висота, ширина, глибина, см).** -50.0 × -30.0 × 14.0
+
+## Текст (латинь, скорочення розкрито)
+
+```
+$] / [---]io / [---] mil(iti) leg(ionis) / [XIII g(eminae) vix(it)] an(nis) XL / [--- p?]atr(i) / [- f(aciendum)?] c(uravit)
+```
+
+## Текст у вихідному записі
+
+```
+] / [ ]IO / [ ] MIL LEG / [ ] AN XL / [ ]ATR / [ ] C
+```
+
+## Коментар
+
+Unterer rechter Teil einer Stele, in späterer Zeit bearbeitet und als Baustein wiederverwendet.
+
+## Література
+
+IDR 3, 5, 619; Foto. #
+
+## Фото
+
+![HD039011](HD039011.jpg)
+
+Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD039011, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

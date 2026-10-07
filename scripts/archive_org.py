@@ -9,6 +9,9 @@ OUT = Path(__file__).resolve().parent.parent / "data" / "книги"
     "inscriptionesan00petegoog": "Латишев_1890_IOSPE_том2_Боспорське_царство",
     "LatyshevInscriptionesAntiquaeOraeSeptentrionalisPontiEuxiniGraecaeEtLatinaeVol4IV": "Латишев_1901_IOSPE_том4",
     "scythicaetcauca00latygoog": "Латишев_1893_Scythica_et_Caucasica_античні_автори_про_Скіфію",
+    "gothichistoryofj00jord": "Йордан_VI_ст_Історія_готів_видання_1915_англійський_переклад",
+    "bub_gb_VX2P_CtKJmQC": "Менандр_Протектор_і_Агафій_VI_ст_грецький_текст_видання_1871",
+    "fragmentsdespoe00antgoog": "Скімн_Хіоський_і_Псевдо_Дікеарх_географічні_поеми_видання_1841",
     "pontika2": "Латишев_1909_Понтіка_збірник_статей",
     "antiquitsgrecqu00rochgoog": "Рауль_Рошетт_1822_Грецькі_старожитності_Боспору_Кіммерійського",
 }

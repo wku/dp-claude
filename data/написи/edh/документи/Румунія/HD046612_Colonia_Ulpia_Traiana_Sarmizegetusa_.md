@@ -1,0 +1,33 @@
+# EDH HD046612. Colonia Ulpia Traiana Sarmizegetusa?
+
+**Країна.** Румунія
+
+**Провінція (код EDH).** Dac
+
+**Місце знахідки (антична назва).** Colonia Ulpia Traiana Sarmizegetusa?
+
+**Сучасна назва.** Sarmizegetusa?
+
+**Координати.** 45.516666699,22.783333299
+
+**Датування (роки, від'ємні до н. е.).** 107 … 250
+
+**Тип пам'ятки.** Altar
+
+## Текст (латинь, скорочення розкрито)
+
+```
+Aescul[apio] / et H[ygiae ---] / [&
+```
+
+## Текст у вихідному записі
+
+```
+AESCVL[ ] / ET H[ ] / [
+```
+
+## Література
+
+IDR 3, 2, 173. #
+
+Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD046612, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -27,7 +27,9 @@ def main():
     st = json.loads(STATE.read_text()) if STATE.exists() else {"queue": SEEDS, "done": []}
     done, queue = set(st["done"]), list(st["queue"])
     while queue:
-        url = queue.pop(0)
+        # спершу сторінки надписів, потім списки
+        k = next((j for j, u in enumerate(queue) if "/epi/view_ins/" in u), 0)
+        url = queue.pop(k)
         if url in done:
             continue
         html = get(url)

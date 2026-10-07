@@ -56,6 +56,26 @@ def нова_назва(папка, імя):
     return імя
 
 
+def розділити_pdf(url, ціль, розмір):
+    """PDF більший за ліміт GitHub завантажується і ділиться на частини за сторінками."""
+    from pypdf import PdfReader, PdfWriter
+    tmp = ціль.with_suffix(".tmp")
+    if not save(url, tmp):
+        return
+    r = PdfReader(tmp)
+    n = len(r.pages)
+    частин = розмір // (80 * 1024 * 1024) + 1
+    крок = -(-n // частин)
+    for k in range(частин):
+        w = PdfWriter()
+        for pg in r.pages[k * крок:(k + 1) * крок]:
+            w.add_page(pg)
+        with open(ціль.with_name(f"{ціль.stem}_частина{k + 1}.pdf"), "wb") as f:
+            w.write(f)
+    tmp.unlink()
+    print("розділено", ціль.name, n, "сторінок на", частин, "частини")
+
+
 for i, назва in ВИДАННЯ.items():
     d = OUT / назва
     d.mkdir(exist_ok=True)
@@ -63,7 +83,9 @@ for i, назва in ВИДАННЯ.items():
     (d / "metadata.json").write_bytes(meta)
     for f in json.loads(meta)["files"]:
         ціль = d / нова_назва(назва, f["name"])
-        if f["format"] in ФОРМАТИ and int(f.get("size", 0)) <= МАКС and not ціль.exists():
+        if f["format"] in ФОРМАТИ and int(f.get("size", 0)) > МАКС and ціль.suffix == ".pdf" and not list(d.glob(ціль.stem + "_частина*.pdf")):
+            розділити_pdf(f"https://archive.org/download/{i}/{f['name']}", ціль, int(f["size"]))
+        elif f["format"] in ФОРМАТИ and int(f.get("size", 0)) <= МАКС and not ціль.exists():
             print(назва, ціль.name, save(f"https://archive.org/download/{i}/{f['name']}", ціль))
             time.sleep(5)
 

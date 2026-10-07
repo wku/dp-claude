@@ -46,4 +46,6 @@ AE 1987, 0830.
 
 ![HD012674](HD012674.jpg)
 
+![HD012674_2](HD012674_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD012674, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

@@ -47,4 +47,6 @@ AE 1998, 1091. (B)
 
 ![HD043698](HD043698.jpg)
 
+![HD043698_2](HD043698_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD043698, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

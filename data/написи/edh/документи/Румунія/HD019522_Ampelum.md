@@ -50,4 +50,6 @@ AE 1959, 0306. (B)
 
 ![HD019522](HD019522.jpg)
 
+![HD019522_2](HD019522_2.jpg)
+
 Джерело https://edh.ub.uni-heidelberg.de/edh/inschrift/HD019522, ліцензія CC BY-SA 4.0. Оригінальний XML в архіві сирі_дані/edh_xml.zip

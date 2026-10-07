@@ -9,14 +9,7 @@ OUT = Path(__file__).resolve().parent.parent / "data" / "archive_org"
     "inscriptionesan00petegoog": "Латишев_1890_IOSPE_том2_Боспорське_царство",
     "LatyshevInscriptionesAntiquaeOraeSeptentrionalisPontiEuxiniGraecaeEtLatinaeVol4IV": "Латишев_1901_IOSPE_том4",
     "pontika2": "Латишев_1909_Понтіка_збірник_статей",
-    "izobrazheniiaraz00vaks": "1801_Зображення_пам_ятників_давнини_Чорного_моря",
-    "cultsofolbia00hirs": "Хірст_1902_Культи_Ольвії",
-    "derebusolbiopoli00lind": "1888_De_rebus_Olbiopolitarum",
-    "bub_gb_XrojFJxkj5gC": "1822_Медалі_Ольвії",
-    "b14691693": "1922_Грецька_археологічна_колекція_з_Ольвії",
     "antiquitsgrecqu00rochgoog": "Рауль_Рошетт_1822_Грецькі_старожитності_Боспору_Кіммерійського",
-    "Kerchenskiedrevnosti26": "1845_Керченські_старожитності",
-    "McGillLibrary-hssl_pamiatniki-khristianskago-khersonesa_foliobr133u383c5371905vyp-3-16271": "1905_Пам_ятники_християнського_Херсонеса",
 }
 
 

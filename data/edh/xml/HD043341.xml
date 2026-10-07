@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription? from Tropaeum Traiani &amp;ndash; Adamclisi (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043341</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043341</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217027">Tropaeum Traiani</placeName></origPlace><origDate><origDate when-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">238 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686688">Adamclisi</placeName><placeName type="findspot">{Tropaeum Traiani}</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043341_1"><persName><name type="praenomen">M.</name><name type="nomen">Antonius*</name><name type="cognomen">Gordianus</name></persName></person><person xml:id="HD043341_10"><persName><name type="cognomen">Proculus</name></persName></person><person xml:id="HD043341_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD043341_3" sex="M"><persName ref="http://romans1by1.com/rpeople/8648"><name type="praenomen">M.</name><name type="nomen">Ulpius*</name><name type="cognomen">Antoninus*</name></persName></person><person xml:id="HD043341_4" sex="M"><persName ref="http://romans1by1.com/rpeople/8651"><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Messius</name></persName></person><person xml:id="HD043341_5"><persName><name type="nomen">Iulius</name><name type="cognomen">Marcus</name></persName></person><person xml:id="HD043341_6"><persName><name type="nomen">Iulius</name><name type="cognomen">Marcus</name></persName></person><person xml:id="HD043341_7"><persName ref="http://romans1by1.com/rpeople/8654"><name type="nomen">Scribonius*</name><name type="cognomen">Respectus</name></persName></person><person xml:id="HD043341_8"><persName ref="http://romans1by1.com/rpeople/8655"><name type="nomen">Scribonius*?</name><name type="cognomen">Gaius?</name></persName></person><person xml:id="HD043341_9"><persName><name type="cognomen">Pius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-10-16" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Pro <expan><abbr>sal</abbr><ex>ute</ex></expan> <supplied reason="lost" cert="low">d(omini)? n(ostri)</supplied> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Ant</abbr><ex>oni</ex></expan> Gor<lb break="no" n="2"/>diani <supplied reason="lost" cert="low">P(ii) F(elicis) Aug(usti) pont(ificis)</supplied> <lb n="3"/><expan><abbr>max</abbr><ex>imi</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <supplied reason="lost"><expan><abbr>trib</abbr><ex>uniciae</ex></expan> <expan><abbr>pot</abbr><ex>estatis</ex></expan></supplied> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="4"/>MV<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> per<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied><expan><abbr>ISCC</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>IIvir</abbr><ex>um</ex></expan> et <expan><abbr>M</abbr><ex>arcum</ex></expan> <expan><abbr>Ulp</abbr><ex>ium</ex></expan> <expan><abbr>Ant</abbr><ex>oninum</ex></expan> et <expan><abbr>C</abbr><ex>aium</ex></expan> <lb n="6"/><expan><abbr>Iul</abbr><ex>ium</ex></expan> Messium <expan><abbr>aed</abbr><ex>iles</ex></expan> et <lb n="7"/>Iulii <note>sic</note> Marcus <note>sic</note> et Marcus <note>sic</note> <abbr>f</abbr> et <expan><abbr>Scrib</abbr><ex cert="low">onios</ex></expan> Respec<lb break="no" n="8"/>tum et Gaium Pio <lb n="9"/>et Proculo co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 3 (Anfang): CIL III: M V.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14214, 2.</bibl><bibl>PIR (2. Aufl.) F 553.</bibl><bibl>PIR (2. Aufl.) P 818.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

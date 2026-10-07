@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032697</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032697</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Deva, Muz. Civil. Dac. şi Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0198" notAfter-custom="0199" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD - 199 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">canabae</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032697_1"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="cognomen">Severus</name></persName></person><person xml:id="HD032697_10" sex="M"><persName ref="http://romans1by1.com/rpeople/11070"><name type="nomen">[---]</name><name type="cognomen">An[---]</name></persName></person><person xml:id="HD032697_11" sex="M"><persName ref="http://romans1by1.com/rpeople/11071"><name type="nomen">[---]</name><name type="cognomen">Cl[---]</name></persName></person><person xml:id="HD032697_12" sex="M"><persName ref="http://romans1by1.com/rpeople/11072"><name type="nomen">[---]</name><name type="cognomen">Fa[---]</name></persName></person><person xml:id="HD032697_13" sex="M"><persName ref="http://romans1by1.com/rpeople/11073"><name type="nomen">Gaius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD032697_14" sex="M"><persName ref="http://romans1by1.com/rpeople/11074"><name type="nomen">Cocceius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD032697_15" sex="M"><persName ref="http://romans1by1.com/rpeople/11075"><name type="nomen">Urbicius+?</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD032697_16"><persName><name type="nomen">[---]mian[---]?</name><name type="cognomen">[---]mian[---]?</name></persName></person><person xml:id="HD032697_17"><persName ref="http://romans1by1.com/rpeople/11077"><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD032697_18"><persName><name type="nomen">[---]ian[---]?</name><name type="cognomen">[---]ian[---]?</name></persName></person><person xml:id="HD032697_2"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD032697_3"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="cognomen">Geta</name></persName></person><person xml:id="HD032697_4"><persName><name type="nomen">Mevius</name><name type="cognomen">Surus</name></persName></person><person xml:id="HD032697_5" sex="M"><persName ref="http://romans1by1.com/rpeople/11065"><name type="nomen">Ulpius*</name><name type="cognomen">Bacchius</name></persName></person><person xml:id="HD032697_6" sex="M"><persName ref="http://romans1by1.com/rpeople/11066"><name type="nomen">Iulius*</name><name type="cognomen">Tacitus</name></persName></person><person xml:id="HD032697_7" sex="M"><persName ref="http://romans1by1.com/rpeople/11067"><name type="nomen">Claudius*</name><name type="cognomen">Claudianus</name></persName></person><person xml:id="HD032697_8" sex="M"><persName ref="http://romans1by1.com/rpeople/11068"><name type="nomen">Aelius+</name><name type="cognomen">Valerius</name></persName></person><person xml:id="HD032697_9" sex="M"><persName><name type="nomen">[--]t(---)</name><name type="cognomen">Valerius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-05-24" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005075" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/828a6b77-222e-4c2f-b247-1627e1f37745/file/id/765852/file_version/name/small"/><graphic xml:id="F005048" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/67238827-638d-426e-9396-bf4216c3cf24/file/id/765825/file_version/name/small"/><graphic xml:id="F036436" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/054afd83-f491-41cc-9394-2428399abdbb/file/id/797294/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Pro sa</supplied>lute Severi <supplied reason="lost">et Anto</supplied>nin<supplied reason="lost">i A</supplied>u<supplied reason="lost"><expan><abbr>gg</abbr><ex>ustorum</ex></expan> et Getae <expan><abbr>Caes</abbr><ex>aris</ex></expan></supplied> <lb n="2"/>sc<supplied reason="lost">ho</supplied>lam specu<supplied reason="lost">latoru</supplied>m <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">inpen</supplied><lb break="no" n="3"/>dio suo fecer<supplied reason="lost">unt et statuis sacris ornaverunt</supplied> <lb n="4"/>iussu Mevi Suri c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>Dac</abbr><ex>iarum</ex></expan></supplied> III n<supplied reason="lost"><expan><abbr>om</abbr><ex>ina</ex></expan> <expan><abbr>eor</abbr><ex>um</ex></expan> in</supplied><expan><abbr>fr</abbr><ex>a</ex></expan> <expan><abbr>scrip</abbr><ex>ta</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>unt</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Ulp</abbr><ex>ius</ex></expan> Bacchius |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> XIII <expan><abbr>g</abbr><ex>eminae</ex></expan> <lb n="2"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Tacitus |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> V <expan><abbr>M</abbr><ex>acedonicae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <lb n="3"/><expan><abbr>Cla</abbr><ex>udius</ex></expan> Claudianus |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> V <expan><abbr>M</abbr><ex>acedonicae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <lb n="4"/><expan><abbr><supplied reason="lost">A</supplied>el</abbr><ex>ius</ex></expan> Valerius <expan><abbr>corn</abbr><ex>icularius</ex></expan> <lb n="5"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><abbr>t</abbr> Val<supplied reason="lost">erius c</supplied><expan><abbr>orn</abbr><ex>icularius</ex></expan> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> An<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> Cl<gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> Fa<gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Gaiu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Cocc<supplied reason="lost">eius</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Ur[bicius<certainty match="preceding-sibling::node()" locus="value"/> ------ </ab></div><div n="4" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>mian<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/>[<gap reason="lost" quantity="1" unit="line"/>] <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ian<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>S<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>N<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>6 nicht aneinanderpassende Fragmente erhalten; ungefähre Maße: 60 x 160 x 2 cm. Unvollständig bei CIL III, Jung und AE 1901. Die Namensliste ist in zwei Kolumnen angeordnet. Z. 4 (Ende): oberhalb der erhaltenen Buchstaben noch Buchstabenreste vom Ende der 3. Zeile zu erkennen. (B): Jung, AE 1901, 0027: kleinere Abweichungen in Lesung und Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1901, 0027. (B)</bibl><bibl>AE 1901, 0154.</bibl><bibl>CIL 03, 07741.</bibl><bibl>CIL 03, 14479.</bibl><bibl>J. Jung, JŒAI (Beibl.) 3, 1900, 180; Foto. (B) - AE 1901, 0027.</bibl><bibl>A. von Domaszewski, JŒAI (Beibl.) 4, 1901, 3-8; Zeichnung. - AE 1901, 0154.</bibl><bibl>IDR 3, 5, 426; Foto u. Zeichnung.</bibl><bibl>PIR (2. Aufl.) M 582.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

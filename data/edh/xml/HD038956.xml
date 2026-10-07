@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038956</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038956</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, Muz. Unirii</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType><material>Gesteine</material><dimensions unit="cm"><height>112</height><width>59</width><depth>51</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0168" notAfter-custom="0275" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">168 AD - 275 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">Garten von Sárdy</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038956_1" sex="M"><persName ref="http://romans1by1.com/rpeople/11386"><name type="praenomen">M.</name><name type="nomen">Mociuncius</name><name type="cognomen">Valentinus</name></persName></person><person xml:id="HD038956_2" sex="M"><persName ref="http://romans1by1.com/rpeople/11387"><name type="nomen">Valerius*</name><name type="cognomen">Constans*</name></persName></person><person xml:id="HD038956_3" sex="W"><persName ref="http://romans1by1.com/rpeople/11388"><name type="nomen">Floria</name><name type="cognomen">Ingenua</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-05-24" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005042" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/191e057f-9fbd-4349-8056-01c00a533cf3/file/id/765819/file_version/name/small"/><graphic xml:id="F011510" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4efa40a7-e35b-4db8-9f1c-d111d7c393c8/file/id/771033/file_version/name/small"/><graphic xml:id="F011516" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e03d4d19-c321-4872-9246-f69eb04b2829/file/id/771039/file_version/name/small"/><graphic xml:id="F036459" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8de5057e-6408-4204-b7a5-41e1921eb421/file/id/797317/file_version/name/small"/><graphic xml:id="F036460" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9dcd2d94-d537-4c82-8d4a-9249e4adc867/file/id/797318/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Mociun<lb break="no" n="3"/>cius Valentin<lb break="no" n="4"/>us <expan><abbr>lib</abbr><ex>rarius</ex></expan> legati <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="5"/>XIII <expan><abbr>g</abbr><ex>eminae</ex></expan> v<expan><ex>i</ex><abbr>xit</abbr></expan> ann<expan><ex>i</ex><abbr>s</abbr></expan> XXVIIII posuit <lb n="6"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Co<expan><ex>n</ex><abbr>sta</abbr><ex>n</ex><abbr>s</abbr></expan> <lb n="7"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XIII <expan><abbr>g</abbr><ex>eminae</ex></expan> <lb n="8"/>et Floria Inge<lb break="no" n="9"/>nua mater filio <lb n="10"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 556; Foto u. Zeichnung.</bibl><bibl>CIL 03, 01194.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

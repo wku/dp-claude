@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043632</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043632</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarmizegetusa, Muz. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>32</height><width>(70)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1993"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">Forum Vetus, {Tetrapylon}, bei</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043632_1"><persName><name type="nomen">A[---]</name><name type="cognomen">Flava+</name></persName></person><person xml:id="HD043632_2"><persName><name type="praenomen">L.</name><name type="nomen">Antonius*</name><name type="cognomen">Rufus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-09" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                A<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Fl</supplied>av<supplied reason="lost">ae</supplied> <lb n="2"/>s<supplied reason="lost">tolat</supplied>ae femi<lb break="no" n="3"/><supplied reason="lost">nae so</supplied>crui <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Ant</abbr><ex>onius</ex></expan> Rufus e<supplied reason="lost"><expan><abbr>q</abbr><ex>uo</ex></expan> <expan><abbr>p</abbr><ex>ublico</ex></expan></supplied> <lb n="5"/><expan><abbr>p<supplied reason="lost">o</supplied>ntif</abbr><ex>ex</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> Sar<supplied reason="lost"><expan><abbr>m</abbr><ex>izegetusae</ex></expan></supplied> <lb n="6"/><supplied reason="lost">fisci<certainty locus="name" match="preceding-sibling::text()" cert="low"/> a</supplied>dvoc<supplied reason="lost" cert="low">atus</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Acht teilweise aneinander passende Fragmente erhalten. Die angegebenen Maße beziehen sich auf die größere Fragmentegruppe (Fragmente c-h); Maße der kleineren Fragmentegruppe (Fragmente a u. b): 31 x 19 x 4. Vermutlich Inschriftentafel einer Statuenbasis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2001, 1719.</bibl><bibl>ILD 248.</bibl><bibl>I. Piso, in: V. Crişan - G. Florea - G. Gheorghiu - E. Iaroslavschi - L. Suciu (Hrsg.), Studii de istorie antică. Omogiu profesorului Ioan Glodariu (Cluj-Napoca 2001) 365-369, Nr. 8; fig. 1 (Foto u. Zeichnung). - AE 2001.</bibl><bibl>I. Piso, in: I. Piso (Hrsg.), Le forum vetus de Sarmizegetusa 1 (Bucureşti 2006) 265-267, Nr. 42; Fig. 3, 40 (Foto u. Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

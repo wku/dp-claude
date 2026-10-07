@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Samum &amp;ndash; Căşeiu (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044643</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044643</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207419">Samum</placeName></origPlace><origDate><origDate when-custom="0224" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">224 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682614">Căşeiu</placeName><placeName type="findspot">{Lager}</placeName><placeName type="region">Cluj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044643_1" sex="M"><persName ref="http://romans1by1.com/rpeople/6730"><name type="nomen">Scantius</name><name type="cognomen">Lucius</name></persName></person><person xml:id="HD044643_2" sex="M"><persName><name type="nomen">Claudius+*</name><name type="cognomen">Iulianus+</name></persName></person><person xml:id="HD044643_3" sex="M"><persName><name type="nomen">Bruttius+*</name><name type="cognomen">Crispinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-09" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <expan><abbr>D</abbr><ex>olicheno</ex></expan> <lb n="2"/>Scanti<supplied reason="lost">u</supplied>s <lb n="3"/>Lucius b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <lb n="4"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> V <lb n="5"/><expan><abbr>Mac</abbr><ex>edonicae</ex></expan> Severi<lb break="no" n="6"/><supplied reason="lost">anae <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan></supplied> <lb n="7"/><supplied reason="lost"><expan><abbr>Cl</abbr><ex>audio</ex></expan> Iuliano</supplied> II et <lb n="8"/><supplied reason="lost"><expan><abbr>Br</abbr><ex>uttio</ex></expan> Crispino <expan><abbr>co</abbr><ex>n</ex></expan></supplied><expan><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere aneinanderpassende Fragmente. Z. 7-8: Ergänzung in Analogie zur Weihinschrift AE 1957, 0328 vom selben Stifter. Lesung / Ergänzung nach Isac, in: Der römische Weihebezirk von Osterburken. (B): Schallmayer u.a.; Ştefănescu; ILD 772; ILD 778: Lesung / Ergänzung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1183.</bibl><bibl>ILD 772. (B)</bibl><bibl>ILD 778. (B)</bibl><bibl>A. Ştefănescu, Apulum 41, 2004, 276; fig. 4 (Foto u. Zeichnung). (B) - AE 2004.</bibl><bibl>D. Isac, Castrul roman de la Samum - Căşeiu (Cluj-Napoca 2003) 50; pl. 8, 1 (Foto u. Zeichnung).</bibl><bibl>D. Isac, in: Der römische Weihebezirk von Osterburken 2. Kolloquium 1990 und und paläobotanische-osteologische Untersuchungen (Stuttgart 1994) 212, Nr. 14; Taf. 3, 14 (Foto u. Zeichnung). - AE 2004.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 406, Nr. 526. (B)</bibl><bibl>PIR (2. Aufl.) C 901.</bibl><bibl>PIR (2. Aufl.) B 160.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

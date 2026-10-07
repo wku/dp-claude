@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Nicopolis ad Istrum, bei &amp;ndash; Polski Trâmbeš (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031971</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031971</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><dimensions unit="cm"><height>(200)</height><width>(57)</width><depth>(30)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-5.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216895">Nicopolis ad Istrum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0135" notAfter-custom="0136" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">135 AD - 136 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729215">Polski Trâmbeš</placeName><placeName type="findspot">{Maslarevo}, östlich</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031971_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus Hadrianus</name></persName></person><person xml:id="HD031971_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antius+</name><name type="cognomen">Rufinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-27" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ex auctori<lb break="no" n="2"/>tate <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesaris <lb n="3"/>divi Traiani Parthi<lb break="no" n="4"/>ci filio <note>sic</note> divi Nervae <lb n="5"/>nepotis Traiani Ha<lb break="no" n="6"/>driani <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> pon<supplied reason="lost">t</supplied><lb break="no" n="7"/><expan><abbr>ifici</abbr><ex>s</ex></expan> maximo <note>sic</note> tr<supplied reason="lost">i</supplied><lb break="no" n="8"/>buniciae potesta<supplied reason="lost">tis</supplied> <lb n="9"/>XX co<expan><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> III <expan><abbr>M</abbr><ex>arcus</ex></expan> An<supplied reason="lost">tius</supplied> <lb n="10"/>Rufinus inte<supplied reason="lost">r Moe</supplied><lb break="no" n="11"/>sos et Thraces <supplied reason="lost">fi</supplied><lb break="no" n="12"/>nes posuit
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Dobrusky, AE 1902: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1902, 0106. (B)</bibl><bibl>AE 1902, p. 21 s. n. 71.</bibl><bibl>CIL 03, 14422, 1.</bibl><bibl>ILBulg 358; tab. 67, 358.</bibl><bibl>V. Dobrusky, SborNarodSofia 18, 1901, 713-714; fig. 8. (B) - AE 1902.</bibl><bibl>PIR (2. Aufl.) A 784.</bibl><bibl>AE 2004, 1306.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Sostra &amp;ndash; Trojan (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044052</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044052</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trojan, Muz. na Zanajate</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>150</height><width>(67)</width><depth>(70)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216989">Sostra</placeName></origPlace><origDate><origDate notBefore-custom="0145" notAfter-custom="0161" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">145 AD - 161 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2001"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729578">Trojan</placeName><placeName type="findspot">Lomec, bei, {Lager, Principia}</placeName><placeName type="region">Loveč</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044052_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="nomen">Aelius</name><name type="cognomen">Hadrianus Antoninus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-03-12" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari <lb n="2"/>divi Hadriani <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="3"/>divi Traiani nepoti <lb n="4"/>divi Nervae <expan><abbr>pron</abbr><ex>epoti</ex></expan> <lb n="5"/>Aelio Hadriano <lb n="6"/>Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="7"/>Pio <expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="8"/>IIII <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="9"/><expan><abbr>coh</abbr><ex>ors</ex></expan> II <expan><abbr>Mattiacor</abbr><ex>um</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Hedera am Ende von Z. 9. (B): Hristov: Z. 3: NEPOT. Nach dem Foto bei Hristov ist der linke obere Teil mit den Anfängen von Z. 1 u.2 heute weggebrochen: Z. 1: [Im]p(eratori); Z. 2: [d]ivi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2001, 1747.</bibl><bibl>I. Hristov, Sostra. Rimskijat grad v polite na Hemus (Veliko Târnovo 2006) 24-26, Nr. 1; obr. 5. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

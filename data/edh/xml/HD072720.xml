@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Municipium Montanensium &amp;ndash; Montana (Mihajlovgrad) (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072720</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072720</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Montana, Ist. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>83</height><width>44</width><depth>37</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-3.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207293">Municipium Montanensium</placeName></origPlace><origDate><origDate notBefore-custom="0159" notAfter-custom="0160" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">159 AD - 160 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1986"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="findspot">{Heiligtum der Diana und des Apoll}</placeName><placeName type="region">Montana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072720_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Hadrianus+ Antoninus*</name></persName></person><person xml:id="HD072720_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Verus*</name></persName></person><person xml:id="HD072720_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Iulius*</name><name type="cognomen">Severus+</name></persName></person><person xml:id="HD072720_4" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Iulius*</name><name type="cognomen">Macedo</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Dean</abbr><ex>ae</ex></expan> et <expan><abbr>Apoll</abbr><ex>ini</ex></expan> <expan><abbr>sac</abbr><ex>rum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> pro salute &amp;lt;P=T&amp;gt;(ubli) <expan><abbr>Ael</abbr><ex>i</ex></expan> H<supplied reason="lost">a</supplied><lb break="no" n="2"/>driani <expan><abbr>Anton</abbr><ex>ini</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="3"/>Pii et <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> <expan><abbr>Ver</abbr><ex>i</ex></expan> Ca<supplied reason="lost"><expan><abbr>es</abbr><ex>aris</ex></expan></supplied> <lb n="4"/>et <expan><abbr>advent</abbr><ex>u</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> Sev<supplied reason="lost">e</supplied><lb break="no" n="5"/>ri co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>l</abbr><ex>egati</ex></expan> <expan><abbr>Au</abbr><ex>gusti</ex></expan> pro &amp;lt;<expan><abbr>pr</abbr><ex>aetore</ex></expan>&amp;gt; <expan><abbr>G</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> <lb n="6"/>Macedo b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 1 befindet sich auf der corona. (B): AE 2012: Z. 8 nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2012, 1263. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

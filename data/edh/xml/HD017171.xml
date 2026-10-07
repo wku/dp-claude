@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Label from Červen Brjag (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017171</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017171</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/115">Silber</material><dimensions unit="cm"><width>26</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0318" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">318 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/732491">Červen Brjag</placeName><placeName type="findspot">{Bahnhof}, bei, "Bivolski Kamâk"</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/109">label</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017171_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Nicanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Licinius <expan><abbr>Invict</abbr><ex>us</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> ob diem X suorum </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>O</abbr><ex>fficina</ex></expan> <expan><abbr>Flav</abbr><ex>i</ex></expan> Nicani <lb n="2"/><abbr>M</abbr> <abbr>B</abbr> <abbr>N</abbr>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Silberschale. Am Schalengrund Medaillon des Kaisers mit der Dezennalieninschrift; Werkstattinschrift auf der Außenseite; zwischen die Buchstaben der Werkstattinschrift ist ein R eingeritzt. (B): AE 1957: Z. 2: [o(fficina)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1957, 0100. (B)</bibl><bibl>L. Ognenova, BIAB 19, 1955, 233-237, Nr. 3; fig. 6.8a; fig. 8b u. 9 (Zeichnungen). - AE 1957.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

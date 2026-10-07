@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038620</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038620</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0180" notAfter-custom="0275" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">180 AD - 275 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">{Festung}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038620_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius+*</name><name type="cognomen">Valens+</name></persName></person><person xml:id="HD038620_2" sex="W"><persName ref="http://romans1by1.com/rpeople/9877"><name type="nomen">[---]</name><name type="cognomen">Quinta</name></persName></person><person xml:id="HD038620_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Valens+</name></persName></person><person xml:id="HD038620_4" sex="M"><persName ref="http://romans1by1.com/rpeople/9879"><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Pasinicus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-01-11" who="Garcia">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                C I<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>LV<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> p<supplied reason="lost">r</supplied>o sal<supplied reason="lost">ute</supplied> <lb n="4"/><supplied reason="lost" cert="low">i</supplied>m<supplied reason="lost" cert="low">perii? et? s(enatus)? p(opuli)q(ue)? R(omani)</supplied> <lb n="5"/>e<supplied reason="lost">t</supplied> or<supplied reason="lost" cert="low">dinis? col(oniae)</supplied> <lb n="6"/>A<supplied reason="lost">p</supplied>u<supplied reason="lost">l</supplied>e<supplied reason="lost">nsis</supplied> <lb n="7"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iu<supplied reason="lost"><expan><abbr>l</abbr><ex>ius</ex></expan></supplied> Valen<supplied reason="lost">s</supplied> <lb n="8"/>CL<gap reason="lost" extent="unknown" unit="character"/>VSL <lb n="9"/>sacerso<supplied reason="lost">s</supplied> <lb n="10"/>D<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>NS<gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/>A<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>EI<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>A<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="12"/>Quinta <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="13"/>coniuge <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>I<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>C<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="14"/><supplied reason="lost">e</supplied>t Caiis Iuli<lb break="no" n="15"/>is Val<supplied reason="lost">ente</supplied> et <lb n="16"/>Pasinico <lb n="17"/>fili<expan><ex>i</ex><abbr>s</abbr></expan> <lb n="18"/><expan><abbr>v</abbr><ex>oto</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 388.</bibl><bibl>CIL 03, 01117.</bibl><bibl>CIL 03, 01117 add. p. 1015.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

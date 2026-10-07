@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Almus, bei &amp;ndash; Lom (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042989</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042989</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>183</height><width>73</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206909">Almus, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729001">Lom</placeName><placeName type="findspot">{Lom, Fluss}, rechtes Ufer</placeName><placeName type="region">Montana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042989_1" sex="M"><persName ref="http://romans1by1.com/rpeople/15324"><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Aemilianus</name></persName></person><person xml:id="HD042989_2" sex="M"><persName ref="http://romans1by1.com/rpeople/15325"><name type="nomen">Aemilianus*</name><name type="cognomen">Vitalis</name></persName></person><person xml:id="HD042989_3" sex="M"><persName ref="http://romans1by1.com/rpeople/15326"><name type="cognomen">Dudis</name></persName></person><person xml:id="HD042989_4" sex="M"><persName ref="http://romans1by1.com/rpeople/15327"><name type="cognomen">Victor</name></persName></person><person xml:id="HD042989_5" sex="M"><persName ref="http://romans1by1.com/rpeople/15328"><name type="nomen">Iulius*</name></persName></person><person xml:id="HD042989_6" sex="M"><persName ref="http://romans1by1.com/rpeople/15329"><name type="nomen">Aelius*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-04-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>G</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Aemilianus <lb n="3"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VII <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <lb n="4"/>vixit annis <lb n="5"/>LX me<expan><ex>n</ex><abbr>sibus</abbr></expan> X <lb n="6"/>diebus IIII <expan><ex>A</ex><abbr>emil</abbr><ex>ianus</ex></expan> <lb n="7"/>Vitalis <expan><abbr>m</abbr><ex>iles</ex></expan> pr<expan><ex>a</ex><abbr>et</abbr><ex>orianus</ex></expan> <lb n="8"/><expan><abbr>fil</abbr><ex>ius</ex></expan> et Dudis <expan><abbr>fra</abbr><ex>ter</ex></expan> <lb n="9"/>et Victor et <lb n="10"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> et <expan><abbr>Ael</abbr><ex>ius</ex></expan> <expan><abbr>fil</abbr><ex>ii</ex></expan> <expan><abbr>kari</abbr><ex>ssimo</ex></expan> <lb n="11"/>patri bene me<lb break="no" n="12"/>renti posueru<lb break="no" n="13"/>nt
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 07421.</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 308-310, Nr. 394; Fig. 125.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Philippopolis &amp;ndash; Plovdiv (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037958</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037958</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Plovdiv, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>38</height><width>(135)</width><depth>42</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216927">Philippopolis</placeName></origPlace><origDate><origDate when-custom="0198" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="findspot"/><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037958_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Septimius</name><name type="cognomen">Severus Pertinax</name></persName></person><person xml:id="HD037958_2" sex="M"><persName><name type="praenomen">T.+</name><name type="nomen">Statilius+</name><name type="cognomen">Barbarus</name></persName></person><person xml:id="HD037958_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Scribonius+</name><name type="cognomen">Orfitus</name></persName></person><person xml:id="HD037958_4" sex="M"><persName><name type="praenomen">-</name><name type="nomen">Petronius</name><name type="cognomen">Celsus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-01-31" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> C</supplied><expan><abbr>aes</abbr><ex>ari</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> Septimio Severo Pio Pertinaci <lb n="2"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan> Ar</supplied>abico Adiabenico <expan><abbr>Parth</abbr><ex>ico</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> stratu<lb break="no" n="3"/><supplied reason="lost">ra praes</supplied>idis Thraciae regente provinciam <supplied reason="lost"><expan><abbr>T</abbr><ex>ito</ex></expan></supplied> <lb n="4"/><supplied reason="lost">S</supplied>tatilio Barbaro <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <expan><abbr>des</abbr><ex>ignato</ex></expan> <supplied reason="lost"><expan><abbr>proc</abbr><ex>urante</ex></expan>? <gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="5"/><supplied reason="lost">S</supplied>cribonio Orfito curante Petronio Celso |(centurione) <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Auf der Oberseite mittig noch die Einlassungen für die Füße einer Statue sowie zwei weitere Dübellöcher erhalten. Gefunden in einem Gebäude aus dem 2.-4. Jh. n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2007, 1257.</bibl><bibl>N. Sharankov, in: L.F. Vagalinski (Hrsg.), The lower Danube in antiquity (VI c. BC - VI c. AD). International Archeological Conference, Tutrakan 2005 (Sofia 2007) 181-184; fig. 1. - AE 2007.</bibl><bibl>PIR (2. Aufl.) S 819.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

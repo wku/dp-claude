@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Istrus &amp;ndash; Istria (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD026628</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD026628</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">architectural member?</objectType><dimensions unit="cm"><height>58</height><width>348</width><depth>43</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216839">Istrus</placeName></origPlace><origDate><origDate notBefore-custom="0157" notAfter-custom="0159" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">157 AD - 159 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675471">Istria</placeName><placeName type="findspot">spätantike Festung, {Kurtine f}, sekundär verwendet</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD026628_1"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T. / Τ.</name><name type="nomen">Aelius / Αἴλιος</name><name type="cognomen">Hadrianus Antoninus / Ἁδριανὸς Ἀντωνῖνος</name></persName></person><person xml:id="HD026628_2"><persName><name type="praenomen">T. / Τ.</name><name type="nomen">Vitrasius / Οὐιτράσιος</name><name type="cognomen">Pollio / Πωλλίων</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-06-27" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020539" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d5c02c56-3599-4522-9f60-a9baf6c18c4a/file/id/780612/file_version/name/small"/><graphic xml:id="F020540" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/083a87c6-f2bb-4500-8f2d-754770462ace/file/id/780613/file_version/name/small"/><graphic xml:id="F020541" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0f414829-fe17-47ac-be39-9a7eb9d948d4/file/id/780614/file_version/name/small"/><graphic xml:id="F020542" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5cc37e63-db25-4a8f-8525-85b92e8cadf8/file/id/780615/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari Tito Aelio Hadriano Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio <lb n="2"/>pontifici maximo patri patriae <lb n="3"/>Histrianorum civitas <lb n="4"/><expan><abbr>T</abbr><ex>itus</ex></expan> Pomponius Proculus Vitrasius Pollio <expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="5"/>faciendum curavit </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Αὐτοκράτορι Καίσαρι Τίτῳ Αἰλίῳ Ἁδριανῷ Ἀντω<lb break="no" n="2"/>νείνῳ Σεβ(αστῷ) Εὐσεβ(εῖ) ἀρχιερεῖ μεγίστῳ πατρὶ πατρίδος <lb n="3"/>Ἰστριανῶν ὁ δῆμος <lb n="4"/>Τίτου Πομπωνίου Πρόκλου Οὐιτρασίου Πωλλίωνος πρεσβ(ευτοῦ) <lb n="5"/>Σεβ(αστοῦ) καὶ ἀντιστρατήγου προνοησαμένου γενέσθαι
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die lateinische Inschrift steht auf der einen Seite, die griechische auf der anderen Seite des Steins.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1919, 0011.</bibl><bibl>AE 1924, p. 44 s. n. 142.</bibl><bibl>V. Pârvan, MAR(H) 38, 1915/16, 611-612, Nr. 21; Zeichnung. - AE 1919.</bibl><bibl>V. Pârvan, MAR(H) 2, 1924, 60-61, Nr. 47. - AE 1924.</bibl><bibl>SEG 02, 0454.</bibl><bibl>IScM 1, 150; Zeichnungen.</bibl><bibl>PIR P 558.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

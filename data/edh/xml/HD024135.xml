@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024135</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024135</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarmizegetusa, Muz. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>117</height><width>62</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0107" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">107 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">{Forum Vetus} - {Forum Novum}, zwischen</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024135_1" sex="M"><persName ref="http://romans1by1.com/rpeople/1848"><name type="nomen">Ulpius* Domitius</name><name type="cognomen">Rufinus</name></persName></person><person xml:id="HD024135_2" sex="M"><persName><name type="nomen">Ulpius*</name></persName></person><person xml:id="HD024135_3" sex="M"><persName ref="http://romans1by1.com/rpeople/548"><name type="nomen">Ulpius* Domitius</name><name type="cognomen">Hermes</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-26" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004877" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4ddcb9f3-4d5d-45ab-a362-b70386c81ec3/file/id/765632/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ulp</abbr><ex>io</ex></expan> Domitio <lb n="2"/><expan><abbr>Ulp</abbr><ex>i</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>Pap</abbr><ex>iria</ex></expan> <lb n="3"/>Rufino <expan><abbr>dec</abbr><ex>urioni</ex></expan> <lb n="4"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Sarmiz</abbr><ex>egetusae</ex></expan> <lb n="5"/><expan><abbr>Ulp</abbr><ex>ius</ex></expan> Domitius <lb n="6"/>Hermes <expan><abbr>lib</abbr><ex>ertus</ex></expan> <lb n="7"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1933, 0246.</bibl><bibl>IDR 3, 2, 121; fig. 96 (Foto u. Zeichnung).</bibl><bibl>C. Daicoviciu, Dacia 3/4, 1927-1932, 546-547, Nr. 1; fig. 53. - AE 1933.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

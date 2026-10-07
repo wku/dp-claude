@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047216</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047216</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Deva, Muz. Civil. Dac. şi Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/102">honorific/grave/votive column</objectType><dimensions unit="cm"><height>119</height><width>56</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0107" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">107 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1881"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">{Mithraeum}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047216_1" sex="M"><persName ref="http://romans1by1.com/rpeople/856"><name type="cognomen">Ampliatus</name></persName></person><person xml:id="HD047216_2" sex="M"><persName ref="http://romans1by1.com/rpeople/855"><name type="cognomen">Protas</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004966" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0f1ab204-6a54-4578-98ba-a77967c67395/file/id/765721/file_version/name/small"/><graphic xml:id="F011523" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6ae368c1-2457-4a0e-93cb-37dcbd1e8ec4/file/id/771046/file_version/name/small"/><graphic xml:id="F011524" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d40bd991-10fd-4d40-bfe1-c351edf99a1e/file/id/771047/file_version/name/small"/><graphic xml:id="F011525" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/51bf7f53-f486-4058-9dd9-2c6abbc7ecb5/file/id/771048/file_version/name/small"/><graphic xml:id="F036692" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9e5ec985-c8cc-44c5-b060-0fcecb9e4ef4/file/id/797552/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Nabarze <lb n="2"/>deo <lb n="3"/>pro <expan><abbr>sal</abbr><ex>ute</ex></expan> Ampliati <lb n="4"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>disp</abbr><ex>ensatoris</ex></expan> et <lb n="5"/>sua <expan><abbr>suorumq</abbr><ex>ue</ex></expan> <lb n="6"/>omnium <lb n="7"/>Protas <expan><abbr>vikar</abbr><ex>ius</ex></expan> <note>sic</note> <lb n="8"/>eius
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 2, 307; fig. 252 (Foto u. Zeichnungen).</bibl><bibl>CIL 03, 07938.</bibl><bibl>CIMRM 2028; Fig. 532.</bibl><bibl>CIMRM 2029.</bibl><bibl>F. Studniczka, AEM 7, 1883, 225, s.n. 69; Taf. 8, 1 (Zeichnungen).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

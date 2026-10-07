@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Augusta Traiana &amp;ndash; Stara Zagora (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023871</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023871</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stara Zagora, Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>88</height><width>100</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216731">Augusta Traiana</placeName></origPlace><origDate><origDate when-custom="0233" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">233 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726848">Stara Zagora</placeName><placeName type="findspot">{Bulevard Ruski 27}, bei</placeName><placeName type="region">Stara Zagora</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023871_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Severus* Alexander++*</name></persName></person><person xml:id="HD023871_2" sex="W"><persName><name type="nomen">Iulia*</name><name type="cognomen">Mamaea++</name></persName></person><person xml:id="HD023871_3" sex="M"><persName><name type="cognomen">Maximus</name></persName></person><person xml:id="HD023871_4" sex="M"><persName><name type="cognomen">Paternus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-11-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Bona Fortuna <lb n="2"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> <expan><abbr>Sev</abbr><ex>ero</ex></expan> <del rend="erasure"><expan><abbr>Alexand</abbr><ex>ro</ex></expan></del> <lb n="3"/><expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> et <expan><abbr>Iul</abbr><ex>iae</ex></expan> <del rend="erasure">Mamaeae</del> <lb n="4"/>matri <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>castr</abbr><ex>orum</ex></expan> et senatus <lb n="5"/>veterani consistentes Augusta <lb n="6"/>Traiana honc <note>sic</note> August&amp;lt;e=I&amp;gt;um <lb n="7"/>ex suis impendiis a solo <lb n="8"/>fabricaverunt feliciter <lb n="9"/>et dedicaverunt Idibus Novembribus <lb n="10"/>Maximo et Paterno co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Hedera am Ende von Z. 7 und Z. 10.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1933, 0090.</bibl><bibl>D.P. Dimitrov, BIAB 7, 1932/33, 291-295. 311, Nr. 1; obr. 72. - AE 1933.</bibl><bibl>PIR (2. Aufl.) C 1413.</bibl><bibl>PIR (2. Aufl.) V 131.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

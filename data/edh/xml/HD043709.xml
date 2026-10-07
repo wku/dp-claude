@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Serdica, bei &amp;ndash; Dragoman (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043709</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043709</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(128)</height><width>44</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207439">Serdica, bei</placeName></origPlace><origDate><origDate notBefore-custom="0361" notAfter-custom="0362" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">361 AD - 362 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1978"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731961">Dragoman</placeName><placeName type="findspot">"Dervent"</placeName><placeName type="region">Sofija, oblast</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043709_1" sex="M"><persName><name type="nomen">Flavius+ Claudius+</name><name type="cognomen">Iulianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">Im</supplied>p</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> Flavio Clau</supplied><lb break="no" n="2"/>dio Iuliano Pio Felici <supplied reason="lost">victori</supplied> <lb n="3"/>venerabili ac triumfatori <lb n="4"/>semper Augusto pontifici <lb n="5"/>maximo <expan><abbr>German</abbr><ex>ico</ex></expan> maximo <lb n="6"/><expan><abbr>Alaman</abbr><ex>nico</ex></expan> maximo <expan><abbr>Franc</abbr><ex>ico</ex></expan> <lb n="7"/>maximo <expan><abbr>Sarmat</abbr><ex>ico</ex></expan> maximo <lb n="8"/>imperatori ϚI consuli III <lb n="9"/>patri patriae proconsuli <lb n="10"/>recuperata re publica <del rend="erasure">[<gap reason="lost" extent="unknown" unit="character"/></del>] <lb n="0"/>[[<gap reason="lost" quantity="1" unit="line"/>]] <lb n="11"/>in antiquam ce<expan><ex>n</ex><abbr>suram</abbr></expan> dignita<lb break="no" n="12"/>temque revocavit
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung und Ergänzung nach Conti. Z. 12 u. 13 wurden nachträglich hinzugefügt. (B): Gerasimova-Tomova - Hollenstein: Z. 7 (Anfang): maxi[m]o.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1510. (B)</bibl><bibl>V. Gerasimova-Tomova - L. Hollenstein, in: H.E. Herzig - R. Frei-Stolba (Hrsg.), Labor omnibus unus. Gerold Walser zum 70. Geburtstag dargebracht von Freunden, Kollegen und Schülern (Stuttgart 1989) 50-54, Nr. 2; Foto. (B) - AE 1992.</bibl><bibl>S. Conti, Die Inschriften Kaiser Julians (Stuttgart 2004) 100-101, Nr. 59; Taf. 4, 59a; Taf. 4, 59b (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Jakimovo (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025744</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025744</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>17</height><width>13</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0071" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1923"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731823">Jakimovo</placeName><placeName type="findspot">{Dâlgodelci}</placeName><placeName type="region">Loveč</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-20" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar Vespasianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="2"/><expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> II <expan><abbr>imp</abbr><ex>erator</ex></expan> VI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <lb n="3"/>veteranis qui militaverunt in <lb n="4"/><surplus>in</surplus> classe Misenensi sub <expan><abbr>Sex</abbr><ex>to</ex></expan> Lu<lb break="no" n="5"/>cilio Basso qui sena et vicena sti<lb break="no" n="6"/>pendia aut plura m<supplied reason="lost">er</supplied>uerunt et <lb n="7"/>sunt deducti Paestum quorum <lb n="8"/>nomina subscripta sunt ipsis <lb n="9"/>liberis posterisque eorum civi<lb break="no" n="10"/>tatem dedit et conubium <lb n="11"/>cum uxoribus quas tunc habu<lb break="no" n="12"/>issent cum est iis civitas data au<lb break="no" n="13"/>t si qui caelibes essent cum iis quas <lb n="14"/>postea duxissent dumtaxat sin<lb break="no" n="15"/><expan><abbr>gul</abbr><ex>i</ex></expan> <expan><abbr>sing</abbr><ex>ulas</ex></expan> <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> V Idus <expan><abbr>Febr</abbr><ex>uarias</ex></expan> <expan><abbr>Imp</abbr><ex>eratore</ex></expan> Caesare <lb n="16"/>Vespasiano <expan><abbr>Aug</abbr><ex>usto</ex></expan> III <expan><abbr>M</abbr><ex>arco</ex></expan> Cocceio Ner<lb break="no" n="17"/>va co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> Tutio Buti <expan><abbr>f</abbr><ex>ilius</ex></expan> Dacus <expan><abbr>tab</abbr><ex>ula</ex></expan> I pag<expan><ex>i</ex><abbr>na</abbr></expan> <lb n="18"/>V loco XI descriptum et recognitum <lb n="19"/>ex tabula aenea quae fixa est Romae <lb n="20"/>in Capitolio in podio parte exteriore <lb n="21"/>arae gentis <expan><abbr>Iul</abbr><ex>iae</ex></expan> <expan><abbr>contr</abbr><ex>a</ex></expan> <expan><abbr>sig</abbr><ex>num</ex></expan> <expan><abbr>Lib</abbr><ex>eri</ex></expan> Patris </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar Vespasianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <lb n="2"/><expan><abbr>maxim</abbr><ex>us</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> II <expan><abbr>imp</abbr><ex>erator</ex></expan> VI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <lb n="3"/>veteranis qui militaverunt in clas<lb break="no" n="4"/>se Misenensi sub <expan><abbr>Sex</abbr><ex>to</ex></expan> Lucilio Basso <lb n="5"/>qui sena et vicena stipendia aut plura <lb n="6"/>meruerunt et sunt deducti Paestum <lb n="7"/>quorum nomina subscripta sunt <lb n="8"/>ipsis liberis posterisque eorum civita<lb break="no" n="9"/>tem dedit et conubium cum uxoribus
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1925, 0068.</bibl><bibl>AE 1926, p. 9 s. n. 34.</bibl><bibl>CIL 16, 00013.</bibl><bibl>AE 1925, p. 19 s. n. 80.</bibl><bibl>I. Velkov, BIAB 2, 1923/24, 94-98, Nr. 2; obr. 36 u. 37. - AE 1925.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

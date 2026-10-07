@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Nikopol, bei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD022641</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD022641</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216895"/></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728777">Nikopol, bei</placeName><placeName type="findspot">Donau</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-25" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Vespasiani <expan><abbr>f</abbr><ex>ilius</ex></expan> Domitianus <lb n="2"/>Augustus Germanicus pontifex max<supplied reason="lost">imus</supplied> <lb n="3"/><expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> VIII <expan><abbr>imp</abbr><ex>erator</ex></expan> XVII <expan><abbr>co</abbr><ex>n</ex></expan><supplied reason="lost"><expan><abbr>s</abbr><ex>ul</ex></expan> XIIII</supplied> <lb n="4"/>censor perpetuus <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/>equitibus et peditibus qui militant in a<supplied reason="lost">lis</supplied> <lb n="6"/>tribus et cohortibus decem et septem <supplied reason="lost">quae</supplied> <lb n="7"/>appellantur II Pannoniorum III Augusta <lb n="8"/>Thracum veterana Gallica I Flavia civi<lb break="no" n="9"/>um Romanorum I milliaria I Lucensium <lb n="10"/>I Ascalonitanorum I Sebastena I Iturae<lb break="no" n="11"/>orum I Numidarum II Italica civium Ro<lb break="no" n="12"/>manorum II Thracum civium Romano<lb break="no" n="13"/>rum II classica III Augusta Thracum III <lb n="14"/>Thracum Syriaca IIII Bracaraugustano<lb break="no" n="15"/>rum IIII Syriaca IIII Callaecorum Lucensi<lb break="no" n="16"/>um Augusta Pannoniorum Musulamiorum <lb n="17"/>et sunt in Syria sub <expan><abbr>P</abbr><ex>ublio</ex></expan> Valerio Patruino qui qui<lb break="no" n="18"/>na et vicena stipendia aut plura meruerant <note>sic</note> <lb n="19"/>quorum nomina subscripta sunt ipsis libe<lb break="no" n="20"/>ris posterisque eorum civitatem dedit et co<lb break="no" n="21"/>nubium cum uxoribus quas tunc habuissent <lb n="22"/>cum est civitas iis data aut si qui caelibes es<lb break="no" n="23"/>sent cum iis quas postea duxissent dumta<lb break="no" n="24"/>xat singuli singulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> VI Idus <expan><abbr>Novembr</abbr><ex>es</ex></expan> <lb n="25"/><expan><abbr>M</abbr><ex>arco</ex></expan> Otacilio Catulo <expan><abbr>Sex</abbr><ex>to</ex></expan> Iulio Sparso co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="26"/><expan><abbr>cohort</abbr><ex>is</ex></expan> Musulamiorum cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="27"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Caecilius September <lb n="28"/>pediti <lb n="29"/>Gorio Stibi <expan><abbr>f</abbr><ex>ilio</ex></expan> Dacus <note>sic</note> <lb n="30"/>descriptum et recognitum ex tabula ae<lb break="no" n="31"/>nea quae fixa est Romae in Capitolio in <lb n="32"/>latere sinistro tabulari publici </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Vespasiani <expan><abbr>f</abbr><ex>ilius</ex></expan> Domitia<lb break="no" n="2"/>nus Augustus Germanicus pontifex <lb n="3"/>maximus <expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> VIII <expan><abbr>imp</abbr><ex>erator</ex></expan> <lb n="4"/>XVII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> XIIII censor perpetuus <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/>equitibus et peditibus qui militant in alis <lb n="6"/>tribus et cohortibus decem et septem quae <lb n="7"/>appellantur II Pannoniorum III Augusta Thracum veterana Gallica I Flavia civi<lb break="no" n="8"/>um Romanorum I milliaria I Lucensium <lb n="9"/>I Ascalonitanorum I Sebastena I Itu<lb break="no" n="10"/>raeorum I Numidarum II Italica civi<lb break="no" n="11"/>um Romanorum II Thracum civium <lb n="12"/>Romanorum II classica III Augusta <lb n="13"/>Thracum III Thracum Syriaca IIII Bracar<lb break="no" n="14"/>augustanorum IIII Syriaca IIII Callae<lb break="no" n="15"/>corum Lucensium Augusta Panno<lb break="no" n="16"/>[niorum ------
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1939, 0126.</bibl><bibl>AE 1959, 0252.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

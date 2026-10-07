@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ratiaria &amp;ndash; Dimovo (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043554</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043554</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207376">Ratiaria</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/733642">Dimovo</placeName><placeName type="findspot">{Arčar}</placeName><placeName type="region">Vidin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043554_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14229"><name type="praenomen">[-]</name><name type="nomen">Coelius+</name><name type="cognomen">Ingenuus</name></persName></person><person xml:id="HD043554_2" sex="M"><persName ref="http://romans1by1.com/rpeople/14230"><name type="praenomen">[-]</name><name type="nomen">Coelius+</name><name type="cognomen">Saturninus+</name></persName></person><person xml:id="HD043554_3" sex="W"><persName ref="http://romans1by1.com/rpeople/14231"><name type="nomen">Lepidia</name><name type="cognomen">Ingenua+</name></persName></person><person xml:id="HD043554_4" sex="W"><persName ref="http://romans1by1.com/rpeople/14232"><name type="nomen">Coelia+</name><name type="cognomen">Saturnina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-16" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Coel<supplied reason="lost">io</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Ingen<supplied reason="lost">uo</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>hastato <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> si<supplied reason="lost">bi et <gap reason="lost" quantity="1" unit="character"/> Coelio</supplied> <lb n="5"/>Saturn<supplied reason="lost">ino patri</supplied> <lb n="6"/>et Lepidia<supplied reason="lost">e Ingen</supplied><lb break="no" n="7"/>uae mat<supplied reason="lost">ri et Coe</supplied><lb break="no" n="8"/>liae Satur<supplied reason="lost">ninae</supplied> <lb n="9"/>sorori tes<supplied reason="lost">tamento</supplied> <lb n="10"/>fieri ius<supplied reason="lost">sit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb der Inschrift Reste eines Kranzes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 06293.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

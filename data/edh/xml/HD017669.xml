@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Municipium Montanensium &amp;ndash; Montana (Mihajlovgrad) (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017669</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017669</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><dimensions unit="cm"><height>(80)</height><width>65</width><depth>60</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207293">Municipium Montanensium</placeName></origPlace><origDate><origDate when-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">235 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="findspot"/><placeName type="region">Montana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017669_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14885"><name type="praenomen">C.+++</name><name type="nomen">Iulius+++*</name><name type="cognomen">Verus+++* Maximinus+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-05-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Numini perpetuo <lb n="2"/><expan><abbr>d</abbr><ex>omini</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> invictissimi <lb n="3"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <del rend="erasure">[<expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> <expan><abbr>V</abbr><ex>eri</ex></expan></del>] <lb n="4"/><del rend="erasure">[Maximini</del>] Pii Fe<lb break="no" n="5"/>licis <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pont</abbr><ex>ificis</ex></expan> <lb n="6"/>maximo <note>sic</note> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <lb n="7"/><expan><abbr>potest</abbr><ex>ate</ex></expan> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <lb n="8"/><expan><abbr>n</abbr><ex>umerus</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <del rend="erasure">M<supplied reason="lost">a</supplied>xim[inia</del>]<lb break="no" n="9"/><del rend="erasure">nus</del> devotus <lb n="10"/>numini maiesta<lb break="no" n="11"/>tique eius
+            </ab></div>
+            <div type="commentary">
+                <p>Unten gebrochener Mittelteil einer Statuenbasis oder eines Altars. (B): Velkov; AE 1957: Abweichungen in der Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1957, 0338. (B)</bibl><bibl>V. Velkov, Archeologia 7, 1, 1955, 91-93. 101, Nr. 1; ryc. 1. (B) - AE 1957.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

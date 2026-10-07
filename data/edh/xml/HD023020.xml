@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Porolissum &amp;ndash; Mirşid; Jibou (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023020</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023020</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207361">Porolissum</placeName></origPlace><origDate><origDate when-custom="0120" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">120 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/672930">Mirşid; Jibou</placeName><placeName type="findspot">Mirşid, {Moigrad} (Fragment a); Jibou, {Schloss Wesselényi} (Fragment b)</placeName><placeName type="region">Sălaj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-02" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                ------ Hamasaeo A]lapatha <expan><abbr>f</abbr><ex>ilio</ex></expan> Pa<supplied reason="lost"><expan><abbr>lmyr</abbr><ex>a</ex></expan></supplied> <lb n="2"/><supplied reason="lost">descriptum et</supplied> recognitum ex <lb n="3"/><supplied reason="lost">tabula aenea qu</supplied>ae fixa est Ro<supplied reason="lost">mae</supplied> <lb n="4"/><supplied reason="lost">in muro post t</supplied>emplum div<supplied reason="lost">i <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <lb n="5"/><supplied reason="lost">ad</supplied> Minervam </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ------ qui militaverunt in ---] sa<supplied reason="lost"><expan><abbr>gittar</abbr><ex>3</ex></expan>? et sunt in Da</supplied>cia supe<supplied reason="lost">riore</supplied> <lb n="2"/><supplied reason="lost">sub</supplied><gap reason="lost" extent="unknown" unit="character"/>vero ci<supplied reason="lost"><expan><abbr>vit</abbr><ex>atem</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>ded</abbr><ex>it</ex></expan> <expan><abbr>ips</abbr><ex>is</ex></expan> <expan><abbr>lib</abbr><ex>eris</ex></expan>? poster</supplied><expan><abbr>isqu</abbr><ex>e</ex></expan> [<expan><abbr>eor</abbr><ex>um</ex></expan> ------ </ab></div><div n="3" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> III <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Iuli</abbr><ex>as</ex></expan> <lb n="1"/><expan><abbr>C</abbr><ex>aio</ex></expan> Publicio Marcello <lb n="2"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Rutilio Propinquo </ab></div><div n="4" type="textpart"><ab><lb n="1"/> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="2"/>Hamasaeo Alapatha <expan><abbr>Palmyr</abbr><ex>a</ex></expan> </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/> Attei Atteiani <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Iuni <gap reason="lost" extent="unknown" unit="character"/>nitelli <lb n="3"/><expan><abbr>L</abbr><ex>uci</ex></expan> Atini Flori <lb n="4"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> Fabi <del rend="erasure">[<gap reason="lost" extent="unknown" unit="character"/></del>] <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> Pulli Anthi <lb n="6"/><expan><abbr>Ti</abbr><ex>beri</ex></expan> Claudi Erotis <lb n="7"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Atini Crescentis
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1925, 0076.</bibl><bibl>AE 1935, 0003.</bibl><bibl>AE 1936, p. 7 s. n. 7.</bibl><bibl>CIL 16, 00068.</bibl><bibl>IDR 1, 006; fig. 16 u. 18; fig. 17 u. 19 (Zeichnungen).</bibl><bibl>PIR (2. Aufl.) P 1042.</bibl><bibl>PIR (2. Aufl.) R 256.</bibl><bibl>Á Buday, DolgozatokMagKirFerencJozsef 1, 1925, 26-29; Foto u. Zeichnung. - AE 1925.</bibl><bibl>C. Daicoviciu, AISC 2, 1933-1935, 74-77; pl. 1. - AE 1935; AE 1936.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

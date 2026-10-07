@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Pautalia &amp;ndash; Kjustendil (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043936</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043936</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">15-4.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481949">Pautalia</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1995"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729730">Kjustendil</placeName><placeName type="findspot">{Ulica Ilarion Makariopolski}, bei, frühchristliche Basilika Nr. 7, Südschiff</placeName><placeName type="region">Kjustendil</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043936_1" sex="M"><persName><name type="cognomen">Bitus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Bitus cum <lb n="2"/>suis peto <lb n="3"/>orate pro <lb n="4"/>peccatore
+            </ab></div>
+            <div type="commentary">
+                <p>Inschrift im Fußbodenmosaik der Basilika. Inschriftfeld etwa quadratisch (54 x 55 cm), für Z. 2 jedoch um 18 cm nach rechts hin verlängert. Z. 2 (Anfang): zwei hederae. (B): AE 1999: Z. 2: petit; Z. 4: [peccatore].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2001, 1753.</bibl><bibl>AE 2000, 1292.</bibl><bibl>AE 1999, 1401. (B)</bibl><bibl>R. Spassov - V. Kazarova - R. Mladenova - S. Filipova, MiChA 5, 1999, 27-31; fig. 7 u. 8. - AE 1999.</bibl><bibl>V. Gerasimova, ArchBulg 5, 3, 2001, 29-31; Abb. 1; Abb. 2 (Zeichnung). - AE 2001.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

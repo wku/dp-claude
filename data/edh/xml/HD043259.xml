@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salsovia &amp;ndash; Mahmudia (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043259</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043259</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Ist. Rep. Soc.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(63)</height><width>(50)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/226748">Salsovia</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1865"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667305">Mahmudia</placeName><placeName type="findspot">{römisch-byzantinische Festung}</placeName><placeName type="region">Tulcea</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043259_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Flavius*</name><name type="cognomen">Faustinus+</name></persName></person><person xml:id="HD043259_2" sex="M"><persName><name type="nomen">Valerius*</name><name type="cognomen">Victor+</name></persName></person><person xml:id="HD043259_3" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Festus</name></persName></person><person xml:id="HD043259_4" sex="M"><persName><name type="cognomen">Licinius</name></persName></person><person xml:id="HD043259_5" sex="M"><persName><name type="cognomen">Licinius</name></persName></person><person xml:id="HD043259_6" sex="M"><persName><name type="nomen">Valerius*</name><name type="cognomen">Romulus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-05-27" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> Fausti<supplied reason="lost">no</supplied> <lb n="3"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> LXX <lb n="4"/><expan><abbr>Val</abbr><ex>erio</ex></expan> Victor<supplied reason="lost">i</supplied> <lb n="5"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> LXXV <lb n="6"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> Festus |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost" cert="low">I It(alicae)</supplied> <lb n="7"/>patri s<supplied reason="lost">uo posuit</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Dei Sancti Solis <lb n="2"/>simulacrum <expan><abbr>consecr</abbr><ex>atum</ex></expan> <lb n="3"/>die XIV <expan><abbr>Kal</abbr><ex>endis</ex></expan> <expan><abbr>Decemb</abbr><ex>ribus</ex></expan> <lb n="4"/>debet singulis annis <lb n="5"/>iusso sacro <expan><abbr>d</abbr><ex>ominorum</ex></expan> <expan><abbr>n</abbr><ex>ostrorum</ex></expan> <lb n="6"/>Licini <expan><abbr>Aug</abbr><ex>usti</ex></expan> et Licini <expan><abbr>Caes</abbr><ex>aris</ex></expan> <lb n="7"/>ture cereis et profu<lb break="no" n="8"/>sionibus eodem die <lb n="9"/>a <expan><abbr>praep</abbr><ex>ositis</ex></expan> et <expan><abbr>vexillat</abbr><ex>ionibus</ex></expan> <lb n="10"/>in <expan><abbr>cast</abbr><ex>ris</ex></expan> <expan><abbr>Salsoviensib</abbr><ex>us</ex></expan> <lb n="11"/><expan><abbr>agentib</abbr><ex>us</ex></expan> exorari <lb n="12"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Romulus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>p</abbr><ex>erfectissimus</ex></expan> dux <lb n="13"/>secutus iussionem <lb n="14"/>describsit <note>sic</note>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Tafel in den Jahren 322-323 n. Chr. für eine Weihinschrift wiederverwendet.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IScM 5, 290.</bibl><bibl>ILS 8940.</bibl><bibl>E. Popescu, Inscripţiile greceşti şi latine din secolele IV-XIII descoperite în România (Bucureşti 1976) 283-285, Nr. 271; Fotos.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038581</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038581</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(48)</height><width>(43)</width><depth>(8)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0180" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">180 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/671315">Alba Iulia</placeName><placeName type="findspot">{Partoş}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038581_1" sex="M"><persName ref="http://romans1by1.com/rpeople/9796"><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Valens*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-21" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Veneri Vic</supplied><lb break="no" n="2"/><supplied reason="lost">trici p</supplied>ro <expan><abbr>sal</abbr><ex>ute</ex></expan> <lb n="3"/><expan><abbr>imperi</abbr><ex>i</ex></expan> et <expan><abbr>s</abbr><ex>enatus</ex></expan> p<expan><ex>opuli</ex><abbr>q</abbr><ex>ue</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> <lb n="4"/>et ordinis <expan><abbr>col</abbr><ex>oniae</ex></expan> <lb n="5"/><expan><abbr>Apul</abbr><ex>ensis</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Va<lb break="no" n="6"/>le<expan><ex>n</ex><abbr>s</abbr></expan> haruspex <lb n="7"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan> et antis<lb break="no" n="8"/>tes huiusce <lb n="9"/>loci <lb n="10"/><supplied reason="lost"><expan><abbr>v</abbr><ex>oto</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan></supplied> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Altar oder Statuenbasis. Nur zentraler Teil der vorderen Seite des Inschriftfeldes erhalten. Z. 10: hederae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 364; Foto u. Zeichnung.</bibl><bibl>CIL 03, 01115.</bibl><bibl>.I. Russu, AnInstCluj 18, 1975, 64-65, Nr. 1; fig. 7a; fig. 7b (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

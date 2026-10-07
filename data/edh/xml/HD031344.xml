@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Philippopolis &amp;ndash; Plovdiv (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031344</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031344</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(74)</height><width>(32)</width><depth>(44)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216927">Philippopolis</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0350" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 350 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="findspot"/><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031344_1" sex="W"><persName><name type="nomen">Coelia+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD031344_2" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">[---]</name><name type="cognomen">Verus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-01-17" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/>Coelia<supplied reason="lost">e</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Verus <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>a commen<supplied reason="lost">tariis</supplied> <lb n="5"/><expan><abbr>provinc</abbr><ex>iae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>coniug</abbr><ex>i</ex></expan> ka<supplied reason="lost">rissimae</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1903, 0245.</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 293-294, Nr. 374; Zeichnung.</bibl><bibl>CIL 03, 14207, 14.</bibl><bibl>G. Seure, BCH 25, 1901, 312-313, Nr. 7. - AE 1903.</bibl><bibl>AE 1902, 0135.</bibl><bibl>V. Dobrusky, SborNarodSofia 18, 1901, 774, Nr. 82. - AE 1902.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tomi &amp;ndash; Constanţa (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044381</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044381</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(152)</height><width>(29)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217016">Tomi</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/680963">Constanţa</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044381_1" sex="M"><persName><name type="cognomen">Metrodoros+ / Μητρόδωρος+</name></persName></person><person xml:id="HD044381_2" sex="M"><persName><name type="nomen">Iulius+ / ᾿Ιούλιος</name><name type="cognomen">Fronto?+ / Φρόντων?+</name></persName></person><person xml:id="HD044381_3" sex="M"><persName><name type="cognomen">Hermes+ / Ἑρμῆς+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-11-02" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Metrodoro <gap reason="lost" extent="unknown" unit="character"/> Iu</supplied><lb break="no" n="2"/><supplied reason="lost">li Frontonis<certainty locus="name" match="preceding-sibling::text()" cert="low"/> liber</supplied><lb break="no" n="3"/><supplied reason="lost">to <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nis</ex></expan> XXV Hermes</supplied> <lb n="4"/><supplied reason="lost">f</supplied>rater <supplied reason="lost">eius <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Μητροδώ<supplied reason="lost">ρῳ <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/>τοῦ Ἰουλίου <supplied reason="lost" cert="low">Φρόντωνος</supplied> <lb n="3"/>ἀπελευθέ<supplied reason="lost">ρῳ ἔζησεν</supplied> <lb n="4"/>ἔτεσι κεʹ Ἑρμ<supplied reason="lost">ῆς ἀδελ</supplied><lb break="no" n="5"/>φὸς αὐτοῦ <supplied reason="lost">ζῶν καὶ φρον</supplied><lb break="no" n="6"/>ῶν ἐποίη<supplied reason="lost">σε· χαῖρε</supplied> <lb n="7"/>παρο<supplied reason="lost">δεῖτα</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14214, 32.</bibl><bibl>IGR 1, 0644.</bibl><bibl>IScM 2, 261; Foto.</bibl><bibl>G.G. Točilescu, AEM 19, 1896, 96, Nr. 43.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

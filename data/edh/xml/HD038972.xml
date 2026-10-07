@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038972</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038972</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, Muz. Unirii</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(80)</height><width>(50)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">Tolstoi, {nordwestliche römische Nekropole}, bei, sekundär verwendet</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038972_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]lus?</name></persName></person><person xml:id="HD038972_2" sex="W"><persName ref="http://romans1by1.com/rpeople/11431"><name type="cognomen">[---]ita</name></persName></person><person xml:id="HD038972_3" sex="M"><persName ref="http://romans1by1.com/rpeople/11432"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Siro+</name></persName></person><person xml:id="HD038972_4" sex="M"><persName ref="http://romans1by1.com/rpeople/11433"><name type="cognomen">Liberalis+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-04-11" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005387" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/518b0f9a-2d3b-4aa2-a820-cebbd6625dc7/file/id/766164/file_version/name/small"/><graphic xml:id="F036473" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a3d4c5f0-8fa7-4768-946a-d8b2a20327eb/file/id/797331/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>li</abbr><ex cert="low"/></expan> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XII</supplied>I <expan><abbr>gem</abbr><ex>inae</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">vixit</supplied> <expan><abbr>an</abbr><ex>nos</ex></expan> LXV <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>II</abbr><ex cert="low"/>ita</expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> S<supplied reason="lost">i</supplied>ro Libe<lb break="no" n="6"/><supplied reason="lost">ralis<certainty locus="name" match="preceding-sibling::text()" cert="low"/> p</supplied>atrono <lb n="7"/><supplied reason="lost">suo fec</supplied>erunt bene <lb n="8"/><expan><abbr><supplied reason="lost">me</supplied>re</abbr><ex>n</ex>ti</expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente erhalten. Z. 1, 2, 3 und am Ender der Inschrift: hedera. IDR 3, 5: Z. 5/6: Libe/[ralis, -rti].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 579; Foto u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

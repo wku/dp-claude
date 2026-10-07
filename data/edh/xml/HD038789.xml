@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription? from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038789</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038789</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0107" notAfter-custom="0275" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">107 AD - 275 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1878"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">Praetorium des Statthalters</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038789_1" sex="M"><persName ref="http://romans1by1.com/rpeople/11557"><name type="nomen">Longius*?</name><name type="cognomen">Orestus</name></persName></person><person xml:id="HD038789_2" sex="M"><persName ref="http://romans1by1.com/rpeople/11558"><name type="nomen">Iulius*</name><name type="cognomen">Victorinus</name></persName></person><person xml:id="HD038789_3" sex="M"><persName ref="http://romans1by1.com/rpeople/11559"><name type="nomen">Ulpius*</name><name type="cognomen">Valentinus</name></persName></person><person xml:id="HD038789_4" sex="M"><persName ref="http://romans1by1.com/rpeople/11560"><name type="nomen">Iulius*</name><name type="cognomen">Seneca</name></persName></person><person xml:id="HD038789_5" sex="M"><persName ref="http://romans1by1.com/rpeople/11561"><name type="nomen">Aelius*</name><name type="cognomen">Caesianus</name></persName></person><person xml:id="HD038789_6" sex="M"><persName ref="http://romans1by1.com/rpeople/11562"><name type="nomen">Aelius*</name><name type="cognomen">Valerius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-01-12" who="Garcia">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><expan><abbr>qq</abbr><ex>uaestionarii</ex></expan></supplied> <expan><abbr>Lon</abbr><ex>gius</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Orestus <lb n="2"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Victorinus <lb n="3"/><expan><abbr>qq</abbr><ex>aestionarii</ex></expan> <expan><abbr>Ulp</abbr><ex>ius</ex></expan> Valentinus <lb n="4"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Seneca <lb n="5"/><expan><abbr>qq</abbr><ex>aestionarii</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Caesianus <lb n="6"/><expan><abbr>Ael</abbr><ex>ius</ex></expan> Valerius <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Ehren- oder Weihinschrift.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 459.</bibl><bibl>CIL 03, 07803.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Tibiscum &amp;ndash; Caransebeş (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020605</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020605</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Timişoara, Muz. Banatului</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><dimensions unit="cm"><height>140</height><width>70</width><depth>50</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207495">Tibiscum</placeName></origPlace><origDate><origDate notBefore-custom="0211" notAfter-custom="0212" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211 AD - 212 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1967"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675144">Caransebeş</placeName><placeName type="findspot">Jupa, {Lager}</placeName><placeName type="region">Caraș-Severin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020605_1" sex="M"><persName ref="http://romans1by1.com/rpeople/6956"><name type="nomen">Aurelius* Laecanius</name><name type="cognomen">Paulinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-01-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deo Soli <lb n="2"/>Ierhaboli <lb n="3"/>pro salutem <note>sic</note> d<del rend="erasure">d</del>(ominorum) n<del rend="erasure">n</del>(ostrorum) Aug<del rend="erasure">g</del>(ustorum) <lb n="4"/><expan><abbr>Aurel</abbr><ex>ius</ex></expan> Laecanius <lb n="5"/>Paulinus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="6"/>ex <expan><abbr>c</abbr><ex>ustode</ex></expan> <expan><abbr>a</abbr><ex>rmorum</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> I <expan><abbr>Vind</abbr><ex>elicorum</ex></expan> <lb n="7"/>et <expan><abbr>dec</abbr><ex>urio</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Sarmiz</abbr><ex>egetusae</ex></expan> <lb n="8"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Weihinschrift zu Ehren von Caracalla und Geta. Altar oder Statuenbasis?</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0697.</bibl><bibl>IDR 3, 1, 137; fig. 106 (Foto u. Zeichnung).</bibl><bibl>C.C. Petolescu, StCercIstorV 23, 1972, 497-498. - AE 1977.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

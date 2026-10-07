@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042592</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042592</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Svištov, Ist. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material>Gesteine</material><dimensions unit="cm"><height>37</height><width>(40)</width><depth>55</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.6-3.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate notBefore-custom="0156" notAfter-custom="0158" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">156 AD - 158 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1939"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot"/><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042592_1" sex="M"><persName><name type="praenomen">T.+</name><name type="nomen">Vitrasius+</name><name type="cognomen">Pollio+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-29" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005203" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1d7d774d-7bfa-485c-aba6-867a6cf8eb9a/file/id/765980/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Hy</supplied>giae <expan><abbr>leg</abbr><ex>io</ex></expan> <supplied reason="lost">I <expan><abbr>Ital</abbr><ex>ica</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> per <expan><abbr>T</abbr><ex>itum</ex></expan> Vitrasium Po</supplied>llionem l<supplied reason="lost"><expan><abbr>eg</abbr><ex>atum</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Architrav; die Inschrift verläuft auf den beiden oberen Faszien.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2012, 1264.</bibl><bibl>IGLN 018; pl. 7, 18.</bibl><bibl>ILBulg 288; tab. 57, 288.</bibl><bibl>ILNovae 009; Abb. 9.</bibl><bibl>P. Dyczek - J. Kolendo, Archeologia 61, 2010, 42-43; fig. 9. - AE 2012.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

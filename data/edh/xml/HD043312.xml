@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Abrittus &amp;ndash; Razgrad (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043312</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043312</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216688">Abrittus</placeName></origPlace><origDate><origDate notBefore-custom="0138" notAfter-custom="0161" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD - 161 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1893"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727696">Razgrad</placeName><placeName type="findspot">{spätantike Festung}</placeName><placeName type="region">Razgrad</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043312_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.+</name><name type="nomen">Aelius+*</name><name type="cognomen">Hadrianus Antoninus+</name></persName></person><person xml:id="HD043312_2" sex="M"><persName ref="http://romans1by1.com/rpeople/14588"><name type="nomen">Iulius</name><name type="cognomen">Crassipes+</name></persName></person><person xml:id="HD043312_3" sex="M"><persName ref="http://romans1by1.com/rpeople/14589"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]anus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-06-01" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Caesare div</supplied>i Hadriani <expan><abbr>f</abbr><ex>ilio</ex></expan> divi <supplied reason="lost">Traiani Parthici <expan><abbr>n</abbr><ex>epote</ex></expan> divi</supplied> <lb n="2"/><supplied reason="lost">Nervae <expan><abbr>pron</abbr><ex>epote</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> Ae</supplied><expan><abbr>l</abbr><ex>io</ex></expan> Hadriano Anto<supplied reason="lost">nino <expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio <expan><abbr>pont</abbr><ex>ifice</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> p</supplied>er Iulium Crass<supplied reason="lost">ipedem <expan><abbr>leg</abbr><ex>atum</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> fecit cui prae<supplied reason="lost">est</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>anus <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Hederae als Worttrenner. Ergänzungen nach Weiß.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 1209.</bibl><bibl>P. Weiß, Chiron 36, 2006, 361-367, Nr. 2. - AE 2006.</bibl><bibl>CIL 03, 13727.</bibl><bibl>PIR (2. Aufl.) I 278.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

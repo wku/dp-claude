@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Novae, bei &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082757</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082757</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(39)</height><width>(24)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.8-7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae, bei</placeName></origPlace><origDate><origDate when-custom="0195" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">195 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2013"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot">{Ostrite Mogili}, sekundär verwendet</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082757_1" sex="M"><persName><name type="praenomen">L.+</name><name type="nomen">Septimius+</name><name type="cognomen">Severus Pertenax (= Pertinax)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-26" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Im<supplied reason="lost"><expan><abbr>p</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> Septimio Seve</supplied><lb break="no" n="2"/>ro Pi<supplied reason="lost">o Per</supplied>tenaci <note>sic</note> <supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>Arab</abbr><ex>ico</ex></expan></supplied> <lb n="3"/><expan><abbr>Adiab</abbr><ex>enico</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> po</supplied><expan><abbr>nt</abbr><ex>ifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <supplied reason="lost"><expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan></supplied> <lb n="4"/>III im<supplied reason="lost"><expan><abbr>p</abbr><ex>eratori</ex></expan> VIII <expan><abbr>co</abbr><ex>n</ex></expan></supplied><expan><abbr>s</abbr><ex>uli</ex></expan> II <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>SIP<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei Fragmente erhalten; Maße beziehen sich auf das größere Fragment (a); Maße Fragment b: (28) x (32) x 10 cm.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2013, 1334.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

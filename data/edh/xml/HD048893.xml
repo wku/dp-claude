@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Napoca &amp;ndash; Cluj-Napoca (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD048893</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD048893</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207304">Napoca</placeName></origPlace><origDate><origDate notBefore-custom="0191" notAfter-custom="0192" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">191 AD - 192 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1791"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/681290">Cluj-Napoca</placeName><placeName type="findspot">{alte Burg}</placeName><placeName type="region">Cluj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD048893_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1434"><name type="praenomen">L.</name><name type="nomen">Aelius Aurelius*</name><name type="cognomen">Commodus</name></persName></person><person xml:id="HD048893_2" sex="M"><persName ref="http://romans1by1.com/rpeople/4147"><name type="nomen">Aelius*</name><name type="cognomen">Constans</name></persName></person><person xml:id="HD048893_3" sex="M"><persName ref="http://romans1by1.com/rpeople/4148"><name type="nomen">Iulius*</name><name type="cognomen">Pacatianus+</name></persName></person><person xml:id="HD048893_4" sex="M"><persName ref="http://romans1by1.com/rpeople/4149"><name type="praenomen">T.?</name><name type="nomen">Flavius+*?</name><name type="cognomen">Ianuarius+</name></persName></person><person xml:id="HD048893_5" sex="M"><persName ref="http://romans1by1.com/rpeople/4150"><name type="praenomen">T.</name><name type="nomen">Flavius*</name><name type="cognomen">Germanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F006360" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/83c33418-a1e3-4d17-b235-45dc417ee0e5/file/id/767135/file_version/name/small"/><graphic xml:id="F036194" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/83c8a55a-5b3b-4f1b-b908-be121d9ac359/file/id/797051/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> Aelio <lb n="2"/><expan><abbr>Aurel</abbr><ex>io</ex></expan> Commodo <lb n="3"/><expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>Sarm</abbr><ex>atico</ex></expan> Ger<lb break="no" n="4"/><expan><abbr>manic</abbr><ex>o</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>Britt</abbr><ex>annico</ex></expan> <lb n="5"/>ob honorem <expan><abbr>dec</abbr><ex>urionatus</ex></expan> <lb n="6"/><expan><abbr>Ael</abbr><ex>i</ex></expan> Constantis <lb n="7"/><expan><abbr>proc</abbr><ex>uratoris</ex></expan> eius et <expan><abbr>Iul</abbr><ex>i</ex></expan> Pa<lb break="no" n="8"/><supplied reason="lost">c</supplied>atiani quondam <lb n="9"/><expan><abbr><supplied reason="lost">pro</supplied>c</abbr><ex>uratoris</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>T</abbr><ex>itus</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> F<supplied reason="lost" cert="low">l(avius)</supplied> Ianua<lb break="no" n="10"/><supplied reason="lost">rius</supplied><gap reason="lost" extent="unknown" unit="character"/>R <expan><abbr>col</abbr><ex>oniae</ex></expan> et <lb n="11"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Germanus <lb n="12"/><expan><abbr>dec</abbr><ex>urio</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> quod <expan><abbr>dec</abbr><ex>uriones</ex></expan> <lb n="13"/>alares promise<lb break="no" n="14"/>runt pecunia su<lb break="no" n="15"/>a posuerunt <supplied reason="lost"><expan><abbr>l</abbr><ex>ocus</ex></expan></supplied> <expan><abbr>d</abbr><ex>atus</ex></expan> <lb n="16"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil eines Altars oder einer Statuenbasis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 00865.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

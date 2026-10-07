@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Abrittus &amp;ndash; Razgrad (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD061903</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD061903</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Röm.-Germ. Zentralmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>20</height><width>16</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.5-0.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216688">Abrittus</placeName></origPlace><origDate><origDate when-custom="0079" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">79 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727696">Razgrad</placeName><placeName type="findspot"/><placeName type="region">Razgrad</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-05" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Titus Caesar Vespasianus Augus<lb break="no" n="2"/>tus pontifex maximus <expan><abbr>tribunic</abbr><ex>ia</ex></expan> po<lb break="no" n="3"/><expan><abbr>test</abbr><ex>ate</ex></expan> VIIII <expan><abbr>imp</abbr><ex>erator</ex></expan> XIIII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> censor co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> VII <lb n="4"/>equitibus et peditibus qui militant <lb n="5"/>in ala I Thracum victrice et cohor<lb break="no" n="6"/>tibus duabus <supplied reason="lost">I</supplied> Montanorum et I <lb n="7"/>Asturum et <supplied reason="lost">s</supplied>unt <supplied reason="lost">i</supplied>n Norico sub <expan><abbr>P</abbr><ex>ublio</ex></expan> <lb n="8"/>Sextilio Felice qui quina et vice<lb break="no" n="9"/>na stipendia aut pl<supplied reason="lost">u</supplied>ra <supplied reason="lost">m</supplied>erue<lb break="no" n="10"/>rant quorum nomin<supplied reason="lost">a su</supplied>b<supplied reason="lost">s</supplied>cripta <lb n="11"/>sunt ipsis liberis poste<supplied reason="lost">ri</supplied>sque eo<lb break="no" n="12"/>rum civitat<supplied reason="lost">e</supplied>m dedit et <supplied reason="lost">co</supplied>nubi<lb break="no" n="13"/>um cum uxoribus quas tu<supplied reason="lost">n</supplied>c ha<lb break="no" n="14"/><supplied reason="lost">b</supplied>uissent cum est civitas iis <supplied reason="lost">da</supplied><lb break="no" n="15"/>ta aut si qui caelibes essent cum <lb n="16"/>iis quas postea duxissent dumta<lb break="no" n="17"/>xat singuli singulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> VI <expan><abbr>Id</abbr><ex>us</ex></expan> <expan><abbr>Sep</abbr><ex>tembres</ex></expan> <lb n="18"/><expan><abbr>T</abbr><ex>ito</ex></expan> Rubrio Aelio Nepote <expan><abbr>M</abbr><ex>arco</ex></expan> Arrio Flacco co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="19"/>alae I Thracum <expan><abbr>victric</abbr><ex>is</ex></expan> cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="20"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudius <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Qui</abbr><ex>rina</ex></expan> Apollinaris <lb n="21"/>gregali <lb n="22"/>Coto Tharsa<supplied reason="lost">e</supplied> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Thrac</abbr><ex>i</ex></expan> <lb n="23"/>descriptum et recognitum ex ta<lb break="no" n="24"/><supplied reason="lost">bul</supplied>a aenea quae fixa est Romae <lb n="25"/><supplied reason="lost">in C</supplied>apitolio in <expan><abbr>tribunal</abbr><ex>i</ex></expan> Apollinis <lb n="26"/><supplied reason="lost">Magn</supplied>i parte posteriore </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Titus Caesar <supplied reason="lost">Vesp</supplied>asianus <supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustus</ex></expan></supplied> <lb n="2"/>pontifex <expan><abbr>maxim</abbr><ex>us</ex></expan> <expan><abbr>tribunic</abbr><ex>ia</ex></expan> pot<supplied reason="lost"><expan><abbr>estat</abbr><ex>e</ex></expan></supplied> <lb n="3"/>VIIII <expan><abbr>imp</abbr><ex>erator</ex></expan> XIIII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> censor co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> VII <lb n="4"/>equitibus et peditibus qui militaverunt <lb n="5"/>in ala I Thracum victrice et cohorti<lb break="no" n="6"/>bus duabus I Montanorum et I Astu<lb break="no" n="7"/>rum et sunt in Norico sub <expan><abbr>P</abbr><ex>ublio</ex></expan> Sextilio <lb n="8"/>Felice qui q<supplied reason="lost">ui</supplied>na et vicena stipendia <lb n="9"/>aut plura m<supplied reason="lost">er</supplied>uerant quorum nomi<lb break="no" n="10"/>na subscripta sunt ipsis liberis <lb n="11"/>po<supplied reason="lost">s</supplied>terisque eor<supplied reason="lost">u</supplied>m civitatem dedit <lb n="12"/>et conubium cum u<supplied reason="lost">xo</supplied>ribus quas tunc <lb n="13"/><supplied reason="lost">habuissent</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1259.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

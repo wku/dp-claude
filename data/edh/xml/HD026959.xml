@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Istrus &amp;ndash; Istria (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD026959</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD026959</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Istria, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><dimensions unit="cm"><height>140</height><width>57</width><depth>48</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216839">Istrus</placeName></origPlace><origDate><origDate when-custom="0246" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">246 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1929"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675471">Istria</placeName><placeName type="findspot">{spätantike Festung}, Mauer, sekundär verwendet</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD026959_1" sex="M"><persName><name type="praenomen">C. M.</name><name type="nomen">Iulius</name><name type="cognomen">Philippus++</name></persName></person><person xml:id="HD026959_2" sex="M"><persName><name type="nomen">Iulius++</name><name type="cognomen">Philippus++</name></persName></person><person xml:id="HD026959_3" sex="M"><persName><name type="nomen">Claudius</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD026959_4" sex="M"><persName><name type="nomen">Cocceius</name><name type="cognomen">Iustus</name></persName></person><person xml:id="HD026959_5" sex="M"><persName><name type="cognomen">Praesens*</name></persName></person><person xml:id="HD026959_6" sex="M"><persName><name type="cognomen">Albinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-11-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> et Iunoni Regin<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="2"/><expan><abbr>c</abbr><ex>ives</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> et Lai consistentes <lb n="3"/>vico Secundini posuer<lb break="no" n="4"/>u<expan><ex>n</ex><abbr>t</abbr></expan> pro salute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Cai Iuli <lb n="5"/>Marci <del rend="erasure">Philippi</del> Pii <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="6"/><del rend="erasure">et Iuli Philippi nob</del><lb break="no" n="7"/><del rend="erasure">ilissimi Caesaris</del> <lb n="8"/>cura agentibus m<lb break="no" n="9"/>agistratis <note>sic</note> Claudi<lb break="no" n="10"/>um <note>sic</note> Antoninum <note>sic</note> et <lb n="11"/>Cocceium <note>sic</note> Iustu<lb break="no" n="12"/>m <note>sic</note> Pr<expan><ex>a</ex><abbr>es</abbr></expan><lb break="no" n="13"/>enti et Albino <lb n="14"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1934, 0166.</bibl><bibl>IScM 1, 349.</bibl><bibl>S. Lambrino, REL 11, 1933, 458-459. - AE 1934.</bibl><bibl>S. Lambrino, in: J. Marouzeau (Hrsg.), Mélanges de philologie, de littérature et d'histoire anciennes offerts à J. Marouzeau (Paris 1948) 324, Nr. 13; fig. 4; fig. 3 (Zeichnung).</bibl><bibl>PIR (2. Aufl.) B 167.</bibl><bibl>PIR (2. Aufl.) A 475.</bibl><bibl>A. Avram, Dacia 51, 2007, 110, Nr. 349.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

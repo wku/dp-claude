@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Callatis &amp;ndash; Mangalia (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023619</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023619</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(43)</height><width>(93)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.2-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216744">Callatis</placeName></origPlace><origDate><origDate when-custom="0157" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">157 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/673921">Mangalia</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023619_1"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.+ / Τ.</name><name type="nomen">Aelius+ / Αἴλιος</name><name type="cognomen">Hadrianus+ Antoninus / ῾Αδριανὸς ᾿Αντωνῖνος</name></persName></person><person xml:id="HD023619_2"><persName><name type="praenomen">T.+ / T.+</name><name type="nomen">Vitrasius+ / Οὐιτράσιος+</name><name type="cognomen">Pollio+ / Πωλλίων+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-04-02" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> Aelio H</supplied>adriano Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio pon<lb break="no" n="2"/><supplied reason="lost">tifici maximo tribu</supplied><expan><abbr>nic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> XX <expan><abbr>imp</abbr><ex>eratori</ex></expan> iterum <expan><abbr>co</abbr><ex>n</ex></expan><supplied reason="lost"><expan><abbr>s</abbr><ex>uli</ex></expan></supplied> <lb n="3"/><supplied reason="lost">IIII <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> curante <expan><abbr>T</abbr><ex>ito</ex></expan> Vitrasio P</supplied>o<supplied reason="lost">l</supplied>lione <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> civitas <expan><abbr>Callat</abbr><ex>ianorum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Αὐτοκράτορι Καίσαρι</supplied> Τίτῳ Αἰλίῳ Ἁδριανῷ Ἀντωνείνῳ Σεβ(αστῷ) <lb n="2"/><supplied reason="lost">Εὐσεβεῖ, ἀρχιερεῖ μεγίστῳ, δη</supplied>μαρχικῆς ἐξουσίας τὸ κ αὐτοκρ<supplied reason="lost">ά</supplied><lb break="no" n="3"/><supplied reason="lost">τορι τὸ δεύτερον, ὑπάτῳ</supplied> τὸ δ, π(ατρὶ) π(ατρίδος), προνοήσαντος <supplied reason="lost">Τίτου Οὐι</supplied><lb break="no" n="4"/><supplied reason="lost">τρασίου Πω</supplied>λλίωνος, <supplied reason="lost">πρεσβευτοῦ καὶ ἀντιστρατήγου, ἡ πόλις</supplied> <lb n="5"/><supplied reason="lost">ἡ Καλλατιανῶν</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1928, 0193.</bibl><bibl>O. Tafareli, A&amp;A 1, 1927, 39-40, 29. - AE 1928.</bibl><bibl>AE 1937, 0247.</bibl><bibl>IScM 3, 060; Foto.</bibl><bibl>PIR P 558.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

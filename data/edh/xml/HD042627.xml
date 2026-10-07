@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042627</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042627</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material>Gesteine</material><dimensions unit="cm"><height>(82)</height><width>(73)</width><depth>(34)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate when-custom="0196" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">196 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1991"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot">Lager, {principia, Raum Cz}, Eingang, bei</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042627_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Septimius*</name><name type="cognomen">Severus Pertinax</name></persName></person><person xml:id="HD042627_10" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Eufeminus</name></persName></person><person xml:id="HD042627_11" sex="M"><persName><name type="nomen">Dovius*</name><name type="cognomen">Fortunatus</name></persName></person><person xml:id="HD042627_12" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Cydias</name></persName></person><person xml:id="HD042627_13" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Dexter</name></persName></person><person xml:id="HD042627_14" sex="M"><persName><name type="nomen">Granius*?</name><name type="cognomen">Ie[-]a[-]lida</name></persName></person><person xml:id="HD042627_15" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Co[---]</name></persName></person><person xml:id="HD042627_16" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Ni[---]</name></persName></person><person xml:id="HD042627_17" sex="M"><persName><name type="nomen">Mufeius*?</name><name type="cognomen">Ter[---]</name></persName></person><person xml:id="HD042627_18" sex="M"><persName><name type="nomen">Num(---)</name><name type="cognomen">F[---]</name></persName></person><person xml:id="HD042627_19" sex="M"><persName><name type="nomen">Petronius*</name><name type="cognomen">Florus+?</name></persName></person><person xml:id="HD042627_2" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Concessus</name></persName></person><person xml:id="HD042627_20" sex="M"><persName><name type="nomen">Humidius*</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD042627_3" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Constans</name></persName></person><person xml:id="HD042627_4" sex="M"><persName><name type="nomen">Sabinius*?</name><name type="cognomen">Pudens</name></persName></person><person xml:id="HD042627_5" sex="M"><persName><name type="nomen">Fannius*</name><name type="cognomen">Semninius</name></persName></person><person xml:id="HD042627_6" sex="M"><persName><name type="nomen">Baebius*</name><name type="cognomen">Urvinianus</name></persName></person><person xml:id="HD042627_7" sex="M"><persName><name type="nomen">Ennius*</name><name type="cognomen">Deccius</name></persName></person><person xml:id="HD042627_8" sex="M"><persName><name type="nomen">Numisius+*</name><name type="cognomen">Florus</name></persName></person><person xml:id="HD042627_9" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">Quietus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari divi <expan><abbr>M</abbr><ex>arci</ex></expan> <lb n="2"/>Antonini Pii <expan><abbr>Germa</abbr><ex>nici</ex></expan> <lb n="3"/><expan><abbr>Sarm</abbr><ex>atici</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> divi Commo<lb break="no" n="4"/>di fratri divi Antonini Pii <lb n="5"/><expan><abbr>nep</abbr><ex>oti</ex></expan> divi Hadriani <expan><abbr>pronep</abbr><ex>oti</ex></expan> <lb n="6"/>divi Traiani <expan><abbr>Parth</abbr><ex>ici</ex></expan> <expan><abbr>abnep</abbr><ex>oti</ex></expan> di<lb break="no" n="7"/>vi Nervae <expan><abbr>adnep</abbr><ex>oti</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> <expan><abbr>Septim</abbr><ex>io</ex></expan> <lb n="8"/>Severo Pio Pertinaci <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="9"/><expan><abbr>Arab</abbr><ex>ico</ex></expan> <expan><abbr>Adiab</abbr><ex>enico</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> IIII <lb n="10"/><expan><abbr>imp</abbr><ex>eratori</ex></expan> VIII co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II primi <expan><abbr>ord</abbr><ex>ines</ex></expan> <lb n="11"/>et <expan><abbr>centurion</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>Ital</abbr><ex>icae</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Aur</abbr><ex>elius</ex></expan> Conces</ab></div><div n="3" type="textpart"><ab><lb n="1"/>sus </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Constans <lb n="2"/><expan><abbr>Sab</abbr><ex cert="low">inius</ex></expan> Pudens <lb n="3"/><expan><abbr>Fan</abbr><ex>nius</ex></expan> Semninius <lb n="4"/><expan><abbr>Bae</abbr><ex>bius</ex></expan> Urvinianus <lb n="5"/><expan><abbr>n<am>n</am></abbr><ex>ius</ex></expan> Deccius <lb n="6"/><expan><abbr>coh</abbr><ex>ors</ex></expan> II <lb n="7"/><expan><abbr><supplied reason="lost">Nu</supplied>mis</abbr><ex>ius</ex></expan> Florus <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> Quietus <lb n="9"/>(A)<expan><abbr>el</abbr><ex cert="low">ius</ex></expan> Eufeminus <lb n="10"/><expan><abbr>Dov</abbr><ex>ius</ex></expan> Fortunatus <lb n="11"/><expan><abbr>Ael</abbr><ex>ius</ex></expan> Cydias <lb n="12"/><expan><abbr>coh</abbr><ex>ors</ex></expan> III <lb n="13"/><expan><abbr>Cl</abbr><ex>audius</ex></expan> Dexter <lb n="14"/><expan><abbr>Gran</abbr><ex cert="low">ius</ex></expan> Ie<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>a<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>lida </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Co<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Ni<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>coh</abbr><ex>ors</ex></expan> <supplied reason="lost">IIII</supplied> <lb n="4"/><expan><abbr>Muf</abbr><ex cert="low">eius</ex></expan> Ter<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>coh</abbr><ex>ors</ex></expan> <supplied reason="lost">V</supplied> <lb n="6"/><abbr>Num</abbr> F<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr>Pet</abbr><ex cert="low">ronius</ex></expan> Flo<supplied reason="lost" cert="low">rus</supplied> <lb n="8"/><expan><abbr>Humid</abbr><ex>ius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/>co<supplied reason="lost"><expan><abbr>h</abbr><ex>ors</ex></expan> VI</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Inschrift verteilt sich auf die Vorderseite (Widmung an Septimius Severus) und die rechte Nebenseite (Liste der Dedikanten); von der Liste sind ca. eineinhalb Kolumnen erhalten (der erste Name greift auf die zweite Kolumne über).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1993, 1364.</bibl><bibl>IGLN 057bis; pl. 22, 57bis (Fotos u. Zeichnung).</bibl><bibl>T. Sarnowski, ZPE 95, 1993, 205-218; Taf. 5 b u. c. - AE 1993.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

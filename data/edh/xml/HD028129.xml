@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Pavel Banja (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028129</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028129</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731572">Pavel Banja</placeName><placeName type="findspot">{Gabarevo}</placeName><placeName type="region">Stara Zagora</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-20" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                ------ et I] Ulpia <supplied reason="lost">s</supplied>in<supplied reason="lost"><expan><abbr>g</abbr><ex>ularium</ex></expan> et I</supplied> <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>dromad</abbr><ex>ariorum</ex></expan> et co<supplied reason="lost"><expan><abbr>h</abbr><ex>ortibus</ex></expan></supplied> <lb n="2"/>XVI I Ulpia Dac<supplied reason="lost"><expan><abbr>or</abbr><ex>um</ex></expan></supplied> et I <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>Petreor</abbr><ex>um</ex></expan> et I Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usta</ex></expan></supplied> <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>iorum</ex></expan> et I <expan><abbr>Cl<supplied reason="lost">au</supplied>d</abbr><ex>ia</ex></expan> <expan><abbr>Sugambr</abbr><ex>orum</ex></expan> et I <expan><abbr>Ascalonit</abbr><ex>arum</ex></expan> <lb n="4"/><expan><abbr>sag</abbr><ex>ittaria</ex></expan> et I <expan><abbr>Flav</abbr><ex>ia</ex></expan> <expan><abbr>C<supplied reason="lost">ha</supplied>lciden</abbr><ex>orum</ex></expan> et II <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>equit</abbr><ex>ata</ex></expan> et <lb n="5"/>II <expan><abbr>Italic</abbr><ex>a</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> e<supplied reason="lost">t I</supplied>I Ulpia <expan><abbr>Paphlag</abbr><ex>onum</ex></expan> et II <expan><abbr>Thrac</abbr><ex>um</ex></expan> <lb n="6"/><expan><abbr>Suric</abbr><ex>a</ex></expan> et II <expan><abbr>classic</abbr><ex>a</ex></expan> <expan><abbr>sag</abbr><ex>ittaria</ex></expan> et III <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>Paphlag</abbr><ex>onum</ex></expan> et <lb n="7"/>III <expan><abbr>Aug</abbr><ex>usta</ex></expan> <expan><abbr>Thrac</abbr><ex>um</ex></expan> et IV <expan><abbr>Gall</abbr><ex>orum</ex></expan> et &amp;lt;V&amp;gt; <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>Petreor</abbr><ex>um</ex></expan> et <lb n="8"/>VII <expan><abbr>Gallor</abbr><ex>um</ex></expan> et sunt in Suria sub Attidio <lb n="9"/>Corneliano <expan><abbr>leg</abbr><ex>ato</ex></expan> quinis et <expan><abbr>vicen</abbr><ex>is</ex></expan> plurib<expan><ex>us</ex><abbr>ve</abbr></expan> <lb n="10"/><expan><abbr>stipend</abbr><ex>iis</ex></expan> <expan><abbr>emerit</abbr><ex>is</ex></expan> <expan><abbr>dimiss</abbr><ex>is</ex></expan> <expan><abbr>honest</abbr><ex>a</ex></expan> <expan><abbr>miss</abbr><ex>ione</ex></expan> <lb n="11"/><expan><abbr><supplied reason="lost">q</supplied>uor</abbr><ex>um</ex></expan> <expan><abbr>nomin</abbr><ex>a</ex></expan> <expan><abbr>subscr</abbr><ex>ipta</ex></expan> sunt <expan><abbr>civit</abbr><ex>atem</ex></expan> <expan><abbr>Roman</abbr><ex>am</ex></expan> <lb n="12"/><supplied reason="lost">qui</supplied> <expan><abbr>eor</abbr><ex>um</ex></expan> non <expan><abbr>haber</abbr><ex>ent</ex></expan> dedit et <expan><abbr>conub</abbr><ex>ium</ex></expan> cum <supplied reason="lost"><expan><abbr>uxor</abbr><ex>ibus</ex></expan></supplied> <lb n="13"/>quas tunc <expan><abbr>habuis</abbr><ex>sent</ex></expan> cum est ci<supplied reason="lost"><expan><abbr>v</abbr><ex>itas</ex></expan> is data</supplied> <lb n="14"/>aut cum is quas <expan><abbr>post</abbr><ex>ea</ex></expan> du<supplied reason="lost"><expan><abbr>xiss</abbr><ex>ent</ex></expan></supplied> <lb n="15"/><supplied reason="lost">dumtaxa</supplied>t singuli <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> IV <gap reason="lost" extent="unknown" unit="character"/> <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/>ono <expan><abbr>C</abbr><ex>aio</ex></expan> Aelio Se<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="17"/><supplied reason="lost">alae I U</supplied><expan><abbr>lp</abbr><ex>iae</ex></expan> singul<supplied reason="lost">arium cui <expan><abbr>prae</abbr><ex>e</ex>st</expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>n <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/>N<gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Cae</supplied><expan><abbr>s</abbr><ex>ar</ex></expan> divi Hadria<supplied reason="lost">ni <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Traiani</supplied> <lb n="2"/><supplied reason="lost">Parthici</supplied> <expan><abbr>n</abbr><ex>epos</ex></expan> divi Nervae <supplied reason="lost"><expan><abbr>pron</abbr><ex>epos</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>T</abbr><ex>itus</ex></expan> Ael</supplied>ius Hadrianus An<supplied reason="lost">toninus <expan><abbr>Au</abbr><ex>gustus</ex></expan></supplied> <lb n="4"/><supplied reason="lost">Pius</supplied> <expan><abbr>p</abbr><ex>ontifex</ex></expan> <expan><abbr>m</abbr><ex>aximus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XX <expan><abbr>imp</abbr><ex>erator</ex></expan> I<supplied reason="lost">I <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>eq</abbr><ex>uitibus</ex></expan> et pe</supplied><expan><abbr>d</abbr><ex>itibus</ex></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>m</abbr><ex>ilitaverunt</ex></expan> in alis <supplied reason="lost">IIII</supplied> <expan><abbr>q</abbr><ex>uae</ex></expan> appe<supplied reason="lost">llantur <gap reason="lost" extent="unknown" unit="character"/> et</supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>Thr</abbr><ex>acum</ex></expan> H</supplied><expan><abbr>erc</abbr><ex>uliana</ex></expan> et I Ulpia <expan><abbr>sing</abbr><ex>ularium</ex></expan> et I <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <supplied reason="lost"><expan><abbr>dromad</abbr><ex>ariorum</ex></expan> et</supplied> <lb n="7"/><supplied reason="lost"><expan><abbr>coh</abbr><ex>ortibus</ex></expan> XVI</supplied> I <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>Dacor</abbr><ex>um</ex></expan> et I <expan><abbr>Ulp</abbr><ex>ia</ex></expan> Petr<expan><ex>e</ex><abbr>or</abbr><ex>um</ex></expan> et I <supplied reason="lost"><expan><abbr>Aug</abbr><ex>usta</ex></expan> <expan><abbr>Pannon</abbr><ex>iorum</ex></expan></supplied> <lb n="8"/><supplied reason="lost">et I <expan><abbr>Claud</abbr><ex>ia</ex></expan> S</supplied><expan><abbr>ugambr</abbr><ex>orum</ex></expan> et I <expan><abbr>Ascalon</abbr><ex>itarum</ex></expan> <expan><abbr>s</abbr><ex>agittaria</ex></expan> et I Fl<supplied reason="lost"><expan><abbr>av</abbr><ex>ia</ex></expan> <expan><abbr>Chalciden</abbr><ex>orum</ex></expan></supplied> <lb n="9"/><supplied reason="lost">et II <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>equit</abbr><ex>ata</ex></expan> et I</supplied>I <expan><abbr>Italic</abbr><ex>a</ex></expan> <supplied reason="lost"><expan><abbr>c</abbr><ex>ivium</ex></expan></supplied> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et II <expan><abbr>Ulp</abbr><ex>ia</ex></expan> Paphl<supplied reason="lost"><expan><abbr>ag</abbr><ex>onum</ex></expan> et II <expan><abbr>Thrac</abbr><ex>um</ex></expan></supplied> <lb n="10"/><supplied reason="lost"><expan><abbr>Suric</abbr><ex>a</ex></expan></supplied> et II <expan><abbr>classi</abbr><ex>ca</ex></expan> <expan><abbr>sag</abbr><ex>ittaria</ex></expan> et III <expan><abbr>Ulp</abbr><ex>ia</ex></expan> Paphl<supplied reason="lost"><expan><abbr>ag</abbr><ex>onum</ex></expan> et III <expan><abbr>Aug</abbr><ex>usta</ex></expan></supplied> <lb n="11"/><supplied reason="lost"><expan><abbr>Thrac</abbr><ex>um</ex></expan> e</supplied>t IV <expan><abbr>Gall</abbr><ex>orum</ex></expan> et V <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>Petr</abbr><ex>eorum</ex></expan> et VII <expan><abbr>Gall</abbr><ex>orum</ex></expan> et <supplied reason="lost">sunt in</supplied> <lb n="12"/><supplied reason="lost">Suria</supplied> sub Attidio Corneliano <expan><abbr>leg</abbr><ex>ato</ex></expan> XXV <supplied reason="lost"><expan><abbr>plurib</abbr><ex>us</ex>ve</expan> <expan><abbr>stipend</abbr><ex>iis</ex></expan></supplied> <lb n="13"/><supplied reason="lost"><expan><abbr>emerit</abbr><ex>is</ex></expan> di</supplied><expan><abbr>m</abbr><ex>issis</ex></expan> <expan><abbr>hon</abbr><ex>esta</ex></expan> <expan><abbr>mis</abbr><ex>sione</ex></expan> <expan><abbr>quor</abbr><ex>um</ex></expan> <expan><abbr>nomin</abbr><ex>a</ex></expan> <expan><abbr>subscr</abbr><ex>ipta</ex></expan> <supplied reason="lost">sunt <expan><abbr>civit</abbr><ex>atem</ex></expan></supplied> <lb n="14"/><supplied reason="lost"><expan><abbr>Roman</abbr><ex>am</ex></expan></supplied> qui <expan><abbr>eor</abbr><ex>um</ex></expan> non <expan><abbr>haber</abbr><ex>ent</ex></expan> <expan><abbr>ded</abbr><ex>it</ex></expan> et co<supplied reason="lost"><expan><abbr>nub</abbr><ex>ium</ex></expan> cum</supplied> <lb n="15"/><supplied reason="lost"><expan><abbr>uxor</abbr><ex>ibus</ex></expan></supplied> quas tunc <expan><abbr>habuis</abbr><ex>sent</ex></expan> cum est <expan><abbr>civ</abbr><ex>itas</ex></expan> <supplied reason="lost">is data</supplied> <lb n="16"/><supplied reason="lost">aut cum is qua</supplied>s <expan><abbr>post</abbr><ex>ea</ex></expan> <expan><abbr>duxiss</abbr><ex>ent</ex></expan> dum[taxat singulis ------
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1900, 0027.</bibl><bibl>AE 1900, 0058.</bibl><bibl>CIL 16, 00106.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

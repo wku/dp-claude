@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Istrus &amp;ndash; Istria (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016456</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016456</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Istria, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>164</height><width>54</width><depth>32</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216839">Istrus</placeName></origPlace><origDate><origDate when-custom="0152" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">152 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675471">Istria</placeName><placeName type="findspot">spätantike Festung, {Basilika}, Nordwand, sekundär verwendet</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016456_1"><persName><name type="nomen">Sicinius</name><name type="cognomen">Porphyrio</name></persName></person><person xml:id="HD016456_2"><persName><name type="cognomen">Glabrio</name></persName></person><person xml:id="HD016456_3"><persName><name type="cognomen">Homullus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-07-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Heroni Invic<lb break="no" n="2"/>to Sicinius <lb n="3"/>Porphyrio <lb n="4"/>pro salutem <note>sic</note> <lb n="5"/>suam <note>sic</note> et suorum <lb n="6"/>ex imperio Hero<lb break="no" n="7"/>nis <expan><abbr>lib</abbr><ex>ens</ex></expan> animo feci <lb n="8"/>Glabrione et Homu<lb break="no" n="9"/>l<expan><ex>l</ex><abbr>o</abbr></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>In mehrere Teile gebrochen. Oberhalb der Inschrift Reliefdarstellung eines Reiters. Hederae als Worttrenner. Z. 6: animo mit AN-Ligatur. (B): Pippidi; AE 1962: a&amp;lt;n&amp;gt;i{i}mo.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1962, 0008. (B)</bibl><bibl>D.M. Pippidi, AAntHung 10, 1962, 219-223, Nr. 1; fig. 1. (B) - AE 1962.</bibl><bibl>PIR (2. Aufl.) A 73.</bibl><bibl>PIR V 61.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

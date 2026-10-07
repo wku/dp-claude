@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD046185</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD046185</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot"/><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD046185_1" sex="M"><persName ref="http://romans1by1.com/rpeople/1113"><name type="praenomen">P.</name><name type="nomen">Aelius* Septimius*</name><name type="cognomen">Audeo</name><name type="supernomen">qui et Maximus</name></persName></person><person xml:id="HD046185_2" sex="M"><persName ref="http://romans1by1.com/rpeople/1114"><name type="nomen">Aelius* Septimius*</name><name type="cognomen">Romanus</name></persName></person><person xml:id="HD046185_3" sex="W"><persName ref="http://romans1by1.com/rpeople/1115"><name type="nomen">Septimia</name><name type="cognomen">Septimina</name><name type="supernomen">quae et Revocata</name></persName></person><person xml:id="HD046185_4" sex="W"><persName ref="http://romans1by1.com/rpeople/1116"><name type="nomen">Cornelia+</name><name type="cognomen">Antonia</name></persName></person><person xml:id="HD046185_5" sex="M"><persName ref="http://romans1by1.com/rpeople/1117"><name type="nomen">Septimius+</name><name type="cognomen">Asclepiades</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-25" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> <expan><abbr>Sept</abbr><ex>imius</ex></expan> Audeo qui et Maxi<lb break="no" n="2"/>mus <expan><abbr>vet</abbr><ex>eranus</ex></expan> ex |(centurione) <expan><abbr>n</abbr><ex>umeri</ex></expan> <expan><abbr>P</abbr><ex>almyrenorum</ex></expan> <expan><abbr>O</abbr><ex>ptatianensium</ex></expan> vixit <expan><abbr>n<am>n</am></abbr><ex>is</ex></expan> LX <lb n="3"/><expan><abbr>Ael</abbr><ex>ius</ex></expan> <expan><abbr>Sept</abbr><ex>imius</ex></expan> Romanus <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XIII <expan><abbr>g</abbr><ex>eminae</ex></expan> <lb n="4"/><expan><abbr><supplied reason="lost">a</supplied>diut</abbr><ex>or</ex></expan> <expan><abbr>offic</abbr><ex>ii</ex></expan> <expan><abbr>cornicul</abbr><ex>ariorum</ex></expan> et Septimia <lb n="5"/>Septimina quae et Revocata <expan><abbr>fil</abbr><ex>ii</ex></expan> et <lb n="6"/><supplied reason="lost">C</supplied>ornelia Antonia uxor heredes <lb n="7"/><supplied reason="lost">p</supplied>onendum curaverunt <expan><abbr>cura</abbr><ex>m</ex></expan> <expan><abbr>agent</abbr><ex>e</ex></expan> <lb n="8"/><supplied reason="lost">S</supplied>eptimio Asclepiade <expan><abbr>Aug</abbr><ex>ustali</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <lb n="9"/>liberto eius
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment von der Vorderseite eines Sarkophagkastens. Inschrifttext nur handschriftlich überliefert; Lesung nach IDR III.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 2, 366; fig. 300 (Zeichnung).</bibl><bibl>CIL 03, 01471.</bibl><bibl>A. Buonopane - V. La Monaca, in: G.P. Marchi - J. Pál (Hrsg.), Epigrafi romane di Transilvania. Bibliotheca Capitolare di Verona, Manoscritto CCLXVII (Verona - Szeged 2010) 304, Nr. 4; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

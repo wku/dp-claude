@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Potaissa &amp;ndash; Turda (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD048895</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD048895</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>131</height><width>71</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207362">Potaissa</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/664460">Turda</placeName><placeName type="findspot"/><placeName type="region">Cluj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD048895_1"><persName ref="http://romans1by1.com/rpeople/7933"><name type="nomen">Aelius*</name><name type="cognomen">Tiiadmes</name></persName></person><person xml:id="HD048895_2"><persName ref="http://romans1by1.com/rpeople/7935"><name type="cognomen">Surillio</name></persName></person><person xml:id="HD048895_3"><persName ref="http://romans1by1.com/rpeople/7936"><name type="cognomen">Rufina</name></persName></person><person xml:id="HD048895_4" sex="M"><persName ref="http://romans1by1.com/rpeople/7937"><name type="nomen">Aelius*</name><name type="cognomen">Bolhas</name></persName></person><person xml:id="HD048895_5"><persName><name type="cognomen">Bannaeus</name></persName></person><person xml:id="HD048895_6"><persName ref="http://romans1by1.com/rpeople/7938"><name type="nomen">Aelia*</name><name type="cognomen">Domestica</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-05-13" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Tiiadmes Palmura <note>sic</note> <lb n="2"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> VIII Surillio <lb n="3"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXV Rufina <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="4"/><expan><abbr>an</abbr><ex>nos</ex></expan> XX <expan><abbr>Ael</abbr><ex>ius</ex></expan> Bolhas Ban<lb break="no" n="5"/>naei <expan><abbr>vet</abbr><ex>eranus</ex></expan> ex <expan><abbr>n</abbr><ex>umero</ex></expan> <expan><abbr>Palmur</abbr><ex>enorum</ex></expan> <note>sic</note> <lb n="6"/>et <expan><abbr>Ael</abbr><ex>ia</ex></expan> Domestica co<lb break="no" n="7"/>niux <surplus>a</surplus>eius posuerant <lb n="8"/>filiae pientissimae et &amp;lt;d=C&amp;gt;u<lb break="no" n="9"/>lc<expan><ex>issi</ex><abbr>m</abbr><ex>a</ex><abbr>e</abbr></expan> et liberto et men<lb break="no" n="10"/>esteriis <note>sic</note> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erentibus</ex></expan> 
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 00907.</bibl><bibl>CIL 03, 07693.</bibl><bibl>C. Torma, AEM 4, 1880, 130-131, Nr. 10.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Cabyle &amp;ndash; Jambol (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016208</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016208</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>80</height><width>38</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216859">Cabyle</placeName></origPlace><origDate><origDate notBefore-custom="0135" notAfter-custom="0136" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">135 AD - 136 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/730799">Jambol</placeName><placeName type="findspot">Kabile, bei, {Zajči vrâh, Berg}, Osthang, spätantikes Gebäude, sekundär verwendet</placeName><placeName type="region">Jambol</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016208_1" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Lupus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-07-17" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><expan><abbr>Cl</abbr><ex>audius</ex></expan> Lupus <expan><abbr>praef</abbr><ex>ectus</ex></expan> <lb n="3"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> II <expan><abbr>Luc</abbr><ex>ensium</ex></expan> locum <lb n="4"/>consecravit qui <lb n="5"/>et <expan><abbr>castr</abbr><ex>a</ex></expan> posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung für ein spätantikes Bauwerk. Hederae in Z. 1. Datierung: vermutliche Errichtungszeit des Lagers. (B): Velkov, AArchHung 41, 1989, 250: Z. 4/5: consecravit / qui; Velkov, AArchHung 41, 1989, 253; AE 1991; Velkov, Kabile; AE 1999: Z. 4/5: qui et.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1402. (B)</bibl><bibl>V. Velkov, AArchHung 41, 1989, 250. 253, Nr. 5. (B) - AE 1991.</bibl><bibl>AE 1999, 1370. (B)</bibl><bibl>V. Velkov, Kabile 2, 1991, 12-13, Nr. 4; obr. 4. (B) - AE 1999.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

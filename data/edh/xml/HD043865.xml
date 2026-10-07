@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Hoghiz (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043865</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043865</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sibiu, Muz. Brukenthal</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>78</height><width>(123)</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">13-10</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/676087">Hoghiz</placeName><placeName type="findspot">{Lager}</placeName><placeName type="region">Brașov</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043865_1"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus+ Hadrianus+</name></persName></person><person xml:id="HD043865_2"><persName ref="http://romans1by1.com/rpeople/7422"><name type="praenomen">Ti.</name><name type="nomen">Claudius*</name><name type="cognomen">Constans+?</name></persName></person><person xml:id="HD043865_3" sex="M"><persName ref="http://romans1by1.com/rpeople/7423"><name type="cognomen">Antoninianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-04-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F006338" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b4faf7a2-2d55-47ce-90d1-07b610133640/file/id/767113/file_version/name/small"/><graphic xml:id="F036288" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ffa94fa8-8f88-46c1-be05-a2aa16458a6e/file/id/797145/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>Caes</abbr><ex>are</ex></expan> divi Traiani Pa</supplied><expan><abbr>rthic</abbr><ex>i</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> divi <lb n="2"/><supplied reason="lost">Nervae <expan><abbr>nep</abbr><ex>ote</ex></expan> Traiano Hadria</supplied>no <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>pontif</abbr><ex>ice</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> III <expan><abbr>p</abbr><ex>atre</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>vex</abbr><ex>illatio</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> XIII <expan><abbr>g</abbr><ex>eminae</ex></expan> sub <expan><abbr>Tib</abbr><ex>erio</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> <lb n="4"/><supplied reason="lost" cert="low">Constante? proc(uratore)? Aug(usti)? pro? leg(ato)? c(uram)? a</supplied><expan><abbr>g</abbr><ex>ente</ex></expan> Antonin<supplied reason="lost">i</supplied>ano <supplied reason="lost" cert="low">c(enturione)</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: um 130 n. Chr. (Prokuratur des Tib. Cl. Constans). (B): CIL III; Russu; IDR III 4: Abweichungen in Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1258.</bibl><bibl>I. Piso, ActaMusNapoca 37, 1, 2000, 235. - AE 2000.</bibl><bibl>CIL 03, 00953. (B)</bibl><bibl>IDR 3, 4, 230; fig. 140 (Foto u. Zeichnung). (B)</bibl><bibl>ILD 431.</bibl><bibl>I.I. Russu, AnInstCluj 18, 1975, 50-54; fig. 1 (Foto u. Zeichnung). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

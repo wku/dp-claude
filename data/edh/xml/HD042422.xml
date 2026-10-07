@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Montanensium, bei &amp;ndash; Červen Brjag (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042422</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042422</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(115)</height><width>100</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207293">Municipium Montanensium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0271" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">271 AD - 330 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731426">Červen Brjag</placeName><placeName type="findspot">Glava, {Friedhof}</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042422_1" sex="M"><persName><name type="nomen">Valerius*</name><name type="cognomen">Tzita</name><name type="supernomen">qui et Vitalis</name></persName></person><person xml:id="HD042422_2" sex="M"><persName><name type="cognomen">Florentius</name></persName></person><person xml:id="HD042422_3" sex="M"><persName><name type="cognomen">Vitalis</name></persName></person><person xml:id="HD042422_4" sex="M"><persName><name type="cognomen">Laurentzius (= Laurentius)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Tu viator qui tr</ab></div><div n="2" type="textpart"><ab><lb n="1"/>ansis <expan><abbr>rest</abbr><ex>a</ex></expan> <expan><abbr>leg</abbr><ex>e</ex></expan> <expan><abbr>tit</abbr><ex>ulum</ex></expan> o<lb break="no" n="2"/>biter <expan><abbr>le</abbr><ex>ge</ex></expan> et <expan><abbr>rep</abbr><ex>ete</ex></expan> <expan><abbr>s</abbr><ex>it</ex></expan> <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>t</abbr><ex>uis</ex></expan> <lb n="3"/><expan><abbr>t</abbr><ex>erra</ex></expan> <expan><abbr>l</abbr><ex>evis</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Tzita qui et Vi<lb break="no" n="4"/>talis <expan><abbr>vet</abbr><ex>eranus</ex></expan> et Florenti<lb break="no" n="5"/>us filius <expan><abbr>mil</abbr><ex>es</ex></expan> et Vitalis <lb n="6"/><expan><abbr>fil</abbr><ex>ius</ex></expan> <expan><abbr>mil</abbr><ex>es</ex></expan> Tzita pater <lb n="7"/>posuit Laurentzio <note>sic</note> <lb n="8"/><supplied reason="lost">f</supplied>ilio suo carissim<supplied reason="lost">o</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Dreiecksgiebel mit Rosette; Z. 1 befindet sich innerhalb des Giebels. Z. 4 (Anfang): Buchstabe L unsicher, vielleicht LP-Ligatur. (B): CIL III; Beševliev: Leseabweichung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 260, Nr. 504; Taf. 72, 3.</bibl><bibl>CIL 03, 12396. (B)</bibl><bibl>ILBulg 150; tab. 27, 150.</bibl><bibl>V. Beševliev, Spätgriechische und spätlateinische Inschriften aus Bulgarien (Berlin 1964) 31-32, Nr. 46. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

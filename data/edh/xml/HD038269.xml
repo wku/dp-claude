@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038269</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038269</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, Muz. Unirii</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>180</height><width>60</width><depth>56</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate when-custom="0215" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">215 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot"/><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038269_1"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD038269_2"><persName ref="http://romans1by1.com/rpeople/9411"><name type="praenomen">C.</name><name type="nomen">Aurelius*</name><name type="cognomen">Sigillius</name></persName></person><person xml:id="HD038269_3"><persName><name type="cognomen">Laetus</name></persName></person><person xml:id="HD038269_4"><persName><name type="cognomen">Cerialis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-14" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005021" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e91ea2be-7a31-4ed4-9dfd-a55440dd2c93/file/id/765798/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>et ceteris diis <lb n="3"/>deabusque im<lb break="no" n="4"/>mortalibus et Da<lb break="no" n="5"/>ciae <lb n="6"/>pro salute domi<lb break="no" n="7"/>ni <expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Aur</abbr><ex>elii</ex></expan> Antoni<lb break="no" n="8"/>ni Pii Felicis <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <lb n="9"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> Sigillius <expan><abbr>trib</abbr><ex>unus</ex></expan> <lb n="10"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XIII <expan><abbr>g</abbr><ex>eminae</ex></expan> Antonini<lb break="no" n="11"/>anae <expan><abbr>prid</abbr><ex>ie</ex></expan> <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>April</abbr><ex>es</ex></expan> <lb n="12"/>Laeto II et Cerialae co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 184; Foto u. Zeichnung.</bibl><bibl>CIL 03, 01063.</bibl><bibl>ILS 3922.</bibl><bibl>PIR (2. Aufl.) M 54.</bibl><bibl>PIR (2. Aufl.) M 735.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Kalojanovo (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018034</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018034</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726634">Kalojanovo</placeName><placeName type="findspot">{Suhozem}</placeName><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-26" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>erator</ex></expan> Caesar divi Vespasiani <expan><abbr>f</abbr><ex>ilius</ex></expan> Domitianus <lb n="2"/>Augustus Germanicus pontifex maximus <lb n="3"/><expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> X <expan><abbr>imp</abbr><ex>erator</ex></expan> XXI co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> XV censor perpetuus <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4"/>equitibus qui militant in alis tribus III Thra<lb break="no" n="5"/>cum Augusta et Flavia praetoria singulari<lb break="no" n="6"/>um et Gallorum et Thracum constantium <lb n="7"/>et peditibus et equitibus qui in cohortibus <lb n="8"/>septem I Thracum milliaria et I Gaetulo<lb break="no" n="9"/>rum et I Lucensium et I Sebastena <lb n="10"/>et II Thracum civium Romanorum et II <lb n="11"/>Thracum Syriaca et II Italica civium Roma<lb break="no" n="12"/>norum quae sunt in Syria sub <expan><abbr>A</abbr><ex>ulo</ex></expan> Bucio Lappio <lb n="13"/>Maximo qui quina et vicena plurave sti<lb break="no" n="14"/>pendia meruerunt item dimissis ho[nesta missione ------ </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Vespasiani <expan><abbr>f</abbr><ex>ilius</ex></expan> Domitianus <lb n="2"/>Augustus Germanicus pontifex maximus <lb n="3"/><expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> X <expan><abbr>imp</abbr><ex>erator</ex></expan> XXI co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> XV <lb n="4"/>censor perpetuus <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/>equitibus qui militant in alis tribus III <lb n="6"/>Thracum Augusta et Flavia praetoria sin<lb break="no" n="7"/>gularium et Gallorum et Thracum con<lb break="no" n="8"/>stantium et peditibus et equitibus qui in co<lb break="no" n="9"/>hortibus septem I Thracum milliaria et I <lb n="10"/>Gaetulorum et I Lucensium et I Sebastena <lb n="11"/>et II Thracum civium Romanorum et II <lb n="12"/>Thracum Syriaca et II Italica civium Roma<lb break="no" n="13"/>norum quae sunt in Syria sib <expan><abbr>A</abbr><ex>ulo</ex></expan> Bucio Lappio <lb n="14"/>Maximo qui quina et vicena plurave sti<lb break="no" n="15"/>pendia meruerunt item dimissis honesta <lb n="16"/>missione emeritis stipendiis quorum nomi<lb break="no" n="17"/>na subscripta sunt ipsis liberis posterisque <lb n="18"/>eorum civitatem dedit et conubium cum uxo<lb break="no" n="19"/>ribus quas tunc habuissent cum est civi<lb break="no" n="20"/>tas iis data aut si qui caelibes essent cum iis <lb n="21"/>quas postea duxissent dumtaxat singuli sin<lb break="no" n="22"/>gulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> IIII Idus Maias <lb n="23"/><expan><abbr>P</abbr><ex>ublio</ex></expan> Valerio Marino <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Minicio Faustino co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="24"/>alae III Thracum Augustae cui pra<expan><ex>e</ex><abbr>est</abbr></expan> <lb n="25"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Terentius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Pol</abbr><ex>lia</ex></expan> Quirinalis <lb n="26"/>gregali <lb n="27"/>Quelse Dolae <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Thrac</abbr><ex>o</ex></expan> descriptum et recognitum ex tabula aenea <lb n="28"/>quae fixa est Romae in muro post templum <lb n="29"/>divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1961, 0319.</bibl><bibl>RMD 004.</bibl><bibl>L. Botušarova, in: Mélanges D. Dečev. Studia in honorem D. Dečev (Sofia 1958) 317-322; obr. 1 u. 2. - AE 1961.</bibl><bibl>PIR (2. Aufl.) L 84.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

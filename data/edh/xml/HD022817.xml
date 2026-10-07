@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Vidin (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD022817</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD022817</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728834">Vidin</placeName><placeName type="findspot">{Negovanovci}</placeName><placeName type="region">Vidin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-21" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Vespasiani <expan><abbr>f</abbr><ex>ilius</ex></expan> Domitianus <lb n="2"/>Augustus Germanicus pontifex maximus <lb n="3"/><expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> XIII <expan><abbr>imp</abbr><ex>erator</ex></expan> XXII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> XVI <lb n="4"/>censor perpetuus <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/>equitibus et peditibus qui militant in alis tri<lb break="no" n="6"/>bus et cohortibus novem quae appellantur <lb n="7"/>II Pannoniorum et Claudia nova et praeto<lb break="no" n="8"/>ria et I Cilicum et I Cisipadensium et I Cretum <lb n="9"/>et I Flavia Hispanorum milliaria et I Antio<lb break="no" n="10"/>chensium et II Gallorum Macedonica et IIII <lb n="11"/>Raetorum et V Gallorum et V Hispanorum et <lb n="12"/>sunt in Moesia superiore sub <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Aemilio Cica<lb break="no" n="13"/>tricula Pompeio Longino qui quina et vice<lb break="no" n="14"/>na stipendia aut plura meruerunt item di<lb break="no" n="15"/>missis honesta missione emeritis stipendiis <lb n="16"/>quorum nomina subscripta sunt ipsis liberis <lb n="17"/>posterisque eorum civitatem dedit et conubi<lb break="no" n="18"/>um cum uxoribus quas tunc habuissent c<expan><ex>u</ex><abbr>m</abbr></expan> <lb n="19"/>est civitas iis data aut siqui caelibes essent cum <lb n="20"/>iis quas postea duxissent dumtaxat singuli <lb n="21"/>singulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> XVI <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Domit</abbr><ex>ianas</ex></expan> <lb n="22"/><expan><abbr>T</abbr><ex>ito</ex></expan> Pomponio Basso <expan><abbr>L</abbr><ex>ucio</ex></expan> Silio Deciano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="23"/><expan><abbr>cohort</abbr><ex>is</ex></expan> I Cisipadensium cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="24"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Cilnius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Pom</abbr><ex>ptina</ex></expan> Secundus <lb n="25"/>pediti <lb n="26"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Cassio Cassi <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Larisen</abbr><ex>o</ex></expan> <lb n="27"/>descriptum et recognitum ex tabula aenea <lb n="28"/>quae fixa est Romae in muro post templum <lb n="29"/>divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Vespasiani <expan><abbr>f</abbr><ex>ilius</ex></expan> Domitianus <lb n="2"/>Aucustus <note>sic</note> Germanicus pontifex maximus <lb n="3"/><expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> XIII <expan><abbr>imp</abbr><ex>erator</ex></expan> XXII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> XVI <lb n="4"/>censor perpetuus <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/>equitibus et peditibu&amp;lt;s=E&amp;gt; qui militant in alis tri<lb break="no" n="6"/>bus et cohortibus novem quae appellantur II <lb n="7"/>Pannoniorum et Claudia nova et praetoria <lb n="8"/>et I Cilicum &amp;lt;et=CI&amp;gt; I Cisipadensium et I Cretum et I <lb n="9"/>Flavia Hispanorum milliaria et I Antio<lb break="no" n="10"/>chensium et II Gallorum Macedonica et <lb n="11"/>IIII Raetorum et V Gallorum et V Hispa<lb break="no" n="12"/>norum et sunt in Moesia superiore <lb n="13"/>sub <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Aemilio Cicatricula Pompeio Lon<lb break="no" n="14"/>cino <note>sic</note> qui quina et vicena stipendia </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Aut <supplied reason="lost">plu</supplied>ra mer<supplied reason="lost">u</supplied>erunt item dimissis <lb n="2"/>honesta missione emeritis stipendiis <lb n="3"/>quorum nomina subscripta sunt ipsis li<lb break="no" n="4"/>beris posterisque e<supplied reason="lost">o</supplied>rum civitatem de<lb break="no" n="5"/>dit et conubium cum uxoribus quas tunc <lb n="6"/>habuissent cum est civitas iis data aut siqui <lb n="7"/>caelibes essent cum iis quas postea duxissent <lb n="8"/>dumtaxat singuli singulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> XVI <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Domit</abbr><ex>ianas</ex></expan> <lb n="9"/><expan><abbr>T</abbr><ex>ito</ex></expan> Pomponio Basso <expan><abbr>L</abbr><ex>ucio</ex></expan> Silio Deciano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="10"/><expan><abbr>cohort</abbr><ex>is</ex></expan> I Cisipadensium cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="11"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Cilnius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Pom</abbr><ex>ptina</ex></expan> Secundus <lb n="12"/>pe<supplied reason="lost">di</supplied>ti <lb n="13"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Cassio Cassi <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Larisen</abbr><ex>o</ex></expan> <lb n="14"/>descriptum et recognitum ex tabula ae<lb break="no" n="15"/>nea quae fixa est Romae </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>Q</abbr><ex>uinti</ex></expan> Orfi Cupiti <lb n="2"/><expan><abbr>C</abbr><ex>ai</ex></expan> Iuli Saturnini <lb n="3"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> Aemili Soterichi <lb n="4"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli Sperati <lb n="5"/><expan><abbr>Cn</abbr><ex>aei</ex></expan> Egnati Vitalis <lb n="6"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli Heraclaes <note>sic</note> <lb n="7"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Cauli Vitalis 
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1897, 0108.</bibl><bibl>CIL 16, 00039.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

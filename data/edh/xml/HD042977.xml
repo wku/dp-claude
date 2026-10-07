@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Tomi &amp;ndash; Poarta Albă (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042977</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042977</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><dimensions unit="cm"><height>42</height><width>310</width><depth>42</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217016">Tomi</placeName></origPlace><origDate><origDate notBefore-custom="0116" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">116 AD - 117 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/670376">Poarta Albă</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042977_1"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva+ Traianus</name></persName></person><person xml:id="HD042977_2"><persName><name type="praenomen">Q.</name><name type="nomen">Roscius Coelius Pompeius+</name><name type="cognomen">Murena Falco</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-10-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari divi Nervae <expan><abbr>f</abbr><ex>ilio</ex></expan> N<supplied reason="lost">er</supplied>vae Traiano optimo <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>Ger</abbr><ex>manico</ex></expan> <lb n="2"/><expan><abbr>Dac</abbr><ex>ico</ex></expan> <expan><abbr><supplied reason="lost">P</supplied>arth</abbr><ex>ico</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> po<supplied reason="lost"><expan><abbr>t</abbr><ex>estate</ex></expan> X</supplied>XI <expan><abbr>imp</abbr><ex>eratori</ex></expan> XII co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> VI <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> res publica <expan><abbr>Tomit</abbr><ex>anorum</ex></expan> <lb n="3"/><expan><abbr>Q</abbr><ex>uinto</ex></expan> Roscio Murena Coelio Po<supplied reason="lost"><expan><abbr>mp</abbr><ex>eio</ex></expan></supplied> Falcone <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Architrav; in mehrere Fragmente gebrochen; der rechte Teil wurde in Poarta Albă, der linke in Constanţa gefunden. Die Inschriftzeilen verteilt sich auf die 3 Faszien. (B): CIL III; IScM II: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IScM 2, 043; Foto. (B)</bibl><bibl>CIL 03, 07537. (B)</bibl><bibl>PIR (2. Aufl.) P 602.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

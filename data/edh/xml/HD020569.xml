@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020569</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020569</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarmizegetusa, Muz. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(64)</height><width>(54)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1935"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">{Forum Vetus, Nord-West-Ecke}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020569_1" sex="W"><persName ref="http://romans1by1.com/rpeople/1784"><name type="nomen">Aelia</name><name type="cognomen">Lucilla</name></persName></person><person xml:id="HD020569_2" sex="M"><persName ref="http://romans1by1.com/rpeople/1785"><name type="nomen">Aelius</name><name type="cognomen">Theodorus</name></persName></person><person xml:id="HD020569_3" sex="M"><persName ref="http://romans1by1.com/rpeople/1786"><name type="nomen">Aelius</name><name type="cognomen">Firminus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-09-05" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004868" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/105f25ea-65de-4be8-8896-daf786395b24/file/id/765623/file_version/name/small"/><graphic xml:id="F012935" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4d43d88f-9ea8-41dc-b1d3-59e2b5ce0c76/file/id/772460/file_version/name/small"/><graphic xml:id="F036526" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e75a1622-e415-43a9-93d4-f92966c33816/file/id/797384/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Aeliae <expan><abbr>P</abbr><ex>ubli</ex></expan> fil<supplied reason="lost">iae</supplied> <lb n="2"/>Lucillae <lb n="3"/>Aelii <lb n="4"/>Theodorus et <lb n="5"/>Firminus <lb n="6"/>alumn<supplied reason="lost">i</supplied> <lb n="7"/><expan><abbr>l</abbr><ex>oco</ex></expan> <expan><abbr>d</abbr><ex>ato</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>ecurionum</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Piso, AE 1977, IDR: geringfügig abweichende Textwiedergaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0685. (B)</bibl><bibl>IDR 3, 2, 103; fig. 81 (Foto u. Zeichnung). (B)</bibl><bibl>I. Piso, Sargetia 11/12, 1974/75, 70, Nr. 22; fig. 22 a; fig. 22 b (Zeichnung). (B) - AE 1977.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

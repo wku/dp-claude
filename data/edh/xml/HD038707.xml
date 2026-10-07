@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038707</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038707</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, Muz. Unirii</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>96</height><width>50</width><depth>39</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0208" notAfter-custom="0210" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">208 AD - 210 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">{Festung}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038707_1"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="cognomen">Severus</name></persName></person><person xml:id="HD038707_2"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD038707_3"><persName><name type="cognomen">Geta+++</name></persName></person><person xml:id="HD038707_4"><persName ref="http://romans1by1.com/rpeople/5543"><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Maximinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-05-24" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005034" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/55ca0ce7-6c60-44ef-8def-a03021143d2f/file/id/765811/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Numinib</abbr><ex>us</ex></expan> A<supplied reason="lost"><expan><abbr>ugg</abbr><ex>ustorum</ex></expan></supplied> <lb n="2"/>Severi et <lb n="3"/>Antonini <del rend="erasure">et</del> <lb n="4"/><del rend="erasure">Getae Cae</del><expan><abbr>s</abbr><ex>aris</ex></expan> et <lb n="5"/>deae Dianae <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius <lb n="7"/>Maximinus <lb n="8"/><expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <lb n="9"/><expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Bekrönung und rechter oberer Teil des Inschriftfeldes stark verwittert. Z. 3/4: Der Name von Geta wurde eradiert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 427; Foto u. Zeichnung.</bibl><bibl>CIL 03, 01127.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

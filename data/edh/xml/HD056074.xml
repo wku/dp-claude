@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Sexaginta Prista &amp;ndash; Ruse (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056074</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056074</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>15</height><width>12</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.45</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216982">Sexaginta Prista</placeName></origPlace><origDate><origDate when-custom="0105" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">105 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727523">Ruse</placeName><placeName type="findspot"/><placeName type="region">Ruse</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-18" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Traia<lb break="no" n="2"/>nus Augustus Germanicus Dacicus <lb n="3"/>pontifex maximus <expan><abbr>tribunic</abbr><ex>ia</ex></expan> potes<lb break="no" n="4"/><expan><abbr>tat</abbr><ex>e</ex></expan> VIIII <expan><abbr>imp</abbr><ex>erator</ex></expan> IIII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> V <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/>equitibus et peditibus qui militant in alis <lb n="6"/>tribus et cohortibus septem quae appel<lb break="no" n="7"/>lantur I Flavia Gaetulorum et I Astu<lb break="no" n="8"/>rum et II Hispanorum et Arvacorum et <lb n="9"/>I Lepidiana <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I Bracaraugustanorum <lb n="10"/>et I Sugambrorum tironum et II Mattia<lb break="no" n="11"/>corum et II Chalcidenorum et II Flavia <lb n="12"/>Brittonum et Ubiorum et sunt in Moe<lb break="no" n="13"/>sia inferiore sub <expan><abbr>A</abbr><ex>ulo</ex></expan> Caecilio Faustino <lb n="14"/>qui quina et vicena plurave stipendia <lb n="15"/>meruerunt item dimissis honesta <lb n="16"/>missione quorum nomina subscripta <lb n="17"/>sunt ipsis liberis posterisque eorum <lb n="18"/>civitatem dedit et conubium cum <lb n="19"/>uxoribus quas tunc habuissent cum <lb n="20"/>civitas iis data aut si qui caelibes es<lb break="no" n="21"/>sent cum iis quas postea duxissent dum<lb break="no" n="22"/>taxat singuli singulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> III Idus <expan><abbr>Mai</abbr><ex>as</ex></expan> <lb n="23"/><expan><abbr>C</abbr><ex>aio</ex></expan> Iulio Basso <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Afranio Dextro co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="24"/>alae II Hispanorum et Arvacorum cui <lb n="25"/>prae<expan><ex>e</ex><abbr>st</abbr></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Fabius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Pal</abbr><ex>atina</ex></expan> Fabullus <lb n="26"/>gregali <lb n="27"/>Atrecto Capitonis <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Nemet</abbr><ex>i</ex></expan> <lb n="28"/>descriptum et recognitum ex tabula <lb n="29"/>aenea quae fixa est Romae in muro <lb n="30"/>post templum divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad <expan><abbr>Minerva</abbr><ex>m</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Traianus <expan><abbr>August</abbr><ex>us</ex></expan> <lb n="2"/>Germanicus pontifex maximus <expan><abbr>tribunic</abbr><ex>ia</ex></expan> <lb n="3"/><expan><abbr>potestat</abbr><ex>e</ex></expan> VIIII <expan><abbr>imp</abbr><ex>erator</ex></expan> IIII <lb n="4"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> V <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/>equitibus et peditibus qui militant in alis <lb n="6"/>tribus et cohortibus septem quae ap<expan><ex>p</ex><abbr>ellantur</abbr></expan> <lb n="7"/>I Flavia Gaetulorum et I Asturum et II Hispano<lb break="no" n="8"/>rum et Arvacorum et I Lepidiana <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I Braca<lb break="no" n="9"/>raugustanorum et I Sugambrorum tironum <lb n="10"/>et II Mattiacorum et II Chalcidenorum et <lb n="11"/>II Flavia Brittannorum et Ubiorum et sunt <lb n="12"/>in Moesia inferiore sub <expan><abbr>A</abbr><ex>ulo</ex></expan> Caecilio Faustino <lb n="13"/>qui quina et vicena plurave stipendia <lb n="14"/>meruerunt item dimissis honesta missione
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1256.</bibl><bibl>R. Petrovszky, MHistVerPfalz 102, 2004, 7-64. - AE 2004</bibl></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

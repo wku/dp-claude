@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Istrus &amp;ndash; Istria (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016294</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016294</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Istria, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(55)</height><width>(43)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216839">Istrus</placeName></origPlace><origDate><origDate notBefore-custom="0239" notAfter-custom="0240" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">239 AD - 240 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675471">Istria</placeName><placeName type="findspot">spätantike Festung, {Haupttor}, sekundär verwendet</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016294_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antonius+</name><name type="cognomen">Gordianus+</name></persName></person><person xml:id="HD016294_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-05" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>erator</ex></expan> <supplied reason="lost"><expan><abbr>Caes</abbr><ex>ar</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan> Ant</supplied>oni<supplied reason="lost">us Gordianus</supplied> <lb n="3"/><supplied reason="lost">Pius Fe</supplied>lix Invic<supplied reason="lost">tus <expan><abbr>Aug</abbr><ex>ustus</ex></expan></supplied> <lb n="4"/><supplied reason="lost">pontif</supplied>ex maximu<supplied reason="lost">s <expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>potest</abbr><ex>ate</ex></expan></supplied> III co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="6"/><supplied reason="lost">mace</supplied>llum ve<supplied reason="lost">tustate</supplied> <lb n="7"/><supplied reason="lost">conl</supplied>absum <note>sic</note> <supplied reason="lost" cert="low">a solo</supplied> <lb n="8"/><supplied reason="lost">restit</supplied>uit <del rend="erasure">c[urante</del>] <lb n="0"/>[<gap reason="lost" quantity="1" unit="line"/>]
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere aneinanderpassende Fragmente. (B): abweichende oder unvollständige Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1955, 0259. (B)</bibl><bibl>AE 1958, 0188.</bibl><bibl>AE 1960, 0345. (B)</bibl><bibl>AE 1964, 0277. (B)</bibl><bibl>AE 1991, 1390.</bibl><bibl>AE 2007, p. 458 a. n. 1228.</bibl><bibl>G.M. Bersanetti, Studi sull'imperatore Massimino il Trace (Roma 1940) 94, Anm. 1. - AE 1955.</bibl><bibl>D.M. Pippidi, in: Histria. Monografie arheologică 1 (Bucureşti 1953) 514-519, Nr. 11; fig. 11. (B) - AE 1955.</bibl><bibl>V. Pârvan, Histria VII. Inscripţii găsite in 1916, 1921 şi 1922, MAR(H) 2 (Bucureşti 1923) 54, Nr. 44; 82-84, Nr. 54; pl. 9, 1; Zeichnungen. (B) - AE 1955 D.M. Pippidi, Philologus 101, 1957, 154-158. (B) - AE 1958.</bibl><bibl>D.M. Pippidi, StCercIstorV 4, 1953, 796-802. (B) - AE 1960.</bibl><bibl>D.M. Pippidi, Epigraphische Beiträge zur Geschichte Histrias in hellenistischer und römischer Zeit (Berlin 1962) 192-201; Taf. 14. (B) - AE 1964.</bibl><bibl>O. Bounegru, StudClas 26, 1989, 75-77; fig. 2. - AE 1991.</bibl><bibl>A. Avram, Dacia 51, 2007, 100, Nr. 168; fig. 3. - AE 2007.</bibl><bibl>IScM 1, 168; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

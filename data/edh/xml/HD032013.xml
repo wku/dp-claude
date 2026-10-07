@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Durostorum &amp;ndash; Silistra (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032013</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032013</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><dimensions unit="cm"><height>(52)</height><width>(45)</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216800">Durostorum</placeName></origPlace><origDate><origDate when-custom="0226" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">226 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727221">Silistra</placeName><placeName type="findspot"/><placeName type="region">Silistra</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032013_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="cognomen">Alexander*</name></persName></person><person xml:id="HD032013_2" sex="M"><persName><name type="cognomen">Marcellus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-27" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Scutu</abbr><ex>m</ex></expan> <expan><abbr>spata</abbr><ex>m</ex></expan> <supplied reason="lost">p</supplied>u&amp;lt;g=C&amp;gt;<lb break="no" n="2"/>ellares ar&amp;lt;g=C&amp;gt;<expan><ex>e</ex><abbr>n</abbr></expan><surplus>i</surplus>t<lb break="no" n="3"/>o tectas <expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <lb n="4"/>A<expan><ex>le</ex><abbr>x</abbr><ex>andro</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> et Mar<supplied reason="lost"><expan><abbr>c</abbr><ex>ello</ex></expan></supplied> <lb n="5"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Dobrusky, AE 1902, CIL: Z. 4: [M]ax(imiano) Aug. et Ma(ximiano) [C(aesare)]; Datierung: 297 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1902, 0132. (B)</bibl><bibl>V. Dobrusky, SborNarodSofia 18, 1, 1901, 770, Nr. 73. (B) - AE 1902.</bibl><bibl>CIL 03, 14433, 1. (B)</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 191-192, Nr. 226; Zeichnung.</bibl><bibl>PIR (2. Aufl.) A 1389.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

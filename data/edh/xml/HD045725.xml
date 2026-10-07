@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Roman (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD045725</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD045725</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><dimensions unit="cm"><height>125</height><width>62</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0135" notAfter-custom="0136" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">135 AD - 136 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2003"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727598">Roman</placeName><placeName type="findspot">Roman - Staro Selo, zwischen, Strupec, Bahnhalt, nordöstlich, {"Ravništeto"}</placeName><placeName type="region">Vraca</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD045725_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus* Hadrianus*</name></persName></person><person xml:id="HD045725_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antius</name><name type="cognomen">Rufinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-27" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ex auc<supplied reason="lost">toritate</supplied> <lb n="2"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Cae</abbr><ex>saris</ex></expan> divi <lb n="3"/><expan><abbr>Tra</abbr><ex>iani</ex></expan> <expan><abbr>Parth</abbr><ex>ici</ex></expan> f<expan><ex>i</ex><abbr>l</abbr><ex>i</ex></expan> di<lb break="no" n="4"/>vi <expan><abbr>Nerva</abbr><ex>e</ex></expan> <expan><abbr>nep</abbr><ex>otis</ex></expan> <expan><abbr>Tra</abbr><ex>iani</ex></expan> <lb n="5"/><expan><abbr>Had</abbr><ex>riani</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> pont<lb break="no" n="6"/><expan><abbr>if</abbr><ex>icis</ex></expan> <expan><abbr>maxi</abbr><ex>mi</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <lb n="7"/><expan><abbr>pot</abbr><ex>estate</ex></expan> XX co<expan><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> III <lb n="8"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Antius Rufinus <lb n="9"/>inter T<expan><ex>h</ex><abbr>rac</abbr><ex>es</ex></expan> et Moe<lb break="no" n="10"/>sos fines posuit
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 2004: geringfügige Abweichungen bei der Wiedergabe und Ordination des Textes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1306. (B)</bibl><bibl>I. Christov, Minalo 11, 2004, 6-7, Nr. 4; obr. 4; obr. 5 (Zeichnung). - AE 2004.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

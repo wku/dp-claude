@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Oescus? &amp;ndash; Guljanci? (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018918</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018918</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216907">Oescus?</placeName></origPlace><origDate><origDate notBefore-custom="0196" notAfter-custom="0220" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">196 AD - 220 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731437">Guljanci?</placeName><placeName type="findspot">{Gigen}?</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018918_1" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Faventinus</name></persName></person><person xml:id="HD018918_2" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Florentinus</name></persName></person><person xml:id="HD018918_3" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Villanus</name></persName></person><person xml:id="HD018918_4" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Peregrinus+</name></persName></person><person xml:id="HD018918_5" sex="W"><persName><name type="cognomen">Mammosa</name></persName></person><person xml:id="HD018918_6" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Gaurus</name></persName></person><person xml:id="HD018918_7" sex="M"><persName><name type="nomen">Aelius+*</name><name type="cognomen">Philocalus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ael</abbr><ex>ius</ex></expan> Faventinus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>e</abbr><ex>gregius</ex></expan> <expan><abbr>proc</abbr><ex>urator</ex></expan> CC Illyrici <supplied reason="lost"><expan><abbr>vix</abbr><ex>it</ex></expan></supplied> <lb n="2"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> LX <expan><abbr>Aeli</abbr><ex>i</ex></expan> Florentinus Villanus <supplied reason="lost">Pe</supplied><lb break="no" n="3"/>regrinus <expan><abbr>decc</abbr><ex>uriones</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Aurel</abbr><ex>iae</ex></expan> Dacicae Na<supplied reason="lost"><expan><abbr>p</abbr><ex>ocensium</ex></expan> et</supplied> <lb n="4"/>Mammosa et <expan><abbr>Aurel</abbr><ex>ius</ex></expan> Gaurus VEI hered<supplied reason="lost">es</supplied> <lb n="5"/>secundum voluntatem testame<supplied reason="lost">nti ip</supplied><lb break="no" n="6"/>sius per <supplied reason="lost"><expan><abbr>Ael</abbr><ex>ium</ex></expan> Ph</supplied>ilocalum libertum <supplied reason="lost" cert="low">fecit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld in Form einer tabula ansata. (B): Beševliev, AE 1957; ILBulg; Ardevan: Abweichungen in Lesung / Ergänzung. Z. 5/6: Ergänzungsvorschlag [ip]/sius von R. Ardevan, ActaMusPorol 23, 2000, 319-325. Datierung: Aelius Faventinus muß nach 195 n. Chr. Prokurator gewesen sein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1956, 0230. (B)</bibl><bibl>ILBulg 076; tab. 18, 76. (B)</bibl><bibl>V. Beševliev, Epigrafski prinosi (Sofia 1952) 59-60, Nr. 101; obr. 43, 2. (B) - AE 1956.</bibl><bibl>R. Ardevan, ActaMusPorol 20, 1996, 55-62; fig. 1. (B)</bibl><bibl>H.-G. Pflaum, Les carrières procuratoriennes équestres sous le Haut-Empire romain (Paris 1960/61) 1058.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

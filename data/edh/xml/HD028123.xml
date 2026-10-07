@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Oescus &amp;ndash; Guljanci (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028123</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028123</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><dimensions unit="cm"><height>170</height><width>55</width><depth>45</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216907">Oescus</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731437">Guljanci</placeName><placeName type="findspot">Gigen, bei, {antike Stadt}</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD028123_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Titius</name><name type="cognomen">Maximus</name></persName></person><person xml:id="HD028123_2"><persName><name type="cognomen">Narcissus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-05-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Titio <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>Pap</abbr><ex>iria</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Maximo <lb n="2"/>IIvirali <lb n="3"/><expan><abbr>iter</abbr><ex>um</ex></expan> q<expan><ex>uin</ex><abbr>q</abbr><ex>uennalis</ex></expan> <lb n="4"/><expan><abbr>col</abbr><ex>oniae</ex></expan> fla<lb break="no" n="5"/>mini per<lb break="no" n="6"/><expan><abbr>pet</abbr><ex>uo</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <lb n="7"/>saltus <lb n="8"/><expan><abbr>patr</abbr><ex>ono</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <lb n="9"/>Narcis<lb break="no" n="10"/>sus actor
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 1 und 2 befinden sich auf dem unteren Profil der corona bzw. auf dem Inschriftrahmen. Denkmaltyp: wohl kaum ein Altar, wie z.B. in ILBulg angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1900, 0025.</bibl><bibl>ILBulg 016; tab. 4, 16.</bibl><bibl>V. Dobrusky, Matériaux d'archéologie en Bulgarie (Sofia 1899) 120-121, Nr. 30; fig. 56. - AE 1900.</bibl><bibl>AE 1896, 0117.</bibl><bibl>V. Dobrusky, RA 29, 1896, 259, Nr. 2. - AE 1896.</bibl><bibl>CIL 03, 14211, 2.</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 305-306, Nr. 388; Fig. 124.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

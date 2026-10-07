@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Dupnica (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD012319</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD012319</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>172</height><width>75</width><depth>53</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727441">Dupnica</placeName><placeName type="findspot">Musibeg</placeName><placeName type="region">Kjustendil</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD012319_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="praenomen">M.</name><name type="nomen">Aurelius+*</name><name type="cognomen">Severus Alexander+</name></persName></person><person xml:id="HD012319_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Prosius</name><name type="cognomen">Rufinus</name></persName></person><person xml:id="HD012319_3" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Herennius</name><name type="cognomen">Niger+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-04-29" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arco</ex></expan> <supplied reason="lost"><expan><abbr>Aur</abbr><ex>elio</ex></expan></supplied> Severo <lb n="2"/><supplied reason="lost">Alexandr</supplied>o <expan><abbr>P</abbr><ex>io</ex></expan> F<supplied reason="lost"><expan><abbr>el</abbr><ex>ici</ex></expan></supplied> <lb n="3"/>Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usto</ex></expan></supplied> <expan><abbr>coh</abbr><ex>ors</ex></expan> II <expan><abbr>Luc</abbr><ex>ensium</ex></expan> <lb n="4"/><supplied reason="lost">Alexandria</supplied><lb break="no" n="5"/>n<supplied reason="lost">a</supplied> devota numi<lb break="no" n="6"/>ni eius sub <expan><abbr>L</abbr><ex>ucio</ex></expan> Pr<lb break="no" n="7"/>osio Rufino <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <lb n="8"/><expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>cura</abbr><ex>m</ex></expan> agen<lb break="no" n="9"/>te <expan><abbr>T</abbr><ex>ito</ex></expan> Herennio <lb n="10"/><expan><abbr>Nig</abbr><ex>ro</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <lb n="2"/>eiusdem
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): AE 1969/70: geringfügig abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1969/70, 0582. (B)</bibl><bibl>AE 1895, 0063.</bibl><bibl>AE 1892, 0007.</bibl><bibl>CIL 03, 12339.</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 47-48, Nr. 44; Zeichnung.</bibl><bibl>H. Škorpil, AEM 17, 1894, 216-217, Nr. 118. - AE 1895.</bibl><bibl>H. Škorpil - K. Škorpil, AEM 15/16, 1892/93, 95-96, Nr. 16. - AE 1892.</bibl><bibl>PIR (2. Aufl.) P 1014.</bibl><bibl>T. Ivanov, Arch(Sofia) 6, 1, 1964, 20-23; fig. 1-4. - AE 1969/70.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

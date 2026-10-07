@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Helice &amp;ndash; Ihtiman (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042904</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042904</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>213</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-5.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481860">Helice</placeName></origPlace><origDate><origDate notBefore-custom="0317" notAfter-custom="0324" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">317 AD - 324 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/730919">Ihtiman</placeName><placeName type="findspot">Sikija</placeName><placeName type="region">Sofija, oblast</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042904_1" sex="M"><persName><name type="cognomen">Constantinus</name></persName></person><person xml:id="HD042904_2" sex="M"><persName><name type="nomen">Valerius* Licinius</name><name type="cognomen">Licinianus*</name></persName></person><person xml:id="HD042904_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q311646"><name type="nomen">Flavius* Iulius*</name><name type="cognomen">Crispus</name></persName></person><person xml:id="HD042904_4" sex="M"><persName><name type="nomen">Valerius* Licinius</name><name type="cognomen">Licinianus* Iunior*</name></persName></person><person xml:id="HD042904_5" sex="M"><persName><name type="nomen">Flavius* Claudius*</name><name type="cognomen">Constantinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-05-29" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Ἀγαθῇ τύχῃ <lb n="2"/>ὑπὲρ ὑγίας καὶ σ<supplied reason="lost">ωτη</supplied><lb break="no" n="3"/><supplied reason="lost">ρ</supplied>ίας <lb n="4"/>καὶ ἀωνίου <supplied reason="lost">δια</supplied><lb break="no" n="5"/>μονῆς <supplied reason="lost">Σεβαστ</supplied>ῶν </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>DD</abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <lb n="2"/>Constantini <expan><abbr>Max</abbr><ex>imi</ex></expan> <lb n="3"/><expan><abbr>Val</abbr><ex>eri</ex></expan> <expan><abbr>Lic</abbr><ex>iniani</ex></expan> Licini <expan><abbr>perp</abbr><ex>etuorum</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <lb n="4"/><expan><abbr>Fl</abbr><ex>avi</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> Crispi <lb n="5"/><expan><abbr>Val</abbr><ex>eri</ex></expan> <expan><abbr>Lic</abbr><ex>iniani</ex></expan> L&amp;lt;i=L&amp;gt;cini <expan><abbr>Iun</abbr><ex>ioris</ex></expan> <lb n="6"/><expan><abbr>Fl</abbr><ex>avi</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Constantini <lb n="7"/><expan><abbr>nobb</abbr><ex>ilissimorum</ex></expan> <expan><abbr>Caess</abbr><ex>arum</ex></expan> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Oberhalb der lateinischen Inschrift eine ältere griechische Inschrift; dazwischen eine hedera. (B): Beševliev: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>V. Beševliev, Spätgriechische und spätlateinische Inschriften aus Bulgarien (Berlin 1964) 22, Nr. 30; Taf. 11, 29 (Zeichnung). (B)</bibl><bibl>CIL 03, 14207, 37.</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 68-69, Nr. 73; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Municipium Montanensium &amp;ndash; Montana (Mihajlovgrad) (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043315</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043315</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207293">Municipium Montanensium</placeName></origPlace><origDate><origDate when-custom="0258" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">258 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="findspot">{Kaleto, Hügel}, bei</placeName><placeName type="region">Montana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043315_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14831"><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD043315_2" sex="M"><persName><name type="cognomen">Tuscus</name></persName></person><person xml:id="HD043315_3" sex="M"><persName><name type="cognomen">Bassus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-10" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Antoninus <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> III <expan><abbr>coll</abbr><ex>ectae</ex></expan> <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> <lb n="3"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> portam praetoriam <lb n="4"/>cum turre a fundamento <lb n="5"/>sumptibus suis et instan<lb break="no" n="6"/>tia fabricavit Tusco et Basso co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 2: zur Auflösung coll(ectae) vgl. auch AE 1957, 340 mit V. Velkov, Archeologia 7, 1, 1955, 94-96. 101, Nr. 4 (hier HD017675).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 07450.</bibl><bibl>ILS 2622.</bibl><bibl>PIR (2. Aufl.) N 237.</bibl><bibl>PIR (2. Aufl.) M 702.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

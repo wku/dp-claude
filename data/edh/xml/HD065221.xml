@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Philippopolis &amp;ndash; Plovdiv (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065221</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065221</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(125)</height><width>82</width><depth>62</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216927">Philippopolis</placeName></origPlace><origDate><origDate when-custom="0214" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">214 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1972"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="findspot">{Theater, orchestra}</placeName><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065221_1" sex="M"><persName><name type="praenomen">Π.</name><name type="nomen">Οὐίρδιος+</name><name type="cognomen">Ἰουλιανός</name></persName></person><person xml:id="HD065221_2" sex="M"><persName><name type="nomen">Αὐρήλιος*</name><name type="cognomen">Ῥηβουκένθης</name></persName></person><person xml:id="HD065221_3" sex="M"><persName><name type="nomen">Αὐρήλιος*</name><name type="cognomen">Ἀπολλωνίδης</name></persName></person><person xml:id="HD065221_4" sex="M"><persName><name type="nomen">Αἴλιος</name><name type="cognomen">Οὐάλης</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-09-21" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><lb break="no" n="1"/>ων Πό(πλιον) Οὐίρ<supplied reason="lost">διον</supplied> <lb n="2"/>Ἰουλιανὸν πα<supplied reason="lost">τέ</supplied><lb break="no" n="3"/>ρα δύο χε<supplied reason="lost">ι</supplied>λιάρχων <lb n="4"/>καὶ αὐτὸν ἀπὸ στρα<lb break="no" n="5"/>τείας φυλὴ Κεν<lb break="no" n="6"/>δρεισηίς ἐκδικοῦν<lb break="no" n="7"/>τος Αὐρ(ηλίου) Ῥηβουκένθου <lb n="8"/>ἐπιμελουμένου Αὐρ(ηλίου) Ἀπολ<lb break="no" n="9"/>λωνίδου Αἰλίου Οὐάλεντος <lb n="10"/>εὐτυχῶς
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 1382.</bibl><bibl>N. Sharankov, ArchBulg 9, 2, 2005, 62-64, Nr. 3; Fig. 6. - AE 2005.</bibl><bibl>SEG 55, 0758.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

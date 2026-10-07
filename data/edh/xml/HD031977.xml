@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Oescus &amp;ndash; Guljanci (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031977</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031977</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(130)</height><width>(63)</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216907">Oescus</placeName></origPlace><origDate><origDate notBefore-custom="0098" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">98 AD - 117 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731437">Guljanci</placeName><placeName type="findspot">Gigen, bei, {antike Stadt}</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031977_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">[---]vius</name><name type="cognomen">[---]s</name></persName></person><person xml:id="HD031977_2"><persName><name type="cognomen">Martialis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-11-19" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>vius <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>s <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="3"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> IIII <expan><abbr>Gal</abbr><ex>lorum</ex></expan> <lb n="4"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> L <expan><abbr>mil</abbr><ex>itavit</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> X<supplied reason="lost">X</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="6"/>Martialis <expan><abbr>h</abbr><ex>eres</ex></expan> <lb n="7"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1902: Z. 3: coh. III.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1902, 0120. (B)</bibl><bibl>CIL 03, 14417, 1.</bibl><bibl>ILBulg 061.</bibl><bibl>V. Dobrusky, SborNarodSofia 18, 1901, 750, Nr. 39. - AE 1902.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

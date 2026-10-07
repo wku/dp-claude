@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Arcobadara &amp;ndash; Uriu (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD048069</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD048069</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bistriţa, Muz. Jud.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/98">Vulkantuff</material><dimensions unit="cm"><height>116</height><width>84</width><depth>55</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207186">Arcobadara</placeName></origPlace><origDate><origDate notBefore-custom="0226" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">226 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1830"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675647">Uriu</placeName><placeName type="findspot">Ilişua, Lager, {vicus}, Punkt C</placeName><placeName type="region">Bistrița-Năsăud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD048069_1" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Mamaea*</name></persName></person><person xml:id="HD048069_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="cognomen">Severus Alexander</name></persName></person><person xml:id="HD048069_3" sex="M"><persName ref="http://romans1by1.com/rpeople/3442"><name type="nomen">Iasdius+</name><name type="cognomen">Domitianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iuliae Mam<expan><ex>a</ex><abbr>eae</abbr></expan> Au<lb break="no" n="2"/>gustae matri sanc<lb break="no" n="3"/>tissimi <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <lb n="4"/>Severi Alexandri <lb n="5"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> et castrorum <lb n="6"/>senatusque ala <lb n="7"/>Frontoniana Ale<lb break="no" n="8"/>xandriana ex <lb n="9"/>quaestura sua <lb n="10"/>dedicante <lb n="11"/><supplied reason="lost">Ia</supplied>sdio Domitia<lb break="no" n="12"/><supplied reason="lost">no l</supplied><expan><abbr>eg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil einer Statuenbasis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 00798.</bibl><bibl>ILS 2494.</bibl><bibl>C. Gaiu - R. Zăgreanu, Inscripţii şi piese sculpturale din castrul roman de la Ilişua (Cluj-Napoca 2011) 68-69, Nr. 1.1.3; pl. 3, 1.1.3 (Foto u. Zeichnung).</bibl><bibl>I. Piso, Fasti provinciae Daciae 1. Die senatorischen Amtsträger (Bonn 1993) 192-196, Nr. 4.</bibl><bibl>PIR (2. Aufl.) I 12.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

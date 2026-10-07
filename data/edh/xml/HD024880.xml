@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Oescus &amp;ndash; Guljanci (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024880</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024880</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(120)</height><width>(68)</width><depth>(56)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216907">Oescus</placeName></origPlace><origDate><origDate when-custom="0285" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">285 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731437">Guljanci</placeName><placeName type="findspot">Gigen, bei, {antike Stadt}</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024880_1"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="praenomen">C.</name><name type="nomen">Aurelius* Valerius*</name><name type="cognomen">Diocletianus</name></persName></person><person xml:id="HD024880_2"><persName><name type="nomen">Afranius</name><name type="cognomen">Hannibalianus</name></persName></person><person xml:id="HD024880_3"><persName><name type="nomen">Iulius*</name><name type="cognomen">Asclepiodotus</name></persName></person><person xml:id="HD024880_4" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Zosimus</name></persName></person><person xml:id="HD024880_5"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD024880_6"><persName><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-05-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>C</abbr><ex>aio</ex></expan> <expan><abbr>Aurel</abbr><ex>io</ex></expan> <lb n="2"/><expan><abbr>Val</abbr><ex>erio</ex></expan> Diocletiano <lb n="3"/><expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> <expan><abbr>Invic</abbr><ex>to</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <lb n="4"/><expan><abbr>max</abbr><ex>imo</ex></expan> Germanico <lb n="5"/><expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>uniciae</ex></expan> <expan><abbr>potest</abbr><ex>atis</ex></expan> <lb n="6"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="7"/>Afranius Hanni<lb break="no" n="8"/>balianus <expan><abbr>Iul</abbr><ex>ius</ex></expan> As<lb break="no" n="9"/>clepiodotus v<supplied reason="lost"><expan><abbr>v</abbr><ex>iri</ex></expan></supplied> <lb n="10"/><expan><abbr>eemm</abbr><ex>inentissimi</ex></expan> prae<supplied reason="lost"><expan><abbr>ff</abbr><ex>ecti</ex></expan> <expan><abbr>pr</abbr><ex>aetorio</ex></expan></supplied> <lb n="11"/><expan><abbr>d</abbr><ex>evoti</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestati</ex></expan><supplied reason="lost"><expan><abbr>q</abbr><ex>ue</ex></expan> eius</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Lib</supplied>ero Patri </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Conservatori </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>d<am>d</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <lb n="2"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> Zosimus <expan><abbr>p</abbr><ex>rimus</ex></expan> <expan><abbr>p</abbr><ex>ilus</ex></expan> <lb n="3"/>ex provincia Asi<lb break="no" n="4"/>a civitate Efisia<lb break="no" n="5"/>norum <note>sic</note> votum <lb n="6"/>posuit <lb n="7"/><expan><abbr><supplied reason="lost">p</supplied>os</abbr><ex>t</ex></expan> pastum militum <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Auf der vorderen (a) und der linken Seite (b) beschrieben. Buchstabenhöhe und Datierung beziehen sich auf Inschrift a. Inschrift b: Buchstabenhöhe 6-4 cm; Anfang des 4. Jhs. n. Chr.; Z. 1 u. 2 befinden sich auf der corona. (B): Abweichungen in der Lesung. a: Z. 8 (Ende): hinter S offenbar ein getilgter Buchstabe, vielleicht ein C. a: Z. 8 (Ende): hinter S offenbar ein getilgter Buchstabe, vielleicht ein C.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1927, 0045. (B)</bibl><bibl>AE 1927, p. 36 s. n. 139.</bibl><bibl>AE 1995, 1328. (B)</bibl><bibl>ILS 8929. (B)</bibl><bibl>ILBulg 008; tab. 2, 8a u. 8b.</bibl><bibl>G.I. Kacarov, BIAB 4, 1926/27, 96-97. 118, Nr. 21. (B) - AE 1927, 0045.</bibl><bibl>G.I. Kacarov, PhW 46, 1926, 767. (B) - AE 1927, p. 36 s. n. 139.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Ampelum &amp;ndash; Zlatna (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD045775</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD045775</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(55)</height><width>(55)</width><depth>(36)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206917">Ampelum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1885"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/662161">Zlatna</placeName><placeName type="findspot"/><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD045775_1" sex="M"><persName ref="http://romans1by1.com/rpeople/5690"><name type="praenomen">M.</name><name type="nomen">Iulius*</name><name type="cognomen">Apollinaris+</name></persName></person><person xml:id="HD045775_2" sex="M"><persName ref="http://romans1by1.com/rpeople/5691"><name type="cognomen">Verus+</name></persName></person><person xml:id="HD045775_3" sex="M"><persName ref="http://romans1by1.com/rpeople/5692"><name type="cognomen">Romanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-29" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Isi</supplied>di <supplied reason="lost">pro salut</supplied><lb break="no" n="2"/>e <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> Ap<supplied reason="lost">olli</supplied><lb break="no" n="3"/>naris Ver<supplied reason="lost">u</supplied>s <lb n="4"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> Roma<lb break="no" n="5"/>nus <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>vern</abbr><ex cert="low">ae</ex></expan> <lb n="6"/><expan><abbr>vil</abbr><ex cert="low">icus</ex></expan> posuit <note>sic</note>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 07837.</bibl><bibl>SIRIS 695.</bibl><bibl>IDR 3, 3, 332; fig. 245 (Zeichnung).</bibl><bibl>L. Bricault, Recueil des inscriptions concernant les cultes Isiaques (RICIS) (Paris 2005) 732, Nr. 616/0501.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

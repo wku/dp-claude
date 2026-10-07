@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Public legal inscription from Callatis &amp;ndash; Mangalia (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021778</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021778</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(24)</height><width>(18)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.6-0.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216744">Callatis</placeName></origPlace><origDate><origDate notBefore-custom="-0106" notAfter-custom="-0101" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">106 BC - 101 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/673921">Mangalia</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/5">public legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-10-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ poplus Romanus hostes inimicosve popli] <lb n="2"/><supplied reason="lost">Callatini per suos fines quibusve inper</supplied>at <supplied reason="lost">poplus Romanus</supplied> <lb n="3"/><supplied reason="lost">ne transire sinito poplico consilio <expan><abbr>sc</abbr><ex>iens</ex></expan> dolo</supplied> malo quo po<supplied reason="lost">plo Cal</supplied><lb break="no" n="4"/><supplied reason="lost">latino queive sub inperio eius erun</supplied>t b<supplied reason="lost">e</supplied>llum face<supplied reason="lost">rent ne</supplied><lb break="no" n="5"/><supplied reason="lost">ve eos armis neque navibus neque p</supplied>equ<supplied reason="lost">n</supplied>ia adiovanto <supplied reason="lost">popli</supplied><lb break="no" n="6"/><supplied reason="lost">co consilio <expan><abbr>sc</abbr><ex>iens</ex></expan> dolo malo <expan><abbr>p</abbr><ex>opli</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> quo po</supplied>plo Callatino bellu<supplied reason="lost">m fa</supplied><lb break="no" n="7"/><supplied reason="lost">cerent sei quis prior faxit poplo Rom</supplied>ano queive sub inperio <lb n="8"/><supplied reason="lost">eius erunt poplus Callatinus po</supplied>plo Romano utei e t<supplied reason="lost" cert="low">em</supplied><lb break="no" n="9"/><supplied reason="lost">pore<certainty locus="name" match="preceding-sibling::text()" cert="low"/> dato<certainty locus="name" match="preceding-sibling::text()" cert="low"/> adiovanto sei quis bellum</supplied> prio<supplied reason="lost">r</supplied> faxit <supplied reason="lost">p</supplied>oplo <supplied reason="lost">Calla</supplied><lb break="no" n="10"/><supplied reason="lost">tino queive sub inperio eius erunt po</supplied>plus Romanus popl<supplied reason="lost">o Cal</supplied><lb break="no" n="11"/><supplied reason="lost">latino utei e tempore dato<certainty locus="name" match="preceding-sibling::text()" cert="low"/> adioutant</supplied>o sei quid ad hance <supplied reason="lost">socie</supplied><lb break="no" n="12"/><supplied reason="lost">tatem poplus Romanus ac poplus Call</supplied>at<supplied reason="lost">inu</supplied>s adere exime<supplied reason="lost">rev</supplied>e <supplied reason="lost">ve</supplied><lb break="no" n="13"/><supplied reason="lost">lint communi poplico consilio utriusque</supplied> voluntate liceto <lb n="14"/><supplied reason="lost">quodque adiderint id inesto quodque e</supplied>xe<supplied reason="lost">mer</supplied>int id societat<supplied reason="lost">i</supplied> <lb n="15"/><supplied reason="lost">ne inesto haec societas in tabolam ahe</supplied>nam utei scriberetur ac <supplied reason="lost" cert="low">fi</supplied><lb break="no" n="16"/><supplied reason="lost">geretur<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Romae in Capitolio Callati loc</supplied>o optumo in faano Concor<supplied reason="lost"><expan><abbr>d</abbr><ex>iae</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzungen und Datierung nach Avram. (B): CIL I; ILLRP; IScM III; Lambrino; AE 1933; Sauciuc-Săveanu; Marin; AE 1950; Petulescu; Avram; AE 1997: Leseabweichungen</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1999, 1318.</bibl><bibl>AE 1997, 1319. (B)</bibl><bibl>AE 1950, 0092. (B)</bibl><bibl>AE 1934, p. 24 s. n. 101.</bibl><bibl>AE 1933, 0106. (B)</bibl><bibl>IScM 3, 001; Foto. (B)</bibl><bibl>CIL 01 (2. Aufl.) 02, 02676. (B)</bibl><bibl>ILLRP 0516. (B)</bibl><bibl>C.C. Petolescu, StCercIstorV 50, 1999, 200-201, Nr. 818. (B) - AE 1999.</bibl><bibl>A. Avram, in: B. Funck (Hrsg.), Hellenismus. Beiträge zur Erforschung von Akkulturation und politischer Ordnung in den Staaten des hellenistischen Zeitalters (Mohr 1996) 491-511. (B) - AE 1997.</bibl><bibl>D.S. Marin, Epigraphica 10, 1948, 104-130; Zeichnung. (B) - AE 1950.</bibl><bibl>T. Sauciuc-Săveanu, Dacia 3/4, 1927-1932, 456-458, Nr. i; fig. 43. (B)- AE 1934.</bibl><bibl>S. Lambrino, CRAI 1933, 278-288. (B) - AE 1933.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

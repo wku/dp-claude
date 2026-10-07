@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Cabyle &amp;ndash; Jambol (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043728</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043728</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(65)</height><width>(70)</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216859">Cabyle</placeName></origPlace><origDate><origDate notBefore-custom="0135" notAfter-custom="0136" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">135 AD - 136 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/730799">Jambol</placeName><placeName type="findspot">Kabile, bei, {Horreum}</placeName><placeName type="region">Jambol</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043728_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus+ Hadrianus</name></persName></person><person xml:id="HD043728_2" sex="M"><persName><name type="nomen">Valerius+?</name><name type="cognomen">Fronto</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Cae</supplied><expan><abbr>s</abbr><ex>are</ex></expan> divi Traiani <lb n="2"/><supplied reason="lost"><expan><abbr>Parth</abbr><ex>ici</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan></supplied> divi Nervae ne<lb break="no" n="3"/><supplied reason="lost">pote Trai</supplied>ano Hadriano <lb n="4"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan> po</supplied><expan><abbr>ntif</abbr><ex>ice</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> po<lb break="no" n="5"/><supplied reason="lost"><expan><abbr>test</abbr><ex>ate</ex></expan> XX i</supplied><expan><abbr>mp</abbr><ex>eratore</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> III <expan><abbr>p</abbr><ex>atre</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="6"/><supplied reason="lost" cert="low">Valer</supplied>io Frontone <expan><abbr>leg</abbr><ex>ato</ex></expan> <lb n="7"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="8"/><supplied reason="lost"><expan><abbr>coh</abbr><ex>ors</ex></expan> II L</supplied>ucensium fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld in Form einer tabula ansata. (B): Velkov, AArchHung; AE 1991; Velkov, Kabile; AE 1999: Abweichungen in Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1403. (B)</bibl><bibl>V. Velkov, AArchHung 41, 1989, 253, Nr. 6. (B) - AE 1991.</bibl><bibl>AE 1999, 1371. (B)</bibl><bibl>V. Velkov, Kabile 2, 1991, 13-15, Nr. 5; obr. 5. (B) - AE 1999.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

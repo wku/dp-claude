@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047267</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047267</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Deva, Muz. Civil. Dac. şi Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0107" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">107 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">{Amphitheater}, bei</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047267_1" sex="M"><persName ref="http://romans1by1.com/rpeople/964"><name type="praenomen">[-]</name><name type="nomen">Antonius+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-26" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005405" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6a51e956-df80-4c35-a4fb-b0089fd2bf6b/file/id/766182/file_version/name/small"/><graphic xml:id="F036488" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d73ef1fb-ecf5-44ae-b4a8-8a35245d7363/file/id/797346/file_version/name/small"/><graphic xml:id="F012955" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/46bc02b8-1c28-4413-938c-c8c1b05ce977/file/id/772480/file_version/name/small"/><graphic xml:id="F012957" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5b1432d9-bc52-4c5e-b4b7-982dd5022220/file/id/772482/file_version/name/small"/><graphic xml:id="F012956" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5caaadfc-b921-4949-a98b-85ebcc756939/file/id/772481/file_version/name/small"/><graphic xml:id="F011534" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8fefea2f-339a-4645-b5d9-cdb990ba1592/file/id/771057/file_version/name/small"/><graphic xml:id="F036489" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/12c715c5-531d-44f3-b01b-17291949b13a/file/id/797347/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Neme<supplied reason="lost">si</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>O<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Ant</supplied>oni<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost">pat</supplied>ronus co<supplied reason="lost"><expan><abbr>ll</abbr><ex>egii</ex></expan> f</supplied><expan><abbr>abr</abbr><ex>um</ex></expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">mu</supplied>nicip<supplied reason="lost">ii A</supplied><expan><abbr>pul</abbr><ex>ensis</ex></expan> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>VMV<gap reason="lost" extent="unknown" unit="character"/>NA <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Apul</abbr><ex cert="low">ensis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Sieben teilweise aneinander passende Fragmente erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 2, 326; fig. 269 (Foto u. Zeichnung).</bibl><bibl>CIL 03, 13786; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

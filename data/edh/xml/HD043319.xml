@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Sacidava, bei &amp;ndash; Rasova, bei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043319</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043319</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>215</height><width>70</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216965">Sacidava, bei</placeName></origPlace><origDate><origDate notBefore-custom="0293" notAfter-custom="0305" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">293 AD - 305 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/669148">Rasova, bei</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043319_1"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="praenomen">C.</name><name type="nomen">Aurelius* Valerius*</name><name type="cognomen">Diocletianus</name></persName></person><person xml:id="HD043319_2"><persName><name type="praenomen">M.+</name><name type="nomen">Aurelius+* Valerius+*</name><name type="cognomen">Maximianus+</name></persName></person><person xml:id="HD043319_3"><persName><name type="nomen">Flavius+* Valerius+*</name><name type="cognomen">Constantius+</name></persName></person><person xml:id="HD043319_4"><persName><name type="nomen">Galerius+* Valerius+*</name><name type="cognomen">Maximianus+</name></persName></person><person xml:id="HD043319_5"><persName><name type="cognomen">Valentinianus+</name></persName></person><person xml:id="HD043319_6"><persName><name type="cognomen">Valens</name></persName></person><person xml:id="HD043319_7"><persName ref="https://www.wikidata.org/wiki/Q189108"><name type="cognomen">Gratianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-06-11" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Impp</abbr><ex>eratoribus</ex></expan> <expan><abbr>Caess</abbr><ex>aribus</ex></expan> <expan><abbr>C</abbr><ex>aio</ex></expan> <lb n="2"/><expan><abbr>Aurel</abbr><ex>io</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> Diocletiano <lb n="3"/><supplied reason="lost">et <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> Maximiano</supplied> <expan><abbr>P</abbr><ex>iis</ex></expan> <expan><abbr>F</abbr><ex>elicibus</ex></expan> <supplied reason="lost"><expan><abbr>Augg</abbr><ex>ustis</ex></expan></supplied> <lb n="4"/><supplied reason="lost">invictissimis principibus et <expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> Constantio</supplied> et <lb n="5"/><supplied reason="lost"><expan><abbr>Gal</abbr><ex>erio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> Maximiano nobi</supplied>l<supplied reason="lost">is</supplied><lb break="no" n="6"/><supplied reason="lost">simis Caesarib</supplied>us </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Salvis <lb n="2"/><expan><abbr>d<am>dd</am></abbr><ex>ominis</ex></expan> <expan><abbr>n<am>nn</am></abbr><ex>ostris</ex></expan> <lb n="3"/>Valentin<supplied reason="lost">ia</supplied>no <lb n="4"/>Valenti et <lb n="5"/>Gratiano <lb n="6"/><expan><abbr>PPP</abbr><ex>iissimis</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan> <lb n="7"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> <lb n="8"/>I L <lb n="9"/>XIIII
+            </ab></div></div>
+            <div type="commentary">
+                <p>2 Inschriften. Buchstabenhöhe und Datierung beziehen sich auf Inschrift a; sie wurde für Inschrift b teilweise eradiert. Inschrift b: Buchstabenhöhe 4-6,5 cm; Datierung: 357-375 n. Chr. (B): CIL III; Popescu: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Popescu, Inscripţiile greceşti şi latine din secolele IV-XIII descoperite în România (Bucureşti 1976) 200-201, Nr. 190. (B)</bibl><bibl>CIL 03, 13755. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

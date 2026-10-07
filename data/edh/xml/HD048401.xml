@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Arcobadara &amp;ndash; Uriu (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD048401</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD048401</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bistriţa, Muz. Jud.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/98">Vulkantuff</material><dimensions unit="cm"><height>(65)</height><width>(54)</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207186">Arcobadara</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1863"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675647">Uriu</placeName><placeName type="findspot">Ilişua, Lager, Südwestecke, bei, {Punkt O}</placeName><placeName type="region">Bistrița-Năsăud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD048401_1" sex="M"><persName ref="http://romans1by1.com/rpeople/3443"><name type="nomen">Aelius*</name><name type="cognomen">Mercurius</name></persName></person><person xml:id="HD048401_2" sex="W"><persName ref="http://romans1by1.com/rpeople/3444"><name type="nomen">Aelia*</name><name type="cognomen">Rufilla</name></persName></person><person xml:id="HD048401_3" sex="M"><persName ref="http://romans1by1.com/rpeople/3445"><name type="nomen">Aelius*</name><name type="cognomen">Publius</name></persName></person><person xml:id="HD048401_4" sex="W"><persName ref="http://romans1by1.com/rpeople/3446"><name type="nomen">Nennia</name><name type="cognomen">Ianuaria+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Ael</abbr><ex>ius</ex></expan> Mercuri<lb break="no" n="3"/>us <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>is</ex></expan> XXXX <lb n="4"/><expan><abbr>Ael</abbr><ex>ia</ex></expan> Rufilla <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="5"/>annis VIIII <expan><abbr>Ael</abbr><ex>ius</ex></expan> <lb n="6"/>Publius <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>is</ex></expan> <lb n="7"/>VI <lb n="8"/>Nennia Ianua<supplied reason="lost">ria</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Gaiu - Zăgreanu: Z. 4/5: Rufilla vix(it) ann(is).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 00815.</bibl><bibl>C. Gaiu - R. Zăgreanu, Inscripţii şi piese sculpturale din castrul roman de la Ilişua (Cluj-Napoca 2011) 82, Nr. 1.3.b.3; pl. 7, 1.3.b.3 (Foto u. Zeichnung). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

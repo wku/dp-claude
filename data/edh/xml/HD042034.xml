@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ulmetum &amp;ndash; Pantelimon (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042034</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042034</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>234</height><width>85</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217056">Ulmetum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/671381">Pantelimon</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042034_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Sergius*</name></persName></person><person xml:id="HD042034_2" sex="W"><persName><name type="cognomen">Theagenia</name></persName></person><person xml:id="HD042034_3" sex="M"><persName><name type="cognomen">Theodorianus</name></persName></person><person xml:id="HD042034_4" sex="M"><persName><name type="cognomen">Cocceianus</name></persName></person><person xml:id="HD042034_5" sex="M"><persName><name type="cognomen">Sergianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Mem</abbr><ex>oriae</ex></expan> <lb n="2"/><expan><abbr>G</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Sergi<expan><ex>u</ex><abbr>s</abbr></expan> <lb n="3"/>vivo suo po<lb break="no" n="4"/>suit sibi et <lb n="5"/>coni<expan><ex>u</ex><abbr>gi</abbr></expan> suae The<lb break="no" n="6"/><expan><abbr>agenia</abbr><ex>e</ex></expan> qui vi<lb break="no" n="7"/>xit annis XXXXV <lb n="8"/>et filio suo Theo<lb break="no" n="9"/>doriano qui vixit <lb n="10"/>an<expan><ex>n</ex><abbr>is</abbr></expan> XXVI et fili<expan><ex>a</ex><abbr>e</abbr></expan> <note>sic</note> su<lb break="no" n="11"/>ae <note>sic</note> Cocceiani <note>sic</note> qui vi<supplied reason="lost">xit</supplied> <lb n="12"/>annis XXII et fili<expan><ex>a</ex><abbr>e</abbr></expan> <note>sic</note> <expan><abbr>su</abbr><ex>a</ex></expan><lb break="no" n="13"/>e <note>sic</note> Sergiani <note>sic</note> qui vi<lb break="no" n="14"/>xit annis IIII b<supplied reason="lost">e</supplied>n<supplied reason="lost">e</supplied> <lb n="15"/>merentibus <supplied reason="lost">posu</supplied><lb break="no" n="16"/>it ave viator et <lb n="17"/>vale
+            </ab></div>
+            <div type="commentary">
+                <p>In 3 Teile gebrochen. Oberhalb des Inschriftfeldes Totenmahlrelief.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 195, Nr. 260; Taf. 104, 2.</bibl><bibl>CIL 03, 12490.</bibl><bibl>IScM 5, 080a u. 080b; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Gradnica (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082735</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082735</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Ist. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(133)</height><width>95</width><depth>33</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0178" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">178 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2000"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731067">Gradnica</placeName><placeName type="findspot">mittelalterliche Festung, sekundär verwendet</placeName><placeName type="region">Gabrovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082735_1" sex="W"><persName><name type="nomen">Flavia</name><name type="cognomen">Frontina</name></persName></person><person xml:id="HD082735_2" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Fronto</name></persName></person><person xml:id="HD082735_3" sex="W"><persName><name type="nomen">Flavia</name><name type="cognomen">Pinna+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-12" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Flavia Fr<lb break="no" n="3"/>ontina <lb n="4"/>vixit an<lb break="no" n="5"/>nos <supplied reason="lost" cert="low">-</supplied>XII <lb n="6"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> Fronto <lb n="7"/>una cum <lb n="8"/>Flavia Pi<supplied reason="lost" cert="low">n</supplied><lb break="no" n="9"/>na filia <lb n="10"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>pos</abbr><ex>uit</ex></expan> <lb n="11"/>V Idus Maias <lb n="12"/>Orfito et Rufo <lb n="13"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 9: AE 2015: möglicherweise auch filiae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2015, 1218.</bibl><bibl>PIR (2. Aufl.) C 1448.</bibl><bibl>PIR (2. Aufl.) V 349.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

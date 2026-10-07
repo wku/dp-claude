@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Ratiaria &amp;ndash; Dimovo (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016256</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016256</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lom, Muz. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>92</height><width>59</width><depth>47</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207376">Ratiaria</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/733642">Dimovo</placeName><placeName type="findspot">{Arčar}</placeName><placeName type="region">Vidin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016256_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14194"><name type="praenomen">M.</name><name type="nomen">Cocceius+</name><name type="cognomen">Valens+</name></persName></person><person xml:id="HD016256_2" sex="W"><persName ref="http://romans1by1.com/rpeople/14195"><name type="cognomen">Politta*</name></persName></person><person xml:id="HD016256_3" sex="M"><persName ref="http://romans1by1.com/rpeople/14196"><name type="nomen">Cocceius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-16" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">So</supplied>li Invicto <lb n="2"/>Mithrae <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <supplied reason="lost">C</supplied>occeius <supplied reason="lost">V</supplied>alens <expan><abbr>dec</abbr><ex>urio</ex></expan> Au<lb break="no" n="4"/><supplied reason="lost">gu</supplied>s<supplied reason="lost"><expan><abbr>t</abbr><ex cert="low">alis</ex></expan></supplied> <expan><abbr>col</abbr><ex>oniae</ex></expan> pro <supplied reason="lost">sa</supplied><lb break="no" n="5"/><supplied reason="lost">lute s</supplied>ua et <expan><abbr>Politt</abbr><ex>ae</ex></expan> <lb n="6"/><expan><abbr><supplied reason="lost">co</supplied>niug</abbr><ex>is</ex></expan> et Cocceio<lb break="no" n="7"/>rum <expan><abbr>filior</abbr><ex>um</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zotović: Z. 3/4: Au/[gu]s[t(alium)]. (B): Zotović: Z. 5/6: Zeilenfall fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1966, 0344.</bibl><bibl>L. Zotović, Les cultes orientaux sur le territoire de la Mésie supérieure (Leiden 1966) 60, Nr. 1. (B) - AE 1966.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

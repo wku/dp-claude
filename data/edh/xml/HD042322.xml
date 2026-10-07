@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Dimum &amp;ndash; Belene (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042322</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042322</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(111)</height><width>91</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216790">Dimum</placeName></origPlace><origDate><origDate notBefore-custom="0212" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">212 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/733359">Belene</placeName><placeName type="findspot">{Rathaus}, bei, spätantikes Grab, sekundär verwendet</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042322_1" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Mucianus</name></persName></person><person xml:id="HD042322_2"><persName><name type="nomen">Iulius</name><name type="cognomen">Castus</name></persName></person><person xml:id="HD042322_3"><persName><name type="nomen">Sentia</name><name type="cognomen">Matrona</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Aur</abbr><ex>elio</ex></expan> Muci<lb break="no" n="3"/>ano mi&amp;lt;l=I&amp;gt;(iti) le<lb break="no" n="4"/><expan><abbr>g</abbr><ex>ionis</ex></expan> I <expan><abbr>Ital</abbr><ex>icae</ex></expan> s&amp;lt;t=I&amp;gt;<expan><abbr>ip</abbr><ex>endiorum</ex></expan> <lb n="5"/>XXIIII vixit <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>h</abbr><ex>ic</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>s</abbr><ex>itus</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>e</abbr><ex>st</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>Iulius Cas<lb break="no" n="2"/>tus &amp;lt;h=I&amp;gt;eres <lb n="3"/>ex testamen<lb break="no" n="4"/>to Senties <note>sic</note> <lb n="5"/>Matrones <note>sic</note> <lb n="6"/><expan><abbr>fec</abbr><ex>it</ex></expan> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung für ein spätantikes Grab. 2 nicht aneinanderpassende Fragmente erhalten; Maße beziehen sich auf Fragment a; Maße Fragment b: (16) x 92 x 25. Der gesamte Reliefschmuck ist abgearbeitet. (B): Conrad, RIU: Fragment a: Z. 6: nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 238, Nr. 418. (B)</bibl><bibl>ILBulg 338; tab. 62, 338a u. 338b. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

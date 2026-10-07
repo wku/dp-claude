@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Philippopolis &amp;ndash; Plovdiv (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD022614</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD022614</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Plovdiv, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(62)</height><width>(36)</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216927">Philippopolis</placeName></origPlace><origDate><origDate notBefore-custom="0211" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211 AD - 217 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="findspot"/><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD022614_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius+*</name><name type="cognomen">Severus+ Antoninus</name></persName></person><person xml:id="HD022614_2" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Domna*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-09-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> A<supplied reason="lost"><expan><abbr>ur</abbr><ex>elio</ex></expan> Se</supplied><lb break="no" n="2"/>vero Antonino <lb n="3"/>et Iuliae Domn<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="4"/>matri castrorum </ab></div><div n="2" type="textpart"><ab><lb n="1"/> et <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>vet</abbr><ex>erani</ex></expan> eor<expan><ex>u</ex><abbr>m</abbr></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Statuenbasis oder Altar. Z. 1/2: möglicherweise auch A[urelio Se]/vero. Z. 5 auf der crepido. Z. 5: nach N. Sharankov (Mitteilung vom 15.09.2014) ist EORVM mit RVM-Ligatur zu lesen. (B): Cončev: Z. 1: [Aur(elio); Z. 2: Antonino.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1939, 0115.</bibl><bibl>D. Cončev, AA 1938, 203, Nr. 2; Abb. 2. (B) - AE 1939.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

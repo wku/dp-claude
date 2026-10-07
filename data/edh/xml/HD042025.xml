@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Capidava &amp;ndash; Topalu (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042025</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042025</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(183)</height><width>70</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216748">Capidava</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682814">Topalu</placeName><placeName type="findspot">{Capidava}</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042025_1"><persName><name type="nomen">Cocceius</name><name type="cognomen">Vitales (= Vitalis)</name></persName></person><person xml:id="HD042025_2"><persName><name type="nomen">Cocceia*</name><name type="cognomen">Iulia</name></persName></person><person xml:id="HD042025_3" sex="M"><persName><name type="nomen">Cocceius</name><name type="cognomen">Clemens</name></persName></person><person xml:id="HD042025_4" sex="M"><persName><name type="nomen">Cocceius</name><name type="cognomen">Helius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dis Manibus <lb n="2"/>Cocceius Vitales <note>sic</note> vixsit <note>sic</note> <lb n="3"/>annis L et <expan><abbr>Coc</abbr><ex>ceia</ex></expan> Iulia co<lb break="no" n="4"/>niunxs <note>sic</note> eius vixsit <note>sic</note> annis <lb n="5"/>XL obiti ad villam suam Coc<lb break="no" n="6"/>ceius Clemens et <expan><abbr>Coc</abbr><ex>ceius</ex></expan> He<lb break="no" n="7"/>lius <expan><abbr>fili</abbr><ex>i</ex></expan> patri et matri <supplied reason="lost">be</supplied><lb break="no" n="8"/>ne merentibus titulum <lb n="9"/>posuerunt
+            </ab></div>
+            <div type="commentary">
+                <p>3 aneinanderpassende Fragmente erhalten. Oberhalb des Inschriftfeldes ein nach rechts sprengender Reiterf; darüber Totenmahlrelief. Häufig hederae als Worttrenner. (B): CIL III: Z. 7/8: be/ne.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 192, Nr. 248; Taf. 139, 3.</bibl><bibl>CIL 03, 13737. (B)</bibl><bibl>IScM 5, 030; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

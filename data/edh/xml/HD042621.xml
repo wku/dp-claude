@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Utus, aus? &amp;ndash; Nikopol (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042621</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042621</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>132</height><width>68</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217033">Utus, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728782">Nikopol</placeName><placeName type="findspot">Park</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042621_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD042621_2"><persName><name type="cognomen">Nuidasia</name></persName></person><person xml:id="HD042621_3"><persName><name type="cognomen">Doiodus</name></persName></person><person xml:id="HD042621_4"><persName><name type="cognomen">Etzozi?</name></persName></person><person xml:id="HD042621_5"><persName><name type="cognomen">Flegitsana?</name></persName></person><person xml:id="HD042621_6"><persName><name type="cognomen">Zito?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-11-19" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>DVI<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>TVOR <lb n="3"/>ME<gap reason="lost" extent="unknown" unit="character"/>T <lb n="4"/>VEZVI<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/> v</supplied><expan><abbr>ix</abbr><ex>it</ex></expan> a<lb break="no" n="5"/><expan><abbr>n</abbr><ex>nos</ex></expan> IX Nuidasia <lb n="6"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> <expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/>X</expan> Do<lb break="no" n="7"/>iodus <expan><abbr>vi</abbr><ex>xit</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> <lb n="8"/>XX <expan><abbr>Etzozi</abbr><ex cert="low"/></expan> Fl<lb break="no" n="9"/><expan><abbr>egitsana</abbr><ex cert="low"/></expan> <expan><abbr>E</abbr><ex cert="low"/></expan><supplied reason="lost" cert="low">t</supplied> <lb n="10"/><expan><abbr>Zito</abbr><ex cert="low"/></expan> <expan><abbr>p</abbr><ex cert="low">ro</ex></expan> <expan><abbr>p</abbr><ex cert="low">ietate</ex></expan> <lb n="11"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erentibus</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung der Namen in Z. 1-3 und 8-10 sehr unsicher. Zur Herkunft aus Utus s. CIL III 12354.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILBulg 142.</bibl><bibl>CIL 03, 12362.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

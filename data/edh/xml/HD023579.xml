@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Augusta (Diocletianopolis) &amp;ndash; Hisarja (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023579</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023579</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147">tile</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><dimensions unit="cm"><width>(1630)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216792">Augusta (Diocletianopolis)</placeName></origPlace><origDate><origDate notBefore-custom="0308" notAfter-custom="0310" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">308 AD - 310 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1928"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/730419">Hisarja</placeName><placeName type="findspot">{Momina banja}, Thermen</placeName><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023579_1"><persName><name type="cognomen">Maximianus</name></persName></person><person xml:id="HD023579_2"><persName><name type="cognomen">Licinius</name></persName></person><person xml:id="HD023579_3"><persName><name type="cognomen">Maximinus</name></persName></person><person xml:id="HD023579_4"><persName><name type="cognomen">Constantinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-20" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>DD</abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> Maximiani et Licini <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> et Maximini et Constantini <expan><abbr>filior</abbr><ex>um</ex></expan> <supplied reason="lost"><expan><abbr>Augg</abbr><ex>ustorum</ex></expan> aedi</supplied>ficatum <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Textwiedergabe und Datierung nach Ivanov: 11.11. - 31.12. 308 n. Chr. Datierungsvorschlag Stefan: 11.11.308 - Frühjahr 310 n. Chr. Ursprüngliche Länge ca. 19,50 m.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1405.</bibl><bibl>AE 1929, 0094.</bibl><bibl>I. Velkov, BIAB 4, 1926/27, 379-380; obr. 256 (Zeichnung). - AE 1929.</bibl><bibl>T. Ivanov, Arch(Sofia) 30, 3, 1988, 27-29; obr. 1 (Zeichnung). - AE 1991.</bibl><bibl>AE 2004, 1309.</bibl><bibl>A. Stefan, AntTard 12, 2004, 280-282, Nr. 5; fig. 3 (Zeichnung). - AE 2004.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

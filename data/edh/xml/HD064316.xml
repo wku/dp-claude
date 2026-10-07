@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ratiaria &amp;ndash; Dimovo (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064316</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064316</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vidin, Muz. ""Konaka""</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(97)</height><width>103</width><depth>31</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.2-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207376">Ratiaria</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2004"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/733642">Dimovo</placeName><placeName type="findspot">{Arčar}</placeName><placeName type="region">Vidin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064316_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14212"><name type="praenomen">C.</name><name type="nomen">Plotius*</name><name type="cognomen">Valens</name></persName></person><person xml:id="HD064316_2" sex="W"><persName ref="http://romans1by1.com/rpeople/14213"><name type="nomen">Ulpia</name><name type="cognomen">Dianilla</name></persName></person><person xml:id="HD064316_3" sex="W"><persName ref="http://romans1by1.com/rpeople/14214"><name type="nomen">Plotia</name><name type="cognomen">Plotia</name></persName></person><person xml:id="HD064316_4" sex="W"><persName ref="http://romans1by1.com/rpeople/14215"><name type="nomen">Plotia</name><name type="cognomen">Plotina</name></persName></person><person xml:id="HD064316_5" sex="W"><persName ref="http://romans1by1.com/rpeople/14216"><name type="nomen">Plotia</name><name type="cognomen">Valentina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-05-26" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Plot</abbr><ex>ius</ex></expan> Valens fi<lb break="no" n="2"/>lio contra votum <lb n="3"/>sibi et Ulpiae <lb n="4"/>Dianillae con<lb break="no" n="5"/>iugi et Ploti<expan><ex>i</ex><abbr>s</abbr></expan> <lb n="6"/>Plotiae Ploti<lb break="no" n="7"/>nae Valentinae <lb n="8"/>fili<expan><ex>i</ex><abbr>s</abbr></expan> vivos <note>sic</note> <lb n="9"/>faciundum <lb n="10"/>curavit
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2007, 1214.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

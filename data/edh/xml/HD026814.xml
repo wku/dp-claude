@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD026814</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD026814</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(186)</height><width>92</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate notBefore-custom="0045" notAfter-custom="0069" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">45 AD - 69 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot">spätantike Gräber, sekundär verwendet</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD026814_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Farfinias</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD026814_2" sex="M"><persName><name type="cognomen">Vitalis</name></persName></person><person xml:id="HD026814_3" sex="M"><persName><name type="cognomen">Ferox</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-30" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublius</ex></expan> Farfinias <lb n="2"/><expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Poll</abbr><ex>ia</ex></expan> <lb n="3"/>Severus <expan><abbr>Fan</abbr><ex>o</ex></expan> <lb n="4"/><expan><abbr>Fort</abbr><ex>unae</ex></expan> <expan><abbr>corn</abbr><ex>icen</ex></expan> <lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> VIII <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="6"/><expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> L <expan><abbr>m</abbr><ex>ilitavit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> XXX <lb n="7"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="8"/>Vitalis et Ferox <lb n="9"/>fili <expan><abbr>f</abbr><ex>aciundum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1919, 0079.</bibl><bibl>AE 1914, 0093.</bibl><bibl>ILBulg 300; tab. 58, 300.</bibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 227, Nr. 376; Taf. 74, 1 u. 74, 2.</bibl><bibl>G.I. Kacarov, BIAB 3, 1912, 193-195, Nr. 2; obr. 105. - AE 1914.</bibl><bibl>G. Seure, RA 7, 1918, 83-84, Nr. 153. - AE 1919.</bibl><bibl>IGLN 081; pl. 30, 81.</bibl><bibl>R. Cubaynes, Les hommes de la VIIIe légion Auguste (Autun 2018) 438-440, Nr. 119; Fotos.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

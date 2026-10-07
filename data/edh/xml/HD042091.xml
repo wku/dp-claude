@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Nicopolis ad Istrum, bei &amp;ndash; Polski Trâmbeš (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042091</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042091</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Obedinenie</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(244)</height><width>105</width><depth>63</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216895">Nicopolis ad Istrum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728693">Polski Trâmbeš</placeName><placeName type="findspot">{Obedinenie}, nördlich, Nekropole</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042091_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Spurennius</name><name type="cognomen">Herculanus</name></persName></person><person xml:id="HD042091_2" sex="W"><persName><name type="nomen">Flavia*</name><name type="cognomen">Paula</name></persName></person><person xml:id="HD042091_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Spurennius</name><name type="cognomen">Rufus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-05" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>si modo sunt Ma<lb break="no" n="3"/>nes sentiant spes vi<lb break="no" n="4"/>t<expan><ex>a</ex><abbr>e</abbr></expan> nostr<expan><ex>a</ex><abbr>e</abbr></expan> fueras <expan><abbr>nu</abbr><ex cert="low">n</ex></expan><lb break="no" n="5"/>c quis ubi iaceas indi<lb break="no" n="6"/>cat iste lapis <expan><abbr>L</abbr><ex>ucius</ex></expan> Spurenni<lb break="no" n="7"/>us Herculanus frater et <lb n="8"/><expan><abbr>Fl</abbr><ex>avia</ex></expan> Paula mater <expan><abbr>L</abbr><ex>ucio</ex></expan> Spuren<lb break="no" n="9"/>nio Rufo <expan><abbr>b</abbr><ex>ucinatori</ex></expan> c<expan><ex>o</ex><abbr>h</abbr><ex>o</ex><abbr>r</abbr></expan>(tis) Mattia<lb break="no" n="10"/>corum militante <note>sic</note> <expan><abbr>an</abbr><ex>nos</ex></expan> XX <lb n="11"/>bene merenti posue<lb break="no" n="12"/>runt valete viatores
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden in einer antiken Nekropole. Oberhalb des Inschriftfeldes Darstellung eines galoppierenden Reiters (links) und eines Altars mit einer weiblichen Figur (rechts). (B): Škorpil - Škorpil; AE 1892; CIL III; CLE: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1892, 0109. (B)</bibl><bibl>H. Škorpil - K. Škorpil, AEM 15, 1892, 212, Nr. 87. (B) - AE 1892.</bibl><bibl>CIL 03, 12437. (B)</bibl><bibl>CLE 1323. (B)</bibl><bibl>ILBulg 395; tab. 73, 395.</bibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 214-215, Nr. 328; Taf. 81, 3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

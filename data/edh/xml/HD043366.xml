@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Samuil (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043366</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043366</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/733114">Samuil</placeName><placeName type="findspot">{Bogomilci}</placeName><placeName type="region">Razgrad</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043366_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Terentianus+?</name></persName></person><person xml:id="HD043366_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Valentina+?</name></persName></person><person xml:id="HD043366_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Iulius+*?</name><name type="cognomen">Terentianus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-21" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> T<supplied reason="lost" cert="low">erenti</supplied><lb break="no" n="2"/>anus <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> <lb n="3"/>IIII <expan><abbr>Fl</abbr><ex>aviae</ex></expan> S<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/>ANTES<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> Va</supplied><lb break="no" n="5"/>lent<supplied reason="lost" cert="low">ina</supplied> <lb n="6"/>con<supplied reason="lost" cert="low">iux et -? Iul(ius)</supplied> <lb n="7"/>Tere<supplied reason="lost">ntianus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>fil</abbr><ex>ius</ex></expan></supplied> <lb n="8"/>vivo <gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/>fec<supplied reason="lost">erunt</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzungsvorschlag nach CIL III.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14432.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

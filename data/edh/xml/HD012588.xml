@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tomi &amp;ndash; Constanţa (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD012588</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD012588</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ist. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>175</height><width>34</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217016">Tomi</placeName></origPlace><origDate><origDate notBefore-custom="0351" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">351 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1913"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/680963">Constanţa</placeName><placeName type="findspot">{Strada Sabinelor 32}</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD012588_1" sex="M"><persName><name type="cognomen">Terentius</name></persName></person><person xml:id="HD012588_2" sex="W"><persName><name type="cognomen">Gaiona+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-10-13" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                In huc <note>sic</note> tumulu<lb break="no" n="2"/>m <note>sic</note> est positus <lb n="3"/>Terentius <lb n="4"/>filius Gaio<lb break="no" n="5"/><expan><abbr>n</abbr><ex cert="low">a</ex>e</expan> <expan><abbr>n<am>n</am></abbr><ex>um</ex></expan> vigin<lb break="no" n="6"/>ti cinque <note>sic</note> mil<lb break="no" n="7"/>itans inter sa<lb break="no" n="8"/>gittar<expan><ex>io</ex><abbr>s</abbr></expan> iunio<lb break="no" n="9"/>res
+            </ab></div>
+            <div type="commentary">
+                <p>Die Buchstaben S und E sind paläographisch in der Form eines eckigen C (Sigma) bzw. eines ε (Epsilon) dargestellt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1976, 0617.</bibl><bibl>E. Popescu, Inscripţiile greceşti şi latine din secolele IV-XIII descoperite în România (Bucureşti 1976) 65-66, Nr. 30; fig. 30. - AE 1976.</bibl><bibl>M. Teoderescu, BCM 7, 1914, 189-192; fig. 25. - AE 1976.</bibl><bibl>I. Barnea, Les monuments paléochrétiens de Roumanie (Città del Vaticano 1977) 56, Nr. 23; Fig. 11, 23.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

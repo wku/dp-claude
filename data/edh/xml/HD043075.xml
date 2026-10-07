@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tomi &amp;ndash; Constanţa (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043075</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043075</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>40</height><width>43</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217016">Tomi</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/680963">Constanţa</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043075_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Valerius</name><name type="cognomen">Germanus</name></persName></person><person xml:id="HD043075_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Valerius</name><name type="cognomen">Iulianus</name></persName></person><person xml:id="HD043075_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Valerius</name><name type="cognomen">Germanus+</name></persName></person><person xml:id="HD043075_4" sex="W"><persName><name type="nomen">Valeria</name><name type="cognomen">Germana</name></persName></person><person xml:id="HD043075_5" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Iulia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-22" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> Valerius <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Collina Germanus Pes<lb break="no" n="2"/>sennunto <note>sic</note> <expan><abbr>immaginif</abbr><ex>er</ex></expan> <note>sic</note> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VII <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> donis II <expan><abbr>don</abbr><ex>atus</ex></expan> <lb n="3"/>vixit <expan><abbr>an</abbr><ex>nos</ex></expan> LVII <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> heredes <expan><abbr>T</abbr><ex>itus</ex></expan> Valerius Iulianus et <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Valerius Ge&amp;lt;r=E&amp;gt;manus et Valeria Germana et <expan><abbr>Cl</abbr><ex>audia</ex></expan> Iu<lb break="no" n="5"/>lia con<supplied reason="lost">iunx e</supplied>ius <expan><abbr>n</abbr><ex cert="low">obilissima</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb der Inschrift ein Totenmahlrelief. (B): Tocilescu; AE 1891; CIL III; IScM II; Conrad: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1891, 0055. (B)</bibl><bibl>G.G. Točilescu, AEM 14, 1891, 26-27, Nr. 51. (B) - AE 1891.</bibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 159, Nr. 128; Taf. 27, 1. (B)</bibl><bibl>IScM 2, 169; Foto. (B)</bibl><bibl>CIL 03, 12498. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

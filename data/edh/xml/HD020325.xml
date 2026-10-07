@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Porolissum (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020325</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020325</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zalău, Muz. Ist. Artă</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>74</height><width>133</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207361">Porolissum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern"/><placeName type="findspot"/><placeName type="region">Sălaj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020325_1"><persName ref="http://romans1by1.com/rpeople/2587"><name type="nomen">Aelia</name><name type="cognomen">Nice</name></persName></person><person xml:id="HD020325_2"><persName ref="http://romans1by1.com/rpeople/2589"><name type="nomen">Aelius*</name><name type="cognomen">Victor</name></persName></person><person xml:id="HD020325_3"><persName ref="http://romans1by1.com/rpeople/2588"><name type="nomen">Aelia</name><name type="cognomen">Mammutio</name></persName></person><person xml:id="HD020325_4"><persName ref="http://romans1by1.com/rpeople/2590"><name type="nomen">Aelius*</name><name type="cognomen">Vitalianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-04-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Aelia Nice <expan><abbr><supplied reason="lost">vi</supplied>x</abbr><ex>it</ex></expan> annis XC <expan><abbr>Ael</abbr><ex>ius</ex></expan> <lb n="2"/>Victor vi<supplied reason="lost"><expan><abbr>x</abbr><ex>it</ex></expan> a</supplied>nnis IIII Aelia Mam<lb break="no" n="3"/>mutio <expan><abbr>vix</abbr><ex>it</ex></expan> annis XXII <expan><abbr>Ael</abbr><ex>ius</ex></expan> Vitalia<lb break="no" n="4"/>nus augur <gap reason="lost" extent="unknown" unit="character"/>NMOO matri et <expan><abbr>fili</abbr><ex>o</ex></expan> <lb n="5"/>neptiae <note>sic</note> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erentibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Daicoviciu: abweichende Textwiedergabe; ILD: Z. 5: neptae; Gudea - Lucăcel: geringfügig abweichende Textwiedergabe. Die Tafel ist in vier Teile zerbrochen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1944, 0048b.</bibl><bibl>AE 1977, 0663.</bibl><bibl>ILD 700. (B)</bibl><bibl>I.I. Russu, AnInstCluj 18, 1975, 61-64, Nr. 2; fig. 6 a; fig. 6 b (Zeichnung). - AE 1977.</bibl><bibl>C. Daicoviciu, Dacia 7/8, 1937-1940, 324, Nr. 4. (B) - AE 1944.</bibl><bibl>N. Gudea - V. Lucăcel, Inscripţii şi monumente sculpturale în Muzeul de Istorie şi Artă Zalău (Zalău 1975) 16-17, Nr. 17; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

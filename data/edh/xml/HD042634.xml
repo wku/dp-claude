@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Kneža (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042634</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042634</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731645">Kneža</placeName><placeName type="findspot">{Enica}</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042634_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="praenomen">M.+</name><name type="nomen">Aurelius+</name><name type="cognomen">Severus+ Alexander+</name></persName></person><person xml:id="HD042634_2" sex="M"><persName><name type="nomen">Flavius+</name><name type="cognomen">Vitalis+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-16" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ pro] <lb n="2"/><expan><abbr>sal</abbr><ex>ute</ex></expan> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></supplied> <lb n="3"/><expan><abbr>Caes</abbr><ex>aris</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan> Aur</supplied><lb break="no" n="4"/>eli Se<supplied reason="lost">veri</supplied> <lb n="5"/><supplied reason="lost">Alexandri</supplied> <lb n="6"/>Fla<supplied reason="lost">vius</supplied> <lb n="7"/>Vita<supplied reason="lost" cert="low">lis b(ene)f(iciarius)</supplied> <lb n="8"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <supplied reason="lost">cum</supplied> <lb n="9"/><supplied reason="lost">s</supplied>uis ex <supplied reason="lost"><expan><abbr>v</abbr><ex>oto</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILBulg 152.</bibl><bibl>CIL 03, 13723.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

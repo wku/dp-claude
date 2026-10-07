@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Porolissum &amp;ndash; Creaca (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020349</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020349</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cluj-Napoca, Muz. Naţ. Ist. Transilv.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>176</height><width>57</width><depth>50</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207361">Porolissum</placeName></origPlace><origDate><origDate when-custom="0251" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1934"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675302">Creaca</placeName><placeName type="findspot">Jac, {Lager, südwestliche Mauer}, sekundär verwendet</placeName><placeName type="region">Sălaj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020349_1" sex="W"><persName><name type="nomen">Herennia++</name><name type="cognomen">Etruscilla++</name></persName></person><person xml:id="HD020349_2" sex="M"><persName><name type="nomen">Decius++</name><name type="cognomen">Traianus++</name></persName></person><person xml:id="HD020349_3" sex="M"><persName><name type="nomen">Decius++</name></persName></person><person xml:id="HD020349_4" sex="M"><persName><name type="cognomen">Quintus++</name></persName></person><person xml:id="HD020349_5" sex="M"><persName><name type="cognomen">Decianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-05" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F013919" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/963fed1c-e70e-4f02-86ab-3f507d96061a/file/id/773447/file_version/name/small"/><graphic xml:id="F005627" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e876cb7e-423c-497a-bf2c-3221ae247118/file/id/766404/file_version/name/small"/><graphic xml:id="F013918" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1e33ac0a-a610-4d39-b7ed-cb49c89fcbf4/file/id/773446/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure">Herenniae Etrus</del><lb break="no" n="2"/><del rend="erasure">cillae sanctissimae</del> <lb n="3"/><del rend="erasure">Augustae coniugi <expan><abbr>d</abbr><ex>omini</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan></del> <lb n="4"/><del rend="erasure">Traiani Deci <expan><abbr>Aug</abbr><ex>usti</ex></expan></del> <lb n="5"/><del rend="erasure">matri Deci et Quin</del><lb break="no" n="6"/><del rend="erasure">ti <expan><abbr>Augg</abbr><ex>ustorum</ex></expan></del> et castro<lb break="no" n="7"/>rum senatus ac <lb n="8"/>patriae <expan><abbr>n</abbr><ex>umerus</ex></expan> <expan><abbr>Pal</abbr><ex>myrenorum</ex></expan> <lb n="9"/><expan><abbr>Porol</abbr><ex>issensium</ex></expan> <expan><abbr>sag</abbr><ex>ittariorum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <lb n="10"/>Decianus dica<lb break="no" n="11"/>tissimus numi<lb break="no" n="12"/>ni eorum
+            </ab></div>
+            <div type="commentary">
+                <p>Wegen der asymmetrischen Anordnung des Ornaments auf der corona handelt es sich offensichtlich um eine wiederverwendete Statuenbasis. Auf der Oberseite Spuren wohl von der Befestigung der Statue. Zeilenlinien für die Beschriftung; hedera am Ende der letzten Zeile. (B): ILD: Abweichungen in der Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1944, 0056.</bibl><bibl>ILD 672. (B)</bibl><bibl>C. Daicoviciu, Dacia 7/8, 1937-1940, 328-329, Nr. 7f; Abb. 26. - AE 1944.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Nikopol (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042630</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042630</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nikopol, Brunnen, vemauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>125</height><width>82</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728782">Nikopol</placeName><placeName type="findspot">Brunnen, sekundär verwendet</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042630_1" sex="W"><persName><name type="nomen">Aurelia</name><name type="cognomen">Marcellina</name></persName></person><person xml:id="HD042630_2" sex="M"><persName><name type="cognomen">Marcellinus</name></persName></person><person xml:id="HD042630_3" sex="M"><persName><name type="nomen">Turranius</name><name type="cognomen">Leontius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Bonae memoriae <lb n="2"/>Aureliae Marcel<lb break="no" n="3"/>linae <expan><abbr>Oesc</abbr><ex>ensis</ex></expan> pientissimae <lb n="4"/><expan><abbr>f</abbr><ex>eminae</ex></expan> habens <note>sic</note> ius liberorum filiae <lb n="5"/>q<expan><ex>uon</ex><abbr>d</abbr><ex>am</ex></expan> Marcellini ex <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> III <lb n="6"/>Gallicae Danavae Damasco <lb n="7"/>quae vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> L <lb n="8"/>Turranius Leontius praesby<lb break="no" n="9"/><supplied reason="lost">te</supplied>r <note>sic</note> co<expan><ex>n</ex><abbr>iugi</abbr></expan> benae <note>sic</note> merita<supplied reason="lost">e</supplied> <lb n="10"/><supplied reason="lost">me</supplied>moriam et sibi <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb der Inschrift ein Christusmonogramm. (B): CIL III; ILBulg; ILCV; Beševliev: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILBulg 146; tab. 26, 146. (B)</bibl><bibl>CIL 03, 00755. (B)</bibl><bibl>CIL 03, 00755 add. p. 993. (B)</bibl><bibl>ILCV 0393. (B)</bibl><bibl>V. Beševliev, Spätgriechische und spätlateinische Inschriften aus Bulgarien (Berlin 1964) 33-34, Nr. 48; Taf. 19, 48. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

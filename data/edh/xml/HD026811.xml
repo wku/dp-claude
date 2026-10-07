@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Abrittus, bei &amp;ndash; Razgrad (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD026811</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD026811</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(29)</height><width>(35)</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216688">Abrittus, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727696">Razgrad</placeName><placeName type="findspot">Tabah, Moschee, sekundär verwendet</placeName><placeName type="region">Razgrad</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD026811_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14575"><name type="nomen">Aurelius*</name><name type="cognomen">Victor+</name></persName></person><person xml:id="HD026811_2" sex="W"><persName ref="http://romans1by1.com/rpeople/14576"><name type="nomen">Claudia*</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD026811_3" sex="M"><persName ref="http://romans1by1.com/rpeople/14577"><name type="cognomen">Drizuparus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-19" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/><expan><abbr>Aur</abbr><ex>elio</ex></expan> Vict<supplied reason="lost">ori <expan><abbr>vet</abbr><ex>erano</ex></expan> qui <expan><abbr>mil</abbr><ex>itavit</ex></expan></supplied> <lb n="3"/>in <expan><abbr>leg</abbr><ex>ione</ex></expan> XI <expan><abbr>Cl</abbr><ex>audia</ex></expan> <supplied reason="lost"><expan><abbr>an</abbr><ex>nos</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>vix</abbr><ex>it</ex></expan></supplied> <lb n="4"/><expan><abbr>an</abbr><ex>nos</ex></expan> LXX et Cl<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>coniugi eius <supplied reason="lost">quae <expan><abbr>vix</abbr><ex>it</ex></expan></supplied> <lb n="6"/><expan><abbr>an</abbr><ex>nos</ex></expan> LI et Drizu<supplied reason="lost" cert="low">paro? fil(io)</supplied> <lb n="7"/>eorum
+            </ab></div>
+            <div type="commentary">
+                <p>Hedera in Z. 7.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1919, 0078.</bibl><bibl>G. Seure, RA 7, 1918, 76-81, Nr. 152. - AE 1919.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

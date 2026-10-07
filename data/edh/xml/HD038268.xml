@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038268</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038268</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sebeş, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>90</height><width>60</width><depth>47</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0106" notAfter-custom="0180" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">106 AD - 180 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">canabae</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038268_1" sex="M"><persName ref="http://romans1by1.com/rpeople/9410"><name type="praenomen">T.</name><name type="nomen">Iulius*</name><name type="cognomen">Gaianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-14" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005096" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3b7ced21-d8f2-472b-a00f-fae5da3c8c74/file/id/765873/file_version/name/small"/><graphic xml:id="F036376" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/01b3cab1-cfa0-48ba-954e-1e0883397efe/file/id/797233/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>ceterisque diis <lb n="3"/>deabusque immor<lb break="no" n="4"/>talibus <lb n="5"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Gaianus <expan><abbr>d<supplied reason="lost">e</supplied>c</abbr><ex>urio</ex></expan> <expan><abbr>c</abbr><ex>oloniae</ex></expan> <lb n="6"/><expan><abbr>Sarmiz</abbr><ex>egetusae</ex></expan> pro <expan><abbr>sal</abbr><ex>ute</ex></expan> sua <lb n="7"/>suorumque <lb n="8"/>omnium posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld heute zum Teil verwittert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 183; Foto u. Zeichnung.</bibl><bibl>CIL 03, 01060.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Sarmizegetusa Regia &amp;ndash; Orăştioara de Sus (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043921</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043921</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cluj-Napoca, Muz. Naţ. Ist. Transilv.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><dimensions unit="cm"><height>60</height><width>95</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207425">Sarmizegetusa Regia</placeName></origPlace><origDate><origDate when-custom="0102" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">102 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1962"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/676805">Orăştioara de Sus</placeName><placeName type="findspot">Grădiştea de Munte, {Lager}, Westtor</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-05-17" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <abbr>P</abbr> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>p</abbr><ex cert="low">atrimonium</ex></expan> <expan><abbr>n</abbr><ex cert="low">ostrum</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>2 heraldisch angeordnete Capricorne; Buchstaben P N auf dem Globus dazwischen, Buchstabe P oben links im Bildfeld. Datierung: Bau des Lagers am Ende des 1. Dakerkrieges 102 n. Chr. oder bald danach. Weiter mögliche Auflösungen nach Daicoviciu - Ferenczi - Rusu: p(raeses) n(oster) oder p(raesidium) n(ostrum).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2001, 1716.</bibl><bibl>C. Opreanu, EphNapocensis 10, 2000, 159-162; fig. 4, 2 (Zeichnung). - AE 2001.</bibl><bibl>IDR 3, 3, 271; fig. 204 (Zeichnung).</bibl><bibl>AE 2007, 1202.</bibl><bibl>I. Piso, in: S. Nemeti u. a. (Hrsg.), Dacia Felix. Studia Michaeli Bărbulescu oblata (Cluj-Napoca 2007) 280, Nr. 6; Foto. - AE 2007.</bibl><bibl>H. Daicoviciu - I. Ferenczi - A. Rusu, Sargetia 21-24, 1988-1991, 47, Nr. 3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Praetorium &amp;ndash; Racoviţa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047041</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047041</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>120</height><width>40</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216943">Praetorium</placeName></origPlace><origDate><origDate when-custom="0236" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">236 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/680929">Racoviţa</placeName><placeName type="findspot">{Copăceni}, Lager, Tor, sekundär verwendet</placeName><placeName type="region">Vâlcea</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047041_1" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Iulius+*</name><name type="cognomen">Verus+ Maximinus+</name></persName></person><person xml:id="HD047041_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q518890"><name type="praenomen">C.+</name><name type="nomen">Iulius+*</name><name type="cognomen">Verus+ Maximus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-12-03" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">Im</supplied>p</abbr><ex>erator</ex></expan> Caes<supplied reason="lost">ar</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan></supplied> Veru<supplied reason="lost">s</supplied> <lb n="3"/>M<supplied reason="lost">aximi</supplied>nus <lb n="4"/>Pius <expan><abbr><supplied reason="lost">F</supplied>e<supplied reason="lost">l</supplied></abbr><supplied reason="lost"><ex>ix</ex></supplied></expan> <supplied reason="lost"/> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="5"/><expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <lb n="6"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> p<supplied reason="lost"><expan><abbr>ot</abbr><ex>estate</ex></expan></supplied> <lb n="7"/>II co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <lb n="8"/><expan><abbr>pa</abbr><ex>ter</ex></expan> <expan><abbr>pa</abbr><ex>triae</ex></expan> et <supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan> I</supplied><expan><abbr>ul</abbr><ex>ius</ex></expan> Veru<supplied reason="lost">s</supplied> <lb n="9"/>Maxim<surplus>in</surplus>us <lb n="10"/>nobilis<supplied reason="lost">simus</supplied> <lb n="11"/>Cae<supplied reason="lost">sar</supplied> III <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>In 2 Teile gebrochen; Lesung nach IDR II. IDR II: Kaisernamen in Z. 2, 3 und 10 scheinen eradiert zu sein. (B): Fodorean: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1050.</bibl><bibl>F. Fodorean, in: L. Ruscu - C. Ciongradi - R. Ardevan - C. Roman - C. Găzdac (Hrsg.), Orbis antiquus. Studia in honorem Ioannis Pisonis (Cluj-Napoca 2004) 524. (B) - AE 2004.</bibl><bibl>CIL 03, 14216, 19.</bibl><bibl>IDR 2, 589.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

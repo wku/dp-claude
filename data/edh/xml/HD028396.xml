@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Oescus &amp;ndash; Guljanci (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028396</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028396</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>132</height><width>(64)</width><depth>(64)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216907">Oescus</placeName></origPlace><origDate><origDate notBefore-custom="0218" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">218 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1896"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731437">Guljanci</placeName><placeName type="findspot">Gigen, bei, {antike Stadt}</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD028396_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Aurelius</name><name type="cognomen">Flavinus</name></persName></person><person xml:id="HD028396_2" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Nicomedes</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-27" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>ito</ex></expan> Aurelio <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>Papir</abbr><ex>ia</ex></expan> <lb n="2"/>Flavino primipilari <lb n="3"/>et principi ordinis <expan><abbr>col</abbr><ex>oniae</ex></expan> <lb n="4"/><expan><abbr>Oesc</abbr><ex>ensium</ex></expan> et buleutae civitatiu<supplied reason="lost">m</supplied> <lb n="5"/>Tyranorum <expan><abbr>Dionysiopol</abbr><ex>itanorum</ex></expan> <lb n="6"/><expan><abbr>Marcianopol</abbr><ex>itanorum</ex></expan> Tungroru<supplied reason="lost">m</supplied> <lb n="7"/>et Aquincensium patron<supplied reason="lost">o</supplied> <lb n="8"/><expan><abbr>collegi</abbr><ex>i</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> honorat<supplied reason="lost">o</supplied> <lb n="9"/>a divo Magno Antonino <lb n="10"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> HS L milia <expan><abbr>n</abbr><ex>ummum</ex></expan> et XXV <lb n="11"/>gradum promotionis <lb n="12"/><supplied reason="lost">ob</supplied> alacritatem virtu<supplied reason="lost">tis</supplied> <lb n="13"/><supplied reason="lost">adv</supplied>ersus hostes Ge<supplied reason="lost">tas</supplied> <lb n="14"/><supplied reason="lost">e</supplied>t res prospere Ty<supplied reason="lost">rae ges</supplied><lb break="no" n="15"/>tas <expan><abbr>Cl</abbr><ex>audius</ex></expan> Nicom<supplied reason="lost">edes</supplied> <lb n="16"/>buleuta civitatis <supplied reason="lost">Tyra</supplied><lb break="no" n="17"/>norum amico dign<supplied reason="lost">issimo</supplied> <lb n="18"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 13: hostes C[arpos].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1900, 0155. (B)</bibl><bibl>ILBulg 018; tab. 5, 18. (B)</bibl><bibl>A. von Domaszewski, KWDZ 19, 1900, 146-149, Nr. 64. (B) - AE 1900.</bibl><bibl>AE 1999, 1326.</bibl><bibl>D. Boteva, in: Atti del XI Congresso Internazionale di Epigrafia Greca e Latina 2, Roma 1997 (Roma 1999) 515-519, Nr. 2. - AE 1999.</bibl><bibl>CIL 03, 14416.</bibl><bibl>ILS 7178.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

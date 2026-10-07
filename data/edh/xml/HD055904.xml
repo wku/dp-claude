@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Iatrus &amp;ndash; Cenovo (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055904</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055904</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(6)</height><width>(5)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.5-0.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216846">Iatrus</placeName></origPlace><origDate><origDate notBefore-custom="0203" notAfter-custom="0207" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">203 AD - 207 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729917">Cenovo</placeName><placeName type="findspot">Krivina, {Lager}</placeName><placeName type="region">Ruse</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-16" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi <expan><abbr>M</abbr><ex>arci</ex></expan> Anton<supplied reason="lost">ini Pii <expan><abbr>Germ</abbr><ex>anici</ex></expan> <expan><abbr>Sarm</abbr><ex>atici</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> divi</supplied> <lb n="2"/>Commodi frater divi A<supplied reason="lost">ntonini Pii <expan><abbr>nep</abbr><ex>os</ex></expan> divi <expan><abbr>Hadr</abbr><ex>iani</ex></expan></supplied> <lb n="3"/><expan><abbr>pronep</abbr><ex>os</ex></expan> divi Traiani Pa<supplied reason="lost">rthici <expan><abbr>abnep</abbr><ex>os</ex></expan> divi Nervae <expan><abbr>adnep</abbr><ex>os</ex></expan></supplied> <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Septimius Severus Pius P<supplied reason="lost"><expan><abbr>ertin</abbr><ex>ax</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Arab</abbr><ex>icus</ex></expan> <expan><abbr>Adiab</abbr><ex>enicus</ex></expan> <expan><abbr>Parth</abbr><ex>icus</ex></expan></supplied> <lb n="5"/><expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> po<supplied reason="lost"><expan><abbr>t</abbr><ex>estate</ex></expan> XV<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>imp</abbr><ex>erator</ex></expan> XI <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="6"/><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> Septimi Sev<supplied reason="lost">eri Pii Pertinacis <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Arab</abbr><ex>ici</ex></expan> <expan><abbr>Adiab</abbr><ex>enici</ex></expan></supplied> <lb n="7"/><expan><abbr>Parth</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> divi <expan><abbr>M</abbr><ex>arci</ex></expan> A<supplied reason="lost">ntonini Pii <expan><abbr>Germ</abbr><ex>anici</ex></expan> <expan><abbr>Sarm</abbr><ex>atici</ex></expan> <expan><abbr>nep</abbr><ex>os</ex></expan></supplied> <lb n="8"/>divi Antonini Pii pron<supplied reason="lost"><expan><abbr>ep</abbr><ex>os</ex></expan> divi Hadriani <expan><abbr>abnep</abbr><ex>os</ex></expan> di</supplied><lb break="no" n="9"/>vi Traiani <expan><abbr>Parth</abbr><ex>ici</ex></expan> et div<supplied reason="lost">i Nervae adnepos</supplied> <lb n="10"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aurellius <note>sic</note> Antoninus P<supplied reason="lost">ius <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> X <expan><abbr>imp</abbr><ex>erator</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II</supplied> <lb n="11"/>nomina militum qu<supplied reason="lost">i militaverunt in cohorti</supplied><lb break="no" n="12"/><supplied reason="lost">bus p</supplied>raetori<expan><ex>i</ex><abbr>s</abbr></expan> de[cem ------ </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi <expan><abbr>M</abbr><ex>arci</ex></expan> A<supplied reason="lost">ntonini Pii <expan><abbr>Germ</abbr><ex>anici</ex></expan> <expan><abbr>Sarm</abbr><ex>atici</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan></supplied> <lb n="2"/>divi Commodi <supplied reason="lost">frater divi Antonini Pii <expan><abbr>nep</abbr><ex>os</ex></expan></supplied> <lb n="3"/>divi <expan><abbr>Hadr</abbr><ex>iani</ex></expan> <expan><abbr>pronep</abbr><ex>os!</ex></expan> <supplied reason="lost">divi Traiani Parthici <expan><abbr>abnep</abbr><ex>os</ex></expan></supplied> <lb n="4"/>divi Nerv<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>adnep</abbr><ex>os</ex></expan> <supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan> Septimius Severus Pius</supplied> <lb n="5"/><expan><abbr>Pertin</abbr><ex>ax</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> A<supplied reason="lost"><expan><abbr>rab</abbr><ex>icus</ex></expan> <expan><abbr>Adiab</abbr><ex>enicus</ex></expan> <expan><abbr>Parth</abbr><ex>icus</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>pontif</abbr><ex>ex</ex></expan></supplied> <lb n="6"/><expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <expan><abbr>XV</abbr><ex cert="low"/></expan> <supplied reason="lost"><expan><abbr>imp</abbr><ex>erator</ex></expan> XI <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="7"/><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> Septimi S<supplied reason="lost">everi Pii Pertinacis <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Arab</abbr><ex>ici</ex></expan> Adia</supplied><lb break="no" n="8"/><expan><abbr>b</abbr><ex>enici</ex></expan> <expan><abbr>Parth</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> <supplied reason="lost">divi <expan><abbr>M</abbr><ex>arci</ex></expan> Antonini Pii <expan><abbr>Germ</abbr><ex>anici</ex></expan> <expan><abbr>Sarm</abbr><ex>atici</ex></expan></supplied> <lb n="9"/><expan><abbr>nep</abbr><ex>os</ex></expan> divi Antonin<supplied reason="lost">i Pii <expan><abbr>pronep</abbr><ex>os</ex></expan> divi Hadriani <expan><abbr>abnep</abbr><ex>os</ex></expan></supplied> <lb n="10"/>divi Traia&amp;lt;n=M&amp;gt;<supplied reason="lost">i <expan><abbr>Parth</abbr><ex>ici</ex></expan> et divi Nervae adnepos</supplied> <lb n="11"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aureliu[s ------ 
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1995, 1337.</bibl><bibl>RMD 305.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

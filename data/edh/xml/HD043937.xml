@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Alburnus Maior &amp;ndash; Roşia Montană (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043937</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043937</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roşia Montană, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/30">Tuff</material><dimensions unit="cm"><height>73</height><width>32</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#">Alburnus Maior</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2001"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/668639">Roşia Montană</placeName><placeName type="findspot">{Hăbad, Hügel}, römischer Weihbezirk</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043937_1" sex="M"><persName ref="http://romans1by1.com/rpeople/6228"><name type="cognomen">Platius</name></persName></person><person xml:id="HD043937_2" sex="M"><persName><name type="cognomen">Turus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-11-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Platius <lb n="2"/>Turi <lb n="3"/>&amp;lt;I=T&amp;gt;ovi <lb n="4"/>Depulso<lb break="no" n="5"/>rio <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Cociş - Ursuţiu - Cosma - Ardevan; AE 2003; Ardevan - Cociş - Cosma - Ursuţiu; ILD; Ciongradi: Z. 2: Iovi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1482. (B)</bibl><bibl>S. Cociş - A. Ursuţiu - C. Cosma - R. Ardevan, in: P. Damian (Hrsg.), Alburnus Maior 1 (Bucureşti 2003) 150-151; fig. 23, 3 (Zeichnung). (B) - AE 2003.</bibl><bibl>AE 2007, 1200.</bibl><bibl>R. Ardevan - S. Cociş - C. Cosma - A. Ursuţiu, in: M. Mayer i Olivé - G. Baratta - A. Guzmán Almagro (Hrsg.), XII Congressus Internationalis Epigraphiae Graecae et Latinae. Provinciae Imperii Romani inscriptionibus descriptae, Barcelona 2002. Acta (Barcelona 2007) 68, Nr. 72 fig. 2, 2 (Zeichnung). (B) - AE 2007.</bibl><bibl>ILD 391. (B)</bibl><bibl>C. Ciongradi, Die römischen Steindenkmäler aus Alburnus Maior (Cluj-Napoca 2009) 56, Nr. 35; Taf. 20, 35. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

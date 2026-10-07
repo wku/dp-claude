@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Tomi, bei &amp;ndash; Medgidia (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042961</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042961</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>162</height><width>35</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217016">Tomi, bei</placeName></origPlace><origDate><origDate notBefore-custom="0293" notAfter-custom="0305" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">293 AD - 305 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/673636">Medgidia</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042961_1"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="praenomen">C.</name><name type="nomen">Aurelius* Valerius*</name><name type="cognomen">Diocletianus+</name></persName></person><person xml:id="HD042961_2"><persName><name type="praenomen">M.+</name><name type="nomen">Aurelius+* Valerius+*</name><name type="cognomen">Maximianus+</name></persName></person><person xml:id="HD042961_3"><persName><name type="nomen">Flavius* Valerius+*</name><name type="cognomen">Constantius+</name></persName></person><person xml:id="HD042961_4"><persName><name type="nomen">Galerius+ Valerius+*</name><name type="cognomen">Maximianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-10-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Impp</abbr><ex>eratoribus</ex></expan> Cae<supplied reason="lost"><expan><abbr>ss</abbr><ex>aribus</ex></expan></supplied> <expan><abbr>C</abbr><ex>aio</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> <lb n="2"/>Diocle<supplied reason="lost">tiano</supplied> et <supplied reason="lost">Marc</supplied>o <lb n="3"/><supplied reason="lost"><expan><abbr>Aur</abbr><ex>elio</ex></expan></supplied> Va<supplied reason="lost"><expan><abbr>l</abbr><ex>erio</ex></expan> Maximi</supplied>ano <lb n="4"/><expan><abbr>PP</abbr><ex>iis</ex></expan> F<supplied reason="lost"><expan><abbr>F</abbr><ex>elicibus</ex></expan> <expan><abbr>invict</abbr><ex>is</ex></expan> <expan><abbr>Augg</abbr><ex>ustis</ex></expan> e</supplied>t <lb n="5"/><expan><abbr>Fl</abbr><ex>avio</ex></expan> Va<supplied reason="lost"><expan><abbr>l</abbr><ex>erio</ex></expan></supplied> C<supplied reason="lost">onstant</supplied>io <lb n="6"/>et Gal<supplied reason="lost">erio <expan><abbr>Val</abbr><ex>erio</ex></expan> Ma</supplied><lb break="no" n="7"/>ximi<supplied reason="lost">ano</supplied> <expan><abbr>nobb</abbr><ex>ilissimis</ex></expan> <lb n="8"/><expan><abbr>Caess</abbr><ex>aribus</ex></expan> <lb n="9"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assum</ex></expan> <lb n="10"/><expan><abbr>XXI</abbr><ex cert="low"/></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1326.</bibl><bibl>M. Bǎrbulescu - A. Câteia, Pontica 30, 1997, 183-184, Nr. 1; fig. 1 u. 2; fig. 3 (Zeichnung). - AE 1997.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

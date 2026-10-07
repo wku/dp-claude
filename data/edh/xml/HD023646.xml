@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Micia &amp;ndash; Veţel (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023646</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023646</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Deva, Muz. Civil. Dac. şi Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>120</height><width>63</width><depth>43</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207286">Micia</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1913"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/663018">Veţel</placeName><placeName type="findspot">{Micia}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023646_1" sex="M"><persName ref="http://romans1by1.com/rpeople/3203"><name type="praenomen">M.</name><name type="nomen">Cornelius</name><name type="cognomen">Stratonicus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-02-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005427" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ce5a0325-e57f-4df8-a823-59fc34d6d9b3/file/id/766204/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Pro salute <lb n="2"/>domus divi<lb break="no" n="3"/>nae sacrum <lb n="4"/>Genium <note>sic</note> Miciae <lb n="5"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Cornelius <lb n="6"/>Stratonicus <lb n="7"/><expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <lb n="8"/>et ante <expan><abbr>f</abbr><ex>rontem</ex></expan> <expan><abbr>lapi</abbr><ex>dibus</ex></expan> <lb n="9"/>stravit
+            </ab></div>
+            <div type="commentary">
+                <p>Auf der linken Nebenseite patera, auf der rechten urceus. Hederae in Z. 7 und 9. (B): Daicoviciu; AE 1931; AE 1933: Z. 2: div[i].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1931, 0120. (B)</bibl><bibl>AE 1933, 0010. (B)</bibl><bibl>IDR 3, 3, 071; fig. 58 (Foto u. Zeichnung).</bibl><bibl>C. Daicoviciu, ACM 3, 1930/31, 39-40, Nr. 11. (B) - AE 1931. 1933.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

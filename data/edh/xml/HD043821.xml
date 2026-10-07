@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043821</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043821</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarmizegetusa, Muz. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>(80)</height><width>(60)</width><depth>(56)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.7-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1930"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">{Forum Novum, nördliche Kryptoportikus}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043821_1" sex="M"><persName ref="http://romans1by1.com/rpeople/1844"><name type="praenomen">M.</name><name type="nomen">Opellius+</name><name type="cognomen">Adiutor+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-13" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004874" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a4d21870-bfd0-47e9-beb6-bb1e3f6577c1/file/id/765629/file_version/name/small"/><graphic xml:id="F006320" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/91de693e-a49e-4ac4-be4b-370bc985c8e9/file/id/767095/file_version/name/small"/><graphic xml:id="F036545" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e699b39e-d6a4-4632-a668-131a7fbd9ee2/file/id/797405/file_version/name/small"/><graphic xml:id="F036546" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0d0516dc-7726-4899-b079-4f1ad03c5aae/file/id/797406/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> O<supplied reason="lost">pe</supplied>llio <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Pap</abbr><ex>iria</ex></expan> <supplied reason="lost">A</supplied>diuto<supplied reason="lost">ri</supplied> <lb n="3"/>d<supplied reason="lost"><expan><abbr>ec</abbr><ex>urioni</ex></expan> co</supplied><expan><abbr>l</abbr><ex>oniae</ex></expan> <expan><abbr>IIvir</abbr><ex>o</ex></expan> <lb n="4"/><supplied reason="lost">iuris di</supplied>c<supplied reason="lost">u</supplied>ndi <lb n="5"/>p<supplied reason="lost"><expan><abbr>raef</abbr><ex>ecto</ex></expan> c</supplied><expan><abbr>oll</abbr><ex>egii</ex></expan> <expan><abbr>f<supplied reason="lost">a</supplied>br</abbr><ex>um</ex></expan> <lb n="6"/>plebs <lb n="7"/>a<supplied reason="lost">e</supplied>re conlato <lb n="8"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): IDR: abweichende Ergänzungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1514.</bibl><bibl>IDR 3, 2, 116; fig. 91 (Foto u. Zeichnung). (B)</bibl><bibl>I. Piso, ActaMusNapoca 39/40, 2002/03, 215-218, Nr. 15; fig. 4a; fig. 4b (Zeichnung). - AE 2003.</bibl><bibl>ILD 243.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

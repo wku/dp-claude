@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sacidava &amp;ndash; Aliman (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042049</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042049</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(124)</height><width>64</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216965">Sacidava</placeName></origPlace><origDate><origDate notBefore-custom="0231" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/678635">Aliman</placeName><placeName type="findspot">Dunăreni, Muzait, Berg, {Festung, Turm F}, sekundär verwendet</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042049_1" sex="M"><persName ref="http://romans1by1.com/rpeople/9321"><name type="nomen">Valerius*</name><name type="cognomen">Castus</name></persName></person><person xml:id="HD042049_2" sex="W"><persName ref="http://romans1by1.com/rpeople/9322"><name type="nomen">Aelia*</name><name type="cognomen">Sabina</name></persName></person><person xml:id="HD042049_3" sex="M"><persName ref="http://romans1by1.com/rpeople/9324"><name type="nomen">Valerius*</name><name type="cognomen">Aeternalis*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Cas<lb break="no" n="3"/>tus <expan><abbr>corn</abbr><ex cert="low">icularius</ex></expan> <lb n="4"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XLVIII <lb n="5"/><expan><abbr>Ael</abbr><ex>ia</ex></expan> Sabina <lb n="6"/>coniux et <lb n="7"/><expan><abbr>Val</abbr><ex>erius</ex></expan> <expan><ex>A</ex><abbr>eterna</abbr></expan><lb break="no" n="8"/>lis <expan><abbr>fil</abbr><ex>ius</ex></expan> et <lb n="9"/>heredes <lb n="10"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>osuerunt</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Darstellung eines Soldaten. Die Zeilenenden stehen teilweise auf dem Rahmen. Z. 3: möglicherweise auch corn(icen). (B): AE 1998: Z. 4: XLVIIII.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 203, Nr. 286; Taf. 107, 3. (B)</bibl><bibl>AE 1998, 1142. (B)</bibl><bibl>C. Scorpan, Limes Scythiae. Topographical and stratigraphical research on the late Roman fortifications on the Lower Danube (Oxford 1980) 213-214, Nr. 4; fig. 22; fig. 23 (Zeichnung). - AE 1998.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

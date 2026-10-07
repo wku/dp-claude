@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone? from Sexaginta Prista &amp;ndash; Ruse (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD026070</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD026070</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">mile-/leaguestone?</objectType><material>Gesteine</material><dimensions unit="cm"><height>(125)</height><width>47</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216982">Sexaginta Prista</placeName></origPlace><origDate><origDate when-custom="0144" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">144 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727523">Ruse</placeName><placeName type="findspot">{Militärklub}, bei</placeName><placeName type="region">Ruse</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD026070_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.</name><name type="nomen">Aelius*</name><name type="cognomen">Hadrianus* Antoninus*</name></persName></person><person xml:id="HD026070_2" sex="M"><persName ref="http://romans1by1.com/rpeople/9002"><name type="praenomen">Ti.</name><name type="nomen">Claudius*</name><name type="cognomen">Saturninus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-04" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>Caes</abbr><ex>are</ex></expan> di<lb break="no" n="2"/>vi <expan><abbr>Hadri</abbr><ex>ani</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="3"/>divi <expan><abbr>Trai</abbr><ex>ani</ex></expan> Par<lb break="no" n="4"/>thici <expan><abbr>nep</abbr><ex>ote</ex></expan> di<lb break="no" n="5"/>vi <expan><abbr>Ner</abbr><ex>vae</ex></expan> <expan><abbr>pronep</abbr><ex>ote</ex></expan> <lb n="6"/><expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Ael</abbr><ex>io</ex></expan> <expan><abbr>Had</abbr><ex>riano</ex></expan> <expan><abbr>Ant</abbr><ex>onino</ex></expan> <lb n="7"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio <expan><abbr>p</abbr><ex>atre</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>p</abbr><ex>ontifice</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <lb n="8"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potes</abbr><ex>tate</ex></expan> VII <lb n="9"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> IIII <expan><abbr>imp</abbr><ex>eratore</ex></expan> II <lb n="10"/>a LX <expan><abbr>Prist</abbr><ex>is</ex></expan> p<expan><ex>e</ex><abbr>r</abbr></expan> <lb n="11"/><expan><abbr>coh</abbr><ex>ortem</ex></expan> II <expan><abbr>Matt</abbr><ex>iacorum</ex></expan> <expan><abbr>Tib</abbr><ex>erius</ex></expan> <lb n="12"/><expan><abbr>Cl</abbr><ex>audius</ex></expan> Saturn<expan><ex>i</ex><abbr>nus</abbr></expan> <lb n="13"/><expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 7: Seure: Aug(ustus) po[nt](ifex) max(imus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1916, 0065.</bibl><bibl>G. Seure, RA 2, 1915, 178-181, Nr. 136; fig. 47 (Zeichnung). (B) - AE 1916.</bibl><bibl>PIR (2. Aufl.) C 1012.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

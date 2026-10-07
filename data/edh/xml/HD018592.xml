@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Kazanlâk (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018592</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018592</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kazanlŭk, Muzej</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>130</height><width>80</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727291">Kazanlâk</placeName><placeName type="findspot">{Šipka}, südlich, antike Ruinen</placeName><placeName type="region">Stara Zagora</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018592_1" sex="M"><persName><name type="nomen">Marius+ / Μάριος</name><name type="cognomen">Celsus+ / Κέλσος</name></persName></person><person xml:id="HD018592_2" sex="M"><persName><name type="praenomen">M.+ / Μ.</name></persName></person><person xml:id="HD018592_3" sex="M"><persName><name type="cognomen">Traidacus+ / Τραίδακος</name></persName></person><person xml:id="HD018592_4" sex="M"><persName><name type="cognomen">Petronius+ / Πετρώνιος</name></persName></person><person xml:id="HD018592_5" sex="M"><persName><name type="cognomen">Festus / Φῆστος</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-24" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> Ce<supplied reason="lost">lsus Marius eques <expan><abbr>coh</abbr><ex>ortis</ex></expan> II Bra</supplied>caug<supplied reason="lost">us</supplied>starom <note>sic</note> <lb n="2"/><del rend="erasure">[<gap reason="lost" extent="unknown" unit="character"/></del>] <supplied reason="lost"><expan><abbr>tur</abbr><ex>mae</ex></expan> Petroni XXIV stipendi</supplied>orum ex <expan><abbr>testam</abbr><ex>ento</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan></supplied> Traid<supplied reason="lost">aci <expan><abbr>f</abbr><ex>ilius</ex></expan> eques <expan><abbr>coh</abbr><ex>ortis</ex></expan> II <expan><abbr>Numid</abbr><ex>arum</ex></expan></supplied> <expan><abbr>tur</abbr><ex>mae</ex></expan> Festi <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>R posuit </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Κέλσος Μάριος∙ ἱππεὺς∙ χώρτης δευτέρας Βρακατῶν <lb n="2"/>Αὐγοῦσ∙τι∙ τούρμης Πετρωνίου στοπενδίων∙ κδ <lb n="3"/><supplied reason="lost">ἐ</supplied>τῶν∙ νε∙ κατὰ διαθήκην Μᾶρκος Τραιδακοῦ ἱππεὺς <lb n="4"/>χώρτης δευτέρας Νουμιδῶν τύρμης Φήστου∙ ἀνέθηκεν
+            </ab></div></div>
+            <div type="commentary">
+                <p>Das Relief enthält eine Darstellung sowohl eines thrakischen Reiters als auch einer Totenmahlszene.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1965, 0347.</bibl><bibl>IGBulg 1741bis; tab. 123-125.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

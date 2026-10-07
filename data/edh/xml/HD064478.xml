@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Elhovo (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064478</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064478</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Yambol, Muzej</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(4)</height><width>(4)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726707">Elhovo</placeName><placeName type="findspot">{Strojno}, bei</placeName><placeName type="region">Jambol</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-08-24" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> in classe praetoria</supplied> Misenen<lb break="no" n="2"/><supplied reason="lost">si quae est sub <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>praef</abbr><ex>ecto</ex></expan></supplied> XXVI sti<lb break="no" n="3"/><supplied reason="lost"><expan><abbr>pendi</abbr><ex>i</ex>s</expan> emeritis dimissis honesta mis</supplied>sione <lb n="4"/><supplied reason="lost">quorum nomina <expan><abbr>subscript</abbr><ex>a</ex></expan> sunt ipsis</supplied> fili<expan><ex>i</ex><abbr>sq</abbr><ex>ue</ex></expan> <lb n="5"/><supplied reason="lost">eorum quos susceperint ex mulierib</supplied>us qua<lb break="no" n="6"/>[s ------ </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>R</abbr><ex cert="low"/>E</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>L</abbr><ex cert="low"/>I</expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>N<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Co</supplied>nstanti <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">descri</supplied>pt</abbr><ex>um</ex></expan> et recogn<supplied reason="lost"><expan><abbr>it</abbr><ex>um</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">fi</supplied>xa est Rom<supplied reason="lost">ae</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">d</supplied>ivi <expan><abbr>Aug</abbr><ex>usti</ex></expan> <supplied reason="lost">ad Minervam</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Fragment der tab. I.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2007, 1259.</bibl><bibl>I. Boyanov, ArchBulg 11, 3, 2007, 69-70; fig. 1 u. 2. - AE 2007.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

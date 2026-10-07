@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Vidin? (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071683</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071683</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Siena, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(5)</height><width>(3)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.3-0.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0133" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">133 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/725905">Vidin?</placeName><placeName type="findspot"/><placeName type="region">Vidin?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071683_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus Hadrianus+</name></persName></person><person xml:id="HD071683_2" sex="M"><persName><name type="nomen">Clodius</name><name type="cognomen">Gallus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-06-03" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Trai</supplied>ani Parthi<lb break="no" n="2"/><supplied reason="lost">ci <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Nervae nepo</supplied>s Traianus <lb n="3"/><supplied reason="lost">Hadrianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> pont</supplied><expan><abbr>if</abbr><ex>ex</ex></expan> maxim<lb break="no" n="4"/><supplied reason="lost">us <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XVII</supplied> c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></supplied> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>equit</abbr><ex>ibus</ex></expan> qui in</supplied>ter <expan><abbr>s<supplied reason="lost">in</supplied>gular</abbr><ex>es</ex></expan> mili<lb break="no" n="6"/><supplied reason="lost"><expan><abbr>taver</abbr><ex>unt</ex></expan> quibu</supplied>s prae<expan><ex>e</ex><abbr>st</abbr></expan> Clodius <lb n="7"/><supplied reason="lost">Gallus qui</supplied>nis et vicenis pluri<lb break="no" n="8"/><supplied reason="lost">busve stip</supplied>endi<expan><ex>i</ex><abbr>s</abbr></expan> emeritis di<lb break="no" n="9"/><supplied reason="lost">missi</supplied>s honesta m<supplied reason="lost">is</supplied>sione qu<lb break="no" n="10"/><supplied reason="lost">orum n</supplied>omina subs<supplied reason="lost">cr</supplied>ipta sunt <lb n="11"/><supplied reason="lost">ipsis li</supplied>beris poste<supplied reason="lost">risque eoru</supplied>m <lb n="12"/><supplied reason="lost">civitate</supplied>m dedit et co<supplied reason="lost"><expan><abbr>n</abbr><ex>ubium</ex></expan> cum <expan><abbr>uxorib</abbr><ex>us</ex></expan></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><expan><abbr>equit</abbr><ex>ibus</ex></expan> qui i</supplied>nte<supplied reason="lost">r <expan><abbr>sing</abbr><ex>ulares</ex></expan> <expan><abbr>militav</abbr><ex>erunt</ex></expan></supplied> <lb n="2"/><supplied reason="lost">quibus pra</supplied>e<expan><ex>e</ex><abbr>st</abbr></expan> <supplied reason="lost">Clodius Gallus</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>quin</abbr><ex>is</ex></expan></supplied> et <expan><abbr>vicen</abbr><ex>is</ex></expan> p<supplied reason="lost"><expan><abbr>luri</abbr><ex>busve</ex></expan> stipendiis</supplied> <lb n="4"/><supplied reason="lost">emerit</supplied>is dimiss<supplied reason="lost">is honesta missione</supplied> <lb n="5"/><supplied reason="lost">quo</supplied>rum <expan><abbr>nom</abbr><ex>ina</ex></expan> <supplied reason="lost">subscripta sunt</supplied> <lb n="6"/><supplied reason="lost">ipsi</supplied>s <expan><abbr>liber</abbr><ex>is</ex></expan> <expan><abbr>p</abbr><ex>osterisque</ex></expan> <supplied reason="lost">eorum civ</supplied><lb break="no" n="7"/><expan><abbr><supplied reason="lost">it</supplied>at</abbr><ex>em</ex></expan> de<supplied reason="lost"><expan><abbr>d</abbr><ex>it</ex></expan> et <expan><abbr>con</abbr><ex>ubium</ex></expan> cum <expan><abbr>uxor</abbr><ex>ibus</ex></expan> quas</supplied> <lb n="8"/>tunc habuis<supplied reason="lost">sent cum est <expan><abbr>civ</abbr><ex>itas</ex></expan> iis da</supplied><lb break="no" n="9"/>ta aut si qu<supplied reason="lost">i <expan><abbr>caelib</abbr><ex>es</ex></expan> essent cum</supplied> <lb n="10"/>iis quas pos<supplied reason="lost">tea duxissent dumta</supplied><lb break="no" n="11"/>xat [singuli singulas ------
+            </ab></div></div>
+            <div type="commentary">
+                <p>Zwei Fragmente der tab. I. Maße beziehen sich auf das größere Fragment (a); Fragment b: (3,8) x (3,9) x 0,1 cm.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 1104.</bibl><bibl>N. Mugnai, ZPE 176, 2011, 262-266; fig. 1 u. 2. - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

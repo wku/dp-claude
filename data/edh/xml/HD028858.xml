@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Tropaeum Traiani &amp;ndash; Adamclisi (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028858</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028858</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Cap.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217027">Tropaeum Traiani</placeName></origPlace><origDate><origDate notBefore-custom="0315" notAfter-custom="0317" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">315 AD - 317 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1893"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686688">Adamclisi</placeName><placeName type="findspot">{Konstantinische Stadtmauer, Osttor}, bei</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD028858_1" sex="M"><persName><name type="nomen">Flavius* Valerius*</name><name type="cognomen">Constantinus</name></persName></person><person xml:id="HD028858_2" sex="M"><persName><name type="nomen">Licinius+++</name><name type="cognomen">Licinianus+++</name></persName></person><person xml:id="HD028858_3" sex="M"><persName ref="http://romans1by1.com/rpeople/8664"><name type="nomen">Petronius*</name><name type="cognomen">Annianus</name></persName></person><person xml:id="HD028858_4" sex="M"><persName ref="http://romans1by1.com/rpeople/8665"><name type="nomen">Iulius*</name><name type="cognomen">Iulianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-26" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009290" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/90ec6769-6557-4570-a161-573f5da24616/file/id/769055/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Romanae securitatis <expan><abbr>libertatisq</abbr><ex>ue</ex></expan> vindicibus <lb n="2"/><expan><abbr>d<am>d</am></abbr><ex>ominis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostris</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> Constantino et <del rend="erasure">[Liciniano</del>] <lb n="3"/><del rend="erasure">[Licinio</del>] Piis Felicibus aeternis <expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan> <lb n="4"/>quorum virtute et providentia edomitis <lb n="5"/>ubique barbararum gentium populis <lb n="6"/>ad confirmandam limitis tutelam etiam <lb n="7"/>Trop<expan><ex>a</ex><abbr>eensium</abbr></expan> civitas auspicato a fundamentis <lb n="8"/>feliciter opere constructa est <lb n="9"/><expan><abbr>Petr</abbr><ex>onius</ex></expan> Annianus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> et <expan><abbr>Iul</abbr><ex>ius</ex></expan> Iulianus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>em</abbr><ex>inentissimus</ex></expan> <expan><abbr>praef</abbr><ex>ecti</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan> numini e<supplied reason="lost">o</supplied>rum semper dicatissimi
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1894, 0111.</bibl><bibl>CIL 03, 13734.</bibl><bibl>G.G. Točilescu, AEM 17, 1894, 108-109, Nr. 52; Foto. - AE 1894.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

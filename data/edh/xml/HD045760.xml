@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription? from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD045760</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD045760</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>(58)</height><width>(42)</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0119" notAfter-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">119 AD - 138 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">{Forum Vetus}, sekundär verwendet</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD045760_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus+ Hadrianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-11-24" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari divi T</supplied>ra<supplied reason="lost">iani</supplied> <lb n="2"/><supplied reason="lost">Parthici <expan><abbr>fil</abbr><ex>io</ex></expan> divi Ner</supplied>vae ne<supplied reason="lost">poti</supplied> <lb n="3"/><supplied reason="lost">Traiano Hadriano A</supplied><expan><abbr>ug</abbr><ex>usto</ex></expan> pont<supplied reason="lost">ifici</supplied> <lb n="4"/><supplied reason="lost">maximo <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III <supplied reason="lost"><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>col</abbr><ex>onia</ex></expan> <expan><abbr>Ulp</abbr><ex>ia</ex></expan> Traiana <expan><abbr>Aug</abbr><ex>usta</ex></expan> <expan><abbr>Dac</abbr><ex>ica</ex></expan></supplied> Sarmize<supplied reason="lost">getusa</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Rekonstruierte Abmessungen der Tafel: 70 x 190. Die Tafel wurde in sekundärer Verwendung als Bestandteil der (severischen?) Neupflasterung des Forums gefunden. Die ursprüngliche Funktion ist unklar: Möglicherweise Ehreninschrift von einer (Reiter-?)Statuenbasis (s. Textwiedergabe), oder eine Bauinschrift (s. Piso; in diesem Fall wäre die Kaisertitulatur im Nomitativ zu ergänzen und in eine weitere Zeile mit [fecit?] zu erwarten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1215.</bibl><bibl>I. Piso, in: HPS 11 (Debrecen 2004) 84-86, Nr. 4; Abb. 2 (Foto u. Zeichnung). - AE 2004.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

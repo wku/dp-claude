@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Ampelum &amp;ndash; Zlatna (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019522</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019522</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, Muz. Unirii</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(46)</height><width>(44)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206917">Ampelum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1930"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/662161">Zlatna</placeName><placeName type="findspot">{Chilia Grui}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019522_1" sex="M"><persName ref="http://romans1by1.com/rpeople/5624"><name type="cognomen">[---]es</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-08-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F006304" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/21a631dd-198e-4d02-b845-45bdcd37e912/file/id/767078/file_version/name/small"/><graphic xml:id="F005630" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/83b856bc-4f7f-4aa9-8219-b313895afc1f/file/id/766407/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Numi</supplied>ni Aesculapi <lb n="2"/><supplied reason="lost" cert="low">et Hyg(iae)</supplied> templum <lb n="3"/><supplied reason="lost">a solo c</supplied>onstituit <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>es <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>lib</abbr><ex>ertus</ex></expan> <lb n="5"/><supplied reason="lost">adiutor</supplied> <expan><abbr>tabul</abbr><ex>arii</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>2 aneinanderpassende Fragmente erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1959, 0306. (B)</bibl><bibl>AE 2007, 1188.</bibl><bibl>D. Tudor, Istoria sclavajului în Dacia romană (Bucureşti 1957) 262, Nr. 101. (B) - AE 1959.</bibl><bibl>D. Alicu, in: M. Mayer i Olivé - G. Baratta - A. Guzmán Almagro (Hrsg.), XII Congressus Internationalis Epigraphiae Graecae et Latinae. Provinciae Imperii Romani inscriptionibus descriptae, Barcelona 2002. Acta (Barcelona 2007) 37-38, Nr. 1. - AE 2007.</bibl><bibl>IDR 3, 3, 280; fig. 212 (Foto u. Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

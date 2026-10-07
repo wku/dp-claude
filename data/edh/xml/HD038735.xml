@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038735</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038735</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material>Gesteine?</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0275" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 275 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">Festung, {Prinzenpalast}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038735_1" sex="W"><persName ref="http://romans1by1.com/rpeople/11088"><name type="praenomen">P.</name><name type="nomen">Aelia</name><name type="cognomen">Iuliana Marcella</name></persName></person><person xml:id="HD038735_2" sex="M"><persName ref="http://romans1by1.com/rpeople/11089"><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Iulianus</name></persName></person><person xml:id="HD038735_3" sex="M"><persName ref="http://romans1by1.com/rpeople/11084"><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Marcellus</name></persName></person><person xml:id="HD038735_4" sex="M"><persName ref="http://romans1by1.com/rpeople/11085"><name type="cognomen">Dades</name></persName></person><person xml:id="HD038735_5" sex="M"><persName><name type="cognomen">Filetus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-05-24" who="Garcia">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Publiae Aeli<lb break="no" n="2"/>ae Iulianae <lb n="3"/>Marcellae <expan><abbr>s</abbr><ex>plendidissimae</ex></expan> <expan><abbr>p</abbr><ex>uellae</ex></expan> <lb n="4"/><expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>Ael</abbr><ex>i</ex></expan> Iuliani <lb n="5"/><expan><abbr>eq</abbr><ex>uitis</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> <expan><abbr>flam</abbr><ex>inis</ex></expan> et IIvi<lb break="no" n="6"/><expan><abbr>ral</abbr><ex>is</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Apul</abbr><ex>ensis</ex></expan> et ad<lb break="no" n="7"/>optiv<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>Ael</abbr><ex>i</ex></expan> Mar<lb break="no" n="8"/>celli <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>e</abbr><ex>gregii</ex></expan> ex pr<lb break="no" n="9"/><expan><abbr>aef</abbr><ex>ecto</ex></expan> <expan><abbr>legg</abbr><ex>ionum</ex></expan> VII <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <lb n="10"/>et I <expan><abbr>adiut</abbr><ex>ricis</ex></expan> Dades <lb n="11"/>et Filetus <expan><abbr>actor</abbr><ex>es</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 11: auf der crepido.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 441; Zeichnung.</bibl><bibl>CIL 03, 01182.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

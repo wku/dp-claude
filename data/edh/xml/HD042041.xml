@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tropaeum Traiani &amp;ndash; Adamclisi (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042041</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042041</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dresden, Skulpturenslg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>213</height><width>82</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217027">Tropaeum Traiani</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686688">Adamclisi</placeName><placeName type="findspot">{Via principalis}, bei</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042041_1" sex="M"><persName ref="http://romans1by1.com/rpeople/8895"><name type="cognomen">Scoris</name></persName></person><person xml:id="HD042041_2" sex="M"><persName><name type="cognomen">Mucapor</name></persName></person><person xml:id="HD042041_3" sex="M"><persName ref="http://romans1by1.com/rpeople/8896"><name type="cognomen">Aurelius</name></persName></person><person xml:id="HD042041_4" sex="W"><persName ref="http://romans1by1.com/rpeople/8897"><name type="cognomen">Sabina</name></persName></person><person xml:id="HD042041_5" sex="W"><persName ref="http://romans1by1.com/rpeople/8898"><name type="cognomen">Aurelia</name></persName></person><person xml:id="HD042041_6" sex="M"><persName><name type="cognomen">Ettepir?</name></persName></person><person xml:id="HD042041_7" sex="M"><persName ref="http://romans1by1.com/rpeople/8899"><name type="cognomen">Valens+</name></persName></person><person xml:id="HD042041_8" sex="M"><persName ref="http://romans1by1.com/rpeople/8900"><name type="cognomen">Sabinianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F002906" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/456c78c1-e81a-4a92-9ee1-65844ffce0cb/file/id/763979/file_version/name/small"/><graphic xml:id="F012695" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8e714c0d-1c33-4e66-8e9d-32b8a4f3abb5/file/id/772220/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Scoris Mucapo<lb break="no" n="2"/>ri vicsit <note>sic</note> anno<lb break="no" n="3"/>s LX Aurelius fi<lb break="no" n="4"/>lius vicsit <note>sic</note> an<lb break="no" n="5"/>nis XXXI Sabina <lb n="6"/>filia vicsit <note>sic</note> anni<lb break="no" n="7"/>s XXX <lb n="8"/><expan><abbr>Aur</abbr><ex>elia</ex></expan> <expan><abbr>Ettepir</abbr><ex cert="low"/></expan> u<lb break="no" n="9"/>csor <note>sic</note> et Vale<expan><ex>n</ex><abbr>s</abbr></expan> <lb n="10"/>et Sabinianus <expan><abbr>fi</abbr><ex>lii</ex></expan> <lb n="11"/>superstantes </ab></div><div n="3" type="textpart"><ab><lb n="1"/> posuerunt
+            </ab></div></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Totenmahlrelief; darüber ein weiteres Bildfeld mit einem Reiter und einer stehenden Frau. Z. 1 auf dem Streifen zwischen dem Inschriftfeld und dem Relief; Buchstabe D spiegelverkehrt. Der jeweils 1. Buchstabe der Z. 2-7 und 9-12, die Buchstaben I am Ende der Z. 7, FI am Ende der Z. 11, S am Ende der Z. 12 sowie die gesamte letzte Zeile befinden sich auf dem Rahmen des Inschriftfeldes. Z. 9: möglicherweise auch Eftepir. (B): Conrad, CIL III: Z. 3/4: anni/s; Conrad: Z. 9: Aurelia; Z. 10: Vale[n]s.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 199, Nr. 271; Taf. 109, 3. (B)</bibl><bibl>CIL 03, 14214, 14. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

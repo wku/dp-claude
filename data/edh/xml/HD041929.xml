@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tomi &amp;ndash; Constanţa (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD041929</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD041929</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(95)</height><width>(47)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217016">Tomi</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/680963">Constanţa</placeName><placeName type="findspot">{Bulevard Tomis 24}</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD041929_1" sex="W"><persName ref="http://romans1by1.com/rpeople/15214"><name type="nomen">Sabidia</name><name type="cognomen">Tertulla+</name></persName></person><person xml:id="HD041929_2" sex="M"><persName ref="http://romans1by1.com/rpeople/15215"><name type="praenomen">P.</name><name type="nomen">Sabidius+</name></persName></person><person xml:id="HD041929_3" sex="M"><persName ref="http://romans1by1.com/rpeople/15216"><name type="praenomen">P.</name><name type="nomen">Veianius+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Sabidia <supplied reason="lost">Ter</supplied><lb break="no" n="2"/>tulla <expan><abbr>P</abbr><ex>ubli</ex></expan> Sa<supplied reason="lost">bidi</supplied> <lb n="3"/><expan><abbr>f</abbr><ex>ilia</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XX<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Veianiu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="5"/>cus coni<supplied reason="lost">ugi</supplied> <lb n="6"/>bene mer<supplied reason="lost">enti</supplied> <lb n="7"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> <expan><abbr>h</abbr><ex>ic</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes noch der Rest einer weiblichen Büste. Hederae als Worttrenner. (B): AE 1995: Z. 7: h(ic) s(ita) e(st).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 167, Nr. 155; Taf. 132, 2.</bibl><bibl>AE 1995, 1339. (B)</bibl><bibl>M. Bărbulescu - A. Rădulescu, Pontica 27, 1994, 157-159, Nr. 1; fig. 1 (Foto u. Zeichnung). - AE 1995.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

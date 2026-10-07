@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Apulum, aus? &amp;ndash; Sebeş (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011626</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011626</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sebeş, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(84)</height><width>(28)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1961"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667526">Sebeş</placeName><placeName type="findspot">{lutheranische Kirche}, sekundär verwendet</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011626_1" sex="M"><persName ref="http://romans1by1.com/rpeople/11446"><name type="praenomen">C.</name><name type="nomen">Valerius+</name><name type="cognomen">Clemens+</name></persName></person><person xml:id="HD011626_2" sex="M"><persName ref="http://romans1by1.com/rpeople/11447"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]ellus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-04-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005651" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1756eca0-b115-45d1-bbc6-83a79eb5a984/file/id/766428/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><expan><abbr>G</abbr><ex>aius</ex></expan> Va<supplied reason="lost">leriu</supplied><lb break="no" n="3"/>s Cl<supplied reason="lost">emens <gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> X<supplied reason="lost">III <expan><abbr>g</abbr><ex>eminae</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan></supplied> <lb n="5"/>XXXXI<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="6"/>ellus <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/> <expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> <lb n="7"/><supplied reason="lost">eiu</supplied><lb break="no" n="8"/>sdem <gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/>et he<supplied reason="lost">re</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/><expan><abbr>b</abbr><ex>ene</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erenti</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 8: he[res] oder he[redes]; HE-Ligatur. (B): IDR III 5, 587; Ciongradi: Z. 2/3: Va[leriu]s; Wollmann; AE 1971: Z. 8: h[eres.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1971, 0371. (B)</bibl><bibl>V. Wollmann, ActaMusNapoca 7, 1970, 169-170, Nr. 3; fig. 3. (B) - AE 1971.</bibl><bibl>IDR 3, 5, 587; Foto u. Zeichnung. (B)</bibl><bibl>C. Ciongradi, Grabmonument und sozialer Status in Oberdakien (Cluj-Napoca 2007) 188, Nr. S/A 105. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

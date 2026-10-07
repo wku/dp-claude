@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Durostorum &amp;ndash; Silistra (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025855</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025855</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>135</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216800">Durostorum</placeName></origPlace><origDate><origDate when-custom="0164" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">164 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727221">Silistra</placeName><placeName type="findspot"/><placeName type="region">Silistra</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD025855_1" sex="M"><persName><name type="cognomen">Commodus*</name></persName></person><person xml:id="HD025855_10" sex="M"><persName ref="http://romans1by1.com/rpeople/9011"><name type="nomen">Cornelius</name><name type="cognomen">Plotianus</name></persName></person><person xml:id="HD025855_2" sex="M"><persName><name type="cognomen">Pompeianus</name></persName></person><person xml:id="HD025855_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Aelius</name></persName></person><person xml:id="HD025855_4" sex="M"><persName><name type="cognomen">Niger</name></persName></person><person xml:id="HD025855_5" sex="M"><persName><name type="cognomen">Camarinus+</name></persName></person><person xml:id="HD025855_6" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD025855_7" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1430"><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD025855_8" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1433"><name type="praenomen">L.</name><name type="nomen">Aurelius*</name><name type="cognomen">Verus</name></persName></person><person xml:id="HD025855_9" sex="M"><persName><name type="nomen">Servilius+</name><name type="cognomen">Fabianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-23" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <expan><abbr>vet</abbr><ex>erani</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> X<supplied reason="lost">I</supplied> <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> missi IIII co<expan><ex>n</ex><abbr>s</abbr><ex>ulatuum</ex></expan> qui <expan><abbr>milita</abbr><ex>re</ex></expan> <expan><abbr>coeper</abbr><ex>unt</ex></expan> Com<expan><ex>m</ex><abbr>odo</abbr></expan> et Pompeiano et <expan><abbr>L</abbr><ex>ucio</ex></expan> Aelio II co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> et Nigro et Camari<supplied reason="lost">n</supplied>o <expan><abbr>Imp</abbr><ex>eratore</ex></expan> Anton<supplied reason="lost">i</supplied>no II missi ab <expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio Antonino et <expan><abbr>L</abbr><ex>ucio</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Vero Augustis sub Servi<supplied reason="lost">li</supplied>o Fabiano <expan><abbr>leg</abbr><ex>ato</ex></expan> Aug<expan><ex>ust</ex><abbr>or</abbr><ex>um</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> et Cornelio Plotiano <expan><abbr>leg</abbr><ex>ato</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Keine Angabe der Zeilenfälle in der Originalpublikation. Datierung: vgl. PIR (2. Aufl.) S 583.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1925, 0109.</bibl><bibl>V. Pârvan, RFIC 2, 1924, 317-318. - AE 1925.</bibl><bibl>PIR (2. Aufl.) C 604.</bibl><bibl>PIR V 353.</bibl><bibl>PIR (2. Aufl.) I 783.</bibl><bibl>PIR (2. Aufl.) P 708.</bibl><bibl>PIR (2. Aufl.) S 583.</bibl><bibl>PIR (2. Aufl.) C 1416.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

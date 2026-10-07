@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Nicopolis ad Istrum, bei &amp;ndash; Pavlikeni (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028126</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028126</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216895">Nicopolis ad Istrum, bei</placeName></origPlace><origDate><origDate when-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729668">Pavlikeni</placeName><placeName type="findspot">{Lesičeri}, bei, "Dâskotski lozja"</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-01-11" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>quas nunc habent cum iis <expan><abbr>civit</abbr><ex>as</ex></expan> d<supplied reason="lost">a</supplied><lb break="no" n="2"/>tur aut <expan><abbr>siq</abbr><ex>ui</ex></expan> caelibes sunt cum is qua<supplied reason="lost">s</supplied> <lb n="3"/><expan><abbr>post</abbr><ex>ea</ex></expan> <expan><abbr>duxer</abbr><ex>int</ex></expan> dumtaxat singuli sin<lb break="no" n="4"/>gulas <expan><abbr>pr</abbr><ex>idie</ex></expan> <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Mar</abbr><ex>tias</ex></expan> Kano Iunio Nigro <lb n="5"/><expan><abbr>C</abbr><ex>aio</ex></expan> Pomponio Camerino co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="6"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> II <expan><abbr>Mattiacor</abbr><ex>um</ex></expan> cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="7"/><expan><abbr>T</abbr><ex>itus</ex></expan> Flavius Laco Side <lb n="8"/>ex pedite <lb n="9"/>Clagissae Clagissae <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Bess</abbr><ex>o</ex></expan> <lb n="10"/>et Spor <expan><abbr>f</abbr><ex>ilio</ex></expan> et Derzizeno <expan><abbr>f</abbr><ex>ilio</ex></expan> et <expan><abbr>Eptacent</abbr><ex>o</ex></expan> <lb n="11"/>et Zinae <expan><abbr>fil</abbr><ex>io</ex></expan> et Eptaperi <expan><abbr>fil</abbr><ex>io</ex></expan> eius <lb n="12"/><expan><abbr>descript</abbr><ex>um</ex></expan> et <expan><abbr>recogn</abbr><ex>itum</ex></expan> ex tabula aerea <lb n="13"/>quae fixa est Romae in muro post <lb n="14"/><expan><abbr>templ</abbr><ex>um</ex></expan> divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad <expan><abbr>Minerva</abbr><ex>m</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Tr</supplied>aiani <expan><abbr>Parthi</abbr><ex>ci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> divi <lb n="2"/><supplied reason="lost">Nervae nepos T</supplied><expan><abbr>raian</abbr><ex>us</ex></expan> Hadrianus <lb n="3"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied> <expan><abbr>pot</abbr><ex>estate</ex></expan> XXII <expan><abbr>imp</abbr><ex>erator</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>eq</abbr><ex>uitibus</ex></expan> et <expan><abbr>ped</abbr><ex>itibus</ex></expan> qui <expan><abbr>mil</abbr><ex>itaverunt</ex></expan> in a</supplied><expan><abbr>l</abbr><ex>is</ex></expan> III et <expan><abbr>coh</abbr><ex>ortibus</ex></expan> V <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>app</abbr><ex>ellantur</ex></expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> et II <expan><abbr>His</abbr><ex>panorum</ex></expan> <expan><abbr>Arv</abbr><ex>acorum</ex></expan> et I <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> et I <expan><abbr>Chal</abbr><ex>cidenorum</ex></expan> et I <expan><abbr>Lusi</abbr><ex>tanorum</ex></expan> <lb n="7"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> et su</supplied>nt in <expan><abbr>Moes</abbr><ex>ia</ex></expan> <expan><abbr>infer</abbr><ex>iore</ex></expan> <lb n="8"/><supplied reason="lost">sub</supplied><gap reason="lost" extent="unknown" unit="character"/>o XXV <expan><abbr>ite</abbr><ex>rum</ex></expan> <expan><abbr>clas</abbr><ex>sicis</ex></expan> XXVI <lb n="9"/><supplied reason="lost"><expan><abbr>plur</abbr><ex>ibusve</ex></expan></supplied> <expan><abbr>stip</abbr><ex>endiis</ex></expan> <expan><abbr>emer</abbr><ex>itis</ex></expan> <expan><abbr>dim</abbr><ex>issis</ex></expan> <expan><abbr>hon</abbr><ex>esta</ex></expan> <expan><abbr>mis</abbr><ex>sione</ex></expan> <expan><abbr>quor</abbr><ex>um</ex></expan> <lb n="10"/><supplied reason="lost"><expan><abbr>nom</abbr><ex>ina</ex></expan> <expan><abbr>subscr</abbr><ex>ipta</ex></expan> sunt ci</supplied><expan><abbr>v</abbr><ex>itatem</ex></expan> <expan><abbr>ded</abbr><ex>it</ex></expan> et <expan><abbr>con</abbr><ex>ubium</ex></expan> <expan><abbr>cu</abbr><ex>m</ex></expan> <lb n="11"/><supplied reason="lost"><expan><abbr>uxor</abbr><ex>ibus</ex></expan> quas nunc habent cum is</supplied> <expan><abbr>civ</abbr><ex>itas</ex></expan> <expan><abbr>dat</abbr><ex>ur</ex></expan> aut <expan><abbr>siq</abbr><ex>ui</ex></expan> <lb n="12"/><supplied reason="lost"><expan><abbr>caelib</abbr><ex>es</ex></expan> sunt is quas <expan><abbr>post</abbr><ex>ea</ex></expan> du</supplied><expan><abbr>x</abbr><ex>erint</ex></expan> <expan><abbr>dumtax</abbr><ex>at</ex></expan> sin<lb break="no" n="13"/>[guli singulas ------ </ab></div><div n="3" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> pridie <expan><abbr>K</abbr><ex>alendas</ex></expan> <supplied reason="lost"><expan><abbr>Mar</abbr><ex>tias</ex></expan></supplied> <lb n="1"/>Kano et <supplied reason="lost">Camerino <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="2"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> II Matti<supplied reason="lost"><expan><abbr>acor</abbr><ex>um</ex></expan> cui <expan><abbr>prae</abbr><ex>e</ex>st</expan></supplied> <lb n="3"/><expan><abbr>T</abbr><ex>itus</ex></expan> Flavius <supplied reason="lost">Laco Side</supplied> <lb n="4"/>ex pedite <lb n="5"/>Clagisae Clagis<supplied reason="lost">ae <expan><abbr>f</abbr><ex>ilio</ex></expan> Besso</supplied> <lb n="6"/>et Spor <expan><abbr>f</abbr><ex>ilio</ex></expan> et Derz<supplied reason="lost">izeno <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="7"/>et Etilento <note>sic</note> <expan><abbr>f</abbr><ex>ilio</ex></expan> et Z<supplied reason="lost">inae <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="8"/>et Epreri <note>sic</note> <expan><abbr>f</abbr><ex>ilio</ex></expan> [eius ------ </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> Claudi <supplied reason="lost">Menandri</supplied> <lb n="2"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Atti <supplied reason="lost">Severi</supplied> <lb n="3"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli <supplied reason="lost">Daphni</supplied> <lb n="4"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Atti <supplied reason="lost">Festi</supplied> <lb n="5"/><expan><abbr>T</abbr><ex>iti</ex></expan> Flavi <supplied reason="lost">Lauri</supplied> <lb n="6"/><expan><abbr>Ti</abbr><ex>beri</ex></expan> Iuli <supplied reason="lost">Felicis</supplied> <lb n="7"/><expan><abbr>C</abbr><ex>ai</ex></expan> Iuli <supplied reason="lost">Silvani</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1900, 0026.</bibl><bibl>CIL 16, 00083.</bibl><bibl>AE 1900, 0056.</bibl><bibl>AE 1900, 0057.</bibl><bibl>E. Bormann, JŒAI 3, 1900, 12-21, Nr. 1; Fotos. - AE 1900, 0056; AE 1900, 0057.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

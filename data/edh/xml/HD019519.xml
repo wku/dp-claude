@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ampelum &amp;ndash; Zlatna (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019519</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019519</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cluj-Napoca, Muz. Naţ. Ist. Transilv.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(125)</height><width>75</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206917">Ampelum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/671258">Zlatna</placeName><placeName type="findspot">{Pătrângeni}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019519_1" sex="M"><persName ref="http://romans1by1.com/rpeople/6022"><name type="cognomen">Syrillio</name></persName></person><person xml:id="HD019519_2" sex="M"><persName ref="http://romans1by1.com/rpeople/6023"><name type="cognomen">Liberalis</name></persName></person><person xml:id="HD019519_3" sex="W"><persName ref="http://romans1by1.com/rpeople/6024"><name type="nomen">Aelia*</name><name type="cognomen">Victoria</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Syrillioni <lb n="3"/>aedituo <lb n="4"/>qui <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> LXXVIII <lb n="5"/>Liberalis <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <lb n="6"/><expan><abbr>lib</abbr><ex>ertus</ex></expan> a <expan><abbr>com</abbr><ex>mentariis</ex></expan> <lb n="7"/>et <expan><abbr>Ael</abbr><ex>ia</ex></expan> Victoria <lb n="8"/>patri <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>In 2 Teile gebrochen. Hedera in Z. 1.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1959, 0305. (B)</bibl><bibl>IDR 3, 3, 365; fig. 267 (Foto u. Zeichnung).</bibl><bibl>D. Tudor, Istoria sclavajului în Dacia romană (Bucureşti 1957) 262, Nr. 100. (B) - AE 1959.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

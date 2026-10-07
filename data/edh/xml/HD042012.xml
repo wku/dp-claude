@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Troesmis &amp;ndash; Turcoaia (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042012</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042012</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>200</height><width>84</width><depth>32</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217025">Troesmis</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/664464">Turcoaia</placeName><placeName type="findspot">{westliche Festung}, Haupttor, Schwelle, sekundär verwendet</placeName><placeName type="region">Tulcea</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042012_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Flavius*</name><name type="cognomen">Valens*</name></persName></person><person xml:id="HD042012_2" sex="W"><persName><name type="nomen">Valeria</name><name type="cognomen">Fortunata*</name></persName></person><person xml:id="HD042012_3" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Alexander</name></persName></person><person xml:id="HD042012_4" sex="W"><persName><name type="nomen">Marcia</name><name type="cognomen">Basilissa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Teretin</abbr><ex>a</ex></expan> <expan><abbr>Val</abbr><ex>ens</ex></expan> A<lb break="no" n="3"/><expan><abbr>mast</abbr><ex>ri</ex></expan> <expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> V <expan><abbr>Mac</abbr><ex>edonicae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="4"/>LXV Valeria <expan><abbr>Fortunat</abbr><ex>a</ex></expan> <lb n="5"/>uxor eius <expan><abbr>an</abbr><ex>norum</ex></expan> LX <expan><abbr>Fl</abbr><ex>avius</ex></expan> Ale<lb break="no" n="6"/>xander frater <expan><abbr>an</abbr><ex>norum</ex></expan> LXII <lb n="7"/>Marcia Basilissa uxor <lb n="8"/>eius <expan><abbr>an</abbr><ex>norum</ex></expan> L in locum titu<lb break="no" n="9"/>lum posuerunt sibi
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes ein Kranz; unterhalb des Inschriftfeldes ein Krater, aus dem Weinranken herauswachsen. (B): CIL III; IScM V: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 185, Nr. 226; Taf. 66, 4.</bibl><bibl>CIL 03, 07501. (B)</bibl><bibl>IScM 5, 184; Foto u. Zeichnung. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

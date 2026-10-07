@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Ratiaria &amp;ndash; Dimovo (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055738</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055738</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(9)</height><width>(10)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.4-0.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207376">Ratiaria</placeName></origPlace><origDate><origDate when-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/733642">Dimovo</placeName><placeName type="findspot">{Arčar}, bei</placeName><placeName type="region">Vidin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-16" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Vesp</supplied>asianus Caesar Augustus <expan><abbr>trib</abbr><ex>unicia</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>potest</abbr><ex>ate</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> I</supplied>I causaris qui militave<lb break="no" n="3"/><supplied reason="lost">runt in le</supplied><expan><abbr>g</abbr><ex>ione</ex></expan> II adiutrice pia fidele qui <lb n="4"/><supplied reason="lost">bello inut</supplied>iles facti ante emerita <lb n="5"/><supplied reason="lost">stipendia e</supplied>x auctorati sunt et dimis<lb break="no" n="6"/><supplied reason="lost">si honesta</supplied> missione quorum nomi<lb break="no" n="7"/><supplied reason="lost">na subscri</supplied>pta sunt ipsis liberis <lb n="8"/><supplied reason="lost">posterisque</supplied> eorum civitatem dedit <lb n="9"/><supplied reason="lost">et conubium</supplied> cum uxoribus quas tunc <lb n="10"/><supplied reason="lost">habuissent c</supplied>um est civitas i<expan><ex>i</ex><abbr>s</abbr></expan> data <lb n="11"/><supplied reason="lost">aut siqui cae</supplied>libes essent cum i<expan><ex>i</ex><abbr>s</abbr></expan> quas <lb n="12"/><supplied reason="lost">postea duxisse</supplied>nt dumtaxat singu<lb break="no" n="13"/><supplied reason="lost">li singulas</supplied> <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Mart</abbr><ex>ias</ex></expan> <lb n="14"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Vespasia</supplied>no Caesare <expan><abbr>Aug</abbr><ex>usto</ex></expan> II <lb n="15"/><supplied reason="lost">Caesare <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <expan><abbr>f</abbr><ex>ilio</ex></expan> Vespasiano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/>is <expan><abbr>f</abbr><ex>ilio</ex></expan> Daco <lb n="17"/><supplied reason="lost">descriptum</supplied> et recognitum ex ta<lb break="no" n="18"/><supplied reason="lost">bula aenea</supplied> quae fixa est Romae <lb n="19"/><supplied reason="lost">in Capitolio</supplied> ante aram gentis <lb n="20"/><supplied reason="lost" cert="low">Iuliae ad</supplied> podium latere <expan><abbr>dexte</abbr><ex>riore</ex></expan> <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Civitas i<expan><ex>i</ex><abbr>s</abbr></expan> data aut siqui cae<lb break="no" n="2"/>libes &amp;lt;e=I&amp;gt;ssent cum i<expan><ex>i</ex><abbr>s</abbr></expan> quas pos<lb break="no" n="3"/>tea duxissent dumtaxat sin<lb break="no" n="4"/>guli singulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Mart</abbr><ex>ias</ex></expan> <lb n="5"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Vespasiano Caesare <expan><abbr>Aug</abbr><ex>usto</ex></expan> II <lb n="6"/>Caesare <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Vespasiano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="7"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>is <expan><abbr>f</abbr><ex>ilio</ex></expan> Daco</supplied> descriptum <lb n="8"/><supplied reason="lost">et recognitum ex tabula</supplied> ae[nea ------ 
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2002, 1733.</bibl><bibl>RMD 323.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

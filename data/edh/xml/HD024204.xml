@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Durostorum &amp;ndash; Silistra (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024204</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024204</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(60)</height><width>(60)</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216800">Durostorum</placeName></origPlace><origDate><origDate notBefore-custom="0293" notAfter-custom="0305" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">293 AD - 305 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727221">Silistra</placeName><placeName type="findspot"/><placeName type="region">Silistra</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024204_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="praenomen">C.+</name><name type="nomen">Aurelius+* Valerius+*</name><name type="cognomen">Diocletianus+</name></persName></person><person xml:id="HD024204_2" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Aurelius+* Valerius+*</name><name type="cognomen">Maximianus+</name></persName></person><person xml:id="HD024204_3" sex="M"><persName><name type="nomen">Flavius+* Valerius+*</name><name type="cognomen">Constantius+</name></persName></person><person xml:id="HD024204_4" sex="M"><persName><name type="nomen">Galerius* Valerius*</name><name type="cognomen">Maximianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-02" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Impp</abbr><ex>eratores</ex></expan> <expan><abbr>Caess</abbr><ex>ares</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> D</supplied>iocletianus <lb n="2"/><supplied reason="lost">et <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Maximianu</supplied>s <expan><abbr>PP</abbr><ex>ii</ex></expan> <expan><abbr>FF</abbr><ex>elices</ex></expan> Invict<supplied reason="lost">i</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>Augg</abbr><ex>usti</ex></expan> et <expan><abbr>Fl</abbr><ex>avius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Constanti</supplied>us et <expan><abbr>Gal</abbr><ex>erius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> <lb n="4"/><supplied reason="lost">Maximianus nobilissimi</supplied> <expan><abbr>Caess</abbr><ex>ares</ex></expan> <expan><abbr>German</abbr><ex>ici</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>max</abbr><ex>imi</ex></expan> V <expan><abbr>Sarmat</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> III</supplied>I Gothici <expan><abbr>max</abbr><ex>imi</ex></expan> <lb n="6"/><supplied reason="lost"><expan><abbr>Brittan</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> post debella</supplied>tas hosti<expan><ex>u</ex><abbr>m</abbr></expan> <lb n="7"/><supplied reason="lost">gentes confirmata orbi su</supplied>o tr<supplied reason="lost">anquil</supplied><lb break="no" n="8"/><supplied reason="lost">litate profuturum in aeternum rei publicae praesi</supplied><lb break="no" n="9"/><supplied reason="lost">dium constituerunt</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Ursprüngliche Breite über 2 m. (B): Russu, AE 1936: abweichende Textwiedergaben / Ergänzungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1936, 0010. (B)</bibl><bibl>I.I. Russu, AISC 2, 1933-1935, 210-212, Nr. 1; fig. 1. (B) - AE 1936.</bibl><bibl>AE 1999, 1323.</bibl><bibl>M. Zahariade, in: Atti del XI Congresso Internazionale di Epigrafia Greca e Latina 2, Roma 1997 (Roma 1999) 555, Nr. 4. - AE 1999.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

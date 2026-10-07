@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription? from Ulmetum &amp;ndash; Pantelimon (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019075</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019075</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(57)</height><width>(41)</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217056">Ulmetum</placeName></origPlace><origDate><origDate when-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/671381">Pantelimon</placeName><placeName type="findspot">{spätantike Festung, Haupttor}, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019075_1"><persName><name type="cognomen">Longinus+</name></persName></person><person xml:id="HD019075_2" sex="M"><persName><name type="cognomen">Longinianus+</name></persName></person><person xml:id="HD019075_3" sex="M"><persName><name type="cognomen">Gallicanus</name></persName></person><person xml:id="HD019075_4" sex="M"><persName><name type="cognomen">Vetus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-01-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">Longin</supplied>us et Longi<lb break="no" n="2"/><supplied reason="lost">nian</supplied>us de suo posue<lb break="no" n="3"/><supplied reason="lost">runt</supplied> Gallicano et Ve<lb break="no" n="4"/><supplied reason="lost">tere</supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1960: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1960, 0341. (B)</bibl><bibl>CIL 03, 12492.</bibl><bibl>IScM 5, 075; Foto.</bibl><bibl>E. Bujor, StCercIstorV 4, 1953, 780-781; fig. 1a; fig. 1b (Zeichnung). - AE 1960.</bibl><bibl>PIR (2. Aufl.) G 113.</bibl><bibl>PIR (2. Aufl.) G 114.</bibl><bibl>PIR (2. Aufl.) C 438.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

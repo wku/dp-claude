@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sacidava, bei &amp;ndash; Rasova (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD012621</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD012621</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(43)</height><width>(64)</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216965">Sacidava, bei</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1965"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/669148">Rasova</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD012621_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Tatianus</name></persName></person><person xml:id="HD012621_2" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-04-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Pro caritatem <note>sic</note> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">f</supplied>unc su<supplied reason="lost">m</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/><lb break="no" n="1"/>egi <expan><abbr>vita</abbr><ex>m</ex></expan> sene <note>sic</note> cr<supplied reason="lost">i</supplied><lb break="no" n="2"/>mine ges<expan><ex>s</ex><abbr>i</abbr></expan> opserv<lb break="no" n="3"/>avi <note>sic</note> <expan><abbr>fama</abbr><ex>m</ex></expan> podore <note>sic</note> <lb n="4"/>sapientia mea <lb n="5"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> Tatianus <expan><abbr>vix</abbr><ex>i</ex></expan> <lb n="6"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> LXI <expan><abbr>m</abbr><ex>enses</ex></expan> V <expan><abbr>d</abbr><ex>ies</ex></expan> se<supplied reason="lost">x</supplied> <lb n="7"/><expan><ex>h</ex><abbr>or</abbr><ex>as</ex></expan> <expan><abbr>VI</abbr><ex cert="low"/></expan> et <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>m</abbr><ex>issus</ex></expan> <expan><abbr>an</abbr><ex>nis</ex></expan> XV et <lb n="8"/><expan><abbr>pos</abbr><ex>t</ex></expan> <expan><abbr>morte</abbr><ex>m</ex></expan> deco<lb break="no" n="9"/>ra<expan><ex>vi</ex><abbr>stis</abbr></expan> <expan><ex>h</ex><abbr>onore</abbr></expan> et <certainty match="preceding-sibling::node()" locus="value"/> <lb n="10"/><expan><abbr>tu</abbr><ex cert="low"/></expan> <expan><abbr>Cl</abbr><ex>audia</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> co<expan><ex>n</ex><abbr>iux</abbr></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente erhalten; Maße beziehen sich auf das obere Fragment (a); Maße Fragment b: (50) x (65) x 20 cm. Oberhalb des Inschriftfeldes Bildfeld mit figürlicher Darstellung; Z. 1 befindet sich auf dem Rahmen dazwischen. (B): Aricescu; Popescu; AE 1976: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1976, 0629. (B)</bibl><bibl>AE 2007, 1225.</bibl><bibl>A. Aricescu, Pontica 7, 1974, 263-270, Nr. 2; fig. 2. (B) - AE 1976.</bibl><bibl>E. Popescu, Inscripţiile greceşti şi latine din secolele IV-XIII descoperite în România (Bucureşti 1976) 201-203, Nr. 191; fig. 191. (B) - AE 1976. 2007.</bibl><bibl>S. Olteanu, StCercIstorV 58, 2007, 171-175; Fotos. - AE 2007.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

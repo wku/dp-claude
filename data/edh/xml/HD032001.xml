@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Ratiaria, aus? &amp;ndash; Vidin (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032001</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032001</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207376">Ratiaria, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0122" notAfter-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">122 AD - 138 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/725905">Vidin</placeName><placeName type="findspot">{Festung}, Stambol-Kapija, sekundär verwendet</placeName><placeName type="region">Vidin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032001_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14340"><name type="praenomen">L.</name><name type="nomen">Vitrasius+</name><name type="cognomen">Flamininus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-09-22" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Vitr<supplied reason="lost">asio</supplied> <lb n="2"/>Flamin<supplied reason="lost">ino</supplied> <lb n="3"/><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <supplied reason="lost"><expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied> <lb n="4"/>Moesia<supplied reason="lost">e supe</supplied><lb break="no" n="5"/>rioris <supplied reason="lost"><expan><abbr>col</abbr><ex>onia</ex></expan></supplied> <lb n="6"/><expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>Tra</abbr><ex>iana</ex></expan> <supplied reason="lost"><expan><abbr>Rat</abbr><ex>iaria</ex></expan></supplied> <lb n="7"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>ecurionum</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: nach dem Konsulat des L. Vitrasius Flamininus im Jahr 122 n. Chr. und vor seinem letzten Amt (procos. Africae) im Jahr 137/138 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1902, 0128.</bibl><bibl>B. Dobruski, SborNarodSofia 18, 1901, 763, Nr. 59. - AE 1902.</bibl><bibl>PIR V 522.</bibl><bibl>G. Alföldy, Konsulat und Senatorenstand unter den Antoninen (Bonn 1977) 204.</bibl><bibl>CIL 03, 14499.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Gostavăţu (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047029</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047029</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0248" notAfter-custom="0249" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">248 AD - 249 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/666736">Gostavăţu</placeName><placeName type="findspot">Slăveni, {Lager, Principia}</placeName><placeName type="region">Olt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047029_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Iulius*</name><name type="cognomen">Philippus+</name></persName></person><person xml:id="HD047029_2" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Iulius+*</name><name type="cognomen">Philippus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-03-03" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> Phi<lb break="no" n="2"/><supplied reason="lost">l</supplied>ippo Pio <expan><abbr>Fel</abbr><ex>ici</ex></expan> <expan><abbr>Invict</abbr><ex>o</ex></expan> <lb n="3"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>p<supplied reason="lost">o</supplied>nt</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> t<supplied reason="lost"><expan><abbr>rib</abbr><ex>unicia</ex></expan></supplied> <lb n="4"/>po<supplied reason="lost"><expan><abbr>t</abbr><ex>estate</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> pr</supplied>oco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et</supplied> <lb n="5"/><expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratori</ex></expan> <supplied reason="lost"><expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> Phi</supplied><lb break="no" n="6"/><supplied reason="lost">lippo</supplied> Pio <expan><abbr>Fel</abbr><ex>ici</ex></expan> <expan><abbr><supplied reason="lost">I</supplied>nvict</abbr><ex>o</ex></expan> <lb n="7"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan> po</supplied>n<supplied reason="lost"><expan><abbr>t</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan></supplied> tr<supplied reason="lost"><expan><abbr>ib</abbr><ex>unicia</ex></expan></supplied> <lb n="8"/><expan><abbr>pot</abbr><ex>estate</ex></expan> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> ala</supplied> <lb n="9"/>I Hi<supplied reason="lost"><expan><abbr>sp</abbr><ex>anorum</ex></expan> devota nu</supplied>mi<lb break="no" n="10"/><supplied reason="lost">ni et maies</supplied>tati <lb n="11"/><supplied reason="lost">eorum <expan><abbr>Impp</abbr><ex>eratoribus</ex></expan> Philippo</supplied> <lb n="12"/>III <supplied reason="lost">et Philippo II <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden im praetorium des Lagers. 54, teils aneinanderpassende Fragmente; möglicherweise auch ein Altar. Lesung und Ergänzungen weitgehend nach der Zeichnung in IDR II. (B): IDR II: Abweichungen in Lesung und Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 2, 500; Zeichnung. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Potaissa &amp;ndash; Turda (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072647</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072647</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor?</material><dimensions unit="cm"><width>80</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#">Potaissa</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found" when="1987"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern">Turda</placeName><placeName type="findspot">Lager, Principia, Basilica</placeName><placeName type="region">Cluj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-24" who="Lopez">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> A</supplied><expan><abbr>urel</abbr><ex>io</ex></expan> Anto<supplied reason="lost">nin</supplied>o Pio <lb n="2"/><expan><abbr><supplied reason="lost">F</supplied>el</abbr><ex>ici</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usto</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex></expan></supplied><expan><abbr>s</abbr><ex>uli</ex></expan> IIII <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> prin<supplied reason="lost"><expan><abbr>c</abbr><ex>ipi</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>indulg</abbr><ex>entissimo</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied>N GA<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>leg</abbr><ex>io</ex></expan> V</supplied> <expan><abbr>Mac</abbr><ex>edonica</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> Antoninian<supplied reason="lost">a devota<certainty locus="name" match="preceding-sibling::text()" cert="low"/> nu</supplied>mini eius
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2012, 1208.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

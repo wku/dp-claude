@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Nova Zagora (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042932</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042932</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>190</height><width>60</width><depth>60</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0341" notAfter-custom="0344" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">341 AD - 344 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728721">Nova Zagora</placeName><placeName type="findspot">{Novoselec}, Dorfkirche, sekundär verwendet</placeName><placeName type="region">Sliven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042932_1" sex="M"><persName><name type="nomen">Flavius* Claudius*</name><name type="cognomen">Constans</name></persName></person><person xml:id="HD042932_2" sex="M"><persName><name type="nomen">Antonius*</name><name type="cognomen">Marcellinus</name></persName></person><person xml:id="HD042932_3" sex="M"><persName><name type="nomen">Domitius*</name><name type="cognomen">Leontius+</name></persName></person><person xml:id="HD042932_4" sex="M"><persName><name type="nomen">Fabius*</name><name type="cognomen">Titianus</name></persName></person><person xml:id="HD042932_5" sex="M"><persName><name type="cognomen">Palladius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-05-07" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">P</supplied>acifico piissimo<supplied reason="lost">q</supplied>ue p<expan><ex>ri</ex><abbr>ncip</abbr></expan><supplied reason="lost">i</supplied> <lb n="2"/><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Constanti victor<supplied reason="lost">i a</supplied><lb break="no" n="3"/><supplied reason="lost">c</supplied> triumfatori <supplied reason="lost">p</supplied>erpetuo Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usto</ex></expan></supplied> <lb n="4"/><expan><abbr>Ant</abbr><ex>onius</ex></expan> Marcellinus et <expan><abbr>Dom</abbr><ex>itius</ex></expan> Leonti<supplied reason="lost">us e</supplied><lb break="no" n="5"/>t <expan><abbr>Fab</abbr><ex>ius</ex></expan> Titianus <expan><abbr>vv</abbr><ex>iri</ex></expan> <expan><abbr>cc</abbr><ex>larissimi</ex></expan> <expan><abbr>praeff</abbr><ex>ecti</ex></expan> <expan><abbr>praet</abbr><ex>orio</ex></expan> <lb n="6"/><expan><abbr>n</abbr><ex>umini</ex></expan> m<expan><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan> eorum semper devotissim<supplied reason="lost">i</supplied> <lb n="7"/><supplied reason="lost">p</supplied>rocurante Palladio <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>p</abbr><ex>erfectissimo</ex></expan> praesid<supplied reason="lost">e</supplied> <lb n="8"/><supplied reason="lost">p</supplied>rovinciae Thraciae <lb n="9"/>consecraverunt
+            </ab></div>
+            <div type="commentary">
+                <p>Am Anfang und Ende von Z. 9 jeweils ein Kreuz.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0902.</bibl><bibl>AE 1892, 0008.</bibl><bibl>V. Beševliev, Spätgriechische und spätlateinische Inschriften aus Bulgarien (Berlin 1964) 130, Nr. 191; Taf. 81, 215 (Zeichnung).</bibl><bibl>CIL 03, 12330.</bibl><bibl>ILS 8944.</bibl><bibl>H. Škorpil - K. Škorpil, AEM 15, 1892, 100, Nr. 29. - AE 1892.</bibl><bibl>Đ. Bojadžiev - R. Lazov, in: A. Fol - V. Zhivkov - N. Nedjalkov (Hrsg.), Acta Centri Historiae Terra Antiqua Balcanica 2 (Sofia 1987) 294-299. - AE 1987.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

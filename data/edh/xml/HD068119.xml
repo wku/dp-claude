@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Istrus &amp;ndash; Istria (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068119</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068119</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Istria, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>49</height><width>46</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#">Istrus</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1953"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern">Istria</placeName><placeName type="findspot"/><placeName type="region">Constanţa</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068119_1" sex="M"><persName><name type="nomen">Ἰούλιος</name><name type="cognomen">Γαιτουλικός+</name></persName></person><person xml:id="HD068119_10" sex="M"><persName><name type="nomen">Αὐρήλιος*</name><name type="cognomen">Ηλει</name></persName></person><person xml:id="HD068119_11" sex="M"><persName><name type="cognomen">Ηλει</name></persName></person><person xml:id="HD068119_12" sex="M"><persName><name type="cognomen">Δημήτριος</name></persName></person><person xml:id="HD068119_13" sex="M"><persName><name type="cognomen">Δομετιανός</name></persName></person><person xml:id="HD068119_14" sex="M"><persName><name type="nomen">Αὐρήλιος+*</name><name type="cognomen">Αἰλιανὸς Ηλει</name></persName></person><person xml:id="HD068119_15" sex="M"><persName><name type="nomen">Αὐρήλιος+*</name><name type="cognomen">Ἀλέξανδρος Ηλει</name></persName></person><person xml:id="HD068119_16" sex="M"><persName><name type="nomen">Αὐρήλιος+*</name><name type="cognomen">Σατουρνεῖλος Ηλει</name></persName></person><person xml:id="HD068119_17" sex="M"><persName><name type="cognomen">Ἀθηνάδης+</name></persName></person><person xml:id="HD068119_18" sex="M"><persName><name type="cognomen">Δαμάτριος</name></persName></person><person xml:id="HD068119_19"><persName><name type="cognomen">Καλλίνεικος+</name></persName></person><person xml:id="HD068119_2" sex="M"><persName><name type="nomen">Φλάουιος*</name><name type="cognomen">Ἰουκοῦνδος</name></persName></person><person xml:id="HD068119_20" sex="M"><persName><name type="cognomen">Ἡρακλιανός*</name></persName></person><person xml:id="HD068119_21" sex="M"><persName><name type="cognomen">Νεικήρατος+</name></persName></person><person xml:id="HD068119_22" sex="M"><persName><name type="cognomen">Ἕρμιππος</name></persName></person><person xml:id="HD068119_23" sex="M"><persName><name type="cognomen">Δημήτριος+*</name></persName></person><person xml:id="HD068119_24" sex="M"><persName><name type="cognomen">Δαμάτριος</name></persName></person><person xml:id="HD068119_25" sex="M"><persName><name type="cognomen">[---]ς</name></persName></person><person xml:id="HD068119_26" sex="M"><persName><name type="cognomen">Ῥοῦφος</name></persName></person><person xml:id="HD068119_27" sex="M"><persName><name type="cognomen">Ἀρτεμίδωρος+</name></persName></person><person xml:id="HD068119_28" sex="M"><persName><name type="cognomen">Μαρκιανός+</name></persName></person><person xml:id="HD068119_29" sex="M"><persName><name type="cognomen">Διονύσιος+</name></persName></person><person xml:id="HD068119_3" sex="M"><persName><name type="nomen">Φλάουιος*</name><name type="cognomen">Διογένης</name></persName></person><person xml:id="HD068119_30" sex="M"><persName><name type="cognomen">Π[---]</name></persName></person><person xml:id="HD068119_31" sex="M"><persName><name type="nomen">Αὐρήλιος*</name><name type="cognomen">Ἀρτεμίδωρος</name></persName></person><person xml:id="HD068119_32" sex="M"><persName><name type="cognomen">Ἀριστοκράτης*</name></persName></person><person xml:id="HD068119_33" sex="M"><persName><name type="nomen">Αὐρήλιος*</name><name type="cognomen">Ἀριστοκράτης+</name></persName></person><person xml:id="HD068119_34" sex="M"><persName><name type="cognomen">Ἀριστοκράτης*</name></persName></person><person xml:id="HD068119_35" sex="M"><persName><name type="praenomen">Π.</name><name type="nomen">Αἴλιος+</name></persName></person><person xml:id="HD068119_36" sex="M"><persName><name type="cognomen">Ἑρμερινός+</name></persName></person><person xml:id="HD068119_37" sex="M"><persName><name type="nomen">Αὐρήλιος*</name><name type="cognomen">Ποντικός</name></persName></person><person xml:id="HD068119_38" sex="M"><persName><name type="cognomen">Ε[---]</name></persName></person><person xml:id="HD068119_39" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD068119_4" sex="M"><persName><name type="nomen">Φλάουιος*</name><name type="cognomen">Λονγεινιανός+</name></persName></person><person xml:id="HD068119_5" sex="M"><persName><name type="nomen">Αὐρήλιος*</name><name type="cognomen">Διονύσιος</name></persName></person><person xml:id="HD068119_6" sex="M"><persName><name type="nomen">Αὐρήλιος*</name><name type="cognomen">Γρήγορος</name></persName></person><person xml:id="HD068119_7" sex="M"><persName><name type="cognomen">Ἀρτεμίδωρος</name></persName></person><person xml:id="HD068119_8" sex="M"><persName><name type="cognomen">Ἀχιλλεύς</name></persName></person><person xml:id="HD068119_9" sex="M"><persName><name type="cognomen">Ἀχιλλᾶς</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-21" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> καὶ τοῦ <lb n="2"/><supplied reason="lost">κρατίστου ὑ</supplied>πατικοῦ Ἰουλίου <lb n="3"/><supplied reason="lost">Γαιτουλικ</supplied>οῦ, ὑμνῳδοὶ πρεσβύτε<lb break="no" n="4"/><supplied reason="lost">ροι οἱ πε</supplied>ρὶ τὸν μέγαν θεὸν Διόνυσον <lb n="5"/><supplied reason="lost">τοὺς π</supplied>ροστάτας Φλ(άουιον) Ἰουκοῦνδον <lb n="6"/><supplied reason="lost">καὶ</supplied> Φλ(άουιον) Διογένην καὶ Φλ(άουιον) Λονγεινι<lb break="no" n="7"/><supplied reason="lost">α</supplied>νὸν καὶ Αὐρ(ήλιον) Διονύσιον βʹ τοῦ Ἑ<lb break="no" n="8"/><supplied reason="lost">στ</supplied>ιαίου νεικήσαντες ἀγῶνα ἐ<supplied reason="lost">πὶ</supplied> ἀγωνοθέτου Αὐρ(ηλίου) Γρηγόρου τοῦ <lb n="9"/><supplied reason="lost">Ἀρ</supplied>τεμιδώρου καὶ πατρὸς Ἀχιλλ<lb break="no" n="10"/>έως Ἀχιλλᾶ μεσοχόρου δὲ καὶ <lb n="11"/><supplied reason="lost">χο</supplied>ροστάτου Αὐρ(ηλίου) Ηλει τοῦ Ηλει μ<lb break="no" n="12"/>ουσάρχου Δημητρίου Δομετια<lb break="no" n="13"/>νοῦ συναγωνισάμενοι οἵδε· <lb n="14"/><supplied reason="lost">Αὐ</supplied>ρ(ήλιος) Αἰλιανὸς Ηλει <lb n="15"/><supplied reason="lost">Αὐ</supplied>ρ(ήλιος) Ἀλέξανδρος Ηλει <lb n="16"/><supplied reason="lost">Αὐ</supplied>ρ(ήλιος) Σατουρνεῖλος Ηλει <lb n="17"/><supplied reason="lost">Ἀ</supplied>θηνάδης Δαματρίου <lb n="18"/><supplied reason="lost">Κα</supplied>λλίνεικος Ἡρακλιαν(οῦ) <lb n="19"/><supplied reason="lost">Νεικ</supplied>ήρατος Ἑρμίππου <lb n="20"/><supplied reason="lost">Δημή</supplied>τρις Δα&amp;lt;μα&amp;gt;τρίου <lb n="21"/><gap reason="lost" extent="unknown" unit="character"/>ς Ῥούφου <lb n="22"/><supplied reason="lost">Ἀρτεμίδ</supplied>ωρος Μαρ<supplied reason="lost">κιαν</supplied>οῦ <lb n="23"/><supplied reason="lost">Διονύ</supplied>σιος Π<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Αὐρ(ήλιος) Ἀρτεμίδωρος Ἀ<lb break="no" n="2"/>ριστοκρά(τους) ἱερεύς <lb n="3"/>Αὐρ(ήλιος) Ἀριστοκράτ<supplied reason="lost">ης</supplied> <lb n="4"/>Ἀριστοκρά(τους) ἱερεύ<supplied reason="lost">ς</supplied> <lb n="5"/>Πόπλιος Αἴλ<supplied reason="lost">ιος</supplied> <lb n="6"/>Ἑρμερι<supplied reason="lost">νοῦ</supplied> <lb n="7"/>Αὐρ(ήλιος) Ποντικὸς Ε<gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>Φ<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IScM 1, 100.</bibl><bibl>SEG 17, 0342.</bibl><bibl>AE 2007, p. 458 a. n. 1228.</bibl><bibl>A. Avram, Dacia 51, 2007, 95, Nr. 100. - AE 2007.</bibl><bibl>PIR (2. Aufl.) I 332.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

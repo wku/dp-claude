@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Philippopolis &amp;ndash; Plovdiv (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065323</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065323</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(160)</height><width>54</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216927">Philippopolis</placeName></origPlace><origDate><origDate notBefore-custom="0236" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">236 AD - 238 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="findspot">{Marica, Fluss}, bei, spätantikes Bauwerk (Brücke?), sekundär verwendet</placeName><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065323_1" sex="M"><persName><name type="praenomen">Γ.</name><name type="nomen">Ἰούλιος++</name><name type="cognomen">Οὐῆρος++ Μαξιμεῖνος++</name></persName></person><person xml:id="HD065323_2" sex="M"><persName><name type="praenomen">Γ.++</name><name type="nomen">Ἰούλιος++</name><name type="cognomen">Οὐῆρος++ Μάξιμος++</name></persName></person><person xml:id="HD065323_3" sex="M"><persName><name type="praenomen">Τ.</name><name type="nomen">Κλώδιος</name><name type="cognomen">Σατουρνεῖνος</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-21" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ἀγαθῇ τύχῃ <lb n="2"/>ὑπὲρ ὑγείας καὶ σωτηρίας <lb n="3"/>καὶ αἰωνίου διαμονῆς <lb n="4"/>τῶν κυρίων ἡμῶν Αὐτο<lb break="no" n="5"/>κρατόρων Γ(αίου) Ἰο<del rend="erasure">υλ(ίου) Οὐήρου</del> <lb n="6"/><del rend="erasure">Μαξιμείνου καὶ Γ(αίου) Ἰουλ(ίου) Οὐήρου</del> <lb n="7"/><del rend="erasure">Μαξίμου Καίσαρος Σ</del>εβ(αστῶν) καὶ τοῦ <lb n="8"/>σύμπαντος αὐτῶν οἴκου, ὑπατεύοντος <lb n="9"/>τοῦ λαμπροτάτου Τ(ίτου) Κλωδίου Σατουρνείνου <lb n="10"/>ἡ λαμπροτάτη μητρόπολις Φιλλιππόπολις ἐκ τῶν ἰδίων χρημάτων <lb n="11"/>ιαʹ
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 1251.</bibl><bibl>N. Sharankov, BIAB 39, 2006, 240-242, Nr. 5; obr. 9. - AE 2006.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

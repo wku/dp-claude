@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Odorheiu Secuiesc (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024948</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024948</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Odorheiu Secuiesc, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(115)</height><width>86</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0212" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">212 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1987"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/671964">Odorheiu Secuiesc</placeName><placeName type="findspot"/><placeName type="region">Harghita</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024948_1" sex="M"><persName ref="http://romans1by1.com/rpeople/7502"><name type="nomen">Aelius*</name><name type="cognomen">Equester</name></persName></person><person xml:id="HD024948_2"><persName ref="http://romans1by1.com/rpeople/7503"><name type="nomen">Aurelia</name><name type="cognomen">Iuiunis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-11-06" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ael</abbr><ex>ius</ex></expan> Equester <expan><abbr>vet</abbr><ex>eranus</ex></expan> ex |(centurione) <lb n="2"/>Aureliae Iuiuni coniugi <lb n="3"/>virginiae bene merenti <lb n="4"/>con <note>sic</note> quen <note>sic</note> vixit annis LX <lb n="5"/>posuit titulum et sibi
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1990: Z. 4: quem; Z. 4/5: keine Angabe des Zeilenfalls.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1990, 0852. (B)</bibl><bibl>R. Ardevan - C. Beldiman - J. Zepeczaner, StCercIstorV 41, 1990, 195-201; fig. 2; fig. 3 (Zeichnung). - AE 1990.</bibl><bibl>ILD 437.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

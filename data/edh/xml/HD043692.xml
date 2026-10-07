@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043692</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043692</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarmizegetusa, Muz. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(75)</height><width>(99)</width><depth>(33)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">17-8.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0116" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">116 AD - 117 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1993"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">Forum Vetus, {Tetrapylon}, bei</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043692_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva Traianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-03-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F013061" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7f5e3e9d-bfcf-446b-8127-a9235171f3cb/file/id/772589/file_version/name/small"/><graphic xml:id="F035232" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e073b12e-cb9c-4711-8026-628c3c846256/file/id/796080/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">Im</supplied>p</abbr><ex>erator</ex></expan> Ca<supplied reason="lost"><expan><abbr>es</abbr><ex>ar</ex></expan></supplied> div<supplied reason="lost">i</supplied> Ne<supplied reason="lost">r</supplied>v<supplied reason="lost">a</supplied>e <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Trai<supplied reason="lost">anus <expan><abbr>Opt</abbr><ex>imus</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan></supplied> <lb n="2"/><expan><abbr><supplied reason="lost">Ger</supplied>m</abbr><ex>anicus</ex></expan> <supplied reason="lost">Dacicus Parthicus p</supplied><expan><abbr>ontif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> pot<supplied reason="lost"><expan><abbr>est</abbr><ex>ate</ex></expan> XXI<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>imp</abbr><ex>erator</ex></expan> XIII <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> VI</supplied> <lb n="3"/><supplied reason="lost">pater patriae coloniae Ulpiae T</supplied>ra<supplied reason="lost">i</supplied>anae <expan><abbr>Dacic</abbr><ex>ae</ex></expan> <supplied reason="lost">Sar</supplied>miz<supplied reason="lost" cert="low">egetusae forum? cum</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">dedit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschrift vom äußeren Bogen des Tetrapylons am Eingang des Forums; sie lief ursprünglich wohl über 6 Blöcke hinweg; 10 Fragmente (a-j) erhalten; Maße beziehen sich auf das größte Fragment (e); Maße Fragment a: (19) x (22) x (28) cm; b: (47) x (32) x (26) cm; c: (46) x (31) x (26) cm; d: (33) x (31) x 35 cm; f: (56) x (36) x (30) cm; g: (59) x (55) x (32) cm; h: (14) x (18) x (11) cm; i: (18) x (13) x (8) cm; j: (19) x (13) x (6) cm; rekonstruierte Gesamtmaße: ca. 90 x 560 x 35 cm. Rahmen des Inschriftfeldes mit Ranken geschmückt. Ergänzungsvorschlag nach Piso, ActaMusNapoca. Z. 2: pot[est(ate) XX oder XXI. Datierung: je nach Ergänzung der trib. pot. 116 oder 117 n. Chr. (B): Piso, in: Arbore Popescu (Hrsg.), Traiano; AE 1998; Piso, in: Le forum vetus; Diaconescu; AE 2006, 1139; ILD: Lesung und Ergänzung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1998, 1084. (B)</bibl><bibl>ILD 237. (B)</bibl><bibl>I. Piso, in: G. Arbore Popescu (Hrsg.), Traiano. Ai confini dell'Impero (Milano 1998) 276, Nr. 212; Zeichnung. (B) - AE 1998.</bibl><bibl>I. Piso, in: I. Piso (Hrsg.), Le forum vetus de Sarmizegetusa 1 (Bucureşti 2006) 211-214, Nr. 1; fig. 3, 1 (Foto u. Zeichnung). (B)</bibl><bibl>AE 2006, 1139. (B)</bibl><bibl>A. Diaconescu, EphNapocensis 16/17, 2006/07, 95-106; fig. 3 u. 5; fig. 1-2b u. 4 (Zeichnungen). (B) - AE 2006.</bibl><bibl>AE 2007, 1203.</bibl><bibl>I. Piso, ActaMusNapoca 43/44, 2006/07, 151-161; fig. 4; fig. 1-3 u. 5 (Zeichnungen). - AE 2007.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

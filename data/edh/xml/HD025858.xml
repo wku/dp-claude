@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Durostorum &amp;ndash; Silistra (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025858</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025858</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Silistra, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>153</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216800">Durostorum</placeName></origPlace><origDate><origDate notBefore-custom="0169" notAfter-custom="0176" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">169 AD - 176 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727221">Silistra</placeName><placeName type="findspot"/><placeName type="region">Silistra</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD025858_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1430"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD025858_2" sex="M"><persName ref="http://romans1by1.com/rpeople/9014"><name type="praenomen">C.</name><name type="nomen">Terentius</name><name type="cognomen">Herodianus+</name></persName></person><person xml:id="HD025858_3" sex="M"><persName ref="http://romans1by1.com/rpeople/9015"><name type="praenomen">L.</name><name type="nomen">Numerius+</name><name type="cognomen">Ponticus</name></persName></person><person xml:id="HD025858_4" sex="M"><persName ref="http://romans1by1.com/rpeople/9016"><name type="praenomen">T.</name><name type="nomen">Flavius*</name><name type="cognomen">Papirianus+</name></persName></person><person xml:id="HD025858_5" sex="M"><persName ref="http://romans1by1.com/rpeople/9017"><name type="nomen">Claudius*</name><name type="cognomen">Saturninus+</name></persName></person><person xml:id="HD025858_6" sex="M"><persName ref="http://romans1by1.com/rpeople/9018"><name type="praenomen">Q.</name><name type="nomen">Visellius</name><name type="cognomen">Lollianus+</name></persName></person><person xml:id="HD025858_7" sex="M"><persName ref="http://romans1by1.com/rpeople/9019"><name type="praenomen">T.</name><name type="nomen">Lucretius+</name><name type="cognomen">Felix+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-11-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan></supplied> <expan><abbr>M</abbr><ex>aximo</ex></expan> et Iun<supplied reason="lost">on</supplied>i <expan><abbr>Reg</abbr><ex>inae</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> pro salu<supplied reason="lost">te I</supplied><expan><abbr>mp</abbr><ex>eratoris</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <lb n="2"/><expan><abbr>Aur</abbr><ex>eli</ex></expan> Anto<supplied reason="lost">nin</supplied>i <expan><abbr>Aug</abbr><ex>usti</ex></expan> et m<lb break="no" n="3"/><expan><abbr>unic</abbr><ex>ipii</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> D<supplied reason="lost"><expan><abbr>ur</abbr><ex>ostori</ex></expan></supplied> <expan><abbr>C</abbr><ex>aius</ex></expan> Teren<lb break="no" n="4"/>tius Hero<supplied reason="lost">di</supplied>anus et <lb n="5"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Nume<supplied reason="lost">ri</supplied>us Ponti<lb break="no" n="6"/>cus <expan><abbr>IIv</abbr><ex>iri</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>icundo</ex></expan></supplied> <expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Papi<lb break="no" n="7"/>rian<supplied reason="lost">us et</supplied> <expan><abbr>Cl</abbr><ex>audius</ex></expan> Satur<lb break="no" n="8"/>nin<supplied reason="lost">us <expan><abbr>aed</abbr><ex>iles</ex></expan></supplied> et <expan><abbr>Q</abbr><ex>uintus</ex></expan> Visel<lb break="no" n="9"/>lius Lo<supplied reason="lost">llia</supplied>nus <expan><abbr>T</abbr><ex>itus</ex></expan> Lu<lb break="no" n="10"/>creti<supplied reason="lost">us</supplied> <supplied reason="lost">Fe</supplied>lix <expan><abbr>q</abbr><ex>uaestores</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Keine Angabe des Zeilenfalls in der Originalpublikation.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1925, 0110.</bibl><bibl>V. Pârvan, RFIC 2, 1924, 318-320. - AE 1925.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Storgosia, bei &amp;ndash; Levski, bei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042396</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042396</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(86)</height><width>(82)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216992">Storgosia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729636">Levski, bei</placeName><placeName type="findspot">{Osâm, Fluss}, bei, römische Ruinen</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042396_1" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Iustinus</name></persName></person><person xml:id="HD042396_2" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Ingenuus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-04-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Iustinus quaesti<lb break="no" n="2"/>onarius <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>Cl</abbr><ex>audiae</ex></expan> qui mi<lb break="no" n="3"/>litavit annis XXIIII vixit <lb n="4"/>annis XXXXV <expan><abbr>Ael</abbr><ex>ius</ex></expan> Ingenu<expan><ex>u</ex><abbr>s</abbr></expan> <lb n="5"/>b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>leg</abbr><ex>ati</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> heres <lb n="6"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Gefunden in den Ruinen südlich von Levski. Oberhalb des Inschriftfeldes noch der Rest eines Kranzes. Z. 1 befindet sich auf dem Rahmen. (B): Schallmayer u. a.: Z. 3: [q]ui.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 252, Nr. 474; Taf. 125, 2.</bibl><bibl>CIL 03, 12401.</bibl><bibl>ILBulg 444; tab. 85, 444.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 490, Nr. 636. (B)</bibl><bibl>AE 1892, 0104.</bibl><bibl>H. Škorpil - K. Škorpil, AEM 15, 1892, 208, Nr. 76. - AE 1892.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

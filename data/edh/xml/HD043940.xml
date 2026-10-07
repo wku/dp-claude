@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Augusta Traiana &amp;ndash; Stara Zagora (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043940</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043940</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stara Zagora, Reg. Ist. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>(151)</height><width>43</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216731">Augusta Traiana</placeName></origPlace><origDate><origDate notBefore-custom="0293" notAfter-custom="0305" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">293 AD - 305 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731837">Stara Zagora</placeName><placeName type="findspot">{Dâlboki}</placeName><placeName type="region">Stara Zagora</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043940_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="praenomen">C.</name><name type="nomen">Aurelius* Valerius*</name><name type="cognomen">Diocletianus</name></persName></person><person xml:id="HD043940_2" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Aurelius+* Valerius+*</name><name type="cognomen">Maximianus+</name></persName></person><person xml:id="HD043940_3" sex="M"><persName><name type="cognomen">Constantinus</name></persName></person><person xml:id="HD043940_4" sex="M"><persName><name type="cognomen">Licinius+</name></persName></person><person xml:id="HD043940_5" sex="M"><persName ref="https://www.wikidata.org/wiki/Q311646"><name type="cognomen">Crispus+</name></persName></person><person xml:id="HD043940_6" sex="M"><persName><name type="cognomen">Licinius+</name></persName></person><person xml:id="HD043940_7" sex="M"><persName><name type="cognomen">Constantinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Piissimis <expan><abbr>d<am>d</am></abbr><ex>ominis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostris</ex></expan> <lb n="2"/><expan><abbr>G</abbr><ex>aio</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> <lb n="3"/>Diocletiano <lb n="4"/><supplied reason="lost">et <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan></supplied> <lb n="5"/><supplied reason="lost">Maximiano</supplied> <lb n="6"/><supplied reason="lost">invictis</supplied> <supplied reason="lost"><expan><abbr>Augg</abbr><ex>ustis</ex></expan></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> Aug<gap reason="lost" extent="unknown" unit="character"/> Felici <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Dd</abbr><ex>ominis</ex></expan> <expan><abbr>nn</abbr><ex>ostris</ex></expan></supplied> <lb n="2"/>Constantino et <lb n="3"/>Lic<supplied reason="lost">i</supplied>ni<supplied reason="lost">o A</supplied><expan><abbr>ugg</abbr><ex>ustis</ex></expan> <lb n="4"/>et C<supplied reason="lost">rispo</supplied> et Lici<lb break="no" n="5"/><supplied reason="lost">nio</supplied> et Constan<lb break="no" n="6"/>tino n<supplied reason="lost"><expan><abbr>obb</abbr><ex>ilissimis</ex></expan></supplied> <expan><abbr>Caess</abbr><ex>aribus</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> </ab></div><div n="4" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>inste<gap reason="lost" extent="unknown" unit="character"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>iam aliu<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>tum</expan> mihi ne<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>eram annorum <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>BREXI hunc E<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>LXIIII felix
+            </ab></div></div>
+            <div type="commentary">
+                <p>Reste von mindestens 3 Inschriften; davon mindestens zwei Meilensteininschriften untereinander (a und b) und eine Grabinschrift neben diesen (c). Die Buchstabenreste in Z. 7 u. 8 können zur oberen, zur unteren oder zu einer weiteren Meilensteininschrift gehört haben. Buchstabenhöhe und Datierung beziehen sich auf a; Buchstabenhöhe b: 4-4,2 cm, c: 2,5-3,2 cm; Datierung b: 317-324 n. Chr.; c: 3. Jh. n. Chr.(?)</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1995, 1360.</bibl><bibl>L. Hollenstein, in: R. Frei-Stolba - M.A. Speidel (Hrsg.), Römische Inschriften.</bibl><bibl>Neulesungen und Neuinterpretationen. Festschrift für Hans Lieb (Basel 1995) 184-189, Nr. 3; Fotos u. Zeichnungen.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

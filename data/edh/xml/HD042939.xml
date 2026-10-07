@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone? from Lesičovo (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042939</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042939</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">mile-/leaguestone?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/730723">Lesičovo</placeName><placeName type="findspot">{Kalugerovo}, bei, S. Nikola, Kloster, sekundär verwendet</placeName><placeName type="region">Pazardžik</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042939_1" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">Constans+</name></persName></person><person xml:id="HD042939_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Honorius</name></persName></person><person xml:id="HD042939_3" sex="M"><persName><name type="nomen">Flavius* Claudius*</name><name type="cognomen">Iulianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-05" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">D</supplied>d</abbr><ex>omini</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostri</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">maxi</supplied>mi CPMCSICP <lb n="3"/><supplied reason="lost">victor ac triumphato</supplied>r se<supplied reason="lost">mper</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> Const<supplied reason="lost">a</supplied>ns <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> Honori NI<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>IC<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> sa<supplied reason="lost">l</supplied>vo <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Iuliano <supplied reason="lost">invicto Pio Felici</supplied> <lb n="4"/>semper <expan><abbr>Aug</abbr><ex>usto</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>EIHOEI<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>VOSI<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Gefunden im Kloster Sv. Nikola. Offenbar mindestens einmal wiederverwendet, wobei die spätere Inschrift rechts von der älteren angebracht wurde. Ergänzungen: unsicher; nach Vorschlägen von Hirschfeld und Beševliev.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>V. Beševliev, Spätgriechische und spätlateinische Inschriften aus Bulgarien (Berlin 1964) 160-161, Nr. 228; Taf. 97, 249 (Zeichnung).</bibl><bibl>CIL 03, 07413.</bibl><bibl>S. Conti, Die Inschriften Kaiser Julians (Stuttgart 2004) 94-95, Nr. 51.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

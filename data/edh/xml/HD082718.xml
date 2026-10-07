@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Sostra &amp;ndash; Trojan (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082718</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082718</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(5)</height><width>(9)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216989">Sostra</placeName></origPlace><origDate><origDate notBefore-custom="0271" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">271 AD - 330 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2012"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729578">Trojan</placeName><placeName type="findspot">{Lomec}</placeName><placeName type="region">Loveč</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082718_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Licinius+</name><name type="cognomen">Romanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-03-12" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deo <expan><ex>H</ex><abbr>eroni</abbr></expan> <expan><abbr>P</abbr><ex>ublius</ex></expan> Lic<supplied reason="lost">inius</supplied> <lb n="2"/>Romanus <expan><abbr>dec</abbr><ex>urio</ex></expan> a<supplied reason="lost"><expan><abbr>l</abbr><ex>ae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> vo</supplied><lb break="no" n="3"/>tum posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Niedere Statuettenbasis; auf der Oberseite noch geringe Reste der Statuette. (B): Torbatov; Ivanova: Z. 1: Lic[in(ius)]; Z. 2/3: Deo v[ot]/um.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2013, 1365.</bibl><bibl>S. Torbatov, in: I. Hristov - S. Torbatov - B. Ivanov- S. Ivanov - L. Ninov (Hrsg.), Svetilište natrakijskija konnik kraj Sostra (The sanctuary of the Thracian horseman by Sostra) (Sofia 2013) 131-133, Nr. 7; obr. 1, 9 (Zeichnung). (B) - AE 2013.</bibl><bibl>B. Ivanova, in: I. Hristov - S. Torbatov - B. Ivanov- S. Ivanov - L. Ninov (Hrsg.), Svetilište natrakijskija konnik kraj Sostra (The sanctuary of the Thracian horseman by Sostra) (Sofia 2013) 93-94, Nr. 33; obr. 5, 10. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

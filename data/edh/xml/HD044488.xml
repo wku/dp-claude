@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Aetos &amp;ndash; Ajtos (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044488</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044488</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>33</height><width>106</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-12</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="#">Aetos</placeName></origPlace><origDate><origDate notBefore-custom="0450" notAfter-custom="0457" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">450 AD - 457 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/733579">Ajtos</placeName><placeName type="findspot"/><placeName type="region">Burgas</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044488_1" sex="M"><persName><name type="cognomen">Marcianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-28" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Funditus hanc statuit Marcianus e<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> aulam</supplied> <lb n="2"/>serius in regnum missus post <supplied reason="lost" cert="low">proelia multa</supplied> <lb n="3"/><supplied reason="lost">re</supplied>ru<supplied reason="lost">m vim ce</supplied>leri medicina te<supplied reason="lost">mperat acrem</supplied> <lb n="4"/><supplied reason="lost">e</supplied>rigit <supplied reason="lost">in</supplied> melius quem lapsu<supplied reason="lost">m acceperat</supplied> <lb n="5"/>orbem </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">τῷ</supplied> ἐῶνι ἔτους ϛτοθ
+            </ab></div></div>
+            <div type="commentary">
+                <p>Zwei zusammengehörige aber nicht anpassende Stücke. Das kleinere Fragment hat folgende Maße: Höhe: 27; Breite 88; Tiefe 22. (B): In Z. 3-4 sind einige Buchstaben mehr auf dem Foto zu erkennen als in der Edition angegeben waren.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 12328.</bibl><bibl>CIL 03, 14207, 12.</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 73-75, Nr. 82.</bibl><bibl>V. Beševliev, Spätgriechische und spätlateinische Inschriften aus Bulgarien (Berlin 1964) 124-126, Nr. 184; Taf. 79, 206-209. (B)</bibl><bibl>ILS 8954.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

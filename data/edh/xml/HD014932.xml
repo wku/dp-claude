@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Germisara? &amp;ndash; Geoagiu? (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014932</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014932</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tîrgu Mureş, Slg. A. Filimon</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>40</height><width>24</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-1.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207129">Germisara?</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/681932">Geoagiu?</placeName><placeName type="findspot">{Cigmău}?</placeName><placeName type="region">Hunedoara?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014932_1"><persName ref="http://romans1by1.com/rpeople/5550"><name type="cognomen">Bocenus?</name></persName></person><person xml:id="HD014932_2"><persName ref="http://romans1by1.com/rpeople/5549"><name type="cognomen">Fronto</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-07-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Silvanis et <lb n="2"/>Silvano Cam<lb break="no" n="3"/><expan><abbr>pest</abbr><ex>ribus</ex></expan> pro <surplus>pro</surplus> <lb n="4"/><expan><abbr>sal</abbr><ex>ute</ex></expan> <expan><abbr>Boceni</abbr><ex cert="low"/></expan> Fr<lb break="no" n="5"/>onto pater <supplied reason="lost" cert="low">p(osuit)</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 4:Buchstabe E in Form von II.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1967, 0405.</bibl><bibl>I.I. Russu, ActaMusNapoca 1, 1964, 191-195, Nr. 8; fig. 8 (Foto u. Zeichnung). - AE 1967 IDR 3, 3, 220; fig. 170 (Foto u. Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

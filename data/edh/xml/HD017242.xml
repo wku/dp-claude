@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Karnobat (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017242</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017242</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(78)</height><width>(44)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0184" notAfter-custom="0185" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">184 AD - 185 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/730559">Karnobat</placeName><placeName type="findspot">{Smolnik}, bei</placeName><placeName type="region">Burgas</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017242_1" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Censorinus+</name></persName></person><person xml:id="HD017242_2" sex="M"><persName><name type="cognomen">Martialis+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ex auctor<supplied reason="lost">ita</supplied><lb break="no" n="2"/>te <expan><abbr>Cl</abbr><ex>audi</ex></expan> Cen<supplied reason="lost">s</supplied>or<supplied reason="lost">i</supplied><lb break="no" n="3"/>ni <expan><abbr>proc</abbr><ex>uratoris</ex></expan> <expan><abbr>A<supplied reason="lost">u</supplied>g</abbr><ex>usti</ex></expan> et <lb n="4"/><expan><abbr>aes</abbr><ex cert="low">timatione</ex></expan> iur<supplied reason="lost">is</supplied> agr<lb break="no" n="5"/>orum <expan><abbr>B<supplied reason="lost">l</supplied>aes</abbr><ex>ianorum</ex></expan> <lb n="6"/>Marti<supplied reason="lost">a</supplied>lis <lb n="7"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>lib</abbr><ex>ertus</ex></expan> po<lb break="no" n="8"/>suit
+            </ab></div>
+            <div type="commentary">
+                <p>In 6-7 km Entfernung von dem Grenzstein AE 1965, 1 gefunden, der die gleiche Inschrift trug. (B): AE 1965: Z. 2/3: Cen[s]ori/ni.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1965, 0002. (B)</bibl><bibl>V. Velkov, AAntHung 13, 1965, 207-214; Abb. 2. - AE 1965.</bibl><bibl>PIR (2. Aufl.) C 830.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

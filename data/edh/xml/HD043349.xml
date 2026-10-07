@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Cius &amp;ndash; Gârliciu, bei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043349</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043349</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>85</height><width>58</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216770">Cius</placeName></origPlace><origDate><origDate notBefore-custom="0351" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">351 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/677175">Gârliciu, bei</placeName><placeName type="findspot">Hassarlîc, Hügel, {spätantike Festung}</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043349_1" sex="M"><persName><name type="nomen">Flavius+*</name><name type="cognomen">Valens+</name></persName></person><person xml:id="HD043349_2" sex="M"><persName><name type="cognomen">Athanaricus+?</name></persName></person><person xml:id="HD043349_3" sex="M"><persName><name type="cognomen">Marcianus</name></persName></person><person xml:id="HD043349_4" sex="M"><persName><name type="cognomen">Ursicinus</name></persName></person><person xml:id="HD043349_5" sex="M"><persName><name type="nomen">Flavius+*</name><name type="cognomen">Stercorius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-11-30" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009306" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5e241803-facc-4098-915b-0e5cda342945/file/id/769071/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>ominus</ex></expan> <expan><abbr>n</abbr><ex>oster</ex></expan> invictissimus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> princeps<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>Fl</abbr><ex>avius</ex></expan> V</supplied>alens victor maximus triumfator <note>sic</note> <lb n="2"/><supplied reason="lost">semper <expan><abbr>Aug</abbr><ex>ustus</ex></expan> in fidem recepto rege Athan</supplied><expan><abbr>arico</abbr><ex cert="low"/></expan> victis superatisque Gothis <lb n="3"/><supplied reason="lost">ingruente item in victorias illa</supplied>s tempore feliciter quinquennaliorum <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> hunc burgum</supplied> ob defensionem rei publicae extruxit <lb n="5"/><supplied reason="lost">labore <gap reason="lost" extent="unknown" unit="character"/> devotissi</supplied>morum militum suorum Primanorum <lb n="6"/><supplied reason="lost">et <gap reason="lost" extent="unknown" unit="character"/> commissor</supplied>um cur<expan><ex>a</ex><abbr>e</abbr></expan> Marciani <expan><abbr>trib</abbr><ex>uni</ex></expan> et Ursicini p<expan><ex>rae</ex><abbr>p</abbr><ex>ositi</ex></expan> semper vestri <lb n="7"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> ordinante <expan><abbr>Fl</abbr><ex>avio</ex></expan> Ste</supplied>rcorio viro clarissimo duce
+            </ab></div>
+            <div type="commentary">
+                <p>Textwiedergabe nach CIL III 7494. Hederae. Z. 7: Text in den Rahmen eingemeißelt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 06159.</bibl><bibl>CIL 03, 07494.</bibl><bibl>ILS 0770.</bibl><bibl>E. Popescu, Inscripţiile greceşti şi latine din secolele IV-XIII descoperite în România (Bucureşti 1976) 241-244, Nr. 233; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

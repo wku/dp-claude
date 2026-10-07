@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Orăştioara de Sus (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028599</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028599</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Deva, Muz. Civil. Dac. şi Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>76</height><width>(31)</width><depth>(26)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0176" notAfter-custom="0177" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">176 AD - 177 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/671753">Orăştioara de Sus</placeName><placeName type="findspot">Lager</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD028599_1"><persName ref="http://romans1by1.com/rpeople/5588"><name type="praenomen">C.</name><name type="nomen">Arrius</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD028599_2" sex="M"><persName ref="http://romans1by1.com/rpeople/5589"><name type="praenomen">M.</name><name type="nomen">Verius</name><name type="cognomen">Superstes</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-05-12" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005859" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/80939e23-8841-4319-9ec0-bd481b846039/file/id/766634/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dianae <lb n="2"/>sacrum <lb n="3"/>pro <expan><abbr>salut</abbr><ex>e</ex></expan> <lb n="4"/><expan><abbr>C</abbr><ex>ai</ex></expan> Arri Anto<lb break="no" n="5"/>nini <expan><abbr>leg</abbr><ex>ati</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="6"/><expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="7"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Verius Su<lb break="no" n="8"/>perstes |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="9"/>V <expan><abbr>Mac</abbr><ex>edonicae</ex></expan> <expan><abbr>p</abbr><ex>raepositus</ex></expan> <expan><abbr>n</abbr><ex>umeri</ex></expan> <expan><abbr>G</abbr><ex>ermanicianorum</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1912; Gostar, Germania: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1912, 0304. (B)</bibl><bibl>AE 1971, 0386, 2.</bibl><bibl>AE 1972, 0487, 3.</bibl><bibl>CIL 03, 12574.</bibl><bibl>IDR 3, 3, 262; fig. 195 (Foto u. Zeichnung).</bibl><bibl>AE 1890, 0101.</bibl><bibl>N. Gostar, Germania 50, 1972, 244, Nr. 3. (B) - AE 1972.</bibl><bibl>N. Gostar, ActaMusNapoca 6, 1969, 498, Nr. 4, 3. - AE 1972.</bibl><bibl>I.I. Russu, Sargetia 5, 1968, 97-98; fig. 5 (Foto u.Zeichnung). - AE 1971.</bibl><bibl>G. Téglás, ErdélyiMuz 19, 1902, 268-268, Nr. 31. - AE 1912.</bibl><bibl>G. Téglás - P. Király, AEM 13, 1890, 194-195, Nr. 14. - AE 1890.</bibl><bibl>PIR (2. Aufl.) A 1088.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

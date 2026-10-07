@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Surduc (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014013</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014013</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zalău, Muz. Ist. Artă</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>73</height><width>40</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0211" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/665108">Surduc</placeName><placeName type="findspot">{Tihău}</placeName><placeName type="region">Sălaj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014013_1" sex="M"><persName ref="http://data.snapdrgn.net/person/1177"><name type="nomen">Flavius+*</name><name type="cognomen">Postumus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-11-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005616" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b5f15f31-7f98-4282-ac05-7c36f2a47643/file/id/766393/file_version/name/small"/><graphic xml:id="F013035" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/08a74481-95bd-4d46-9a3b-52579b7f363d/file/id/772563/file_version/name/small"/><graphic xml:id="F036327" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e3f4f25c-6082-4167-b9ac-cf49cd3602ed/file/id/797184/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">N</supplied>ymphis <lb n="2"/><expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan> <lb n="3"/>pro <expan><abbr>sal</abbr><ex>ute</ex></expan> <lb n="4"/>domin<del rend="erasure"><expan><abbr>n</abbr><ex>orum</ex></expan></del> <lb n="5"/><supplied reason="lost">n[<expan><abbr>n</abbr><ex>ostrorum</ex></expan></supplied>] <expan><abbr>dedic</abbr><ex>ante</ex></expan> <lb n="6"/><expan><abbr><supplied reason="lost">F</supplied>l</abbr><ex>avio</ex></expan> <lb n="7"/>Postu<lb break="no" n="8"/>mo co<expan><ex>n</ex><abbr>s</abbr><ex>ulari</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zeilenlinien für die Beschriftung. (B): Petolescu; AE 1977; Piso; AE 1978; Gudea - Lucăcel; ILD: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0678. (B)</bibl><bibl>AE 1977, 0666. (B)</bibl><bibl>ILD 761. (B)</bibl><bibl>I. Piso, ActaMusNapoca 15, 1978, 183-184, Nr. 3; fig. 5; fig. 6 (Zeichnung). (B) - AE 1978.</bibl><bibl>C.C. Petolescu, in: D.M. Pippidi - E. Popescu (Hrsg.), Epigraphica. Travaux dédiés au VIIe Congrès d'Épigraphie Grecque et Latine (Constantza 1977) 159-162; fig. 1. (B) - AE 1977.</bibl><bibl>PIR (2. Aufl.) F 341.</bibl><bibl>N. Gudea - V. Lucăcel, Inscripţii şi monumente sculpturale în Muzeul de Istorie şi Artă Zalău (Zalău 1975) 27, Nr. 55; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

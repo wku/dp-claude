@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042645</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042645</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material>Gesteine</material><dimensions unit="cm"><height>(65)</height><width>(80)</width><depth>(53)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0229" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 229 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1979"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot">Lager,westlich, {Prätorium(?)}, Eingang, bei</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042645_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD042645_2" sex="M"><persName><name type="nomen">Ulpius*</name><name type="cognomen">Marcianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-15" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005241" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b502d8b7-4998-4894-a81f-dbe50fa2be12/file/id/766018/file_version/name/small"/><graphic xml:id="F012981" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/63cb72b0-69e9-4cce-8965-950b1546567b/file/id/772506/file_version/name/small"/><graphic xml:id="F012982" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7e0cc50b-070b-4f35-89c9-0694e26be6b0/file/id/772507/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>E<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>bene<supplied reason="lost">fi</supplied>ci<supplied reason="lost">arii</supplied> <lb n="3"/>officii e<supplied reason="lost">ius</supplied> <lb n="4"/>pe<supplied reason="lost">r</supplied> <expan><abbr>Ulp</abbr><ex>ium</ex></expan> Marcianu<supplied reason="lost">m</supplied><gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>AC<gap reason="lost" extent="unknown" unit="character"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>FE<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>TM<gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>R<gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="4" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>A<gap reason="lost" extent="unknown" unit="character"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>S<gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="5" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="6" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>ALE<gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="7" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>LIC <lb n="0"/>[<gap reason="lost" quantity="1" unit="line"/>] <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>RVM <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>MI <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="8" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>AE<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>PO<gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="9" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>O <lb n="0"/>[<gap reason="lost" quantity="1" unit="line"/>] <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>M <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Basis aus 9 Fragmenten unvollständig zusammengesetzt. ALE in Frg. 6 möglicherweise zu legio Italica Alexandrina zu ergänzen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILNovae 047; Abb. 47 a-c; Abb. 47 d-l (Zeichnungen).</bibl><bibl>IGLN 068; pl. 26, 68 (Fotos u. Zeichnungen).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

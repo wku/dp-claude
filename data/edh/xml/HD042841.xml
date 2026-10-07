@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Storgosia, bei &amp;ndash; Levski, bei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042841</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042841</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><dimensions unit="cm"><height>75</height><width>270</width><depth>65</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10-9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216992">Storgosia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729636">Levski, bei</placeName><placeName type="findspot">{Osâm, Fluss}, bei, römische Ruinen</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042841_1" sex="W"><persName><name type="nomen">Ulpia*</name><name type="cognomen">Lucia+</name></persName></person><person xml:id="HD042841_2"><persName><name type="nomen">Ulpius*</name><name type="cognomen">Marcus</name></persName></person><person xml:id="HD042841_3" sex="M"><persName><name type="nomen">Ulpius*</name><name type="cognomen">Hirtus+*</name></persName></person><person xml:id="HD042841_4" sex="M"><persName><name type="nomen">Ulpius*</name><name type="cognomen">Marcellus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-05-29" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ e<certainty match="preceding-sibling::node()" locus="value"/>]t <expan><abbr>Ulp</abbr><ex>iae</ex></expan> L<supplied reason="lost">uc</supplied>iae matri et <expan><abbr>Ulpi</abbr><ex>o</ex></expan> <lb n="2"/>Marco <expan><abbr>cana</abbr><ex cert="low">licario</ex></expan> et <expan><abbr>Ulpi</abbr><ex>o</ex></expan> H<expan><ex>i</ex><abbr>r</abbr></expan><supplied reason="lost">t</supplied>o <expan><abbr>libr</abbr><ex>ario</ex></expan> fratribus <lb n="3"/><expan><abbr>Ulp</abbr><ex>ius</ex></expan> Marcellus <expan><abbr>frum</abbr><ex>entarius</ex></expan> parentibus degnissimis <note>sic</note>
+            </ab></div>
+            <div type="commentary">
+                <p>Architrav. Gefunden in den antiken Ruinen südlich von Levski. Z. 1 (Anfang): statt T auch L möglich. Z. 2: CIL III: canab(bensi?); ILBulg: cana(bae?). (B): Škorpil - Škorpil; AE 1892; CIL III: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1892, 0105. (B)</bibl><bibl>H. Škorpil - K. Škorpil, AEM 15, 1892, 208, Nr. 77. (B) - AE 1892.</bibl><bibl>ILBulg 446.</bibl><bibl>CIL 03, 12402. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

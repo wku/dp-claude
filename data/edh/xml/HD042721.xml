@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iatrus &amp;ndash; Cenovo (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042721</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042721</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(89)</height><width>(45)</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216846">Iatrus</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729917">Cenovo</placeName><placeName type="findspot">Krivina, {Lager}, Nordmauer, bei, Abschnitt D - Turm 11, zwischen</placeName><placeName type="region">Ruse</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042721_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD042721_2" sex="W"><persName><name type="cognomen">[---]illa*?</name></persName></person><person xml:id="HD042721_3"><persName><name type="cognomen">Pu[---]?</name></persName></person><person xml:id="HD042721_4" sex="M"><persName><name type="cognomen">[---]imus?</name></persName></person><person xml:id="HD042721_5"><persName><name type="cognomen">Ne[---]?</name></persName></person><person xml:id="HD042721_6" sex="M"><persName><name type="cognomen">[---]cus</name></persName></person><person xml:id="HD042721_7" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD042721_8" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Maximius+?</name><name type="cognomen">Martialis+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ co]<lb break="no" n="2"/>niug<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="3"/><expan><abbr>ill</abbr><ex cert="low">a</ex>e</expan> Pu<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/>imo Ne<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="5"/>co <expan><abbr>nep</abbr><ex cert="low">oti</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>mil</abbr><ex>iti</ex></expan> gener<supplied reason="lost">o</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>Gaius Max<supplied reason="lost" cert="low">imius</supplied><supplied reason="lost">imius</supplied><lb break="no" n="8"/>ialis <expan><abbr>fE</abbr><ex cert="low"/></expan><supplied reason="lost" cert="low">cit? sibi? et? sui</supplied><lb break="no" n="9"/>s <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>eritis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/><expan><abbr>o</abbr><ex>pto</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan> <supplied reason="lost"><expan><abbr>v</abbr><ex>obis</ex></expan></supplied> <expan><abbr>t</abbr><ex>erra</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>evis</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 9: s. [v.] t. [l.] in das O eingeschrieben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILBulg 342; tab. 63, 342.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

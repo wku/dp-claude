@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Ampelum &amp;ndash; Zlatna (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD045728</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD045728</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Tehnic ""Prof. Ing. Dimitrie Leonida""</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><dimensions unit="cm"><height>(105)</height><width>(67)</width><depth>(62)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206917">Ampelum</placeName></origPlace><origDate><origDate when-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/662161">Zlatna</placeName><placeName type="findspot"/><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD045728_1"><persName><name type="praenomen">L.+</name><name type="nomen">Septimius+*</name><name type="cognomen">Severus Pertinax*</name></persName></person><person xml:id="HD045728_2"><persName ref="http://romans1by1.com/rpeople/5557"><name type="praenomen">L.</name><name type="nomen">Octavius+*</name><name type="cognomen">Iulianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-07-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied> <lb n="2"/><supplied reason="lost">divi Marci Anto</supplied><lb break="no" n="3"/>nini Pii <expan><abbr>Ger</abbr><ex>manici</ex></expan> S<supplied reason="lost">ar</supplied><lb break="no" n="4"/><expan><abbr>mat</abbr><ex>ici</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> divi Co<supplied reason="lost">m</supplied><lb break="no" n="5"/>modi fratri d<supplied reason="lost">ivi</supplied> <lb n="6"/>Antonini Pii n<supplied reason="lost"><expan><abbr>ep</abbr><ex>oti</ex></expan></supplied> <lb n="7"/>divi Hadrian<supplied reason="lost">i pro</supplied><lb break="no" n="8"/><expan><abbr>nep</abbr><ex>oti</ex></expan> divi Traia<supplied reason="lost">ni</supplied> <lb n="9"/><expan><abbr>Part</abbr><ex>hici</ex></expan> <expan><abbr>abnep</abbr><ex>oti</ex></expan> div<supplied reason="lost">i Ner</supplied><lb break="no" n="10"/>vae adn<supplied reason="lost">epoti</supplied> <lb n="11"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> S</supplied><expan><abbr>ept</abbr><ex>imio</ex></expan> Severo <supplied reason="lost">Pio</supplied> <lb n="12"/><expan><abbr>Pert</abbr><ex>inaci</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> Ar<supplied reason="lost"><expan><abbr>ab</abbr><ex>ico</ex></expan> Adi</supplied><lb break="no" n="13"/><expan><abbr>ab</abbr><ex>enico</ex></expan> <expan><abbr>Part</abbr><ex>hico</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <supplied reason="lost">pon</supplied><lb break="no" n="14"/><expan><abbr>tif</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> tri<supplied reason="lost"><expan><abbr>b</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan></supplied> <lb n="15"/>VIII im<supplied reason="lost"><expan><abbr>p</abbr><ex>eratori</ex></expan> XI</supplied> <expan><abbr>co</abbr><ex>n</ex></expan><supplied reason="lost"><expan><abbr>s</abbr><ex>uli</ex></expan></supplied> II <lb n="16"/>pro <supplied reason="lost">consuli</supplied> <lb n="17"/>ordo <supplied reason="lost">Ampelensium</supplied> <lb n="18"/>d<expan><ex>e</ex><abbr>d</abbr><ex>icante</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> <supplied reason="lost"><expan><abbr>Oct</abbr><ex>avio</ex></expan> Iuliano <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulari</ex></expan></supplied> <lb n="19"/><supplied reason="lost"><expan><abbr>Dac</abbr><ex>iarum</ex></expan> III</supplied> <lb n="20"/><supplied reason="lost">MAC</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment vom Mittelteil eines Altars oder einer Statuenbasis. Von der Inschrift war bei der Auffindung mehr erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1968, 0442.</bibl><bibl>CIL 03, 01308.</bibl><bibl>IDR 3, 3, 284; fig. 215 (Foto u. Zeichnung).</bibl><bibl>E. Popescu, StudClas 9, 1967, 194-196, Nr. 2; fig. 3. (B) - AE 1968.</bibl><bibl>PIR (2. Aufl.) O 40.</bibl><bibl>I. Piso, Fasti provinciae Daciae 1. Die senatorischen Amtsträger (Bonn 1993) 159-161, Nr. 33, 1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

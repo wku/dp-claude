@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Certiae, bei &amp;ndash; Românaşi (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011710</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011710</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zalău, Muz. Ist. Artă</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(83)</height><width>55</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207025">Certiae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0238" notAfter-custom="0244" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">238 AD - 244 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/668694">Românaşi</placeName><placeName type="findspot">Romita, {S. Nicolae, Kirche}, sekundär verwendet</placeName><placeName type="region">Sălaj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011710_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antonius*</name><name type="cognomen">Gordianus</name></persName></person><person xml:id="HD011710_2" sex="W"><persName><name type="nomen">Sabina*</name><name type="cognomen">Tranquillina*</name></persName></person><person xml:id="HD011710_3"><persName><name type="praenomen">[-]?</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-03-14" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <expan><abbr>D</abbr><ex>olicheno</ex></expan> <lb n="2"/>pro <expan><abbr>sal</abbr><ex>ute</ex></expan> <expan><abbr>d</abbr><ex>omini</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <lb n="3"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Ant</abbr><ex>oni</ex></expan> Gor<lb break="no" n="4"/>diani <expan><abbr>P</abbr><ex>ii</ex></expan> <expan><abbr>F</abbr><ex>elicis</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="5"/>et <expan><abbr>Sab</abbr><ex>iniae</ex></expan> Tran<surplus>t</surplus><lb break="no" n="6"/>quillin<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="7"/>Sol<gap reason="lost" extent="unknown" unit="character"/>inus <lb n="8"/>Ter<supplied reason="lost" cert="low">ti</supplied>u<supplied reason="lost" cert="low">s? se ac</supplied> suis <lb n="9"/><supplied reason="lost" cert="low">v(otum) s(olvit) l(ibens) m(erito)</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): ILD: Z. 5/6: Tran/quillin(a)e.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1971, 0392.</bibl><bibl>I.I. Russu, ActaMusNapoca 5, 1968, 457-459, Nr. 5; Fig. 5 (Foto u. Zeichnung). - AE 1971.</bibl><bibl>CCID 134; Taf. 29, 134 (Zeichnung).</bibl><bibl>ILD 653. (B)</bibl><bibl>N. Gudea - V. Lucăcel, Inscripţii şi monumente sculpturale în Muzeul de Istorie şi Artă Zalău (Zalău 1975) 27, Nr. 53.</bibl><bibl>M. Popescu, in: M.-H. Quet (Hrsg.), La "Crise" de l'Empire romain de Marc Auréle à Constantin. Mutations, continuités, ruptures (Paris 2006) 490. - AE 2006.</bibl><bibl>AE 2006, 1124.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

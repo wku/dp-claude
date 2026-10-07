@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Napoca &amp;ndash; Cluj-Napoca (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD048958</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD048958</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207304">Napoca</placeName></origPlace><origDate><origDate when-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">235 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1801"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/681290">Cluj-Napoca</placeName><placeName type="findspot">{S. Treime, Kirche}, bei</placeName><placeName type="region">Cluj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD048958_1" sex="M"><persName><name type="cognomen">Severus</name></persName></person><person xml:id="HD048958_10" sex="M"><persName ref="http://romans1by1.com/rpeople/4161"><name type="cognomen">Valerius</name></persName></person><person xml:id="HD048958_11" sex="M"><persName><name type="cognomen">Zoilianus+</name></persName></person><person xml:id="HD048958_12" sex="M"><persName ref="http://romans1by1.com/rpeople/4163"><name type="cognomen">Crescens</name></persName></person><person xml:id="HD048958_13" sex="M"><persName ref="http://romans1by1.com/rpeople/4164"><name type="cognomen">Eptala</name></persName></person><person xml:id="HD048958_14" sex="M"><persName ref="http://romans1by1.com/rpeople/4165"><name type="cognomen">Ulpius</name></persName></person><person xml:id="HD048958_15" sex="M"><persName ref="http://romans1by1.com/rpeople/4166"><name type="cognomen">Mucianus</name></persName></person><person xml:id="HD048958_16" sex="M"><persName ref="http://romans1by1.com/rpeople/4167"><name type="cognomen">Carus</name></persName></person><person xml:id="HD048958_17" sex="M"><persName ref="http://romans1by1.com/rpeople/4168"><name type="cognomen">Surius*?</name></persName></person><person xml:id="HD048958_18" sex="M"><persName ref="http://romans1by1.com/rpeople/4169"><name type="cognomen">Tzinto</name></persName></person><person xml:id="HD048958_19" sex="M"><persName ref="http://romans1by1.com/rpeople/4170"><name type="cognomen">Longinianus</name></persName></person><person xml:id="HD048958_2" sex="M"><persName><name type="cognomen">Quintianus</name></persName></person><person xml:id="HD048958_20" sex="M"><persName ref="http://romans1by1.com/rpeople/4171"><name type="cognomen">Ulpianus</name></persName></person><person xml:id="HD048958_21" sex="M"><persName><name type="cognomen">Iulius</name></persName></person><person xml:id="HD048958_22" sex="M"><persName ref="http://romans1by1.com/rpeople/4172"><name type="cognomen">Hermescus*</name></persName></person><person xml:id="HD048958_23" sex="M"><persName ref="http://romans1by1.com/rpeople/4173"><name type="cognomen">Nepos</name></persName></person><person xml:id="HD048958_24" sex="M"><persName ref="http://romans1by1.com/rpeople/4174"><name type="cognomen">Agrippinus</name></persName></person><person xml:id="HD048958_25" sex="M"><persName ref="http://romans1by1.com/rpeople/4175"><name type="cognomen">Valerianus+</name></persName></person><person xml:id="HD048958_26" sex="M"><persName ref="http://romans1by1.com/rpeople/4176"><name type="cognomen">Curinius+?</name></persName></person><person xml:id="HD048958_27" sex="M"><persName ref="http://romans1by1.com/rpeople/4177"><name type="cognomen">Rev[---]</name></persName></person><person xml:id="HD048958_28" sex="M"><persName><name type="cognomen">Co[---]</name></persName></person><person xml:id="HD048958_29" sex="W"><persName ref="http://romans1by1.com/rpeople/4155"><name type="cognomen">Epipodia</name></persName></person><person xml:id="HD048958_3" sex="M"><persName ref="http://romans1by1.com/rpeople/4151"><name type="cognomen">Germanus</name></persName></person><person xml:id="HD048958_30" sex="W"><persName ref="http://romans1by1.com/rpeople/4156"><name type="cognomen">Valentina</name></persName></person><person xml:id="HD048958_31" sex="W"><persName ref="http://romans1by1.com/rpeople/4157"><name type="cognomen">Augusta</name></persName></person><person xml:id="HD048958_32" sex="W"><persName ref="http://romans1by1.com/rpeople/4182"><name type="cognomen">Asclepiodote</name></persName></person><person xml:id="HD048958_33" sex="W"><persName ref="http://romans1by1.com/rpeople/4183"><name type="cognomen">Tiberina</name></persName></person><person xml:id="HD048958_34" sex="W"><persName ref="http://romans1by1.com/rpeople/4184"><name type="cognomen">Maximina</name></persName></person><person xml:id="HD048958_35" sex="W"><persName ref="http://romans1by1.com/rpeople/4185"><name type="cognomen">Tzinta</name></persName></person><person xml:id="HD048958_36" sex="W"><persName ref="http://romans1by1.com/rpeople/4186"><name type="cognomen">Iustina</name></persName></person><person xml:id="HD048958_37" sex="W"><persName ref="http://romans1by1.com/rpeople/4187"><name type="cognomen">Cornificia</name></persName></person><person xml:id="HD048958_38" sex="W"><persName ref="http://romans1by1.com/rpeople/4188"><name type="cognomen">Longina</name></persName></person><person xml:id="HD048958_39" sex="W"><persName ref="http://romans1by1.com/rpeople/4189"><name type="cognomen">Cornelia</name></persName></person><person xml:id="HD048958_4" sex="M"><persName ref="http://romans1by1.com/rpeople/4152"><name type="cognomen">Tattaro</name></persName></person><person xml:id="HD048958_40" sex="W"><persName ref="http://romans1by1.com/rpeople/4190"><name type="cognomen">Vera</name></persName></person><person xml:id="HD048958_41" sex="W"><persName ref="http://romans1by1.com/rpeople/4191"><name type="cognomen">Hilara</name></persName></person><person xml:id="HD048958_42" sex="W"><persName ref="http://romans1by1.com/rpeople/4192"><name type="cognomen">Graeca*</name></persName></person><person xml:id="HD048958_43" sex="W"><persName ref="http://romans1by1.com/rpeople/4193"><name type="cognomen">Rufina</name></persName></person><person xml:id="HD048958_44" sex="W"><persName ref="http://romans1by1.com/rpeople/4194"><name type="cognomen">Victorina</name></persName></person><person xml:id="HD048958_45" sex="W"><persName ref="http://romans1by1.com/rpeople/4195"><name type="cognomen">Paula</name></persName></person><person xml:id="HD048958_46" sex="M"><persName><name type="cognomen">Zoilianus</name></persName></person><person xml:id="HD048958_5" sex="M"><persName ref="http://romans1by1.com/rpeople/4153"><name type="cognomen">Hermes*</name></persName></person><person xml:id="HD048958_6" sex="M"><persName ref="http://romans1by1.com/rpeople/4154"><name type="cognomen">Dizo</name></persName></person><person xml:id="HD048958_7" sex="M"><persName ref="http://romans1by1.com/rpeople/4158"><name type="cognomen">Gaius</name></persName></person><person xml:id="HD048958_8" sex="M"><persName ref="http://romans1by1.com/rpeople/4159"><name type="cognomen">Hyius</name></persName></person><person xml:id="HD048958_9" sex="M"><persName ref="http://romans1by1.com/rpeople/4160"><name type="cognomen">Zoilus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-14" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Severo et Quintiano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="2"/>nomina Asianorum <lb n="3"/>Germanus sprirar<supplied reason="lost">ch</supplied>aes </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Tattaro <lb n="2"/><expan><ex>H</ex><abbr>ermes</abbr></expan> <lb n="3"/>Dizo <lb n="4"/>Gaius <lb n="5"/>Hyius <lb n="6"/>Zoilus <lb n="7"/>Valerius <lb n="8"/>Zoilian<supplied reason="lost">u</supplied>s <lb n="9"/>Crescens <lb n="10"/>Eptala <lb n="11"/>Ulpius <lb n="12"/>Mucianus <lb n="13"/>Carus <lb n="14"/><expan><abbr>m</abbr><ex cert="low">agister</ex></expan> <lb n="15"/><expan><abbr>Suri</abbr><ex cert="low">us</ex></expan> <lb n="16"/>Tzinto <lb n="17"/>Longinianus <lb n="18"/>Ulpianus <lb n="19"/>Iulius <lb n="20"/><expan><ex>H</ex><abbr>ermescus</abbr></expan> <lb n="21"/>Nepos <lb n="22"/>Agrippinus <lb n="23"/>Valerianu<supplied reason="lost">s</supplied> <lb n="24"/>Curini<supplied reason="lost" cert="low">us</supplied> <lb n="25"/>Rev<gap reason="lost" extent="unknown" unit="character"/> <lb n="26"/>Co<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Epipodia mater <lb n="2"/>Valentina <lb n="3"/>Augusta <lb n="4"/>Asclepiodote <lb n="5"/>Tiberina <lb n="6"/>Maximina <lb n="7"/>Tzinta <lb n="8"/>Iustina <lb n="9"/>Cornificia <lb n="10"/>Longina <lb n="11"/>Cornelia <lb n="12"/>Vera <lb n="13"/>Hilara <lb n="14"/>Gr<expan><ex>a</ex><abbr>eca</abbr></expan> <lb n="15"/>Rufina <lb n="16"/>Victorina <lb n="17"/>Paula </ab></div><div n="4" type="textpart"><ab><lb n="1"/> Zoilianus scripsit
+            </ab></div></div>
+            <div type="commentary">
+                <p>Hedera in der oberen rechten Ecke des Rahmens. Z. 4-29 und 30-46 in 2 Kolumnen geschrieben; Z. 1-3 über die beiden Kolumnen hinweglaufend (zwischen Z. 2 und 3 leerer Zwischenraum von 1-2 Zeilen Höhe). Die Buchstaben der Z. 48 befinden sich auf dem rechten Rahmen des Inschriftfeldes und sind einzeln untereinander geschrieben. Z. 17: Buchstabe M steht rechts von Z. 16 und 18 etwa im Zeilenzwischenraum. Z. 24: NEPOS offenbar nachträglich eingefügt. Z. 27: möglicherweise auch Curianus oder Carinus. (B): CIL III; Ardevan: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2008, 1164.</bibl><bibl>CIL 03, 00870. (B)</bibl><bibl>ILS 4061.</bibl><bibl>C. Onofrei, EphNapocensis 18, 2008, 171-174. 176, Nr. 1. - AE 2008.</bibl><bibl>R. Ardevan, Viaţa municipală în Dacia Romană (Timişoara 1998) 431, Nr. 449. (B)</bibl><bibl>A. Bodor, Dacia 7, 1963, 229-234, Abb. 11 (Zeichnung).</bibl><bibl>PIR (2. Aufl.) C 1025.</bibl><bibl>PIR (2. Aufl.) C 992.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

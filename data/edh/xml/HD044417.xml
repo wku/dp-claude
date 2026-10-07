@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Istrus &amp;ndash; Istria (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044417</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044417</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Istria, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>(29)</height><width>(17)</width><depth>(36)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216839">Istrus</placeName></origPlace><origDate><origDate when-custom="0155" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">155 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675471">Istria</placeName><placeName type="findspot">{spätantike Festung}</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044417_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.+ / T.+</name><name type="nomen">Aelius+ / Αἴλιος+</name><name type="cognomen">Hadrianus+ Antoninus+ / Ἁδριανός+ Ἀντωνῖνος+</name></persName></person><person xml:id="HD044417_2" sex="M"><persName><name type="praenomen">M.+ / Μ.+</name><name type="nomen">Aurelius+ / Αὐρήλιος+</name><name type="cognomen">Verus+ / Οὐῆρος+</name></persName></person><person xml:id="HD044417_3" sex="M"><persName><name type="praenomen">T.+ / T.+</name><name type="nomen">Flavius+ Marcius+ / Φλάουιος+ Μάρκιος+</name><name type="cognomen">Longinus Turbo+ / Λογγῖνος+ Τούρβων+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-15" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> divi Hadriani <expan><abbr>f</abbr><ex>ilio</ex></expan> divi Traiani Parthici <expan><abbr>nep</abbr><ex>oti</ex></expan> divi Nervae <expan><abbr>pronep</abbr><ex>oti</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> Aelio Hadriano Antonino Augusto Pio</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> p</supplied><expan><abbr>ot</abbr><ex>estate</ex></expan> XVIII <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> IIII <expan><abbr>imp</abbr><ex>eratori</ex></expan> II <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et <expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio Vero Caesari <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>T</abbr><ex>ito</ex></expan> Flavio</supplied> Longino <supplied reason="lost"><expan><abbr>Q</abbr><ex>uinto</ex></expan> Marcio Turbone <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> Histrianorum civitas</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Αὐ</supplied>τοκράτορι Καίσ<supplied reason="lost">αρι θεοῦ Ἁδριανοῦ υἱῷ θεοῦ Τραιανοῦ Παρθικοῦ υἱωνῷ θεοῦ Νέρουα ἐγγόνῳ Τ(ίτῳ) Αἰλίῳ</supplied> <lb n="2"/><supplied reason="lost">Ἁδ</supplied>ριανῷ Ἀντω<supplied reason="lost">νείνῳ Σεβαστῷ ἀρχιερεῖ μεγίστῳ δημαρχικῆς ἐξουσίας τὸ ιηʹ ὕπατῷ δʹ πατρὶ πατρίδος καὶ Μάρκῳ Αὐρηλίῳ Οὐήρῳ Καίσαρι ὑπάτῳ τὸ βʹ</supplied> <lb n="3"/><supplied reason="lost">Τίτου Φλαουίου Λογγίνου Μαρκίου Τούρβωνος πρεσβευτοῦ Σεβαστοῦ καὶ ἀντιστρατήγου βουλὴ δῆμος Ἰστριανῶν</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Statt OIX in Zeile 1 wird in SEG 32 OTX vom Foto gelesen. F. Matei-Popescu ergänzt die ganze Inschrift.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IScM 1, 075. (B)</bibl><bibl>SEG 32, 0693. (B)</bibl><bibl>AE 2005, 1337. (B)</bibl><bibl>F. Matei-Popescu, StCercIstorV 54-56, 2003-2005, 303-305. 311-312, Nr. 1; fig. 1 u. 2 (Zeichnung). - AE 2005.</bibl><bibl>A. Avram, Dacia 51, 2007, 95.</bibl><bibl>PIR (2. Aufl.) F 305.</bibl><bibl>AE 2007, p. 458 a. n. 1228.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

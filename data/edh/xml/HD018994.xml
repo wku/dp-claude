@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018994</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018994</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, Muz. Unirii</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(92)</height><width>(56)</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1943"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">Tolstoi, {Strada Vasile Alecsandri} 3</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018994_1" sex="M"><persName ref="http://romans1by1.com/rpeople/11491"><name type="praenomen">[-]</name><name type="nomen">[---]ius?</name><name type="cognomen">I[---]anus?</name></persName></person><person xml:id="HD018994_2" sex="W"><persName ref="http://romans1by1.com/rpeople/11492"><name type="nomen">Ulpia*</name><name type="cognomen">Priscilla</name></persName></person><person xml:id="HD018994_3" sex="W"><persName ref="http://romans1by1.com/rpeople/11493"><name type="nomen">Veratia</name><name type="cognomen">Statuta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-08-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005375" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/dd4f78bd-cc2d-4683-bb53-d3057ab8d0aa/file/id/766151/file_version/name/small"/><graphic xml:id="F036477" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2af601e4-b2b0-4052-a3ea-c19956a0fd96/file/id/797335/file_version/name/small"/><graphic xml:id="F036478" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0d89b1d1-ee68-453f-8116-5afd4c6010f7/file/id/797336/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>us</expan> <expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>an<lb break="no" n="2"/>us <expan><abbr>dom</abbr><ex>o</ex></expan> F<supplied reason="lost">aventi</supplied>a <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XIII <expan><abbr>gem</abbr><ex>inae</ex></expan> <supplied reason="lost"><expan><abbr>vix</abbr><ex>it</ex></expan> an</supplied><expan><abbr>n</abbr><ex>os</ex></expan> LX <expan><abbr>Ul</abbr><ex>pia</ex></expan> <lb n="4"/>Priscilla c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex>iugi</expan> et</supplied> Veratia <lb n="5"/>Statuta <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <lb n="6"/><expan><abbr>pos</abbr><ex>uerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Drei Fragmente erhalten, davon die beiden unteren (b u. c) aneinanderpassend; Maße beziehen sich auf das obere Fragment (a); b: (100) x (57) x 56 cm; c: (98) x (54) x 35 cm. Oberhalb der Inschrift Medaillon mit den Büsten eines Mannes, einer Frau und eines Kindes; Inschriftfeld von Halbsäulen gerahmt; unterhalb der Inschrift Kantharos mit Trauben. Z. 1: von I(?)V und I(?) nur noch die untersten Buchstabenenden erhalten. (B): Zefleanu; Russu; AE 1960; IDR III 5; Ciongradi: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1960, 0244. (B)</bibl><bibl>E. Zefleanu, Apulum 3, 1949, 171-173, Nr. 2; fig. 1. (B) - AE 1960.</bibl><bibl>I.I. Russu, MatCercA 6, 1959, 891-892, Nr. 32; fig. 27 (Zeichnung). (B) - AE 1960.</bibl><bibl>IDR 3, 5, 609; Foto u. Zeichnung. (B)</bibl><bibl>C. Ciongradi, Grabmonument und sozialer Status in Oberdakien (Cluj-Napoca 2007) 165-166, Nr. S/A 21; Taf. 43. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

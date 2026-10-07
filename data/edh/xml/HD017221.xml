@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tomi &amp;ndash; Constanţa (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017221</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017221</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">block?</objectType><dimensions unit="cm"><height>(53)</height><width>(54)</width><depth>37</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217016">Tomi</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/680963">Constanţa</placeName><placeName type="findspot">Moschee, sekundär verwendet</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017221_1" sex="W"><persName><name type="nomen">Pompeia</name><name type="cognomen">S[---]na</name></persName></person><person xml:id="HD017221_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Aufidius</name><name type="cognomen">Sen[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-22" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">D(is) M(anibus)</supplied> <lb n="2"/>Pompeia S<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="3"/>na <expan><abbr>vix</abbr><ex>it</ex></expan> an<supplied reason="lost"><expan><abbr>n</abbr><ex>os</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Auf</abbr><ex>idius</ex></expan> Sen<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>leg</abbr><ex>ionis</ex></expan> V <supplied reason="lost"><expan><abbr>Mac</abbr><ex>edonicae</ex></expan></supplied> <lb n="6"/><expan><abbr>coni</abbr><ex>ugi</ex></expan> cari<supplied reason="lost"><expan><abbr>ssim</abbr><ex>ae</ex></expan></supplied> <lb n="7"/>et sibi p<supplied reason="lost">osuit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Hederae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1963, 0181.</bibl><bibl>N. Gostar, StudClas 5, 1963, 305; fig. 10. - AE 1963.</bibl><bibl>IScM 2, 458; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

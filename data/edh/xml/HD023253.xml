@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023253</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023253</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Svištov, Ist. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>70</height><width>65</width><depth>67</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0183" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 183 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1934"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot"/><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023253_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Tullius</name><name type="cognomen">Apollinaris</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-13" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Lunae <expan><abbr>sac</abbr><ex>rum</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Tullius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="3"/><expan><abbr>Col</abbr><ex>lina</ex></expan> Apollina<lb break="no" n="4"/>ris <expan><abbr>Scythop</abbr><ex>oli</ex></expan> <expan><abbr>p</abbr><ex>rimus</ex></expan> <expan><abbr>p</abbr><ex>ilus</ex></expan> <lb n="5"/><expan><abbr>Aquil</abbr><ex>ae</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>Ital</abbr><ex>icae</ex></expan> <expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 4/5: Detschew, AE 1937, ILBulg: p(rovinciae) P(alaestinae) / aquil(ifer); AE 1991: p(rimus) p(ilus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1937, 0097. (B)</bibl><bibl>ILBulg 293. (B)</bibl><bibl>IGLN 031.</bibl><bibl>D. Dečev, JŒAI (Beibl.) 30, 1937, 65-67, Nr. 1; Abb. 40. (B) - AE 1937.</bibl><bibl>AE 1991, 1371. (B)</bibl><bibl>AE 1995, 1335.</bibl><bibl>J. Kolendo, Archeologia 44, 1993, 128.</bibl><bibl>J. Kolendo, in: A. Fol - B. Bogdanov - P. Dimitrov - Đ. Bojadžiev (Hrsg.), Studia in honorem Georgii Mihailov (Sofia 1995) 279-282; fig. 1 (Zeichnung). - AE 1995.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

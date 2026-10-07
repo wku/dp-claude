@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Serdica &amp;ndash; Sofija (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044487</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044487</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>202</height><width>45</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207439">Serdica</placeName></origPlace><origDate><origDate notBefore-custom="0227" notAfter-custom="0229" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">227 AD - 229 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727011">Sofija</placeName><placeName type="findspot">{Bulevard Lomsko šose}, bei, türkischer Friedhof</placeName><placeName type="region">Sofija, grad</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044487_1" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Αὐρήλιος+*</name><name type="cognomen">Σεουῆρος+</name></persName></person><person xml:id="HD044487_2" sex="M"><persName><name type="nomen">Ῥουτίλιος</name><name type="cognomen">Πούδης+ Κρισπῖνος+</name></persName></person><person xml:id="HD044487_3" sex="M"><persName><name type="cognomen">Constantinus+</name></persName></person><person xml:id="HD044487_4" sex="M"><persName><name type="nomen">Valerius* Licinius+</name><name type="cognomen">Licinianus*</name></persName></person><person xml:id="HD044487_5" sex="M"><persName ref="https://www.wikidata.org/wiki/Q311646"><name type="nomen">Flavius* Iulius*</name><name type="cognomen">Crispus+</name></persName></person><person xml:id="HD044487_6" sex="M"><persName><name type="nomen">Licinius+</name><name type="cognomen">Licinianus*</name></persName></person><person xml:id="HD044487_7" sex="M"><persName><name type="nomen">Flavius* Claudius*</name><name type="cognomen">Constantinus+</name></persName></person><person xml:id="HD044487_8" sex="M"><persName><name type="nomen">Flavius* Iulius+*</name><name type="cognomen">Constantius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-05-19" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">ἀγαθῆι τύχηι</supplied> <lb n="2"/><supplied reason="lost">ὑπὲρ τῆς τοῦ Αὐτοκράτορος</supplied> Καίσαρος <lb n="3"/><supplied reason="lost">Μ(άρκου) Αὐρ(ηλίου) Σευήρου Ἀ</supplied>λεξάν<supplied reason="lost">δρου</supplied> <lb n="4"/>Σεβ(αστοῦ) τύχης τε καὶ νείκης καὶ αἰ<lb break="no" n="5"/><supplied reason="lost">ω</supplied>νίου διαμονῆς ἡγεμονεύον<lb break="no" n="6"/>τος τῆς λαμπροτάτης Θρᾳκῶν <lb n="7"/><supplied reason="lost">ἐπ</supplied>α<supplied reason="lost">ρχίας</supplied> Ῥουτιλίου Πούδεν<lb break="no" n="8"/><supplied reason="lost">τος Κρισπί</supplied>νου πρεσβ(ευτοῦ) Σεβ(αστοῦ) ἀντι<lb break="no" n="9"/>στρατήγου ἡ Σερδων πόλις ἀ<lb break="no" n="10"/><supplied reason="lost">νέστ</supplied>η<supplied reason="lost">σεν</supplied> τὸ μίλιον </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>d</abbr><ex>ominis</ex></expan></supplied> <expan><abbr>n</abbr><ex>ostris</ex></expan> Constan<lb break="no" n="2"/><supplied reason="lost">tino</supplied><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Val</abbr><ex>erio</ex></expan> <expan><abbr>Licini</abbr><ex>ano</ex></expan> <supplied reason="lost">Li</supplied>cin<supplied reason="lost">io</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>perp</abbr><ex>etuis</ex></expan> <expan><abbr>Aug</abbr><ex>ustis</ex></expan></supplied> <expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> Cri<supplied reason="lost">spo</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>Lic</abbr><ex>iniano</ex></expan> Lici</supplied>n<supplied reason="lost">io <expan><abbr>Fl</abbr><ex>avio</ex></expan></supplied> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Const<supplied reason="lost">antino</supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> C</supplied>ons<supplied reason="lost">tantio</supplied> <expan><abbr>nobb</abbr><ex>ilissimis</ex></expan> <expan><abbr>Caess</abbr><ex>aribus</ex></expan> <lb n="6"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> XI
+            </ab></div></div>
+            <div type="commentary">
+                <p>Auf dem Meilenstein wurden zwei separate Inschriften angebracht. Die oberere griechische Inschrift ist am ehesten zu datieren auf die Jahre 227-229, vgl. K. Dietz, Senatus contra principem (München 1980), 216. Die lateinische Inschrift ist auf das Jahr 323 datierbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IGR 1, 0688.</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 53, Nr. 52 u. 368, Nr. 52.</bibl><bibl>V. Beševliev, Spätgriechische und spätlateinische Inschriften aus Bulgarien (Berlin 1964) 1, Nr. 1; Taf. 1, 1 (Zeichnung).</bibl><bibl>IGBulg 1982; tab. 31, 1982 (1); tab. 32, 1982 (2) u. 1982 (3).</bibl><bibl>PIR (2. Aufl.) R 257.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

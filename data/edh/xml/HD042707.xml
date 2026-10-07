@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042707</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042707</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot">Stamatija češme, Quelle</placeName><placeName type="region">Veliko Târnovo?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042707_1"><persName><name type="praenomen">C.</name><name type="nomen">Cornelius</name><name type="cognomen">Te[---]</name></persName></person><person xml:id="HD042707_2"><persName><name type="praenomen">Q.</name><name type="nomen">Cassius</name><name type="cognomen">V[---]</name></persName></person><person xml:id="HD042707_3"><persName><name type="praenomen">C.</name><name type="nomen">Iemonius</name><name type="cognomen">La[---]</name></persName></person><person xml:id="HD042707_4"><persName><name type="praenomen">C.</name><name type="nomen">Vibius</name><name type="cognomen">Eutyches+</name></persName></person><person xml:id="HD042707_5"><persName><name type="praenomen">L.</name><name type="nomen">Hebeius</name><name type="cognomen">Rufus+</name></persName></person><person xml:id="HD042707_6"><persName><name type="praenomen">Q.</name><name type="nomen">Cassius</name><name type="cognomen">Modestus+</name></persName></person><person xml:id="HD042707_7"><persName><name type="praenomen">Q.</name><name type="nomen">Cassius</name><name type="cognomen">Severus+</name></persName></person><person xml:id="HD042707_8"><persName><name type="praenomen">C.</name><name type="nomen">Vibius</name><name type="cognomen">Natalis+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-11-17" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>ASSN<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Cornelius Te<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Cassius V<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iemonius La<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>C</abbr><ex>aius</ex></expan> Vibius Eut<supplied reason="lost">y</supplied>c<supplied reason="lost">hes</supplied> <lb n="6"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Hebeius Rufu<supplied reason="lost">s</supplied> <lb n="7"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Cassius Mode<supplied reason="lost">stus</supplied> <lb n="8"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Cassius Sever<supplied reason="lost">us</supplied> <lb n="9"/><expan><abbr>C</abbr><ex>aius</ex></expan> Vibius Nata<supplied reason="lost">lis</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Namensliste (eines Kollegiums?).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 00758.</bibl><bibl>ILBulg 269; tab. 54, 269 (Zeichnung).</bibl><bibl>IGLN 114.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

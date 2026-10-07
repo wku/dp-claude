@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Samum &amp;ndash; Căşeiu (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019654</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019654</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207419">Samum</placeName></origPlace><origDate><origDate when-custom="0120" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">120 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1929"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682614">Căşeiu</placeName><placeName type="findspot">{Lager, nördliches Tor}, linker Turm</placeName><placeName type="region">Cluj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-18" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Traiani Parthi<lb break="no" n="2"/>ci <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> divi Nervae nepos Traianus <lb n="3"/>Hadrianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> pontifex maximus tri<lb break="no" n="4"/>bunicia <expan><abbr>potestat</abbr><ex>e</ex></expan> <lb n="5"/>IIII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <lb n="6"/>Palmyrenis sagittariis ex <expan><abbr>Syri</abbr><ex>a</ex></expan> qui <lb n="7"/>sunt in Dacia superiore sub <lb n="8"/>Iulio Severo civitatem dedit <lb n="9"/>iis quorum nomina subscripta sunt <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> III <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Iul</abbr><ex>ias</ex></expan> <lb n="10"/><expan><abbr>C</abbr><ex>aio</ex></expan> Publicio Marcello <lb n="11"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Rutilio Propinquo <lb n="12"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="13"/>Bari<supplied reason="lost">c</supplied>i Male <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Palmyr</abbr><ex>a</ex></expan> <lb n="14"/>descriptum et recognitum ex tabula <lb n="15"/>aenea quae fixa est Romae in muro <lb n="16"/>post templum divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <expan><abbr>L</abbr><ex>uci</ex></expan> Attei Atteiani <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Iuni</supplied> Eut<supplied reason="lost">yc</supplied>hi <lb n="2"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Atini Flor<supplied reason="lost">i</supplied> <lb n="3"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> Fabi <supplied reason="lost">T</supplied>iti <lb n="4"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli Anthi <lb n="5"/><expan><abbr>Ti</abbr><ex>ti</ex></expan> Claudi Erotis <lb n="6"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> Atini C<supplied reason="lost">rescentis</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1958, 0030.</bibl><bibl>AE 1959, 0031.</bibl><bibl>PIR (2. Aufl.) R 256.</bibl><bibl>PIR (2. Aufl.) P 1042.</bibl><bibl>C. Daicoviciu, Dacia 1957, 191-203, Nr. 30. - AE 1958.</bibl><bibl>G. Forni, Athenaeum 36, 1956, 3-29; tav. 1-4. - AE 1959.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Surduc (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043753</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043753</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zalău, Muz. Ist. Artă</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>54</height><width>70</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0118" notAfter-custom="0119" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">118 AD - 119 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/665108">Surduc</placeName><placeName type="findspot">Tihău, {"Grădişte"}, Lager</placeName><placeName type="region">Sălaj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-04-22" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F013033" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e95f8c82-fd5a-4232-868c-477ce1020d92/file/id/772561/file_version/name/small"/><graphic xml:id="F005615" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b000270f-919f-444b-9c58-b7c24a5f4fd6/file/id/766392/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Vexillat</abbr><ex>io</ex></expan> <lb n="2"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XIII <lb n="3"/><expan><abbr>gem</abbr><ex>inae</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Im Lager gefunden. Inschriftfeld in Form einer tabula ansata.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1994, 1484.</bibl><bibl>ILD 760.</bibl><bibl>N. Gudea - V. Lucăcel, Inscripţii şi monumente sculpturale în Muzeul de Istorie şi Artă Zalău (Zalău 1975) 27-28, Nr. 54; Foto.</bibl><bibl>D. Protase, EphNapocensis 4, 1994, 94; fig. 10 (Foto u. Zeichnung). - AE 1994.</bibl><bibl>V. Wollmann - G. Bot, in: H. Daicoviciu (Hrsg.), In memoriam Constantini Daicoviciu (Cluj 1974) 431, Nr. 1; fig. 2a; fig. 2b (Zeichnung). - AE 1994.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

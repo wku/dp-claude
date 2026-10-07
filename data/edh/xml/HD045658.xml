@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Germisara &amp;ndash; Geoagiu (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD045658</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD045658</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Deva, Muz. Civil. Dac. şi Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>100</height><width>52</width><depth>46</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207129">Germisara</placeName></origPlace><origDate><origDate notBefore-custom="0209" notAfter-custom="0211" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">209 AD - 211 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/677520">Geoagiu</placeName><placeName type="findspot">Pedeapsa, Berg</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD045658_1" sex="M"><persName ref="http://romans1by1.com/rpeople/5557"><name type="praenomen">L.</name><name type="nomen">Octavius</name><name type="cognomen">Iulianus+</name></persName></person><person xml:id="HD045658_2" sex="M"><persName ref="http://romans1by1.com/rpeople/5558"><name type="nomen">Aelius+*?</name><name type="cognomen">Geminus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-09-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005523" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/76ac8236-d225-4c70-88ee-2d349f8a93cd/file/id/766300/file_version/name/small"/><graphic xml:id="F036272" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0e1208a4-6cf3-4a1b-8abd-e9d129320d4b/file/id/797129/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Fortuna<supplied reason="lost">e</supplied> <lb n="2"/>pro salute <lb n="3"/><expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <expan><abbr>nn<supplied reason="lost">n</supplied></abbr><ex>ostrorum</ex></expan> <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Octavius I<supplied reason="lost">u</supplied><lb break="no" n="5"/>lianus co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> II<supplied reason="lost">I</supplied> <lb n="6"/><expan><abbr>Dac</abbr><ex>iarum</ex></expan> fieri iussit <lb n="7"/>inst<supplied reason="lost" cert="low">ante Ae</supplied><expan><abbr>l</abbr><ex>io</ex></expan> Ge<supplied reason="lost" cert="low">r</supplied><lb break="no" n="8"/>man<supplied reason="lost">o<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>praef</abbr><ex>ecto</ex></expan> a</supplied>lae <lb n="9"/>Astu<supplied reason="lost">rum</supplied><gap reason="lost" extent="unknown" unit="character"/>B
+            </ab></div>
+            <div type="commentary">
+                <p>(B):CIL III; IDR III; Piso: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 3, 233; fig. 177 (Foto u. Zeichnung). (B)</bibl><bibl>CIL 03, 01393. (B)</bibl><bibl>PIR (2. Aufl.) O 40.</bibl><bibl>I. Piso, Fasti provinciae Daciae 1. Die senatorischen Amtsträger (Bonn 1993) 159-161, Nr. 33, 3. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Chersonesus Taurica &amp;ndash; Kherson (Regnum Bospori)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030714</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030714</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Regnum Bospori</placeName><placeName type="ancient" ref="#">Chersonesus Taurica</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/690791">Ukraine</placeName><placeName type="modern">Kherson</placeName><placeName type="findspot"/><placeName type="region">Kherson</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-08-31" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Pro <supplied reason="lost"><expan><abbr>sal</abbr><ex>ute</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan></supplied> <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> <expan><abbr>Ant</abbr><ex>onini</ex></expan> Com<lb break="no" n="3"/>modi <expan><abbr>Aug</abbr><ex>usti</ex></expan> et <lb n="4"/><expan><abbr>Fl</abbr><ex>avi</ex></expan> Sergiani Sosibi <lb n="5"/><expan><abbr>trib</abbr><ex>uni</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><ex>l</ex><abbr>eg</abbr><ex>ionis</ex></expan> I <expan><abbr>Ital</abbr><ex>icae</ex></expan> <expan><abbr>iuven</abbr><ex>is</ex></expan> <lb n="6"/>reverentissimi <expan><abbr>s</abbr><ex>ub</ex></expan> <expan><abbr>c</abbr><ex>uius</ex></expan> <expan><abbr>c</abbr><ex>ura</ex></expan> <expan><abbr>e</abbr><ex>gi</ex></expan> <lb n="7"/>et mea <expan><abbr>meorumq</abbr><ex>ue</ex></expan> <expan><abbr>T</abbr><ex>itus</ex></expan> <lb n="8"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Cam</abbr><ex>ilia</ex></expan> Secun<lb break="no" n="9"/>dus <expan><abbr>Rave</abbr><ex>nna</ex></expan> <expan><abbr>tr</abbr><ex>ierarchus</ex></expan> <expan><abbr>c</abbr><ex>lassis</ex></expan> <expan><abbr>F</abbr><ex>laviae</ex></expan> <expan><abbr>M</abbr><ex>oesicae</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <lb n="10"/>sequentes Materno et Bradua co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1903, 0001.</bibl><bibl>AE 1900, 0199.</bibl><bibl>CIL 03, 14214, 34.</bibl><bibl>PIR (2. Aufl.) C 785.</bibl><bibl>PIR (2. Aufl.) M 360.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

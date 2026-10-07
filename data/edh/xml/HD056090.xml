@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma (Thracia?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056090</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056090</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>19</height><width>11</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.9-1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia?</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0228" notAfter-custom="0234" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">228 AD - 234 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria?</placeName><placeName type="modern"/><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056090_1" sex="M"><persName><name type="nomen">Aufidius Coresnius</name><name type="cognomen">Marcellus</name></persName></person><person xml:id="HD056090_2" sex="M"><persName><name type="nomen">Septimius</name><name type="cognomen">Bubas</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-12-09" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Aufidius Cores<lb break="no" n="2"/>nius Marcellus <lb n="3"/><expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="4"/>dedi honest<lb break="no" n="5"/>am missione<lb break="no" n="6"/>m Septimio <lb n="7"/>Bubati <expan><abbr>mili</abbr><ex>ti</ex></expan> <lb n="8"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>M</abbr><ex>inerviae</ex></expan> Seve<lb break="no" n="9"/>rian<expan><ex>a</ex><abbr>e</abbr></expan> Alexs<lb break="no" n="10"/>andrianae <note>sic</note> <lb n="11"/>candidato
+            </ab></div>
+            <div type="commentary">
+                <p>Rückseite ohne Inschrift. Tafel ehemals eines Diptychons, aber kein Militärdiplom im herkömmlichen Sinn, sondern nach W. Eck eine privat angefertigte tabula honestae missonis. Schreibtechnik: eingraviert. Inschriftfeld durch eine einfache Linie eingefaßt; Z. 2 (Ende): Buchstabe S rechts außerhalb des Inschriftfeldes. (B): Z. 7: mil(iti).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2002, 1772. (B)</bibl><bibl>RMD p. 611-612 n. I. 3.</bibl><bibl>W. Eck, RheinMusBonn 1999, 1, 12-17; Fotos. - AE 2002.</bibl><bibl>PIR (2. Aufl.) A 1383.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

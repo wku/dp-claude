@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016027</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016027</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Svištov, Ist. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(26)</height><width>(43)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate notBefore-custom="0117" notAfter-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">117 AD - 138 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1962"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot">{Lager, Nordwestecke}, sekundär verwendet</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016027_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus+ Hadrianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-04-18" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005228" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/caa429d6-e8d1-4778-a386-1103c79a09b9/file/id/766005/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> divi Traiani</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Parth</abbr><ex>ici</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> divi N<supplied reason="lost">ervae <expan><abbr>nep</abbr><ex>oti</ex></expan></supplied> <lb n="3"/><supplied reason="lost">Traia</supplied>no Ha<supplied reason="lost">driano <expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>pontif</abbr><ex>ici</ex></expan> ma</supplied><expan><abbr>x</abbr><ex>imo</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> p<supplied reason="lost"><expan><abbr>ot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Textwiedergabe / Ergänzungen nach IGLNovae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1964, 0187.</bibl><bibl>ILBulg 265.</bibl><bibl>ILNovae 034; Abb. 34 a; Abb. 34 b (Zeichnung).</bibl><bibl>IGLN 053; pl. 21, 53.</bibl><bibl>K. Majewski, Latomus 22, 1963, 504; pl. 53, 2. (B) - AE 1964.</bibl><bibl>AE 1966, 0348.</bibl><bibl>J. Kolendo - J. Trynkowski, Archeologia 16, 1965, 122, Nr. 4; fig. 4; fig. 5 (Zeichnung). - AE 1966.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

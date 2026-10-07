@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038957</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038957</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, Muz. Unirii</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>180</height><width>95</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0168" notAfter-custom="0212" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">168 AD - 212 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1820"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">{Vorstadt}, sekundär verwendet</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038957_1" sex="M"><persName ref="http://romans1by1.com/rpeople/11391"><name type="cognomen">Mucasenus</name></persName></person><person xml:id="HD038957_2" sex="M"><persName><name type="cognomen">Censorinus</name></persName></person><person xml:id="HD038957_3" sex="W"><persName ref="http://romans1by1.com/rpeople/11392"><name type="cognomen">Recuturme</name></persName></person><person xml:id="HD038957_4" sex="M"><persName><name type="cognomen">Soia*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-03-19" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005043" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b987a0eb-b08a-4095-b69e-79ae3b30b289/file/id/765820/file_version/name/small"/><graphic xml:id="F036464" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e4ce7f0d-5328-4c14-8b18-e5f90fc2ded2/file/id/797322/file_version/name/small"/><graphic xml:id="F036462" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cad4f066-e6c5-4be1-b829-8ca8f21b2961/file/id/797320/file_version/name/small"/><graphic xml:id="F036463" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a7c99767-534b-462e-aa4a-0743710788e7/file/id/797321/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Mucasenu<lb break="no" n="3"/>s Ce<expan><ex>n</ex><abbr>sorini</abbr></expan> <lb n="4"/>aeques <note>sic</note> ex sin<lb break="no" n="5"/><expan><abbr>gul</abbr><ex>ari</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> vi<lb break="no" n="6"/>xit annis XX <lb n="7"/>Rescuturme <lb n="8"/>Soi<expan><ex>a</ex><abbr>e</abbr></expan> co<expan><ex>n</ex><abbr>iux</abbr></expan> <lb n="9"/>pientissima <lb n="10"/>posuit </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan></supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Stele in zwei Teile gebrochen. Oberhalb des Inschriftfeldes Giebel: im Giebelfeld mittig eine Spiralrosette, darüber ein Gorgoneion und in den beiden Zwickeln Löwen. In den Zwickeln über dem Giebel je ein Hippokamp. Z. 11: auf dem unteren Rahmen; bei der Auffindung noch vorhanden. Datierung: term. post. quem: 168 n. Chr., da der Statthalter als consularis bezeichnet wird; term. ante quem: aufgrund der Namen vor der Constitutio Antoniniana 212 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 558; Foto u. Zeichnung.</bibl><bibl>CIL 03, 01195.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

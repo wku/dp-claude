@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Arcobadara &amp;ndash; Uriu (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD048390</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD048390</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Privatbesitz?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(87)</height><width>77</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207186">Arcobadara</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1863"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675647">Uriu</placeName><placeName type="findspot">Ilişua, Lager, Südwestecke, bei, {Punkt O}</placeName><placeName type="region">Bistrița-Năsăud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD048390_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD048390_2" sex="W"><persName ref="http://romans1by1.com/rpeople/3492"><name type="cognomen">Mucapuis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-28" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>eq</abbr><ex>ues</ex></expan> alae <supplied reason="lost">Fro</supplied><lb break="no" n="2"/><expan><abbr>nt</abbr><ex>onianae</ex></expan> <expan><ex>h</ex><abbr>ic</abbr></expan> situs est vix<lb break="no" n="3"/>it annis XXXX Muc<lb break="no" n="4"/>apuis coniugi bene <lb n="5"/>merenti posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1/2: möglicherweise auch [Front(onianae)] / hic. (B): Gaiu - Zăgreanu: Z. 1/2: alae / [Fro]nt(oniane); Z. 3: XXX.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 00809; Zeichnung.</bibl><bibl>C. Gaiu - R. Zăgreanu, Inscripţii şi piese sculpturale din castrul roman de la Ilişua (Cluj-Napoca 2011) 87, Nr. 1.3.b.15; pl. 9, 1.3.b.15 (Zeichnung). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

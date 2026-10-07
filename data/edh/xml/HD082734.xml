@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082734</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082734</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Novae, Principia</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>53</height><width>27</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2013"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot">Lager, {principia}</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082734_1" sex="M"><persName><name type="praenomen">Q.?</name><name type="nomen">Volumnius+</name><name type="cognomen">Firmus+</name></persName></person><person xml:id="HD082734_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Iulius</name><name type="cognomen">M[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-09" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><expan><abbr>Q</abbr><ex>uintus</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>Volumniu</abbr><ex>s</ex></expan> <lb n="3"/><supplied reason="lost">Fi</supplied>rmus ve<supplied reason="lost"><expan><abbr>x</abbr><ex>illarius</ex></expan></supplied> <lb n="4"/><expan><abbr><supplied reason="lost">le</supplied>g</abbr><ex>ionis</ex></expan> I Ita<supplied reason="lost"><expan><abbr>l</abbr><ex>icae</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> Iuli M<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><supplied reason="lost"><expan><abbr>tr</abbr><ex>ibuni</ex></expan></supplied> la&amp;lt;t=I&amp;gt;icl<supplied reason="lost">avii</supplied> 
+            </ab></div>
+            <div type="commentary">
+                <p>Auf der Oberseite kreisförmige Vertiefung mit einem Dübelloch in der Mitte. Z. 2 (Anfang): statt Q. auch D möglich. (B): AE 2015: Z. 4: Ital(icae).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2015, 1217. (B)</bibl><bibl>T. Sarnowski, in: L. Zerbini (Hrsg.), Culti e religiosità nelle province danubiane, Atti del II Convegno Internazionale, Ferrara 2013 (Bologna 2015) 511-513, Nr. 3; Abb. 3a u. b; Abb. 3c (Zeichnung). - AE 2015.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

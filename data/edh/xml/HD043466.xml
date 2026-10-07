@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sucidava? &amp;ndash; Corabia? (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043466</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043466</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(100)</height><width>75</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216997">Sucidava?</placeName></origPlace><origDate><origDate notBefore-custom="0107" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">107 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682433">Corabia?</placeName><placeName type="findspot">{Celei}?</placeName><placeName type="region">Olt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043466_1" sex="M"><persName ref="http://romans1by1.com/rpeople/8821"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Ferox</name></persName></person><person xml:id="HD043466_2" sex="M"><persName ref="http://romans1by1.com/rpeople/8822"><name type="praenomen">M.</name><name type="nomen">Pompeius+</name><name type="cognomen">Proculus</name></persName></person><person xml:id="HD043466_3" sex="M"><persName ref="http://romans1by1.com/rpeople/8823"><name type="cognomen">Tiro</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-17" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>|(centurio) Ferox mil<lb break="no" n="2"/>itavit <expan><abbr>an</abbr><ex>nos</ex></expan> XXV <lb n="3"/><expan><abbr>eq</abbr><ex>ues</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XVIII <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="4"/><expan><abbr>an</abbr><ex>nos</ex></expan> VIIL <expan><abbr>M</abbr><ex>arcus</ex></expan> Pomp<lb break="no" n="5"/><supplied reason="lost">ei</supplied>us Proculus <lb n="6"/>frater <expan><abbr>benef</abbr><ex>iciarius</ex></expan> <lb n="7"/>Tironis <expan><abbr>leg</abbr><ex>ati</ex></expan> <lb n="8"/><expan><abbr>h</abbr><ex>eres</ex></expan> bene mere<lb break="no" n="9"/>nti posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Ursprüngliche Herkunft der Inschrift möglicherweise aus Gebieten südlich der Donau (Moesia Inferior: Oescus?, Novae?).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 08048.</bibl><bibl>C.C. Petolescu, in: A. Avram - M. Babeş (Hrsg.), Civilisation grecque et cultures antiques périphériques. Hommage à Petre Alexandrescu à son 70e anniversaire (Bucarest 2000) 339-341. - AE 2000.</bibl><bibl>AE 2000, 1266.</bibl><bibl>AE 1987, 0847.</bibl><bibl>PIR (2. Aufl.) C 223.</bibl><bibl>C.C. Petolescu, ZPE 58, 1985, 207-210; Zeichnung. - AE 1987.</bibl><bibl>IDR 2, 644; Foto.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 433-434, Nr. 568; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

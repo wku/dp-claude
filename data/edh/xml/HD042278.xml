@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Vicus Quintionis &amp;ndash; Mihai Viteazu (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042278</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042278</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>112</height><width>25</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217049">Vicus Quintionis</placeName></origPlace><origDate><origDate notBefore-custom="0249" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">249 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/666970">Mihai Viteazu</placeName><placeName type="findspot">{Sinoe}</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042278_1" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Messius Decius+</name><name type="cognomen">Quintus+ Traianus+</name></persName></person><person xml:id="HD042278_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">[---]</name><name type="cognomen">Postuminus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-05" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan></supplied> <lb n="2"/>Messio <supplied reason="lost">Quin</supplied><lb break="no" n="3"/>to Tra<supplied reason="lost">iano</supplied> <lb n="4"/>Deci<supplied reason="lost">o</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>C<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> re<supplied reason="lost">stituit</supplied> <lb n="7"/><supplied reason="lost">p</supplied>er P<gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>C<gap reason="lost" extent="unknown" unit="character"/> Post<supplied reason="lost" cert="low">umino</supplied> <lb n="9"/>O<gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="11"/><expan><abbr><supplied reason="lost">p</supplied>r</abbr><ex>o</ex></expan> <supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL III: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IScM 1, 322.</bibl><bibl>CIL 03, 12515. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

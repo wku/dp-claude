@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Istrus &amp;ndash; Istria (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044415</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044415</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">architectural member?</objectType><dimensions unit="cm"><height>58</height><width>(136)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216839">Istrus</placeName></origPlace><origDate><origDate notBefore-custom="0157" notAfter-custom="0159" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">157 AD - 159 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675471">Istria</placeName><placeName type="findspot">spätantike Festung, {Kurtine f}, sekundär verwendet (Fragment a); {Kurtine b}, bei (Fragment b)</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044415_1"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T. / T.</name><name type="nomen">Αἴλιος+ / Aelius</name><name type="cognomen">῾Αδριανὸς+ ᾿Αντωνῖνος+ / Hadrianus+ Antoninus+</name></persName></person><person xml:id="HD044415_2"><persName><name type="praenomen">T. / T.</name><name type="nomen">Πομπώνιος+ Οὐιτράσιος+ / Pomponius+ Vitrasius+</name><name type="cognomen">Πρόκλος+ Πωλλίων / Proculus+ Pollio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-06-27" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020536" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/61c988a4-f820-4fff-9ff1-127af143a413/file/id/780609/file_version/name/small"/><graphic xml:id="F020537" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e5fa1e96-c668-4a1c-b79d-55acdbf51b7a/file/id/780610/file_version/name/small"/><graphic xml:id="F020538" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4fbdc027-52ec-4fed-85f9-7ba2a6ce440c/file/id/780611/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Αὐτοκράτορ<supplied reason="lost">ι Καίσαρι</supplied> Τίτῳ <supplied reason="lost">Αἰλίῳ Ἁδριανῷ Ἀντω</supplied><lb break="no" n="2"/>νείνῳ Σεβ(αστῷ) Ε<supplied reason="lost">ὐσεβ(εῖ) ἀρχιερεῖ</supplied> μεγίστ<supplied reason="lost">ῳ πατρὶ πατρίδος</supplied> <lb n="3"/>Ἰστρια<supplied reason="lost">νῶν ὁ δῆμος</supplied> <lb n="4"/>Τίτου Πομπωνίο<supplied reason="lost">υ Πρόκλου Ο</supplied>ὐιτρασίο<supplied reason="lost">υ Πωλλίωνος πρεσβ(ευτοῦ)</supplied> <lb n="5"/>Σεβ(αστοῦ) καὶ ἀντιστρ<supplied reason="lost">ατήγου προνοη</supplied>σαμ<supplied reason="lost">ένου γενέσθαι</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> Tito</supplied> Aelio <supplied reason="lost">Hadriano Ant</supplied>onino <expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio <lb n="2"/><supplied reason="lost">pontifici</supplied> maxim<supplied reason="lost">o patri pat</supplied>riae <lb n="3"/><supplied reason="lost">Hist</supplied>ria<supplied reason="lost">norum ci</supplied>vitas <lb n="4"/><supplied reason="lost"><expan><abbr>T</abbr><ex>itus</ex></expan> Pomponiu</supplied>s Pro<supplied reason="lost">culus Vitrasiu</supplied>s Pollio <expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="5"/><supplied reason="lost">faci</supplied>endu<supplied reason="lost">m cura</supplied>vit
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1927, p. 15 s. n. 56.</bibl><bibl>V. Pârvan, Dacia 2, 1925, 211-213, Nr. 15 u. 16; fig. 23 u. 24; fig. 25 u. 26 (Zeichnungen). - AE 1927.</bibl><bibl>IScM 1, 149; Foto u. Zeichnung.</bibl><bibl>PIR P 558.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

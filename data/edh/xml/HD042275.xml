@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Vicus Quintionis &amp;ndash; Mihai Viteazu (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042275</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042275</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>(140)</height><width>36</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-5.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217049">Vicus Quintionis</placeName></origPlace><origDate><origDate when-custom="0159" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">159 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/666970">Mihai Viteazu</placeName><placeName type="findspot">{Sinoe}</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042275_1"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.</name><name type="nomen">Aelius+*</name><name type="cognomen">Hadrianus+* Antoninus+*</name></persName></person><person xml:id="HD042275_2"><persName><name type="praenomen">T.</name><name type="nomen">Statilius+ Iulius+</name><name type="cognomen">Severus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-06-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <lb n="2"/>divi <expan><abbr>Hadr</abbr><ex>iani</ex></expan> <lb n="3"/><expan><abbr>fil</abbr><ex>ius</ex></expan> <supplied reason="lost">d</supplied>ivi Tr<supplied reason="lost">aia</supplied><lb break="no" n="4"/>ni <expan><abbr>n<supplied reason="lost">e</supplied>p</abbr><ex>os</ex></expan> <expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr><supplied reason="lost">A</supplied>el</abbr><ex>ius</ex></expan> <lb n="5"/>Ha<supplied reason="lost"><expan><abbr>dr</abbr><ex>ianus</ex></expan> An</supplied><expan><abbr>t</abbr><ex>oninus</ex></expan> <lb n="6"/>Au<supplied reason="lost"><expan><abbr>g</abbr><ex>ustus</ex></expan> Pius</supplied> <lb n="7"/><expan><abbr>p</abbr><ex>ontifex</ex></expan> <expan><abbr>m</abbr><ex>aximus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr><supplied reason="lost">p</supplied>ot</abbr><ex>estate</ex></expan> <lb n="8"/>XXII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <lb n="9"/><expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> <supplied reason="lost">Stati</supplied><lb break="no" n="10"/>lio <supplied reason="lost">Iulio Se</supplied><lb break="no" n="11"/>ver<supplied reason="lost">o</supplied> <expan><abbr>leg</abbr><ex>ato</ex></expan> <lb n="12"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <supplied reason="lost"><expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied> <lb n="13"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> XVIIII
+            </ab></div>
+            <div type="commentary">
+                <p>In 2 Teile gebrochen. (B): Tocilescu; AE 1891; CIL III: Abweichungen in Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1891, 0052. (B)</bibl><bibl>CIL 03, 12513. (B)</bibl><bibl>IScM 1, 317; Foto.</bibl><bibl>PIR S 598.</bibl><bibl>G.G. Točilescu, AEM 14, 1891, 20, Nr. 47. (B) - AE 1891.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

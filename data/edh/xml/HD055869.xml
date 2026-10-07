@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma (unknown)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055869</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055869</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Röm.-Germ. Zentralmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>14</height><width>11</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">unknown</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0215" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">215 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria?</placeName><placeName type="modern"/><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055869_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Quintillianus</name></persName></person><person xml:id="HD055869_2" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Marcianus</name></persName></person><person xml:id="HD055869_3" sex="M"><persName><name type="cognomen">Stephanus</name></persName></person><person xml:id="HD055869_4" sex="M"><persName/></person><person xml:id="HD055869_5" sex="M"><persName><name type="cognomen">Cerialis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-11-13" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Quintillianus <lb n="2"/><expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Ma<lb break="no" n="3"/>rciano equiti al<lb break="no" n="4"/>ae I <expan><abbr>Fl</abbr><ex>aviae</ex></expan> Gaetul<surplus>l</surplus>o<lb break="no" n="5"/>rum ex singula<lb break="no" n="6"/>ribus turma <lb n="7"/>Stephani eme<lb break="no" n="8"/>rito <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XXVII <lb n="9"/>honestam mis<lb break="no" n="10"/>sionem dedi <lb n="11"/>Idibus <expan><abbr>Decemb</abbr><ex>ribus</ex></expan> <lb n="12"/>Laeto II et Ceri<lb break="no" n="13"/>ale co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Quintillianus <lb n="2"/><expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Marcian<lb break="no" n="3"/>o <expan><abbr>eq</abbr><ex>uiti</ex></expan> alae I <expan><abbr>Fl</abbr><ex>aviae</ex></expan> G<expan><ex>a</ex><abbr>etul</abbr><ex>orum</ex></expan> <lb n="4"/>ex <expan><abbr>sing</abbr><ex>ularibus</ex></expan> <expan><abbr>t</abbr><ex>urma</ex></expan> Step<expan><ex>h</ex><abbr>ani</abbr></expan> <lb n="5"/>emerito <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XXVII <lb n="6"/>honestam missione<lb break="no" n="7"/>m dedi Idibus <expan><abbr>Dec</abbr><ex>embribus</ex></expan> <lb n="8"/>Laeto II et Ceriale <lb n="9"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Tabula honestae missionis; erhalten ist die tab. I. Tab. I int.: vorgezeichnete Hilfslinien.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1998, 1618.</bibl><bibl>RMD p. 609-610 n. I. 1 W. Eck - M. Roxan, AKB 28, 1998, 96-100, Nr. 1; Abb. 1 u. 2. - AE 1998.</bibl><bibl>PIR (2. Aufl.) I 511.</bibl><bibl>PIR (2. Aufl.) M 54.</bibl><bibl>PIR (2. Aufl.) M 735.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

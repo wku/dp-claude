@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD061904</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD061904</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(6)</height><width>(5)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0156" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">156 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern"/><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-08-03" who="Cowey">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan></supplied> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Had<supplied reason="lost">riani <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Traiani</supplied> Parthici <expan><abbr>nep</abbr><ex>os</ex></expan> d<supplied reason="lost">ivi Nervae pronepos <expan><abbr>T</abbr><ex>itus</ex></expan> Aeli</supplied>us Hadrianus <supplied reason="lost">Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pius pon</supplied><expan><abbr>t</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> X<supplied reason="lost">VIIII <expan><abbr>imp</abbr><ex>erator</ex></expan> II <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> equi</supplied>tibus qui milita<supplied reason="lost">verunt in alis IIII quae apell</supplied>antur I Gallo<supplied reason="lost">rum <expan><abbr>Atectorig</abbr><ex>iana</ex></expan> et <gap reason="lost" extent="unknown" unit="character"/> et I Vespasiana <expan><abbr>Dardanor</abbr><ex>um</ex></expan> et <gap reason="lost" extent="unknown" unit="character"/> quae sunt in Moesia inferiore sub Vitrasio Pollione <expan><abbr>leg</abbr><ex>ato</ex></expan> quinis et v</supplied>icenis pl<supplied reason="lost">uribusve stipendiis eme</supplied>ritis d<supplied reason="lost">i</supplied>missis hon<supplied reason="lost">esta missione per Fla</supplied>vium Flavianum <supplied reason="lost">procuratorem</supplied> cum essent in exp<supplied reason="lost">editione Mauretaniae Tin</supplied><expan><abbr>gitan</abbr><ex>ae</ex></expan> quorum no<supplied reason="lost">mina subscripta sunt</supplied> ci[vitatem Romanam qui eorum non haberent dedit et conubium ------ </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi</supplied> Hadrian<supplied reason="lost">i <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Traiani Parthici <expan><abbr>nep</abbr><ex>os</ex></expan> divi</supplied> Nervae pr<supplied reason="lost">onepos <expan><abbr>T</abbr><ex>itus</ex></expan> Aelius Hadrianus</supplied> Ant<supplied reason="lost">onin</supplied>us <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <supplied reason="lost">Pius <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan></supplied> XVIIII <expan><abbr><supplied reason="lost">im</supplied>p</abbr><ex>erator</ex></expan> II <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> equitibu<supplied reason="lost">s qui</supplied> militav<supplied reason="lost">erunt in alis IIII quae apellantur</supplied> I Gallo<supplied reason="lost">rum Atec</supplied><expan><abbr>torig</abbr><ex>iana</ex></expan> e<supplied reason="lost">t <gap reason="lost" extent="unknown" unit="character"/> et I</supplied> Vespas<supplied reason="lost">iana D</supplied><expan><abbr>ardanor</abbr><ex>um</ex></expan> et <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">quae</supplied> sunt in <supplied reason="lost">Moe</supplied>sia infer<supplied reason="lost">iore</supplied><gap reason="lost" extent="unknown" unit="character"/> hone<gap reason="lost" extent="unknown" unit="character"/> pluribusv[e ------
+            </ab></div></div>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente; Maße Fragment 1: -3.8x-3.1 cm. Zeilenfall unklar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 1213.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

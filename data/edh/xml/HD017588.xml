@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Oescus? &amp;ndash; Guljanci? (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017588</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017588</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(96)</height><width>(58)</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">11-4.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216907">Oescus?</placeName></origPlace><origDate><origDate notBefore-custom="0086" notAfter-custom="0089" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">86 AD - 89 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731437">Guljanci?</placeName><placeName type="findspot">Gigen, bei, {antike Stadt}?</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017588_1" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Cornelius+ Curiatius+</name><name type="cognomen">Nigrinus+ Maternus+</name></persName></person><person xml:id="HD017588_2" sex="M"><persName><name type="cognomen">[---]us</name></persName></person><person xml:id="HD017588_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD017588_4" sex="M"><persName><name type="cognomen">Eutychius</name></persName></person><person xml:id="HD017588_5" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aquilinius+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-01-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011796" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e22173c4-5b71-4dcd-9f6e-1d42759c8355/file/id/771319/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan> Cornelio Nigrino Curiatio Ma</supplied>terno c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> provinciae Moesiae inferioris <gap reason="lost" extent="unknown" unit="character"/></supplied>o <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>Ital</abbr><ex>icae</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/></expan> et Eutychius suis i<supplied reason="lost">mpensis</supplied> <lb n="4"/><supplied reason="lost" cert="low">fecerunt</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">cu</supplied>rante <expan><abbr>P</abbr><ex>ublio</ex></expan> Aqui<supplied reason="lost">l</supplied>ini<supplied reason="lost">o <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung und Ergänzung nach G. Alföldy. Rekonstruierte Breite ca. 3m. Z. 3 (Anfang): statt I auch H oder N möglich. (B): Beševliev: Z. 1: Paterno O[---]; AE 1957: Z.1: [---]erno O[---]; Beševliev, AE 1957: Z. 2 (Anfang): leg.; ILBulg: Z. 2 (Anfang): [---] et leg(ato); Beševliev, AE 1957: Z. 3 (Ende): Eutychius; Z. 4: [cura]nte Paquini[o---]; ILBulg: Z. 4: P(ublio) Aquini[o ---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1957, 0302. (B)</bibl><bibl>V. Beševliev, Epigrafski prinosi (Sofia 1952) 57, Nr. 97; obr. 41, 1. (B) - AE 1957.</bibl><bibl>AE 2004, 1239.</bibl><bibl>G. Alföldy, RÉMA 1, 2004, 54-58, Nr. 2; Abb. 3 (Zeichnung). - AE 2004.</bibl><bibl>ILBulg 013; tab. 4, 13. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

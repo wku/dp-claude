@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Šumen (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042946</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042946</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(109)</height><width>(47)</width><depth>(20)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0153" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">153 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727233">Šumen</placeName><placeName type="findspot"/><placeName type="region">Šumen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042946_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.</name><name type="nomen">Aelius+*</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD042946_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1430"><name type="praenomen">M.+</name><name type="nomen">Aurelius+*</name><name type="cognomen">Verus</name></persName></person><person xml:id="HD042946_3" sex="M"><persName><name type="cognomen">Burtinus+</name></persName></person><person xml:id="HD042946_4" sex="M"><persName><name type="cognomen">Demetrius+*</name></persName></person><person xml:id="HD042946_5" sex="M"><persName><name type="cognomen">Rufinus+</name></persName></person><person xml:id="HD042946_6" sex="M"><persName><name type="cognomen">Praesens+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-22" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><supplied reason="lost">et</supplied> Iunoni Re<supplied reason="lost">gi</supplied><lb break="no" n="3"/><supplied reason="lost"><expan><abbr>n</abbr><ex>ae</ex></expan></supplied> pro <expan><abbr>s</abbr><ex>alute</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>T</abbr><ex>iti</ex></expan> A<supplied reason="lost"><expan><abbr>el</abbr><ex>i</ex></expan></supplied> <lb n="4"/><supplied reason="lost">An</supplied>ton<supplied reason="lost">i</supplied>n<supplied reason="lost">i</supplied> Pii Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usti</ex></expan> et</supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan> A</supplied><expan><abbr>ur</abbr><ex>eli</ex></expan> Veri Ca<supplied reason="lost"><expan><abbr>es</abbr><ex>aris</ex></expan> et</supplied> <lb n="6"/><supplied reason="lost">pr</supplied>o <expan><abbr>s</abbr><ex>alute</ex></expan> vici et <supplied reason="lost">sua et</supplied> <lb n="7"/><supplied reason="lost"><expan><abbr>suor</abbr><ex>um</ex></expan></supplied> <expan><abbr>pos</abbr><ex>uit</ex></expan> Bu<supplied reason="lost">r</supplied>ti<supplied reason="lost">nus</supplied> <lb n="8"/><supplied reason="lost">ci</supplied>vis Tomita<supplied reason="lost">nus</supplied> <lb n="9"/><expan><abbr><supplied reason="lost">ma</supplied>gis</abbr><ex>ter</ex></expan> <expan><abbr>vic</abbr><ex>i</ex></expan> de s<supplied reason="lost">uo et</supplied> <lb n="10"/><expan><abbr><supplied reason="lost">De</supplied>metriu</abbr><ex>s</ex></expan> filiu<supplied reason="lost">s</supplied> <lb n="11"/><supplied reason="lost">Rufin</supplied>o et Pr<expan><ex>a</ex><abbr>esent</abbr></expan><supplied reason="lost">e <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="12"/><supplied reason="lost"><expan><abbr>c</abbr><ex>uram</ex></expan> <expan><abbr>a</abbr><ex>gente</ex></expan> Sim</supplied><expan><abbr>ia</abbr><ex cert="low"/></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 07466.</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 120, Nr. 128;.</bibl><bibl>Zeichnung.</bibl><bibl>PIR (2. Aufl.) I 806.</bibl><bibl>PIR (2. Aufl.) B 165.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

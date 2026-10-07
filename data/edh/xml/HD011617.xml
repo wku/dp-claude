@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Apulum, aus? &amp;ndash; Vinţu de Jos (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011617</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011617</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sibiu, Muz. Brukenthal</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>88</height><width>(52)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.5-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0180" notAfter-custom="0275" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">180 AD - 275 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/662794">Vinţu de Jos</placeName><placeName type="findspot">{Bahnhof}, bei</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011617_1" sex="W"><persName><name type="nomen">Antonia+</name><name type="cognomen">Bonita+?</name></persName></person><person xml:id="HD011617_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Antonius+*</name><name type="cognomen">Viator+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-01-11" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005649" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/70bd963e-2c9d-48c6-a46d-45ee605025d9/file/id/766426/file_version/name/small"/><graphic xml:id="F036339" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/63b56c5f-4e0a-4c0e-88bd-69bc6b1df76e/file/id/797196/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><supplied reason="lost">Ant</supplied>onia <lb n="3"/><supplied reason="lost" cert="low">Bon</supplied>ita <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>ann</abbr><ex>os</ex></expan></supplied> VIIII <expan><abbr>Q</abbr><ex>uintus</ex></expan> <lb n="5"/><expan><abbr><supplied reason="lost">Ant</supplied>on</abbr><ex>ius</ex></expan> Via<lb break="no" n="6"/><supplied reason="lost" cert="low">tor</supplied> <expan><abbr>d</abbr><ex>ecurio</ex></expan> <expan><abbr>c</abbr><ex>oloniae</ex></expan> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Rechter Teil einer Marmortafel. Hederae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1971, 0368.</bibl><bibl>I.I. Russu, StudComMuzBrukenthal 12, 1965, 208, Nr. 4; fig. 4 (Zeichnung). - AE 1971.</bibl><bibl>IDR 3, 2, 378; fig. 309 (Zeichnung).</bibl><bibl>IDR 3, 5, 496; Foto u. Zeichnung.</bibl><bibl>C. Ciongradi, Grabmonument und sozialer Status in Oberdakien (Cluj-Napoca 2007) 272, Nr. T/A 2; Taf. 125.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

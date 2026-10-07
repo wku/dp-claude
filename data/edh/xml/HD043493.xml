@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Arrubium &amp;ndash; Măcin, bei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043493</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043493</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>(115)</height><width>35</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216712">Arrubium</placeName></origPlace><origDate><origDate notBefore-custom="0293" notAfter-custom="0305" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">293 AD - 305 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/674230">Măcin, bei</placeName><placeName type="findspot"/><placeName type="region">Tulcea</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043493_1"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="praenomen">C.+</name><name type="nomen">Aurelius* Valerius*</name><name type="cognomen">Diocletianus+</name></persName></person><person xml:id="HD043493_2"><persName><name type="praenomen">M.+</name><name type="nomen">Aurelius* Valerius+*</name><name type="cognomen">Maximianus+</name></persName></person><person xml:id="HD043493_3"><persName><name type="nomen">Flavius+* Valerius*</name><name type="cognomen">Constantius+</name></persName></person><person xml:id="HD043493_4"><persName><name type="nomen">Galerius* Valerius*</name><name type="cognomen">Maximianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-11-08" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Imp<supplied reason="lost"><expan><abbr>p</abbr><ex>eratoribus</ex></expan></supplied> <lb n="2"/><expan><abbr><supplied reason="lost">C</supplied>aess</abbr><ex>aribus</ex></expan> Ca<supplied reason="lost">i</supplied><lb break="no" n="3"/>o <expan><abbr>Aur</abbr><ex>elio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> <lb n="4"/>Dioclet<supplied reason="lost">i</supplied><lb break="no" n="5"/>ano et M<lb break="no" n="6"/><expan><abbr><supplied reason="lost">a</supplied>rc</abbr><ex>o</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> <lb n="7"/><expan><abbr><supplied reason="lost">Va</supplied>l</abbr><ex>erio</ex></expan> Max<supplied reason="lost">i</supplied><lb break="no" n="8"/>miano e<supplied reason="lost">t</supplied> <lb n="9"/><expan><abbr><supplied reason="lost">F</supplied>l</abbr><ex>avio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> Co<supplied reason="lost">n</supplied><lb break="no" n="10"/><supplied reason="lost">st</supplied>antio e<supplied reason="lost">t</supplied> <lb n="11"/><expan><abbr>Gal</abbr><ex>erio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> <lb n="12"/>Maximi<lb break="no" n="13"/>ano <lb n="14"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> <lb n="15"/>IIII
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 07610.</bibl><bibl>E. Popescu, Inscripţiile greceşti şi latine din secolele IV-XIII descoperite în România (Bucureşti 1976) 253-254, Nr. 239; Zeichnung.</bibl><bibl>G.G. Točilescu, AEM 11, 1887, 70, Nr. 144.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

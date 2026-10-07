@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Ad Mediam &amp;ndash; Mehadia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027840</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027840</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206884">Ad Mediam</placeName></origPlace><origDate><origDate notBefore-custom="0226" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">226 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/673619">Mehadia</placeName><placeName type="findspot">{Lager}</placeName><placeName type="region">Caraș-Severin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027840_1"><persName ref="https://www.wikidata.org/wiki/Q235090"><name type="nomen">Iulia++</name><name type="cognomen">Mamaea++*</name></persName></person><person xml:id="HD027840_2"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="cognomen">Severus++ Alexander++</name></persName></person><person xml:id="HD027840_3"><persName ref="http://romans1by1.com/rpeople/6837"><name type="nomen">Iasdius++</name><name type="cognomen">Domitianus++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-03-18" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure">Iuliae <expan><abbr>Mam</abbr><ex>a</ex>eae</expan> <expan><abbr>Aug</abbr><ex>ustae</ex></expan></del> <lb n="2"/><del rend="erasure">matri sanctissimi</del> <lb n="3"/><del rend="erasure"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> Severi Ale</del><lb break="no" n="4"/><del rend="erasure">xandri <expan><abbr>Aug</abbr><ex>usti</ex></expan> et cas</del><lb break="no" n="5"/><del rend="erasure">trorum <expan><abbr>senatusq</abbr><ex>u</ex>e</expan></del> <lb n="6"/><del rend="erasure"><expan><abbr>coh</abbr><ex>ors</ex></expan> III Delmatarum</del> <lb n="7"/><del rend="erasure">Alexand<supplied reason="lost">r</supplied>iana |(miliaria) <expan><abbr>eq</abbr><ex>uitata</ex></expan></del> <lb n="8"/><del rend="erasure"><expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> numi<supplied reason="lost">ni</supplied> maiesta</del><lb break="no" n="9"/><del rend="erasure">tique eius e<supplied reason="lost">x</supplied> quaes</del><lb break="no" n="10"/><del rend="erasure">tura sua dedicante</del> <lb n="11"/><del rend="erasure">Iasdio Domitiano</del> <lb n="12"/><del rend="erasure"><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulari</ex></expan></del> <lb n="13"/><del rend="erasure"><expan><abbr>Daciar</abbr><ex>um</ex></expan> trium</del>
+            </ab></div>
+            <div type="commentary">
+                <p>In den Buchstaben teilweise noch Reste roter Bemalung. (B): Cena; AE 1912; IDR III 1; Piso: Abweichungen in der Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1912, 0005.</bibl><bibl>IDR 3, 1, 076; fig. 61 (Zeichnung). (B)</bibl><bibl>F.N. Cena, AAWW 48, 1911, 164-167; Zeichnung. (B) - AE 1912.</bibl><bibl>PIR (2. Aufl.) I 12.</bibl><bibl>I. Piso, Fasti provinciae Daciae 1. Die senatorischen Amtsträger (Bonn 1993) 192-196, Nr. 2. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

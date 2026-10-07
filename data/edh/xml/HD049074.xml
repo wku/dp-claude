@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Potaissa &amp;ndash; Turda (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD049074</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD049074</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wien, Nationalbibl.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>80</height><width>90</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207362">Potaissa</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/664460">Turda</placeName><placeName type="findspot">Turda Veche, reformierte Kirche, {Propylon}, bei</placeName><placeName type="region">Cluj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD049074_1" sex="W"><persName ref="http://romans1by1.com/rpeople/8030"><name type="cognomen">Aia</name></persName></person><person xml:id="HD049074_2" sex="M"><persName><name type="cognomen">Nando</name></persName></person><person xml:id="HD049074_3" sex="W"><persName ref="http://romans1by1.com/rpeople/8031"><name type="cognomen">Andrada</name></persName></person><person xml:id="HD049074_4" sex="M"><persName><name type="cognomen">Bituvans</name></persName></person><person xml:id="HD049074_5" sex="W"><persName ref="http://romans1by1.com/rpeople/8032"><name type="cognomen">Bricena</name></persName></person><person xml:id="HD049074_6" sex="W"><persName ref="http://romans1by1.com/rpeople/8033"><name type="cognomen">Iusta</name></persName></person><person xml:id="HD049074_7" sex="M"><persName ref="http://romans1by1.com/rpeople/8034"><name type="cognomen">Bedarus</name></persName></person><person xml:id="HD049074_8"><persName ref="http://romans1by1.com/rpeople/8035"><name type="cognomen">Herculanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-03-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005399" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8b6da5b6-9e60-4d40-88a3-8d13be126596/file/id/766176/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Aia Nandonis vixit <lb n="3"/>annis LXXX Andrada <lb n="4"/>Bituvantis <expan><abbr>vix</abbr><ex>it</ex></expan> an<expan><ex>n</ex><abbr>is</abbr></expan> <lb n="5"/>LXXX Bricena vixit an<expan><ex>n</ex><abbr>is</abbr></expan> <lb n="6"/>XL Iusta <expan><abbr>vix</abbr><ex>it</ex></expan> an<expan><ex>n</ex><abbr>is</abbr></expan> XXX <lb n="7"/>Bedarus vixit XII <expan><abbr>pos</abbr><ex>t</ex></expan> obi<lb break="no" n="8"/>tum ei Herculanus liber<lb break="no" n="9"/>tus patron<expan><ex>a</ex><abbr>e</abbr></expan> bene <expan><abbr>mer</abbr><ex>enti</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Wohl der Mittelteil eines Altars oder einer Statuenbasis. Buchstabe T in Form von I geschrieben; Buchstabe A ohne Querhaste.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 00917.</bibl><bibl>A. Buonopane - V. La Monaca, in: G.P. Marchi - J. Pál (Hrsg.), Epigrafi romane di Transilvania. Bibliotheca Capitolare di Verona, Manoscritto CCLXVII (Verona - Szeged 2010) 297, Nr. 44; Foto z. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ad Putea, aus? &amp;ndash; Dolna Mitropolija (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042382</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042382</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>208</height><width>80</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216692">Ad Putea, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0131" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 131 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727640">Dolna Mitropolija</placeName><placeName type="findspot">{Riben}, westlich, Nekropole</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042382_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Varronius</name><name type="cognomen">Felix</name></persName></person><person xml:id="HD042382_2" sex="W"><persName><name type="nomen">Valeria* Varronia</name><name type="cognomen">Maxima</name></persName></person><person xml:id="HD042382_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Rusticus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-03" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Varro<lb break="no" n="2"/>nius Fe<lb break="no" n="3"/>lix <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> V <expan><abbr>M</abbr><ex>acedonicae</ex></expan> V<lb break="no" n="5"/><expan><abbr>al</abbr><ex>eria</ex></expan> Varro<lb break="no" n="6"/>nia Ma<lb break="no" n="7"/>xima <expan><abbr>fil</abbr><ex>ia</ex></expan> <lb n="8"/>et <expan><abbr>C</abbr><ex>aius</ex></expan> Iulius <lb n="9"/>Rusticus <lb n="10"/>gener <supplied reason="lost">pi</supplied><lb break="no" n="11"/>entissi<lb break="no" n="12"/>mo poss<lb break="no" n="13"/>erunt <note>sic</note>
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung für ein spätantikes Grab; ursprünglich vermutlich aus der Straßenstation Ad Putea.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 250, Nr. 465.</bibl><bibl>ILBulg 215.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

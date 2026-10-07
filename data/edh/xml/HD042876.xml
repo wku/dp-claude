@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Oescus &amp;ndash; Guljanci (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042876</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042876</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Pleven, Reg. Ist. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>174</height><width>75</width><depth>63</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.8-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216907">Oescus</placeName></origPlace><origDate><origDate notBefore-custom="0193" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">193 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731437">Guljanci</placeName><placeName type="findspot">Gigen, bei, antike Stadt, {Forum}, Gebäude V, Raum 2</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042876_1" sex="M"><persName ref="http://romans1by1.com/rpeople/15094"><name type="praenomen">T.</name><name type="nomen">Flavius</name><name type="cognomen">Valentinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-05-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>ito</ex></expan> Flavio <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Pap</abbr><ex>iria</ex></expan> <lb n="2"/>Valentino <expan><abbr>eq</abbr><ex>uiti</ex></expan> <expan><abbr>R</abbr><ex>omano</ex></expan> <lb n="3"/><expan><abbr>flam</abbr><ex>ini</ex></expan> et II <expan><abbr>viral</abbr><ex>i</ex></expan> <lb n="4"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>salt</abbr><ex>us</ex></expan> <lb n="5"/><expan><abbr>patron</abbr><ex>o</ex></expan> <expan><abbr>colleg</abbr><ex>ii</ex></expan> <lb n="6"/><expan><abbr>fabror</abbr><ex>um</ex></expan> coloni<lb break="no" n="7"/><expan><abbr>ar</abbr><ex>um</ex></expan> <expan><abbr>Oesc</abbr><ex>ensium</ex></expan> et <expan><abbr>Apul</abbr><ex>ensium</ex></expan> <lb n="8"/>patrono <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Ulp</abbr><ex>iae</ex></expan> <lb n="9"/>Oescensium <lb n="10"/>bono civi et ama<lb break="no" n="11"/>tori rei <expan><abbr>p</abbr><ex>ublicae</ex></expan> ob meri<lb break="no" n="12"/>ta eius in re <expan><abbr>publ</abbr><ex>ica</ex></expan> <lb n="13"/>conlata <expan><abbr>spl</abbr><ex>endissimus</ex></expan> ordo </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ex suo
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Ivanov, AE 2005: geringfügig abweichende Textwiedergaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>R. Ivanov, in: M. Mirković (Hrsg.), Römische Städte und Festungen an der Donau, Akten der Regionalen Konferenz, Beograd 2003 (Beograd 2005) 219- 222; Abb. 3. (B) - AE 2005.</bibl><bibl>AE 2005, 1325. (B)</bibl><bibl>AE 2008, 1182.</bibl><bibl>J. Bartels, ZPE 167, 2008, 276-282. - AE 2008.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

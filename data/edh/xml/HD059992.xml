@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Serdica &amp;ndash; Sofija (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD059992</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD059992</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/102">honorific/grave/votive column</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207439">Serdica</placeName></origPlace><origDate><origDate notBefore-custom="0270" notAfter-custom="0363" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">270 AD - 363 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727011">Sofija</placeName><placeName type="findspot"/><placeName type="region">Sofija, grad</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD059992_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q46780"><name type="praenomen">L.+</name><name type="nomen">Domitius+</name><name type="cognomen">Aurelianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-16" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <lb n="2"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> Domitio Aur</supplied>eliano Pio <expan><abbr>Felic</abbr><ex>i</ex></expan> <lb n="4"/><supplied reason="lost">incompa</supplied>rabili ac invi<lb break="no" n="5"/><supplied reason="lost">cto semp</supplied>er Augusto pon<lb break="no" n="6"/><supplied reason="lost">tifici maxim</supplied>o <expan><abbr>Germ</abbr><ex>anico</ex></expan> maxi<lb break="no" n="7"/><supplied reason="lost">mo Bri</supplied><expan><abbr>tan</abbr><ex>nico</ex></expan> maximo <lb n="8"/><supplied reason="lost">Gothi</supplied>co <expan><abbr>Sarmat</abbr><ex>ico</ex></expan> ma<lb break="no" n="9"/><supplied reason="lost">ximo repa</supplied>ratori con<lb break="no" n="10"/><supplied reason="lost">servatori</supplied> patriae <expan><abbr>proc</abbr><ex>onsuli</ex></expan> <lb n="11"/><supplied reason="lost">recupe</supplied>rata re publica
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 12333.</bibl><bibl>CIL 03, 13714.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List? from Câmpulung (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019603</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019603</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147">tile</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><dimensions unit="cm"><height>43</height><width>27</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0271" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 271 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686282">Câmpulung</placeName><placeName type="findspot">Apa Sărată, {Jidava, Lager}</placeName><placeName type="region">Argeș</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019603_1" sex="M"><persName><name type="cognomen">Gorgius</name></persName></person><person xml:id="HD019603_2"><persName><name type="cognomen">Cinedus</name></persName></person><person xml:id="HD019603_3"><persName><name type="cognomen">Candidus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-02-04" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Gorgius <lb n="2"/>milis <note>sic</note> <expan><ex>h</ex><abbr>ast</abbr></expan><lb break="no" n="3"/><expan><abbr>ari</abbr><ex>us</ex></expan> <lb n="4"/>Cinedus <lb n="5"/>Candidus <lb n="6"/><expan><abbr>INI</abbr><ex cert="low"/>STR</expan>
+            </ab></div>
+            <div type="commentary">
+                <p>In mehrere Teile gebrochen. Buchstaben kursiv; Lesung unsicher. (B): CIL III; Tudor; AE 1959; IDR: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1959, 0336. (B)</bibl><bibl>CIL 03, 12532. (B)</bibl><bibl>IDR 2, 611; Foto. (B)</bibl><bibl>ILD 162.</bibl><bibl>D. Tudor, Oltenia Romanǎ (Bucureşti 1958) 427, Nr. 336. (B) - AE 1959.</bibl><bibl>I.I. Russu, Drobeta 3, 1978, 193.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

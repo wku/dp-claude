@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082811</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082811</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Turda, Muz. Ist.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(90)</height><width>(75)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern"/><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082811_1" sex="M"><persName><name type="cognomen">Ingenuus+</name></persName></person><person xml:id="HD082811_2" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD082811_3" sex="W"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD082811_4" sex="M"><persName><name type="cognomen">Taurus</name></persName></person><person xml:id="HD082811_5" sex="M"><persName><name type="cognomen">[---]tor</name></persName></person><person xml:id="HD082811_6" sex="M"><persName><name type="cognomen">Tutor</name></persName></person><person xml:id="HD082811_7"><persName><name type="cognomen">In[---]</name></persName></person><person xml:id="HD082811_8"><persName><name type="cognomen">Gallicanus/a+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-05-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> Ingen<supplied reason="lost">uus</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/>nis <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr><supplied reason="lost">a</supplied>n</abbr><ex>nos</ex></expan> LV<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Tauri <expan><abbr>f</abbr><ex>ilia</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/>tor Tutor In<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>Gallic<supplied reason="lost">a</supplied>n<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>f</abbr><ex>ilii</ex></expan> et her<supplied reason="lost">edes</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Bei der Auffindung waren drei aneinanderpassende Fragmente erhalten, von denen zwei inzwischen verschollen sind. Maße und Lesung beziehen sich auf den Zustand bei Auffindung. Zahlreiche Ligaturen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2015, 1173.</bibl><bibl>I. Piso, in: A. Dobos u.a. (Hrsg.), Archaeologia Transylvanica. Studia in honorem Stephani Bajusz (Cluj-Napoca - Târgu Mureş - Budapest 2015) 165-167; fig. 1; fig. 2 (Zeichnung). - AE 2015.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

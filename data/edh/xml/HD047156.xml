@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Colonia Ulpia Traiana Sarmizegetusa, aus &amp;ndash; Zam (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047156</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047156</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cluj-Napoca, Muz. Naţ. Ist. Transilv.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><dimensions unit="cm"><height>(26)</height><width>(31)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa, aus</placeName></origPlace><origDate><origDate notBefore-custom="0107" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">107 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1850"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/662327">Zam</placeName><placeName type="findspot">{ehemaliges Schloss Nopcsa}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047156_1" sex="M"><persName ref="http://romans1by1.com/rpeople/533"><name type="praenomen">M.</name><name type="nomen">Lucceius</name><name type="cognomen">Felix</name></persName></person><person xml:id="HD047156_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004960" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/56dfc373-709e-41a1-99d0-df351e471dac/file/id/765715/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> pro salute</supplied> <expan><abbr>M</abbr><ex>arci</ex></expan> Luccei Felicis <expan><abbr>proc</abbr><ex>uratoris</ex></expan> <lb n="2"/><supplied reason="lost">Augusti <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>lib</abbr><ex>ertus</ex></expan> ei</supplied>us votum
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 01437.</bibl><bibl>CIL 03, 01437 add. p. 1407.</bibl><bibl>IDR 3, 2, 286; fig. 235 (Foto u. Zeichnung).</bibl><bibl>CIMRM 2149; Fig. 581.</bibl><bibl>CIMRM 2150.</bibl><bibl>PIR (2. Aufl.) L 357.</bibl><bibl>A. Stein, Die Reichsbeamten von Dazien (Budapest 1944) 83.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

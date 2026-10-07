@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Durostorum &amp;ndash; Silistra (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011541</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011541</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>100</height><width>(47)</width><depth>(35)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-1.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216800">Durostorum</placeName></origPlace><origDate><origDate when-custom="0209" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">209 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727221">Silistra</placeName><placeName type="findspot">südlich, antike Brücke, sekundär verwendet</placeName><placeName type="region">Silistra</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011541_1" sex="M"><persName ref="http://romans1by1.com/rpeople/9033"><name type="praenomen">C.</name><name type="nomen">Antonius*</name><name type="cognomen">Herculanus</name></persName></person><person xml:id="HD011541_10" sex="M"><persName><name type="nomen">Aelius*?</name><name type="cognomen">Aelianus</name></persName></person><person xml:id="HD011541_11" sex="M"><persName ref="http://romans1by1.com/rpeople/9062"><name type="nomen">Flavius*</name><name type="cognomen">Gaius</name></persName></person><person xml:id="HD011541_12" sex="M"><persName ref="http://romans1by1.com/rpeople/9063"><name type="nomen">Flavius*</name><name type="cognomen">Valerius</name></persName></person><person xml:id="HD011541_13" sex="M"><persName ref="http://romans1by1.com/rpeople/9064"><name type="nomen">Valerius*</name><name type="cognomen">Quintus+</name></persName></person><person xml:id="HD011541_14" sex="M"><persName ref="http://romans1by1.com/rpeople/9065"><name type="nomen">Valerius*</name><name type="cognomen">Apollinaris*</name></persName></person><person xml:id="HD011541_15" sex="M"><persName><name type="nomen">Cocceius*</name><name type="cognomen">Vale[---]</name></persName></person><person xml:id="HD011541_16" sex="M"><persName><name type="nomen">Sestius*?</name><name type="cognomen">Sempronius+?</name></persName></person><person xml:id="HD011541_17" sex="M"><persName ref="http://romans1by1.com/rpeople/9067"><name type="nomen">Valerius*</name><name type="cognomen">Valentin[---]</name></persName></person><person xml:id="HD011541_18" sex="M"><persName><name type="nomen">Valerius*</name><name type="cognomen">Pudi[---]?</name></persName></person><person xml:id="HD011541_19"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD011541_2" sex="M"><persName ref="http://romans1by1.com/rpeople/9053"><name type="nomen">Valerius*</name><name type="cognomen">Villanus</name></persName></person><person xml:id="HD011541_20" sex="M"><persName><name type="cognomen">Pompeianus</name></persName></person><person xml:id="HD011541_21" sex="M"><persName><name type="cognomen">Avitus</name></persName></person><person xml:id="HD011541_3" sex="M"><persName ref="http://romans1by1.com/rpeople/9054"><name type="praenomen">[-]</name><name type="nomen">Publicius+</name><name type="cognomen">Priscus*?</name></persName></person><person xml:id="HD011541_4" sex="M"><persName ref="http://romans1by1.com/rpeople/9055"><name type="nomen">Iulius*?</name><name type="cognomen">Crispinus</name></persName></person><person xml:id="HD011541_5" sex="M"><persName ref="http://romans1by1.com/rpeople/9056"><name type="nomen">Iulius*</name><name type="cognomen">Iulianus</name></persName></person><person xml:id="HD011541_6" sex="M"><persName ref="http://romans1by1.com/rpeople/9057"><name type="nomen">Aurelius*</name><name type="cognomen">Asclas</name></persName></person><person xml:id="HD011541_7" sex="M"><persName ref="http://romans1by1.com/rpeople/9058"><name type="nomen">Cocceius*</name><name type="cognomen">Herculanus+</name></persName></person><person xml:id="HD011541_8" sex="M"><persName ref="http://romans1by1.com/rpeople/9059"><name type="nomen">Valerius*</name><name type="cognomen">Valerianus+</name></persName></person><person xml:id="HD011541_9" sex="M"><persName ref="http://romans1by1.com/rpeople/9060"><name type="nomen">Cornelius*</name><name type="cognomen">Lucius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-08-12" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Quattuor Ventis et Bono Ev<supplied reason="lost">e</supplied><lb break="no" n="2"/>nto per quibus <note>sic</note> constat ani <lb n="3"/><expan><abbr>male</abbr><ex cert="low"/></expan> genus bene gubernan<lb break="no" n="4"/>tes sanctis sacrum <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Ant</abbr><ex>onius</ex></expan> <lb n="5"/>Herculanus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <lb n="6"/>ex <expan><abbr>c</abbr><ex>ustode</ex></expan> <expan><abbr>a</abbr><ex>rmorum</ex></expan> vicanis <expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> quia tu<lb break="no" n="7"/>nc sacrum conveniunt </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Val</abbr><ex>erius</ex></expan> Villanus <expan><abbr>sac</abbr><ex>erdos</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">P</supplied>ublicius <expan><abbr>Pris</abbr><ex>cus</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="3"/><expan><abbr>Iul</abbr><ex>ius</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Crispinus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="4"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Iulianus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="5"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Asclas <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="6"/><expan><abbr>Coc</abbr><ex>ceius</ex></expan> Hercul<supplied reason="lost">a</supplied>nus <expan><abbr>ve<supplied reason="lost">t</supplied></abbr><ex>eranus</ex></expan> <lb n="7"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Valerian<supplied reason="lost">us v</supplied>e<supplied reason="lost"><expan><abbr>t</abbr><ex>eranus</ex></expan></supplied> <lb n="8"/><expan><abbr>Corn</abbr><ex>elius</ex></expan> Lucius <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="9"/><expan><ex>A</ex><abbr>eli</abbr><ex>us</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Aelianus <expan><abbr>ve<supplied reason="lost">t</supplied></abbr><ex>eranus</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Gaius <expan><abbr>CV</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> Valerius <lb n="3"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Quintu<supplied reason="lost">s</supplied> <lb n="4"/><expan><abbr>Val</abbr><ex>erius</ex></expan> <expan><abbr>Apollin</abbr><ex>aris</ex></expan> <lb n="5"/><expan><abbr>Coc</abbr><ex>ceius</ex></expan> Vale<gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Se</abbr><ex cert="low">stius</ex></expan> Senpro<supplied reason="lost" cert="low">nius</supplied> <lb n="6"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Valentin<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Pudi<gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/></ab></div><div n="4" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Po</supplied>mpeiano et A<supplied reason="lost">vito <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> </ab></div><div n="5" type="textpart"><ab><lb n="1"/> Pompeiano <lb n="2"/>et Avito co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Lesung nach Autopsie von M. Banev, der außerdem eine Zeichnung von Nevena zur Verfügung stellte. Die erste Konsuldatierung befindet sich auf der crepido, die zweite auf der Rückseite des Altars. Die Namenliste ist in 2 Spalten geschrieben. (B): Georgiev, AE 1974, Gerov: Z. 1: Flattoribus; Georgiev, AE 1974: Z. 1/2: Fl[a]/nto; Gerov: Z. 1/2: Fla/nti; Georgiev, AE 1974: Z. 2: consta&amp;lt;ta&amp;gt;nt; Gerov: Z. 2: constat Aug(ustos); Georgiev: Z. 6/7: th[u]/nc; Gerov: Z. 6/7: et ho/nc; Gerov: Z. 7: conveniuntes; Georgiev, AE 1974: Z. 9: [---] Publicius [---]; Z. 10: Iul(ius)(?) nicht gelesen; Gerov: Z. 10: Val(erius)(?); Georgiev: Z. 12: Asc[---]s; AE 1974: Z. 12: Ascl[---]s; AE 1974: Z. 13: Hercul[a]n(u)s [v]et(eranus); Gerov: Z. 13: Herculanus e(vocatus)(?); Georgiev, AE 1974: Z. 14: Valerianu[s vet(eranus)]; Gerov: Z. 14: Valerianu[s vet(eranus)]; Gerov: Z. 14: Valerianus v(eteranus); Georgiev: Z. 15: ve(teranus); AE 1974: Z. 15: Lycius ve(teranus); Gerov: Z. 15: Corne(lius); Georgiev: Z. 16 (Anfang): B(---) Aelianus ve(teranus) AE 1974: Z. 16: Bel(licius) Aelianus ve(teranus); Gerov: Z. 16: vet(eranus); Georgiev: Z. 17: Caius C[---]; AE 1974: Z. 17 (Ende): cor(nicularius); Gerov: Z. 17: Caius C(ai) f(ilius); Gerov: Z. 18: Valerian(u)s; Georgiev: Z. 19: V[---]; AE 1974: Z. 19: [---]V[---] Quintus; Gerov: Z. 19: Quintus; Georgiev, AE 1974: Z. 20: Apolli(naris); Gerov: Z. 20: Apollinar(is); Georgiev, AE 1974: Z. 21: Ae[---]; Georgiev: Z. 22: Se&amp;lt;te&amp;gt;npr[onius]; AE 1974: Z. 22: Se[te]npro[nius]; Gerov: Z. 22: Sept(imius) [S]enpro[nius?]; Georgiev: Z. 23: Valenti[nianus]; AE 1974: Z. 23: Valenti[n(ianus)]; Gerov: Z. 23: Valentinu[s]; Georgiev, AE 1974: Z. 24: Val(erius) [---]; Gerov: Z. 24: Val(erius) Valentinian[us]; Z. 25: Iul(ius) Iulianus(?); Z. 26: [P]ompeiano; AE 1974: Zeilenfälle nicht überall angegeben. Z. 27: vom M scheint die letzte Haste zu fehlen (ehemals aufgemalt?); jedoch wegend des schrägen Verlaufs der letzten erhaltenen Haste sicher kein N; Lungarova: Z. 6/7: ex c(orniculario) a vicanis d(onum) d(edit) qui ante[a?] / n(un)c(?)</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1974, 0570. (B)</bibl><bibl>AE 1977, 0764.</bibl><bibl>P. Georgiev, BSAVarna 10, 1974, 95-97; Taf. 2, 1 u. 2. (B) - AE 1974.</bibl><bibl>B. Gerov, Klio 59, 1977, 302-305, Nr. 1; Abb. 1. (B) - AE 1977.</bibl><bibl>PIR (2. Aufl.) P 568.</bibl><bibl>PIR (2. Aufl.) H 36.</bibl><bibl>P. Lungarova, GodDepSredIztIzsled 2, 2004, 129-132. (B) - AE 2005.</bibl><bibl>AE 2005, 1320.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

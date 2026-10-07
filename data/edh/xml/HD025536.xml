@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025536</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025536</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarmizegetusa, Muz. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">{Forum Vetus}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD025536_1" sex="M"><persName ref="http://romans1by1.com/rpeople/1718"><name type="praenomen">C.+</name><name type="nomen">Arrius+</name><name type="cognomen">Antoninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-26" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan></supplied> Arri<supplied reason="lost">o <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan></supplied> <lb n="2"/><supplied reason="lost">Antoni</supplied>no <expan><abbr>leg</abbr><ex>ato</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan></supplied> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="4"/><expan><abbr><supplied reason="lost">c</supplied>o</abbr><ex>n</ex>s</expan>(ulari) trium <expan><abbr>D<supplied reason="lost">a</supplied>c</abbr><ex>iarum</ex></expan> <lb n="5"/><expan><abbr><supplied reason="lost">c</supplied>ol</abbr><ex>onia</ex></expan> <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>Traian</abbr><ex>a</ex></expan> <lb n="6"/><expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>usta</ex></expan> <expan><abbr>Dac</abbr><ex>ica</ex></expan> <expan><abbr>Sarmiz</abbr><ex>egetusa</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere Fragmente vom Mittelteil einer Statuenbasis; rekonstruierte Maße: 100 x 87 x 42 cm.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1931, 0122.</bibl><bibl>IDR 3, 2, 085; fig. 66 (Foto u. Zeichnung).</bibl><bibl>C. Daicoviciu, in: Închinare lui Nicolae Iorga. Cu prilejul Închinare lui Nicolae Iorga. Cu prilejul implinirii vârstei de 60 de ani (Cluj 1931) 129, Nr. 1. - AE 1931.</bibl><bibl>PIR (2. Aufl.) A 1088.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Carcaliu (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043530</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043530</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Ist. Rep. Soc.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>75</height><width>110</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0338" notAfter-custom="0340" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">338 AD - 340 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682691">Carcaliu</placeName><placeName type="findspot">{S. Treime, Kirche}, sekundär verwendet</placeName><placeName type="region">Tulcea</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043530_1"><persName><name type="nomen">Flavius* Claudius*</name><name type="cognomen">Constantinus</name></persName></person><person xml:id="HD043530_2"><persName><name type="nomen">Flavius* Iulius*</name><name type="cognomen">Constantius</name></persName></person><person xml:id="HD043530_3"><persName><name type="nomen">Flavius+* Iulius*</name><name type="cognomen">Constans</name></persName></person><person xml:id="HD043530_4"><persName><name type="cognomen">Sappo</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-10-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Imp<supplied reason="lost"><expan><abbr>pp</abbr><ex>eratores</ex></expan> <expan><abbr>Caesss</abbr><ex>ares</ex></expan></supplied> <lb n="2"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> <expan><abbr>Cl</abbr><ex>audius</ex></expan> Constantinus Al<supplied reason="lost"><expan><abbr>amann</abbr><ex>icus</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>Germ</abbr><ex>anicus</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> et</supplied> <lb n="3"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Constantius <expan><abbr>Sarm</abbr><ex>aticus</ex></expan> <supplied reason="lost">Per</supplied>si<supplied reason="lost">cu</supplied>s <supplied reason="lost"><expan><abbr>max</abbr><ex>imus</ex></expan> et</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>Fl</abbr><ex>avius</ex></expan></supplied> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Constans <expan><abbr>Sarm</abbr><ex>aticus</ex></expan> Pii Felices Augg&amp;lt;g&amp;gt;(usti) <lb n="5"/>locum in parte limitis positum gentilium <lb n="6"/>Gotho<supplied reason="lost">ru</supplied>m temeritati semper aptis<lb break="no" n="7"/>simum ad <supplied reason="lost">co</supplied>nfirmandam provincialium <lb n="8"/><supplied reason="lost">s</supplied>uorum <supplied reason="lost">ae</supplied>ternam securitatem erecta is<lb break="no" n="9"/>tius fabr<supplied reason="lost">ic</supplied>ae munitione clauserun<lb break="no" n="10"/>t latru<supplied reason="lost">nc</supplied>ulorumque impetum peren<lb break="no" n="11"/>nis mun<supplied reason="lost">imi</supplied>nis dispositione tenuerun&amp;lt;t=I&amp;gt; <lb n="12"/>adcurante Sappone <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>p</abbr><ex>erfectissimo</ex></expan> duce limitis <lb n="13"/>Scythiae 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL III; ILS; Toutain; AE 1891; Popescu: Abweichungen in Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Popescu, Inscripţiile greceşti şi latine din secolele IV-XIII descoperite în România (Bucureşti 1976) 250-252, Nr. 238; Foto. (B)</bibl><bibl>CIL 03, 12483. (B)</bibl><bibl>ILS 0724. (B)</bibl><bibl>AE 1891, 0148. (B)</bibl><bibl>J. Toutain, MEFR 11, 1891, 242-248, Nr. 1. (B) - AE 1891.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

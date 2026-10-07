@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD046355</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD046355</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Timişoara, Muz. Banatului</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(112)</height><width>70</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0236" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">236 AD - 238 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1833"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot"/><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD046355_1" sex="M"><persName ref="http://romans1by1.com/rpeople/514"><name type="praenomen">Q.</name><name type="nomen">Axius</name><name type="cognomen">Aelianus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-01-26" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinto</ex></expan> Axio <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Pal</abbr><ex>atina</ex></expan> A<supplied reason="lost"><expan><abbr>elian</abbr><ex>o</ex></expan></supplied> <lb n="2"/><expan><abbr>eq</abbr><ex>uiti</ex></expan> <expan><abbr>R</abbr><ex>omano</ex></expan> Laurenti Lavin<supplied reason="lost">ati</supplied> <lb n="3"/>curatori ad <expan><abbr>popul</abbr><ex>um</ex></expan> vi<supplied reason="lost"><expan><abbr>ar</abbr><ex>um</ex></expan></supplied> <lb n="4"/>Traianae et Aureliae <supplied reason="lost">et</supplied> <lb n="5"/>Aeclanensis <expan><abbr>proc</abbr><ex>uratori</ex></expan> ad <expan><abbr>alim</abbr><ex>enta</ex></expan> <lb n="6"/>per Apuliam Calabriam Lu<lb break="no" n="7"/>caniam et Bruttios <expan><abbr>proc</abbr><ex>uratori</ex></expan> <lb n="8"/><expan><abbr>rat</abbr><ex>ionis</ex></expan> <expan><abbr>priv</abbr><ex>atae</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> <expan><abbr>Maur</abbr><ex>etaniae</ex></expan> <expan><abbr>Caes</abbr><ex>ariensis</ex></expan> <lb n="9"/>item per Belgicum et duas <lb n="10"/>Germanias <expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> <lb n="11"/><expan><abbr>Dac</abbr><ex>iae</ex></expan> <expan><abbr>Apul</abbr><ex>ensis</ex></expan> bis vice praesidis <lb n="12"/>ordo <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Sarmiz</abbr><ex>egetusae</ex></expan> <lb n="13"/><expan><abbr>metropol</abbr><ex>is</ex></expan> patrono
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: vgl. PIR. (B): IDR 3, 2: Z. 5: Aeclanensis; Mrozewicz: Z. 7: Bruttos; IDR 3, 2: Z. 13: metropol(is).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 2, 089; fig.70 (Foto u. Zeichnung). (B)</bibl><bibl>CIL 03, 01456.</bibl><bibl>ILS 1371.</bibl><bibl>PIR (2. Aufl.) A 1688.</bibl><bibl>AE 1993, 1320.</bibl><bibl>L. Mrozewicz, in: L. Mrozewicz - K. Ilski (Hrsg.), Prosopographica (Poznań 1993) 223-224, Nr. 4. (B) - AE 1993.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

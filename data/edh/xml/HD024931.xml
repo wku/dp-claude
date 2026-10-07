@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Istrus &amp;ndash; Istria (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024931</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024931</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Istria, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>130</height><width>52</width><depth>42</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216839">Istrus</placeName></origPlace><origDate><origDate when-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">238 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1926"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675471">Istria</placeName><placeName type="findspot">spätantike Festung, {Kurtine i}, sekundär verwendet</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024931_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antonius*</name><name type="cognomen">Gordianus</name></persName></person><person xml:id="HD024931_2" sex="M"><persName><name type="cognomen">Bonosus</name></persName></person><person xml:id="HD024931_3" sex="M"><persName><name type="cognomen">Bonunis</name></persName></person><person xml:id="HD024931_4" sex="M"><persName><name type="cognomen">Iustus</name></persName></person><person xml:id="HD024931_5" sex="M"><persName><name type="cognomen">Iustinus</name></persName></person><person xml:id="HD024931_6" sex="M"><persName><name type="cognomen">Pius</name></persName></person><person xml:id="HD024931_7" sex="M"><persName><name type="cognomen">Proculus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-04" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> et Iunoni Reg<lb break="no" n="2"/>in<expan><ex>a</ex><abbr>e</abbr></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>c</abbr><ex>ives</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> et Lai consis<lb break="no" n="2"/>tentes vico Secun<lb break="no" n="3"/>dini posuerunt <lb n="4"/>pro salute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <lb n="5"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Ant</abbr><ex>oni</ex></expan> Gordi<lb break="no" n="6"/>anus <note>sic</note> <lb n="7"/>cura agentibus <lb n="8"/><expan><abbr>magg</abbr><ex>istris</ex></expan> Bonoso B<lb break="no" n="9"/>onunis et Iusto <lb n="10"/>Iustini Pio et <lb n="11"/>Proculo co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Fundjahr 1923-1925. Z. 1 u. 2 befinden sich auf der corona. Unterhalb der letzten Zeile zwei große hederae. (B): AE 1927: Z. 9: argentibus; Lambrino: Z. 7: Antonius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1927, 0064. (B)</bibl><bibl>IScM 1, 347; Foto.</bibl><bibl>V. Pârvan, Dacia 2, 1925, 246-247, Nr. 43; fig. 69. - AE 1927.</bibl><bibl>S. Lambrino, in: J. Marouzeau (Hrsg.), Mélanges de philologie, de littérature et d'histoire anciennes offerts à J. Marouzeau (Paris 1948) 324, Nr. 12. (B)</bibl><bibl>PIR (2. Aufl.) F 553.</bibl><bibl>PIR (2. Aufl.) P 818.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

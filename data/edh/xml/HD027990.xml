@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Samokov (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027990</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027990</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727945">Samokov</placeName><placeName type="findspot">Prodanovci, {Tumulus}, südlich</placeName><placeName type="region">Sofija, oblast</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-14" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Verus Maximinus <lb n="2"/>Pius Felix <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Germ</abbr><ex>anicus</ex></expan> <expan><abbr>Dacic</abbr><ex>us</ex></expan> <expan><abbr>Sarm</abbr><ex>aticus</ex></expan> <expan><abbr>maxim</abbr><ex>us</ex></expan> <lb n="3"/><expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> III co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proc</abbr><ex>onsul</ex></expan> et <lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Verus Maximus <expan><abbr>Germ</abbr><ex>anicus</ex></expan> <expan><abbr>Dacic</abbr><ex>us</ex></expan> <expan><abbr>Sarm</abbr><ex>aticus</ex></expan> <lb n="5"/><expan><abbr>max</abbr><ex>imus</ex></expan> nobilissimus <expan><abbr>Caes</abbr><ex>ar</ex></expan> <lb n="6"/>equitibus qui inter singulares militave<lb break="no" n="7"/>runt castris novis Maximinianis quibus <lb n="8"/>praeest Aelius Valens tribunus quinis <lb n="9"/>et vicenis pluribusve stipendis emeritis <lb n="10"/>dimissis honesta missione quorum no<lb break="no" n="11"/>mina subscripta sunt civitatem Roma<lb break="no" n="12"/>nam qui eorum non haberent et conu<lb break="no" n="13"/>bium cum uxoribus quas tunc habuissent <lb n="14"/>cum est civitas iis data aut cum iis quas <lb n="15"/>postea duxissent dumtaxat singulis <lb n="16"/><expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> VII Idus <expan><abbr>Ian</abbr><ex>uarias</ex></expan> <lb n="17"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Mario Perpetuo et <expan><abbr>L</abbr><ex>ucio</ex></expan> Mummio Corneliano <expan><abbr>co</abbr><ex>n</ex></expan><supplied reason="lost"><expan><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="18"/>ex equite dominorum <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <lb n="19"/><expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio Mucatralis <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>Zerula</abbr><ex>e</ex></expan> <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <lb n="20"/>Serdica ex <expan><abbr>Thrac</abbr><ex>ia</ex></expan> <lb n="21"/><expan><abbr>descript</abbr><ex>um</ex></expan> et <expan><abbr>recognit</abbr><ex>um</ex></expan> ex tabula aerea qu<expan><ex>a</ex><abbr>e</abbr></expan> fixa est Romae <lb n="22"/>in muro <expan><abbr>pos</abbr><ex>t</ex></expan> templum divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Verus Maximinus Pius <lb n="2"/><expan><abbr>Fel</abbr><ex>ix</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Germ</abbr><ex>anicus</ex></expan> <expan><abbr>Dac</abbr><ex>icus</ex></expan> <expan><abbr>Sar</abbr><ex>maticus</ex></expan> <expan><abbr>maxim</abbr><ex>us</ex></expan> <expan><abbr>p</abbr><ex>ontifex</ex></expan> <expan><abbr>m</abbr><ex>aximus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> III <lb n="3"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proc</abbr><ex>onsul</ex></expan> et <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> <expan><abbr>Ver</abbr><ex>us</ex></expan> Maximus <expan><abbr>nobilis</abbr><ex>simus</ex></expan> <lb n="4"/><expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>equit</abbr><ex>ibus</ex></expan> et <expan><abbr>ped</abbr><ex>itibus</ex></expan> qui inter <expan><abbr>singular</abbr><ex>es</ex></expan> <lb n="5"/><expan><abbr>militaver</abbr><ex>unt</ex></expan> novis Maximinianis quibus <lb n="6"/>praeest Aelius Va<supplied reason="lost">l</supplied>ens <expan><abbr>trib</abbr><ex>unus</ex></expan> quinis et <lb n="7"/>vicenis <expan><abbr>plu</abbr><ex>ribusve</ex></expan> <expan><abbr>stipend</abbr><ex>iis</ex></expan> <expan><abbr>emer</abbr><ex>itis</ex></expan> <expan><abbr>dimiss</abbr><ex>is</ex></expan> <expan><abbr>hon</abbr><ex>esta</ex></expan> <expan><abbr>m</abbr><ex>issione</ex></expan> <lb n="8"/><expan><abbr>quor</abbr><ex>um</ex></expan> nomina subscripta sunt <expan><abbr>civitat</abbr><ex>em</ex></expan> <lb n="9"/><expan><abbr>Romana</abbr><ex>m</ex></expan> qui <expan><abbr>eor</abbr><ex>um</ex></expan> non <expan><abbr>haber</abbr><ex>ent</ex></expan> dederunt <lb n="10"/>et conubium cum <expan><abbr>ux</abbr><ex>oribus</ex></expan> <expan><abbr>q</abbr><ex>uas</ex></expan> tunc habuissent <lb n="11"/>cum est civitas iis data aut <lb n="12"/>cum iis quas postea <expan><abbr>duxiss</abbr><ex>ent</ex></expan> <lb n="13"/>dumtaxat singulis
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1912, 0059.</bibl><bibl>CIL 16, 00146.</bibl><bibl>V. Dobrusky, JŒAI 14, 1911, 130-134; Fig. 126 u. 127. - AE 1912.</bibl><bibl>PIR (2. Aufl.) M 703.</bibl><bibl>PIR (2. Aufl.) M 312.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

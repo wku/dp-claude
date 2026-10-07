@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Nicopolis ad Istrum &amp;ndash; Veliko Târnovo (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065253</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065253</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>120</height><width>62</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216895">Nicopolis ad Istrum</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728777">Veliko Târnovo</placeName><placeName type="findspot">Nikjup, bei, {antike Stadt}</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065253_1" sex="M"><persName ref="http://romans1by1.com/rpeople/15072"><name type="nomen">Αὐρήλιος*</name><name type="cognomen">Μᾶρκος</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-15" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ἀγαθῆι τύχῃ Ἡλίῳ <lb n="2"/>Μίθρᾳ <lb n="3"/>θεῷ <lb n="4"/>ἐπηκόῳ <lb n="5"/>Αὐρ(ήλιος) <lb n="6"/>Μᾶρκος <lb n="7"/>γναφεὺς <lb n="8"/>τὸ στήλιον <lb n="9"/>σὺν τῇ <lb n="10"/>ζωγραφίᾳ <lb n="11"/>κατεσκεύ<lb break="no" n="12"/>ασεν <lb n="13"/>ἐκ τῶν <lb n="14"/>ἰδίων <lb n="15"/>εὐχαρισ<lb break="no" n="16"/>τήριον
+            </ab></div>
+            <div type="commentary">
+                <p>O. Alexandrov, Societas Classica (Veliko Tŭrnovo 2006) 141-149. - AE 2006 konnte nicht eingesehen werden.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IGBulg 0679.</bibl><bibl>IGR 1, 0567.</bibl><bibl>CIMRM 2265.</bibl><bibl>AE 2006, 1241.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

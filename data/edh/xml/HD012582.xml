@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Identification inscription from Sexaginta Prista, bei &amp;ndash; Ruse, bei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD012582</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD012582</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze, Silber</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216982">Sexaginta Prista, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727523">Ruse, bei</placeName><placeName type="findspot">{Donau, Fluss}</placeName><placeName type="region">Ruse</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>identification inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD012582_1" sex="M"><persName ref="http://data.snapdrgn.net/person/2412"><name type="praenomen">L.</name><name type="nomen">Iulius</name><name type="cognomen">Lucilianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-15" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                X <lb n="2"/>legionis primae <expan><abbr>Italic</abbr><ex>ae</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Lucius Iulius Lucilianus <expan><abbr>leg</abbr><ex>atus</ex></expan> Augusti <lb n="2"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>Ital</abbr><ex>icae</ex></expan> pondera examinata <expan><abbr>sig</abbr><ex>navit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Bronzegewicht mit silbernen Buchstaben. Z. 1/2 auf der Oberseite: der Legionsname ist kreisförmig um das X geschrieben. Z. 3/4 befinden sich auf der Seite. (B): Sarnowski: Z. 3: Aug(usti).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1994, 1529.</bibl><bibl>T. Sarnowski, StudMoes 2, 1994, 23-26. (B) - AE 1994.</bibl><bibl>CIL 03, 00784.</bibl><bibl>ILS 8640.</bibl><bibl>PIR (2. Aufl.) I 386.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

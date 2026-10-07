@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Durostorum &amp;ndash; Silistra (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011544</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011544</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>211</height><width>38</width><depth>36</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216800">Durostorum</placeName></origPlace><origDate><origDate notBefore-custom="0197" notAfter-custom="0209" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">197 AD - 209 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727221">Silistra</placeName><placeName type="findspot">südlich, antike Brücke, sekundär verwendet</placeName><placeName type="region">Silistra</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011544_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.</name><name type="nomen">Septimius*</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD011544_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.+</name><name type="nomen">Aurelius+</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD011544_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">P.+</name><name type="nomen">Septimius+*</name><name type="cognomen">Geta+</name></persName></person><person xml:id="HD011544_4" sex="M"><persName ref="http://romans1by1.com/rpeople/9033"><name type="praenomen">C.</name><name type="nomen">Antonius*</name><name type="cognomen">Herculanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-08-12" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Mercu<lb break="no" n="2"/>rio Sa<lb break="no" n="3"/>ncto <lb n="4"/>sacrum <lb n="5"/>pro salu<lb break="no" n="6"/><expan><abbr>t</abbr><ex>e</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <lb n="7"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>Sep</abbr><ex>timi</ex></expan> Se<lb break="no" n="8"/>veri et <lb n="9"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> Ant</supplied><lb break="no" n="10"/><supplied reason="lost">onini et</supplied> <lb n="11"/><supplied reason="lost"><expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>Sep</abbr><ex>timi</ex></expan> Ge</supplied><lb break="no" n="12"/><supplied reason="lost">tae Ca</supplied>e<supplied reason="lost"><expan><abbr>s</abbr><ex>aris</ex></expan></supplied> <lb n="13"/><expan><abbr>G</abbr><ex>aius</ex></expan> <expan><abbr>Anton</abbr><ex>ius</ex></expan> <lb n="14"/>Hercul<lb break="no" n="15"/>anus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="16"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <lb n="17"/>ex <expan><abbr>c</abbr><ex>ustode</ex></expan> <expan><abbr>a</abbr><ex>rmorum</ex></expan> <lb n="18"/><expan><abbr>vet</abbr><ex>eranis</ex></expan> con<lb break="no" n="19"/>sisten<lb break="no" n="20"/>tibus <lb n="21"/>hui<surplus>i</surplus>us <lb n="22"/>loci <lb n="23"/><expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Pfeilerartige Stele; in 2 Teile gebrochen. (B): AE 1974: Zeilenfall mehrfach nicht angegeben; Georgiev, AE 1974: Z. 13: C(aius); Gerov: Z. 21: huius. Z. 12: E ist auf der Fotografie kaum zu erahnen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1974, 0571. (B)</bibl><bibl>AE 1977, 0764.</bibl><bibl>P. Georgiev, BSAVarna 10, 1974, 97-102; Taf. 2, 3 u. 4. (B) - AE 1974.</bibl><bibl>B. Gerov, Klio 59, 1977, 302-305, Nr. 2; abb. 2a u. b. (B) - AE 1977.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

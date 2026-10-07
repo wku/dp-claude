@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Samum &amp;ndash; Căşeiu (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024250</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024250</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><dimensions unit="cm"><height>137</height><width>64</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207419">Samum</placeName></origPlace><origDate><origDate notBefore-custom="0211" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211 AD - 217 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682614">Căşeiu</placeName><placeName type="findspot">{Lager}, Principia</placeName><placeName type="region">Cluj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024250_1" sex="W"><persName><name type="nomen">Iulia</name></persName></person><person xml:id="HD024250_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="cognomen">Antoninus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iuliae Augus<lb break="no" n="2"/>tae matri san<lb break="no" n="3"/>c<supplied reason="lost">ti</supplied>ss<supplied reason="lost">i</supplied>mi piissi<lb break="no" n="4"/>miq<supplied reason="lost">u</supplied>e Anto<lb break="no" n="5"/>nini Augusti <lb n="6"/>et castrorum <lb n="7"/>senatusqu<supplied reason="lost">e</supplied> <lb n="8"/>ac patriae <lb n="9"/><expan><abbr>coh</abbr><ex>ors</ex></expan> I Britt<supplied reason="lost">a</supplied><lb break="no" n="10"/>nica |(miliaria) Ant<lb break="no" n="11"/>oniniana
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden im Bereich der principia. In mehrere Teile gebrochen. (B): AE 1929; ILD: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1929, 0001. (B)</bibl><bibl>ILD 764. (B)</bibl><bibl>J. Spaul, Cohors². The evidence for and a short history of the auxiliary infantry units of the imperial Roman army (Oxford 2000) 193-194.</bibl><bibl>D. Isac, EphNapocensis 3, 1993, 190; fig. 2 (Zeichnung).</bibl><bibl>E. Panaitescu, AcaRoum 15, 1929, 78-80; fig. 12; Zeichnung. - AE 1929.</bibl><bibl>D. Isac, Castrul roman de la Samum - Căşeiu (Cluj-Napoca 2003) pl. 3, 1; pl. 3, 1a (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

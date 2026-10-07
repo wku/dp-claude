@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Tropaeum Traiani &amp;ndash; Adamclisi (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072299</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072299</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>162</height><width>54</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217027">Tropaeum Traiani</placeName></origPlace><origDate><origDate notBefore-custom="0236" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">236 AD - 238 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686688">Adamclisi</placeName><placeName type="findspot">{Tropaeum Traiani}, sekundär verwendet</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072299_1" sex="M"><persName><name type="cognomen">Μαξιμῖνος++</name></persName></person><person xml:id="HD072299_2" sex="M"><persName><name type="cognomen">Μάξιμος+++</name></persName></person><person xml:id="HD072299_3" sex="M"><persName ref="http://romans1by1.com/rpeople/8666"><name type="cognomen">Πρωτογένης</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-14" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ἀγαθῆι τύχηι <lb n="2"/>Δὶ Ὀμβρίμωι ὑπὲ<lb break="no" n="3"/>ρ σωτηρίας καὶ νεί<lb break="no" n="4"/>κης τῶν αὐτο<lb break="no" n="5"/>κρατόρων <del rend="erasure">Μαξιμίνου Σεβ(αστοῦ)</del> <lb n="6"/><del rend="erasure"><supplied reason="lost">καὶ Μαξί</supplied>μο[υ</del>] Κα(ίσαρος) Πρω<lb break="no" n="7"/>τογένης μαγιστράτος <lb n="8"/>ἀνέθηκα τὸ ἱερὸν <lb n="9"/>ἐκ τῶν ἰδίων
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0795.</bibl><bibl>A. Barnea, StCercIstorV 20, 1969, 599-601; fig. 5; fig. 6 (Zeichnung) fig. 6 (Zeichnung). - AE 1980.</bibl><bibl>J. Robert - L. Robert, REG 83, 1970, 414, Nr. 398. - AE 1980.</bibl><bibl>AE 2009, 1207.</bibl><bibl>A. Barnea, in: G. Vottéro (Hrsg.), Le grec du monde colonial antique 1. Le N. et N.-O. de la Mer Noire. Actes de la Table Ronde de Nancy,</bibl><bibl>Nancy 2007 (Nancy 2009) 119, Nr. A.; fig. 1 (Foto u. Zeichnung). - AE 2009.</bibl><bibl>AE 2011, 1139.</bibl><bibl>A. Barnea, Oltenia 17, 2010, 57-62; fig. 1; fig. 2 (Foto u. Zeichnung) - AE 2011.</bibl><bibl>SEG 59, 0794.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Philippopolis &amp;ndash; Plovdiv (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065204</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065204</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>58</height><width>90</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.8-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216927">Philippopolis</placeName></origPlace><origDate><origDate notBefore-custom="0218" notAfter-custom="0222" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">218 AD - 222 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="findspot">{Odeon}</placeName><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-10-01" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Ἀγ</supplied>αθῆι <supplied reason="lost">τ</supplied>ύχη<supplied reason="lost">ι</supplied> <lb n="2"/>τὸν μέγιστον καὶ θειότα<supplied reason="lost">τον αὐτοκρ</supplied>άτορα <lb n="3"/>Μ<del rend="erasure"><supplied reason="lost">ᾶρκον Αὐρήλιον Ἀντων</supplied>εῖνο[ν</del>] <lb n="4"/>Εὐ<supplied reason="lost">σεβῆ Εὐτυχῆ Σεβα</supplied>στὸν ἡ λαμ<lb break="no" n="5"/>π<supplied reason="lost">ροτ</supplied>άτη Θρᾳ<supplied reason="lost">κ</supplied>ῶν μ<supplied reason="lost">η</supplied>τρόπολις <lb n="6"/><supplied reason="lost">Φιλι</supplied>ππόπο<supplied reason="lost">λι</supplied>ς νεωκόρος <lb n="7"/><supplied reason="lost">πρω</supplied>ταρχοῦντος καὶ ἐπ<supplied reason="lost">ιμε</supplied><lb break="no" n="8"/><supplied reason="lost">λου</supplied>μένου Τ(ίτου) Φλ(αβίου) Φιλοδ<supplied reason="lost" cert="low">ήμου</supplied> <lb n="9"/>εὐτυχῶς
+            </ab></div>
+            <div type="commentary">
+                <p>Tafel der Zeitschriftedition nicht gesehen. (22 April 2012)</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2007, 1253.</bibl><bibl>V. Gerasimova, NSE 3, 2, 2007, 83-85, Nr. 4; tab. 8, 8. - AE 2007.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

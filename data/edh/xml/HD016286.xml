@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Sexaginta Prista &amp;ndash; Ruse (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016286</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016286</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ruse, Ist. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>70</height><width>(72)</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216982">Sexaginta Prista</placeName></origPlace><origDate><origDate notBefore-custom="0100" notAfter-custom="0101" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">100 AD - 101 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727523">Ruse</placeName><placeName type="findspot"/><placeName type="region">Ruse</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016286_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva Traianus</name></persName></person><person xml:id="HD016286_2" sex="M"><persName ref="http://romans1by1.com/rpeople/3121"><name type="praenomen">M.++</name><name type="nomen">Laberius+++</name><name type="cognomen">Maximus+++ Quintius+++? Crispinus+++</name></persName></person><person xml:id="HD016286_3" sex="M"><persName ref="http://romans1by1.com/rpeople/14507"><name type="praenomen">C.</name><name type="nomen">Antonius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD016286_4" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Cae<supplied reason="lost"><expan><abbr>s</abbr><ex>ari</ex></expan> Nervae Traiano <expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <lb n="2"/><expan><abbr>Ger</abbr><ex>manico</ex></expan> po<supplied reason="lost"><expan><abbr>nt</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="3"/>per <del rend="erasure"><expan><abbr>M</abbr><ex>anium</ex></expan> Lab[erium Maximum Quintium<certainty locus="name" match="preceding-sibling::text()" cert="low"/></del>] <lb n="4"/><del rend="erasure">C<supplied reason="lost">rispinu</supplied>m [<expan><abbr>leg</abbr><ex>atum</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></del>] <lb n="5"/>cives Roman<supplied reason="lost">i consistentes</supplied> Sexsaginta <note>sic</note> Pri<supplied reason="lost"><expan><abbr>st</abbr><ex>is</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>cura</abbr><ex>m</ex></expan> ag<supplied reason="lost">ente</supplied> <lb n="7"/><expan><abbr>C</abbr><ex>aio</ex></expan> Anton<supplied reason="lost">io</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Hederae als Worttrenner. Ergänzungsvorschlag nach Velkov. (B): AE 1966: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1966, 0356. (B)</bibl><bibl>V. Velkov, Epigraphica 27, 1965, 90-109; Foto. - AE 1966.</bibl><bibl>PIR (2. Aufl.) L 9.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

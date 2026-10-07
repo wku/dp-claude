@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Ulpia Traiana Sarmizegetusa, aus? &amp;ndash; Călan (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044865</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044865</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Călan, Strei, Adormirea Maicii Domnului, Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><dimensions unit="cm"><height>150</height><width>79</width><depth>62</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/665992">Călan</placeName><placeName type="findspot">Strei, {Adormirea Maicii Domnului, Kirche}, sekundär verwendet</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044865_1" sex="W"><persName><name type="nomen">Umbria</name><name type="cognomen">Africana</name></persName></person><person xml:id="HD044865_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Umbrius</name><name type="cognomen">Villanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005545" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f3405297-bd5a-4a8f-afb2-7e6545c2922e/file/id/766322/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Umbria <lb n="3"/>Africana <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="4"/>annis LXV <lb n="5"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Umbrius Villanus <lb n="6"/>matri <expan><abbr>pientis</abbr><ex>simae</ex></expan> <expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil eines Altars oder einer Statuenbasis. Nach IDR III 2 und III 3 könnte er auch aus Aquae stammen. Oberfläche des Inschriftfeldes stark verrieben. (B): IDR III 2: Z. 5: Umbrius Villanus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 1297.</bibl><bibl>M. Mărgineanu-Cârstoiu - V. Apostol - Ş. Bâlici - C. Muşter, Dacia 48/49, 210-211, Nr. 16; fig. 32. - AE 2005.</bibl><bibl>IDR 3, 3, 005; fig. 3 (Foto u. Zeichnung).</bibl><bibl>IDR 3, 2, 452a. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

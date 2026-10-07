@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sandanski (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011874</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011874</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(81)</height><width>65</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0034" notAfter-custom="0069" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">34 AD - 69 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731733">Sandanski</placeName><placeName type="findspot">{Džigurovo}, bei</placeName><placeName type="region">Blagoevgrad</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011874_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Petronius</name><name type="cognomen">Pudens*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Petronius Pude<expan><ex>n</ex><abbr>s</abbr></expan> <lb n="2"/>vet<expan><ex>e</ex><abbr>ranus</abbr></expan> <expan><abbr>mili</abbr><ex>tavit</ex></expan> in pr<expan><ex>a</ex><abbr>e</abbr></expan><lb break="no" n="3"/>torio co<expan><ex>ho</ex><abbr>r</abbr><ex>tis</ex></expan> XII annos XX <lb n="4"/><expan><abbr>vix</abbr><ex>it</ex></expan> annos XXXXV<supplied reason="lost" cert="low">I</supplied> <lb n="5"/>ex <supplied reason="lost">testamento <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>2 aneinanderpassende Fragmente erhalten. Oberhalb des Inschriftfeldes Kranz mit einer Büste darin. Datierung: Mehr als 10 Praetorianerkohorten gab es nur in der Zeit zwischen Tiberius, Caligula oder Claudius und Vespasian; da der Verstorbene 20 Jahre im Dienst war, kann er nicht vor 34 n. Chr. gestorben sein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1975, 0764.</bibl><bibl>V. Gerasimova-Tomova, MuzPamKul 1973, 9-11; obr. 1 u. 2. - AE 1975.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

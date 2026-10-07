@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042145</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042145</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Novae, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(136)</height><width>65</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot">Lager, {valetudinarium}, über, spätantike Straße (sog. via inscriptionum), sekundär verwendet</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042145_1" sex="M"><persName ref="http://romans1by1.com/rpeople/15115"><name type="praenomen">C.</name><name type="nomen">Aurelius</name><name type="cognomen">Vegetus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-03" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Aurelius <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>f</abbr><ex>ilius</ex></expan> G<supplied reason="lost">a</supplied>leria <lb n="3"/>Vegetus <expan><abbr>Clu</abbr><ex>nia</ex></expan> <lb n="4"/><expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>I</abbr><ex>talicae</ex></expan> <abbr>F</abbr> <abbr>R</abbr> <lb n="5"/><expan><abbr>sti</abbr><ex>pendiorum</ex></expan> XXIII <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XL <lb n="6"/><expan><abbr>milit</abbr><ex>avit</ex></expan> in <expan><abbr>coh</abbr><ex>orte</ex></expan> <lb n="7"/>V <expan><abbr>Ast</abbr><ex>urum</ex></expan> <expan><abbr>ind</abbr><ex>e</ex></expan> <lb n="8"/><expan><abbr>translat</abbr><ex>us</ex></expan> <lb n="9"/>in <expan><abbr>leg</abbr><ex>ione</ex></expan> I <expan><abbr>It</abbr><ex>alica</ex></expan> <lb n="10"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="11"/>ex t<supplied reason="lost" cert="low">estamento</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes eine Rosette. Vor Z. 8 u. 9, aber noch innerhalb des Inschriftfeldes Darstellung einer Schreibtafel. (B): Perea Yébenes: Z. 3: Clun(ia).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 227-228, Nr. 377; Taf. 74, 4.</bibl><bibl>AE 1999, 1333.</bibl><bibl>AE 2001, 1735.</bibl><bibl>AE 2002, 1246.</bibl><bibl>J. Kolendo, Archeologia 50, 1999, 24-26, Nr. 3; pl. 7, 2; fig. 3 (Zeichnung). - AE 1999.</bibl><bibl>J. Kolendo, Gerión 19, 2001, 525-531; Zeichnung. - AE 2001.</bibl><bibl>S. Perea Yébenes, Aquila legionis 2, 2002, 93-99, Nr. 2; Zeichnung. (B) - AE 2002.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

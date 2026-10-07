@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Ampelum &amp;ndash; Zlatna (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019528</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019528</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>100</height><width>58</width><depth>50</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206917">Ampelum</placeName></origPlace><origDate><origDate when-custom="0215" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">215 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1957"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/671258">Zlatna</placeName><placeName type="findspot">Pătrângeni, {Negraia, Kirche}, sekundär verwendet</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019528_1"><persName ref="http://romans1by1.com/rpeople/5633"><name type="cognomen">Suriacus+</name></persName></person><person xml:id="HD019528_2"><persName ref="http://romans1by1.com/rpeople/5634"><name type="praenomen">A.</name><name type="cognomen">Senecio+ Contianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-11-14" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Cereri <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="2"/><expan><abbr>sacr</abbr><ex>um</ex></expan> <lb n="3"/><supplied reason="lost">S</supplied>uriacus <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <lb n="4"/><expan><abbr>disp</abbr><ex>ensator</ex></expan> <expan><abbr>aura</abbr><ex>riarum</ex></expan> cum suis <lb n="5"/><expan><abbr>dedica</abbr><ex>nte</ex></expan> <expan><abbr>A</abbr><ex>ulo</ex></expan> Senec<supplied reason="lost">io</supplied><lb break="no" n="6"/>ne Contiano <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>e</abbr><ex>gregio</ex></expan> <lb n="7"/><expan><abbr>proc</abbr><ex>uratore</ex></expan> <lb n="8"/><supplied reason="lost">I</supplied>II <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Ian</abbr><ex>uarias</ex></expan> Laeto II <lb n="9"/>et Ceriale co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Die angegebenen Maße sind die rekonstruierten Maße nach IDR. (B): AE 2003: Z. 5: dedic(ante) / A(ulo?); Tudor, AE 1959, IDR: abweichende Textwiedergaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1512. (B)</bibl><bibl>AE 1959, 0308. (B)</bibl><bibl>IDR 3, 3, 292; fig. 219 (Foto u. Zeichnung). (B)</bibl><bibl>PIR (2. Aufl.) M 54.</bibl><bibl>PIR (2. Aufl.) M 735.</bibl><bibl>D. Tudor, Istoria sclavajului în Dacia romană (Bucureşti 1957) 277, Nr. 152. (B) - AE 1959.</bibl><bibl>I. Piso, ActaMusNapoca 39/40, 2002/03, 208-211, Nr. 12; fig. 1 a; fig. 1 b (Zeichnung). - AE 2003.</bibl><bibl>ILD 331.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

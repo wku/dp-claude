@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ratiaria, bei &amp;ndash; Dimovo (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD029121</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD029121</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>235</height><width>85</width><depth>32</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207376">Ratiaria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/733642">Dimovo</placeName><placeName type="findspot">{Arčar}, westlich, Grabkammer</placeName><placeName type="region">Vidin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD029121_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14174"><name type="praenomen">C.</name><name type="nomen">Valerius</name><name type="cognomen">Alexander</name></persName></person><person xml:id="HD029121_2" sex="W"><persName ref="http://romans1by1.com/rpeople/14175"><name type="nomen">Iulia</name><name type="cognomen">Pollitta</name></persName></person><person xml:id="HD029121_3" sex="M"><persName ref="http://romans1by1.com/rpeople/14176"><name type="nomen">Valerius</name><name type="cognomen">Marcianus*</name></persName></person><person xml:id="HD029121_4" sex="M"><persName ref="http://romans1by1.com/rpeople/14177"><name type="nomen">Valerius</name><name type="cognomen">Marcus</name></persName></person><person xml:id="HD029121_5" sex="M"><persName ref="http://romans1by1.com/rpeople/14178"><name type="nomen">Valerius</name><name type="cognomen">Philiscus*</name></persName></person><person xml:id="HD029121_6" sex="W"><persName ref="http://romans1by1.com/rpeople/14179"><name type="nomen">Valeria</name><name type="cognomen">Alexandria</name></persName></person><person xml:id="HD029121_7" sex="W"><persName ref="http://romans1by1.com/rpeople/14180"><name type="nomen">Valeria</name><name type="cognomen">Iulia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-09-22" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>G</abbr><ex>aio</ex></expan> Valerio <lb n="3"/>Alexan<lb break="no" n="4"/>dro <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> <lb n="5"/>L Iulia Pol<lb break="no" n="6"/>litta co<expan><ex>n</ex><abbr>iux</abbr></expan> <lb n="7"/>et <lb n="8"/>Valerii Ma<lb break="no" n="9"/><expan><abbr>rcian</abbr><ex>us</ex></expan> <expan><abbr>o</abbr><ex>rnatus</ex></expan> <expan><abbr>o</abbr><ex>rnamentis</ex></expan> <expan><abbr>dec</abbr><ex>urionalibus</ex></expan> <lb n="10"/>Marcus Phi<lb break="no" n="11"/><expan><abbr>lisc</abbr><ex>us</ex></expan> Alexan<lb break="no" n="12"/>dria Iulia <expan><abbr>fili</abbr><ex>i</ex></expan> <lb n="13"/>patri <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Kacarov: Z. 7: Valerii(us).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1911, 0213.</bibl><bibl>G.I. Kacarov, PerSpisBalgKnižDružSofija 22, 1910, 857-858; tab. 1. - AE 1911.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Ulpia Traiana Sarmizegetusa, bei &amp;ndash; Toteşti (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD046391</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD046391</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa, bei</placeName></origPlace><origDate><origDate notBefore-custom="0119" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">119 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1700"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/671574">Toteşti</placeName><placeName type="findspot">{Păclişa}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD046391_1" sex="M"><persName ref="http://romans1by1.com/rpeople/1770"><name type="praenomen">D.+</name><name type="nomen">Terentius+</name><name type="cognomen">Gentianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-23" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>ecimo</ex></expan> Te</supplied>rentio <lb n="2"/>Gentiano <lb n="3"/><expan><abbr>trib</abbr><ex>uno</ex></expan> militum <lb n="4"/>qu<supplied reason="lost">a</supplied>estori <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>pl</abbr><ex>ebis</ex></expan> <expan><abbr>pr</abbr><ex>aetori</ex></expan> <lb n="5"/><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> consuli ponti<supplied reason="lost"><expan><abbr>f</abbr><ex>ici</ex></expan></supplied> <lb n="6"/><expan><abbr>cens</abbr><ex>ori</ex></expan> <expan><abbr>provinc</abbr><ex>iae</ex></expan> Mace<supplied reason="lost"><expan><abbr>d</abbr><ex>oniae</ex></expan></supplied> <lb n="7"/>colonia Ulpia Tra<supplied reason="lost"><expan><abbr>ian</abbr><ex>a</ex></expan></supplied> <lb n="8"/><expan><abbr>Aug</abbr><ex>usta</ex></expan> <expan><abbr>Dac</abbr><ex>ica</ex></expan> Sarmizege<supplied reason="lost">tusa</supplied> <lb n="9"/>patrono
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 01463.</bibl><bibl>ILS 1046.</bibl><bibl>IDR 3, 2, 099.</bibl><bibl>PIR T 56.</bibl><bibl>A. Buonopane - V. La Monaca, in: G.P. Marchi - J. Pál (Hrsg.), Epigrafi romane di Transilvania. Bibliotheca Capitolare di Verona, Manoscritto CCLXVII (Verona - Szeged 2010) 302, Nr. 2; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

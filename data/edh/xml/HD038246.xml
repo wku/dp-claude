@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038246</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038246</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, katholischer Bischofssitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/102">honorific/grave/votive column</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(185)</height><width>30</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate when-custom="0205" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">205 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">Festung, {Bischofspalast}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038246_1" sex="M"><persName ref="http://romans1by1.com/rpeople/9246"><name type="praenomen">C.</name><name type="nomen">Sentius</name><name type="cognomen">Anicetus</name></persName></person><person xml:id="HD038246_2"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD038246_3"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="cognomen">Geta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-14" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F006344" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c70faf57-43e9-422b-9740-d8573951ed3c/file/id/767119/file_version/name/small"/><graphic xml:id="F036370" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/48764fb2-35e9-401c-808f-df4ca83d3ce1/file/id/797227/file_version/name/small"/><graphic xml:id="F036371" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f7976172-fbc6-46c3-b197-942ec68b57c1/file/id/797228/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Sentius <lb n="3"/>Anicetus <lb n="4"/><expan><abbr>dec</abbr><ex>urio</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Sar</abbr><ex>mizegetusae</ex></expan> <lb n="5"/><expan><abbr>patron</abbr><ex>us</ex></expan> <expan><abbr>coll</abbr><ex>egii</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <lb n="6"/><expan><abbr>prim</abbr><ex>us</ex></expan> <lb n="7"/><expan><abbr>mun</abbr><ex>icipii</ex></expan> <expan><abbr>Sept</abbr><ex>imii</ex></expan> <expan><abbr>Apul</abbr><ex>ensis</ex></expan> <lb n="8"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <lb n="9"/><expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostris</ex></expan> <expan><abbr>Imp</abbr><ex>eratoribus</ex></expan> <expan><abbr>Ant</abbr><ex>onino</ex></expan> II et <del rend="erasure">[Geta</del>] co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="10"/>(ante diem) X <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Iun</abbr><ex>ias</ex></expan> <expan><abbr>lun</abbr><ex>a</ex></expan> XVIII die Iovis
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 9: Geta, ursprünglich eradiert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 164; Foto u. Zeichnung.</bibl><bibl>CIL 03, 01051.</bibl><bibl>ILS 7144.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Oescus, aus? &amp;ndash; Levski (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031983</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031983</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>150</height><width>77</width><depth>77</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216907">Oescus, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0161" notAfter-custom="0169" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">161 AD - 169 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729392">Levski</placeName><placeName type="findspot">Malčika, {S. Ana, Kirche}, sekundär verwendet</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031983_1" sex="M"><persName><name type="cognomen">Hermes</name></persName></person><person xml:id="HD031983_2" sex="M"><persName><name type="nomen">Iulius</name><name type="cognomen">Ianuarius</name></persName></person><person xml:id="HD031983_3" sex="M"><persName><name type="nomen">Iulius</name><name type="cognomen">Capito</name></persName></person><person xml:id="HD031983_4" sex="M"><persName><name type="nomen">Iulius</name><name type="cognomen">Epaphroditus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-05-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Numini <expan><abbr>Augustor</abbr><ex>um</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> et Genio <expan><abbr>p</abbr><ex>ublici</ex></expan> <expan><abbr>p</abbr><ex>ortorii</ex></expan> Hermes <lb n="2"/>Iuliorum Ianu<lb break="no" n="3"/>ari Capitonis <lb n="4"/>Epaphroditi <lb n="5"/>conductorum <lb n="6"/><expan><abbr>p</abbr><ex>ublici</ex></expan> <expan><abbr>p</abbr><ex>ortorii</ex></expan> Illyrici et <lb n="7"/>ripae Thraciae <lb n="8"/><expan><abbr>ser</abbr><ex>vus</ex></expan> <expan><abbr>vil</abbr><ex>icus</ex></expan> posuit
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Weihinschrift CIL III 752 = ILBulg 442 befindet sich nicht auf einer weiteren Seite dieses Altars, wie in CIL III angegeben, sondern auf einem anderen am selben Ort gefundenen Altar. Z. 1 steht auf einem abgesetzten Streifen, der den Mittelteil oben abschließt. (B): CIL III 751: Z. 5: E[p]aphroditi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1902, 0122.</bibl><bibl>CIL 03, 00751. (B)</bibl><bibl>CIL 03, 07434.</bibl><bibl>ILS 1855.</bibl><bibl>ILBulg 441; tab. 84, 441.</bibl><bibl>B. Dobruski, SborNarodSofia 18, 1901, 754-755, Nr. 51; fig. 41. - AE 1902.</bibl><bibl>B. Gerov, Epigraphica 42, 1980, 121-122.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sacidava &amp;ndash; Aliman (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020743</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020743</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(145)</height><width>86</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216965">Sacidava</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/678635">Aliman</placeName><placeName type="findspot">Dunăreni, Muzait, Berg, {Festung, Turm B}, sekundär verwendet?</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020743_1" sex="W"><persName><name type="nomen">0?</name><name type="cognomen">Claudia</name></persName></person><person xml:id="HD020743_2" sex="M"><persName ref="http://romans1by1.com/rpeople/9270"><name type="cognomen">Marcus* Severus</name></persName></person><person xml:id="HD020743_3" sex="M"><persName ref="http://romans1by1.com/rpeople/9271"><name type="cognomen">Salvius</name></persName></person><person xml:id="HD020743_4" sex="W"><persName ref="http://romans1by1.com/rpeople/9272"><name type="cognomen">Severa</name></persName></person><person xml:id="HD020743_5" sex="W"><persName ref="http://romans1by1.com/rpeople/9269"><name type="cognomen">Claudia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-01" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>DIVA Claudia co<lb break="no" n="2"/>niux et <expan><abbr>M</abbr><ex>arcus</ex></expan> Sev&amp;lt;e=I&amp;gt;<expan><abbr>ru</abbr><ex>s</ex></expan> <lb n="3"/>et Salvius et Severa <lb n="4"/>et Claudia patri <lb n="5"/>bene meriteo <note>sic</note> po<lb break="no" n="6"/>suerunt fecit <expan><abbr>val</abbr><ex>e</ex></expan> <lb n="7"/><supplied reason="lost">l</supplied>ector sit tibi ter<expan><ex>r</ex><abbr>a</abbr></expan> levis 
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0754.</bibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 204, Nr. 290; Taf. 117, 4.</bibl><bibl>C. Scorpan, in: D.M. Pippidi, Epigraphica. Travaux dédiés au VIIe Congrès d'Épigraphie Grecque et Latine, Constantza 1977 (Bucureşti 1977) 218-219, Nr. 7; fig. 14; fig. 15 (Zeichnung). - AE 1977.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

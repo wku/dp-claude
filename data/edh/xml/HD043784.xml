@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Germisara &amp;ndash; Geoagiu (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043784</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043784</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><dimensions unit="cm"><height>86</height><width>47</width><depth>38</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207129">Germisara</placeName></origPlace><origDate><origDate notBefore-custom="0180" notAfter-custom="0185" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">180 AD - 185 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1987"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/677517">Geoagiu</placeName><placeName type="findspot">Geoagiu Băi, {Thermalbad, heiliger Bezirk}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043784_1" sex="M"><persName ref="http://romans1by1.com/rpeople/6267"><name type="praenomen">C.</name><name type="nomen">Sironius+*</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-07-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005611" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4561498f-9878-48b6-b587-b635aad69113/file/id/766388/file_version/name/small"/><graphic xml:id="F036282" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2793a384-c55f-4579-95d2-b2bcbe91e979/file/id/797139/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Nym<supplied reason="lost">phis</supplied> <lb n="2"/>sanc<supplied reason="lost">tissimis</supplied> <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Siro<supplied reason="lost"><expan><abbr>n</abbr><ex>ius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>IIIIvirali<supplied reason="lost">s mu</supplied><lb break="no" n="5"/><expan><abbr>nicipi</abbr><ex>i</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> A<supplied reason="lost"><expan><abbr>pul</abbr><ex>ensis</ex></expan></supplied> <lb n="6"/>pro salute s<supplied reason="lost">ua</supplied> <lb n="7"/>et suoru<supplied reason="lost">m</supplied> <lb n="8"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Statuenbasis oder Altar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1485.</bibl><bibl>ILD 327.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

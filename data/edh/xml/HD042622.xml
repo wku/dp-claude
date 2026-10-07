@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Nikopol (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042622</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042622</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nikopol, Brunnen, vemauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><height>97</height><width>200</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0198" notAfter-custom="0209" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD - 209 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728782">Nikopol</placeName><placeName type="findspot">Brunnen, sekundär verwendet</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042622_1" sex="M"><persName><name type="cognomen">Fronto</name></persName></person><person xml:id="HD042622_2" sex="W"><persName><name type="nomen">Aelia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan>? <expan><abbr>M</abbr><ex cert="low">anibus</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> et <expan><abbr>b</abbr><ex>onae</ex></expan> <expan><abbr>m</abbr><ex>emoriae</ex></expan> Fronto <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <expan><abbr>dispens</abbr><ex>ator</ex></expan> <expan><abbr>Moes</abbr><ex>iae</ex></expan> <expan><abbr>inf</abbr><ex>erioris</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> floribus ut saltem requiescant membra iucundis <lb n="2"/>Aeliae carae mihi nunc hoc inclusae sepulcro <lb n="3"/>regina Ditis magni regis <supplied reason="lost">p</supplied>recor hoc te <lb n="4"/>nam meruit haec multa suis pro laudibus a me <lb n="5"/>inmeritae propere solventem fila dearum <lb n="6"/>quae globo Parcarum revolta cuncta gubernant <lb n="7"/>qualis enim fuerit vita quam deinde pudica <lb n="8"/>si possem effari cithara <expan><abbr>suadere</abbr><ex>m</ex></expan> ego Manes <lb n="9"/>haec primum casta quot <supplied reason="lost">t</supplied>e audire libenter <lb n="10"/>et mundi spatia Ditis quoque regia no<expan><ex>ve</ex><abbr>runt</abbr></expan> <lb n="11"/>hanc precor Elysiis iubeas consistere campis <lb n="12"/>et myrta redimire comas et tempora flore <lb n="13"/>Lar mihi haec quondam haec spes haec unica vita <lb n="14"/>et vellet quod vellem nollet quoque ac si ego nollem <lb n="15"/>intima nulla ei quae non mihi nota fuere <lb n="16"/>nec labos <note>sic</note> huic defuit nec vellerem inscia fila <lb n="17"/>parca manu set <note>sic</note> larga meo in amore mariti <lb n="18"/>nec sine me cibus huic gratus nec munera Bacchi <lb n="19"/>consilio mira cata mente nobili fama <lb n="20"/>carmini possessor faveas precor ac precor ut tu <lb n="21"/>hanc tituli sedem velles decorare quodannis <lb n="22"/>et foveas aevi monumentum tempore grato <lb n="23"/>roscida si rosula seu grato flore amaranthi <lb n="24"/>et multi<surplus>s</surplus>generum pomis variisque novisque <lb n="25"/>ut possit toto refoveri temporis anno
+            </ab></div></div>
+            <div type="commentary">
+                <p>Inschriftfeld in Form einer tabula ansata. Z. 2 befindet sich auf dem oberen Rahmen des Inschriftfeldes. Z. 2-26 in Hexametern verfaßt. (B): CIL III 754; 754 add. p. 992; III 7436; CLE; ILBulg; Krummrey: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILBulg 145; tab. 26, 145. (B)</bibl><bibl>CIL 03, 00754. (B)</bibl><bibl>CIL 03, 00754 add. p. 992. (B)</bibl><bibl>CIL 03, 07436. (B)</bibl><bibl>CLE 0492. (B)</bibl><bibl>H. Krummrey, Klio 63, 1981, 527-549. (B)</bibl><bibl>P. Cugusi, Per un nuovo corpus dei Carmina Latina Epigraphica. Materiale e discussioni, MAL 22 (Roma 2007) 105-106.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

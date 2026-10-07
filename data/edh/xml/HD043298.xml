@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Transmarisca &amp;ndash; Tutrakan (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043298</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043298</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(333)</height><width>(59)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217021">Transmarisca</placeName></origPlace><origDate><origDate notBefore-custom="0294" notAfter-custom="0299" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">294 AD - 299 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726141">Tutrakan</placeName><placeName type="findspot">Brunnen, sekundär verwendet</placeName><placeName type="region">Silistra</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043298_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="praenomen">C.</name><name type="nomen">Aurelius* Valerius*</name><name type="cognomen">Diocletianus</name></persName></person><person xml:id="HD043298_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius* Valerius*</name><name type="cognomen">Maximianus</name></persName></person><person xml:id="HD043298_3" sex="M"><persName><name type="nomen">Flavius* Valerius*</name><name type="cognomen">Constantius</name></persName></person><person xml:id="HD043298_4" sex="M"><persName><name type="nomen">Galerius* Valerius*</name><name type="cognomen">Maximianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Imperatores <expan><abbr>Caess</abbr><ex>ares</ex></expan> Gaius <expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Diocletianus <lb n="2"/>et <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Maximianus Pii Felices invicti <expan><abbr>Aug<am>g</am></abbr><ex>usti</ex></expan> et <expan><abbr>Fl</abbr><ex>avius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> <lb n="3"/>Constantius et <expan><abbr>Gal</abbr><ex>erius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Maximianus <expan><abbr>nobb</abbr><ex>ilissimi</ex></expan> <expan><abbr>Caess</abbr><ex>ares</ex></expan> Germani<lb break="no" n="4"/>ci maximi V <expan><abbr>Sarmat</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> IIII Persici <expan><abbr>max</abbr><ex>imi</ex></expan> II Brittanici maximi <lb n="5"/>post debellatis <note>sic</note> hostium gentis <note>sic</note> confirmata orbi suo <lb n="6"/><supplied reason="lost">tranquillitate profuturum in aeternum rei publi</supplied>cae praesidiu<lb break="no" n="7"/><supplied reason="lost">m constituerumt</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>2 aneinanderpassende Fragmente. Inschriftfeld in Form einer tabula ansata. (B): CIL III: Abweichungen in Lesung und Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 06151. (B)</bibl><bibl>M. Zahariade, in: Atti del XI Congresso Internazionale di Epigrafia Greca e Latina, Roma 1997 (Roma 1999) 555, Nr. 3. - AE 1999.</bibl><bibl>J. Kolendo, Eirene 5, 1966, 143.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

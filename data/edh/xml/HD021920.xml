@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Gherla (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021920</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021920</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>64</height><width>(59)</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0142" notAfter-custom="0143" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">142 AD - 143 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1905"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/677429">Gherla</placeName><placeName type="findspot">{Lager}, Prätorium</placeName><placeName type="region">Cluj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD021920_1"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.</name><name type="nomen">Aelius+</name><name type="cognomen">Hadrianus+ Antoninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-17" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> di</supplied>vi Hadriani <expan><abbr>fil</abbr><ex>ius</ex></expan> <supplied reason="lost">divi</supplied> <lb n="2"/><supplied reason="lost">Traiani P</supplied>arthici nepo<supplied reason="lost">s divi</supplied> <lb n="3"/><supplied reason="lost">Nervae p</supplied>ronepos <expan><abbr>T</abbr><ex>itus</ex></expan> Ae<supplied reason="lost">lius</supplied> <lb n="4"/><supplied reason="lost">Hadrianus A</supplied>ntoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <supplied reason="lost">Pius</supplied> <lb n="5"/><supplied reason="lost">tribunicia</supplied> <expan><abbr>potest</abbr><ex>ate</ex></expan> VI co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <supplied reason="lost">III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="6"/><supplied reason="lost">fecit per ala</supplied>m II Pannoni<supplied reason="lost">orum</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzungen nach von Finály. Foto bei Ornstein rechts abgeschnitten, so daß die Enden von Z. 1 u.3 nicht abgebildet sind. (B): Ornstein: Z. 1 (Ende): fi[l.; Z. 3 (Ende): A[elius].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1906, 0112.</bibl><bibl>G. von Finály, AErt 26, 1906, 37-38, Nr. 1; Zeichnung. - AE 1906.</bibl><bibl>J. Ornstein, JŒAI (Beibl.) 11, 1908, 207-208; Fig. 119. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

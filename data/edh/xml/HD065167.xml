@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Philippopolis &amp;ndash; Plovdiv (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065167</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065167</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Plovdiv, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(39)</height><width>(20)</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.6-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216927">Philippopolis</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1987"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="findspot">{Forum}</placeName><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065167_1" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_10" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_11" sex="M"><persName><name type="cognomen">Μοντανός</name></persName></person><person xml:id="HD065167_12" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_13" sex="M"><persName><name type="cognomen">Ἐπταίκενθος+</name></persName></person><person xml:id="HD065167_14" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_15" sex="M"><persName><name type="cognomen">Ἡρακλείδης+</name></persName></person><person xml:id="HD065167_16" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_17" sex="M"><persName><name type="cognomen">Ι Ι[-ο]�</name></persName></person><person xml:id="HD065167_18" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_19" sex="M"><persName><name type="cognomen">Κότυς+</name></persName></person><person xml:id="HD065167_2" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_20" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_21" sex="M"><persName><name type="cognomen">Αὐλούζενις+</name></persName></person><person xml:id="HD065167_22" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_23" sex="M"><persName><name type="cognomen">Ἀπολλωνίδης+</name></persName></person><person xml:id="HD065167_24" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_25" sex="M"><persName><name type="cognomen">Δημοσθένης+</name></persName></person><person xml:id="HD065167_26" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_27" sex="M"><persName><name type="cognomen">Ἀριστοβούλης+</name></persName></person><person xml:id="HD065167_28" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_3" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_4" sex="M"><persName><name type="cognomen">Ἕρπυλλος</name></persName></person><person xml:id="HD065167_5" sex="M"><persName/></person><person xml:id="HD065167_6" sex="M"><persName><name type="cognomen">Σουλπικιανός</name></persName></person><person xml:id="HD065167_7" sex="M"><persName><name type="cognomen">[---]</name><name type="supernomen">ὁ καὶ Δαρδάνις</name></persName></person><person xml:id="HD065167_8" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD065167_9" sex="M"><persName><name type="cognomen">Πρεῖσκος+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-09-21" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Ἑρπύλλου <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ς Σουλπικιανοῦ <lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> πόλε</supplied>ως <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> ὁ καὶ Δαρδάνις <lb n="5"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Π</supplied>ρείσκου <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> Μοντανοῦ <lb n="7"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Ε</supplied>πταικενθου <lb n="8"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> πόλε</supplied>ως <lb n="9"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Ἡρα</supplied>κλείδου <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>Ι Ι<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/>ο</supplied>υ <lb n="11"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> πό</supplied>λεως <lb n="12"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Κο</supplied>τυος <lb n="13"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Αυλ</supplied>ουζενεος <lb n="14"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Ἀπ</supplied>ολλωνίδου <lb n="15"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Δημοσθ</supplied>ένους <lb n="16"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> πόλ</supplied>εως <lb n="17"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Ἀριστ</supplied>οβούλου <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/> σύνδικος <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2007, 1255.</bibl><bibl>V. Gerasimova, NSE 3, 2, 2007, 86-89, Nr. 6; tab. 8, 10; 9, 11. - AE 2007.</bibl><bibl>N. Sharankov, in: A. Iakidou (Hrsg.) Thrace in the Greco-Roman world.</bibl><bibl>Proceedings of the 10th International Congress of Thracology, Komotini- Alexandroupolis (Athens 2007) 522-523, Nr. 3; fog. 6. - AE 2007.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

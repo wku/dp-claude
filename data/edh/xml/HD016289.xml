@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Sexaginta Prista &amp;ndash; Ruse (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016289</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016289</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>335</height><width>76</width><depth>56</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216982">Sexaginta Prista</placeName></origPlace><origDate><origDate notBefore-custom="0298" notAfter-custom="0299" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">298 AD - 299 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727523">Ruse</placeName><placeName type="findspot"/><placeName type="region">Ruse</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016289_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="praenomen">C.</name><name type="nomen">Aurelius* Valerius*</name><name type="cognomen">Diocletianus</name></persName></person><person xml:id="HD016289_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius+* Valerius*</name><name type="cognomen">Maximianus</name></persName></person><person xml:id="HD016289_3" sex="M"><persName><name type="nomen">Flavius+* Valerius*</name><name type="cognomen">Constantius</name></persName></person><person xml:id="HD016289_4" sex="M"><persName><name type="nomen">Galerius+* Valerius*</name><name type="cognomen">Maximianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-15" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Imperatores Caes<supplied reason="lost"><expan><abbr>s</abbr><ex>ares</ex></expan></supplied> Gaius <expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Diocletianus et <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>A<supplied reason="lost">u</supplied>r</abbr><ex>elius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> <lb n="2"/>Maximianus Pii <expan><abbr>Fel</abbr><ex>ices</ex></expan> invicti Aug<supplied reason="lost"><expan><abbr>g</abbr><ex>usti</ex></expan> et <expan><abbr>Fl</abbr><ex>avius</ex></expan></supplied> <lb n="3"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Constantius et Ga<supplied reason="lost"><expan><abbr>l</abbr><ex>erius</ex></expan></supplied><surplus>us</surplus> <expan><abbr>Val</abbr><ex>erius</ex></expan> Maximianus <supplied reason="lost"><expan><abbr>nobb</abbr><ex>ilissimi</ex></expan></supplied> Caes<supplied reason="lost"><expan><abbr>s</abbr><ex>ares</ex></expan></supplied> <lb n="4"/>Germanici maximi <supplied reason="lost">V</supplied> <expan><abbr>Sarmat</abbr><ex>ici</ex></expan> maxim<supplied reason="lost">i IIII</supplied> Persici m<supplied reason="lost"><expan><abbr>ax</abbr><ex>imi</ex></expan> II</supplied> Brittannici <lb n="5"/>ma<supplied reason="lost"><expan><abbr>x</abbr><ex>imi</ex></expan></supplied> post <expan><abbr>debellat</abbr><ex>as</ex></expan> hostium <expan><abbr>gent</abbr><ex>es</ex></expan> confirmata <supplied reason="lost">or</supplied>bi s<supplied reason="lost">u</supplied>o <lb n="6"/>tranquillitate profuturum in aeternum rei publicae <lb n="7"/>praesidium constituerunt
+            </ab></div>
+            <div type="commentary">
+                <p>Maßangaben nur ungefähr. (B): Kolendo; AE 1966; Zahariade: Abweichungen in Lesung und Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1966, 0357. (B)</bibl><bibl>J. Kolendo, Eirene 5, 1966, 139-154. (B) - AE 1966.</bibl><bibl>AE 1999, 1323.</bibl><bibl>M. Zahariade, in: Atti del XI Congresso Internazionale di Epigrafia Greca e Latina, Roma 1997 (Roma 1999) 555, Nr. 2. (B) - AE 1999.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

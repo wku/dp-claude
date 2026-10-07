@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Philippopolis &amp;ndash; Plovdiv (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065322</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065322</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>169</height><width>73</width><depth>73</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216927">Philippopolis</placeName></origPlace><origDate><origDate notBefore-custom="0235" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">235 AD - 238 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="findspot">{Marica, Fluss}, bei, spätantikes Bauwerk (Brücke?), sekundär verwendet</placeName><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065322_1" sex="M"><persName><name type="praenomen">Γ.++</name><name type="nomen">Ἰούλιος+++</name><name type="cognomen">Οὐῆρος+++ Μαξιμεῖνος?+++</name></persName></person><person xml:id="HD065322_2" sex="M"><persName><name type="praenomen">Γ.</name><name type="nomen">Οὐίβιος+</name><name type="cognomen">Γάλλος</name></persName></person><person xml:id="HD065322_3" sex="M"><persName><name type="praenomen">Μ.</name><name type="nomen">Αὐρήλιος</name><name type="cognomen">Στάσων+ Ἰάσων</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-09-21" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">ἀγαθῆι τύχηι</supplied> <lb n="2"/>τὸν <supplied reason="lost">μ</supplied>έγιστον καὶ θει<supplied reason="lost">ότατον</supplied> <lb n="3"/><supplied reason="lost">Α</supplied>ὐτοκράτορα <del rend="erasure">Γ(άιον) Ἰού[λ(ιον) Οὐῆ</del>]<lb break="no" n="4"/><del rend="erasure"><supplied reason="lost">ρον Μα</supplied>ξιμεῖ</del>νον<certainty match="preceding-sibling::node()" locus="value"/> Εὐσεβῆ Ε<supplied reason="lost">ὐ</supplied><lb break="no" n="5"/><supplied reason="lost">τ</supplied>υχῆ Σεβ(αστὸν) ἡ λαμπροτάτη Θρ<supplied reason="lost">ᾳ</supplied><lb break="no" n="6"/>κῶν ἐπάρχειος ἡγεμονεύοντος <lb n="7"/>τῆς Θρᾳκῶν ἐπαρχείας Γ(αίου) <supplied reason="lost">Οὐ</supplied>ιβίου <lb n="8"/>Γάλλου πρεσβ(ευτοῦ) Σεββ(αστῶν) ἀντιστρα<lb break="no" n="9"/>τήγου <lb n="10"/>ἐπιμελουμένου Μάρκου Αὐρηλίου <supplied reason="lost">Στάσ</supplied>ονος <lb n="11"/>Εἰάσονος θρᾳκάρχου <lb n="12"/>εὐτυχῶς
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 1250.</bibl><bibl>N. Sharankov, BIAB 39, 2006, 238-240, Nr. 4; obr. 8. - AE 2006.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

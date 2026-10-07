@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055720</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055720</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vratsa, Ist. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(5)</height><width>(5)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.3-0.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0153" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">153 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern"/><placeName type="findspot">{Ogosta, Fluß} - {Iskâr, Fluß}, zwischen</placeName><placeName type="region">Vraca / Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-28" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> tunc <expan><abbr>habuis</abbr><ex>sent</ex></expan> cum <supplied reason="lost">est <expan><abbr>civit</abbr><ex>as</ex></expan> iis data aut</supplied> <lb n="1"/>cu<supplied reason="lost">m</supplied> i<expan><ex>i</ex><abbr>s</abbr></expan> quas postea dux<supplied reason="lost">issent dumtaxat</supplied> <lb n="2"/>singulis <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> <supplied reason="lost">VII <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Nov</abbr><ex>embres</ex></expan></supplied> <lb n="3"/><expan><abbr>C</abbr><ex>aio</ex></expan> C<supplied reason="lost">a</supplied>ttio Marcello <expan><abbr>Q</abbr><ex>uinto</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> P<supplied reason="lost">etiedio Gallo <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="4"/><supplied reason="lost">ala</supplied>e I <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>Gallor</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <supplied reason="lost"><expan><abbr>R</abbr><ex>omanorum</ex></expan> cui praeest</supplied> <expan><abbr>C</abbr><ex>aius</ex></expan> O<supplied reason="lost">s</supplied>torius Tranqui<supplied reason="lost">llianus Roma</supplied> <lb n="5"/>ex grega<supplied reason="lost">le</supplied> <lb n="6"/>Cu<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>e Titi <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr>descript</abbr><ex>um</ex></expan> et recogni<supplied reason="lost"><expan><abbr>t</abbr><ex>um</ex></expan> ex <expan><abbr>tabul</abbr><ex>a</ex></expan> aerea</supplied> <lb n="8"/>quae fixa est Roma<supplied reason="lost">e in muro post</supplied> <lb n="9"/><expan><abbr>templ</abbr><ex>um</ex></expan> divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad <supplied reason="lost">Minervam</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Hadriani <expan><abbr>f</abbr><ex>ilius</ex></expan> d</supplied>ivi Traiani Par<lb break="no" n="2"/><supplied reason="lost"><expan><abbr>th</abbr><ex>ici</ex></expan> <expan><abbr>n</abbr><ex>epos</ex></expan> divi Nervae <expan><abbr>pron</abbr><ex>epos</ex></expan> <expan><abbr>T</abbr><ex>itus</ex></expan></supplied> Ae<supplied reason="lost">lius H</supplied>adria<lb break="no" n="3"/><supplied reason="lost">nus Antoninus Au</supplied>&amp;lt;g=C&amp;gt;(ustus) Pius <expan><abbr>p</abbr><ex>ontifex</ex></expan> ma<supplied reason="lost"><expan><abbr>x</abbr><ex>imus</ex></expan></supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XVI <expan><abbr>imp</abbr><ex>erator</ex></expan> II</supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>eq</abbr><ex>uitibus</ex></expan> et <expan><abbr>ped</abbr><ex>itibus</ex></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>m</abbr><ex>ilitaverunt</ex></expan> in <expan><abbr>al</abbr><ex>is</ex></expan> V et co</supplied><expan><abbr>h</abbr><ex>ortibus</ex></expan> XI <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>a</abbr><ex>ppellantur</ex></expan> I Au&amp;lt;g=C&amp;gt;(usta) &amp;lt;G=C&amp;gt;<expan><abbr>all</abbr><ex>orum</ex></expan> <lb n="6"/><supplied reason="lost">et <expan><abbr>Gem</abbr><ex>elliana</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <expan><abbr>Taur</abbr><ex>iana</ex></expan> <expan><abbr>vict</abbr><ex>rix</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan></supplied> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et III <expan><abbr>Ast</abbr><ex>urum</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <lb n="7"/><supplied reason="lost"><expan><abbr>Ham</abbr><ex>iorum</ex></expan> <expan><abbr>Syr</abbr><ex>orum</ex></expan> <expan><abbr>sag</abbr><ex>ittariorum</ex></expan> et I <expan><abbr>Itur</abbr><ex>aeorum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et V</supplied> <expan><abbr>Dalm</abbr><ex>atarum</ex></expan> et II H<supplied reason="lost"><expan><abbr>ispan</abbr><ex>orum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <expan><abbr>Ast</abbr><ex>urum</ex></expan> et <expan><abbr>Call</abbr><ex>aecorum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et II <expan><abbr>Syr</abbr><ex>orum</ex></expan> <expan><abbr>sag</abbr><ex>ittariorum</ex></expan></supplied> |(milliaria) et III <expan><abbr>Ast</abbr><ex>urum</ex></expan> <supplied reason="lost"><expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et II <expan><abbr>Hisp</abbr><ex>ana</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et <expan><abbr>Lemav</abbr><ex>orum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et III Gal</supplied><expan><abbr>l</abbr><ex>orum</ex></expan> felix et <gap reason="lost" quantity="1" unit="line"/> 
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1547.</bibl><bibl>RMD 411.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Callatis &amp;ndash; Mangalia (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043071</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043071</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(143)</height><width>(73)</width><depth>(54)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.8-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216744">Callatis</placeName></origPlace><origDate><origDate when-custom="0274" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">274 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/673921">Mangalia</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043071_1"><persName ref="https://www.wikidata.org/wiki/Q46780"><name type="praenomen">L.+++</name><name type="nomen">Domitius+++</name><name type="cognomen">Aurelianus+++</name></persName></person><person xml:id="HD043071_2"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]us++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-11-08" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">Im</supplied>p</abbr><ex>erator</ex></expan> Caesar <lb n="2"/><del rend="erasure"><supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan> D</supplied>omitius</del> <lb n="3"/><del rend="erasure"><supplied reason="lost">Au</supplied>relianus</del> <lb n="4"/><del rend="erasure">[Pius</del> Fe]lix Augustu<supplied reason="lost">s</supplied> <lb n="5"/><supplied reason="lost">tribu</supplied>niciae pote<lb break="no" n="6"/><supplied reason="lost">stati</supplied>s III co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="7"/><supplied reason="lost">pro</supplied>consul pon<lb break="no" n="8"/><supplied reason="lost">tifex m</supplied>aximus Part<expan><ex>h</ex><abbr>i</abbr></expan><lb break="no" n="9"/><supplied reason="lost">cus</supplied> Gutticu<supplied reason="lost">s</supplied> <note>sic</note> <lb n="10"/><supplied reason="lost">maximu</supplied>s Germanicu<supplied reason="lost">s</supplied> <lb n="11"/><supplied reason="lost">maxim</supplied>us Carpicu<supplied reason="lost">s</supplied> <lb n="12"/><supplied reason="lost">maximus re</supplied>stitutori <note>sic</note> patri<supplied reason="lost">ae</supplied> <lb n="13"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>s <lb n="14"/><supplied reason="lost">pra</supplied>eses provincia<supplied reason="lost">e</supplied> <lb n="15"/><supplied reason="lost"><expan><abbr>dev</abbr><ex>otus</ex></expan> numini</supplied> <expan><abbr>maiestatiq</abbr><ex>ue</ex></expan> eiu<supplied reason="lost">s</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IScM 3, 096; Foto.</bibl><bibl>CIL 03, 07586.</bibl><bibl>ILS 8925.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

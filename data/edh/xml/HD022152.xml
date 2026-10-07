@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ratiaria &amp;ndash; Dimovo (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD022152</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD022152</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Volksbank, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(114)</height><width>(42)</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207376">Ratiaria</placeName></origPlace><origDate><origDate notBefore-custom="0271" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">271 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/733642">Dimovo</placeName><placeName type="findspot">{Arčar}</placeName><placeName type="region">Vidin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD022152_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14349"><name type="nomen">Aurelius+</name><name type="cognomen">Domi[---]</name></persName></person><person xml:id="HD022152_2" sex="W"><persName ref="http://romans1by1.com/rpeople/14350"><name type="nomen">Aurelia*</name><name type="cognomen">Surilla+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/>Aurel<supplied reason="lost">io</supplied> <lb n="3"/>Domi<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>vet</abbr><ex>erano</ex></expan> ex |(centurione) <supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> <lb n="5"/>XIII <expan><abbr>gem</abbr><ex>inae</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <supplied reason="lost"><expan><abbr>a</abbr><ex>nnos</ex></expan></supplied> <lb n="6"/>LX <expan><abbr>Aur</abbr><ex>elia</ex></expan> Sur<supplied reason="lost">il</supplied><lb break="no" n="7"/>la coniu<supplied reason="lost">nx</supplied> <lb n="8"/><supplied reason="lost">ma</supplied>rito <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Kranz mit Rosette darin. Datierung: wohl nach 274/275 n. Chr., als die legio XIII gemina in die neue Provinz Dacia Ripensis verlegt wurde.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1938, 0096.</bibl><bibl>C.M. Danoff, JŒAI (Beibl.) 31, 1939, 108, Nr. 12. - AE 1938.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

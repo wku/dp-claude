@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Tomi &amp;ndash; Constanţa (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017663</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017663</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>(86)</height><width>(46)</width><depth>(50)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217016">Tomi</placeName></origPlace><origDate><origDate notBefore-custom="0122" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">122 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/680963">Constanţa</placeName><placeName type="findspot">{Anadolchioi}</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017663_1" sex="M"><persName><name type="praenomen">Q.+</name><name type="nomen">Roscius+ Coelius+ Pompeius+</name><name type="cognomen">Murena+ Falco+</name></persName></person><person xml:id="HD017663_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Annaeus</name><name type="cognomen">Vibianus</name></persName></person><person xml:id="HD017663_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Annaeus</name><name type="cognomen">Vibius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-05" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Q</abbr><ex>uinto</ex></expan> Roscio Murenae Coe</supplied><lb break="no" n="2"/><supplied reason="lost">lio Pompeio Falconi</supplied> <lb n="3"/><supplied reason="lost">consuli <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied> <lb n="4"/><supplied reason="lost">Lyci</supplied>ae et Pamphyliae <lb n="5"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>ato</ex></expan> A</supplied><expan><abbr>ug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> Iudae<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="6"/><supplied reason="lost">cura</supplied>tori viae Traiana<supplied reason="lost">e</supplied> <lb n="7"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>ato</ex></expan> A</supplied><expan><abbr>ug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>Moes</abbr><ex>iae</ex></expan> <lb n="8"/><supplied reason="lost">inf</supplied>erioris <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="9"/><supplied reason="lost"><expan><abbr>pr</abbr><ex>o</ex></expan></supplied> <expan><abbr>pr</abbr><ex>aetore</ex></expan> provinciae <lb n="10"/>Brittanniae <lb n="11"/><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">A</supplied>nnaeus Vibianus <lb n="12"/><supplied reason="lost">ex t</supplied>estamento fratris <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> Annaei Vibi posui<supplied reason="lost">t</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Tudor; AE 1957: Abweichungen in Lesung und Ergänzung. Datierung: nicht vor der britannischen Statthalterschaft des Pompeius Falco.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1957, 0336. (B)</bibl><bibl>D. Tudor, StCercIstorV 2, 1951, 159-164; fig. 1. (B) - AE 1957.</bibl><bibl>IScM 2, 046; Foto.</bibl><bibl>PIR (2. Aufl.) P 602.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Gorna Malina (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014687</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014687</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(189)</height><width>52</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0350" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 350 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/732644">Gorna Malina</placeName><placeName type="findspot">{Čekančevo}</placeName><placeName type="region">Sofija, oblast</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014687_1" sex="W"><persName><name type="cognomen">Aelia* Claudia</name></persName></person><person xml:id="HD014687_2" sex="W"><persName><name type="cognomen">Aelia</name></persName></person><person xml:id="HD014687_3" sex="M"><persName><name type="cognomen">Valerius*?</name></persName></person><person xml:id="HD014687_4" sex="W"><persName><name type="cognomen">Ferociana</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-27" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Hic <lb n="2"/>ego ia<lb break="no" n="3"/>cio <note>sic</note> infelix no<lb break="no" n="4"/>mine <expan><ex>A</ex><abbr>elia</abbr></expan> <lb n="5"/>Claudia domi<lb break="no" n="6"/>ni adcubitae ge<lb break="no" n="7"/><supplied reason="lost">n</supplied>ita vixi <expan><abbr>an</abbr><ex>nos</ex></expan> decem cess<lb break="no" n="8"/>a <note>sic</note> <expan><abbr>fuisse</abbr><ex>m</ex></expan> Ca<expan><ex>le</ex><abbr>nd</abbr><ex>is</ex></expan> <expan><abbr>Iuni</abbr><ex>is</ex></expan> certe <lb n="9"/>cupiunt mei cari pare<lb break="no" n="10"/>ntes me nuvere <note>sic</note> viro et glo<lb break="no" n="11"/>ria pascere omnes set <note>sic</note> i<surplus>i</surplus>am n<lb break="no" n="12"/>ec amplius licuit proli<lb break="no" n="13"/>xsa <note>sic</note> viverem plus bis <lb n="14"/>denos et tres annos cu<lb break="no" n="15"/>m ego cessa <note>sic</note> fuis<lb break="no" n="16"/>se<supplied reason="lost">m</supplied> fatus <note>sic</note> <lb n="17"/>aut genesis me fe<lb break="no" n="18"/>cit carere pare<lb break="no" n="19"/>ntes existor eas <lb n="20"/><expan><ex>h</ex><abbr>aves</abbr></expan> <note>sic</note> Aeliam comi<lb break="no" n="21"/><expan><abbr>te</abbr><ex>m</ex></expan> <expan><abbr>matre</abbr><ex>m</ex></expan> deest a<lb break="no" n="22"/>ncilla <lb n="23"/>vivite fe<lb break="no" n="24"/>lices qu<lb break="no" n="25"/>am<lb break="no" n="26"/>diu <lb n="27"/><expan><abbr>s</abbr><ex cert="low">itis</ex></expan> <lb n="28"/><expan><abbr>Val</abbr><ex cert="low">erius</ex></expan> <abbr>C</abbr> <abbr>B</abbr> t<expan><ex>itu</ex><abbr>l</abbr><ex>um</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> Ferocianae <lb n="29"/>c<expan><ex>oniu</ex><abbr>g</abbr><ex>i</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> vale viator
+            </ab></div></div>
+            <div type="commentary">
+                <p>Textwiedergabe nach AE 1968. (B): Egger, AE 1953: Abweichungen in Lesung und Ergänzungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1968, 0455.</bibl><bibl>AE 1953, 0243. (B)</bibl><bibl>R. Egger, Der Grabstein von Čekančevo (Wien 1950) 3-13; Taf. 1, 1. (B) - AE 1953.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

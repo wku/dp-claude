@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Ulpia Traiana Sarmizegetusa, aus &amp;ndash; Densuş (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD046422</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD046422</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Deva, Muz. Civil. Dac. şi Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(90)</height><width>(70)</width><depth>40</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa, aus</placeName></origPlace><origDate><origDate notBefore-custom="0107" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">107 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1850"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/679478">Densuş</placeName><placeName type="findspot">{Curia Nopcsa}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD046422_1" sex="M"><persName ref="http://romans1by1.com/rpeople/2066"><name type="praenomen">M.</name><name type="nomen">Ulpius*</name><name type="cognomen">Gemellinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Ulp</abbr><ex>io</ex></expan> Gem<supplied reason="lost">ellino</supplied> <lb n="2"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> II <supplied reason="lost"><expan><abbr>Fl</abbr><ex>aviae</ex></expan> <expan><abbr>Com</abbr><ex cert="low">magenorum</ex></expan></supplied> <lb n="3"/>q<expan><ex>uin</ex><abbr>q</abbr><ex>uennali</ex></expan> <expan><abbr>IIvir</abbr><ex>o</ex></expan> qu<supplied reason="lost"><expan><abbr>aestor</abbr><ex>i</ex></expan></supplied> <lb n="4"/><expan><abbr>dec</abbr><ex>urioni</ex></expan> co<supplied reason="lost"><expan><abbr>l</abbr><ex>oniae</ex></expan> <expan><abbr>Sar</abbr><ex>mizegetusae</ex></expan></supplied> <lb n="5"/>ordo <expan><abbr>col</abbr><ex>oniae</ex></expan> o<supplied reason="lost">b merita</supplied> <lb n="6"/>ipsiu<supplied reason="lost">s</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 2, 123; fig. 98 (Foto u. Zeichnung).</bibl><bibl>CIL 03, 01484.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

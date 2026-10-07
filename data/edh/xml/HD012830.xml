@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Istrus &amp;ndash; Istria (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD012830</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD012830</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Istria, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(72)</height><width>(30)</width><depth>(18)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216839">Istrus</placeName></origPlace><origDate><origDate notBefore-custom="0284" notAfter-custom="0350" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">284 AD - 350 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675471">Istria</placeName><placeName type="findspot">{spätantike Festung}</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD012830_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="praenomen">C.+</name><name type="nomen">Aurelius+* Valerius+*</name><name type="cognomen">Diocletianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ paci]<expan><abbr>s</abbr><ex cert="low"/></expan> fund<supplied reason="lost">atori</supplied> <lb n="2"/><supplied reason="lost">liberta</supplied>tis res<supplied reason="lost">titu</supplied><lb break="no" n="3"/><supplied reason="lost">tori te</supplied>rrae ma<supplied reason="lost">risque</supplied> <lb n="4"/><supplied reason="lost">defen</supplied>sori pii<supplied reason="lost">ssimo</supplied> <lb n="5"/><supplied reason="lost">maxi</supplied>mo indu<supplied reason="lost">lgenti</supplied><lb break="no" n="6"/><supplied reason="lost">ssimoq</supplied>ue <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> I<supplied reason="lost"><expan><abbr>mp</abbr><ex>eratori</ex></expan> <expan><abbr>C</abbr><ex>aio</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan></supplied> <lb n="7"/><supplied reason="lost"><expan><abbr>Val</abbr><ex>erio</ex></expan> Di</supplied>ocle<supplied reason="lost">tiano <expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan></supplied> <lb n="8"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>TE<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0896.</bibl><bibl>AE 1990, 0865.</bibl><bibl>IScM 1, 418; Foto.</bibl><bibl>C. Chirac, StCercIstorV 38, 1987, 281-284; fig. 1; fig. 2 u. 3 (Zeichnungen). - AE 1987, AE 1990.</bibl><bibl>I.I. Russu, Transilvania 6, 1977, 7-12; fig. 1 (Zeichnung). - AE 1987.</bibl><bibl>A. Avram, Dacia 51, 2007, 113, Nr. 418. - AE 2007.</bibl><bibl>AE 2007, p. 458 a. n. 1228.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

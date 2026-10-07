@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Nistoreşti (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028849</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028849</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>215</height><width>65</width><depth>85</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0157" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">157 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/672196">Nistoreşti</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD028849_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Pompeius</name><name type="cognomen">Valens*</name></persName></person><person xml:id="HD028849_2" sex="W"><persName><name type="cognomen">Mansueta</name></persName></person><person xml:id="HD028849_3" sex="M"><persName><name type="cognomen">Donatus</name></persName></person><person xml:id="HD028849_4" sex="M"><persName><name type="cognomen">Marcus*</name></persName></person><person xml:id="HD028849_5" sex="M"><persName><name type="cognomen">Barbarus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-12-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>I</abbr><ex>nferis</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Lucius Pompe<lb break="no" n="3"/>ius Vale<expan><ex>n</ex><abbr>s</abbr></expan> na<expan><ex>t</ex><abbr>us</abbr></expan> <lb n="4"/>Fabia Anquira <note>sic</note> <lb n="5"/><expan><abbr>consist</abbr><ex>ens</ex></expan> <expan><abbr>r</abbr><ex>egione</ex></expan> <expan><abbr>Hist</abbr><ex>ri</ex></expan> <lb n="6"/>muneraque fe<lb break="no" n="7"/>cit Histro in <lb n="8"/>oppido arc<expan><ex>h</ex><abbr>on</abbr></expan><lb break="no" n="9"/>tium et <expan><abbr>aediliciu</abbr><ex>m</ex></expan> <lb n="10"/>et sacerdotium <lb n="11"/>at <note>sic</note> Liber<supplied reason="lost">um</supplied> et sepul<lb break="no" n="12"/>crum se vivo <surplus>ME</surplus> <lb n="13"/>ipse sibi fecit et <expan><abbr>ara</abbr><ex>m</ex></expan> <lb n="14"/>posuit cum fuit <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="15"/>LXXVI et <gap reason="lost" extent="unknown" unit="character"/> Man<lb break="no" n="16"/>suetae coniu<supplied reason="lost">g</supplied>i suae <lb n="17"/><expan><abbr>p</abbr><ex>iae</ex></expan> bene merentique <lb n="18"/>vixit <expan><abbr>an</abbr><ex>nos</ex></expan> L et Do<lb break="no" n="19"/>nato filio suo qui nu<expan><ex>n</ex><abbr>c</abbr></expan> <lb n="20"/>est <expan><abbr>an</abbr><ex>norum</ex></expan> XX <expan><abbr>d</abbr><ex>ierum</ex></expan> <expan><abbr>m</abbr><ex>inus</ex></expan> <expan><abbr>pl</abbr><ex>us</ex></expan> V <expan><abbr>M</abbr><ex>arcus</ex></expan> ma<lb break="no" n="21"/><expan><abbr>io</abbr><ex>rarius</ex></expan> rerum supr<supplied reason="lost">a</supplied> <expan><abbr>s</abbr><ex>cripti</ex></expan> e<supplied reason="lost">t</supplied> supra <supplied reason="lost">scrip</supplied><lb break="no" n="22"/>te puosuit <note>sic</note> quem com<expan><ex>m</ex><abbr>e</abbr><ex>n</ex><abbr>do</abbr></expan> <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="23"/>tus cum libert<expan><ex>i</ex><abbr>s</abbr></expan> me<expan><ex>i</ex><abbr>s</abbr></expan> scrip<lb break="no" n="24"/><supplied reason="lost">tum</supplied> XIII <expan><abbr>Octob</abbr><ex>ribus</ex></expan> Barbaro co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1894, 0108.</bibl><bibl>CIL 03, 12489.</bibl><bibl>IScM 1, 373; Foto.</bibl><bibl>G.G. Točilescu, AEM 17, 1894, 87-88, Nr. 11. - AE 1894.</bibl><bibl>ILS 7182.</bibl><bibl>PIR (2. Aufl.) C 602.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

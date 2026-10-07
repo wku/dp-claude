@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Sexaginta Prista, bei &amp;ndash; Ivanovo (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017720</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017720</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ruse, Ist. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>83</height><width>(140)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216982">Sexaginta Prista, bei</placeName></origPlace><origDate><origDate notBefore-custom="0117" notAfter-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">117 AD - 138 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1928"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/730122">Ivanovo</placeName><placeName type="findspot">Košov, bei, Beli Lom / Černi Lom, Zusammenfluss, bei, {Beli Lom, Fluß, bei}</placeName><placeName type="region">Ruse</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017720_1" sex="M"><persName><name type="cognomen">Traianus+ Hadrianus+</name></persName></person><person xml:id="HD017720_2"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD017720_3"><persName><name type="cognomen">0?</name></persName></person><person xml:id="HD017720_4" sex="M"><persName><name type="cognomen">Priscus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-18" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dian<supplied reason="lost">a</supplied>e Plestrensi <lb n="2"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <supplied reason="lost">di</supplied>vi Traiani <lb n="3"/><expan><abbr>Part</abbr><ex>hici</ex></expan> <supplied reason="lost"><expan><abbr>fil</abbr><ex>io</ex></expan> divi Ner</supplied>vae nepoti <lb n="4"/>Tr<supplied reason="lost">aiano Hadria</supplied>no <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> HS VII <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> Prisco <lb n="8"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: 123 n. Chr., sofern ein Konsulat (des L. Venuleius Apronianus Octavius Priscus) gemeint ist.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1954, 0035.</bibl><bibl>N. Angelov, BIAB 17, 1950, 279-280; fig. 227; fig. 227. - AE 1954.</bibl><bibl>PIR V 252.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

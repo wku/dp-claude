@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072035</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072035</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>15</height><width>21</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern"/><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072035_1" sex="M"><persName ref="http://romans1by1.com/rpeople/15587"><name type="nomen">Φλάβιος* Αἴλιος</name><name type="cognomen">Α[---]</name></persName></person><person xml:id="HD072035_2" sex="M"><persName ref="http://romans1by1.com/rpeople/15588"><name type="nomen">Φλάβιος*</name><name type="cognomen">Μακεδών+</name></persName></person><person xml:id="HD072035_3"><persName ref="http://romans1by1.com/rpeople/15589"><name type="cognomen">Φίλων</name></persName></person><person xml:id="HD072035_4" sex="M"><persName><name type="cognomen">Ἀρτεμᾶς+?</name></persName></person><person xml:id="HD072035_5" sex="M"><persName ref="http://romans1by1.com/rpeople/15590"><name type="cognomen">Καλλέας</name></persName></person><person xml:id="HD072035_6" sex="M"><persName><name type="cognomen">Δορυφόρος+?</name></persName></person><person xml:id="HD072035_7" sex="M"><persName ref="http://romans1by1.com/rpeople/15591"><name type="cognomen">Ἀπρείλις</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-08-03" who="Cowey">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>Φλά(βιος) Αἴλις Α<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Φλά(βιος) Μακε<supplied reason="lost">δών</supplied> <lb n="3"/>Φίλων Ἀρτε<supplied reason="lost" cert="low">μᾶ</supplied> <lb n="4"/>Καλλέας Δ<supplied reason="lost" cert="low">ορυφόρου</supplied> <lb n="5"/>Ἀπρείλις Μ<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 1145.</bibl><bibl>F. Matei-Popescu, StCercIstorV 62, 2011, 267-269, Nr. 2; fig. 2. - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

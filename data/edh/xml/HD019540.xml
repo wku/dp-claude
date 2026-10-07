@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Drobeta &amp;ndash; Drobeta - Turnu Severin (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019540</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019540</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Drobeta - Turnu Severin, Muz. Reg. Porţilor de Fier</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(173)</height><width>(72)</width><depth>73</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">11-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207100">Drobeta</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/678817">Drobeta - Turnu Severin</placeName><placeName type="findspot">{Thermen}, sekundär verwendet</placeName><placeName type="region">Mehedinți</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019540_1" sex="M"><persName ref="http://romans1by1.com/rpeople/7650"><name type="praenomen">C.+?</name><name type="nomen">Titius+?</name><name type="cognomen">Ianuarius+</name></persName></person><person xml:id="HD019540_2" sex="M"><persName ref="http://romans1by1.com/rpeople/7651"><name type="praenomen">C.+</name><name type="nomen">Titius</name><name type="cognomen">Epipodius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan>? T</supplied>itio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="3"/><expan><abbr><supplied reason="lost">Vi</supplied>ctrice</abbr><ex>nsi</ex></expan> <lb n="4"/><supplied reason="lost">Ia</supplied>nuario <lb n="5"/><supplied reason="lost">|(centurioni)</supplied> <expan><abbr>leg</abbr><ex>ionis</ex></expan> IIII <expan><abbr>F</abbr><ex>laviae</ex></expan> <expan><abbr>fr</abbr><ex>umentario</ex></expan> <lb n="6"/><expan><abbr><supplied reason="lost">v</supplied>ix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> LVI <lb n="7"/><supplied reason="lost" cert="low">C(aius)</supplied> Titius Epipo<lb break="no" n="8"/><supplied reason="lost">di</supplied>us <expan><abbr>lib</abbr><ex>ertus</ex></expan> et heres <lb n="9"/><supplied reason="lost">opt</supplied>imo patro<lb break="no" n="10"/><supplied reason="lost">no</supplied> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> <lb n="11"/><supplied reason="lost"><expan><abbr>h</abbr><ex>ic</ex></expan></supplied> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 5 (Ende): möglicherweise auch F(laviae) f(elicis) &amp;lt;f&amp;gt;r(umentario). (B): Tudor; AE 1959: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1959, 0314. (B)</bibl><bibl>AE 1977, 0713.</bibl><bibl>IDR 2, 035; Foto u. Zeichnung.</bibl><bibl>ILD 060.</bibl><bibl>D. Tudor, Oltenia Romanǎ (Bucureşti 1958) 383, Nr. 17. (B) - AE 1959.</bibl><bibl>I.I. Russu, Drobeta 1976, 47-54; fig. 1; Zeichnung. - AE 1977.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

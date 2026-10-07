@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Galda de Jos (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011426</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011426</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sebeş, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>59</height><width>35</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0107" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">107 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1960"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/685096">Galda de Jos</placeName><placeName type="findspot">{Benic}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011426_1"><persName ref="http://romans1by1.com/rpeople/7292"><name type="cognomen">Paulianus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-11-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005985" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c151de1b-4ff3-48e3-bae2-6622a6c9767b/file/id/766760/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Libe<expan><ex>n</ex><abbr>s</abbr></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>votu</abbr><ex>m</ex></expan> <lb n="2"/>Lib<expan><ex>e</ex><abbr>ro</abbr></expan> P<lb break="no" n="3"/>atri <expan><abbr>s</abbr><ex>olvit</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="4"/><expan><abbr>Paulianu</abbr><ex>s</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Z. 1: Popa - Aldea, AE 1973: Libiis; Z. 5: Popa - Aldea,. AE 1973, Linderski, AE 1995: Paulinu(s).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1973, 0456. (B)</bibl><bibl>AE 1995, 1294. (B)</bibl><bibl>A. Popa - I.A. Aldea, Latomus 32, 1973, 623-625; fig. 1; fig. 2 (Zeichnung). (B) - AE 1973.</bibl><bibl>J. Linderski, Roman questions. Selected papers (Stuttgart 1995) 366-368. (B) - AE 1995.</bibl><bibl>IDR 3, 4, 061; fig. 30 (Foto u. Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

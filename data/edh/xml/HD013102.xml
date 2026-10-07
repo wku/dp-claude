@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Odessus &amp;ndash; Varna (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD013102</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD013102</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(6)</height><width>(6)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216904">Odessus</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0118" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 118 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726050">Varna</placeName><placeName type="findspot"/><placeName type="region">Varna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-06" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Traiani Parthici <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Nervae nepos T</supplied>raia<supplied reason="lost">nus Hadrianus Au</supplied><expan><abbr>g</abbr><ex>ustus</ex></expan> pontifex m<supplied reason="lost">aximus tribu</supplied><expan><abbr>nic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> III co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <supplied reason="lost">II<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="2"/><supplied reason="lost">ii</supplied>s qui militaverunt i<supplied reason="lost">n classe praetoria</supplied> Misensensi quae est s<supplied reason="lost">ub Iulio Front</supplied>one sex et viginti sti<supplied reason="lost">pendis emeritis</supplied> dimissis honesta mis<supplied reason="lost">sione quorum n</supplied>omina subscripta <supplied reason="lost">sunt ipsis lib</supplied>eris posterisque eo<supplied reason="lost">rum civitatem de</supplied>dit et conubium c[um uxoribus ------ </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Traiani Parthici <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Ner</supplied>vae nepos Tr<supplied reason="lost">aianus Hadrianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan></supplied> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> trib<supplied reason="lost"><expan><abbr>unic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> III <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> iis q</supplied>ui militaveru<supplied reason="lost">nt in classe <expan><abbr>praet</abbr><ex>oria</ex></expan></supplied> Misenensi qua<supplied reason="lost">e est sub Iulio Fronton</supplied>e sex et vigint<supplied reason="lost">i stipendis emeritis di</supplied>missis honesta <supplied reason="lost">missione quorum n</supplied>omina subscri<supplied reason="lost">pta sunt ipsis liberis po</supplied>sterisque [eorum <expan><abbr>civit</abbr><ex>atem</ex></expan> dedit et conubium cum uxoribus ------
+            </ab></div></div>
+            <div type="commentary">
+                <p>Zeilentrennung wegen des fragmentarischen Erhaltungszustandes nicht zu klären.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1899, 0063.</bibl><bibl>AE 1901, p. 15 s. n. 53.</bibl><bibl>CIL 16, 00066.</bibl><bibl>G.G. Tocilesco, JŒAI 2, 1899, 151-154; Fotos. - AE 1899.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

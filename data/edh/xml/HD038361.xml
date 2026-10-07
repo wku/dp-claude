@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038361</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038361</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Deva, Muz. Civil. Dac. şi Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>27</height><width>(27)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-1.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0211" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1857"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot"/><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038361_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]ius+</name><name type="cognomen">[---]tus</name></persName></person><person xml:id="HD038361_2"><persName ref="http://romans1by1.com/rpeople/9730"><name type="praenomen">M.</name><name type="nomen">Aurelius* Comatius*</name><name type="cognomen">Super</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-21" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005027" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/52582721-3037-4a8a-807c-8a704fd9c902/file/id/765804/file_version/name/small"/><graphic xml:id="F036386" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/049aaef1-3ca0-4b87-a9ed-5fe057abde08/file/id/797243/file_version/name/small"/><graphic xml:id="F036696" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/225fbc06-da2e-4af9-b5f0-509984c98d6b/file/id/797556/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Libero P</supplied>atri et Liberae </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">iu</supplied>s <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>tus <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>C</abbr><ex cert="low"/>F</expan> <lb n="4"/><supplied reason="lost" cert="low">--- eq(uo)</supplied> <expan><abbr>p</abbr><ex>ublico</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> Co<lb break="no" n="2"/><expan><abbr>mat</abbr><ex>ius</ex></expan> Super <lb n="3"/>antistes
+            </ab></div></div>
+            <div type="commentary">
+                <p>Zwei aneinander passende Fragmente erhalten. Z. 2-5: Text verteilt sich auf zwei Kolumnen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 241 ; Foto u. Zeichnung.</bibl><bibl>CIL 03, 01095.</bibl><bibl>ILS 3268b.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

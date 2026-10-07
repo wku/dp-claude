@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Marcianopolis &amp;ndash; Devnja (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023791</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023791</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216878">Marcianopolis</placeName></origPlace><origDate><origDate notBefore-custom="0180" notAfter-custom="0192" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">180 AD - 192 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/732280">Devnja</placeName><placeName type="findspot"/><placeName type="region">Varna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-16" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020227" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/13a26008-a9a8-416c-8272-2a76788c5a29/file/id/780300/file_version/name/small"/><graphic xml:id="F020228" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e6ff73df-b009-4c55-9572-4db72ecc019b/file/id/780301/file_version/name/small"/><graphic xml:id="F020229" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0caa494f-cab5-4e97-a189-4ee6a7b7c92c/file/id/780302/file_version/name/small"/><graphic xml:id="F020230" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a2d33a8e-eb8b-4787-8479-4dd52b3669b7/file/id/780303/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>F</abbr><ex>ines</ex></expan> <expan><abbr>terr</abbr><ex>ae</ex></expan> <lb n="2"/><expan><abbr>Thrac</abbr><ex>um</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>F</abbr><ex>ines</ex></expan> <expan><abbr>terr</abbr><ex>ae</ex></expan> <lb n="2"/><expan><abbr>Odess</abbr><ex>itanorum</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 1-2 befinden sich auf der einen, Z. 3-4 auf der anderen Seite des Steins.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1928, 0152.</bibl><bibl>A. Salač - K. Škorpil, Několik archeologických památek z východního bulharska (Praze 1928) 56. 77-78. - AE 1928.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

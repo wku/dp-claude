@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Romula &amp;ndash; Dobrosloveni (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043424</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043424</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>90</height><width>108</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/203154">Romula</placeName></origPlace><origDate><origDate when-custom="0248" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">248 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1884"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/668958">Dobrosloveni</placeName><placeName type="findspot">Reşca, {nördliches Stadttor}, bei</placeName><placeName type="region">Olt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043424_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Iulius*</name><name type="cognomen">Philippus+</name></persName></person><person xml:id="HD043424_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Iulius*</name><name type="cognomen">Philippus+</name></persName></person><person xml:id="HD043424_3" sex="W"><persName><name type="praenomen">M.</name><name type="nomen">Otacilia</name><name type="cognomen">Severa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-14" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> <supplied reason="lost">Philip</supplied><lb break="no" n="2"/>pus Piu<supplied reason="lost">s</supplied> F<supplied reason="lost">e</supplied>lix Invi<supplied reason="lost">c</supplied>tu<supplied reason="lost">s</supplied> <lb n="3"/><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>ustus</ex></expan> tri<supplied reason="lost"><expan><abbr>b</abbr><ex>unicia</ex></expan></supplied> <expan><abbr>pot</abbr><ex>estate</ex></expan> V <expan><abbr>c<supplied reason="lost">o</supplied></abbr><ex>n</ex>s</expan>(ul) I<supplied reason="lost">I</supplied>I <supplied reason="lost"><expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></supplied> <lb n="4"/>et <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> P<supplied reason="lost">h</supplied>ilipp<supplied reason="lost">us i</supplied>uni<lb break="no" n="5"/>or <expan><abbr>imp</abbr><ex>erator</ex></expan> <expan><abbr>c<supplied reason="lost">o</supplied></abbr><ex>n</ex>s</expan>(ul) I<supplied reason="lost">I pr</supplied>o<supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> pr</supplied>inceps <lb n="6"/>iuventutis <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> Pius Fe<supplied reason="lost">l</supplied>i<supplied reason="lost">x</supplied> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> et <expan><abbr>M</abbr><ex>arcia</ex></expan> Otacilia Severa <lb n="7"/>sanctissima <expan><abbr>Aug</abbr><ex>usta</ex></expan> <expan><abbr>n</abbr><ex>ostra</ex></expan> <supplied reason="lost">r</supplied>esti<lb break="no" n="8"/>tutores orbis <supplied reason="lost">t</supplied>otius <lb n="9"/>ob tutelam <expan><abbr>civit</abbr><ex>atis</ex></expan> coloniae suae <lb n="10"/><expan><abbr>Romul</abbr><ex>ae</ex></expan> circitum muri manu <lb n="11"/>militari a solo fecerunt
+            </ab></div>
+            <div type="commentary">
+                <p>Textwiedergabe nach Točilescu.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1888, 0008.</bibl><bibl>G.G. Točilescu, AEM 11, 1887, 19-20, Nr. 1. - AE 1888.</bibl><bibl>CIL 03, 08031.</bibl><bibl>ILS 0510.</bibl><bibl>IDR 2, 324; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

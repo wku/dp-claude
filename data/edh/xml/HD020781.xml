@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Veliki Preslav (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020781</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020781</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Preslav, Nac. Ist.-Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(123)</height><width>(55)</width><depth>(43)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0238" notAfter-custom="0244" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">238 AD - 244 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731967">Veliki Preslav</placeName><placeName type="findspot">{Dragoevo}, bei, "Zigju"</placeName><placeName type="region">Šumen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020781_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antonius</name><name type="cognomen">Gordianus+</name></persName></person><person xml:id="HD020781_2" sex="M"><persName><name type="cognomen">Castor</name></persName></person><person xml:id="HD020781_3" sex="M"><persName><name type="cognomen">Licinius*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <expan><abbr>D</abbr><ex>olicheno</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> pro salute <lb n="2"/>Imperat<supplied reason="lost">o</supplied>r<lb break="no" n="3"/>is Caesa<lb break="no" n="4"/>ris <expan><abbr>M</abbr><ex>arci</ex></expan> Anto<lb break="no" n="5"/>ni G<supplied reason="lost">ord</supplied>iani <lb n="6"/>Au<supplied reason="lost">g</supplied>u<supplied reason="lost">s</supplied>ti Ca<lb break="no" n="7"/>stor et Licini<expan><ex>u</ex><abbr>s</abbr></expan> <lb n="8"/><expan><abbr>sacer</abbr><ex>dotes</ex></expan> bis spor<lb break="no" n="9"/>tulas dederunt
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 1 auf der corona.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1940, 0029.</bibl><bibl>G.I. Kacarov - J. Gospodinov, BIAB 11, 1937, 193-195; obr. 172. - AE 1940.</bibl><bibl>CCID 077.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Tibiscum &amp;ndash; Caransebeş (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043676</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043676</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Timişoara, Muz. Banatului</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><dimensions unit="cm"><height>(33)</height><width>(18)</width><depth>(12)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207495">Tibiscum</placeName></origPlace><origDate><origDate notBefore-custom="0237" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">237 AD - 238 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675144">Caransebeş</placeName><placeName type="findspot">Jupa, {Lager, östlich}</placeName><placeName type="region">Caraș-Severin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043676_1" sex="M"><persName ref="http://romans1by1.com/rpeople/6969"><name type="praenomen">Q.+++</name><name type="nomen">Iulius+++</name><name type="cognomen">Licinianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-01-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <supplied reason="lost"><expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></supplied> <lb n="2"/>pro sa<supplied reason="lost">lut</supplied>em <note>sic</note> <lb n="3"/><del rend="erasure"><supplied reason="lost"><expan><abbr>Q</abbr><ex>uinti</ex></expan> I</supplied>ul[i</del> Lic]in<lb break="no" n="4"/>[iani ------ </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>S<gap reason="lost" extent="unknown" unit="character"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>coh</abbr><ex>or-</ex></expan> Vin</supplied><expan><abbr>d</abbr><ex>elicorum</ex></expan> |(miliaria) <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>AV<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>S<gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>R<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Altar oder Statuenbasis; mehrere Fragmente erhalten. Maße beziehen sich auf Fragment a (aus 4 Fragmenten zusammengesetzt); b: (11) x (7) x (9) cm; c: (17) x (6) x (11) cm; d: (3,5) x (13) x (6) cm. Ergänzung (B): AE 1999; ILD: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1999, 1297. (B)</bibl><bibl>ILD 197. (B)</bibl><bibl>IDR 3, 1, 182; fig. 149 (Zeichnung).</bibl><bibl>IDR 3, 1, 245.</bibl><bibl>I. Piso - D. Benea, ActaMusNapoca 36, 1, 1999, 97-98, Nr. 3; fig. 4a; fig. 4b (Zeichnung). - AE 1999.</bibl><bibl>I. Piso, Fasti provinciae Daciae 1. Die senatorischen Amtsträger (Bonn 1993) 201-203, Nr. 45.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

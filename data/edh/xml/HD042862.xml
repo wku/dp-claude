@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Municipium Montanensium &amp;ndash; Montana (Mihajlovgrad) (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042862</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042862</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207293">Municipium Montanensium</placeName></origPlace><origDate><origDate notBefore-custom="0146" notAfter-custom="0157" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">146 AD - 157 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="findspot">{Heiligtum der Diana und des Apoll}</placeName><placeName type="region">Montana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042862_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14895"><name type="cognomen">Favorinus</name></persName></person><person xml:id="HD042862_2" sex="W"><persName ref="http://romans1by1.com/rpeople/14896"><name type="cognomen">Secundia</name></persName></person><person xml:id="HD042862_3" sex="M"><persName ref="http://romans1by1.com/rpeople/6782"><name type="praenomen">T.</name><name type="nomen">Iulius*</name><name type="cognomen">Saturninus</name></persName></person><person xml:id="HD042862_4" sex="M"><persName ref="http://romans1by1.com/rpeople/14899"><name type="nomen">Iulius*</name><name type="cognomen">Capito</name></persName></person><person xml:id="HD042862_5" sex="M"><persName ref="http://romans1by1.com/rpeople/14900"><name type="nomen">Iulius*</name><name type="cognomen">Euphorus*</name></persName></person><person xml:id="HD042862_6" sex="M"><persName ref="http://romans1by1.com/rpeople/14897"><name type="cognomen">Asclepiades</name></persName></person><person xml:id="HD042862_7" sex="W"><persName ref="http://romans1by1.com/rpeople/14898"><name type="cognomen">Lucensia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-05-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dianae Reginae <lb n="2"/>pro salute Favo<lb break="no" n="3"/>rini et Secundiae <lb n="4"/><expan><abbr>vern</abbr><ex>arum</ex></expan> <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> Satur<lb break="no" n="5"/>nini <expan><abbr>c</abbr><ex>onductoris</ex></expan> <expan><abbr>p</abbr><ex>ublici</ex></expan> <expan><abbr>p</abbr><ex>ortorii</ex></expan> <expan><abbr>Illyr</abbr><ex>ici</ex></expan> sub <lb n="6"/><expan><abbr>Iul</abbr><ex>iis</ex></expan> Capitone et Eu<lb break="no" n="7"/>p<expan><ex>h</ex><abbr>oro</abbr></expan> <expan><abbr>circ</abbr><ex>itoribus</ex></expan> <expan><abbr>p</abbr><ex>ublici</ex></expan> <expan><abbr>p</abbr><ex>ortorii</ex></expan> Ascle<lb break="no" n="8"/>piades <expan><abbr>ser</abbr><ex>vus</ex></expan> <expan><abbr>vil</abbr><ex>icus</ex></expan> et Lu<lb break="no" n="9"/>censia parentes
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 9 (Ende): hedera. (B): Tatscheva; AE 1996: Abweichungen in der Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1996, 1341. (B)</bibl><bibl>M. Tatscheva, in: P. Petrović (Hrsg.), Roman limes on the Middle an Lower Danube (Belgrad 1996) 177-180, Nr. A; Foto. - AE 1996. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

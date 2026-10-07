@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038745</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038745</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0275" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 275 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/671315">Alba Iulia</placeName><placeName type="findspot">{Partoş}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038745_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Strenuus</name></persName></person><person xml:id="HD038745_2" sex="M"><persName><name type="cognomen">Rufinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-05-24" who="Garcia">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> <expan><abbr>Ael</abbr><ex>io</ex></expan> <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>Pap</abbr><ex>iria</ex></expan> <lb n="2"/>Strenuo <expan><abbr>eq</abbr><ex>uo</ex></expan> <lb n="3"/><expan><abbr>p</abbr><ex>ublico</ex></expan> <expan><abbr>sacerd</abbr><ex>oti</ex></expan> arae <lb n="4"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> auguri et <lb n="5"/><expan><abbr>IIviral</abbr><ex>i</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <lb n="6"/><expan><abbr>Sarm</abbr><ex>izegetusae</ex></expan> <expan><abbr>augur</abbr><ex>i</ex></expan> <lb n="7"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Apul</abbr><ex>ensis</ex></expan> <expan><abbr>dec</abbr><ex>urioni</ex></expan> <lb n="8"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Drob</abbr><ex>etensis</ex></expan> pat<lb break="no" n="9"/><expan><abbr>ron</abbr><ex>o</ex></expan> <expan><abbr>collegior</abbr><ex>um</ex></expan> <lb n="10"/><expan><abbr>fabr</abbr><ex>um</ex></expan> cento<lb break="no" n="11"/><expan><abbr>nar</abbr><ex>iorum</ex></expan> et naut<lb break="no" n="12"/><expan><abbr>ar</abbr><ex>um</ex></expan> <expan><abbr>conduc</abbr><ex>tori</ex></expan> pas<lb break="no" n="13"/>cui <expan><abbr>salinar</abbr><ex>um</ex></expan> <lb n="14"/>et commer<lb break="no" n="15"/><expan><abbr>cior</abbr><ex>um</ex></expan> Rufinus <lb n="16"/>eius
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 443.</bibl><bibl>CIL 03, 01209.</bibl><bibl>ILS 7147.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

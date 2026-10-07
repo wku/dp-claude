@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Nicopolis ad Istrum &amp;ndash; Veliko Târnovo (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043844</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043844</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Veliko Târnovo, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><dimensions unit="cm"><height>148</height><width>87</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216895">Nicopolis ad Istrum</placeName></origPlace><origDate><origDate notBefore-custom="0193" notAfter-custom="0222" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">193 AD - 222 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1989"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728777">Veliko Târnovo</placeName><placeName type="findspot">Nikjup, bei, antike Stadt, {nordwestlicher Teil}, Wohngebäude I, bei</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043844_1" sex="M"><persName ref="http://romans1by1.com/rpeople/10691"><name type="praenomen">L.</name><name type="nomen">Oppius</name><name type="cognomen">Maximus</name></persName></person><person xml:id="HD043844_2" sex="M"><persName ref="http://romans1by1.com/rpeople/15063"><name type="praenomen">L.</name><name type="nomen">Oppius</name><name type="cognomen">Ianuarius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-09" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Aug</abbr><ex>usto</ex></expan> sacrum </ab></div><div n="2" type="textpart"><ab><lb n="1"/> pro salute <expan><abbr>Imperato</abbr><ex>ris</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>ucius</ex></expan> Oppius Maximus et <expan><abbr>L</abbr><ex>ucius</ex></expan> Oppius <lb n="2"/>Ianuarius sacerdotes Matris <lb n="3"/>Deum et Liberi Patris vexillo <lb n="4"/>Novesium Oppianorum <lb n="5"/>aram de suo posuerunt
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 1 u. 2 beinden sich auf der corona. Datierungsvorschlag nach Tsarov: 202 n. Chr. anläßlich des Besuchs von Nicopolis ad Istrum durch Septimius Severus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1995, 1362.</bibl><bibl>I. Tsarov, Novensia 8, 1995, 7-13; Fot. 1 u. 2. - AE 1995.</bibl><bibl>AE 2015, 1211.</bibl><bibl>A. Tomas, in: A. Tomas (Hrsg.), Ad fines Imperii Romani. Studia Thaddaeo Thaddaeo Sarnowski septuagenario ab amicis, collegis discipulisque dedicata (Varsaviae 2015) 257-259; Fig. 1. - AE 2015.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

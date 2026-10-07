@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Ulpia Traiana Sarmizegetusa, aus &amp;ndash; Densuş (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD046413</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD046413</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Deva, Muz. Civil. Dac. şi Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><dimensions unit="cm"><height>(87)</height><width>(60)</width><depth>(60)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa, aus</placeName></origPlace><origDate><origDate notBefore-custom="0107" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">107 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1850"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/679478">Densuş</placeName><placeName type="findspot">{Curia Nopcsa}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD046413_1" sex="M"><persName ref="http://romans1by1.com/rpeople/1813"><name type="praenomen">Q.</name><name type="nomen">Ianuarius</name><name type="cognomen">Rufus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004871" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/78603372-2b0b-4615-b2ec-9ae754340fcb/file/id/765626/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinto</ex></expan> Ianuario <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/>Collina Rufo <lb n="3"/>Tavio flamini <lb n="4"/>q<expan><ex>uin</ex><abbr>q</abbr><ex>uennali</ex></expan> <expan><abbr>prim</abbr><ex>o</ex></expan> pro <expan><abbr>Imp</abbr><ex>eratore</ex></expan> <lb n="5"/>ordo <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Ulp</abbr><ex>iae</ex></expan> <expan><abbr>Trai</abbr><ex>anae</ex></expan> <lb n="6"/><expan><abbr>Dacic</abbr><ex>ae</ex></expan> <expan><abbr>Sarmizeg</abbr><ex>etusae</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 01503.</bibl><bibl>ILS 7134.</bibl><bibl>IDR 3, 2, 112; fig. 87.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

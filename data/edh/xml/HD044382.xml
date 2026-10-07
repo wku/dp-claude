@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044382</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044382</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Svištov, Ist. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>185</height><width>75</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-7.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1966"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot">{Lager}, westliche Mauer, bei</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044382_1" sex="M"><persName><name type="cognomen">Basileus / Βασιλεύς</name></persName></person><person xml:id="HD044382_2" sex="M"><persName><name type="cognomen">Kyzicius / Κυζίκιος</name></persName></person><person xml:id="HD044382_3" sex="W"><persName><name type="cognomen">Secunda / Σεκούνδα</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-07-25" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Θ(εοῖς) Κ(αταχθονίοις) <lb n="2"/>οὔνομά μοι <lb n="3"/>Βασιλεύς <lb n="4"/>κεῖμαι δ’ ἅμα <lb n="5"/>μητρὶ θανού<lb break="no" n="6"/>σῃ μοίρῃ ὑπ’ ἀρ<lb break="no" n="7"/>γαλέῃ προδαμεὶς <lb n="8"/>νούσῳ τε βαρείῃ <lb n="9"/>Κυζίκιος δέ με θά<lb break="no" n="10"/>ψεν ἀγακλείτη τε <lb n="11"/>Σεκούνδα πρῶ<lb break="no" n="12"/>τον ὑπὲρ γενύων <lb n="13"/>ἄνθεα δρεψάμενον </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>monte sub hoc tegito&amp;lt;r&amp;gt; <lb n="3"/>Basileus ecce s&amp;lt;e&amp;gt;pul<lb break="no" n="4"/>tus | precipiti leto iuen<lb break="no" n="5"/>is <surplus>iuvenis</surplus> fatorum lege &amp;lt;p&amp;gt;eracta <lb n="6"/>quem genuit mater mecum <lb n="7"/>iacet i&amp;lt;ps&amp;gt;a sepulta Kyzici<lb break="no" n="8"/>o mihi factus honos <lb n="9"/>simul atque Secunda
+            </ab></div></div>
+            <div type="commentary">
+                <p>Datierung basiert auf Beobachtungen in dem Artikel von Kolendo (AE 2006) und die Angaben in IGLNovae 107.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILBulg 325.</bibl><bibl>IGBulg 5262; tab. 39, 5262.</bibl><bibl>SEG 47, 1153.</bibl><bibl>IGLN 107; pl. 36, 107.</bibl><bibl>AE 2006, 1203.</bibl><bibl>J. Kolendo, Archeologia 57, 2006, 164, Nr. 13. - AE 2006.</bibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 263, Nr. 398; Taf. 108, 3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

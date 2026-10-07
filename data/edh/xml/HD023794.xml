@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Nicopolis ad Istrum, aus &amp;ndash; Loveč (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023794</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023794</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Letnitsa, Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(98)</height><width>79</width><depth>52</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216895">Nicopolis ad Istrum, aus</placeName></origPlace><origDate><origDate notBefore-custom="0138" notAfter-custom="0161" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD - 161 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern">Loveč</placeName><placeName type="findspot">{Čavdarci}</placeName><placeName type="region">Loveč</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023794_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD023794_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.+</name><name type="nomen">Aelius*</name><name type="cognomen">Hadrianus* Antoninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> equitat<supplied reason="lost">ae scri</supplied><lb break="no" n="2"/><supplied reason="lost">b</supplied>a tribunicius <supplied reason="lost">ap</supplied><lb break="no" n="3"/>paritor <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Cae<supplied reason="lost"><expan><abbr>s</abbr><ex>aris</ex></expan></supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>T</abbr><ex>iti</ex></expan></supplied> <expan><abbr>Ael</abbr><ex>i</ex></expan> <expan><abbr>Hadr</abbr><ex>iani</ex></expan> Anton<supplied reason="lost">i</supplied><lb break="no" n="5"/>ni <expan><abbr>Aug</abbr><ex>usti</ex></expan> Pii <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>cond</abbr><ex>uctor</ex></expan> <lb n="6"/><expan><abbr><supplied reason="lost">I</supplied>llyr</abbr><ex>ici</ex></expan> <expan><abbr>utriusq</abbr><ex>ue</ex></expan> et <lb n="7"/>ripae Thracicae </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ex <expan><abbr>v</abbr><ex>oto</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 7: hedera als Worttrenner. (B): AE 1928: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1928, 0153. (B)</bibl><bibl>ILBulg 246; tab. 51, 246.</bibl><bibl>A. Salač - K. Škorpil, Několik archeologických památek z východního bulharska (Praze 1928) 65-66. 68. 78, Nr. 28; obr. 10 (Zeichnung). - AE 1928.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

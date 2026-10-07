@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Čiprovci (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023348</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023348</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material>Gesteine</material><dimensions unit="cm"><height>(80)</height><width>(70)</width><depth>(47)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0241" notAfter-custom="0244" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">241 AD - 244 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/733332">Čiprovci</placeName><placeName type="findspot">{Belimel} - {Čeljustnica}, zwischen</placeName><placeName type="region">Montana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023348_1" sex="W"><persName><name type="nomen">Sabinia</name><name type="cognomen">Tranquillina</name></persName></person><person xml:id="HD023348_2" sex="M"><persName><name type="cognomen">Gordianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-10" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Sabiniae Tranquil<lb break="no" n="2"/>linae sanctissima<supplied reason="lost">e</supplied> <lb n="3"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan> coniugi <expan><abbr>d</abbr><ex>omini</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <lb n="4"/>Gordiani <expan><abbr>P</abbr><ex>ii</ex></expan> <expan><abbr>F</abbr><ex>elicis</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="5"/><expan><abbr>coh</abbr><ex>ors</ex></expan> <expan><abbr>gem</abbr><ex>ina</ex></expan> <expan><abbr>Dacor</abbr><ex>um</ex></expan> <lb n="6"/>Gordiana X<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>devota numi<lb break="no" n="8"/>ni maiestati <lb n="9"/>eius
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1896, 0116.</bibl><bibl>CIL 03, 14211, 9.</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 62-63, Nr. 62; Zeichnung.</bibl><bibl>V. Dobrusky, RA 29, 1896, 258-259, Nr. 1. - AE 1896.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

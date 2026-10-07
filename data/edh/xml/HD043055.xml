@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tomi &amp;ndash; Constanţa (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043055</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043055</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><dimensions unit="cm"><height>(77)</height><width>(35)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217016">Tomi</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/680963">Constanţa</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043055_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-22" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan></supplied> XXIII <expan><abbr>m</abbr><ex>enses</ex></expan> XI <lb n="2"/><supplied reason="lost"><expan><abbr>d</abbr><ex>ies</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> parentes fili</supplied>o dulcis<lb break="no" n="3"/><supplied reason="lost">simo fecerunt ne</supplied>mo cont<lb break="no" n="4"/><supplied reason="lost">ra legem in hoc sepul</supplied>crum co<lb break="no" n="5"/><supplied reason="lost">rpus inferat aut alien</supplied>um vasum <lb n="6"/><supplied reason="lost">ibi ponat si quis inf</supplied>eret vel ali<lb break="no" n="7"/><supplied reason="lost">enare sepulcrum v</supplied>oluerit I <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>ste et <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>p</abbr><ex>ublicae</ex></expan> <lb n="9"/><supplied reason="lost">civitatis Tomita</supplied>norum </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">dare debebit <gap reason="lost" extent="unknown" unit="character"/></supplied> viator <expan><abbr>v</abbr><ex>ale</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Fragment einer Tafel oder der Vorderseite eines Sarkophags. Inschriftfeld in Form einer tabula ansata. Zeilenenden teilweise auf dem Rahmen; Z. 10 unterhalb des Inschriftfeldes. Z. 7 (Ende): I auf dem Rahmen und etwas nach unten zu Z. 8 hin versetzt. (B): IScM II: Z. 7 (Ende): I nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IScM 2, 305; Foto. (B)</bibl><bibl>CIL 03, 07577.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

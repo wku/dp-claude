@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Arcobadara &amp;ndash; Uriu (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD048397</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD048397</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Privatbesitz?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><dimensions unit="cm"><height>243</height><width>(47)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207186">Arcobadara</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1830"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675647">Uriu</placeName><placeName type="findspot">Ilişua, Lager, {Westtor}, sekundär verwendet?</placeName><placeName type="region">Bistrița-Năsăud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD048397_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Valerius*</name><name type="cognomen">Vitalis+</name></persName></person><person xml:id="HD048397_2" sex="M"><persName><name type="nomen">Valerius*</name><name type="cognomen">VItalianus+?</name></persName></person><person xml:id="HD048397_3" sex="M"><persName><name type="nomen">Valerius*</name><name type="cognomen">Laetillus+</name></persName></person><person xml:id="HD048397_4" sex="M"><persName><name type="nomen">Valerius+*</name><name type="cognomen">Saturninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-28" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> V<supplied reason="lost">ita</supplied>lis <lb n="3"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> ex <supplied reason="lost"><expan><abbr>dec</abbr><ex>urione</ex></expan></supplied> alae <lb n="4"/><expan><abbr>Front</abbr><ex>onianae</ex></expan> <expan><abbr><supplied reason="lost">vi</supplied>x</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>is</ex></expan> <lb n="5"/>L et <expan><abbr>Val</abbr><ex>erius</ex></expan> V<supplied reason="lost" cert="low">it</supplied>a<supplied reason="lost" cert="low">li</supplied>an<supplied reason="lost">u</supplied>s <lb n="6"/><expan><abbr>fil</abbr><ex>ius</ex></expan> huiu<supplied reason="lost">s vi</supplied><expan><abbr>x</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nis</ex></expan> <lb n="7"/>II et me<expan><ex>n</ex><abbr>si</abbr></expan><supplied reason="lost">bus</supplied> VII <lb n="8"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Laet<supplied reason="lost">ill</supplied>us <lb n="9"/><expan><abbr>dec</abbr><ex>urio</ex></expan> <expan><abbr>a</abbr><ex>lae</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>criptae</ex></expan> V</supplied><expan><abbr>al</abbr><ex>erius</ex></expan> Sa<lb break="no" n="10"/>turni<supplied reason="lost">nu</supplied>s <expan><abbr>dupl</abbr><ex>icarius</ex></expan> <lb n="11"/><expan><abbr>d</abbr><ex>ecuriae</ex></expan> <expan><abbr>e</abbr><ex>iusdem</ex></expan> pa<supplied reason="lost">re</supplied>ntibus <lb n="12"/>fratr<supplied reason="lost"><expan><abbr>iq</abbr><ex>ue</ex></expan> pie</supplied>ntis<lb break="no" n="13"/>si<supplied reason="lost">mi</supplied>s <lb n="14"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erentibus</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente; Maße beziehen sich auf den linken Teil; rechter Teil: 200 x (42) cm (B): Gaiu - Zăgreanu: Z. 5: V[itali]an[u]s; Z. 8: Laet[il]lus; Z. 11: ba[re]ntibus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 00811; Zeichnung.</bibl><bibl>C. Gaiu - R. Zăgreanu, Inscripţii şi piese sculpturale din castrul roman de la Ilişua (Cluj-Napoca 2011) 80, Nr. 1.3.a.4; pl. 6, 1.3.a.4 (Zeichnung). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

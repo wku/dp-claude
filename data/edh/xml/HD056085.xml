@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Frecăţei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056085</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056085</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bukarest, Muz. Nat. de Istorie a Romaniei</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>20</height><width>16</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0092" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">92 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682575">Frecăţei</placeName><placeName type="findspot">{Cataloi}</placeName><placeName type="region">Tulcea</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-16" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Vespasiani <expan><abbr>f</abbr><ex>ilius</ex></expan> Domitianus Augus<lb break="no" n="2"/>tus Germanicus pontifex maximus <expan><abbr>tribunic</abbr><ex>ia</ex></expan> potes<lb break="no" n="3"/><expan><abbr>tat</abbr><ex>e</ex></expan> XI im<supplied reason="lost"><expan><abbr>p</abbr><ex>erator</ex></expan></supplied> XXI censor perpetuus co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> XVI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4"/>equitibus et peditibus qui militant in alis se<lb break="no" n="5"/>ptem et cohortibus decem et quinque quae appel<lb break="no" n="6"/>lantur I Vespasiana Dardanorum et I Flavia <lb n="7"/>Gaetulorum et I Pannoniorum et II Claudia <lb n="8"/>Gallorum et Gallorum Flaviana et Gallorum <lb n="9"/>Atectorigiana et Hispanorum et I Raeto<lb break="no" n="10"/>rum et I Bracaraugustanorum et I Lusitano<lb break="no" n="11"/>rum Cyrenaica et I Flavia Commagenorum <lb n="12"/>et I Sugambrorum <supplied reason="lost">t</supplied>ironum et I Sugambro<lb break="no" n="13"/>rum veterana et <supplied reason="lost">II Chal</supplied>cidenorum et II Lu<lb break="no" n="14"/>censium et II Bra<supplied reason="lost">caraug</supplied>ustanorum et II <lb n="15"/>Flavia Bessorum et <supplied reason="lost">II</supplied> et III et IIII et VII Gallo<lb break="no" n="16"/>rum et Ubiorum et sun<supplied reason="lost">t</supplied> in Moesia inferio<lb break="no" n="17"/>re sub <expan><abbr>Sex</abbr><ex>to</ex></expan> Octavio Frontone qui quina vice<lb break="no" n="18"/>na plurave stipendia meruerunt item dimis<lb break="no" n="19"/>sis honesta missione quorum nomina s<supplied reason="lost">u</supplied>b<lb break="no" n="20"/>scripta sunt ipsis liberis posterisque eorum <lb n="21"/>civitatem dedit et conubium cum uxoribus <lb n="22"/>quas tunc habuissent cum est civitas iis data <lb n="23"/>aut si qui caelibes essent cum iis quas postea du<lb break="no" n="24"/>xissent dumtaxat singuli singulas <lb n="25"/><expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> XVIII <expan><abbr>K</abbr><ex>alendas</ex></expan> Iulias <lb n="26"/><expan><abbr>Ti</abbr><ex>berio</ex></expan> Iulio Celso Polemaeano <expan><abbr>L</abbr><ex>ucio</ex></expan> Stertinio Avito co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="27"/><expan><abbr>cohort</abbr><ex>is</ex></expan> VII Gallorum cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="28"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Col</abbr><ex>lina</ex></expan> Capi<supplied reason="lost">to</supplied> <lb n="29"/>equiti <lb n="30"/>Macrino Acresionis <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan> A</supplied><expan><abbr>pamen</abbr><ex>o</ex></expan> <lb n="31"/>et Macro <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan> e</supplied>ius <lb n="32"/>et Saturnino <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan> e</supplied>ius <lb n="33"/>et Augustae <supplied reason="lost">filiae e</supplied>ius <lb n="34"/>descriptum et recognitum <supplied reason="lost">ex tabula aene</supplied>a <lb n="35"/>quae fixa est Romae in <supplied reason="lost">muro post templum</supplied> <lb n="36"/>divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minerv<supplied reason="lost">am</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Ve<supplied reason="lost">sp</supplied>asiani <expan><abbr>f</abbr><ex>ilius</ex></expan> Domitianus Augus<lb break="no" n="2"/>tus Germanicus pontifex maximus <expan><abbr>tribunic</abbr><ex>ia</ex></expan> po<lb break="no" n="3"/><expan><abbr>testat</abbr><ex>e</ex></expan> XI <expan><abbr>imp</abbr><ex>erator</ex></expan> XXI censor perpetuus co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> XVI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4"/>equitibus et peditibus qui militant in alis septem <lb n="5"/>et cohortibus decem et quinque quae appellan<lb break="no" n="6"/>tur I Vespasiana Dardanorum et I Flavia Gaetu<lb break="no" n="7"/>lorum et I Pannoniorum et II Claudia Gallorum <lb n="8"/>et Gallorum Fl<supplied reason="lost">a</supplied>viana et Gallorum Atectorigia<lb break="no" n="9"/>na et Hispano<supplied reason="lost">rum</supplied> et I Raetorum et I Braca<supplied reason="lost">rau</supplied><lb break="no" n="10"/>gustanorum et I <supplied reason="lost">L</supplied>us<supplied reason="lost">it</supplied>anorum Cyrenai<supplied reason="lost">ca et I</supplied> <lb n="11"/>Flavia Commagenorum et I Sugamb<supplied reason="lost">rorum ti</supplied><lb break="no" n="12"/>ronum et I Sugambrorum vetera<supplied reason="lost">na et II Chal</supplied><lb break="no" n="13"/>cidenorum et II Lucensium et II Bra<supplied reason="lost">caraugus</supplied><lb break="no" n="14"/>tanorum et II Flavia Bessorum et II e<supplied reason="lost">t III et IIII</supplied> <lb n="15"/>et VII Gallorum et Ubiorum et sunt in M<supplied reason="lost">oesia</supplied> <lb n="16"/>inferiore sub <expan><abbr>Sex</abbr><ex>to</ex></expan> Octa<supplied reason="lost">v</supplied>io Frontone qui q<supplied reason="lost">uina</supplied> <lb n="17"/>vicena plurave stipendia meruerunt item </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Dimissis honesta missione quorum <lb n="2"/>nomina subscripta sunt ipsis liberis <lb n="3"/>posterisque eorum civitatem dedit et <lb n="4"/>conubium cum uxoribus quas <supplied reason="lost">tunc ha</supplied><lb break="no" n="5"/>buissent cum est civitas iis <supplied reason="lost">data aut</supplied> <lb n="6"/>si qui caelibes <expan><abbr>essen</abbr><ex>t</ex></expan> cum iis qu<supplied reason="lost">as postea</supplied> <lb n="7"/>duxissent dumtaxat singuli sin<supplied reason="lost">gulas</supplied> <lb n="8"/><expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> XVIII <expan><abbr>K</abbr><ex>alendas</ex></expan> Iulias <lb n="9"/><expan><abbr>Ti</abbr><ex>berio</ex></expan> Iulio Celso Polemaeano <expan><abbr>L</abbr><ex>ucio</ex></expan> Stertinio Avito co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="10"/><expan><abbr>cohort</abbr><ex>is</ex></expan> VII Gallorum cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="11"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Col</abbr><ex>lina</ex></expan> Capito <lb n="12"/>equiti <lb n="13"/>Macrino Acresionis <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Apamen</abbr><ex>o</ex></expan> <lb n="14"/>et Macro <expan><abbr>f</abbr><ex>ilio</ex></expan> eius et Saturnino <expan><abbr>f</abbr><ex>ilio</ex></expan> eius <lb n="15"/>et Augustae filiae eius <lb n="16"/>descriptum et recognitum ex tabula aenea quae fixa est Romae </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>A</abbr><ex>uli</ex></expan> Lappi Polliani <lb n="2"/><expan><abbr>C</abbr><ex>ai</ex></expan> Iuli Helini <lb n="3"/><expan><abbr>M</abbr><ex>arci</ex></expan> Galli Fortis <lb n="4"/><expan><abbr>Cn</abbr><ex>aei</ex></expan> Matici Barbari <lb n="5"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> Or<surplus>i</surplus>fi Cupit<supplied reason="lost">i</supplied> <lb n="6"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli Spe<supplied reason="lost">rati</supplied> <lb n="7"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli Verecu<supplied reason="lost">ndi</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1548.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

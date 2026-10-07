@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Municipium Montanensium, bei &amp;ndash; Bojčinovci (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD010781</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD010781</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>55</height><width>69</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207293">Municipium Montanensium, bei</placeName></origPlace><origDate><origDate when-custom="0162" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">162 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/731023">Bojčinovci</placeName><placeName type="findspot">{Gromšin}</placeName><placeName type="region">Montana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD010781_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1430"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD010781_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1433"><name type="praenomen">L.</name><name type="nomen">Aurelius</name><name type="cognomen">Verus</name></persName></person><person xml:id="HD010781_3" sex="M"><persName ref="http://romans1by1.com/rpeople/14450"><name type="praenomen">M.</name><name type="nomen">Servilius</name><name type="cognomen">Fabianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-23" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>pro salute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caesar</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <lb n="3"/><expan><abbr>Aur</abbr><ex>eli</ex></expan> Antonini <expan><abbr>Aug</abbr><ex>usti</ex></expan> et <lb n="4"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> Aureli Veri <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="5"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Servilius Fabianus <expan><abbr>leg</abbr><ex>atus</ex></expan> <lb n="6"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> templum vetus<lb break="no" n="7"/>tate corruptum a solo <lb n="8"/>per <expan><abbr>reg</abbr><ex>ionem</ex></expan> <expan><abbr>Mont</abbr><ex>anensium</ex></expan> restituit
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Frankfurter, AE 1891: abweichende Textwiedergabe (nach der Abschrift eines Herrn Belomustakov).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1895, 0061.</bibl><bibl>CIL 03, 12385.</bibl><bibl>PIR (2. Aufl.) S 583.</bibl><bibl>H. Škorpil, AEM 17, 1894, 215, Nr. 115. - AE 1895.</bibl><bibl>AE 1891, 0087. (B)</bibl><bibl>S. Frankfurter, AEM 14, 1891, 157, Nr. 44. (B) - AE 1891.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Philippopolis, bei &amp;ndash; Rodopi (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032025</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032025</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/13">Syenit</material><dimensions unit="cm"><height>143</height><width>200</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216927">Philippopolis, bei</placeName></origPlace><origDate><origDate when-custom="0076" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">76 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/732937">Rodopi</placeName><placeName type="findspot">{Branipole}, S. Konstantin i Elena, Kirche</placeName><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032025_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Minutius</name><name type="cognomen">Laetus</name></persName></person><person xml:id="HD032025_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1419"><name type="cognomen">Vespasianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-10-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Deo Μηδυζει mensam <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Minutius Laetus vet<expan><ex>e</ex><abbr>ran</abbr><ex>us</ex></expan> <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> VII <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> pro se et suis <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <lb n="5"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Vespasiano VII co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Ἀντιοχέος τῆς πρὸς Δάφνην <lb n="2"/>τόδε δῶρον
+            </ab></div></div>
+            <div type="commentary">
+                <p>Der Block diente wohl als Tischplatte der dedizierten mensa. (B): Dobruski, AE 1902: Z. 2: veteran(us).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1902, 0140. (B)</bibl><bibl>CIL 03, 06120.</bibl><bibl>B. Dobruski, SborNarodSofia 18, 1901, 790-791, Nr. 102; fig. 60. (B) - AE 1902.</bibl><bibl>IGBulg 1410; tab. 192, 1410.</bibl><bibl>IGBulg 5520bis.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

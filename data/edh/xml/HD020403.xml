@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Micia &amp;ndash; Veţel (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020403</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020403</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Deva, Muz. Civil. Dac. şi Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>59</height><width>100</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207286">Micia</placeName></origPlace><origDate><origDate when-custom="0204" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">204 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1934"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/663018">Veţel</placeName><placeName type="findspot">{Tempel der Dei patrii}</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020403_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="cognomen">Severus</name></persName></person><person xml:id="HD020403_10" sex="M"><persName><name type="cognomen">Libo</name></persName></person><person xml:id="HD020403_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD020403_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="cognomen">Geta++</name></persName></person><person xml:id="HD020403_4" sex="M"><persName ref="https://www.wikidata.org/wiki/Q229246"><name type="cognomen">Iulia</name></persName></person><person xml:id="HD020403_5" sex="W"><persName ref="https://www.wikidata.org/wiki/Q238151"><name type="cognomen">Plautilla++</name></persName></person><person xml:id="HD020403_6" sex="M"><persName><name type="cognomen">Plautianus++</name></persName></person><person xml:id="HD020403_7" sex="M"><persName ref="http://romans1by1.com/rpeople/3190"><name type="nomen">Pomponius</name><name type="cognomen">Liberalis</name></persName></person><person xml:id="HD020403_8" sex="M"><persName ref="http://romans1by1.com/rpeople/3191"><name type="nomen">Iulius*</name><name type="cognomen">Euangelianus</name></persName></person><person xml:id="HD020403_9" sex="M"><persName><name type="cognomen">Cilo</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-01-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005423" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/da564c8e-ed48-4f5a-984b-4f1eb761f27c/file/id/766200/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Pro salute <expan><abbr>d<am>d</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> in<lb break="no" n="2"/><expan><abbr>victissimor</abbr><ex>um</ex></expan> <expan><abbr>Impp</abbr><ex>eratorum</ex></expan> Severi <lb n="3"/>et Antonini <del rend="erasure">et Getae <expan><abbr>Caes</abbr><ex>aris</ex></expan> Aug</del><lb break="no" n="4"/><expan><abbr>gg</abbr><ex>ustorum</ex></expan> <note>sic</note> et Iuliae <del rend="erasure">et Plautillae <expan><abbr>Augg</abbr><ex>ustarum</ex></expan> et</del> <lb n="5"/><del rend="erasure">Plautiani <expan><abbr>c</abbr><ex>larissimi</ex></expan> <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>praef</abbr><ex>ecti</ex></expan> <expan><abbr>pr</abbr><ex>aetorio</ex></expan> patris</del> <lb n="6"/><del rend="erasure">Augustae</del> sub Pomponio <lb n="7"/>Liberale co<expan><ex>n</ex><abbr>s</abbr><ex>ulari</ex></expan> Mauri <expan><abbr>Mic</abbr><ex>ienses</ex></expan> <lb n="8"/>et <expan><abbr>Iul</abbr><ex>ius</ex></expan> Euangelianus <expan><abbr>praef</abbr><ex>ectus</ex></expan> <lb n="9"/>templum deorum patrio<lb break="no" n="10"/>rum vetustate conlapsum <lb n="11"/>sua <expan><abbr>p</abbr><ex>ecunia</ex></expan> et opera <expan><abbr>restituer</abbr><ex>unt</ex></expan> <lb n="12"/>Cilone II et Libone co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Daicoviciu; AE 1944; IDR III: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1944, 0074. (B)</bibl><bibl>IDR 3, 3, 047; fig. 35 (Foto u. Zeichnung). (B)</bibl><bibl>C. Daicoviciu, Sargetia 2, 1941, 119-120, Nr. 1; fig. 1. (B) - AE 1944.</bibl><bibl>PIR (2. Aufl.) F 554.</bibl><bibl>PIR (2. Aufl.) P 729.</bibl><bibl>PIR (2. Aufl.) F 27.</bibl><bibl>PIR (2. Aufl.) A 648.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

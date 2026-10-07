@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Arutela &amp;ndash; Călimăneşti (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047034</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047034</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>75</height><width>190</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216713">Arutela</placeName></origPlace><origDate><origDate when-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682972">Călimăneşti</placeName><placeName type="findspot">{Lager}</placeName><placeName type="region">Vâlcea</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047034_1"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus Hadrianus</name></persName></person><person xml:id="HD047034_2"><persName ref="http://romans1by1.com/rpeople/8805"><name type="praenomen">T.</name><name type="nomen">Flavius</name><name type="cognomen">Constans</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-02-14" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <supplied reason="lost">divi T</supplied>raiani <lb n="2"/><expan><abbr><supplied reason="lost">Pa</supplied>rt</abbr><ex>hici</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> d<supplied reason="lost">iv</supplied>i <supplied reason="lost">N</supplied>ervae <lb n="3"/><expan><abbr>n<supplied reason="lost">e</supplied>p</abbr><ex>oti</ex></expan> Traiano Hadri<lb break="no" n="4"/>ano <expan><abbr>Aug</abbr><ex>usto</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>ontifici</ex></expan></supplied> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <lb n="5"/><supplied reason="lost">XX</supplied>II co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <supplied reason="lost">Suri s</supplied><expan><abbr>ag</abbr><ex>ittarii</ex></expan> <lb n="6"/>sub <expan><abbr>T</abbr><ex>ito</ex></expan> Flavio Constante <expan><abbr>proc</abbr><ex>uratore</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld in Form einer tabula ansata.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 2, 576.</bibl><bibl>CIL 03, 12601b.</bibl><bibl>CIL 03, 13794.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

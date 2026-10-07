@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016271</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016271</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>83</height><width>(82)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate notBefore-custom="0198" notAfter-custom="0206" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD - 206 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot"/><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016271_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.</name><name type="nomen">Septimius+</name><name type="cognomen">Severus+ Pertinax</name></persName></person><person xml:id="HD016271_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius+</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD016271_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">P.++</name><name type="nomen">Septimius++</name><name type="cognomen">Geta++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-27" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> Se<supplied reason="lost">ptimio Severo Pio</supplied> <lb n="2"/>Pertinaci <expan><abbr>Aug</abbr><ex>usto</ex></expan> A<supplied reason="lost"><expan><abbr>rab</abbr><ex>ico</ex></expan> <expan><abbr>Adiab</abbr><ex>enico</ex></expan> <expan><abbr>Parth</abbr><ex>ico</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan></supplied> <lb n="3"/><expan><abbr>pontif</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> tri<supplied reason="lost"><expan><abbr>b</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>imp</abbr><ex>eratori</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> p<supplied reason="lost"><expan><abbr>roco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> et</supplied> <lb n="5"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Aur<supplied reason="lost">elio Antonino Pio</supplied> <lb n="6"/>Felici <expan><abbr>Aug</abbr><ex>usto</ex></expan> tri<supplied reason="lost"><expan><abbr>b</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>imp</abbr><ex>eratori</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> et</supplied> <lb n="7"/><del rend="erasure"><expan><abbr>P</abbr><ex>ublio</ex></expan> Septimio Getae <expan><abbr>nob</abbr><ex>ilissimo</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan></del> <lb n="8"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan></supplied> <expan><abbr>Sept</abbr><ex>imi</ex></expan> Sever<supplied reason="lost">i <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> Anto</supplied><lb break="no" n="9"/><supplied reason="lost">nini Pii</supplied> <expan><abbr>Aug</abbr><ex>usti</ex></expan> &amp;lt;f=E&amp;gt;ratr<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/> 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1966: geringfügig abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1966, 0349. (B)</bibl><bibl>CIL 03, 14211, 6.</bibl><bibl>J. Kolendo, Archeologia 16, 1965, 124-132, Nr. 1; fig. 1; fig. 2 (Zeichnung). - AE 1966.</bibl><bibl>ILBulg 268; tab. 54, 268.</bibl><bibl>IGLN 060; pl. 23, 60.</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 43, Nr. 36; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

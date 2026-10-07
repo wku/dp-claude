@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Alburnus Maior &amp;ndash; Roşia Montană (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043964</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043964</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roşia Montană, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>70</height><width>37</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#">Alburnus Maior</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2001"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/668639">Roşia Montană</placeName><placeName type="findspot">{Valea Nanului, Heiligtum T2}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043964_1" sex="M"><persName ref="http://romans1by1.com/rpeople/6221"><name type="nomen">Aelius*</name><name type="cognomen">Quintus</name></persName></person><person xml:id="HD043964_2" sex="M"><persName><name type="cognomen">Dius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-04-05" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ael</abbr><ex>ius</ex></expan> Qui<lb break="no" n="2"/>ntus <expan><abbr>Di</abbr><ex>i</ex></expan> <lb n="3"/><supplied reason="lost">G</supplied>enio co<lb break="no" n="4"/><expan><abbr><supplied reason="lost">l</supplied></abbr><ex>l</ex>egi</expan>(i) Sard<lb break="no" n="5"/><supplied reason="lost">i</supplied>a&amp;lt;t=I&amp;gt;arum 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Crăciun - Sion; ILD; Ciongradi: Z. 1/2: [A]el Qui/[n]tus; AE 2003: Z. 3/4: co/l(l)egi; Crăciun - Sion; AE 2003: ILD; Ciongradi: Z. 4/5: Sar[d]/[i]atarum.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1491. (B)</bibl><bibl>C. Crăciun - A. Sion, in: P. Damian (Hrsg.), Alburnus Maior 1 (Bucureşti 2003) 304-305; fig. 15, 2; fig. 18, 2 (Zeichnung). (B) - AE 2003.</bibl><bibl>ILD 401. (B)</bibl><bibl>C. Ciongradi, Die römischen Steindenkmäler aus Alburnus Maior (Cluj-Napoca 2009) 66, Nr. 58; Taf. 29, 58. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

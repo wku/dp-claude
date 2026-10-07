@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024120</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024120</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarmizegetusa, Muz. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/102">honorific/grave/votive column</objectType><dimensions unit="cm"><height>(30)</height><width>16</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">Forum Vetus, {Basilica}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024120_1" sex="M"><persName ref="http://romans1by1.com/rpeople/1151"><name type="praenomen">P.</name><name type="nomen">Antonius</name><name type="cognomen">Super</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004927" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6d77134f-44d9-4f04-b05c-4cb575ac7392/file/id/765682/file_version/name/small"/><graphic xml:id="F036555" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a21c524a-bdfe-460c-8fca-f3971239b71b/file/id/797415/file_version/name/small"/><graphic xml:id="F036556" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/467b2cd1-d6c2-45d6-b20a-c375fcaefebf/file/id/797416/file_version/name/small"/><graphic xml:id="F036557" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4fc35eb7-5983-42c4-a07d-f17c18bc12e4/file/id/797417/file_version/name/small"/><graphic xml:id="F036558" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/abf52037-aa34-4f79-b903-18e920ca452d/file/id/797418/file_version/name/small"/><graphic xml:id="F036559" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d82439ae-549c-4837-bbc9-bf48c269d004/file/id/797419/file_version/name/small"/><graphic xml:id="F036560" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/01f88043-aa8b-4f09-89c1-07ed177632ca/file/id/797420/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ordini <lb n="2"/>Augustalium <lb n="3"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Antonius <lb n="4"/>Super <expan><abbr>dec</abbr><ex>urio</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <lb n="5"/><expan><abbr>Sarmiz</abbr><ex>egetusae</ex></expan> metro<lb break="no" n="6"/>polis <expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment eines Säulenschaftes; ein Teil der Inschrift wurde nach der Auffindung beschädigt. Datierung: Sarmizegetusa erhielt den Beinamen metropolis unter Severus Alexander.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1933, 0241.</bibl><bibl>IDR 3, 2, 134; fig. 108 (Foto u. Zeichnung).</bibl><bibl>I. Piso, in: I. Piso (Hrsg.), Le forum vetus de Sarmizegetusa 1 (Bucureşti 2006) 250, Nr. 30; fig. 3, 28.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

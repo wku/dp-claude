@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Capidava &amp;ndash; Topalu (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066879</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066879</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(70)</height><width>(33)</width><depth>(20)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216748">Capidava</placeName></origPlace><origDate><origDate notBefore-custom="0293" notAfter-custom="0305" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">293 AD - 305 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1999"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682814">Topalu</placeName><placeName type="findspot">Capidava, {Lager, C10}, sekundär verwendet</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066879_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="praenomen">C.+++</name><name type="nomen">Aurelius+++* Valerius*</name><name type="cognomen">Diocletianus+++</name></persName></person><person xml:id="HD066879_2" sex="M"><persName><name type="praenomen">M.+++</name><name type="nomen">Aurelius+++* Valerius+++*</name><name type="cognomen">Maximianus+++</name></persName></person><person xml:id="HD066879_3" sex="M"><persName><name type="praenomen">M.+++</name><name type="nomen">Flavius+++* Valerius+++</name><name type="cognomen">Constantius+++</name></persName></person><person xml:id="HD066879_4" sex="M"><persName><name type="praenomen">C.++++</name><name type="nomen">Galerius+++ Valerius+++*</name><name type="cognomen">Maximianus+++</name></persName></person><person xml:id="HD066879_5" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Flavius* Valerius*</name><name type="cognomen">Constantinus+</name></persName></person><person xml:id="HD066879_6" sex="M"><persName><name type="nomen">Valerius+++* Licinius+++</name><name type="cognomen">Licinianus+++*</name></persName></person><person xml:id="HD066879_7" sex="M"><persName ref="https://www.wikidata.org/wiki/Q311646"><name type="nomen">Flavius+* Valerius+++*</name><name type="cognomen">Crispus+++</name></persName></person><person xml:id="HD066879_8" sex="M"><persName><name type="nomen">Licinius+</name><name type="cognomen">Licinianus+++</name></persName></person><person xml:id="HD066879_9" sex="M"><persName><name type="nomen">Flavius* Claudius+*</name><name type="cognomen">Constantinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-23" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Impp</abbr><ex>eratoribus</ex></expan> C[<expan><abbr>aess</abbr><ex>aribus</ex></expan> <del rend="erasure"><expan><abbr>C</abbr><ex>aio</ex></expan> Au</del>]<lb break="no" n="2"/><del rend="erasure">[re</del>]<expan><abbr>l</abbr><ex>io</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> <del rend="erasure">[Diocletiano</del>] <lb n="3"/>et <del rend="erasure">[<expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> Maximiano</del>] <lb n="4"/><expan><abbr>PP</abbr><ex>iis</ex></expan> <expan><abbr>FF</abbr><ex>elicibus</ex></expan> Inv<supplied reason="lost"><expan><abbr>ic</abbr><ex>tis</ex></expan> <expan><abbr>Augg</abbr><ex>ustis</ex></expan></supplied> <lb n="5"/><del rend="erasure">[et <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> Valerio</del>] <lb n="6"/><del rend="erasure">[Constantio et <expan><abbr>C</abbr><ex>aio</ex></expan></del>] <lb n="7"/><del rend="erasure">[G</del>]a<del rend="erasure">[le</del>]ri<del rend="erasure">[o <expan><abbr>Val</abbr><ex>erio</ex></expan> Maximiano</del>] <lb n="8"/>IIII co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> n<supplied reason="lost"><expan><abbr>ob</abbr><ex>ilissimis</ex></expan></supplied> <lb n="9"/><expan><abbr>Caess</abbr><ex>aribus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Impp</abbr><ex>eratores</ex></expan> C<supplied reason="lost"><expan><abbr>aess</abbr><ex>ares</ex></expan></supplied> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> <supplied reason="lost">Constantinus</supplied> <lb n="3"/>et <del rend="erasure">[<expan><abbr>Val</abbr><ex>erius</ex></expan> <expan><abbr>Licin</abbr><ex>ianus</ex></expan> Licinius</del>] <lb n="4"/><expan><abbr>PP</abbr><ex>ii</ex></expan> <expan><abbr>FF</abbr><ex>elices</ex></expan> Inv<supplied reason="lost"><expan><abbr>ic</abbr><ex>ti</ex></expan> <expan><abbr>Augg</abbr><ex>usti</ex></expan> et <expan><abbr>Fl</abbr><ex>avius</ex></expan></supplied> <lb n="5"/><del rend="erasure"><supplied reason="lost"><expan><abbr>Val</abbr><ex>erius</ex></expan> Cri</supplied>sp[us et Lici</del>]<lb break="no" n="6"/><del rend="erasure">[nia</del>]nus <supplied reason="lost">Licinius <expan><abbr>iun</abbr><ex>ior</ex></expan> et</supplied> <lb n="7"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> C<supplied reason="lost"><expan><abbr>l</abbr><ex>audius</ex></expan> Constantinus</supplied> <lb n="8"/>n<supplied reason="lost"><expan><abbr>ob</abbr><ex>ilissimi</ex></expan></supplied> <lb n="9"/><expan><abbr>Caess</abbr><ex>ares</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Drei Mal aufeinander beschrieben; der älteste Text ist nicht mehr lesbar (zugehörig ist möglicherweise IIII COS in Z. 8). Datierung bezieht sich auf den darauffolgenden Text a; Datierung des jüngsten Textes, b: 317-324 n. Chr. Von Text a wurden für b Buchstaben teilweise weiterverwendet oder eradiert. Buchstabe A mit spitz nach unten zeigender Querhaste. (B): AE 2008: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2008, 1193. (B)</bibl><bibl>M. Bărbulescu - L. Buzoianu - Z. Covacef, Pontica 41, 2008, 173-177, Nr. 3; 3a; fig. 3b (Zeichnung). - AE 2008.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

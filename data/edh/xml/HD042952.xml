@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Municipium Montanensium &amp;ndash; Montana (Mihajlovgrad) (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042952</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042952</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(70)</height><width>(17)</width><depth>(34)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207293">Municipium Montanensium</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1891"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="findspot"/><placeName type="region">Montana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042952_1" sex="M"><persName ref="http://romans1by1.com/rpeople/3073"><name type="praenomen">C.+</name><name type="nomen">Ovinius</name><name type="cognomen">Tertullus+</name></persName></person><person xml:id="HD042952_2" sex="M"><persName ref="http://romans1by1.com/rpeople/14837"><name type="praenomen">Q.</name><name type="nomen">V[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD042952_3" sex="M"><persName ref="http://romans1by1.com/rpeople/14838"><name type="cognomen">Victorinus+</name></persName></person><person xml:id="HD042952_4" sex="M"><persName ref="http://romans1by1.com/rpeople/14839"><name type="nomen">Raesius</name><name type="cognomen">Pudens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-06" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Deana<supplied reason="lost">e <expan><abbr>Reg</abbr><ex>inae</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> pro sa<supplied reason="lost">lute <expan><abbr>C</abbr><ex>ai</ex></expan></supplied> <lb n="2"/>Ovini T<supplied reason="lost">ertulli</supplied> <lb n="3"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>Q</abbr><ex>uintus</ex></expan> V<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>cum f<supplied reason="lost">ilio suo</supplied> <lb n="5"/>Victo<supplied reason="lost">rino</supplied> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/> Raesi</ab></div><div n="4" type="textpart"><ab><lb n="1"/>us Pudens <lb n="2"/><expan><abbr>primiscrin</abbr><ex>ius</ex></expan> <lb n="3"/><expan><abbr>officin</abbr><ex>ae</ex></expan> <expan><abbr>n</abbr><ex>ostrae</ex></expan> <lb n="4"/>cum suis <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Der Inschrifttext verteilt sich auf die Vorder- und die linke Nebenseite.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 152-153, Nr. 169; Zeichnung.</bibl><bibl>CIL 03, 12370.</bibl><bibl>CIL 03, 12375.</bibl><bibl>CIL 03, 14209.</bibl><bibl>PIR (2. Aufl.) O 191.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

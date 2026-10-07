@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD046338</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD046338</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0255" notAfter-custom="0258" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">255 AD - 258 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1550"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot"/><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD046338_1"><persName><name type="praenomen">P.</name><name type="nomen">Licinius Cornelius</name><name type="cognomen">Valerianus</name></persName></person><person xml:id="HD046338_2"><persName ref="https://www.wikidata.org/wiki/Q104475"><name type="praenomen">P.</name><name type="nomen">Licinius Egnatius</name><name type="cognomen">Gallienus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-01-22" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Licinio Corne<lb break="no" n="2"/>lio Valeriano <lb n="3"/>nobilissimo <expan><abbr>Caes</abbr><ex>ari</ex></expan> <lb n="4"/>filio <lb n="5"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>P</abbr><ex>ubli</ex></expan> Licini <lb n="6"/>Egnati Gallieni <lb n="7"/>Pii <expan><abbr>Fel</abbr><ex>icis</ex></expan> invicti <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="8"/><expan><abbr>col</abbr><ex>onia</ex></expan> <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>Trai</abbr><ex>ana</ex></expan> <expan><abbr>Aug</abbr><ex>usta</ex></expan> <lb n="9"/>Dacica <expan><abbr>Sarmiz</abbr><ex>egetusa</ex></expan> <lb n="10"/><expan><abbr>metrop</abbr><ex>olis</ex></expan> publice
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 2, 082.</bibl><bibl>CIL 03, 07971.</bibl><bibl>ILS 0554.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

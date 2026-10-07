@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Tibiscum &amp;ndash; Caransebeş (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD046504</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD046504</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207495">Tibiscum</placeName></origPlace><origDate><origDate notBefore-custom="0254" notAfter-custom="0268" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">254 AD - 268 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682729">Caransebeş</placeName><placeName type="findspot">Jupa, {Timiş / Bistra, Zusammenfluß}, bei</placeName><placeName type="region">Caraș-Severin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD046504_1"><persName><name type="nomen">Cornelia</name><name type="cognomen">Salonina</name></persName></person><person xml:id="HD046504_2"><persName ref="https://www.wikidata.org/wiki/Q104475"><name type="cognomen">Gallienus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-12-13" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Corneliae <lb n="2"/>Saloninae <lb n="3"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan> coniugi <lb n="4"/>Gallieni <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <lb n="5"/>ordo <expan><abbr>mun</abbr><ex>icipii</ex></expan> <lb n="6"/><expan><abbr>Tib</abbr><ex>iscensium</ex></expan> <expan><abbr>dev</abbr><ex>otus</ex></expan> <expan><abbr>num</abbr><ex>ini</ex></expan> <lb n="7"/>maiesta<supplied reason="lost"><expan><abbr>t</abbr><ex>ique</ex></expan></supplied> eius
+            </ab></div>
+            <div type="commentary">
+                <p>Statuenbasis oder Altar; corona bei Auffindung nicht erhalten. Nur durch Abschriftten bekannt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 1, 132; fig. 101 (Zeichnung).</bibl><bibl>CIL 03, 01550.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

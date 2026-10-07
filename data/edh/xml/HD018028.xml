@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Augusta (Diocletianopolis) &amp;ndash; Hisarja (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018028</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018028</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>111</height><width>62</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.7-3.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216792">Augusta (Diocletianopolis)</placeName></origPlace><origDate><origDate notBefore-custom="0175" notAfter-custom="0180" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">175 AD - 180 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729107">Hisarja</placeName><placeName type="findspot">{Mihilci}, bei, "Gorni stenici"</placeName><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018028_1"><persName ref="https://www.wikidata.org/wiki/Q1430"><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Antoninus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar <lb n="2"/>divi Veri frater <lb n="3"/>divi Antonini Pii <lb n="4"/>filius divi Hadri<lb break="no" n="5"/>ani nepos divi Tra<lb break="no" n="6"/>iani pronepos di<lb break="no" n="7"/>vi Nervae abne<lb break="no" n="8"/>pos <expan><abbr>M</abbr><ex>arcus</ex></expan> Aurelius <lb n="9"/>Antoninus Augu<lb break="no" n="10"/>stus Germanicus <lb n="11"/>Sarmaticus pon<lb break="no" n="12"/>tifex maximus <lb n="13"/>tribuniciae <expan><abbr>pot</abbr><ex>estatis</ex></expan> <lb n="14"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>pat</abbr><ex>er</ex></expan> <expan><abbr>pat</abbr><ex>riae</ex></expan> <lb n="15"/>stabula vetusta<lb break="no" n="16"/>te dilapsa a solo <lb n="17"/>sua pecunia resti<lb break="no" n="18"/>tuit
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1961: Z. 14: cos. IIII; Nikolov: Z. 16: dilabsa.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1961, 0318. (B)</bibl><bibl>D. Nikolov, in: Mélanges D. Dečev. Studia in honorem D. Dečev (Sofia 1958) 285-288; obr. 1 u. 2. (B) - AE 1961.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

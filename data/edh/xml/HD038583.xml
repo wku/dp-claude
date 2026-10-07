@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038583</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038583</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wien, Nationalbibl.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0215" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">215 AD - 217 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1600"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot"/><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038583_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD038583_2" sex="M"><persName ref="http://romans1by1.com/rpeople/9420"><name type="praenomen">L.+</name><name type="nomen">Annius+</name><name type="cognomen">Italicus+ Honoratus+</name></persName></person><person xml:id="HD038583_3" sex="W"><persName ref="http://romans1by1.com/rpeople/9421"><name type="nomen">Gavidia</name><name type="cognomen">Torquata</name></persName></person><person xml:id="HD038583_4" sex="M"><persName ref="http://romans1by1.com/rpeople/9422"><name type="nomen">Annius</name><name type="cognomen">Italicus</name></persName></person><person xml:id="HD038583_5" sex="M"><persName ref="http://romans1by1.com/rpeople/9423"><name type="nomen">Annius</name><name type="cognomen">Honoratus+</name></persName></person><person xml:id="HD038583_6" sex="W"><persName ref="http://romans1by1.com/rpeople/9424"><name type="nomen">Annia</name><name type="cognomen">Italica+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005640" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a70e7e80-a12f-4c69-a0da-f987ee3d0b3e/file/id/766417/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Victoriae</supplied> <lb n="2"/><supplied reason="lost">Antonini</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan> Annius Italicus</supplied> <lb n="5"/><supplied reason="lost">Honora</supplied>tus <expan><abbr>leg</abbr><ex>atus</ex></expan> <lb n="6"/><expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>usti</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XIII <expan><abbr>g</abbr><ex>eminae</ex></expan> <lb n="7"/>Antoninianae <lb n="8"/>pr<expan><ex>a</ex><abbr>efectus</abbr></expan> aerarii <lb n="9"/>militaris sodalis <lb n="10"/>Hadrianali cum <lb n="11"/>Gavidia Torquata <lb n="12"/>sua et Anniis Italico <lb n="13"/>et Ho<supplied reason="lost">norato et</supplied> <lb n="14"/><supplied reason="lost">Italica filiis</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment vom Mittelteil eines Altars oder einer Statuenbasis; teilweise modern ergänzt. Die Inschrift war bei der Auffindung noch vollständig erhalten. Z. 14 (Ende): hedera. (B): CIL III 1072: Z. 6: [Aug. le]g. XIII g.; Piso, Fasti: Z. 8: praefectus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 365; Zeichnung.</bibl><bibl>CIL 03, 01072. (B)</bibl><bibl>I. Piso, Fasti provinciae Daciae 1. Die senatorischen Amtsträger (Bonn 1993) 253-257, Nr. 62, 2. (B)</bibl><bibl>A. Buonopane - V. La Monaca, in: G.P. Marchi - J. Pál (Hrsg.), Epigrafi romane di Transilvania. Bibliotheca Capitolare di Verona, Manoscritto CCLXVII (Verona - Szeged 2010) 276, Nr. 23; Foto u. Zeichnung.</bibl><bibl>PIR (2. Aufl.) A 659.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

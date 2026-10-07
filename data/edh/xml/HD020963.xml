@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ratiaria, aus? &amp;ndash; Vidin (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020963</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020963</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(100)</height><width>75</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207376">Ratiaria, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/725905">Vidin</placeName><placeName type="findspot">{Festung}, sekundär verwendet</placeName><placeName type="region">Vidin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020963_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD020963_2" sex="M"><persName ref="http://romans1by1.com/rpeople/14181"><name type="nomen">Aurelius*</name><name type="cognomen">Longinus</name></persName></person><person xml:id="HD020963_3" sex="M"><persName ref="http://romans1by1.com/rpeople/14182"><name type="nomen">Aurelius*</name><name type="cognomen">Bessus</name></persName></person><person xml:id="HD020963_4" sex="W"><persName ref="http://romans1by1.com/rpeople/14183"><name type="nomen">Aurelia</name><name type="cognomen">Matia</name></persName></person><person xml:id="HD020963_5" sex="M"><persName ref="http://romans1by1.com/rpeople/14184"><name type="nomen">Aurelius*</name><name type="cognomen">Ursus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-09-22" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>et <expan><abbr>Aur</abbr><ex>eli</ex></expan> Longi<lb break="no" n="2"/>ni <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> VI et <expan><abbr>Aur</abbr><ex>eli</ex></expan> <lb n="3"/>Bessi <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> V Au<lb break="no" n="4"/>relia Matiae <note>sic</note> <lb n="5"/>et <expan><abbr>Aur</abbr><ex>elius</ex></expan> Ursus <lb n="6"/><expan><abbr>ducenar</abbr><ex>ius</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erentibus</ex></expan> <lb n="7"/><expan><abbr>posuer</abbr><ex>unt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Unterhalb des Inschriftfeldes Kantharos mit Weinranken; Inschriftfeld gerahmt von einer Efeuranke. Mehrere Ligaturen. (B): Seure: Z. 2: Au(reli); Danoff; AE 1938: Z. 4: Mathae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1914, 0088.</bibl><bibl>G.I. Kacarov, BullSocArchBulg 3, 1912/13, 180-181. 200, Nr. 1; obr. 93. - AE 1914.</bibl><bibl>AE 1920, p. 32 s. n. 108.</bibl><bibl>G. Seure, RA 10, 1919, 166-167, Nr. 163. (B) - AE 1920.</bibl><bibl>AE 1938, 0100. (B)</bibl><bibl>C.M. Danoff, JŒAI (Beibl.) 31, 1939, 112-113, Nr. 16; Abb. 39. (B) - AE 1938.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

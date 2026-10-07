@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Halmyris &amp;ndash; Murighiol (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042501</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042501</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tulcea, Inst. Cerc. Eco-Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(68)</height><width>(90)</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/226617">Halmyris</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1987"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/672602">Murighiol</placeName><placeName type="findspot">spätantike Festung, {Nordtor}, sekundär verwendet</placeName><placeName type="region">Tulcea</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042501_1"><persName ref="http://romans1by1.com/rpeople/10982"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD042501_2" sex="M"><persName ref="http://romans1by1.com/rpeople/10983"><name type="praenomen">C.</name><name type="nomen">Valerius*</name><name type="cognomen">Longinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-06-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ vi]<lb break="no" n="2"/><expan><abbr>x</abbr><ex>it</ex></expan> an<supplied reason="lost">n</supplied>is XXXII <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Lon<lb break="no" n="4"/>ginus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="5"/><expan><abbr>l<supplied reason="lost">e</supplied>g</abbr><ex>ionis</ex></expan> V <expan><abbr>Mac</abbr><ex>edonicae</ex></expan> <lb n="6"/>ex <expan><abbr>b</abbr><ex>eneficiario</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr>CO</abbr><ex cert="low"/>X</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Hederae; Spuren von roter Farbe in den Buchstaben. Z. 7: statt XI auch H oder N möglich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1386.</bibl><bibl>AE 2011, 1140.</bibl><bibl>M. Zahariade, Dacia 34, 1990, 262-263, Nr. 5; fig. 7. - AE 1991.</bibl><bibl>A. Suceveanu - M. Zahariade, in: A. Suceveanu - M. Zahariade - F. Topoleanu - G. Poenaru Bordea (Hrsg.), Halmyris 1. Monografie Arheologică (Cluj-Napoca 2003) 121-122, Nr. 15; fig. 54.</bibl><bibl>M. Zahariade - C.-G. Alexandrescu, Greek and Latin inscriptions from Halmyris.</bibl><bibl>Inscriptions on stone, signa, and instrumenta found between 1981 and 2010 (Oxford 2011) 39-40, Nr. 18; fig. 37. - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

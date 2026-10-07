@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Fântânele (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021530</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021530</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>14</height><width>10</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0233" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">233 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/678171">Fântânele</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-24" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Antonini Magni <lb n="2"/>Pii <expan><abbr>fil</abbr><ex>ius</ex></expan> divi Severi Pii nepos <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aurellius <note>sic</note> Severus Alexander Pius <lb n="4"/>Felix <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <lb n="5"/><expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <lb n="6"/>nomina militum qui militaverunt in <lb n="7"/>cohortibus praetori<expan><ex>i</ex><abbr>s</abbr></expan> Alexandria<lb break="no" n="8"/>nis decem I II III IIII V VI VII VIII VIIII X <lb n="9"/>piis vindicibus qui pie et fortiter mi<lb break="no" n="10"/>litia functi sunt ius tribui conubii <lb n="11"/>dumtaxat cum singulis et primis uxo<lb break="no" n="12"/>ribus ut aetiam <note>sic</note> si peregrini iuris fe<lb break="no" n="13"/>minas in matrimonio suo iunxerint <lb n="14"/>proinde liberos tollant ac si ex <lb n="15"/>duobus civibus Romanis natos <lb n="16"/><expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> VII Idus <expan><abbr>Ian</abbr><ex>uarias</ex></expan> <lb n="17"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Valerio Maximo et <lb n="18"/><expan><abbr>Cn</abbr><ex>aeo</ex></expan> Cornelio Paterno co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="19"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> V <expan><abbr>pr</abbr><ex>aetoriae</ex></expan> <expan><abbr>Alexandrian</abbr><ex>ae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>v</abbr><ex>indicis</ex></expan> <lb n="20"/><expan><abbr>Ael</abbr><ex>io</ex></expan> Aurelio <expan><abbr>Ael</abbr><ex>i</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Attico <lb n="21"/>Acamantia Doryleo <lb n="22"/><expan><abbr>descript</abbr><ex>um</ex></expan> et <expan><abbr>recognit</abbr><ex>um</ex></expan> ex tabula aerea <lb n="23"/>qu<expan><ex>a</ex><abbr>e</abbr></expan> fixa est Romae in muro <expan><abbr>pos</abbr><ex>t</ex></expan> <expan><abbr>templ</abbr><ex>um</ex></expan> <lb n="24"/>divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Antonini Magni Pii <lb n="2"/><expan><abbr>fil</abbr><ex>ius</ex></expan> divi Severi Pii nepos <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aurellius <note>sic</note> Severus Alexander Pius <lb n="4"/>Felix <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <lb n="5"/>III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> nomina militum <lb n="6"/>qui <expan><abbr>militaver</abbr><ex>unt</ex></expan> in <expan><abbr>cohort</abbr><ex>ibus</ex></expan> <expan><abbr>pr</abbr><ex>aetoriis</ex></expan> Ale<lb break="no" n="7"/><expan><abbr>xandrian</abbr><ex>is</ex></expan> decem I II III IIII V VI VII VIII <lb n="8"/>VIIII X piis vindicibus qui pie et <lb n="9"/>fortiter militia functi sunt <lb n="10"/>ius tribui conubii dumtaxat <lb n="11"/>cum singulis et <expan><abbr>prim</abbr><ex>is</ex></expan> <expan><abbr>uxor</abbr><ex>ibus</ex></expan> ut <lb n="12"/>aetiam <note>sic</note> si peregrini <expan><abbr>iur</abbr><ex>is</ex></expan> feminas <lb n="13"/>in <expan><abbr>matr</abbr><ex>imonio</ex></expan> suo <expan><abbr>iunxer</abbr><ex>int</ex></expan> <expan><abbr>proind</abbr><ex>e</ex></expan> <expan><abbr>libe</abbr><ex>ros</ex></expan> &amp;lt;tollant&amp;gt; <lb n="14"/>ac si ex d<expan><ex>uo</ex><abbr>b</abbr><ex>us</ex></expan> <expan><abbr>c</abbr><ex>ivibus</ex></expan> <expan><abbr>R</abbr><ex>omanis</ex></expan> natos </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>A</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> VII <expan><abbr>Id</abbr><ex>us</ex></expan> <expan><abbr>Ian</abbr><ex>uarias</ex></expan> <lb n="2"/>Maximo et Paterno co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="3"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> V <expan><abbr>pr</abbr><ex>aetoriae</ex></expan> <expan><abbr>Alexandr</abbr><ex>ianae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>v</abbr><ex>indicis</ex></expan> <lb n="4"/><expan><abbr>Ael</abbr><ex>io</ex></expan> Aurelio <expan><abbr>Ael</abbr><ex>i</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Attico Acaman<lb break="no" n="5"/>tia Doryleo <lb n="6"/><expan><abbr>descript</abbr><ex>um</ex></expan> et <expan><abbr>recognit</abbr><ex>um</ex></expan> ex tabula ae<lb break="no" n="7"/>rea qu<expan><ex>a</ex><abbr>e</abbr></expan> fixa est Rom<expan><ex>a</ex><abbr>e</abbr></expan> in muro <lb n="8"/><expan><abbr>pos</abbr><ex>t</ex></expan> <expan><abbr>templ</abbr><ex>um</ex></expan> divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Miner<lb break="no" n="9"/>vam </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arci</ex></expan> Aureli Sabiniani <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> <supplied reason="lost">A</supplied>ureli Dionysi <lb n="3"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Ulpi Pontentis <note>sic</note> <lb n="4"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Valeri Vitaliani <lb n="5"/><expan><abbr>M</abbr><ex>arci</ex></expan> Aureli Amandi <lb n="6"/><expan><abbr>C</abbr><ex>ai</ex></expan> Ulpi Valentis <lb n="7"/><expan><abbr>T</abbr><ex>iti</ex></expan> Claudi Muciani
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1914, 0259.</bibl><bibl>CIL 16, 00145.</bibl><bibl>J. Weiss, JŒAI (Beibl.) 16, 1913, 71-76; fig. 27 (Zeichnung). - AE 1914.</bibl><bibl>PIR (2. Aufl.) C 1413.</bibl><bibl>PIR (2. Aufl.) V 131.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

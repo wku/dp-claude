@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Sungurlare (Thracia?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021564</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021564</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia?</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/730674">Sungurlare</placeName><placeName type="findspot">Manolich, {Kamensko}</placeName><placeName type="region">Burgas</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-21" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>nia sub <expan><abbr>D</abbr><ex>ecimo</ex></expan> Nov<supplied reason="lost">io Prisco qui quina et vice</supplied><lb break="no" n="1"/>na stipendia aut plura meruerant quo<lb break="no" n="2"/>rum nomina subscripta sunt ipsis li<lb break="no" n="3"/>beris posterisque eorum civitatem <lb n="4"/>dedit et conubium cum uxoribus quas <lb n="5"/>tunc habuissen<supplied reason="lost">t cu</supplied>m est civitas iis da<lb break="no" n="6"/>ta aut si qui cael<supplied reason="lost">ibes es</supplied>sent cum iis quas <lb n="7"/>postea duxissen<supplied reason="lost">t dumta</supplied>xat singuli <lb n="8"/>singulas ad V <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Febr</abbr><ex>uarias</ex></expan> <lb n="9"/><expan><abbr>A</abbr><ex>ulo</ex></expan> Didio Ga&amp;lt;l=T&amp;gt;lo Fa<supplied reason="lost">bricio</supplied> Veientone II <lb n="10"/><expan><abbr>L</abbr><ex>ucio</ex></expan> <supplied reason="lost">L</supplied>amia Plautio Aeliano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="11"/><expan><abbr>cohort</abbr><ex>is</ex></expan> IIII Thracum cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="12"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Lutatius <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Pup</abbr><ex>inia</ex></expan> Dexter Laelianus <lb n="13"/>pediti <lb n="14"/>Durise Bithi <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Thrac</abbr><ex>i</ex></expan> <lb n="15"/>descriptum et recognitu<supplied reason="lost">m</supplied> ex tabula ae<lb break="no" n="16"/>nea quae fixa est Romae in Capitolio <lb n="17"/>post Ligures </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Titus Ca</supplied>esar divi Vespasiani <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><supplied reason="lost">Vespasian</supplied>us Augustus pontifex <lb n="3"/><supplied reason="lost">maximus</supplied> <expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> VIIII <lb n="4"/><supplied reason="lost"><expan><abbr>imp</abbr><ex>erator</ex></expan> XIIII</supplied> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> censor co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> VIII <lb n="5"/><supplied reason="lost">peditibus et e</supplied>quitibus qui militant in co<lb break="no" n="6"/><supplied reason="lost">hortibus u</supplied>ndecim I Flavia et I classica <lb n="7"/><supplied reason="lost">et <gap reason="lost" extent="unknown" unit="character"/> I Latobicor</supplied>um et Varcianorum et I et II <lb n="8"/><supplied reason="lost">Thracum et II</supplied> civium Romanorum et II As<lb break="no" n="9"/><supplied reason="lost">turum et III D</supplied>almatarum et IIII et VI Thracum <lb n="10"/><supplied reason="lost">et</supplied><gap reason="lost" extent="unknown" unit="character"/> quae sunt in Germania sub <expan><abbr>D</abbr><ex>ecimo</ex></expan> <lb n="11"/><supplied reason="lost">Novio Prisco</supplied> qui quina et vicena stipen<lb break="no" n="12"/><supplied reason="lost">dia aut plur</supplied>a meruerant quorum <lb n="13"/><supplied reason="lost">nomina su</supplied>bscripta sunt ipsis li<lb break="no" n="14"/><supplied reason="lost">beris posteri</supplied>sque eorum civitate<supplied reason="lost">m</supplied> </ab></div><div n="3" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> 
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1948, 0056.</bibl><bibl>AE 1954, p. 16 s. n. 33.</bibl><bibl>AE 1951, p. 8 s. n. 6.</bibl><bibl>AE 1951, p. 36 s. n. 117.</bibl><bibl>AE 1951, p. 61 s. n. 213.</bibl><bibl>AE 1950, 0012.</bibl><bibl>CIL 16, 00158.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

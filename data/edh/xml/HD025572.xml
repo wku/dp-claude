@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025572</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025572</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, Muz. Unirii</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>144</height><width>60</width><depth>52</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0275" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 275 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/671315">Alba Iulia</placeName><placeName type="findspot">{Partoş}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD025572_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius</name><name type="cognomen">Antipater</name></persName></person><person xml:id="HD025572_2" sex="W"><persName ref="http://romans1by1.com/rpeople/9700"><name type="nomen">Antonia</name><name type="cognomen">Iulia</name></persName></person><person xml:id="HD025572_3" sex="M"><persName><name type="nomen">Aelius</name><name type="cognomen">Antipater</name></persName></person><person xml:id="HD025572_4" sex="M"><persName ref="http://romans1by1.com/rpeople/9702"><name type="nomen">Aelius</name><name type="cognomen">Iulianus</name></persName></person><person xml:id="HD025572_5" sex="M"><persName ref="http://romans1by1.com/rpeople/9703"><name type="nomen">Aelius</name><name type="cognomen">Genialis</name></persName></person><person xml:id="HD025572_6" sex="W"><persName ref="http://romans1by1.com/rpeople/9704"><name type="cognomen">Iulia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-14" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005128" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4a631a24-3ac6-46b8-8a2c-6afc214cbb8e/file/id/765905/file_version/name/small"/><graphic xml:id="F036378" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cbe57119-6e38-4e38-8acb-3d53914473d6/file/id/797235/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <expan><abbr>Cust</abbr><ex>odi</ex></expan> <lb n="2"/><expan><abbr>Iunon</abbr><ex>i</ex></expan> Miner<lb break="no" n="3"/>vae ceteris<lb break="no" n="4"/>que dis deabus<lb break="no" n="5"/>que <expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Anti<lb break="no" n="6"/>pater <expan><abbr>IIvira</abbr><ex>lis</ex></expan> <lb n="7"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Apul</abbr><ex>ensis</ex></expan> et An<lb break="no" n="8"/>tonia Iulia <lb n="9"/>eius et Aelii An<lb break="no" n="10"/>tipater Iulia<lb break="no" n="11"/>nus Genialis <lb n="12"/><expan><abbr>deccc</abbr><ex>uriones</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>eq</abbr><ex>uo</ex></expan> <expan><abbr>p</abbr><ex>ublico</ex></expan> <expan><abbr>e</abbr><ex>t</ex></expan> Iulia <lb n="13"/>filii <expan><abbr>eor</abbr><ex>um</ex></expan> pro <expan><abbr>salut</abbr><ex>e</ex></expan> <lb n="14"/>sua suorumque
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 12: C. Daicoviciu; AE 1930: dec(uriones)</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1930, 0007.</bibl><bibl>C. Daicoviciu, ACM 1929, 305, Nr. 6; fig. 3. - AE 1930.</bibl><bibl>IDR 3, 5, 215; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

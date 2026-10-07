@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Municipium Montanensium &amp;ndash; Montana (Mihajlovgrad) (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043458</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043458</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><dimensions unit="cm"><height>80</height><width>45</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207293">Municipium Montanensium</placeName></origPlace><origDate><origDate when-custom="0160" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">160 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="findspot">{S. Kiril i Metodij?, Kirche}</placeName><placeName type="region">Montana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043458_1" sex="M"><persName ref="http://romans1by1.com/rpeople/3096"><name type="praenomen">L.</name><name type="nomen">Iulius Statilius</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD043458_2" sex="M"><persName ref="http://romans1by1.com/rpeople/14840"><name type="praenomen">[-]</name><name type="nomen">Aelius</name><name type="cognomen">Artemidorus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-06" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dianae <lb n="2"/>Reginae et Apol<lb break="no" n="3"/>lini pro salute <lb n="4"/><expan><abbr>L</abbr><ex>uci</ex></expan> Iu&amp;lt;l=I&amp;gt;i Statilii Se<lb break="no" n="5"/>veri <expan><abbr>leg</abbr><ex>ati</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <lb n="6"/><expan><abbr>pr</abbr><ex>aetore</ex></expan> et <expan><abbr>li<supplied reason="lost">be</supplied>r</abbr><ex>or</ex>um</expan> ei<lb break="no" n="7"/>us <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Aelius <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="8"/><expan><abbr>Artemidoru</abbr><ex>s</ex></expan> <lb n="9"/>|(centurio) <expan><abbr><supplied reason="lost">l</supplied>eg</abbr><ex>ionis</ex></expan> <supplied reason="lost">I</supplied> <expan><abbr>Ital</abbr><ex>icae</ex></expan> <expan><abbr><supplied reason="lost">f</supplied>r</abbr><ex>umentarius</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Hederae. (B): Frankfurter, AE 1891: Z. 4: [T.] Iu[l]i.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1891, 0080. (B)</bibl><bibl>S. Frankfurter, AEM 14, 1891, 145, Nr. 7. (B) - AE 1891.</bibl><bibl>PIR (2. Aufl.) I 588.</bibl><bibl>CIL 03, 12371.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

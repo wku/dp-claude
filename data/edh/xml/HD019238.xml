@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Dobrič-selska (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019238</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019238</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>(84)</height><width>36</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-9.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0234" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">234 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728404">Dobrič-selska</placeName><placeName type="findspot">{Paskalevo}, westlich</placeName><placeName type="region">Dobrič</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019238_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="praenomen">M.</name><name type="nomen">Aurelius</name><name type="cognomen">Severus Alexander</name></persName></person><person xml:id="HD019238_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Decius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-20" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <supplied reason="lost">C</supplied>aes<supplied reason="lost">a</supplied>r <expan><abbr>M</abbr><ex>arcus</ex></expan> <lb n="2"/>Aurelius Severus <lb n="3"/>Alexander Pius Felix <lb n="4"/>sanctissimus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="5"/>tribuniciae potest<lb break="no" n="6"/>atis XIII consul III <lb n="7"/>pater patriae <expan><abbr>pr<supplied reason="lost">o</supplied>cons</abbr><ex>ul</ex></expan> <lb n="8"/>pontes derutos et vias <lb n="9"/>conlapsas restituit <lb n="10"/>curante Quinto Decio <lb n="11"/><expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> suo <lb n="12"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1895, 0056.</bibl><bibl>CIL 03, 12519.</bibl><bibl>PIR (2. Aufl.) D 28.</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 51, Nr. 48; Zeichnung.</bibl><bibl>K. Škorpil, AEM 17, 1894, 209-210, Nr. 101. - AE 1895.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

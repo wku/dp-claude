@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Marcianopolis &amp;ndash; Devnja (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042061</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042061</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Varna, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>190</height><width>90</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216878">Marcianopolis</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/732280">Devnja</placeName><placeName type="findspot"/><placeName type="region">Varna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042061_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14569"><name type="cognomen">Primus</name></persName></person><person xml:id="HD042061_2" sex="M"><persName><name type="cognomen">Carus</name></persName></person><person xml:id="HD042061_3" sex="M"><persName ref="http://romans1by1.com/rpeople/14570"><name type="cognomen">Primanus</name></persName></person><person xml:id="HD042061_4" sex="M"><persName ref="http://romans1by1.com/rpeople/14569"><name type="cognomen">Primus</name></persName></person><person xml:id="HD042061_5" sex="M"><persName ref="http://romans1by1.com/rpeople/14571"><name type="cognomen">Acutus</name></persName></person><person xml:id="HD042061_6" sex="M"><persName><name type="cognomen">Geminius</name></persName></person><person xml:id="HD042061_7" sex="W"><persName ref="http://romans1by1.com/rpeople/14572"><name type="cognomen">Tertia</name></persName></person><person xml:id="HD042061_8" sex="M"><persName><name type="cognomen">Primigenius</name></persName></person><person xml:id="HD042061_9" sex="M"><persName ref="http://romans1by1.com/rpeople/14573"><name type="cognomen">Carianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Primus Cari <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="3"/><expan><abbr>an</abbr><ex>nos</ex></expan> XXX Primanus <lb n="4"/>Primi <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> V <lb n="5"/>Acutus Gemini <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="6"/><expan><abbr>an</abbr><ex>nos</ex></expan> IX Tertia Primi<lb break="no" n="7"/>geni <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> L <lb n="8"/>Carianus Ca<lb break="no" n="9"/>ri <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXV <lb n="10"/><expan><abbr>fratri</abbr><ex cert="low"/></expan> et <expan><abbr>p</abbr><ex cert="low">ientissimis</ex></expan> pare<expan><ex>n</ex><abbr>tibu</abbr><ex>s</ex></expan> <lb n="11"/><expan><abbr>be</abbr><ex>ne</ex></expan> <expan><abbr>me</abbr><ex>rentibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>In der Mitte des Inschriftfeldes quer gebrochen. Oberhalb des Inschriftfeldes ein Kranz. (B): Conrad; AE 2004: Z. 7: an(nis) {an(nis)}; Salač - Škorpil: Z. 10: fratri et p[p}are[n]tibu[s]; Conrad; AE 2004: Z. 10: fra(ter) fr(atr]i(bus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 210, Nr. 312; Taf. 75, 1. (B)</bibl><bibl>AE 2004, 1303. (B)</bibl><bibl>A. Salač - K. Škorpil, Několik archeologických památek z východního bulharska (Praze 1928) 68-69. 78, Nr. 29; fig. 11 (Zeichnung). (B) - AE 1928.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

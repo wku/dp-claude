@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ad Putea, aus? &amp;ndash; Dolna Mitropolija (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042383</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042383</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>215</height><width>90</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216692">Ad Putea, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0231" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727640">Dolna Mitropolija</placeName><placeName type="findspot">{Riben}, westlich, Nekropole</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042383_1" sex="M"><persName><name type="nomen">Aurelius</name><name type="cognomen">Silvanus</name></persName></person><person xml:id="HD042383_2" sex="W"><persName><name type="nomen">Valeria*</name><name type="cognomen">Marcia</name></persName></person><person xml:id="HD042383_3" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Sabinus</name></persName></person><person xml:id="HD042383_4" sex="W"><persName><name type="cognomen">Aurelia</name></persName></person><person xml:id="HD042383_5" sex="M"><persName><name type="cognomen">Silvanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-22" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> Au<lb break="no" n="2"/><expan><abbr>r</abbr><ex>elius</ex></expan> Silvanu<lb break="no" n="3"/>s <expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI Cla<lb break="no" n="4"/><expan><abbr>u</abbr><ex>diae</ex></expan> vivo suo <lb n="5"/>sibi et <expan><abbr>Val</abbr><ex>eriae</ex></expan> <lb n="6"/>Marciae <lb n="7"/>caris<expan><ex>s</ex><abbr>im</abbr><ex>a</ex><abbr>e</abbr></expan> <lb n="8"/>co<expan><ex>n</ex><abbr>iugi</abbr></expan> su<lb break="no" n="9"/>i <note>sic</note> <expan><abbr>Au</abbr><ex>relio</ex></expan> Sabino <lb n="10"/>previgno <note>sic</note> vi<lb break="no" n="11"/><expan><abbr>x</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXX et Au<lb break="no" n="12"/>reliae <expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="13"/><expan><abbr>an</abbr><ex>nos</ex></expan> XV Silvano ne<lb break="no" n="14"/>poti <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> III
+            </ab></div>
+            <div type="commentary">
+                <p>Ursprünglich wahrscheinlich aus der Straßenstation Ad Putea. Oberhalb des Inschriftfeldes Rundgiebel mit Rosette.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 250, Nr. 466.</bibl><bibl>ILBulg 216.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

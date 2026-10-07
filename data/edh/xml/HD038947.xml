@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038947</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038947</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material>Gesteine?</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0193" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">193 AD - 217 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">Festung, {Prinzenpalast}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038947_1"><persName ref="http://romans1by1.com/rpeople/11359"><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Corinthianus</name></persName></person><person xml:id="HD038947_2"><persName ref="http://romans1by1.com/rpeople/11360"><name type="nomen">Marcius</name><name type="cognomen">Arrianus</name></persName></person><person xml:id="HD038947_3"><persName ref="http://romans1by1.com/rpeople/11361"><name type="nomen">Iulius*</name><name type="cognomen">Clinias</name></persName></person><person xml:id="HD038947_4"><persName ref="http://romans1by1.com/rpeople/11362"><name type="nomen">Iulius*</name><name type="cognomen">Pisonianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-05-24" who="Garcia">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>Thevest</abbr><ex>e</ex></expan> <lb n="2"/>Corinthiano <expan><abbr>praef</abbr><ex>ecto</ex></expan> <lb n="3"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> VII <expan><abbr>Gall</abbr><ex>orum</ex></expan> <expan><abbr>tribun</abbr><ex>o</ex></expan> <lb n="4"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> I <expan><abbr>Britt</abbr><ex>annicae</ex></expan> item <expan><abbr>vexil</abbr><ex>lationis</ex></expan> <lb n="5"/><expan><abbr>Dacor</abbr><ex>um</ex></expan> <expan><abbr>Parthic</abbr><ex>ae</ex></expan> cui <lb n="6"/>ob <expan><abbr>virtute</abbr><ex>m</ex></expan> <expan><abbr>sua</abbr><ex>m</ex></expan> sacra<lb break="no" n="7"/>tissimi <expan><abbr>imper</abbr><ex>atores</ex></expan> coro<lb break="no" n="8"/>nam muralem hastam <lb n="9"/>puram et vex<supplied reason="lost">i</supplied>lum <expan><abbr>argent</abbr><ex>o</ex></expan> <lb n="10"/>insignem dederunt <lb n="11"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> alae <expan><abbr>Campag</abbr><ex>onum</ex></expan> <lb n="12"/>idem |(miliariae) vixit annis <lb n="13"/>XXXVIIII <lb n="14"/>Marcius Arrianus <lb n="15"/>et <expan><abbr>Iuli</abbr><ex>i</ex></expan> Clinias et <lb n="16"/>Pisonianus he<lb break="no" n="17"/>redes <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 542; Zeichnung.</bibl><bibl>CIL 03, 01193.</bibl><bibl>CIL 03, 01193 add. p. 1390.</bibl><bibl>ILS 2746.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

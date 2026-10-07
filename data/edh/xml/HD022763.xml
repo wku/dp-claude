@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Drobeta &amp;ndash; Drobeta - Turnu Severin (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD022763</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD022763</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Drobeta - Turnu Severin, Muz. Reg. Porţilor de Fier</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><dimensions unit="cm"><height>(102)</height><width>(57)</width><depth>(57)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207100">Drobeta</placeName></origPlace><origDate><origDate notBefore-custom="0124" notAfter-custom="0193" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">124 AD - 193 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/678817">Drobeta - Turnu Severin</placeName><placeName type="findspot">{Lager, sogenannter justinianischer Turm}, sekundär verwendet</placeName><placeName type="region">Mehedinți</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD022763_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Valerius*</name><name type="cognomen">Longinus+</name></persName></person><person xml:id="HD022763_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Victorius</name><name type="cognomen">[---]anio</name></persName></person><person xml:id="HD022763_3" sex="W"><persName><name type="nomen">Victoria</name><name type="cognomen">Gemina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-31" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="3"/>Longinu<supplied reason="lost">s</supplied> <lb n="4"/><expan><abbr>med</abbr><ex>icus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="5"/>VII <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <lb n="6"/><expan><abbr>ornat</abbr><ex>us</ex></expan> orna<lb break="no" n="7"/><expan><abbr>ment</abbr><ex>is</ex></expan> decu<supplied reason="lost"><expan><abbr>r</abbr><ex>ionalibus</ex></expan></supplied> <lb n="8"/>a <expan><abbr>splendid</abbr><ex>issimo</ex></expan> <lb n="9"/><expan><abbr>ordin</abbr><ex>e</ex></expan> <expan><abbr>m</abbr><ex>unicipii</ex></expan> <expan><abbr>H</abbr><ex>adriani</ex></expan> <expan><abbr>D</abbr><ex>robetensium</ex></expan> <lb n="10"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXIII <lb n="11"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Victorius <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>anio et Victoria <lb n="13"/><supplied reason="lost">Ge</supplied>mina <expan><abbr>fil</abbr><ex>io</ex></expan> pien<supplied reason="lost"><expan><abbr>t</abbr><ex>issimo</ex></expan></supplied> <lb n="14"/><expan><abbr>pos</abbr><ex>uerunt</ex></expan><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 14: p(osuerunt). In Z. 14 ist P sicher zu lesen; das Foto läßt vermuten, daß noch die in Spuren erkennbaren Buchstaben O und ein S eingemeißelt gewesen seien.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1897, 0084. (B)</bibl><bibl>IDR 2, 042; Foto. (B)</bibl><bibl>CIL 03, 14216, 9. (B)</bibl><bibl>G.G. Točilescu, AEM 19, 1896, 216, Nr. 76. (B) - AE 1897.</bibl><bibl>ILS 7150. (B)</bibl><bibl>R. Ardevan, in: HPS 13 (Debrecen 2006) 120-122. - AE 2006.</bibl><bibl>AE 2006, 1108.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

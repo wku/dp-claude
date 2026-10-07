@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Aiton (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD049451</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD049451</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0107" notAfter-custom="0108" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">107 AD - 108 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686592">Aiton</placeName><placeName type="findspot"/><placeName type="region">Cluj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD049451_1"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva Traianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-06-03" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <lb n="2"/>Caesar Nerva <lb n="3"/>Traianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="4"/><expan><abbr>Germ</abbr><ex>anicus</ex></expan> Dacicus <lb n="5"/><expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>maxim</abbr><ex>us</ex></expan> <lb n="6"/><supplied reason="lost" cert="low">tr(ibunicia)</supplied> <expan><abbr>pot</abbr><ex>estate</ex></expan> XII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> V <lb n="7"/><expan><abbr>imp</abbr><ex>erator</ex></expan> VI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> fecit <lb n="8"/>per <expan><abbr>coh</abbr><ex>ortem</ex></expan> I <expan><abbr>Fl</abbr><ex>aviam</ex></expan> <expan><abbr>Ulp</abbr><ex>iam</ex></expan> <lb n="9"/><expan><abbr>Hisp</abbr><ex>anorum</ex></expan> <expan><abbr>mil</abbr><ex>liariam</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>eq</abbr><ex>uitatam</ex></expan> <lb n="10"/>a Potaissa Napo<lb break="no" n="11"/>cae <lb n="12"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> X
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 01627.</bibl><bibl>CIL 03, p. 172.</bibl><bibl>R. Ardevan, Viaţa municipală în Dacia Romană (Timişoara 1998) 431, Nr. 448.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037972</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037972</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0197" notAfter-custom="0275" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">197 AD - 275 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">Festung, {Prinzenpalast}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037972_1" sex="M"><persName ref="http://romans1by1.com/rpeople/8952"><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Syrus</name></persName></person><person xml:id="HD037972_2" sex="W"><persName ref="http://romans1by1.com/rpeople/8953"><name type="nomen">Valeria*</name><name type="cognomen">Severa</name></persName></person><person xml:id="HD037972_3" sex="W"><persName ref="http://romans1by1.com/rpeople/8954"><name type="nomen">Aelia</name><name type="cognomen">Syra</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-01-11" who="Garcia">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Aesculapio et <lb n="2"/>Hygiae <expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Sy<lb break="no" n="3"/>rus <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <expan><abbr>m</abbr><ex>unicipii</ex></expan> <expan><abbr>Sep</abbr><ex>timii</ex></expan> <expan><abbr>Apul</abbr><ex>ensis</ex></expan> <lb n="4"/>et <expan><abbr>Vale</abbr><ex>ria</ex></expan> Severa con<lb break="no" n="5"/>iux et <expan><abbr>Ael</abbr><ex>ia</ex></expan> Syra fi<lb break="no" n="6"/>lia ex voto porti<lb break="no" n="7"/>cum per pedes XXX <expan><abbr>f</abbr><ex>ecerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 007; Zeichnung.</bibl><bibl>CIL 03, 00976.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

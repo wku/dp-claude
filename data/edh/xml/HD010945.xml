@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD010945</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD010945</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alba Iulia, Muz. Unirii</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>12</height><width>8</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate when-custom="0099" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">99 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">Subcetate, {Strada Octavian Goga 11}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD010945_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva Traianus</name></persName></person><person xml:id="HD010945_10" sex="M"><persName ref="http://romans1by1.com/rpeople/11545"><name type="praenomen">Q.</name><name type="nomen">Apidius*</name><name type="cognomen">Thallus+</name></persName></person><person xml:id="HD010945_11" sex="M"><persName ref="http://romans1by1.com/rpeople/11546"><name type="praenomen">T.</name><name type="nomen">Flavius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD010945_12" sex="M"><persName ref="http://romans1by1.com/rpeople/11547"><name type="praenomen">P.+</name><name type="nomen">Caulius*</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD010945_13" sex="M"><persName ref="http://romans1by1.com/rpeople/11548"><name type="praenomen">L.</name><name type="nomen">Pullius*</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD010945_14" sex="M"><persName ref="http://romans1by1.com/rpeople/11549"><name type="praenomen">P.</name><name type="nomen">Atinius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD010945_2" sex="M"><persName><name type="cognomen">Nerva</name></persName></person><person xml:id="HD010945_3" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Fabius</name><name type="cognomen">Barbarus+</name></persName></person><person xml:id="HD010945_4" sex="M"><persName><name type="praenomen">A.+</name><name type="nomen">Caecilius</name><name type="cognomen">Faustinus+</name></persName></person><person xml:id="HD010945_5" sex="M"><persName ref="http://romans1by1.com/rpeople/11541"><name type="praenomen">M.</name><name type="nomen">Statius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD010945_6" sex="M"><persName ref="http://romans1by1.com/rpeople/11542"><name type="cognomen">Bonio</name></persName></person><person xml:id="HD010945_7" sex="M"><persName><name type="cognomen">Veranius</name></persName></person><person xml:id="HD010945_8" sex="M"><persName ref="http://romans1by1.com/rpeople/11543"><name type="praenomen">Q.</name><name type="nomen">Pompeius</name><name type="cognomen">Homerus+</name></persName></person><person xml:id="HD010945_9" sex="M"><persName ref="http://romans1by1.com/rpeople/11544"><name type="praenomen">P.</name><name type="nomen">Manilius+*</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-21" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                [<expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Traianus Augustus Germanicus pontifex maximus <expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> III co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> equitibus et peditibus qui militant in alis <gap reason="lost" extent="unknown" unit="character"/> et cohortibus <gap reason="lost" extent="unknown" unit="character"/> quae appellantur <gap reason="lost" extent="unknown" unit="character"/> et sunt in Moesia Superiore sub <gap reason="lost" extent="unknown" unit="character"/> quorum nomina subscripta sunt] <lb n="2"/><supplied reason="lost">i</supplied>psis liberis poste<supplied reason="lost">risque eorum civi</supplied><lb break="no" n="3"/>tatem dedit et conub<supplied reason="lost">ium cum <expan><abbr>uxorib</abbr><ex>us</ex></expan> quas</supplied> <lb n="4"/>tunc ha<supplied reason="lost">b</supplied>uissent c<supplied reason="lost">um est civitas iis</supplied> <lb n="5"/>data aut siqui <expan><abbr>caelib</abbr><ex>es</ex></expan> <supplied reason="lost">essent cum iis quas</supplied> <lb n="6"/>postea duxissent dum<supplied reason="lost">taxat singuli singulas</supplied> <lb n="7"/><expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> XVIIII <supplied reason="lost"><expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Sept</abbr><ex>embres</ex></expan></supplied> <lb n="8"/><expan><abbr>Q</abbr><ex>uinto</ex></expan> Fabio <supplied reason="lost">Barbaro</supplied> <lb n="9"/><supplied reason="lost"><expan><abbr>A</abbr><ex>ulo</ex></expan></supplied> Caecilio <supplied reason="lost">Faustino <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="10"/><expan><abbr><supplied reason="lost">co</supplied>h</abbr><ex>ortis</ex></expan> II <expan><abbr>Hispanor</abbr><ex>um</ex></expan> <supplied reason="lost">cui praeest</supplied> <lb n="11"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Statius <expan><abbr>Q</abbr><ex>uinti</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="12"/>pediti <lb n="13"/>Bonioni Verani <expan><abbr>f</abbr><ex>ilio</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="14"/>descriptum et recogn<supplied reason="lost">itum ex tabula aerea</supplied> <lb n="15"/>quae fi<supplied reason="lost">x</supplied>a est Rom<supplied reason="lost">ae in muro post templum divi Augusti ad Minervam</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Q</abbr><ex>uinti</ex></expan> Pompei <supplied reason="lost">Homeri</supplied> <lb n="2"/><expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>M<supplied reason="lost">an</supplied>ili</abbr><ex>i</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> Apidi <supplied reason="lost">Thalli</supplied> <lb n="4"/><expan><abbr>T</abbr><ex>iti</ex></expan> <supplied reason="lost">F</supplied>lavi <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost"><expan><abbr>P</abbr><ex>ubli</ex></expan></supplied> Cauli <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli <gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Atini <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Inschrift vermutlich verschollen. (B): Russu; AE 1975: tab. II int. Z. 5: haduissent (sic). (B): AE 1975: tab. II int. Z. 13: aena; ext. Z. 7: L(ucii) Publi(i). Vor dem erhaltenen Text: Abkürzungen und Zeilenfälle unsicher.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1975, 0717. (B)</bibl><bibl>I.I. Russu, Apulum 12, 1974, 103-110; fig. 1a u. 2a; 1b u. 2b (Zeichnungen). - AE 1975. (B)</bibl><bibl>IDR 3, 5, 693; Zeichnung.</bibl><bibl>RMD 007.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

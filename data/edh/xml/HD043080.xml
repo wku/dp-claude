@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Augusta Traiana &amp;ndash; Stara Zagora (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043080</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043080</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stara Zagora, Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>10</height><width>50</width><depth>46</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216731">Augusta Traiana</placeName></origPlace><origDate><origDate notBefore-custom="0212" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">212 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1993"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726848">Stara Zagora</placeName><placeName type="findspot">{Altes Theater}, bei, spätantike Befestigung, Turm, sekundär verwendet</placeName><placeName type="region">Stara Zagora</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043080_1" sex="M"><persName><name type="praenomen">Μ.</name><name type="nomen">Αὐρήλιος*</name><name type="cognomen">Ἀσιατικός</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-07-31" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ἀγαθῆι Τύχ<supplied reason="lost">ηι</supplied> <lb n="2"/>Τὸν ὐπὲρ πάντας φ<supplied reason="lost" cert="low">ίλον</supplied> <lb n="3"/>καὶ μόνον ἔργοις κοσμήσ<supplied reason="lost">α</supplied><lb break="no" n="4"/>ντα τὴν πατρίδα, (πρῶτον) ἄρχοντα <lb n="5"/>καὶ ἀρχιερέα δι' ὅπλων τετρ<supplied reason="lost">ά</supplied><lb break="no" n="6"/>κις φιλότιμον ἱερέα Ῥώμης <lb n="7"/>κατασκευάσαντα ἐκ τῶ<supplied reason="lost">ν</supplied> <lb n="8"/>ἰδίων τὴν ἐπιδίστεγον στοὰ<supplied reason="lost">ν</supplied> <lb n="9"/>ἐξηκοντακαιεξάστυλο<supplied reason="lost">ν</supplied> <lb n="10"/>καὶ τὴν δικείονα πρὸς τῷ <lb n="11"/>Σευηριανῷ γυμνασίῳ ὁ<lb break="no" n="12"/>μοίως οἴκοθεν τριάκοντα <lb n="13"/>καὶ πέντε κειόνων Μ(ᾶρκον) Αὐρ(ήλιον) <lb n="14"/>Ἀσιατικὸν ἀρετῆς καὶ εὐ<lb break="no" n="15"/>νοίας χάριν
+            </ab></div>
+            <div type="commentary">
+                <p>Die Qualität der Abbildung ließ eine genaue Nachprüfung der Lesungen nicht zu.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2002, 1265.</bibl><bibl>H. Buyukliev - N. Sharankov, in: K. Boshnakov (Hrsg.), Jubilaeus 5. Sbornik v cest na prof. Margarita Taceva (Sofija 2002) 82-87; obr. 1. - AE 2002.</bibl><bibl>SEG 52, 0694.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

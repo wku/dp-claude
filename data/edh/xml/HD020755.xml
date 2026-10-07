@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Vicus Petra &amp;ndash; Baia (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020755</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020755</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>83</height><width>(195)</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217048">Vicus Petra</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682860">Baia</placeName><placeName type="findspot">{Camena}</placeName><placeName type="region">Tulcea</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020755_1" sex="M"><persName><name type="nomen">Nymphidius</name><name type="cognomen">Maximus</name></persName></person><person xml:id="HD020755_2" sex="M"><persName><name type="nomen">Aelius</name><name type="cognomen">Geminus+</name></persName></person><person xml:id="HD020755_3"><persName><name type="nomen">Ulpius</name><name type="cognomen">Romanus</name></persName></person><person xml:id="HD020755_4"><persName><name type="nomen">Cassius</name><name type="cognomen">Primitivus</name></persName></person><person xml:id="HD020755_5"><persName><name type="nomen">Aelius</name><name type="cognomen">Iulius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-06-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uod</ex></expan> <expan><abbr>b</abbr><ex>onum</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>austum</ex></expan> <expan><abbr>f</abbr><ex>elix</ex></expan></supplied> <lb n="2"/>vicani Petrenses qui <supplied reason="lost">c</supplied>ontul<supplied reason="lost">er</supplied>unt <lb n="3"/>causa salutis cor<supplied reason="lost">poris</supplied> sui <expan><abbr>balineu</abbr><ex>m</ex></expan> <expan><abbr>faciundu</abbr><ex>m</ex></expan> qu<supplied reason="lost">od</supplied> opus <lb n="4"/><expan><abbr>effectu</abbr><ex>m</ex></expan> magisterio anni Nymphidi Maximi et Aeli Gem<supplied reason="lost">ini</supplied> qu<expan><ex>a</ex><abbr>es</abbr></expan><supplied reason="lost">tori</supplied><lb break="no" n="5"/>bus vici Ulpio Romano et Cassio Primitivo curantibus operi N<supplied reason="lost">ymphidio</supplied> <lb n="6"/>Maximo <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>cripto</ex></expan> et Aelio Iulio
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere Fragmente, eines davon nicht anpassend. Inzwischen teilweise verschollen, so daß früher noch mehr Text lesbar war. Inschriftfeld in Form einer tabula ansata. Z. 1 auf dem oberen Rahmen. (B): Sauciuc-Săveanu; AE 1935; Florescu; AE 1939; Aricscu: abweichende Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0758.</bibl><bibl>AE 1939, 0100. (B)</bibl><bibl>AE 1935, 0172. (B)</bibl><bibl>IScM 5, 222; Foto u. Zeichnung. (B)</bibl><bibl>A. Aricescu, StCercIstorV 27, 1976, 528-531. (B) - AE 1977.</bibl><bibl>G. Florescu, Dacia 5/6, 1935/36, 426-428, Nr. 4; fig. 5. (B) - AE 1939.</bibl><bibl>T. Sauciuc-Săveanu, ADobr 15, 1934, 6-20. 23; fig. 2 u. 3. (B) - AE 1935.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

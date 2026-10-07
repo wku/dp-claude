@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD046189</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD046189</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot"/><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD046189_1" sex="W"><persName ref="http://romans1by1.com/rpeople/1125"><name type="nomen">Aelia</name><name type="cognomen">Adiuta</name></persName></person><person xml:id="HD046189_2" sex="M"><persName ref="http://romans1by1.com/rpeople/1126"><name type="nomen">Cominius</name><name type="cognomen">Celerinus</name></persName></person><person xml:id="HD046189_3" sex="M"><persName ref="http://romans1by1.com/rpeople/591"><name type="nomen">Cominius</name><name type="cognomen">Quintus</name></persName></person><person xml:id="HD046189_4" sex="W"><persName ref="http://romans1by1.com/rpeople/1127"><name type="nomen">Cominia+</name><name type="cognomen">Sperata</name></persName></person><person xml:id="HD046189_5" sex="W"><persName ref="http://romans1by1.com/rpeople/1128"><name type="nomen">Cominia</name><name type="cognomen">Caecilia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-01-21" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>quod Aelia Adiuta mater sibi et Comi<lb break="no" n="3"/>nio Celerino <expan><abbr>pontif</abbr><ex>ici</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>eq</abbr><ex>uiti</ex></expan> <expan><abbr>R</abbr><ex>omano</ex></expan> <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> facere <lb n="4"/><supplied reason="lost">consti</supplied>tuerat Cominius Quintus <expan><abbr>pontif</abbr><ex>ex</ex></expan> et q<expan><ex>uin</ex><abbr>q</abbr><ex>uennalis</ex></expan> <lb n="5"/><supplied reason="lost">et Cominia</supplied> Sperata et Cominia Caecilia <expan><abbr>fili</abbr><ex>i</ex></expan> <lb n="6"/><supplied reason="lost">c</supplied>onsummaverunt
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment von der Vorderseite eines Sarkophagkastens. (B): Ardevan: Z. 2/3: Zeilenfall fehlt; Z. 6: [c]onsumaverunt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1993, 1344.</bibl><bibl>IDR 3, 2, 371; fig. 303 (Zeichnung).</bibl><bibl>CIL 03, 01473.</bibl><bibl>A. Buonopane - V. La Monaca, in: G.P. Marchi - J. Pál (Hrsg.), Epigrafi romane di Transilvania. Bibliotheca Capitolare di Verona, Manoscritto CCLXVII (Verona - Szeged 2010) 305, Nr. 5; Zeichnung.</bibl><bibl>R. Ardevan, in: L. Mrozewicz - K. Ilski (Hrsg.), Prosopographica (Poznań 1993) 227, Nr. 1. (B) - AE 1993.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

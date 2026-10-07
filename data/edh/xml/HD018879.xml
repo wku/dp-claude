@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Noviodunum &amp;ndash; Isaccea, bei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018879</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018879</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(75)</height><width>54</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216900">Noviodunum</placeName></origPlace><origDate><origDate notBefore-custom="0198" notAfter-custom="0202" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD - 202 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675495">Isaccea, bei</placeName><placeName type="findspot"/><placeName type="region">Tulcea</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018879_1" sex="M"><persName><name type="nomen">Ovinius</name><name type="cognomen">Tertullus+</name></persName></person><person xml:id="HD018879_2" sex="M"><persName><name type="nomen">Vindius+*</name><name type="cognomen">Verianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-25" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">I</supplied>ussu et ex dec<supplied reason="lost">ret</supplied><lb break="no" n="2"/>o <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> Ovini Ter<supplied reason="lost">tul</supplied><lb break="no" n="3"/>li co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> termini <lb n="4"/>positi inter <supplied reason="lost">M</supplied>es<lb break="no" n="5"/>siam Pud<supplied reason="lost">entil</supplied><lb break="no" n="6"/>lam <supplied reason="lost">et</supplied> vicano<supplied reason="lost">s</supplied> <lb n="7"/>But<supplied reason="lost">e</supplied>ridave<supplied reason="lost">n</supplied><lb break="no" n="8"/>ses per <expan><abbr>Vind</abbr><ex>i</ex></expan><lb break="no" n="9"/>u<supplied reason="lost">m Verian</supplied>um pr<lb break="no" n="10"/><supplied reason="lost"><expan><abbr>aef</abbr><ex>ectum</ex></expan> <expan><abbr>cl</abbr><ex>assis</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1956: nur partielle Wiedergabe des Textes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1956, 0206a. (B)</bibl><bibl>IScM 1, 359; Zeichnung.</bibl><bibl>I.I. Russu, StCercIstorV 6, 1955, 75-86; fig. a (Zeichnung). - AE 1956.</bibl><bibl>PIR (2. Aufl.) O 191.</bibl><bibl>CIL 03, 14447.</bibl><bibl>AE 1901, 0052.</bibl><bibl>G.G. Točilescu, Fouilles et recherches archéologiques en Roumanie (Bucarest 1900), 206-207, Nr. 31. - AE 1901.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

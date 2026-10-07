@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Municipium Montanensium &amp;ndash; Montana (Mihajlovgrad) (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD012752</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD012752</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>94</height><width>58</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207293">Municipium Montanensium</placeName></origPlace><origDate><origDate when-custom="0147" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">147 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1986"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="findspot">{Heiligtum der Diana und des Apoll}</placeName><placeName type="region">Montana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD012752_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14948"><name type="praenomen">Ti.</name><name type="nomen">Claudius</name><name type="cognomen">Ulpinaus*</name></persName></person><person xml:id="HD012752_2" sex="M"><persName ref="http://romans1by1.com/rpeople/9002"><name type="nomen">Claudius*</name><name type="cognomen">Saturninus</name></persName></person><person xml:id="HD012752_3" sex="M"><persName><name type="cognomen">Largus</name></persName></person><person xml:id="HD012752_4" sex="M"><persName><name type="cognomen">Messallinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-05-03" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dianae <lb n="2"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudius <expan><abbr>Ulpianu</abbr><ex>s</ex></expan> <lb n="3"/><expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> I <expan><abbr>Cili</abbr><ex>cum</ex></expan> cum vexilla<lb break="no" n="4"/><expan><abbr>tionib</abbr><ex>us</ex></expan> <expan><abbr>leg</abbr><ex>ionum</ex></expan> I <expan><abbr>Ital</abbr><ex>icae</ex></expan> XI <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <expan><abbr>class</abbr><ex>is</ex></expan> <lb n="5"/><expan><abbr>Fl</abbr><ex>aviae</ex></expan> <expan><abbr>Mo</abbr><ex>esicae</ex></expan> ob venationem <lb n="6"/>Caesarianam iniunc<lb break="no" n="7"/>tam a <expan><abbr>Cl</abbr><ex>audio</ex></expan> Saturnino <expan><abbr>leg</abbr><ex>ato</ex></expan> <lb n="8"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> ursis et vison<lb break="no" n="9"/>tibus prospere captis <lb n="10"/>aram consecra<lb break="no" n="11"/>vit Largo et Mes<lb break="no" n="12"/>sallino co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0867.</bibl><bibl>AE 1999, 1327.</bibl><bibl>F. Bérard, ZPE 79, 1989, 129-138. - AE 1987.</bibl><bibl>V. Velkov - G. Aleksandrov, in: A. Fol - V. Zhivkov - N. Nedjalkov (Hrsg.), Acta Centri Historiae Terra Antiqua Balcanica 2 (Trinovi 1987) 279-283; Abb. 1. - AE 1987.</bibl><bibl>PIR (2. Aufl.) P 926.</bibl><bibl>PIR (2. Aufl.) A 663.</bibl><bibl>D. Knoepfler, REG 112, 1999, 485-509; fig. 3. - AE 1999.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

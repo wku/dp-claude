@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Alburnus Maior &amp;ndash; Roşia Montană (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043802</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043802</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roşia Montană, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/30">Tuff</material><dimensions unit="cm"><height>64</height><width>31</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#">Alburnus Maior</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2001"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/668639">Roşia Montană</placeName><placeName type="findspot">{Valea Nanului, Heiligtum T1}, Südwestmauer, bei</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043802_1" sex="M"><persName><name type="cognomen">Valerius*</name></persName></person><person xml:id="HD043802_2" sex="M"><persName><name type="cognomen">Nico+</name></persName></person><person xml:id="HD043802_3" sex="M"><persName><name type="cognomen">Plator</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-11-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Neptu<lb break="no" n="2"/>no A<supplied reason="lost"><expan><abbr>ug</abbr><ex>usto</ex></expan></supplied> <lb n="3"/>sacrum <lb n="4"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Nic<supplied reason="lost"><expan><abbr>o</abbr><ex>nis</ex></expan></supplied> <lb n="5"/>Pla&amp;lt;t&amp;gt;<expan><abbr>or</abbr><ex cert="low"/></expan> <expan><abbr>d</abbr><ex cert="low">onum</ex></expan> <lb n="6"/><expan><abbr>d</abbr><ex>ederunt</ex></expan><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberfläche des Inschriftfeldes teilweise stark verrieben. Z. 2 (Ende): von V möglicherweise noch der obere Teil der abfallenden Schräghaste erkennbar. Z. 5: hinter L eine kurze, leicht schräg aufsteigende Haste und eine leicht schräg abfallende Haste: möglicherweise ein A, das der Steinmetz auf seiner Vorlage nicht richtig lesen konnte, oder eine nicht vollständig ausgeführte AT-Ligatur; hinter D noch Platz für einen Buchstaben. (B): Piso; AE 2003: Z. 4: Val[e]r(ius)(?) Nico(?); ILD: Z. 4: Val[er]ius)(?) Nico(?); Ciongradi: Z. 4: Val[e]r(ius)(?) Nico(nis); Piso; AE 2003; ILD: Z. 5: Pl[at]or(is?) d(ono) [d(edit)?]; Ciongradi: Z. 5: Pl[a]tor d(ono) [d(edit)?].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1507. (B)</bibl><bibl>I. Piso, ActaMusNapoca 39/40, 2002/03, 205, Nr. 7. (B) - AE 2003.</bibl><bibl>ILD 393. (B)</bibl><bibl>C. Ciongradi, Die römischen Steindenkmäler aus Alburnus Maior (Cluj-Napoca 2009) 51-52, Nr. 26; Taf. 17, 26. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

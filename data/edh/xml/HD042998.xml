@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Ulmetum &amp;ndash; Pantelimon (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042998</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042998</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>106</height><width>(49)</width><depth>(40)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217056">Ulmetum</placeName></origPlace><origDate><origDate when-custom="0216" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">216 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1850"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/671381">Pantelimon</placeName><placeName type="findspot">{spätantike Festung}</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042998_1" sex="M"><persName><name type="nomen">Valerius</name><name type="cognomen">Zosimus</name></persName></person><person xml:id="HD042998_2" sex="M"><persName><name type="nomen">Valerius</name><name type="cognomen">Callinicus</name></persName></person><person xml:id="HD042998_3" sex="M"><persName><name type="nomen">Valerius</name><name type="cognomen">Phoebio</name></persName></person><person xml:id="HD042998_4" sex="M"><persName><name type="nomen">Cornelius</name></persName></person><person xml:id="HD042998_5" sex="M"><persName><name type="nomen">Catius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-05" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Heroi Invicto <lb n="2"/>sacro <note>sic</note> <lb n="3"/>pro salute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <lb n="4"/>Valeri Zosim<lb break="no" n="5"/>us et Callinic<lb break="no" n="6"/>us et Phoebio <lb n="7"/>posuerunt <lb n="8"/>de suo X <expan><abbr>Kal</abbr><ex>endas</ex></expan> <lb n="9"/>Iulias Cornel<lb break="no" n="10"/>io et Catio co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): IScM II: Z. 10: Katio.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IScM 2, 130; Foto.</bibl><bibl>IScM 5, 076.</bibl><bibl>CIL 03, 07531.</bibl><bibl>PIR (2. Aufl.) C 571.</bibl><bibl>PIR (2. Aufl.) C 1323.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

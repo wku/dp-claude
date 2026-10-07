@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lumina (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042284</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042284</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(72)</height><width>(60)</width><depth>(51)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667276">Lumina</placeName><placeName type="findspot">{Sibioara}</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042284_1" sex="W"><persName><name type="cognomen">[---]diane</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-05" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>dianes o<supplied reason="lost">pti</supplied><lb break="no" n="2"/>me meae titulum <supplied reason="lost">po</supplied><lb break="no" n="3"/>suimus nos viv<supplied reason="lost">e</supplied><lb break="no" n="4"/>ntes ipsi Rosalia <lb n="5"/>confrequentavimus <lb n="6"/><supplied reason="lost">po</supplied>situ<supplied reason="lost">m</supplied> I<supplied reason="lost">dus</supplied> Iunias <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ------ ti]tulum <supplied reason="lost">con</supplied><lb break="no" n="2"/>freq<expan><ex>u</ex><abbr>ent</abbr><ex>etis</ex></expan> III <expan><abbr>Kal</abbr><ex>endas</ex></expan> I<supplied reason="lost">u</supplied><lb break="no" n="3"/>ni&amp;lt;a&amp;gt;s per <expan><abbr>mag</abbr><ex>istros</ex></expan> q<supplied reason="lost">ui</supplied> <lb n="4"/>tunc erunt eadem <lb n="5"/>condicion&amp;lt;e=I&amp;gt;m <note>sic</note> do <lb n="6"/>vico Ce&amp;lt;l&amp;gt;eris |(denarios) LXXV <lb n="7"/>ut faciant <expan><abbr>pri</abbr><ex>die</ex></expan> <expan><abbr>Kal</abbr><ex>endas</ex></expan> Iunias <lb n="8"/>hoc loco quod si q<supplied reason="lost">ui</supplied> <lb n="9"/>ex eis vicis non fecer<supplied reason="lost">int</supplied> <lb n="10"/>ab die iubeo at eos rever<supplied reason="lost">ti</supplied> <lb n="11"/>qui perseverint facer<supplied reason="lost">e</supplied> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Auf 2 Seiten beschrieben. Inschrift b: Z. 7-11 auf der crepido. (B): CIL III; IScM I; IScM II: Abweichungen in der Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IScM 1, 352; Foto. (B)</bibl><bibl>IScM 2, 371; Zeichnung. (B)</bibl><bibl>CIL 03, 07526. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tomi &amp;ndash; Constanţa (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072052</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072052</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>150</height><width>227</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217016">Tomi</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1981"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/680963">Constanţa</placeName><placeName type="findspot">{neuer Bahnhof}, bei, Nekropole</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072052_1" sex="M"><persName ref="http://romans1by1.com/rpeople/15193"><name type="cognomen">Εὐέλπιστος</name></persName></person><person xml:id="HD072052_2" sex="M"><persName><name type="cognomen">Σῶσος</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-08-08" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Εἰναχίας γαίας προλιπὼν περιώνυμον <lb n="2"/>ἄστυ εἰόνιον τόδ' ἔβην ἱερὸν πέδον ἄστυ <lb n="3"/>Τόμοιο οὐ βραδὺς εἰς ἀρετὰν οὐδ' εἰς &amp;lt;σ&amp;gt;τε<lb break="no" n="4"/>φάνους ἀμύητος ἀλλ' ἐδάην μὲν ἐ<lb break="no" n="5"/>γὼ κροτάφοις ἐπ' ἐμοῖσι φορῆσαι στέμμαθ' ἅ μοι πόρε Μοῦσα θεὰ κατὰ γαῖαν ἅ<lb break="no" n="6"/>πασαν εὖ μὲν ἀπανγέλλων τραφικὸν στί<lb break="no" n="7"/>χον εὖ δὲ ἀείδων ἀλλ' ἐπὶ οὖν με πόλις <lb n="8"/>ξεινηδόχος ἔνθα κατέσχε δῶκεν δὲ <lb n="9"/>φιλίην ἄλοχον δῶκεν δὲ τέκνοιο γονήν μοι <lb n="10"/>καὶ βίον ἐξετέλεσσα ὅσον θέτο νήματα Μοιρῶν <lb n="11"/>τύμβον ἔχω δὲ θανὼν ἐρατῷ ἰδίῷ ἐνὶ χώρῳ <lb n="12"/>ἀνθεμόεντ' ἀνὰ χῶρον ὅπου καλὰ κλήμα<lb break="no" n="13"/>τα Βάχχου ἤλυθα δ' ες Ἀίδην προλιπὼν <lb n="14"/>ἐμὰ δώματα τέκνῳ <lb n="15"/>ὡς μή τίς με θανόντα κακῶς ῥέξειε πολείτης <lb n="16"/>λοιπὸν ἀνανκαίον σε μαθεῖν παροδεῖτα κράτιστε <lb n="17"/>οὔνομά μοι τί πότ' ἐστι πόλις δέ με γείνατο ποία <lb n="18"/>Εὐέλπιστον Σώσου με Βυζάντιον εἶπο&amp;lt;ν&amp;gt; ἅπαντες
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1-15 in einer tabula ansata geschrieben. Hexameter. (B): In Z. 1-4 (Vers 1-3) Lesungen die durch Staub verbessert worden sind.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 1143.</bibl><bibl>A. Avram - C.P. Jones, ZPE 178, 2011, 126-134; fig. 1 u. 2. - AE 2011. (B)</bibl><bibl>G. Staub, ZPE 179, 2011, 97-102; Abb. 1-3. - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

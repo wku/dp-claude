@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Novae? &amp;ndash; Svištov? (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042629</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042629</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ist. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><dimensions unit="cm"><height>56</height><width>(120)</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae?</placeName></origPlace><origDate><origDate notBefore-custom="0197" notAfter-custom="0211" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">197 AD - 211 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov?</placeName><placeName type="findspot"/><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042629_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.+</name><name type="nomen">Septimius+</name><name type="cognomen">Severus+ Pertinax+*</name></persName></person><person xml:id="HD042629_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.+</name><name type="nomen">Aurelius+*</name><name type="cognomen">Antoninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-29" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi <expan><abbr>M</abbr><ex>arci</ex></expan> Antonini Pii <expan><abbr>Germ</abbr><ex>anici</ex></expan> Sarma</supplied><expan><abbr>t</abbr><ex>ici</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> divi Commodi <lb n="2"/><supplied reason="lost">frater divi Antonini Pii nepos divi Hadriani p</supplied>ronepos divi Tra<lb break="no" n="3"/><supplied reason="lost">iani <expan><abbr>abn</abbr><ex>epos</ex></expan> divi Nervae <expan><abbr>adn</abbr><ex>epos</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Septimius Sev</supplied>erus Pius <expan><abbr>Pert</abbr><ex>inax</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> et <expan><abbr>Imp</abbr><ex>erator</ex></expan> Ca</supplied><expan><abbr>es</abbr><ex>ar</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>Sep</abbr><ex>timi</ex></expan> Severi <lb n="5"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> filius <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>M</abbr><ex>arcus</ex></expan> A</supplied><expan><abbr>ur</abbr><ex>elius</ex></expan> Antoninus Pius <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>]
+            </ab></div>
+            <div type="commentary">
+                <p>Architrav.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 06230.</bibl><bibl>IGLN 059; pl. 23, 59.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

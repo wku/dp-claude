@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma (unknown)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055819</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055819</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(4)</height><width>(3)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.4-0.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">unknown</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0098" notAfter-custom="0105" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">98 AD - 105 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria?</placeName><placeName type="modern"/><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-06" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                ------ quae appellant]ur Voconti<supplied reason="lost">orum et Augusta</supplied> <lb n="2"/><supplied reason="lost">et Apriana et I</supplied> Hispanorum <supplied reason="lost">et I Thebaeorum</supplied> <lb n="3"/><supplied reason="lost">et I Pannoni</supplied>orum et I Flav<supplied reason="lost">ia Cilicum et</supplied> <lb n="4"/><supplied reason="lost">II Ituraeoru</supplied>m et III Itura<supplied reason="lost">eorum et class</supplied><lb break="no" n="5"/><supplied reason="lost">icis et sunt i</supplied>n Aegypto su<supplied reason="lost">b</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><supplied reason="lost">item dimissis ho</supplied>nesta miss<supplied reason="lost">ione qui XXV</supplied> <lb n="7"/><supplied reason="lost"><expan><abbr>stip</abbr><ex>endia</ex></expan> <expan><abbr>plur</abbr><ex>ave</ex></expan> <expan><abbr>mer</abbr><ex>uerunt</ex></expan> quor</supplied>um nomin<supplied reason="lost">a subscripta su</supplied><lb break="no" n="8"/><supplied reason="lost">nt ipsis liberis po</supplied>sterisque e<supplied reason="lost">orum civitatem</supplied> <lb n="9"/>[dedit ------ </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ------ tribu]<expan><abbr>nic</abbr><ex>ia</ex></expan> potes<supplied reason="lost"><expan><abbr>tat</abbr><ex>e</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost">equitibu</supplied>s et peditib<supplied reason="lost">us qui militant in</supplied> <lb n="3"/><supplied reason="lost">alis tri</supplied>bus et &amp;lt;c=G&amp;gt;ohor<supplied reason="lost">tibus sex quae appell</supplied><lb break="no" n="4"/><supplied reason="lost">antur Voc</supplied>ontiorum [et ------ 
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1850.</bibl><bibl>RMD 431.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

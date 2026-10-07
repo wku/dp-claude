@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Červen Brjag (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042431</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042431</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>67</height><width>43</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0002" notAfter-custom="0003" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">2 AD - 3 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727659">Červen Brjag</placeName><placeName type="findspot">{Reselec}, bei, "Monastir", Ruine</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042431_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Plinius</name></persName></person><person xml:id="HD042431_2" sex="M"><persName><name type="cognomen">Secundus</name></persName></person><person xml:id="HD042431_3" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Mestrius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Plinius <expan><abbr>Sex</abbr><ex>ti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><expan><abbr>Fab</abbr><ex>ia</ex></expan> domo <lb n="3"/>Trumplia <lb n="4"/><expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XX <lb n="5"/>annorum XLV <lb n="6"/>stipendiorum XVII <lb n="7"/>hic situs est <lb n="8"/>testamento fieri <lb n="9"/>iussit <lb n="10"/>Secundus <lb n="11"/><expan><abbr>L</abbr><ex>uci</ex></expan> Plini et <expan><abbr>P</abbr><ex>ubli</ex></expan> Mestri <lb n="12"/>libertus fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Nach Conrad handelt es sich um eine Stele.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2001, 1731.</bibl><bibl>G. Kabakchieva, Pro Vindonissa 2000, 4. - AE 2001.</bibl><bibl>CIL 03, 07452.</bibl><bibl>ILS 2270.</bibl><bibl>ILBulg 179; tab. 33, 179.</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 320, Nr. 406; Zeichnung.</bibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 262-263, Nr. 514; Taf. 123, 4.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

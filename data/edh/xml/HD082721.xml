@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Philippopolis &amp;ndash; Plovdiv (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082721</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082721</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Plovdiv</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216927">Philippopolis</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="findspot"/><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082721_1" sex="M"><persName><name type="praenomen">G.</name><name type="nomen">Volcius</name><name type="cognomen">Redemptus</name></persName></person><person xml:id="HD082721_2" sex="M"><persName><name type="nomen">Vergilius</name><name type="cognomen">Iustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-03-12" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>G</abbr><ex>aius</ex></expan> Volcius <lb n="3"/><expan><abbr>G</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> O<expan><ex>u</ex><abbr>ffent</abbr></expan><lb break="no" n="4"/>ina <note>sic</note> Redemp<lb break="no" n="5"/>tus domo <lb n="6"/>Volsini<expan><ex>i</ex><abbr>s</abbr></expan> <lb n="7"/><expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> VI <lb n="8"/><expan><abbr>pr</abbr><ex>aetoriae</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXX<lb break="no" n="9"/>IIII <expan><abbr>mil</abbr><ex>itavit</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XVI <lb n="10"/>Vergilius Iustus <lb n="11"/>faciendum curavit
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Gerasimova-Tomova: Z. 2: C(aius); Z. 3: C(ai); Z. 11: f(aciendum) c(uravit).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2013, 1367bis.</bibl><bibl>V. Gerasimova-Tomova, in: V. Veltov - Z. Karov - R. Moreva (Hrsg.), 100 godini Naroden Arheologičeski Muzej Plovidiv. Jubileen spornik. Materiali ot naučnata sesija, Plovdiv 1982 (Plovdiv 1982) 91-95; obr. 1. (B) - AE 2013.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

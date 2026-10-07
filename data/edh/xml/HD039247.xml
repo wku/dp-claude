@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039247</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039247</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bărăbanţ, katholische Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0192" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 192 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/685437">Alba Iulia</placeName><placeName type="findspot">Bărăbanţ, {Înălţarea S. Cruci, Kirche}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039247_1"><persName ref="http://romans1by1.com/rpeople/11540"><name type="praenomen">M.</name><name type="nomen">Caelius*</name><name type="cognomen">Iulianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-21" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>et Gen<supplied reason="lost">io</supplied> <lb n="3"/>Daciaru<supplied reason="lost">m</supplied> <lb n="4"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Cael</abbr><ex>ius</ex></expan> Iul<supplied reason="lost">ia</supplied><lb break="no" n="5"/>nus <expan><abbr>trib</abbr><ex>unus</ex></expan> <supplied reason="lost"><expan><abbr>lat</abbr><ex>iclavius</ex></expan></supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan> XIII <expan><abbr>gem</abbr><ex>inae</ex></expan></supplied> <lb n="7"/><supplied reason="lost" cert="low">dono</supplied><supplied reason="lost">dono</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Altar oder Statuenbasis. (B): IDR: abweichende Lesung; AE 2003: geringfügig abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 723. (B)</bibl><bibl>AE 2003, 1471. (B)</bibl><bibl>I. Piso, ActaMusNapoca 39/40, 2002/03, 211-213, Nr. 13; fig. 2a; fig. 2b (Zeichnung). - AE 2003.</bibl><bibl>PIR (2. Aufl.) C 135.</bibl><bibl>ILD 455.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

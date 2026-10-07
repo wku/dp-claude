@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Filiași (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021038</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021038</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/669400">Filiași</placeName><placeName type="findspot">Răcarii de Sus, {Bahnhof}, bei</placeName><placeName type="region">Dolj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-06-18" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar <supplied reason="lost">divi Hadriani <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Traiani</supplied> <lb n="2"/><expan><abbr>Parth</abbr><ex>ici</ex></expan> nep<supplied reason="lost">os divi Nervae pronepos <expan><abbr>T</abbr><ex>itus</ex></expan></supplied> <lb n="3"/>Aelius Ha<supplied reason="lost">drianus Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pius</supplied> <lb n="4"/><expan><abbr>pont</abbr><ex>ifex</ex></expan> m<supplied reason="lost"><expan><abbr>ax</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/>Mauris eq<supplied reason="lost"><expan><abbr>uit</abbr><ex>ibus</ex></expan> et peditibus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> qui sunt in Moe</supplied><lb break="no" n="6"/>sia supe[<expan><abbr>r</abbr><ex>iore</ex></expan> ------ </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caes<supplied reason="lost">ar divi Hadriani <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Traiani</supplied> <lb n="2"/><expan><abbr>Parth</abbr><ex>ici</ex></expan> <supplied reason="lost">nepos divi Nervae pronepos <expan><abbr>T</abbr><ex>itus</ex></expan> Aelius</supplied> <lb n="3"/>Hadri<supplied reason="lost">anus Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pius <expan><abbr>pont</abbr><ex>ifex</ex></expan></supplied> <lb n="4"/>ma[<expan><abbr>x</abbr><ex>imus</ex></expan> ------
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1914, 0119.</bibl><bibl>CIL 16, 00114.</bibl><bibl>V. Pârvan, AA 1913, 373-376; Abb. 10. - AE 1914.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

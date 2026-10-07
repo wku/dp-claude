@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Babadag (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032421</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032421</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><dimensions unit="cm"><height>130</height><width>41</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0178" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">178 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/685997">Babadag</placeName><placeName type="findspot"/><placeName type="region">Tulcea</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032421_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Aelius*</name></persName></person><person xml:id="HD032421_2" sex="M"><persName><name type="nomen">Silvius*</name><name type="cognomen">Casio</name></persName></person><person xml:id="HD032421_3" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD032421_4" sex="M"><persName><name type="praenomen">C.</name><name type="cognomen">Alexander+</name></persName></person><person xml:id="HD032421_5" sex="M"><persName><name type="cognomen">Orfitus+</name></persName></person><person xml:id="HD032421_6" sex="M"><persName><name type="cognomen">Rufus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-15" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>sacrum pro <lb n="3"/><expan><abbr>sal</abbr><ex>ute</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Cae</abbr><ex>saris</ex></expan> <lb n="4"/>&amp;lt;L=P&amp;gt;(uci) <expan><ex>A</ex><abbr>eli</abbr></expan> <expan><abbr>c</abbr><ex>ives</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> v<lb break="no" n="5"/><expan><abbr>et</abbr><ex>erani</ex></expan> vico <expan><abbr>Nov</abbr><ex cert="low">ioduni</ex></expan> <lb n="6"/>sub curam <note>sic</note> <lb n="7"/><expan><abbr>Sil</abbr><ex>vi</ex></expan> <expan><abbr>Casio</abbr><ex>nis</ex></expan> et <expan><abbr>P</abbr><ex>ubli</ex></expan> <lb n="8"/><expan><abbr>SOCVFVNI</abbr><ex cert="low"/></expan> <lb n="9"/><supplied reason="lost">e</supplied>t qu<expan><ex>a</ex><abbr>es</abbr><ex>tore</ex></expan> Caio A<supplied reason="lost">l</supplied><lb break="no" n="10"/>exandri Id<supplied reason="lost">i</supplied><lb break="no" n="11"/>bus Iunis Or<supplied reason="lost">f</supplied><lb break="no" n="12"/>&amp;lt;i=A&amp;gt;to et Rufo <lb n="13"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1901, 0051.</bibl><bibl>IScM 5, 233; Foto.</bibl><bibl>G.G. Točilescu, Fouilles et recherches archéologiques en Roumanie (Bucarest 1900) 203-205, Nr. 27. - AE 1901.</bibl><bibl>CIL 03, 14448.</bibl><bibl>PIR V 229.</bibl><bibl>PIR (2. Aufl.) C 1448.</bibl><bibl>PIR (2. Aufl.) V 349.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

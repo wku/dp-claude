@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Feldioara (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035936</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035936</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/154">bar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/112">Gold</material><dimensions unit="cm"><height>2</height><width>17</width><depth>1</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0379" notAfter-custom="0380" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">379 AD - 380 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/678361">Feldioara</placeName><placeName type="findspot">"Goldgruben"</placeName><placeName type="region">Brașov</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035936_1" sex="M"><persName><name type="cognomen">Calyopius (= Calliopius)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-09-06" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Calyopius <note>sic</note> <lb n="2"/><expan><abbr><supplied reason="lost">p</supplied>ro</abbr><ex>bavi</ex></expan> <expan><abbr>sig</abbr><ex>navi</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>d<am>dd</am></abbr><ex>omini</ex></expan> <lb n="2"/><expan><abbr>n<am>nn</am></abbr><ex>ostri</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Nais<expan><ex>s</ex><abbr>i</abbr></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Goldbarren mit drei Stempelabdrücken. (B): AE 1976: unvollständige Textwiedergabe; Iliescu, AE 1976: Z. 1: [Pr]icopius. Datierung: nach Iliescu ist der Barren zusammen mit anderen während des Zuges des Theodosius von Sirmium nach Thessalonice im Sommer 379 entstanden.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1976, 0590b. (B)</bibl><bibl>O. Iliescu, RESE 3, 1965, 272; pl. 2, 1. - AE 1976.</bibl><bibl>G. Elmer, MittNumGesWien 16, 1927-1936, 271. - AE 1976.</bibl><bibl>IMS 4, 133; Foto.</bibl><bibl>E. Popescu, Inscripţiile greceşti şi latine din secolele IV-XIII descoperite în România (Bucureşti 1976) 382-383, Nr. 432 b; Foto. - AE 1976.</bibl><bibl>IDR 3, 4, 307.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

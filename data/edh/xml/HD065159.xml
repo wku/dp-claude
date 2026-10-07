@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Philippopolis &amp;ndash; Plovdiv (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065159</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065159</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Plovdiv, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>163</height><width>73</width><depth>73</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.2-4.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216927">Philippopolis</placeName></origPlace><origDate><origDate notBefore-custom="0250" notAfter-custom="0251" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">250 AD - 251 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1988"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="findspot">{bulevard "6-ti Septemvri"}</placeName><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065159_1" sex="W"><persName><name type="nomen">Ἑρεννία++*</name><name type="cognomen">Ἐτρουσκίλλα++</name></persName></person><person xml:id="HD065159_2" sex="M"><persName><name type="nomen">Ἰούλιος</name><name type="cognomen">Πρεῖσκος</name></persName></person><person xml:id="HD065159_3" sex="M"><persName><name type="praenomen">Μ.</name><name type="nomen">Αὐρήλιος*</name><name type="cognomen">Εὐστόχιος Κέλερ</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-09-21" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ἀγαθῇ τύχῃ <lb n="2"/>τὴν θεοφιλεστάτην <lb n="3"/>Αὐγοῦσταν ⟦Ἑρεν(νίαν) Ἐτ⟧<lb break="no" n="4"/>⟦ρουσκίλλαν⟧ Σεβαστὴν <lb n="5"/>τὸ κοινὸν τῆς λαμ<lb break="no" n="6"/>προτάτης Θρᾳκῶν <lb n="7"/>ἐπαρχείας ἡγεμο<lb break="no" n="8"/>νεύοντος τῆς Θρᾳκῶν <lb n="9"/>ἐπαρχείας Ἰουλίου <lb n="10"/>Πρείσκου πρεσβευτοῦ <lb n="11"/>Σεβ(αστῶν) ἀντιστρατήγου <lb n="12"/>ἐπιμελουμένου Μ(άρκου) Αὐρ(ηλίου) Εὐστοχίου <lb n="13"/>Κέλερος θρᾳκάρχου
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 1378.</bibl><bibl>V. Gerasimova-Tomova, in: F. Beutler - W. Hameter (Hrsg.), "Eine ganz normale Inschrift" ... und ähnliches zum Geburtstag von Ekkehard Weber. Festschrift zum 30. April 2005 (Wien 2005) 278-281; Abb. 3. - AE 2005.</bibl><bibl>SEG 55, 0761.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

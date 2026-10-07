@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Ulpia Traiana Sarmizegetusa, aus? &amp;ndash; Călan (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047406</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047406</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Călan, Strei, Adormirea Maicii Domnului, Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><dimensions unit="cm"><height>88</height><width>205</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.2-6.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1857"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/665992">Călan</placeName><placeName type="findspot">Strei, {Adormirea Maicii Domnului, Kirche}, sekundär verwendet</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047406_1" sex="W"><persName ref="http://romans1by1.com/rpeople/1181"><name type="nomen">Aurelia</name><name type="cognomen">Lucilla+</name></persName></person><person xml:id="HD047406_2" sex="M"><persName ref="http://romans1by1.com/rpeople/1182"><name type="praenomen">C.</name><name type="nomen">Clodius*</name><name type="cognomen">Secundinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-24" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005546" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0fc19649-ebae-422d-8372-7c5471d45626/file/id/766323/file_version/name/small"/><graphic xml:id="F011505" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/97c57c35-73a2-40b2-a474-92068cef6f2f/file/id/771028/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Aurelia <supplied reason="lost">Lu</supplied>cilla <lb n="3"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXXVIII <lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Clod</abbr><ex>ius</ex></expan> Secundinus <lb n="5"/><expan><abbr>IIviral</abbr><ex>is</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> coniugi <lb n="6"/>pientissim<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="7"/><expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 1297.</bibl><bibl>M. Mărgineanu-Cârstoiu - V. Apostol - Ş. Bâlici - C. Muşter, Dacia 48/49, 206-209, Nr. 14; fig. 28 u. 29; fig. 30 (Zeichnung), pl. 9 (Zeichnung). - AE 2005.</bibl><bibl>IDR 3, 2, 393; fig. 317 (Zeichnungen).</bibl><bibl>CIL 03, 01496.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

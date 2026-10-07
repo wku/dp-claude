@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Callatis, bei &amp;ndash; Mangalia, bei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044402</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044402</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(26)</height><width>(29)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.1-1.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216744">Callatis, bei</placeName></origPlace><origDate><origDate notBefore-custom="0098" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">98 AD - 117 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1894"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/673921">Mangalia, bei</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> λ</supplied>ιμένος <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> ἐπὶ λίθον δωδέκατον, ὅς ἐστιν ἐν καμπῇ μετ</supplied>αξὺ κώμης Κε<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ση ἀπὸ Καλλάτιδος <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> ἀπὸ λίθου τρισκαιδεκάτου</supplied> ἐπ’ εὐθεῖαν ὀρθὴν ἐπὶ <supplied reason="lost">λίθον</supplied> <lb n="5"/><supplied reason="lost">τεσσαρακαιδέκατον πόδ(ες)· ἀπὸ λίθου τεσσαρακαιδεκάτου ἐπ’ εὐθεῖ</supplied>αν ὀρθὴν ἐπὶ λίθον &amp;lt;π&amp;gt;εντ<supplied reason="lost">εκαι</supplied><lb break="no" n="6"/><supplied reason="lost">δέκατον πόδ(ες)· ἀπὸ λίθου πεντεκαιδεκάτου ἐπὶ λίθον ἑκκαιδέκατον, ὅς ἐ</supplied>στιν ἐν καμπῇ μεταξὺ Οὐαλ<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> καὶ <gap reason="lost" extent="unknown" unit="character"/> πόδ(ες)· ἀπὸ λίθου ἑκκ</supplied>αιδεκάτου ἐξ ἀριστερῶν ἐπ’ εὐθ<supplied reason="lost">εῖ</supplied><lb break="no" n="8"/><supplied reason="lost">αν ὀρθὴν ἐπὶ λίθον ἑπτακαιδέκατον πόδ(ες)· ἀπὸ λίθου ἑπτακαιδεκάτου ἐπ’ ε</supplied>ὐθεῖαν ὀρθὴν ἐπὶ λίθον ὀκτωκαιδέκα<lb break="no" n="9"/><supplied reason="lost">τον πόδ(ες)· ἀπὸ λίθου ὀκτωκαιδεκάτου ἐπ’ εὐθεῖαν ὀρθὴν ἐπὶ λίθον ἐννεα</supplied>καιδέκατον, ὅς ἐστιν ἐν καμπῇ μετ<supplied reason="lost">α</supplied><lb break="no" n="10"/><supplied reason="lost">ξὺ <gap reason="lost" extent="unknown" unit="character"/> καὶ <gap reason="lost" extent="unknown" unit="character"/> πόδ(ες)· ἀπὸ λίθου ἐννεακαιδεκάτου ἐκ δεξιῶ</supplied>ν ἐπ’ εὐθεῖαν ὀρθὴν ἐπὶ λίθον εἰκοστὸν <lb n="11"/><supplied reason="lost">πόδ(ες)· ἀπὸ λίθου εἰκοστοῦ ἐπ’ εὐθεῖαν ὀρθὴν ἐπὶ λίθον εἰκοστόπρωτον</supplied> πόδ(ες) ͵α· ἀπὸ λίθου εἰκοστοπρώτου <lb n="12"/><supplied reason="lost">ἐπ’ εὐθεῖαν ὀρθὴν ἐπὶ λίθον εἰκοστὸν δεύτερον, ὅς ἐστιν ἐν καμπῇ μετα</supplied>ξὺ Ἀσβολοδεινῶν καὶ Σάρδεων π<lb break="no" n="13"/><supplied reason="lost">όδ(ες) ͵βυʹ· ἀπὸ λίθου εἰκοστοῦ δευτέρου ἐκ δεξιῶν ἐπ’ εὐθεῖαν ὀρθὴν ἐπὶ λί</supplied>θον εἰκοστὸν τρίτον πόδ(ες) ͵β· ἀπὸ λί<lb break="no" n="14"/><supplied reason="lost">θου εἰκοστοῦ τρίτου ἐπ’ εὐθεῖαν ὀρθὴν ἐπὶ λίθον εἰκοστὸν τέταρτον πόδ(ες)</supplied> ͵β· ἀπὸ λίθου εἰκοστοῦ τετάρτο<supplied reason="lost">υ</supplied> <lb n="15"/><supplied reason="lost">ἐπ’ εὐθεῖαν ὀρθὴν ἐπὶ λίθον εἰκοστὸν πέμπτον πόδ(ες) ͵β· ἀπὸ λίθου εἰκοστοῦ πέμπτου ἐπ’ εὐθεῖαν ὀρθὴν ἐπὶ</supplied> <lb n="16"/><supplied reason="lost">λίθον εἰκοστὸν ἕκτον πόδ(ες)· <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14214, 33b.</bibl><bibl>IGR 1, 0657.</bibl><bibl>IScM 3, 051; Foto.</bibl><bibl>AE 1993, 1372A.</bibl><bibl>AE 1896, 0069.</bibl><bibl>A. Avram, Dacia 35, 1991, 108-110, Nr. A. - AE 1993.</bibl><bibl>G.G. Točilescu, AEM 19, 1896, 103-106, Nr. 59b; Foto. - AE 1896.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082732</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082732</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Novae, Principia</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>113</height><width>73</width><depth>58</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate when-custom="0212" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">212 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2013"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot">Lager, {principia}</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082732_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD082732_2" sex="W"><persName><name type="nomen">Iulia</name></persName></person><person xml:id="HD082732_3" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Teres</name></persName></person><person xml:id="HD082732_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Asper</name></persName></person><person xml:id="HD082732_5" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Asper</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-09" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>pro salute <expan><abbr>d</abbr><ex>omini</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <lb n="3"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Aurel</abbr><ex>i</ex></expan> Antonini <lb n="4"/>Pii <expan><abbr>Aug</abbr><ex>usti</ex></expan> et Iuliae Au<lb break="no" n="5"/>gustae matri <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="6"/>et castrorum <lb n="7"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aurel</abbr><ex>ius</ex></expan> Ulpia Teres <lb n="8"/>Pautalia <expan><abbr>p</abbr><ex>rimus</ex></expan> <expan><abbr>p</abbr><ex>ilus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="9"/>I <expan><abbr>Ital</abbr><ex>icae</ex></expan> Antonini<lb break="no" n="10"/>anae </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Dedicatum <lb n="2"/><expan><abbr>Kal</abbr><ex>endis</ex></expan> Mai<expan><ex>i</ex><abbr>s</abbr></expan> <lb n="3"/><expan><abbr>C</abbr><ex>aio</ex></expan> Iulio Aspro II <lb n="4"/>et <expan><abbr>Iul</abbr><ex>io</ex></expan> Aspro <lb n="5"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Inschriftträger: Mittelteil eines Altars oder einer Basis / Statuenbasis. Z. 11-15 befinden sich auf der rechten Nebenseite. Die Buchstabenhöhe bezieht sich auf die Inschrift der Vorderseite (Z. 1-10); Buchstabenhöhe der Inschrift auf der Nebenseite (Z. 11-15): 6-5,5 cm. (B): AE 2015: Z. 13: G.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2015, 1215. (B)</bibl><bibl>T. Sarnowski, in: L. Zerbini (Hrsg.), Culti e religiosità nelle province danubiane, Atti del II Convegno Internazionale, Ferrara 2013 (Bologna 2015) 507-509, Nr. 1; Abb. 1a. b. d; Abb. 1c u. e (Zeichnungen). - AE 2015.</bibl><bibl>PIR (2. Aufl.) I 182.</bibl><bibl>PIR (2. Aufl.) I 334.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

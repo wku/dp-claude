@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Colonia Ulpia Traiana Sarmizegetusa &amp;ndash; Sarmizegetusa (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071678</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071678</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(60)</height><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.2-5.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207527">Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2010"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="findspot">{Tempel der palmyrenischen Götter / sog. Gebäude Y, Hof}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071678_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="praenomen">M.+</name><name type="nomen">Aurellius+ (= Aurelius+)</name><name type="cognomen">Severus+ Alexander+</name></persName></person><person xml:id="HD071678_2" sex="W"><persName><name type="nomen">Iulia+</name><name type="cognomen">Mamaea+</name></persName></person><person xml:id="HD071678_3" sex="M"><persName ref="http://romans1by1.com/rpeople/750"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-06-10" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Deo So</supplied>li Inv<supplied reason="lost">icto Belo<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><expan><abbr>Mal<supplied reason="lost">a</supplied>gbel</abbr><ex>i</ex></expan> Hie<supplied reason="lost" cert="low">robolo deis? Palmyrenis</supplied> <lb n="3"/><supplied reason="lost">p</supplied>ro salute <expan><abbr>d</abbr><ex>omini</ex></expan> <supplied reason="lost"><expan><abbr>n</abbr><ex>ostri</ex></expan> Imperatoris Ca</supplied>es<supplied reason="lost">aris</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan> A</supplied>urelli<supplied reason="lost">i</supplied> <note>sic</note> S<supplied reason="lost">everi Alexandri P</supplied>ii Fel<supplied reason="lost">i</supplied>cis <lb n="5"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan> et I</supplied>ul<supplied reason="lost">iae Mamaeae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> totiusque d</supplied>omus eius <lb n="6"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> sacerdos eorun</supplied>dem <lb n="7"/><supplied reason="lost">numinum</supplied><gap reason="lost" extent="unknown" unit="character"/> pec<supplied reason="lost">unia s</supplied>ua fe<supplied reason="lost"><expan><abbr>c</abbr><ex>it</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>12, teilweise aneinanderpassende Fragmente sowie ein weiteres (nach AE 2011) oder zwei weitere (nach Piso - Ţentea), die in der Publikation von Piso - Ţentea, Dacia 55 nicht mehr berücksichtigt werden konnten (ohne Abb.). (B): Piso - Ţentea, in: W. Eck u. a. (Hrsg.), Öffentlichkeit: Z. 3: Caesaris].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 1084.</bibl><bibl>I. Piso - O. Ţentea, Dacia 55, 2011, 116-117, Nr. 2; fig. 4; fig. 5 (Zeichnung). - AE 2011.</bibl><bibl>I. Piso - O. Ţentea, in: W. Eck u. a. (Hrsg.), Öffentlichkeit - Monument - Text.</bibl><bibl>XIV Congressus Internationalis Epigraphiae Graecae et Latinae, 2012. Akten (Berlin - Boston 2014) 479-480. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

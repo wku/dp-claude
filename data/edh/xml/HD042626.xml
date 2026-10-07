@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042626</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042626</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material>Gesteine</material><dimensions unit="cm"><height>(68)</height><width>(68)</width><depth>(35)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.4-4.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate notBefore-custom="0164" notAfter-custom="0165" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">164 AD - 165 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1987"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot">Lager, {principia, Innenhof}, sekundär verwendet</placeName><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042626_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1430"><name type="praenomen">M.</name><name type="nomen">Aurelius+</name><name type="cognomen">Antoninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-29" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005231" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/218cecc8-c980-45c4-8e8e-7c38e46179f7/file/id/766008/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Au<supplied reason="lost">r</supplied><lb break="no" n="2"/><supplied reason="lost">elio Anto</supplied>nino <lb n="3"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan> Arme</supplied>n<supplied reason="lost">ia</supplied>co <lb n="4"/><supplied reason="lost"><expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied> <expan><abbr>pot</abbr><ex>estate</ex></expan> XVIIII <lb n="5"/><supplied reason="lost"><expan><abbr>imp</abbr><ex>eratori</ex></expan> II c</supplied>o<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III divi Anto<lb break="no" n="6"/><supplied reason="lost">nini</supplied> <expan><abbr>fil</abbr><ex>io</ex></expan> di<supplied reason="lost">vi</supplied> Hadria<lb break="no" n="7"/><supplied reason="lost">ni nepot</supplied>i divi Traiani <lb n="8"/><supplied reason="lost">Par</supplied>thici pronepoti divi <lb n="9"/><supplied reason="lost">Nerv</supplied>ae <expan><abbr>abnepot</abbr><ex>i</ex></expan> <expan><abbr>leg</abbr><ex>io</ex></expan> I I<expan><ex>t</ex><abbr>a</abbr><ex>lica</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1374.</bibl><bibl>ILNovae 037; Abb. 37 a; Abb. 37 b (Zeichnung).</bibl><bibl>IGLN 056; pl. 21, 56.</bibl><bibl>J. Kolendo, Archeologia 40, 1989, 156, Nr. 2; ryc. 27 u. 28. - AE 1991.</bibl><bibl>AE 1992, 1494.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

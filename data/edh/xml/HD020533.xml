@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Acclamation? from Sarmizegetusa Regia &amp;ndash; Orăştioara de Sus (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020533</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020533</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">instrumentum sacrum?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207425">Sarmizegetusa Regia</placeName></origPlace><origDate><origDate notBefore-custom="0102" notAfter-custom="0106" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">102 AD - 106 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1954"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/676805">Orăştioara de Sus</placeName><placeName type="findspot">Grădiştea de Munte, {dakische Festung}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/73">acclamation?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020533_1" sex="M"><persName><name type="cognomen">Decebalus</name></persName></person><person xml:id="HD020533_2" sex="M"><persName><name type="cognomen">Scorilo</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-03-14" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Decebalus <lb n="2"/>per Scorilo
+            </ab></div>
+            <div type="commentary">
+                <p>Aufgrund des Fundkontextes schreibt man dem Gefäß eine möglicherweise sakrale Funktion zu (Poghirc). Text als Stempelabdruck.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0672.</bibl><bibl>AE 1995, 1301.</bibl><bibl>IDR 3, 3, 272; fig. 205 (Zeichnungen).</bibl><bibl>C. Poghirc, in: A. Fol - B. Bogdanov - P. Dimitrov - Đ. Bojadžiev (Hrsg.), Studia in honorem Georgii Mihailov (Sofia 1995) 365-370. - AE 1995.</bibl><bibl>I.I. Russu, in: Epigraphica. Travaux dédies au VIIe Congrès d'Épigraphie Grecque et Latine (Constantza 1977) 43-50; Abb. 4 (Zeichnungen). - AE 1977.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

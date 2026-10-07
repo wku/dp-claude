@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sacidava &amp;ndash; Aliman (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071669</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071669</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(209)</height><width>94</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.3-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216965">Sacidava</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2010"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/678635">Aliman</placeName><placeName type="findspot">Dunăreni, Muzait, Berg, {Festung, Turm B}, sekundär verwendet</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071669_1" sex="W"><persName ref="http://romans1by1.com/rpeople/9333"><name type="cognomen">Antonia</name></persName></person><person xml:id="HD071669_2" sex="M"><persName ref="http://romans1by1.com/rpeople/9334"><name type="praenomen">C.</name><name type="nomen">Antonius</name></persName></person><person xml:id="HD071669_3" sex="W"><persName ref="http://romans1by1.com/rpeople/9335"><name type="nomen">Coelia</name><name type="cognomen">Firmina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Dis Manibus <lb n="2"/>Antoniae <expan><abbr>f</abbr><ex>iliae</ex></expan> <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Antonius <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="4"/>pater <expan><abbr>pientissim</abbr><ex>us</ex></expan> et <lb n="5"/>Coelia Firmina <lb n="6"/>mater <supplied reason="lost" cert="low">--</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>vix</abbr><ex>it</ex></expan> an<supplied reason="lost"><expan><abbr>n</abbr><ex>nos</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschrift ein Giebel und Rosetten eingeritzt. Z. 7 befindet sich unterhalb des Inschriftfeldes. Z. 6: Stein hinter MATER gebrochen; aufgrund der Zentrierung des Wortes folgten aber vermutlich keine weitere Buchstaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2015, 1233.</bibl><bibl>IScM 4, 193; Zeichnung.</bibl><bibl>M. Bărbulescu - L. Bzuoianu - T. Cliante, Pontica 44, 2011, 142-145, Nr. 1; fig. 1a; fig. 1b (Zeichnung). - AE 2015.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

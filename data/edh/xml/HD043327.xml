@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Gavidina? &amp;ndash; Ostrov, bei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043327</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043327</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>79</height><width>79</width><depth>40</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216800">Gavidina?</placeName></origPlace><origDate><origDate notBefore-custom="0139" notAfter-custom="0161" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">139 AD - 161 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/671636">Ostrov, bei</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043327_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.</name><name type="nomen">Aelius</name><name type="cognomen">Hadrianus Antoninus</name></persName></person><person xml:id="HD043327_2" sex="M"><persName><name type="cognomen">Verus</name></persName></person><person xml:id="HD043327_3" sex="M"><persName ref="http://romans1by1.com/rpeople/9003"><name type="praenomen">Cn.</name><name type="nomen">Oppius</name><name type="cognomen">Soterichus</name></persName></person><person xml:id="HD043327_4" sex="M"><persName ref="http://romans1by1.com/rpeople/9004"><name type="nomen">Oppius</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD043327_5" sex="M"><persName ref="http://romans1by1.com/rpeople/9002"><name type="praenomen">Ti.</name><name type="nomen">Claudius*</name><name type="cognomen">Saturninus</name></persName></person><person xml:id="HD043327_6" sex="M"><persName ref="http://romans1by1.com/rpeople/9001"><name type="praenomen">Ti.</name><name type="nomen">Claudius*</name><name type="cognomen">Iulianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-18" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>pro salute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>T</abbr><ex>iti</ex></expan> Aeli Ha<lb break="no" n="3"/>driani Antonini <expan><abbr>Aug</abbr><ex>usti</ex></expan> Pii et Ve<lb break="no" n="4"/>ri <expan><abbr>Caes</abbr><ex>aris</ex></expan> templum et statuam <lb n="5"/><expan><abbr>c</abbr><ex>ivibus</ex></expan> <expan><abbr>R</abbr><ex>omanis</ex></expan> et consis<surplus>s</surplus>tentibus in <lb n="6"/>canabis Aelis <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <lb n="7"/><expan><abbr>Cn</abbr><ex>aeus</ex></expan> Oppius Soterichus et <lb n="8"/>Oppius Severus <expan><abbr>fil</abbr><ex>ius</ex></expan> eius <lb n="9"/>de suo fecerunt dedica<lb break="no" n="10"/>tum est per <expan><abbr>Tib</abbr><ex>erium</ex></expan> <expan><abbr>Cl</abbr><ex>audium</ex></expan> Saturni<lb break="no" n="11"/>num <expan><abbr>leg</abbr><ex>atum</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>Tib</abbr><ex>erio</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Iuli<lb break="no" n="12"/>ano <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 07474.</bibl><bibl>ILS 2475.</bibl><bibl>PIR (2. Aufl.) C 1012.</bibl><bibl>PIR (2. Aufl.) C 902.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Municipium Montanensium &amp;ndash; Montana (Mihajlovgrad) (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031896</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031896</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207293">Municipium Montanensium</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="findspot"/><placeName type="region">Montana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031896_1" sex="W"><persName><name type="nomen">Mallia</name><name type="cognomen">Aemiliana</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-05-03" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Cum primum <lb n="2"/>veni Monta<lb break="no" n="3"/>nis et numi<supplied reason="lost">n</supplied>a <lb n="4"/>vidi deabus <lb n="5"/>votum vovi <lb n="6"/>ut potui pos<lb break="no" n="7"/><supplied reason="lost">u</supplied>i <lb n="8"/>Mallia Ae<lb break="no" n="9"/>miliana do<lb break="no" n="10"/>mo Roma fr<supplied reason="lost">u</supplied><lb break="no" n="11"/>mento <supplied reason="lost">p</supplied>ubli<lb break="no" n="12"/><supplied reason="lost">co</supplied> cum fili<supplied reason="lost">o</supplied> suo <lb n="13"/>restitui<supplied reason="lost">t</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Textwiedergabe nach ILS.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1902, 0071.</bibl><bibl>AE 1941, p. 48 s. n. 148.</bibl><bibl>D. van Berchem, Les distributions de blé et d'argent à la plèbe romaine sous l'Empire (Genève 1938) 42-43. - AE 1941.</bibl><bibl>ILS 9275.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

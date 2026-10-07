@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Serdica &amp;ndash; Sofija (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023480</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023480</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/102">honorific/grave/votive column</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(80)</height><width>40</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207439">Serdica</placeName></origPlace><origDate><origDate notBefore-custom="0361" notAfter-custom="0362" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">361 AD - 362 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727011">Sofija</placeName><placeName type="findspot">{Lâvov most, bei}</placeName><placeName type="region">Sofija, grad</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023480_1" sex="M"><persName><name type="nomen">Flavius* Claudius*</name><name type="cognomen">Iulianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-04-15" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied> <lb n="2"/><expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Iuliano &amp;lt;P=I&amp;gt;i<supplied reason="lost">o Felici victori</supplied> <lb n="3"/>venerabili ac triumfatori <lb n="4"/>semper Augusto pontifici <lb n="5"/>maximo <expan><abbr>Germ</abbr><ex>anico</ex></expan> maximo <lb n="6"/><expan><abbr>Alaman</abbr><ex>nico</ex></expan> maximo <expan><abbr>Fran</abbr><ex>cico</ex></expan> <lb n="7"/>maximo <expan><abbr>Sarm</abbr><ex>atico</ex></expan> <expan><abbr>maxim</abbr><ex>o</ex></expan> <lb n="8"/>imperatori II <expan><abbr>conss</abbr><ex>uli</ex></expan> <note>sic</note> III <lb n="9"/>patri patriae proconsuli <lb n="10"/>recuperata re publica 
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1907, 0046.</bibl><bibl>V. Beševliev, Spätgriechische und spätlateinische Inschriften aus Bulgarien (Berlin 1964) 1, Nr. 2; Taf. 1, 2 (Zeichnung).</bibl><bibl>E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 70-71, Nr. 76; Zeichnung. - AE 1907.</bibl><bibl>S. Conti, Die Inschriften Kaiser Julians (Stuttgart 2004) 99-100, Nr. 58.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

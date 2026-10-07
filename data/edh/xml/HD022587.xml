@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tomi &amp;ndash; Constanţa (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD022587</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD022587</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(81)</height><width>(27)</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217016">Tomi</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/680963">Constanţa</placeName><placeName type="findspot"/><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD022587_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Valerius* / Οὐαλέριος*</name><name type="cognomen">Felix / Φήλιξ</name></persName></person><person xml:id="HD022587_2"><persName><name type="nomen">Aurelia / Αὐρελία* (= Αὐρηλία)</name><name type="cognomen">Aemilia / Ἐμιλία</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-05-17" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Felix princeps offi<lb break="no" n="3"/><expan><abbr>ci</abbr><ex>i</ex></expan> pr<expan><ex>a</ex><abbr>esidis</abbr></expan> vixit <expan><abbr>an</abbr><ex>nos</ex></expan> XLV <lb n="4"/><expan><abbr>Aurel</abbr><ex>ia</ex></expan> Aemilia bene meri<lb break="no" n="5"/>to conpari <note>sic</note> virginio posuit <lb n="6"/>vale viator </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Οὐαλ(έριος) Φήλιξ πρίνκιψ ὀφηκίου <surplus>ὀφικίου</surplus> <lb n="2"/>ἡγεμόνος ζήσας ἔτη μεʹ <lb n="3"/>Αὐρελ(ία) Ἐμιλία τῷ ἀειμνήστῳ <lb n="4"/>ἀνδρὶ παρθενικῷ τὴν στήλην ἀν<supplied reason="lost">έ</supplied><lb break="no" n="5"/>θηκεν· χαῖρε παροδεῖτα
+            </ab></div></div>
+            <div type="commentary">
+                <p>Obere rechte Hälfte erhalten; oberhalb des Inschriftfeldes eine männliche Büste. Z. 2 (Ende): statt F auch E möglich. (B): AE 1939: Z. 5 nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1939, 0099. (B)</bibl><bibl>G. Florescu, Dacia 5/6, 1935/36, 424-426, Nr. 3; fig. 4. - AE 1939.</bibl><bibl>CIL 03, 07549.</bibl><bibl>IGR 1, 0629.</bibl><bibl>ILS 1961.</bibl><bibl>E. Popescu, Inscripţiile greceşti şi latine din secolele IV-XIII descoperite în România (Bucureşti 1976) 39-41, Nr. 5; Zeichnung.</bibl><bibl>IScM 2, 373; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

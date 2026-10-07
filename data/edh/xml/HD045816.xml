@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ampelum, aus? &amp;ndash; Meteş (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD045816</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD045816</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206917">Ampelum, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/665385">Meteş</placeName><placeName type="findspot">{Tăuţi}, ehemaliges Kloster</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD045816_1" sex="M"><persName ref="http://romans1by1.com/rpeople/6025"><name type="praenomen">M.</name><name type="nomen">Ulpius</name><name type="cognomen">Hermia</name></persName></person><person xml:id="HD045816_2" sex="W"><persName ref="http://romans1by1.com/rpeople/6026"><name type="nomen">Salonia</name><name type="cognomen">Palestrice</name></persName></person><person xml:id="HD045816_3" sex="M"><persName ref="http://romans1by1.com/rpeople/6027"><name type="cognomen">Diogenes</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-25" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arco</ex></expan> Ulpio <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="3"/><expan><abbr>lib</abbr><ex>erto</ex></expan> Hermiae <expan><abbr>proc</abbr><ex>uratori</ex></expan> <lb n="4"/>aurariarum cuius <lb n="5"/>reliquiae ex indulgentia <lb n="6"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> Romam latae <lb n="7"/>sunt <lb n="8"/>Salonia Palestrice <lb n="9"/>coniunx et Diogenes <lb n="10"/><expan><abbr>lib</abbr><ex>ertus</ex></expan> bene merenti <expan><abbr>fecer</abbr><ex>unt</ex></expan> <lb n="11"/>vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> LV
+            </ab></div>
+            <div type="commentary">
+                <p>Nur aus Abschriften bekannt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 3, 366.</bibl><bibl>CIL 03, 01312.</bibl><bibl>ILS 1593.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

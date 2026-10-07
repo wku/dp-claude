@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Capidava, bei &amp;ndash; Nicolae Bălcescu (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043114</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043114</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>(158)</height><width>40</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216748">Capidava, bei</placeName></origPlace><origDate><origDate notBefore-custom="0293" notAfter-custom="0305" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">293 AD - 305 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/679072">Nicolae Bălcescu</placeName><placeName type="findspot">{Dorobanţu}, türkischer Friedhof</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043114_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="praenomen">C.</name><name type="nomen">Aurelius* Valerius*</name><name type="cognomen">Diocletianus+</name></persName></person><person xml:id="HD043114_2" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Aurelius+* Valerius+</name><name type="cognomen">Maximianus+</name></persName></person><person xml:id="HD043114_3" sex="M"><persName><name type="nomen">Flavius+* Valerius+*</name><name type="cognomen">Constantius+</name></persName></person><person xml:id="HD043114_4" sex="M"><persName><name type="nomen">Galerius+ Valerius+</name><name type="cognomen">Maximianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-05-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Dd</abbr><ex>ominis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostris</ex></expan> <lb n="2"/><expan><abbr>Cai</abbr><ex>o</ex></expan> <expan><abbr>Aurel</abbr><ex>io</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> <lb n="3"/><supplied reason="lost">Diocletiano</supplied> <lb n="4"/><supplied reason="lost">et <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aurel</abbr><ex>io</ex></expan> Val</supplied>eri<supplied reason="lost">o</supplied> <lb n="5"/><supplied reason="lost">Maximia</supplied>n<supplied reason="lost">o et</supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> Constan</supplied><lb break="no" n="7"/><supplied reason="lost">tio et Galerio Valerio</supplied> <lb n="8"/>[Maximiano ------
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung sehr unsicher; Lesungs- und Ergänzungsvorschlag nach Popescu. Unsicher, ob es sich um zwei Inschriften aus hadrianischer und tetrarchischer Zeit handelt oder um eine einzige Inschrift. (B): CIL III: abweichende Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IScM 5, 005; Foto.</bibl><bibl>CIL 03, 12516. (B)</bibl><bibl>E. Popescu, Inscripţiile greceşti şi latine din secolele IV-XIII descoperite în România (Bucureşti 1976) 127-128, Nr. 83</bibl></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

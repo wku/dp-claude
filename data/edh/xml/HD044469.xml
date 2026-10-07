@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Cabyle &amp;ndash; Jambol (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044469</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044469</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>58</height><width>68</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216859">Cabyle</placeName></origPlace><origDate><origDate notBefore-custom="0198" notAfter-custom="0209" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD - 209 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/725578">Jambol</placeName><placeName type="findspot">Kabile, bei, {Lager, Thermen}</placeName><placeName type="region">Jambol</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044469_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.+</name><name type="nomen">Septimius+*</name><name type="cognomen">Severus+*</name></persName></person><person xml:id="HD044469_10" sex="W"><persName><name type="nomen">Γαλερία Οὐαλερία+</name></persName></person><person xml:id="HD044469_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius+*</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD044469_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">P.+</name><name type="nomen">Septimius+</name><name type="cognomen">Geta+</name></persName></person><person xml:id="HD044469_4" sex="W"><persName><name type="nomen">Iulia*</name></persName></person><person xml:id="HD044469_5" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Egantius*</name><name type="cognomen">Proculus+</name></persName></person><person xml:id="HD044469_6" sex="M"><persName ref="https://www.wikidata.org/wiki/Q172168"><name type="nomen">Γαλέριος* Οὐαλέριος*</name><name type="cognomen">Μαξιμιανός+</name></persName></person><person xml:id="HD044469_7" sex="M"><persName ref="https://www.wikidata.org/wiki/Q184549"><name type="cognomen">Λικιννιανός+ Λικίνιος+</name></persName></person><person xml:id="HD044469_8" sex="M"><persName ref="https://www.wikidata.org/wiki/Q189095"><name type="nomen">Γαλέριος+* Οὐαλέριος+*</name><name type="cognomen">Μαξιμῖνος+</name></persName></person><person xml:id="HD044469_9" sex="M"><persName ref="https://www.wikidata.org/wiki/Q8413"><name type="nomen">Φλάουιος+ Οὐαλέριος+</name><name type="cognomen">Κωνσταντῖνος+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-04-16" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                ἀ<supplied reason="lost">γαθῆι</supplied> τύχηι· <lb n="2"/><supplied reason="lost">bona</supplied> fortuna <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> Dol&amp;lt;i&amp;gt;c<supplied reason="lost">heno</supplied> <lb n="3"/>pro <supplied reason="lost"><expan><abbr>sal</abbr><ex>ute</ex></expan></supplied> <expan><abbr>d<am>d</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <expan><abbr>Impp</abbr><ex>eratorum</ex></expan> <supplied reason="lost"><expan><abbr>L</abbr><ex>uci</ex></expan> S</supplied><expan><abbr>ept</abbr><ex>imi</ex></expan> S<supplied reason="lost"><expan><abbr>ev</abbr><ex>eri</ex></expan></supplied> <lb n="4"/>et <expan><abbr>M</abbr><ex>arci</ex></expan> <supplied reason="lost"><expan><abbr>Aur</abbr><ex>eli</ex></expan></supplied> Antonino Augg<supplied reason="lost">(ustorum) et <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>Sept</abbr><ex>imi</ex></expan> Ge</supplied><lb break="no" n="5"/><supplied reason="lost">tae</supplied> <expan><abbr>Caes</abbr><ex>aris</ex></expan> et <expan><abbr>Iul</abbr><ex>iae</ex></expan> <supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>matr</abbr><ex>is</ex></expan> <expan><abbr>castr</abbr><ex>orum</ex></expan> <expan><abbr>mil</abbr><ex>ites</ex></expan>? in</supplied> <lb n="6"/>c<supplied reason="lost">o</supplied>horte I Athoitoru<supplied reason="lost">m</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>DE <expan><abbr>Q</abbr><ex>uinto</ex></expan> <expan><abbr>Egnati</abbr><ex>o</ex></expan> Pr<supplied reason="lost">oc</supplied>ulo <expan><abbr>leg</abbr><ex>ato</ex></expan> Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan></supplied> <lb n="8"/><expan><abbr>pr</abbr><ex>aetore</ex></expan> fecerunt templum, Anto<supplied reason="lost">nino et</supplied> <lb n="9"/><supplied reason="lost">Geta<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>YBATHENION<gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> VARIUS M<gap reason="lost" extent="unknown" unit="character"/>LI <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/>VA <expan><abbr>Imp</abbr><ex>erator</ex></expan> III.III <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> <lb n="12"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> <expan><abbr>Kal</abbr><ex>endas</ex></expan> Fe&amp;lt;b=R&amp;gt;r&amp;lt;u&amp;gt;ari&amp;lt;a&amp;gt;s <lb n="13"/>εὐτυ<supplied reason="lost">χῶς το</supplied>ῖς κυρίοις </ab></div><div n="2" type="textpart"><ab><lb n="1"/> AESI </ab></div><div n="3" type="textpart"><ab><lb n="1"/> ἀγαθῆι τύχηι· <lb n="2"/>ὑπὲρ ὑγίας κα<supplied reason="lost">ὶ νείκη</supplied>ς καὶ ἐωνίου δ<supplied reason="lost">ιαμονῆς</supplied> <lb n="3"/>τῶν δ<supplied reason="lost">εσποτῶν ἡ</supplied>μῶν Γαλ(ερίου) Οὐαλ(ερίου) Μα<supplied reason="lost">ξιμιανοῦ</supplied> <lb n="4"/>καὶ Λικ<supplied reason="lost">ιννιανοῦ Λικι</supplied>ννίου <supplied reason="lost">Σεβ(αστῶν) καὶ Γαλ(ερίου) Οὐαλ(ερίου)</supplied> <lb n="5"/>Μαξιμ<supplied reason="lost">ίνου</supplied> Καίσαρος <supplied reason="lost">καὶ Φλαουίου Οὐαλερίου</supplied> <lb n="6"/><supplied reason="lost">Κονσ</supplied>ταντίνου ὑιῶ<supplied reason="lost">ν</supplied> βασιλ<supplied reason="lost">έων καὶ τῆς δεσ</supplied><lb break="no" n="7"/><supplied reason="lost">ποίν</supplied>ης ἡμῶν Γαλερίας Οὐα<supplied reason="lost">λερίας Σεβασ</supplied> <lb n="8"/><supplied reason="lost">τῆς ὁ δ</supplied>ιασημότατος <supplied reason="lost">ἡγε</supplied>μὼν τ<supplied reason="lost">ῆς Θρᾴκης <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>Ν κατεσκεύα<supplied reason="lost">σεν <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>Ν <supplied reason="lost">τῶν</supplied> Καβυληνῶν <gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/>ΤΗΛΑΝ<gap reason="lost" extent="unknown" unit="character"/>ΝΙΟΥ ἐπιμε<supplied reason="lost">λ</supplied>ουμ<supplied reason="lost">ένων</supplied> <lb n="12"/>Μάρ(κου) Αὐρ(ηλίου) Συ<gap reason="lost" extent="unknown" unit="character"/>αινου δεκα<supplied reason="lost">πρτου <gap reason="lost" extent="unknown" unit="character"/></supplied><lb break="no" n="13"/>λιανοῦ καὶ <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>ιβιανοῦ καὶ Πύρο<supplied reason="lost">ς <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>ξ εὐτυ<supplied reason="lost">χῶς</supplied> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Das Konsulat von Antoninus und Geta, das wohl in Z. 8-9 zu ergänzen ist, ließe das Jahr 205 oder 208 feststellen. Auf der Rückseite des Tafels steht die zweite Inschrift, eine Bauinschrift, die zwischen 309-310 n. Chr. zu datieren ist. (B): Abweichende Textgestaltungen. Die Abbildungen lassen eine genauere Nachprüfung der Lesungen der lateinischen Inschrift nicht zu. In der letzten Zeile der zweiten Inschrift läßt sich die Lesung [---]Χ εὐτυ[χῶς] kaum wiederfinden.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1999, 1374. (B)</bibl><bibl>V. Velkov, Kabile 2, 1991, 18-21, Nr. 10; obr. 9 u. 10. - AE 1999.</bibl><bibl>AE 2004, 1301.</bibl><bibl>A. Stefan, AntTard 12, 2004, 285-288, Nr. 9. (B) - AE 2004.</bibl><bibl>SEG 42, 0646. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

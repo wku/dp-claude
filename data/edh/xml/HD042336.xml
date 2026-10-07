@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Utus, aus? &amp;ndash; Guljanci (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042336</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042336</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Milkovitsa, Brunnen, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(105)</height><width>94</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/217033">Utus, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/729080">Guljanci</placeName><placeName type="findspot">{Milkovica}, Brunnen, sekundär verwendet</placeName><placeName type="region">Pleven</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042336_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius</name><name type="cognomen">Crescens</name></persName></person><person xml:id="HD042336_2" sex="M"><persName><name type="nomen">Aelius</name><name type="cognomen">[---]nius</name></persName></person><person xml:id="HD042336_3" sex="M"><persName><name type="nomen">Aelius</name><name type="cognomen">Iulianus</name></persName></person><person xml:id="HD042336_4" sex="M"><persName><name type="nomen">Aelius</name><name type="cognomen">Publius</name></persName></person><person xml:id="HD042336_5" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius</name><name type="cognomen">Crescentinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-19" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Aelius <expan><abbr>Crescens</abbr><ex cert="low"/></expan> <lb n="3"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> Aelii <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/>nius et Iulianus et <lb n="5"/>Publius fratres <lb n="6"/>pientes et <expan><abbr>P</abbr><ex>ublius</ex></expan> Aeli<lb break="no" n="7"/>us Crescentinus <lb n="8"/>filius una cum <lb n="9"/>avia et fratri<lb break="no" n="10"/>bus bene mer<lb break="no" n="11"/>enti posuerunt <lb n="12"/><expan><abbr>o</abbr><ex>pto</ex></expan> <expan><abbr>s</abbr><ex>it</ex></expan> <expan><abbr>t</abbr><ex>ibi</ex></expan> <expan><abbr>t</abbr><ex>erra</ex></expan> <expan><abbr>l</abbr><ex>evis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Stele wurde in Vermauerung im Brunnen Vărdovska cheshma gefunden. (B): ILBulg: Z. 3/4: [---]nus; Z. 12: o(pto) s(it) t(ibi) (terra) l(evis).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 240, Nr. 426.</bibl><bibl>ILBulg 121. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

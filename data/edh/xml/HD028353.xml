@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Svoge (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028353</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028353</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(14)</height><width>10</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0283" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">283 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/733001">Svoge</placeName><placeName type="findspot">Bov, bei, {Sedemte prestola, Kloster}, bei</placeName><placeName type="region">Sofija, oblast</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD028353_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q187004"><name type="cognomen">Carus</name></persName></person><person xml:id="HD028353_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q190097"><name type="cognomen">Carinus</name></persName></person><person xml:id="HD028353_3" sex="M"><persName><name type="cognomen">Gaianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-27" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Caro et Carino <lb n="2"/>&amp;lt;AA&amp;gt;<expan><abbr>uugg</abbr><ex>ustis</ex></expan> Gaianus <lb n="3"/>pr<expan><ex>a</ex><abbr>eses</abbr></expan> finem <lb n="4"/>posui inter du<lb break="no" n="5"/><supplied reason="lost">as D</supplied>acias dila<lb break="no" n="6"/>[psum<certainty match="preceding-sibling::node()" locus="value"/> ------
+            </ab></div>
+            <div type="commentary">
+                <p>Bronzetäfelchen mit giebelförmigem oberem Abschluß; zwei kleine Löcher zur Befestigung. Z. 2: durch die Buchstaben VV und GG ist jeweils eine kurze Schräghaste gezogen; Buchstabe S am Zeilenende spiegelverkehrt geschrieben. (B): Filow; AE 1912; ILBulg: Abweichungen in Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1912, 0200. (B)</bibl><bibl>ILBulg 188; tab. 35, 188. (B)</bibl><bibl>B. Filow, Klio 12, 1912, 235-236; Foto. (B) - AE 1912.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

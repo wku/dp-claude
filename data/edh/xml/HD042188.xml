@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Novae &amp;ndash; Svištov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042188</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042188</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Novae, Lap.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>210</height><width>105</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-14</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svištov</placeName><placeName type="findspot"/><placeName type="region">Veliko Târnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042188_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="cognomen">Bassus</name></persName></person><person xml:id="HD042188_2" sex="W"><persName><name type="nomen">Flavia*</name><name type="cognomen">Longina*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005249" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/09926d55-0e2e-4c31-9851-344d0cc8070a/file/id/766026/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Ti</abbr><ex>berio</ex></expan> Basso <expan><abbr>dec</abbr><ex>urioni</ex></expan> <lb n="3"/>veterano <lb n="4"/>alaes <note>sic</note> prim<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="5"/><expan><abbr>Ast</abbr><ex>urum</ex></expan> <expan><abbr>mili</abbr><ex>tavit</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXV <lb n="6"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> LX <expan><abbr>Fla</abbr><ex>via</ex></expan> <lb n="7"/>Long<expan><ex>i</ex><abbr>na</abbr></expan> pa<lb break="no" n="8"/>tri bene merenti </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes ein Kranz; er ist ebenso wie das Inschriftfeld für eine sekundäre Verwendung nachlässig getilgt worden; Z. 9 befindet sich unterhalb des Inschriftfeldes. Auf dem linken Rahmen ein Graffito. Z. 2: ILNovae; Conrad: Dec(imo). Z. 4: IGLNovae: Primae mit MA-Ligatur; nach dem Foto nicht zu entscheiden. Z. 7: IGLNovae: Longina mit NI-Ligatur; nach dem Foto nicht zu entscheiden. (B): ILBulg: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 231, Nr. 389; Taf. 102, 2.</bibl><bibl>ILBulg 305. (B)</bibl><bibl>ILNovae 056; Abb. 56a; Abb. 56b (Zeichnung).</bibl><bibl>IGLN 078; pl. 29, 78 (Foto u. Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

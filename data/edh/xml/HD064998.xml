@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Porolissum &amp;ndash; Creaca (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064998</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064998</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zalău, Muz. Ist. Artă</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>191</height><width>50</width><depth>40</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207361">Porolissum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2008"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675302">Creaca</placeName><placeName type="findspot">Jac, bei, {Ursoieş, Hügel}, römische Nekropole</placeName><placeName type="region">Sălaj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064998_1" sex="W"><persName><name type="cognomen">Cleopatra+</name></persName></person><person xml:id="HD064998_2" sex="M"><persName><name type="cognomen">Martinus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-08-12" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Cleopa<lb break="no" n="2"/><supplied reason="lost">tr</supplied>ae <expan><abbr>filia</abbr><ex>e</ex></expan> <lb n="3"/><supplied reason="lost" cert="low">quae</supplied> vixit <lb n="4"/><expan><abbr><supplied reason="lost">an</supplied>n</abbr><ex>os</ex></expan> VII <expan><abbr>m</abbr><ex>enses</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Martin</abbr><ex>us</ex></expan> <expan><abbr>ver</abbr><ex>na</ex></expan> <lb n="2"/>et <expan><abbr>vil</abbr><ex>icus</ex></expan> <expan><abbr>b</abbr><ex cert="low">ene</ex></expan> <supplied reason="lost" cert="low">m(erenti)? pos(uit)</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Erhalten sind drei nicht aneinanderpassende Fragmente von der Vorderseite des Altars (inklusive der Vorderseiten der corona und crepido; Dicke: 10 cm) und der in einem Stück gearbeitete eigentliche Altarkörper, an dem die separat gearbeitete Vorderseite angebracht war (A), sowie ein ebenfalls separat gearbeiteter Aufsatz mit einem Pinienzapfen (B). Maße A: 121 x 50 x 40 cm; B: 70 x 43 x 34 cm. Befestigungsspuren (je ein Dübelloch) auf der Oberseite von A und der Unterseite von B. Die erhaltenen Zeilen 1-4 befinden sich auf den Mittelteil, die übrigen auf der crepido (Inschriftfeld dort in Form einer tabula ansata). Z. 1: vor C der Rest eines nicht mehr identifizierbaren Buchstabens. (B): Petruţ: Z. 6: Ma[r]tin(us); AE 2011: Z. 6: Martinus; Z. 7: vilic[us ---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2010, 1367.</bibl><bibl>AE 2011, 1069. (B)</bibl><bibl>D. Petruţ u. a., Tyche 25, 2010, 82-87; Taf. 9 u. 10; Taf. 11 (Zeichnung). (B) - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

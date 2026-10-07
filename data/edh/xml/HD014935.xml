@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Târgu Mureş (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014935</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014935</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Târgu Mureş, Biserica Reformată din Cetate, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(86)</height><width>(58)</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1950"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/665004">Târgu Mureş</placeName><placeName type="findspot">{Biserica Reformată din Cetate}, sekundär verwendet</placeName><placeName type="region">Mureș</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014935_1" sex="M"><persName ref="http://romans1by1.com/rpeople/7364"><name type="praenomen">M.</name><name type="nomen">Fabius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD014935_2" sex="M"><persName ref="http://romans1by1.com/rpeople/7365"><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">M[---]</name></persName></person><person xml:id="HD014935_3" sex="W"><persName ref="http://romans1by1.com/rpeople/7366"><name type="nomen">Aelia+*</name><name type="cognomen">Dionysia</name></persName></person><person xml:id="HD014935_4" sex="M"><persName ref="http://romans1by1.com/rpeople/7367"><name type="praenomen">P.</name><name type="nomen">Aelius+*</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD014935_5" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Quintus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-05-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Fabius <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> V<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>vix</abbr><ex>it</ex></expan> an</supplied><lb break="no" n="4"/>nos LXIII m<supplied reason="lost"><expan><abbr>il</abbr><ex>itavit</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><expan><abbr>fili</abbr><ex>i</ex></expan> <expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> M<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>Ael</abbr><ex>ia</ex></expan></supplied> <lb n="6"/>Dionysia <expan><abbr>P</abbr><ex>ublius</ex></expan><supplied reason="lost"><expan><abbr>Ael</abbr><ex>ius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Quintu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Rest einer männlichen Büste. Zeilenlinien für die Beschriftung. (B): Russu; AE 1967; IDR: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1967, 0406. (B)</bibl><bibl>AE 2015, 1174.</bibl><bibl>IDR 3, 4, 138; fig. 65 (Foto u. Zeichnung). (B)</bibl><bibl>I.I. Russu, ActaMusNapoca 1, 1964, 190-191, Nr. 7; fig. 7 (Foto u. Zeichnung). (B) - AE 1967.</bibl><bibl>F. Matei-Popescu, StCercIstorV 66, 3/4, 2015, 300-301, Nr. 3. - AE 2015.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

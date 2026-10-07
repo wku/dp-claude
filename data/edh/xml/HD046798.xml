@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Private legal inscription from Sucidava &amp;ndash; Corabia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD046798</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD046798</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(55)</height><width>(66)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216997">Sucidava</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682433">Corabia</placeName><placeName type="findspot">{Celei}</placeName><placeName type="region">Olt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>private legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-02-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">volo iubeo <gap reason="lost" extent="unknown" unit="character"/> curatoribus sepulchri mei fructum</supplied> <lb n="2"/><supplied reason="lost">v</supplied>inearum <expan><abbr>iug</abbr><ex>erum</ex></expan> II <expan><abbr>A</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> et usum eius aedifi</supplied><lb break="no" n="3"/><expan><abbr>ci</abbr><ex>i</ex></expan> quod iunctum sepu<supplied reason="lost">lchro meo est concedere sub supra scripta</supplied> <lb n="4"/>condicione quicumq<supplied reason="lost">ue hereditatem adierit ex heredibus meis</supplied> <lb n="5"/>vel ex eis per gradus v<supplied reason="lost">el qui substitutus erit si quis eorum</supplied> <lb n="6"/>interciderit volo iubeo <supplied reason="lost">heredes meos curatorem sepulchri mei</supplied> <lb n="7"/>in locum eiu<surplus>i</surplus>s qui obieri<supplied reason="lost">t aut officium suum deseruerit</supplied> <lb n="8"/>substituere eadem co<supplied reason="lost">ndicione qua curatores supra instituti sint</supplied> <lb n="9"/>qui similiter officium g<supplied reason="lost">erat et <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="10"/>sit et quicumque ex ea <supplied reason="lost">condicione curator institutus aliquid neglexerit</supplied> <lb n="11"/>pertinens ad voluntat<supplied reason="lost">em meam dimittatur eique alius sufficiatur ut</supplied> <lb n="12"/>sit qui ex iussu meo in <supplied reason="lost">sepulchro meo quotannis sacra faciat</supplied> <lb n="13"/>ita u<supplied reason="lost">t <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptum</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan></supplied> <lb n="14"/>ut eae vineae et aedifi<supplied reason="lost">cium curatoribus reservata<certainty locus="name" match="preceding-sibling::text()" cert="low"/> sint ius heredibus</supplied> <lb n="15"/>meis aps<supplied reason="lost">it</supplied> <note>sic</note> dand<supplied reason="lost">i ea aut alienandi si quis voluerit vendere ea</supplied> <lb n="16"/>aut alienare q<supplied reason="lost">uod adversus voluntatem testamenti mei</supplied> <lb n="17"/>fecerit venditio et <supplied reason="lost">alienatio irrita sit et |(denariorum) <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>m</abbr><ex>ilia</ex></expan> dare damnas esto pecunia</supplied> <lb n="18"/>ea reliquo<supplied reason="lost">ru</supplied>m caus<supplied reason="lost">a hereditati adcrescat <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="19"/>ita ut post <supplied reason="lost">mortem meam curatores quotannis sacra faciant</supplied> <lb n="20"/>ex fructu s<supplied reason="lost">upra scriptarum vinearum</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Inzwischen in zahlreiche Fragmente zerbrochen und mehrere, bei der Auffindung noch vorhandene Textteile verloren. Lesung weitgehend nach IDR II. (B): IDR II: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 2, 187; Foto. (B)</bibl><bibl>CIL 03, 14493.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

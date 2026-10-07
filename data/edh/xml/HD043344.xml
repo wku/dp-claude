@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription? from Capidava, bei &amp;ndash; Seimeni, bei (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043344</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043344</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>(33)</height><width>(32)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216748">Capidava, bei</placeName></origPlace><origDate><origDate notBefore-custom="0293" notAfter-custom="0304" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">293 AD - 304 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/667441">Seimeni, bei</placeName><placeName type="findspot">{Lager}</placeName><placeName type="region">Constanța</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043344_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="praenomen">C.+</name><name type="nomen">Valerius+*</name><name type="cognomen">Diocletianus+</name></persName></person><person xml:id="HD043344_2" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Aurelius+* Valerius+*</name><name type="cognomen">Maximianus+</name></persName></person><person xml:id="HD043344_3" sex="M"><persName><name type="nomen">Flavius+* Valerius+*</name><name type="cognomen">Constantius+</name></persName></person><person xml:id="HD043344_4" sex="M"><persName><name type="nomen">Valerius+*</name><name type="cognomen">Maximianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-11-30" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Dio</supplied>cleti<supplied reason="lost">anus et <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Maximianu</supplied>s <expan><abbr>PP</abbr><ex>ii</ex></expan> <expan><abbr>FF</abbr><ex>elices</ex></expan> <supplied reason="lost">Invicti Augusti et <expan><abbr>Fl</abbr><ex>avius</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>Val</abbr><ex>erius</ex></expan> Constantius et Gal</supplied>erius V<supplied reason="lost"><expan><abbr>al</abbr><ex>erius</ex></expan> Maximianus nobilissimi <expan><abbr>Caes</abbr><ex>ares</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 07487.</bibl><bibl>G.G. Točilescu, AEM 11, 1887, 29, Nr. 21.</bibl><bibl>E. Popescu, Inscripţiile greceşti şi latine din secolele IV-XIII descoperite în România (Bucureşti 1976) 212-213, Nr. 205; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

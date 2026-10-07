@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Oescus, aus? &amp;ndash; Corabia (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019564</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019564</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bucureşti, Muz. Naţ. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(33)</height><width>(18)</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216907">Oescus, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0155" notAfter-custom="0156" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">155 AD - 156 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682433">Corabia</placeName><placeName type="findspot">{Celei}</placeName><placeName type="region">Olt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019564_1"><persName ref="http://romans1by1.com/rpeople/9218"><name type="praenomen">C.+</name><name type="nomen">Prastina+</name><name type="cognomen">Messalinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-10-01" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ co]<expan><abbr>l</abbr><ex cert="low">onia</ex></expan> <expan><abbr>Ulp</abbr><ex cert="low">ia</ex></expan> <supplied reason="lost">Oescus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan> P</supplied>rastina Mess<supplied reason="lost">alinus</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>atus</ex></expan></supplied> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> [<expan><abbr>pr</abbr><ex>aetore</ex></expan> ------
+            </ab></div>
+            <div type="commentary">
+                <p>Konvex geformtes Fragment. Datierung: Die Inschrift könnte sich eventuell auch auf den Statthalter von 244-247 n. Chr. beziehen. Z. 1: möglicherweise auch L(ucius) Ulp(ius) [---] zu ergänzen. (B): Tudor; AE 1959; IDR; ILBulg: Abweichungen in der Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1959, 0323. (B)</bibl><bibl>AE 1991, 1369.</bibl><bibl>D. Tudor, Oltenia Romanǎ (Bucureşti 1958) 404, Nr. 161. (B) - AE 1959.</bibl><bibl>J. Fitz, Alba Regia 24, 1990, 48-51; Abb. 2 (Zeichnung). - AE 1991.</bibl><bibl>IDR 2, 210; Foto u. Zeichnung. (B)</bibl><bibl>ILBulg 014; tab. 4, 14 (Foto u. Zeichnung). (B)</bibl><bibl>PIR (2. Aufl.) P 926.</bibl><bibl>PIR (2. Aufl.) P 928.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Brusarci (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043529</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043529</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sofija, Nac. Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727047">Brusarci</placeName><placeName type="findspot">{Smirnenski}, Lukovica, bei, "Manastirski dol"</placeName><placeName type="region">Montana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043529_1" sex="M"><persName><name type="cognomen">Annaeus*</name></persName></person><person xml:id="HD043529_2" sex="M"><persName><name type="cognomen">Saturninus+</name></persName></person><person xml:id="HD043529_3" sex="W"><persName><name type="cognomen">Marcellina*</name></persName></person><person xml:id="HD043529_4" sex="W"><persName><name type="cognomen">Iusta</name></persName></person><person xml:id="HD043529_5" sex="W"><persName><name type="nomen">Verecundia</name><name type="cognomen">Marcella+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-28" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Ann<expan><ex>a</ex><abbr>eus</abbr></expan> <lb n="3"/>S<supplied reason="lost">a</supplied>turnini <lb n="4"/><expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXX <lb n="5"/>Marcel<expan><ex>l</ex><abbr>ina</abbr></expan> <lb n="6"/>An<expan><ex>na</ex><abbr>ei</abbr></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="7"/><expan><abbr>an</abbr><ex>nos</ex></expan> VII Iusta <lb n="8"/>An<expan><ex>na</ex><abbr>ei</abbr></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="9"/><expan><abbr>an</abbr><ex>nos</ex></expan> III titu<supplied reason="lost"><expan><abbr>l</abbr><ex>um</ex></expan></supplied> <lb n="10"/><expan><abbr><supplied reason="lost">p</supplied>o<supplied reason="lost">s</supplied></abbr><supplied reason="lost"><ex>uit</ex></supplied></expan> <supplied reason="lost"/> Marce<lb break="no" n="11"/><supplied reason="lost"><expan><abbr>l</abbr><ex>l</ex></expan></supplied>a Verecun<lb break="no" n="12"/><surplus>n</surplus>dia marit<lb break="no" n="13"/>o et f<supplied reason="lost"><expan><abbr>il</abbr><ex>iis</ex></expan></supplied> co<supplied reason="lost"><expan><abbr>m</abbr><ex>munibus</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 12384.</bibl><bibl>CIL 03, 12384 add. p. 2316, 45.</bibl><bibl>CIL 03, 12384 add. p. 2316, 47.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

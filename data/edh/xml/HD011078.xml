@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Sexaginta Prista &amp;ndash; Ruse (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011078</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011078</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ruse, Ist. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>(39)</height><width>(63)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.4-3.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216982">Sexaginta Prista</placeName></origPlace><origDate><origDate notBefore-custom="0184" notAfter-custom="0192" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">184 AD - 192 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727523">Ruse</placeName><placeName type="findspot"/><placeName type="region">Ruse</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011078_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1434"><name type="praenomen">M.+</name><name type="nomen">Aurelius+*</name><name type="cognomen">Commodus+ Antoninus+</name></persName></person><person xml:id="HD011078_2" sex="M"><persName><name type="praenomen">L.+?</name><name type="nomen">Septimius+?</name><name type="cognomen">Flaccus+?</name></persName></person><person xml:id="HD011078_3" sex="M"><persName><name type="praenomen">T.+</name><name type="nomen">Flavius+</name><name type="cognomen">Celsianus+* Antiochianus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-05-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> Commodus</supplied> <lb n="2"/><supplied reason="lost">Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> G</supplied><expan><abbr>erm</abbr><ex>anicus</ex></expan> <expan><abbr>Sarm</abbr><ex>aticus</ex></expan> <expan><abbr>Britt</abbr><ex>annicus</ex></expan> <lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> fecit c</supplied><expan><abbr>oh</abbr><ex>orti</ex></expan> II <expan><abbr>Fl</abbr><ex>aviae</ex></expan> <expan><abbr>Britt</abbr><ex>onum</ex></expan> sub <lb n="4"/><supplied reason="lost" cert="low">L(ucio)? Septimio? Flac</supplied>co <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>cur</abbr><ex>ante</ex></expan>? <expan><abbr>T</abbr><ex>ito</ex></expan> Flavio C</supplied><expan><abbr>elsian</abbr><ex>o</ex></expan> Antio<lb break="no" n="6"/><supplied reason="lost"><expan><abbr>chian</abbr><ex>o</ex></expan> p</supplied><expan><abbr>raefect</abbr><ex>o</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Reste von roter Farbe in den Buchstaben. Datierung: nicht vor der Annahme des Siegertitels Britannicus durch Commodus im Jahr 184 n. Chr.; nach dem Ergänzungs- und Datierungsvorschlag des Statthalters duch Wachtel in die Jahre 184-188 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2008, 1188.</bibl><bibl>K. Wachtel, in: H.M. Schellenberg - V.E. Hirschmann - A. Krieckhaus (Hrsg.), A Roman miscellany. Essays in honour of Anthony R. Birley on his seventieth birthday (Gdánsk 2008) 175-178; Abb. 1; Abb. 2 (Zeichnung). - AE 2008.</bibl><bibl>PIR (2. Aufl.) S 450.</bibl><bibl>PIR (2. Aufl.) A 738.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

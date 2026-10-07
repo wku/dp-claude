@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Samum &amp;ndash; Căşeiu (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017648</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017648</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dej, Muz. Mun.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>100</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207419">Samum</placeName></origPlace><origDate><origDate when-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682614">Căşeiu</placeName><placeName type="findspot"/><placeName type="region">Cluj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017648_1" sex="M"><persName ref="http://romans1by1.com/rpeople/6731"><name type="nomen">Oclatius+</name><name type="cognomen">Florentinus+</name></persName></person><person xml:id="HD017648_2"><persName><name type="cognomen">Agricola*</name></persName></person><person xml:id="HD017648_3"><persName><name type="cognomen">Clementinus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-02-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deae Nem<lb break="no" n="2"/>esi <expan><abbr>Reg</abbr><ex>inae</ex></expan> <lb n="3"/>Ocl<supplied reason="lost">atius</supplied> <lb n="4"/>Flor<supplied reason="lost">enti</supplied><lb break="no" n="5"/>nus <expan><abbr>b</abbr><ex>ene</ex></expan><supplied reason="lost"><expan><abbr>f</abbr><ex>iciarius</ex></expan></supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex></expan></supplied><expan><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>l</abbr><ex>egionis</ex></expan> V <expan><abbr>M</abbr><ex>acedonicae</ex></expan> <lb n="7"/><expan><abbr>S</abbr><ex>everianae</ex></expan> iterato <lb n="8"/>agens sta<lb break="no" n="9"/>tione <expan><abbr>Agri</abbr><ex>cola</ex></expan> <lb n="10"/>et <expan><abbr>Clem</abbr><ex>entino</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>In mehrere Teile gebrochen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1957, 0329.</bibl><bibl>ILD 775.</bibl><bibl>PIR (2. Aufl.) C 564.</bibl><bibl>PIR V 476.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 410-411, Nr. 532; Zeichnung. - AE 1957.</bibl><bibl>D. Isac, Castrul roman de la Samum - Căşeiu (Cluj-Napoca 2003) pl. 4, 1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

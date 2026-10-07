@@ -1,0 +1,612 @@
+{
+ "fetched_utc": "2026-10-07T18:18:24.972450Z",
+ "user_agent": "ancient-texts-research (+https://github.com/wku/dp-claude)",
+ "files": [
+  {
+   "file": "gramoty_база_даних_список.html",
+   "url": "https://gramoty.ru/birchbark/document/list/",
+   "sha256": "a72ed72b9433a73763967ec56bdfebe4894a7fde1987b3340d7774d42ff821af",
+   "bytes": 1589141
+  },
+  {
+   "file": "gramoty_головна.html",
+   "url": "https://gramoty.ru/",
+   "sha256": "8fb872899c43fe86c658c2ca249075470f9cc6c9cf2c81cbf69c26faa56c4738",
+   "bytes": 9550
+  },
+  {
+   "file": "gramoty_бібліотека.html",
+   "url": "https://gramoty.ru/birchbark/library/book/",
+   "sha256": "bfc496510731a7a1793e2a844a83ff4a5efe07205e6bcaac523a547a2cbd6e1f",
+   "bytes": 41338
+  },
+  {
+   "file": "gramoty_НГБ_XI_сторінка.html",
+   "url": "https://gramoty.ru/birchbark/library/book/102/",
+   "sha256": "c040c27be6e42f26177bdabd82f79977e4e09a11a36de14b885878907df6f3a1",
+   "bytes": 3880
+  },
+  {
+   "file": "НГБ_XI_Новгородські_грамоти_на_бересті_1997_2000.pdf",
+   "url": "https://gramoty.ru/thumbs/bibliography_document_ngb-11.pdf",
+   "sha256": "6867c0144e5d23a2f50ba9742848a3f98b6ca8557873c93edf8e83056bae0c8d",
+   "bytes": 8589137
+  },
+  {
+   "file": "Михеєв_2019_Мінеї_двох_Домок_Slovene.pdf",
+   "url": "https://slovene.ru/2019_2_Mikheev.pdf",
+   "sha256": "38c687f1755d59111001d35a14345620191c5414704b10b55a0dc9657dc4b6cc",
+   "bytes": 7956413
+  },
+  {
+   "file": "wiki_ru_Гнёздовская_надпись.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%93%D0%BD%D1%91%D0%B7%D0%B4%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BD%D0%B0%D0%B4%D0%BF%D0%B8%D1%81%D1%8C",
+   "sha256": "a7a2f924201d9cb2c78a5e68833685c20948c14d4aeca42d61af48bf6a6446ca",
+   "bytes": 125901
+  },
+  {
+   "file": "gw2ru_oldest_inscription.html",
+   "url": "https://www.gw2ru.com/education/240502-oldest-inscription-in-russian-dates",
+   "sha256": "a48c5dc517f5d3f4c07f4955d35308da18c5a90adefd7a626e2e02532c83533d",
+   "bytes": 114901
+  },
+  {
+   "file": "smotrim_Гнёздово_амфора.html",
+   "url": "https://smotrim.ru/journal/3431413",
+   "sha256": "74fba8ff8facb200c045c46578776b33869dccdcb84d6f3a6ef717c538d31de3",
+   "bytes": 93801
+  },
+  {
+   "file": "wiki_ru_Новгородский_кодекс.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BE%D0%B4%D0%B5%D0%BA%D1%81",
+   "sha256": "263b3d8a20698a3cd5ad632695b17ff2afae54b05eb74daf77e59123fb13fc0b",
+   "bytes": 202541
+  },
+  {
+   "file": "wiki_en_Novgorod_Codex.html",
+   "url": "https://en.wikipedia.org/wiki/Novgorod_Codex",
+   "sha256": "0caa940633f977a3393b7f76a3c12a3e59c7810871887fc43df7c8106a8badb0",
+   "bytes": 158116
+  },
+  {
+   "file": "wiki_en_Ostromir_Gospels.html",
+   "url": "https://en.wikipedia.org/wiki/Ostromir_Gospels",
+   "sha256": "2db9d5fcee1118158c632e1083b4eac2a312a4768539f785be39c3bec982e563",
+   "bytes": 138395
+  },
+  {
+   "file": "wiki_ru_Остромирово_Евангелие.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%9E%D1%81%D1%82%D1%80%D0%BE%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%BE_%D0%95%D0%B2%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D0%B8%D0%B5",
+   "sha256": "937604028bf917ccc205c2edd351d07ec89fca1976abd2d0a3428f93b8a1f466",
+   "bytes": 232248
+  },
+  {
+   "file": "wiki_ru_Тмутараканский_камень.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%A2%D0%BC%D1%83%D1%82%D0%B0%D1%80%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%8C",
+   "sha256": "21bd045e644d874b990a7390f00de09c47423f30c78ad2b71282b72b20f7845a",
+   "bytes": 248970
+  },
+  {
+   "file": "wiki_ru_Изборник_Святослава_1073_года.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%B0_1073_%D0%B3%D0%BE%D0%B4%D0%B0",
+   "sha256": "eb9d27aa1e554d94d0895b4ca04ed8c58e424c978a924e8df488bfcf307174ea",
+   "bytes": 170669
+  },
+  {
+   "file": "wiki_ru_Изборник_1076_года.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA_1076_%D0%B3%D0%BE%D0%B4%D0%B0",
+   "sha256": "694bc6ef0fe1472863fab04eba9224d4c6c990ec084c6b94e292c821d50a17ac",
+   "bytes": 162884
+  },
+  {
+   "file": "wiki_ru_Архангельское_Евангелие.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B5_%D0%95%D0%B2%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D0%B8%D0%B5",
+   "sha256": "cce4fd6a73aa2b80648af029ee79d6c3fa799d655884c1ecf307e3a76072215b",
+   "bytes": 269968
+  },
+  {
+   "file": "wiki_ru_Мстиславово_Евангелие.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%9C%D1%81%D1%82%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE_%D0%95%D0%B2%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D0%B8%D0%B5",
+   "sha256": "16193abbe7b6eb6c09f4a79169cb12bb42c084d5c840128eb0fadbbc5505200c",
+   "bytes": 132644
+  },
+  {
+   "file": "wiki_ru_Юрьевское_Евангелие.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%AE%D1%80%D1%8C%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B5_%D0%95%D0%B2%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D0%B8%D0%B5",
+   "sha256": "b8f3d71f85eea23f6c5d8747f74afc5903bc943ba0c9a467254f53cee2933998",
+   "bytes": 104331
+  },
+  {
+   "file": "wiki_ru_Мстиславова_грамота.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%9C%D1%81%D1%82%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%B0_%D0%B3%D1%80%D0%B0%D0%BC%D0%BE%D1%82%D0%B0",
+   "sha256": "e93838f9c5b6234bb8781f86157cf64c156521ddc283bb226ef33ebc7df266b7",
+   "bytes": 130809
+  },
+  {
+   "file": "wiki_ru_Туровское_Евангелие.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5_%D0%95%D0%B2%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D0%B8%D0%B5",
+   "sha256": "5110cd31b71b7c6985828396b236d3d784d6432b669e8ca67cdffe034cdd0ae2",
+   "bytes": 120449
+  },
+  {
+   "file": "wiki_ru_Чудовская_псалтирь.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%A7%D1%83%D0%B4%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D1%81%D0%B0%D0%BB%D1%82%D0%B8%D1%80%D1%8C",
+   "sha256": "e5c15ead7ff2c570e294b40475865758c89bcca2e94b9de92c90a2b979efa2ce",
+   "bytes": 111110
+  },
+  {
+   "file": "wiki_ru_Евгениевская_псалтирь.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D1%81%D0%B0%D0%BB%D1%82%D0%B8%D1%80%D1%8C",
+   "sha256": "e7e215bb9ed9c1668431dca9e4641e55dfa4aadb414a77c6919be4e6b826eb71",
+   "bytes": 127356
+  },
+  {
+   "file": "wiki_ru_Борисовы_камни.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D1%8B_%D0%BA%D0%B0%D0%BC%D0%BD%D0%B8",
+   "sha256": "a0e5614d9fdb2ce996c3d1353169dfbf9e6df65e241928edba4b808aac446931",
+   "bytes": 489160
+  },
+  {
+   "file": "wiki_ru_Борисов_камень_в_Полоцке.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2_%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%8C_%D0%B2_%D0%9F%D0%BE%D0%BB%D0%BE%D1%86%D0%BA%D0%B5",
+   "sha256": "20c5036a8650022d68bb42d57acd76dc6ea829fd0fff58643bf78d5775563d3e",
+   "bytes": 172075
+  },
+  {
+   "file": "wiki_ru_Рогволодов_камень.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B3%D0%B2%D0%BE%D0%BB%D0%BE%D0%B4%D0%BE%D0%B2_%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%8C",
+   "sha256": "96f7391d1119d5ca69d1ac2f841cb783476868c03d5ab6d84df1a719bee4c6bc",
+   "bytes": 292874
+  },
+  {
+   "file": "wiki_ru_Крест_Ефросинии_Полоцкой.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B5%D1%81%D1%82_%D0%95%D0%B2%D1%84%D1%80%D0%BE%D1%81%D0%B8%D0%BD%D0%B8%D0%B8_%D0%9F%D0%BE%D0%BB%D0%BE%D1%86%D0%BA%D0%BE%D0%B9",
+   "sha256": "9d0f098e504cf82519f19401244f828628ce05646c3e57c644acc4179c72c0e6",
+   "bytes": 185078
+  },
+  {
+   "file": "wiki_ru_Хронология_древнерусской_литературы.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%A5%D1%80%D0%BE%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F_%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B9_%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D1%8B",
+   "sha256": "920a3c8c167d0bb407699c19376870ced200dd0754eaade8218bcf364075bcc5",
+   "bytes": 229275
+  },
+  {
+   "file": "wiki_ru_Мстислав_Владимирович_Великий.html",
+   "url": "https://ru.wikipedia.org/wiki/%D0%9C%D1%81%D1%82%D0%B8%D1%81%D0%BB%D0%B0%D0%B2_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9",
+   "sha256": "544a3b02c1c2aaf174395d8996d250e2adaedf396a68291cd94cba302fad21b5",
+   "bytes": 345757
+  },
+  {
+   "file": "gramoty_грамота_246.html",
+   "url": "https://gramoty.ru/birchbark/document/show/246/",
+   "sha256": "656717b65d68af972d23fb9603a5094264dbeaf8b4cca30aba7e598e3feddb0a",
+   "bytes": 17612
+  },
+  {
+   "file": "gramoty_грамота_novgorod_1047.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/1047/",
+   "sha256": "8a11e6f10d9835ce517fb29543f8520b80577887dfd98ebf25ca3a1dab22052c",
+   "bytes": 14045
+  },
+  {
+   "file": "gramoty_грамота_novgorod_1048.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/1048/",
+   "sha256": "2427db7d03c1b024b2a77acefd3e39c19085de35254508fdf1f1e55a2e9931cf",
+   "bytes": 13507
+  },
+  {
+   "file": "gramoty_грамота_novgorod_1049.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/1049/",
+   "sha256": "eab5c0a15bbe07acf010715ebfd621523c5b4162d08d470104faa0a792cd764e",
+   "bytes": 13446
+  },
+  {
+   "file": "gramoty_грамота_novgorod_1050.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/1050/",
+   "sha256": "caeed9c987b0afffd60136949f1fb63524b5e6753cec5f412eb47a34f514d1a3",
+   "bytes": 14853
+  },
+  {
+   "file": "gramoty_грамота_novgorod_1056.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/1056/",
+   "sha256": "a3e4216ef69afbdecd585c305c2e0801bd4c0e729a175ddbe6ba51f642fd6dc5",
+   "bytes": 14999
+  },
+  {
+   "file": "gramoty_грамота_novgorod_109.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/109/",
+   "sha256": "e056b89b4bd36836cede3ff79d40cb8d64d8af182055dbc3dc82d4b4127170c2",
+   "bytes": 18467
+  },
+  {
+   "file": "gramoty_грамота_novgorod_120.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/120/",
+   "sha256": "287aa3014eeed0005ff84ca95fa2248724b5a3514960c367c562aabf96ac1c6a",
+   "bytes": 15120
+  },
+  {
+   "file": "gramoty_грамота_novgorod_121.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/121/",
+   "sha256": "4935402b18ad4dc60f1400da0de6496286faa07d4c6d56705b51f2c665c48429",
+   "bytes": 17921
+  },
+  {
+   "file": "gramoty_грамота_novgorod_123.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/123/",
+   "sha256": "3930310b62e20abbe8054fb3980e5930f16198d7a089c1f331ec38f0c8aad00b",
+   "bytes": 14727
+  },
+  {
+   "file": "gramoty_грамота_novgorod_181.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/181/",
+   "sha256": "e0b26bc4559dfa1ad340aa74f11ae461c2b3b416f67cc19ef995498c1082399c",
+   "bytes": 15397
+  },
+  {
+   "file": "gramoty_грамота_novgorod_238.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/238/",
+   "sha256": "b1fdd836f2eba74b8d6e5068d15b3381365be3881274e516512b71507f8e73d5",
+   "bytes": 15383
+  },
+  {
+   "file": "gramoty_грамота_novgorod_241.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/241/",
+   "sha256": "8b0cd9e89f8950ee39d0c3209c8785a3eb2cc71ab839076345298dd4e8c2eaea",
+   "bytes": 16805
+  },
+  {
+   "file": "gramoty_грамота_novgorod_245.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/245/",
+   "sha256": "ad53cee60e3f7dffa37461901a1455a368e1e79a10f6e820c9f4adc19941ef41",
+   "bytes": 15586
+  },
+  {
+   "file": "gramoty_грамота_novgorod_246.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/246/",
+   "sha256": "656717b65d68af972d23fb9603a5094264dbeaf8b4cca30aba7e598e3feddb0a",
+   "bytes": 17612
+  },
+  {
+   "file": "gramoty_грамота_novgorod_247.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/247/",
+   "sha256": "2d7480eaae6e824f67e01bb541db54663d5963c924f002d7a8b30a533c7b4395",
+   "bytes": 17499
+  },
+  {
+   "file": "gramoty_грамота_novgorod_423.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/423/",
+   "sha256": "bc6c48c0c21c47cdd93c18d6cc79f4a9c2f122d98286f296c30f465f6f3c44d4",
+   "bytes": 13089
+  },
+  {
+   "file": "gramoty_грамота_novgorod_424.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/424/",
+   "sha256": "d18e130d68b6b54a000a29cd467074cf897173f2182f6642523690a4b11b05fa",
+   "bytes": 16970
+  },
+  {
+   "file": "gramoty_грамота_novgorod_425.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/425/",
+   "sha256": "af399ef61a6c036603aa6ee8cfdaf78623afe866bf82a931beffe2b6d60bfeab",
+   "bytes": 13074
+  },
+  {
+   "file": "gramoty_грамота_novgorod_426.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/426/",
+   "sha256": "66d79d930a5567e32d96d73bd50f9252547e142f44d4f2c82baa22b99b7a6a11",
+   "bytes": 14767
+  },
+  {
+   "file": "gramoty_грамота_novgorod_427.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/427/",
+   "sha256": "ef074c9dc235bafbbc528a361f4095fe202966c7dd4630f602fd2ac7d9fa8725",
+   "bytes": 15233
+  },
+  {
+   "file": "gramoty_грамота_novgorod_428.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/428/",
+   "sha256": "a6de715df42141753623a35ede86273d2c85eb25da10cdc7ec23831758cfae96",
+   "bytes": 14873
+  },
+  {
+   "file": "gramoty_грамота_novgorod_434.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/434/",
+   "sha256": "12c8a99edfd60cc40516bb855cae6fa60f16cae9140d791abad6393e60468358",
+   "bytes": 14257
+  },
+  {
+   "file": "gramoty_грамота_novgorod_435.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/435/",
+   "sha256": "c01373c8d7a282cabdb7d79278cc8498c0298227d9c2280dba9756b8e1757521",
+   "bytes": 13914
+  },
+  {
+   "file": "gramoty_грамота_novgorod_525.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/525/",
+   "sha256": "7f45a1a856267a3f42363172a5d0ece4f751a37445be94db688a05548071899d",
+   "bytes": 14328
+  },
+  {
+   "file": "gramoty_грамота_novgorod_526.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/526/",
+   "sha256": "8aeec0c8533e7e9cafe27420fc0cb00d4f7024b876748d3267da148e23171e9c",
+   "bytes": 18783
+  },
+  {
+   "file": "gramoty_грамота_novgorod_527.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/527/",
+   "sha256": "02a88813bd54748552ff45384dfca2a312d26b7026d78c7bb07f38ed140800f7",
+   "bytes": 14671
+  },
+  {
+   "file": "gramoty_грамота_novgorod_566.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/566/",
+   "sha256": "e5c69de898baeeb7ebda1af2025c487eee33508cffe3aab79b80da93614566ea",
+   "bytes": 15165
+  },
+  {
+   "file": "gramoty_грамота_novgorod_586.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/586/",
+   "sha256": "be87f437ba283c7b98c3f6ad986433ff74782457ca5026526395db9dfcab0501",
+   "bytes": 15664
+  },
+  {
+   "file": "gramoty_грамота_novgorod_590.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/590/",
+   "sha256": "ff2202280c98d67f5c4717e9c8f6ad67f5114c804889611796bc5d103d16f281",
+   "bytes": 13523
+  },
+  {
+   "file": "gramoty_грамота_novgorod_591.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/591/",
+   "sha256": "fd267bc45b84c3b67a08acb35079ef062a39be29897408bcba406b2f26425fa8",
+   "bytes": 13285
+  },
+  {
+   "file": "gramoty_грамота_novgorod_593.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/593/",
+   "sha256": "472f2e23e41580afb49b02520b3add181c778808105432d9be295f793af71023",
+   "bytes": 14835
+  },
+  {
+   "file": "gramoty_грамота_novgorod_605.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/605/",
+   "sha256": "6ca3eabb4b59fe5beb5206948ac3291ba2adf9eada02320887ac6ef028cdc9a9",
+   "bytes": 19763
+  },
+  {
+   "file": "gramoty_грамота_novgorod_607_562.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/607/562/",
+   "sha256": "a3168183122535416cb60d8a86a8426f067885a0a40c514ad8a5bd67d1904f28",
+   "bytes": 17140
+  },
+  {
+   "file": "gramoty_грамота_novgorod_613.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/613/",
+   "sha256": "38d5770503c891482f447a0cf6ab47ca6362427895e82fd4de5bf75db53922af",
+   "bytes": 15480
+  },
+  {
+   "file": "gramoty_грамота_novgorod_644.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/644/",
+   "sha256": "299613f1dcf3609a061f6552100ecc2cc41a8a908d39bec7e47dc6fd164017bc",
+   "bytes": 16855
+  },
+  {
+   "file": "gramoty_грамота_novgorod_733.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/733/",
+   "sha256": "66aa1e7d4128b892396f566a10301748ab255dfc0f29a03bde1d84dac59dcece",
+   "bytes": 14073
+  },
+  {
+   "file": "gramoty_грамота_novgorod_736.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/736/",
+   "sha256": "24e6f53cf5eed391345bd40ecb863b76a861066c760212a12155ffb00fd9fab5",
+   "bytes": 19316
+  },
+  {
+   "file": "gramoty_грамота_novgorod_742.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/742/",
+   "sha256": "1210822b1b08837e7ab1f8ba40a2321695b746095677c215361f8aaa01298b35",
+   "bytes": 15397
+  },
+  {
+   "file": "gramoty_грамота_novgorod_745.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/745/",
+   "sha256": "0df7f4e7aea4e051e1b6b214fe971c7f338990b04dba8e544e9b0352a33a75d1",
+   "bytes": 16409
+  },
+  {
+   "file": "gramoty_грамота_novgorod_752.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/752/",
+   "sha256": "539788493059be19a1a5fb64693f408c8d6bd6f08f9ba19e24af63542e13946d",
+   "bytes": 18800
+  },
+  {
+   "file": "gramoty_грамота_novgorod_753.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/753/",
+   "sha256": "29024a60ed66bf62aa69820568fe76e3a2a2a676c9adec022350784fcb0d145c",
+   "bytes": 14983
+  },
+  {
+   "file": "gramoty_грамота_novgorod_789.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/789/",
+   "sha256": "05167bd05264616ba98634cea78563c0d6f48b3ca2a96f168c2c5e8871537532",
+   "bytes": 15825
+  },
+  {
+   "file": "gramoty_грамота_novgorod_83.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/83/",
+   "sha256": "b2a7ba0e6a1f721174f56aef2750b06e2c6a3f8bd767a2e2743ddce7b52732e9",
+   "bytes": 13305
+  },
+  {
+   "file": "gramoty_грамота_novgorod_862.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/862/",
+   "sha256": "4029c6932813578440bd8f5a5ef708b69af1c3436a3b2cd5a3f08de15df15d39",
+   "bytes": 13460
+  },
+  {
+   "file": "gramoty_грамота_novgorod_878.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/878/",
+   "sha256": "f4b566593becaeeb13508e5a99e7b9a81f0cf9e87ae872c78e065936eb141b9e",
+   "bytes": 15002
+  },
+  {
+   "file": "gramoty_грамота_novgorod_886.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/886/",
+   "sha256": "5634ea7949ae46697b7fd3f73d686fe00f3329c7c74a106c0fa72c6225dd5b4a",
+   "bytes": 16007
+  },
+  {
+   "file": "gramoty_грамота_novgorod_89.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/89/",
+   "sha256": "bce1603070ce0ce68a883af0988f457c517aee9d1e3cc324ad51a6c610b7b9fc",
+   "bytes": 14110
+  },
+  {
+   "file": "gramoty_грамота_novgorod_90.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/90/",
+   "sha256": "0d06ca0b937269e8a5b7678f325f9ba73eee841b5e47d31c6aa5e9e58d287ae6",
+   "bytes": 13507
+  },
+  {
+   "file": "gramoty_грамота_novgorod_901.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/901/",
+   "sha256": "4ba30bf284455e0593e72ef3d4755d0e18a8ae1ecbaea800ff5ff91abe1636cf",
+   "bytes": 15813
+  },
+  {
+   "file": "gramoty_грамота_novgorod_902.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/902/",
+   "sha256": "a9cf1fed75b08f4b1a7f1df971ca85f84cadf55399512bbcfa4a2dd097dba793",
+   "bytes": 15757
+  },
+  {
+   "file": "gramoty_грамота_novgorod_903.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/903/",
+   "sha256": "fac385560e12c6c18603cb6f2889c5e4c0e4adaf11a34cebbb3a3d80c0dff28a",
+   "bytes": 15022
+  },
+  {
+   "file": "gramoty_грамота_novgorod_904.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/904/",
+   "sha256": "b39992e082558d02eab8f2a04c611ff151faa43378c6badc8244407506f65a9a",
+   "bytes": 16225
+  },
+  {
+   "file": "gramoty_грамота_novgorod_905.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/905/",
+   "sha256": "4737882ac3ca3aab7b121b958fa30b27086be0061ddf96afa0f95bea2d99ea5b",
+   "bytes": 14450
+  },
+  {
+   "file": "gramoty_грамота_novgorod_906.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/906/",
+   "sha256": "d75becb6bedacb43a5523433398f1bdb0a0a615df6f0f73d8625b7c6944e1129",
+   "bytes": 15276
+  },
+  {
+   "file": "gramoty_грамота_novgorod_907.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/907/",
+   "sha256": "ee42408207fceab40fdbf89bfab47f09e12cadb97ec6bd9d59b25e07923fe783",
+   "bytes": 20179
+  },
+  {
+   "file": "gramoty_грамота_novgorod_908.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/908/",
+   "sha256": "c1cb7544946ef3e73c34cd25f7e668adf23e043b0bd5a320f9be69fdc3cdda10",
+   "bytes": 15027
+  },
+  {
+   "file": "gramoty_грамота_novgorod_909.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/909/",
+   "sha256": "9669ac81b89a584165239cb985b4c518a34f241441ca07d92894e4029d4a85c6",
+   "bytes": 13761
+  },
+  {
+   "file": "gramoty_грамота_novgorod_910.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/910/",
+   "sha256": "051b3ff4e7bbf4c4cccccd388b6d552a98cf6319a52465ec12806d0187d8495b",
+   "bytes": 15187
+  },
+  {
+   "file": "gramoty_грамота_novgorod_911.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/911/",
+   "sha256": "e1010fc3a3cf2073352f843f33cc5663c0515258ea8ca2735bd09da171b42927",
+   "bytes": 15588
+  },
+  {
+   "file": "gramoty_грамота_novgorod_912.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/912/",
+   "sha256": "683720c86da6cdfc15f69df7455da53ccf07f10db81cf17fb4184b2325e5ca6b",
+   "bytes": 13841
+  },
+  {
+   "file": "gramoty_грамота_novgorod_913.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/913/",
+   "sha256": "dd4b09b4e05d0569f4b284a249b9ba196ef058f21fe2cee4305c1371513dd8a4",
+   "bytes": 15745
+  },
+  {
+   "file": "gramoty_грамота_novgorod_914.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/914/",
+   "sha256": "bd13faf302ee76bdce0f7eb2e2a5c20d4f57bd0f95650bcf1b3f6ab694f76785",
+   "bytes": 15160
+  },
+  {
+   "file": "gramoty_грамота_novgorod_915.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/915/",
+   "sha256": "c7395cb4817d2ed34af6157c82c3b50445a5ccbdb4e590abc863840dd2baf529",
+   "bytes": 15148
+  },
+  {
+   "file": "gramoty_грамота_novgorod_915i.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/915i/",
+   "sha256": "0fdf9848fa86df2eabc08607c773bacee74926ae315ea9abc6661b4b0e5850ec",
+   "bytes": 17430
+  },
+  {
+   "file": "gramoty_грамота_novgorod_950.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/950/",
+   "sha256": "679068d97497e46ddc56cd007978584abc8d4ca2a68c68da6d87a7287a82f853",
+   "bytes": 20057
+  },
+  {
+   "file": "gramoty_грамота_novgorod_957.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/957/",
+   "sha256": "16f119109526f71056170cf4f7c19562b4c3865b1948024558d140fe4cddc12c",
+   "bytes": 14013
+  },
+  {
+   "file": "gramoty_грамота_novgorod_958.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/958/",
+   "sha256": "eb5899d21e087e54bbac3446b4009f07a72be2eac3e841cb195829a2333ce650",
+   "bytes": 14165
+  },
+  {
+   "file": "gramoty_грамота_novgorod_959.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/959/",
+   "sha256": "077d53b40d99ae59328b5b8ce86dca2803e95d7f1d72b716257380e8360cb9de",
+   "bytes": 14040
+  },
+  {
+   "file": "gramoty_грамота_novgorod_lead1.html",
+   "url": "https://gramoty.ru/birchbark/document/show/novgorod/lead1/",
+   "sha256": "958bfe751bc0b2c62d287955d043ac81af7b72aff05c001161d5428cf02c98af",
+   "bytes": 15773
+  },
+  {
+   "file": "gramoty_грамота_staraya-russa_13.html",
+   "url": "https://gramoty.ru/birchbark/document/show/staraya-russa/13/",
+   "sha256": "abdeb857f2b3dabf05851b33ffdd63a4abcb16785c80cc58eb6f2ab2dfba9d11",
+   "bytes": 13792
+  },
+  {
+   "file": "gramoty_грамота_torzhok_1.html",
+   "url": "https://gramoty.ru/birchbark/document/show/torzhok/1/",
+   "sha256": "34231070db5bcb33c658b1ca571ada3cfcae613d0d0cde469a3695d66f828738",
+   "bytes": 12974
+  }
+ ]
+}
